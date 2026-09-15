@@ -31,12 +31,17 @@ For each venue:
   name + city to check current status (recent reviews/mentions, a maps
   listing explicitly marked closed, or confirmation it's still running).
 
-Classify each venue as one of:
-- **active** — confirmed still operating
-- **likely-closed** — clear signal it's gone (explicit closure notice, dead
+Classify each venue as one of only two buckets — the user doesn't want a
+third "uncertain" pile to triage:
+- **likely-closed** — a clear signal it's gone (explicit closure notice, dead
   domain with no replacement, multiple independent sources agreeing)
-- **uncertain** — no clear signal either way (site unreachable but no
-  explicit closure evidence, or nothing findable online to check against)
+- **active** — everything else, including ambiguous cases (site unreachable
+  but no explicit closure evidence, nothing findable online, a
+  sub-venue/corner name that can't be pinned to a specific business). Give
+  the venue the benefit of the doubt rather than flagging it as a separate
+  category — if something in this bucket is still worth a human glance (e.g.
+  a real but weak signal), fold that nuance into its one-line note instead of
+  a special status.
 
 ## 3. Never hand-edit generated-listings.ts
 
@@ -58,11 +63,8 @@ etc. if that date's report already exists), grouped by classification:
 ## Likely closed (N)
 - **<name>** (<slug>, <city>, <country>) — <what you found + source/URL>
 
-## Uncertain (N)
-- **<name>** (<slug>, <city>, <country>) — <what you checked, why inconclusive>
-
 ## Active (N)
-- <name> (<slug>) — confirmed via <source>
+- <name> (<slug>) — confirmed via <source>, or a brief note if the signal was weak/ambiguous
 ```
 
 ## 5. Report back
