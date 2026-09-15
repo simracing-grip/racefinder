@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!meta) return {};
   return {
     title: meta.plural,
-    description: `Browse ${meta.plural.toLowerCase()} across Europe.`,
+    description: `Browse ${meta.plural.toLowerCase()}${meta.global ? " worldwide" : " across Europe"}.`,
   };
 }
 
@@ -46,7 +46,8 @@ export default async function CategoryPage({
     <div className="mx-auto max-w-6xl px-4 py-8">
       <h1 className="mb-1 text-2xl font-bold">{meta.plural}</h1>
       <p className="mb-6 text-gray-500">
-        {listings.length} location{listings.length === 1 ? "" : "s"} across Europe
+        {listings.length} location{listings.length === 1 ? "" : "s"}
+        {meta.global ? " worldwide" : " across Europe"}
       </p>
 
       <section className="mb-6">

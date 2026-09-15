@@ -1122,7 +1122,8 @@ export const generatedListings: Listing[] = [
     "slug": "red-bull-ring",
     "name": "Red Bull Ring",
     "categories": [
-      "track_day"
+      "track_day",
+      "f1"
     ],
     "status": "published",
     "country": "Austria",
@@ -1137,7 +1138,8 @@ export const generatedListings: Listing[] = [
     "slug": "hungaroring",
     "name": "Hungaroring",
     "categories": [
-      "track_day"
+      "track_day",
+      "f1"
     ],
     "status": "published",
     "country": "Hungary",
@@ -1206,5 +1208,320 @@ export const generatedListings: Listing[] = [
     "address": "Slovakia Ring, 1435, Orechová Potôň, District of Dunajská Streda, Region of Trnava, 930 16, Slovakia",
     "lat": 48.054621,
     "lng": 17.564862
+  },
+  {
+    "id": "76",
+    "slug": "jeddah-corniche-circuit",
+    "name": "Jeddah Corniche Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "city": "Jeddah",
+    "address": "Al-Shatee, Jeddah, Governorate of Jidda, Makkah Region, 23612, Saudi Arabia",
+    "lat": 21.632953,
+    "lng": 39.10352
+  },
+  {
+    "id": "77",
+    "slug": "shanghai-international-circuit",
+    "name": "Shanghai International Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Jiading District",
+    "address": "Baiyin Road, 菊园街道, Malu, Jiading District, Shanghai, 201821, China",
+    "lat": 31.339979,
+    "lng": 121.219598
+  },
+  {
+    "id": "78",
+    "slug": "miami-international-autodrome",
+    "name": "Miami International Autodrome",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Miami Gardens",
+    "address": "Hard Rock Stadium, 347, Don Shula Drive, Lake Lucerne, Miami Gardens, Miami-Dade County, Florida, 33056, United States",
+    "lat": 25.957479,
+    "lng": -80.237856
+  },
+  {
+    "id": "79",
+    "slug": "circuit-de-monaco",
+    "name": "Circuit de Monaco",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Monaco",
+    "countryCode": "MC",
+    "city": "Monaco",
+    "address": "Cipriani Monte Carlo, 1, Avenue Princesse Grace, Monte-Carlo, Monaco, 98000, Monaco",
+    "lat": 43.741041,
+    "lng": 7.4299
+  },
+  {
+    "id": "80",
+    "slug": "circuit-de-barcelona-catalunya",
+    "name": "Circuit de Barcelona-Catalunya",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Montmeló",
+    "address": "Circuit de Barcelona-Catalunya, BV-5003, Can Tabola, Montmeló, Vallès Oriental, Barcelona, Catalonia, 08170, Spain",
+    "lat": 41.570008,
+    "lng": 2.25881
+  },
+  {
+    "id": "81",
+    "slug": "circuit-gilles-villeneuve",
+    "name": "Circuit Gilles Villeneuve",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Canada",
+    "countryCode": "CA",
+    "city": "Montreal",
+    "address": "Circuit Gilles-Villeneuve, Chemin des Floralies, Ville-Marie, Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, H3C 4W7, Canada",
+    "lat": 45.500409,
+    "lng": -73.527561
+  },
+  {
+    "id": "82",
+    "slug": "silverstone-circuit",
+    "name": "Silverstone Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "England",
+    "address": "Hilton Garden Inn Silverstone, Dadford Road, Lillingstone Dayrell with Luffield Abbey, Buckinghamshire, England, NN12 8TL, United Kingdom",
+    "lat": 52.069617,
+    "lng": -1.022701
+  },
+  {
+    "id": "83",
+    "slug": "circuit-de-spa-francorchamps",
+    "name": "Circuit de Spa-Francorchamps",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Stavelot",
+    "address": "Circuit de Spa-Francorchamps, Tunnel de Ster, Francorchamps, Stavelot, Verviers, Liège, Wallonia, 4970, Belgium",
+    "lat": 50.436933,
+    "lng": 5.970133
+  },
+  {
+    "id": "84",
+    "slug": "circuit-zandvoort",
+    "name": "Circuit Zandvoort",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Zandvoort",
+    "address": "Racesquare Circuit Zandvoort, Laarwall, Zandvoort, North Holland, Netherlands, 2041 TZ, Netherlands",
+    "lat": 52.389471,
+    "lng": 4.542885
+  },
+  {
+    "id": "85",
+    "slug": "autodromo-nazionale-monza",
+    "name": "Autodromo Nazionale Monza",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Monza",
+    "address": "Autodromo Nazionale di Monza, 5, Viale Vedano, Parco, Monza, Monza and Brianza, Lombardy, 20900, Italy",
+    "lat": 45.619106,
+    "lng": 9.282641
+  },
+  {
+    "id": "86",
+    "slug": "baku-city-circuit",
+    "name": "Baku City Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Azerbaijan",
+    "countryCode": "AZ",
+    "city": "Baku",
+    "address": "Neftchilar Avenue, Nasimi Raion, Baku, 1010, Azerbaijan",
+    "lat": 40.372926,
+    "lng": 49.852972
+  },
+  {
+    "id": "87",
+    "slug": "marina-bay-street-circuit",
+    "name": "Marina Bay Street Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "city": "Singapore",
+    "address": "Marina Promenade, Marina Centre, Civic District, Downtown Core, Central Region, Singapore, 437435, Singapore",
+    "lat": 1.291272,
+    "lng": 103.864261
+  },
+  {
+    "id": "88",
+    "slug": "circuit-of-the-americas",
+    "name": "Circuit of the Americas",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Austin",
+    "address": "COTA Short Track, Circuit of the Americas pedestrian path, Austin, Travis County, Texas, 78617, United States",
+    "lat": 30.135631,
+    "lng": -97.63662
+  },
+  {
+    "id": "89",
+    "slug": "autodromo-hermanos-rodriguez",
+    "name": "Autodromo Hermanos Rodriguez",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "city": "Mexico City",
+    "address": "Estadio GNP Seguros, Avenida Río Churubusco, Mexico City, Iztacalco, Mexico City, 08400, Mexico",
+    "lat": 19.405162,
+    "lng": -99.096064
+  },
+  {
+    "id": "90",
+    "slug": "autodromo-jose-carlos-pace",
+    "name": "Autodromo Jose Carlos Pace",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São Paulo",
+    "address": "Autódromo José Carlos Pace, 261, Avenida Senador Teotônio Vilela, Interlagos, São Paulo, Southeast Region, 04801-010, Brazil",
+    "lat": -23.701824,
+    "lng": -46.696916
+  },
+  {
+    "id": "91",
+    "slug": "las-vegas-strip-circuit",
+    "name": "Las Vegas Strip Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Paradise",
+    "address": "Las Vegas Strip Circuit, Lana Avenue, Filipino Town, Paradise, Clark County, Nevada, 89109, United States",
+    "lat": 36.110943,
+    "lng": -115.161766
+  },
+  {
+    "id": "92",
+    "slug": "yas-marina-circuit",
+    "name": "Yas Marina Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Abu Dhabi",
+    "address": "Main Grandstand, Yas Island, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+    "lat": 24.471847,
+    "lng": 54.605802
+  },
+  {
+    "id": "93",
+    "slug": "bahrain-international-circuit",
+    "name": "Bahrain International Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "city": "Sakhir",
+    "address": "Bahrain International Circuit, Sakhir, Bahrain",
+    "lat": 26.0325,
+    "lng": 50.5106
+  },
+  {
+    "id": "94",
+    "slug": "albert-park-circuit",
+    "name": "Albert Park Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Albert Park Circuit, Albert Park, Melbourne, Victoria, Australia",
+    "lat": -37.8497,
+    "lng": 144.968
+  },
+  {
+    "id": "95",
+    "slug": "suzuka-international-racing-course",
+    "name": "Suzuka International Racing Course",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Suzuka",
+    "address": "Suzuka International Racing Course, Suzuka, Mie, Japan",
+    "lat": 34.8431,
+    "lng": 136.541
+  },
+  {
+    "id": "96",
+    "slug": "losail-international-circuit",
+    "name": "Losail International Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "city": "Lusail",
+    "address": "Losail International Circuit, Lusail, Qatar",
+    "lat": 25.49,
+    "lng": 51.4542
   }
 ];

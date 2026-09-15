@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const categorySchema = z.enum(["sim_racing", "track_day", "karting"]);
+export const categorySchema = z.enum(["sim_racing", "track_day", "karting", "f1"]);
 
 export const simRacingDetailsSchema = z.object({
   simulator_count: z.number().optional(),

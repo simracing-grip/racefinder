@@ -17,6 +17,9 @@ export default function SiteHeader() {
           <Link href="/category/karting" className="hover:text-gray-900">
             Karting
           </Link>
+          <Link href="/category/f1" className="hover:text-gray-900">
+            F1
+          </Link>
           <Link href="/faq" className="hover:text-gray-900">
             FAQ
           </Link>

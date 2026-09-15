@@ -1,9 +1,13 @@
-export type Category = "sim_racing" | "track_day" | "karting";
+export type Category = "sim_racing" | "track_day" | "karting" | "f1";
 
-export const CATEGORIES: { value: Category; label: string; plural: string }[] = [
+export const CATEGORIES: { value: Category; label: string; plural: string; global?: boolean }[] = [
   { value: "sim_racing", label: "Sim Racing", plural: "Sim Racing Centers" },
   { value: "track_day", label: "Track Day", plural: "Track Day Circuits" },
   { value: "karting", label: "Karting", plural: "Karting Tracks" },
+  // Unlike the other categories (Europe-only for now), F1 covers every
+  // continent the calendar races on — there's no "Europe first" phase-in
+  // that makes sense for a fixed list of ~24 circuits.
+  { value: "f1", label: "F1", plural: "Formula 1 Circuits", global: true },
 ];
 
 export type IndoorOutdoor = "indoor" | "outdoor" | "both";

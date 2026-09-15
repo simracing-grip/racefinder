@@ -445,6 +445,67 @@ async function processAddressListFile(filePath: string, fileLabel: string): Prom
   return output;
 }
 
+/**
+ * Handles an "f1 circuits" file: single Title column, one famous circuit per
+ * row (ideally "Official name, City, Country" for unambiguous geocoding).
+ * Every row is tagged category "f1" and geocoded globally — unlike every
+ * other source here, deliberately NOT bounded to Europe, since F1 races on
+ * every inhabited continent.
+ */
+async function processF1ListFile(filePath: string, fileLabel: string): Promise<ReviewRow[]> {
+  const content = readFileSync(filePath, "utf-8");
+  const rows = parse(content, { columns: true, skip_empty_lines: true }) as { Title?: string }[];
+
+  const output: ReviewRow[] = [];
+  const skipped: string[] = [];
+  let i = 0;
+  for (const row of rows) {
+    i++;
+    const title = row.Title?.trim();
+    if (!title) continue;
+    const displayName = title.split(",")[0].trim();
+
+    process.stdout.write(`Resolving ${i}/${rows.length} from ${fileLabel}: ${displayName}...`);
+    const coords = await forwardGeocode(title);
+    await sleep(1100);
+    if (!coords) {
+      console.log(" could not geocode, skipping.");
+      skipped.push(title);
+      continue;
+    }
+
+    const geo = await reverseGeocode(coords.lat, coords.lng);
+    await sleep(1100);
+    console.log(` ${geo.city || "?"}, ${geo.country || "?"}`);
+
+    output.push({
+      name: displayName,
+      slug: slugify(displayName, { lower: true, strict: true }),
+      categories: "f1",
+      country: geo.country,
+      countryCode: geo.countryCode,
+      city: geo.city,
+      address: geo.address,
+      lat: coords.lat.toFixed(6),
+      lng: coords.lng.toFixed(6),
+      indoorOutdoor: "",
+      websiteUrl: "",
+      phone: "",
+      description: "",
+      googleMapsUrl: "",
+      originalNote: "Formula 1 circuit",
+      needsReview: "",
+    });
+  }
+
+  if (skipped.length > 0) {
+    console.log(`\n${skipped.length} circuit(s) from ${fileLabel} could not be geocoded and were skipped:`);
+    for (const name of skipped) console.log(`  - ${name}`);
+  }
+
+  return output;
+}
+
 async function main() {
   if (!existsSync(RAW_DIR)) {
     mkdirSync(RAW_DIR, { recursive: true });
@@ -478,6 +539,13 @@ async function main() {
     const filePath = path.join(RAW_DIR, file);
     const content = readFileSync(filePath, "utf-8");
     const header = content.slice(0, 200);
+
+    if (/^f1-/i.test(file)) {
+      const f1Rows = await processF1ListFile(filePath, file);
+      console.log(`Read ${f1Rows.length} usable place(s) from ${file}`);
+      output.push(...f1Rows);
+      continue;
+    }
 
     if (/(^|,)Address(,|$)/m.test(header)) {
       const addressRows = await processAddressListFile(filePath, file);
