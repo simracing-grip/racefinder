@@ -31,9 +31,51 @@ categorized. Two steps:
 3. **Next step** → delivery "Send download link via email", frequency
    "Export once", file type `.zip` → **Create export**.
 4. You'll get an email with a download link, usually within minutes.
-5. Unzip it and look under `Takeout/Maps/` — each Google Maps list exports as
-   its own CSV with `Title`, `Note`, `URL` columns.
-6. Copy the CSV file(s) into `data/import/raw/` in this project.
+5. Unzip it and look under `Takeout/Maps/`:
+   - Each **named list** (e.g. a custom "Track days" or "Karting" list)
+     exports as its own CSV with `Title`, `Note`, `URL` columns.
+   - The default **"Saved places"** list (things you bookmarked without
+     adding to a named list) exports as `Saved Places.json` — a GeoJSON
+     file, not a CSV.
+6. Copy the CSV file(s) and/or `Saved Places.json` into `data/import/raw/`
+   in this project. The parse step (below) reads both formats from that
+   folder in the same pass.
+
+> `Saved Places.json` entries don't always carry a name or resolved
+> coordinates — Google sometimes only records the `google_maps_url` you
+> saved. The parser falls back to that URL's place name / address and, if
+> coordinates are missing, forward-geocodes the address via Nominatim. Rows
+> it can't resolve at all are skipped with a console warning — check those
+> manually. Because this list isn't curated the way a named list is, expect
+> to weed out non-motorsport pins in `review.csv` before loading.
+
+### Alternative: importing from a shared Google Maps list
+
+If your places live in a public/shared Google Maps list (Save → a list →
+Share) rather than your private Takeout export, there's no clean API to pull
+it programmatically — Google Maps' list pages don't expose per-item
+coordinates in a scrapable way. The practical approach: read the list's name
++ venue-type text (visible in the shared-list page) and forward-geocode each
+place by name instead of relying on a URL.
+
+Create `data/import/raw/<any-name>.csv` with these columns:
+
+```
+Title,VenueType,Rating,ReviewCount
+Nürburgring,Car racing venue,4.8,46864
+```
+
+`VenueType` is Google's own category label for the place (e.g. "Go-karting
+venue", "Car racing venue", "Racecourse") — it's mapped straight to
+karting/track_day, which is more reliable than guessing from the name alone.
+Anything without a clean mapping (a "Sports complex", "Club", "Training
+center", etc., or no venue type at all) still gets imported but flagged
+`needsReview=yes` in `review.csv` so you decide whether to keep, recategorize,
+or drop it. Because there's no per-place URL here, coordinates come from
+geocoding the name itself (Nominatim) — accurate for well-known/uniquely
+named venues, worth double-checking for generic ones (a bare "Monza" could in
+principle resolve to the town rather than the kart track), so review the
+resulting `lat`/`lng`/`address` columns too.
 
 ### 2. Parse, enrich, and review
 
@@ -50,6 +92,9 @@ a category (sim_racing / track_day / karting) from the place name. It writes
 20-30 minutes for ~62 rows, since these are places you already know):
 - Confirm/fix the `categories` column — pipe-separated if a venue is more than
   one (e.g. `track_day|karting`).
+- Look at every row with `needsReview=yes` first — these are either
+  uncategorized or a venue type (sports complex, club, training center, kids'
+  amusement center, etc.) that doesn't map cleanly to one of the 3 categories.
 - Fill in `websiteUrl` / `phone` / `description` where you know them.
 - Delete any rows that shouldn't be published.
 

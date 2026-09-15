@@ -15,6 +15,7 @@ import { parse } from "csv-parse/sync";
 import "dotenv/config";
 import { listingSchema } from "../../lib/validation/listing";
 import type { Category, Listing } from "../../lib/types";
+import { countryNameEn } from "../../lib/countryNames";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
 const OUT_FILE = path.join(process.cwd(), "data", "generated-listings.ts");
@@ -48,7 +49,7 @@ function toListing(row: ReviewRow, id: string): Listing | null {
     name: row.name,
     categories,
     status: "published" as const,
-    country: row.country,
+    country: countryNameEn(row.countryCode, row.country),
     countryCode: row.countryCode || "XX",
     city: row.city,
     address: row.address,

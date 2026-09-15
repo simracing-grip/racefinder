@@ -17,6 +17,9 @@ export default function SiteHeader() {
           <Link href="/category/karting" className="hover:text-gray-900">
             Karting
           </Link>
+          <Link href="/faq" className="hover:text-gray-900">
+            FAQ
+          </Link>
           <Link
             href="/map"
             className="rounded-full bg-gray-900 px-3.5 py-1.5 text-white hover:bg-gray-700"
