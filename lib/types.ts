@@ -42,6 +42,22 @@ export interface ListingDetails {
   karting?: KartingDetails;
 }
 
+// A race-calendar date at a track this directory already lists — e.g. the
+// Belgian Grand Prix at Spa, or a GT World Challenge Europe round at
+// Hungaroring. Kept out of Listing/generated-listings.ts itself (see
+// data/track-events.ts) since it needs far more frequent updates than venue
+// location data and would otherwise get discarded on the next import.
+export type EventSeries = "f1" | "gt3";
+
+export interface TrackEvent {
+  series: EventSeries;
+  name: string;
+  startDate: string; // ISO date, e.g. "2026-07-26"
+  endDate?: string; // ISO date; omit for a single-day event
+  season: number;
+  sourceUrl?: string;
+}
+
 export interface Listing {
   id: string;
   slug: string;
@@ -64,4 +80,5 @@ export interface Listing {
   trackLengthM?: number;
   details?: ListingDetails;
   featured?: boolean;
+  events?: TrackEvent[];
 }

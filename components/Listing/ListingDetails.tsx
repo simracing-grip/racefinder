@@ -1,4 +1,4 @@
-import type { Listing } from "@/lib/types";
+import type { Listing, TrackEvent } from "@/lib/types";
 import { CATEGORY_LABEL } from "@/lib/categoryMeta";
 
 function DetailRow({ label, value }: { label: string; value: React.ReactNode }) {
@@ -8,6 +8,64 @@ function DetailRow({ label, value }: { label: string; value: React.ReactNode }) 
       <span className="shrink-0 text-gray-500">{label}</span>
       <span className="text-right font-medium text-gray-900">{value}</span>
     </div>
+  );
+}
+
+const EVENT_SERIES_LABEL: Record<TrackEvent["series"], string> = {
+  f1: "F1",
+  gt3: "GT3",
+};
+
+const EVENT_SERIES_BADGE_CLASS: Record<TrackEvent["series"], string> = {
+  f1: "bg-amber-500/15 text-amber-300",
+  gt3: "bg-red-500/15 text-red-300",
+};
+
+function formatEventDate(event: TrackEvent): string {
+  const fmt = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  const start = new Date(event.startDate);
+  if (!event.endDate || event.endDate === event.startDate) {
+    return `${fmt(start)} ${event.season}`;
+  }
+  return `${fmt(start)} – ${fmt(new Date(event.endDate))} ${event.season}`;
+}
+
+function UpcomingEvents({ events }: { events: TrackEvent[] }) {
+  const sorted = [...events].sort((a, b) => a.startDate.localeCompare(b.startDate));
+  return (
+    <>
+      <h3 className="mt-3 mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+        Upcoming Events
+      </h3>
+      <ul className="space-y-1.5">
+        {sorted.map((event, i) => (
+          <li key={i} className="flex items-center justify-between gap-3 text-sm">
+            <span className="flex min-w-0 items-center gap-2">
+              <span
+                className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${EVENT_SERIES_BADGE_CLASS[event.series]}`}
+              >
+                {EVENT_SERIES_LABEL[event.series]}
+              </span>
+              <span className="truncate text-gray-100">
+                {event.sourceUrl ? (
+                  <a
+                    href={event.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    {event.name}
+                  </a>
+                ) : (
+                  event.name
+                )}
+              </span>
+            </span>
+            <span className="shrink-0 text-gray-400">{formatEventDate(event)}</span>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 
@@ -38,6 +96,10 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
         label="Track length"
         value={listing.trackLengthM ? `${listing.trackLengthM.toLocaleString()} m` : undefined}
       />
+
+      {listing.events && listing.events.length > 0 && (
+        <UpcomingEvents events={listing.events} />
+      )}
 
       {listing.details?.sim_racing && (
         <>
