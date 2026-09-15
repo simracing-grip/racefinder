@@ -7,6 +7,12 @@
  *  - additionally upserts into Postgres via Drizzle, if DATABASE_URL is set
  *    (i.e. once a Supabase project exists — see .env.example)
  *
+ * Also merges in data/import/cover-images.csv (slug,coverImageUrl,source) if
+ * present, keyed by slug. That file is separate from review.csv because
+ * `npm run import:parse` regenerates review.csv from scratch on every run —
+ * anything hand-added there would get wiped, so cover photos live in their
+ * own persistent file instead.
+ *
  * Run: npm run import:load
  */
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -18,6 +24,7 @@ import type { Category, Listing } from "../../lib/types";
 import { countryNameEn } from "../../lib/countryNames";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
+const COVER_IMAGES_FILE = path.join(process.cwd(), "data", "import", "cover-images.csv");
 const OUT_FILE = path.join(process.cwd(), "data", "generated-listings.ts");
 
 interface ReviewRow {
@@ -38,7 +45,22 @@ interface ReviewRow {
   originalNote: string;
 }
 
-function toListing(row: ReviewRow, id: string): Listing | null {
+function loadCoverImages(): Map<string, string> {
+  const bySlug = new Map<string, string>();
+  if (!existsSync(COVER_IMAGES_FILE)) return bySlug;
+
+  const content = readFileSync(COVER_IMAGES_FILE, "utf-8");
+  const rows = parse(content, { columns: true, skip_empty_lines: true }) as {
+    slug: string;
+    coverImageUrl: string;
+  }[];
+  for (const row of rows) {
+    if (row.slug && row.coverImageUrl) bySlug.set(row.slug, row.coverImageUrl);
+  }
+  return bySlug;
+}
+
+function toListing(row: ReviewRow, id: string, coverImages: Map<string, string>): Listing | null {
   const categories = row.categories
     .split("|")
     .map((c) => c.trim())
@@ -58,6 +80,7 @@ function toListing(row: ReviewRow, id: string): Listing | null {
     websiteUrl: row.websiteUrl || undefined,
     phone: row.phone || undefined,
     description: row.description || undefined,
+    coverImageUrl: coverImages.get(row.slug) || undefined,
     googleMapsUrl: row.googleMapsUrl || undefined,
     indoorOutdoor: (row.indoorOutdoor || undefined) as Listing["indoorOutdoor"],
   };
@@ -79,10 +102,11 @@ async function main() {
 
   const content = readFileSync(REVIEW_FILE, "utf-8");
   const rows = parse(content, { columns: true, skip_empty_lines: true }) as ReviewRow[];
+  const coverImages = loadCoverImages();
 
   const listings: Listing[] = [];
   rows.forEach((row, index) => {
-    const listing = toListing(row, String(index + 1));
+    const listing = toListing(row, String(index + 1), coverImages);
     if (listing) listings.push(listing);
   });
 
@@ -118,6 +142,7 @@ export const generatedListings: Listing[] = ${JSON.stringify(listings, null, 2)}
           websiteUrl: listing.websiteUrl,
           phone: listing.phone,
           description: listing.description,
+          coverImageUrl: listing.coverImageUrl,
           googleMapsUrl: listing.googleMapsUrl,
           indoorOutdoor: listing.indoorOutdoor,
         })

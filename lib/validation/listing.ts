@@ -47,6 +47,7 @@ export const listingSchema = z.object({
   phone: z.string().optional(),
   email: z.string().email().optional(),
   description: z.string().optional(),
+  coverImageUrl: z.string().url().optional(),
   googleMapsUrl: z.string().url().optional(),
   indoorOutdoor: z.enum(["indoor", "outdoor", "both"]).optional(),
   trackLengthM: z.number().optional(),
