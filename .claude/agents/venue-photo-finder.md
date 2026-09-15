@@ -103,6 +103,6 @@ npm run import:load
 ```
 
 which regenerates `data/generated-listings.ts` and merges in
-`cover-images.csv` by slug, so the "No photo yet" placeholder on
-[components/Listing/ListingCard.tsx](components/Listing/ListingCard.tsx)
+`cover-images.csv` by slug, so the cover-photo placeholder on
+[components/Listing/ListingRow.tsx](components/Listing/ListingRow.tsx)
 picks up the new images.

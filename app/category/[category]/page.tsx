@@ -4,7 +4,7 @@ import { getListings, getCountries } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
 import FilterBar from "@/components/Filters/FilterBar";
-import ListingGrid from "@/components/Listing/ListingGrid";
+import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
 
 export function generateStaticParams() {
@@ -58,7 +58,9 @@ export default async function CategoryPage({
         <FilterBar countries={countries} activeCategory={category as Category} />
       </section>
 
-      <ListingGrid listings={listings} />
+      <section className="mx-auto max-w-3xl">
+        <ListingList listings={listings} />
+      </section>
     </div>
   );
 }

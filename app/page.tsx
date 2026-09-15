@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getListings, getCountries } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import FilterBar from "@/components/Filters/FilterBar";
-import ListingGrid from "@/components/Listing/ListingGrid";
+import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
 
 export default async function HomePage({
@@ -47,11 +47,11 @@ export default async function HomePage({
         <FilterBar countries={countries} />
       </section>
 
-      <section>
+      <section className="mx-auto max-w-3xl">
         <p className="mb-3 text-sm text-gray-500">
-          {listings.length} location{listings.length === 1 ? "" : "s"}
+          {listings.length} location{listings.length === 1 ? "" : "s"} &mdash; click one to expand
         </p>
-        <ListingGrid listings={listings} />
+        <ListingList listings={listings} />
       </section>
     </div>
   );

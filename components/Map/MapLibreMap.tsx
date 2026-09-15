@@ -121,13 +121,10 @@ export default function MapLibreMap({
     mapRef.current = map;
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
-    map.addControl(
-      new maplibregl.AttributionControl({
-        compact: true,
-        customAttribution:
-          '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> © OpenMapTiles © OpenStreetMap contributors',
-      })
-    );
+    // No customAttribution: the style's own sources already carry correct
+    // OpenFreeMap/OpenMapTiles/OSM credit — adding our own string on top of
+    // that just duplicated it.
+    map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
     let popup: maplibregl.Popup | null = null;
 

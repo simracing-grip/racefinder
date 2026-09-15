@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getListings, getCountries } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
-import ListingGrid from "@/components/Listing/ListingGrid";
+import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
 
 export async function generateStaticParams() {
@@ -69,7 +69,9 @@ export default async function CountryPage({
         <FilterBar countries={countries} />
       </section>
 
-      <ListingGrid listings={listings} />
+      <section className="mx-auto max-w-3xl">
+        <ListingList listings={listings} />
+      </section>
     </div>
   );
 }

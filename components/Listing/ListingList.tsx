@@ -1,7 +1,7 @@
 import type { Listing } from "@/lib/types";
-import ListingCard from "./ListingCard";
+import ListingRow from "./ListingRow";
 
-export default function ListingGrid({ listings }: { listings: Listing[] }) {
+export default function ListingList({ listings }: { listings: Listing[] }) {
   if (listings.length === 0) {
     return (
       <div className="rounded-xl border border-dashed border-gray-300 p-10 text-center text-gray-500">
@@ -11,9 +11,9 @@ export default function ListingGrid({ listings }: { listings: Listing[] }) {
   }
 
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-col gap-3">
       {listings.map((listing) => (
-        <ListingCard key={listing.id} listing={listing} />
+        <ListingRow key={listing.id} listing={listing} />
       ))}
     </div>
   );
