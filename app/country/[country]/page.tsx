@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getListings, getCountries } from "@/lib/listings";
+import { getListings, getCountries, getCountryCode } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
+import CountryFlag from "@/components/CountryFlag";
 
 export async function generateStaticParams() {
   const countries = await getCountries();
@@ -49,15 +50,19 @@ export default async function CountryPage({
   const { country: queryCountry } = await searchParams;
   const resolved = queryCountry ?? routeCountry;
 
-  const [listings, countries] = await Promise.all([
+  const [listings, countries, countryCode] = await Promise.all([
     getListings({ country: resolved }),
     getCountries(),
+    getCountryCode(resolved),
   ]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
-      <h1 className="mb-1 text-2xl font-bold">Motorsport venues in {resolved}</h1>
-      <p className="mb-6 text-gray-500">
+      <h1 className="mb-1 flex items-center gap-2 text-2xl font-bold">
+        {countryCode && <CountryFlag countryCode={countryCode} className="text-xl" />}
+        Motorsport venues in {resolved}
+      </h1>
+      <p className="mb-6 text-gray-400">
         {listings.length} location{listings.length === 1 ? "" : "s"}
       </p>
 

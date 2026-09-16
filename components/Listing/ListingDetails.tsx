@@ -4,9 +4,9 @@ import { CATEGORY_LABEL } from "@/lib/categoryMeta";
 function DetailRow({ label, value }: { label: string; value: React.ReactNode }) {
   if (value === undefined || value === null || value === "") return null;
   return (
-    <div className="flex justify-between gap-4 border-b border-gray-100 py-1.5 text-sm last:border-0">
-      <span className="shrink-0 text-gray-500">{label}</span>
-      <span className="text-right font-medium text-gray-900">{value}</span>
+    <div className="flex justify-between gap-4 border-b border-gray-800 py-1.5 text-sm last:border-0">
+      <span className="shrink-0 text-gray-400">{label}</span>
+      <span className="text-right font-medium text-gray-100">{value}</span>
     </div>
   );
 }
@@ -82,7 +82,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
               href={listing.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline"
+              className="text-blue-400 underline"
             >
               Visit site
             </a>

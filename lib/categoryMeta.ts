@@ -15,8 +15,8 @@ export const CATEGORY_COLOR: Record<Category, string> = {
 };
 
 export const CATEGORY_BADGE_CLASS: Record<Category, string> = {
-  sim_racing: "bg-violet-100 text-violet-800",
-  track_day: "bg-red-100 text-red-800",
-  karting: "bg-green-100 text-green-800",
-  f1: "bg-amber-100 text-amber-800",
+  sim_racing: "bg-violet-500/15 text-violet-300",
+  track_day: "bg-red-500/15 text-red-300",
+  karting: "bg-green-500/15 text-green-300",
+  f1: "bg-amber-500/15 text-amber-300",
 };

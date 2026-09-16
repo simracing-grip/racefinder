@@ -35,14 +35,14 @@ export default function FilterBar({
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-3 rounded-xl border border-gray-200 bg-white p-4">
+    <div className="flex flex-wrap items-center gap-3 rounded-xl border border-gray-800 bg-gray-900 p-4">
       <div className="flex flex-wrap gap-2">
         <Link
           href={`/${countryQuery}`}
           className={`rounded-full px-3 py-1.5 text-sm font-medium transition ${
             !activeCategory
-              ? "bg-gray-900 text-white"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+              ? "bg-red-600 text-white"
+              : "bg-gray-800 text-gray-300 hover:bg-gray-700"
           }`}
         >
           All
@@ -53,8 +53,8 @@ export default function FilterBar({
             href={`/category/${c.value}${countryQuery}`}
             className={`rounded-full px-3 py-1.5 text-sm font-medium transition ${
               activeCategory === c.value
-                ? "bg-gray-900 text-white"
-                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                ? "bg-red-600 text-white"
+                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
             }`}
           >
             {c.label}
@@ -63,14 +63,14 @@ export default function FilterBar({
       </div>
 
       <div className="ml-auto flex items-center gap-2">
-        <label htmlFor="country-select" className="text-sm text-gray-500">
+        <label htmlFor="country-select" className="text-sm text-gray-400">
           Country
         </label>
         <select
           id="country-select"
           value={activeCountry ?? ""}
           onChange={(e) => updateCountry(e.target.value || null)}
-          className="rounded-lg border border-gray-200 px-2 py-1.5 text-sm"
+          className="rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
         >
           <option value="">All countries</option>
           {countries.map((country) => (

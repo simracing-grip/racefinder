@@ -22,10 +22,10 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
 // OpenFreeMap: free vector tiles, no API key, no rate limit (donation-funded,
 // explicitly built as a no-signup replacement for Mapbox/MapTiler/CARTO).
-// "positron" mirrors the light, minimal look we had before, now as crisp
-// vector tiles instead of raster images — smoother pan/zoom, sharper at
-// every zoom level. https://openfreemap.org
-const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
+// "dark" matches the site's dark theme, as crisp vector tiles instead of
+// raster images — smoother pan/zoom, sharper at every zoom level.
+// https://openfreemap.org
+const STYLE_URL = "https://tiles.openfreemap.org/styles/dark";
 
 const CATEGORY_ORDER: Category[] = ["sim_racing", "track_day", "karting", "f1"];
 
@@ -82,8 +82,8 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
   return `
     <div class="w-56">
       <div class="flex flex-wrap gap-1">${badges}</div>
-      <div class="mt-1.5 text-[15px] font-semibold leading-snug text-gray-900">${escapeHtml(String(props.name))}</div>
-      <div class="text-xs text-gray-500">${escapeHtml(String(props.city))}, ${escapeHtml(String(props.country))}</div>
+      <div class="mt-1.5 text-[15px] font-semibold leading-snug text-gray-100">${escapeHtml(String(props.name))}</div>
+      <div class="text-xs text-gray-400">${escapeHtml(String(props.city))}, ${escapeHtml(String(props.country))}</div>
       <a class="mt-2.5 inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
         View details &rarr;
       </a>
@@ -116,6 +116,13 @@ export default function MapLibreMap({
       style: STYLE_URL,
       center: [10, 30],
       zoom: 1.5,
+      // Without this, MapLibre tiles the world side-by-side to fill wide
+      // viewports/low zooms, so at a glance you see two Americas, two
+      // Europes, etc. Disabling world-copy rendering keeps exactly one
+      // copy of the globe on screen at any zoom or aspect ratio, instead
+      // of relying on a "zoomed in enough" starting zoom that breaks again
+      // on a wider window.
+      renderWorldCopies: false,
       attributionControl: false,
     });
     mapRef.current = map;
@@ -145,10 +152,10 @@ export default function MapLibreMap({
         source: "listings",
         filter: ["has", "point_count"],
         paint: {
-          "circle-color": "#111827",
+          "circle-color": "#f3f4f6",
           "circle-radius": ["step", ["get", "point_count"], 17, 10, 20, 25, 24],
           "circle-stroke-width": 3,
-          "circle-stroke-color": "#ffffff",
+          "circle-stroke-color": "#111827",
         },
       });
 
@@ -162,7 +169,7 @@ export default function MapLibreMap({
           "text-size": 13,
           "text-font": ["Noto Sans Bold"],
         },
-        paint: { "text-color": "#ffffff" },
+        paint: { "text-color": "#111827" },
       });
 
       map.addLayer({
@@ -219,14 +226,19 @@ export default function MapLibreMap({
   return (
     <div
       style={{ height }}
-      className="w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm ring-1 ring-black/5"
+      className="w-full overflow-hidden rounded-2xl border border-gray-800 shadow-sm ring-1 ring-white/5"
     >
       <div ref={containerRef} className="h-full w-full" />
       <style jsx global>{`
         .maplibregl-popup-content {
           border-radius: 0.75rem;
           padding: 12px 14px;
-          box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+          background: #1f2937;
+          box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+        }
+        .maplibregl-popup-tip {
+          border-top-color: #1f2937 !important;
+          border-bottom-color: #1f2937 !important;
         }
         .maplibregl-popup-close-button {
           font-size: 18px;
@@ -236,7 +248,17 @@ export default function MapLibreMap({
         .maplibregl-ctrl-group {
           border-radius: 0.75rem !important;
           overflow: hidden;
-          box-shadow: 0 1px 3px rgb(0 0 0 / 0.15) !important;
+          background: #1f2937 !important;
+          box-shadow: 0 1px 3px rgb(0 0 0 / 0.4) !important;
+        }
+        .maplibregl-ctrl-group button {
+          filter: invert(1) brightness(1.5);
+        }
+        .maplibregl-ctrl-attrib {
+          background: rgba(31, 41, 55, 0.7) !important;
+        }
+        .maplibregl-ctrl-attrib a {
+          color: #d1d5db !important;
         }
       `}</style>
     </div>

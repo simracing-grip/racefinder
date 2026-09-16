@@ -55,3 +55,11 @@ export async function getCountries(): Promise<string[]> {
   const countries = new Set(allListings.map((l) => l.country));
   return Array.from(countries).sort();
 }
+
+// Country name -> ISO code, for pages that only have the name (e.g. the
+// /country/[country] route param) and need it to render a flag.
+export async function getCountryCode(countryName: string): Promise<string | undefined> {
+  return allListings.find(
+    (l) => l.country.toLowerCase() === countryName.toLowerCase()
+  )?.countryCode;
+}

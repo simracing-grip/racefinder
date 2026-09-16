@@ -42,11 +42,11 @@ export default function FaqPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <h1 className="mb-6 text-2xl font-bold">Frequently asked questions</h1>
-      <dl className="divide-y divide-gray-200">
+      <dl className="divide-y divide-gray-800">
         {faqs.map((faq) => (
           <div key={faq.question} className="py-5">
-            <dt className="font-semibold text-gray-900">{faq.question}</dt>
-            <dd className="mt-2 text-sm leading-relaxed text-gray-600">
+            <dt className="font-semibold text-gray-100">{faq.question}</dt>
+            <dd className="mt-2 text-sm leading-relaxed text-gray-400">
               {faq.answer}
             </dd>
           </div>

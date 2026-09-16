@@ -45,7 +45,7 @@ export default async function CategoryPage({
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <h1 className="mb-1 text-2xl font-bold">{meta.plural}</h1>
-      <p className="mb-6 text-gray-500">
+      <p className="mb-6 text-gray-400">
         {listings.length} location{listings.length === 1 ? "" : "s"}
         {meta.global ? " worldwide" : " across Europe"}
       </p>
