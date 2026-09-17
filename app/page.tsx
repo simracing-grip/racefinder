@@ -1,8 +1,7 @@
-import Link from "next/link";
 import { getListings, getCountries } from "@/lib/listings";
-import { CATEGORIES } from "@/lib/types";
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
+import CategoryPreview from "@/components/Listing/CategoryPreview";
 import MapView from "@/components/Map/MapView";
 
 export default async function HomePage({
@@ -26,17 +25,10 @@ export default async function HomePage({
           A free, growing directory of sim racing centers, track day circuits, and
           karting tracks.
         </p>
-        <div className="mt-6 flex flex-wrap justify-center gap-3">
-          {CATEGORIES.map((c) => (
-            <Link
-              key={c.value}
-              href={`/category/${c.value}`}
-              className="rounded-full border border-gray-800 bg-gray-900 px-4 py-2 text-sm font-medium text-gray-200 hover:border-gray-600"
-            >
-              {c.plural}
-            </Link>
-          ))}
-        </div>
+      </section>
+
+      <section className="mb-10 mx-auto max-w-3xl">
+        <CategoryPreview listings={listings} />
       </section>
 
       <section className="mb-8">
