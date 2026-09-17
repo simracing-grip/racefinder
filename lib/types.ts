@@ -46,7 +46,19 @@ export interface ListingDetails {
 // (see data/calendar-events.ts) since it needs far more frequent updates
 // than venue location data and would otherwise get discarded on the next
 // import.
-export type EventSeries = "f1" | "f2" | "f3" | "f4" | "motogp" | "gt3" | "gt4" | "imsa" | "wec";
+export type EventSeries =
+  | "f1"
+  | "f2"
+  | "f3"
+  | "f4"
+  | "motogp"
+  | "gt3"
+  | "gt4"
+  | "imsa"
+  | "wec"
+  | "wrc"
+  | "wrc2"
+  | "wrc_junior";
 
 export interface TrackEvent {
   series: EventSeries;

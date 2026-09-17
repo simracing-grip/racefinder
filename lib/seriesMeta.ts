@@ -13,6 +13,9 @@ export const SERIES_LABEL: Record<EventSeries, string> = {
   gt4: "GT4",
   imsa: "IMSA",
   wec: "WEC",
+  wrc: "WRC",
+  wrc2: "WRC2",
+  wrc_junior: "WRC Junior",
 };
 
 export const SERIES_FULL_NAME: Record<EventSeries, string> = {
@@ -25,6 +28,9 @@ export const SERIES_FULL_NAME: Record<EventSeries, string> = {
   gt4: "GT4 European Series",
   imsa: "IMSA WeatherTech SportsCar Championship",
   wec: "FIA World Endurance Championship",
+  wrc: "FIA World Rally Championship",
+  wrc2: "FIA WRC2 Championship",
+  wrc_junior: "FIA WRC Junior Championship",
 };
 
 export const SERIES_BADGE_CLASS: Record<EventSeries, string> = {
@@ -37,6 +43,9 @@ export const SERIES_BADGE_CLASS: Record<EventSeries, string> = {
   gt4: "bg-blue-500/15 text-blue-300",
   imsa: "bg-teal-500/15 text-teal-300",
   wec: "bg-purple-500/15 text-purple-300",
+  wrc: "bg-green-500/15 text-green-300",
+  wrc2: "bg-emerald-500/15 text-emerald-300",
+  wrc_junior: "bg-lime-600/15 text-lime-400",
 };
 
 export const SERIES_ORDER: EventSeries[] = [
@@ -49,4 +58,7 @@ export const SERIES_ORDER: EventSeries[] = [
   "gt4",
   "imsa",
   "wec",
+  "wrc",
+  "wrc2",
+  "wrc_junior",
 ];
