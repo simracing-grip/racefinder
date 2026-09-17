@@ -1,4 +1,4 @@
-# RaceFinder — European Motorsport Directory
+# RaceFinder — European Motorsport Directory.
 
 A directory + map of sim racing centers, track day circuits, and karting tracks,
 starting with Europe. Next.js + Tailwind now, with Supabase (Postgres + Auth)
