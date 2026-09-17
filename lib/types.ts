@@ -42,12 +42,11 @@ export interface ListingDetails {
   karting?: KartingDetails;
 }
 
-// A race-calendar date at a track this directory already lists — e.g. the
-// Belgian Grand Prix at Spa, or a GT World Challenge Europe round at
-// Hungaroring. Kept out of Listing/generated-listings.ts itself (see
-// data/track-events.ts) since it needs far more frequent updates than venue
-// location data and would otherwise get discarded on the next import.
-export type EventSeries = "f1" | "gt3";
+// A race-calendar date. Kept out of Listing/generated-listings.ts itself
+// (see data/calendar-events.ts) since it needs far more frequent updates
+// than venue location data and would otherwise get discarded on the next
+// import.
+export type EventSeries = "f1" | "f2" | "f3" | "f4" | "motogp" | "gt3" | "gt4" | "imsa" | "wec";
 
 export interface TrackEvent {
   series: EventSeries;
@@ -56,6 +55,19 @@ export interface TrackEvent {
   endDate?: string; // ISO date; omit for a single-day event
   season: number;
   sourceUrl?: string;
+}
+
+// The full calendar (data/calendar-events.ts) isn't limited to tracks this
+// directory lists as venues — MotoGP/IMSA/WEC in particular race well
+// outside Europe. `listingSlug` is set only when the circuit is confirmed to
+// be the same physical venue as one of our listings, which is how
+// lib/listings.ts attaches events to a Listing's `events` field.
+export interface CalendarEvent extends TrackEvent {
+  circuitName: string;
+  city: string;
+  country: string;
+  countryCode?: string;
+  listingSlug?: string;
 }
 
 export interface Listing {

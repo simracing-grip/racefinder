@@ -400,8 +400,29 @@ async function processAddressListFile(filePath: string, fileLabel: string): Prom
     if (!title || !address) continue;
 
     process.stdout.write(`Resolving ${i}/${rows.length} from ${fileLabel}: ${title}...`);
-    const coords = await forwardGeocode(address, { boundedToEurope: true });
+    let coords = await forwardGeocode(address, { boundedToEurope: true });
     await sleep(1100);
+    let loosened = false;
+    if (!coords) {
+      // Retry unbounded — this directory now also covers USA/Asia venues, and
+      // a full street address (unlike a name-only search) is precise enough
+      // that an unbounded retry isn't meaningfully riskier than the bounded one.
+      coords = await forwardGeocode(address);
+      await sleep(1100);
+    }
+    if (!coords) {
+      // Full street address often doesn't match Nominatim's index exactly
+      // (unit numbers, mall names, local formatting quirks). Fall back to
+      // just the last two comma-separated segments (typically city/region +
+      // country) — coarser, so flag these for review since the pin may only
+      // be city-level rather than the exact venue.
+      const segments = address.split(",").map((s) => s.trim()).filter(Boolean);
+      if (segments.length >= 2) {
+        coords = await forwardGeocode(segments.slice(-2).join(", "));
+        await sleep(1100);
+        if (coords) loosened = true;
+      }
+    }
     if (!coords) {
       console.log(" could not geocode this address, skipping.");
       skipped.push(`${title} (${address})`);
@@ -410,12 +431,12 @@ async function processAddressListFile(filePath: string, fileLabel: string): Prom
 
     const geo = await reverseGeocode(coords.lat, coords.lng);
     await sleep(1100);
-    console.log(` ${geo.city || "?"}, ${geo.country || "?"}`);
+    console.log(` ${geo.city || "?"}, ${geo.country || "?"}${loosened ? " (loosened match — verify)" : ""}`);
 
     const venueType = row.VenueType?.trim().toLowerCase() ?? "";
     const mappedCategories = VENUE_TYPE_CATEGORY[venueType];
     const categories = mappedCategories ?? guessCategories(title);
-    const flagged = !mappedCategories || VENUE_TYPE_NEEDS_REVIEW.has(venueType);
+    const flagged = !mappedCategories || VENUE_TYPE_NEEDS_REVIEW.has(venueType) || loosened;
 
     output.push({
       name: title,
