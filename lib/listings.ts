@@ -1,18 +1,19 @@
 import type { Category, Listing } from "@/lib/types";
 import { generatedListings } from "@/data/generated-listings";
-import { TRACK_EVENTS } from "@/data/track-events";
+import { CALENDAR_EVENTS } from "@/data/calendar-events";
 
 // Backed by data/generated-listings.ts (produced from your real Google Maps
 // data via the import pipeline — see README). Once Supabase is connected,
 // swap the bodies of these functions for Drizzle queries against
 // lib/db/schema.ts — nothing that calls this module needs to change.
 //
-// Race-calendar dates (data/track-events.ts) are merged in here rather than
-// baked into generated-listings.ts, since they're maintained on a different
-// cadence than venue location data.
+// Race-calendar dates (data/calendar-events.ts — also the source for the
+// site's /calendar tab) are merged in here by matching listingSlug, rather
+// than baked into generated-listings.ts, since they're maintained on a
+// different cadence than venue location data.
 function withEvents(listing: Listing): Listing {
-  const events = TRACK_EVENTS[listing.slug];
-  return events ? { ...listing, events } : listing;
+  const events = CALENDAR_EVENTS.filter((e) => e.listingSlug === listing.slug);
+  return events.length > 0 ? { ...listing, events } : listing;
 }
 
 const allListings = generatedListings.map(withEvents);

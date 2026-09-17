@@ -20,6 +20,9 @@ export default function SiteHeader() {
           <Link href="/category/f1" className="hover:text-gray-100">
             F1
           </Link>
+          <Link href="/calendar" className="hover:text-gray-100">
+            Calendar
+          </Link>
           <Link href="/faq" className="hover:text-gray-100">
             FAQ
           </Link>

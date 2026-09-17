@@ -1,5 +1,6 @@
 import type { Listing, TrackEvent } from "@/lib/types";
 import { CATEGORY_LABEL } from "@/lib/categoryMeta";
+import { SERIES_LABEL, SERIES_BADGE_CLASS } from "@/lib/seriesMeta";
 
 function DetailRow({ label, value }: { label: string; value: React.ReactNode }) {
   if (value === undefined || value === null || value === "") return null;
@@ -10,16 +11,6 @@ function DetailRow({ label, value }: { label: string; value: React.ReactNode }) 
     </div>
   );
 }
-
-const EVENT_SERIES_LABEL: Record<TrackEvent["series"], string> = {
-  f1: "F1",
-  gt3: "GT3",
-};
-
-const EVENT_SERIES_BADGE_CLASS: Record<TrackEvent["series"], string> = {
-  f1: "bg-amber-500/15 text-amber-300",
-  gt3: "bg-red-500/15 text-red-300",
-};
 
 function formatEventDate(event: TrackEvent): string {
   const fmt = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
@@ -42,9 +33,9 @@ function UpcomingEvents({ events }: { events: TrackEvent[] }) {
           <li key={i} className="flex items-center justify-between gap-3 text-sm">
             <span className="flex min-w-0 items-center gap-2">
               <span
-                className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${EVENT_SERIES_BADGE_CLASS[event.series]}`}
+                className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${SERIES_BADGE_CLASS[event.series]}`}
               >
-                {EVENT_SERIES_LABEL[event.series]}
+                {SERIES_LABEL[event.series]}
               </span>
               <span className="truncate text-gray-100">
                 {event.sourceUrl ? (
