@@ -98,22 +98,40 @@ function escapeHtml(value: string): string {
     .replace(/"/g, "&quot;");
 }
 
+function fitToListings(map: maplibregl.Map, listings: Listing[], duration: number) {
+  if (listings.length === 0) return;
+  const bounds = new maplibregl.LngLatBounds();
+  for (const l of listings) bounds.extend([l.lng, l.lat]);
+  map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration });
+}
+
 export default function MapLibreMap({
   listings,
   height = "500px",
+  selectedSlug,
+  onSelect,
 }: {
   listings: Listing[];
   height?: string;
+  selectedSlug?: string | null;
+  onSelect?: (slug: string) => void;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const layersReadyRef = useRef(false);
+  const popupRef = useRef<maplibregl.Popup | null>(null);
+  const popupSlugRef = useRef<string | null>(null);
+  const listingsRef = useRef(listings);
+  const onSelectRef = useRef(onSelect);
   const [mode, setMode] = useState<"clusters" | "all">("clusters");
   const modeRef = useRef(mode);
   useEffect(() => {
     modeRef.current = mode;
-  }, [mode]);
+    onSelectRef.current = onSelect;
+  }, [mode, onSelect]);
 
+  // Created once; later listing changes are pushed into the existing
+  // sources (see the effect below) so filtering doesn't rebuild the map.
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -139,14 +157,12 @@ export default function MapLibreMap({
     // that just duplicated it.
     map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
-    let popup: maplibregl.Popup | null = null;
-
     map.on("load", async () => {
       await Promise.all(CATEGORY_ORDER.map((c) => loadPinImage(map, `pin-${c}`, CATEGORY_COLOR[c])));
 
       const clusteredVisibility = modeRef.current === "clusters" ? "visible" : "none";
       const flatVisibility = modeRef.current === "all" ? "visible" : "none";
-      const geojson = listingsToGeoJSON(listings);
+      const geojson = listingsToGeoJSON(listingsRef.current);
 
       map.addSource("listings", {
         type: "geojson",
@@ -221,11 +237,7 @@ export default function MapLibreMap({
 
       layersReadyRef.current = true;
 
-      if (listings.length > 0) {
-        const bounds = new maplibregl.LngLatBounds();
-        for (const l of listings) bounds.extend([l.lng, l.lat]);
-        map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
-      }
+      fitToListings(map, listingsRef.current, 0);
 
       map.on("mouseenter", "clusters", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
@@ -247,11 +259,14 @@ export default function MapLibreMap({
         const feature = e.features?.[0];
         if (!feature) return;
         const coords = (feature.geometry as GeoJSON.Point).coordinates.slice() as [number, number];
-        popup?.remove();
-        popup = new maplibregl.Popup({ closeButton: true, maxWidth: "240px" })
+        const slug = String(feature.properties?.slug);
+        popupRef.current?.remove();
+        popupSlugRef.current = slug;
+        popupRef.current = new maplibregl.Popup({ closeButton: true, maxWidth: "240px" })
           .setLngLat(coords)
           .setHTML(popupHtml(feature.properties))
           .addTo(map);
+        onSelectRef.current?.(slug);
       };
 
       map.on("click", "unclustered-point", openPointPopup);
@@ -260,10 +275,52 @@ export default function MapLibreMap({
 
     return () => {
       layersReadyRef.current = false;
-      popup?.remove();
+      popupRef.current?.remove();
+      popupRef.current = null;
+      popupSlugRef.current = null;
       map.remove();
     };
+  }, []);
+
+  // Filter changed: swap the data in place and re-frame the view.
+  useEffect(() => {
+    listingsRef.current = listings;
+    const map = mapRef.current;
+    if (!map || !layersReadyRef.current) return;
+    const geojson = listingsToGeoJSON(listings);
+    (map.getSource("listings") as maplibregl.GeoJSONSource).setData(geojson);
+    (map.getSource("listings-flat") as maplibregl.GeoJSONSource).setData(geojson);
+    popupRef.current?.remove();
+    popupSlugRef.current = null;
+    fitToListings(map, listings, 600);
   }, [listings]);
+
+  // A venue picked from the list: fly there and open its popup. Skipped when
+  // the selection came from a pin click (popup already open for that slug).
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !layersReadyRef.current || !selectedSlug) return;
+    if (popupSlugRef.current === selectedSlug) return;
+    const listing = listingsRef.current.find((l) => l.slug === selectedSlug);
+    if (!listing) return;
+    const coords: [number, number] = [listing.lng, listing.lat];
+    popupRef.current?.remove();
+    popupSlugRef.current = selectedSlug;
+    popupRef.current = new maplibregl.Popup({ closeButton: true, maxWidth: "240px" })
+      .setLngLat(coords)
+      .setHTML(
+        popupHtml({
+          slug: listing.slug,
+          name: listing.name,
+          city: listing.city,
+          country: listing.country,
+          categories: listing.categories.join(","),
+        })
+      )
+      .addTo(map);
+    // 14 is past clusterMaxZoom, so the pin is guaranteed to be visible.
+    map.easeTo({ center: coords, zoom: Math.max(map.getZoom(), 14) });
+  }, [selectedSlug]);
 
   // Toggling the mode after the map is already up just flips layer
   // visibility — no need to touch the sources or recenter the view.

@@ -17,9 +17,20 @@ const MapLibreMap = dynamic(() => import("./MapLibreMap"), {
 export default function MapView({
   listings,
   height,
+  selectedSlug,
+  onSelect,
 }: {
   listings: Listing[];
   height?: string;
+  selectedSlug?: string | null;
+  onSelect?: (slug: string) => void;
 }) {
-  return <MapLibreMap listings={listings} height={height} />;
+  return (
+    <MapLibreMap
+      listings={listings}
+      height={height}
+      selectedSlug={selectedSlug}
+      onSelect={onSelect}
+    />
+  );
 }

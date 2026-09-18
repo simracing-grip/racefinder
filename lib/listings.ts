@@ -48,28 +48,6 @@ export async function getListings(filters: ListingFilters = {}): Promise<Listing
   return results;
 }
 
-// Soonest-upcoming-event first, so venues hosting a race soon surface at the
-// top of the homepage list; venues with no upcoming event sort after those
-// that have one, keeping their relative order otherwise (Array#sort is
-// stable).
-export function sortByUpcomingEvent(listings: Listing[]): Listing[] {
-  const today = new Date().toISOString().slice(0, 10);
-  const nextEventDate = (listing: Listing) =>
-    (listing.events ?? [])
-      .filter((e) => (e.endDate ?? e.startDate) >= today)
-      .map((e) => e.startDate)
-      .sort()[0];
-
-  return [...listings].sort((a, b) => {
-    const dateA = nextEventDate(a);
-    const dateB = nextEventDate(b);
-    if (dateA && dateB) return dateA.localeCompare(dateB);
-    if (dateA) return -1;
-    if (dateB) return 1;
-    return 0;
-  });
-}
-
 export async function getListingBySlug(slug: string): Promise<Listing | undefined> {
   return allListings.find((l) => l.slug === slug && l.status === "published");
 }

@@ -1,8 +1,6 @@
-import { getListings, getCountries, sortByUpcomingEvent } from "@/lib/listings";
-import FilterBar from "@/components/Filters/FilterBar";
-import ListingList from "@/components/Listing/ListingList";
-import CategoryPreview from "@/components/Listing/CategoryPreview";
-import MapView from "@/components/Map/MapView";
+import Link from "next/link";
+import { getListings, getCountries } from "@/lib/listings";
+import HomeExplorer from "@/components/Home/HomeExplorer";
 
 export default async function HomePage({
   searchParams,
@@ -10,14 +8,11 @@ export default async function HomePage({
   searchParams: Promise<{ country?: string }>;
 }) {
   const params = await searchParams;
-  const [listings, countries] = await Promise.all([
-    getListings({ country: params.country }),
-    getCountries(),
-  ]);
+  const [listings, countries] = await Promise.all([getListings(), getCountries()]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <section className="mb-10 text-center">
+      <section className="mb-8 text-center">
         <h1 className="text-3xl font-bold sm:text-4xl">
           Find your next lap, across Europe
         </h1>
@@ -25,27 +20,15 @@ export default async function HomePage({
           A free, growing directory of sim racing centers, track day circuits, and
           karting tracks.
         </p>
+        <Link
+          href="/calendar"
+          className="mt-5 inline-flex items-center gap-1.5 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200 hover:border-red-500"
+        >
+          See upcoming races &rarr;
+        </Link>
       </section>
 
-      <section className="mb-10 mx-auto max-w-3xl">
-        <CategoryPreview listings={listings} />
-      </section>
-
-      <section className="mb-8">
-        <MapView listings={listings} height="360px" />
-      </section>
-
-      <section className="mb-6">
-        <FilterBar countries={countries} />
-      </section>
-
-      <section className="mx-auto max-w-3xl">
-        <p className="mb-3 text-sm text-gray-400">
-          {listings.length} location{listings.length === 1 ? "" : "s"} &mdash; soonest upcoming
-          events first, click one to expand
-        </p>
-        <ListingList listings={sortByUpcomingEvent(listings)} initialCount={10} />
-      </section>
+      <HomeExplorer listings={listings} countries={countries} initialCountry={params.country} />
     </div>
   );
 }

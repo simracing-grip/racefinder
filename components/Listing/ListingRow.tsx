@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Listing } from "@/lib/types";
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { formatEventDate, getNextEvent } from "@/lib/listingSort";
 import CategoryBadge from "./CategoryBadge";
 import ListingDetails from "./ListingDetails";
 import MapView from "@/components/Map/MapView";
@@ -35,18 +36,41 @@ function FlagIcon() {
   );
 }
 
-export default function ListingRow({ listing }: { listing: Listing }) {
+export default function ListingRow({
+  listing,
+  selected = false,
+  onSelect,
+}: {
+  listing: Listing;
+  selected?: boolean;
+  onSelect?: (slug: string) => void;
+}) {
   const [open, setOpen] = useState(false);
+  const rowRef = useRef<HTMLDivElement>(null);
   const accentColor = CATEGORY_COLOR[listing.categories[0]] ?? "#2563eb";
+  const nextEvent = getNextEvent(listing);
+  const mapListings = useMemo(() => [listing], [listing]);
+
+  useEffect(() => {
+    if (selected) rowRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }, [selected]);
 
   return (
     <div
+      ref={rowRef}
       className={`overflow-hidden rounded-xl border bg-gray-900 transition ${
-        open ? "border-gray-600 shadow-sm" : "border-gray-800 hover:border-gray-600"
+        selected
+          ? "border-red-500 ring-1 ring-red-500/60"
+          : open
+            ? "border-gray-600 shadow-sm"
+            : "border-gray-800 hover:border-gray-600"
       }`}
     >
       <button
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => {
+          setOpen((v) => !v);
+          onSelect?.(listing.slug);
+        }}
         aria-expanded={open}
         className="flex w-full items-center gap-4 p-3.5 text-left sm:p-4"
       >
@@ -78,6 +102,11 @@ export default function ListingRow({ listing }: { listing: Listing }) {
             <CountryFlag countryCode={listing.countryCode} />
             {listing.city}, {listing.country}
           </p>
+          {nextEvent && (
+            <p className="mt-0.5 truncate text-xs font-medium text-red-400">
+              Next: {nextEvent.name} &middot; {formatEventDate(nextEvent.startDate)}
+            </p>
+          )}
         </div>
 
         <ChevronIcon open={open} />
@@ -86,7 +115,7 @@ export default function ListingRow({ listing }: { listing: Listing }) {
       {open && (
         <div className="border-t border-gray-800 bg-gray-950/50 p-3.5 sm:p-4">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-[1fr_1.2fr]">
-            <MapView listings={[listing]} height="200px" />
+            <MapView listings={mapListings} height="200px" />
             <div className="rounded-lg border border-gray-800 bg-gray-900 p-3.5">
               <ListingDetails listing={listing} />
               <Link
