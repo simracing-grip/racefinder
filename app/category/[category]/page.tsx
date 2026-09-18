@@ -59,7 +59,7 @@ export default async function CategoryPage({
       </section>
 
       <section className="mx-auto max-w-3xl">
-        <ListingList listings={listings} />
+        <ListingList listings={listings} initialCount={10} />
       </section>
     </div>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Listing, Category } from "@/lib/types";
@@ -107,6 +107,12 @@ export default function MapLibreMap({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const layersReadyRef = useRef(false);
+  const [mode, setMode] = useState<"clusters" | "all">("clusters");
+  const modeRef = useRef(mode);
+  useEffect(() => {
+    modeRef.current = mode;
+  }, [mode]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -138,12 +144,24 @@ export default function MapLibreMap({
     map.on("load", async () => {
       await Promise.all(CATEGORY_ORDER.map((c) => loadPinImage(map, `pin-${c}`, CATEGORY_COLOR[c])));
 
+      const clusteredVisibility = modeRef.current === "clusters" ? "visible" : "none";
+      const flatVisibility = modeRef.current === "all" ? "visible" : "none";
+      const geojson = listingsToGeoJSON(listings);
+
       map.addSource("listings", {
         type: "geojson",
-        data: listingsToGeoJSON(listings),
+        data: geojson,
         cluster: true,
         clusterMaxZoom: 13,
         clusterRadius: 50,
+      });
+
+      // Same points, unclustered — backs the "show all" mode so every listing
+      // renders as its own pin regardless of zoom, instead of bubbling into
+      // cluster circles.
+      map.addSource("listings-flat", {
+        type: "geojson",
+        data: geojson,
       });
 
       map.addLayer({
@@ -151,6 +169,7 @@ export default function MapLibreMap({
         type: "circle",
         source: "listings",
         filter: ["has", "point_count"],
+        layout: { visibility: clusteredVisibility },
         paint: {
           "circle-color": "#f3f4f6",
           "circle-radius": ["step", ["get", "point_count"], 17, 10, 20, 25, 24],
@@ -168,6 +187,7 @@ export default function MapLibreMap({
           "text-field": "{point_count_abbreviated}",
           "text-size": 13,
           "text-font": ["Noto Sans Bold"],
+          visibility: clusteredVisibility,
         },
         paint: { "text-color": "#111827" },
       });
@@ -182,8 +202,24 @@ export default function MapLibreMap({
           "icon-size": 0.9,
           "icon-anchor": "bottom",
           "icon-allow-overlap": true,
+          visibility: clusteredVisibility,
         },
       });
+
+      map.addLayer({
+        id: "all-points",
+        type: "symbol",
+        source: "listings-flat",
+        layout: {
+          "icon-image": ["get", "icon"],
+          "icon-size": 0.9,
+          "icon-anchor": "bottom",
+          "icon-allow-overlap": true,
+          visibility: flatVisibility,
+        },
+      });
+
+      layersReadyRef.current = true;
 
       if (listings.length > 0) {
         const bounds = new maplibregl.LngLatBounds();
@@ -195,6 +231,8 @@ export default function MapLibreMap({
       map.on("mouseleave", "clusters", () => (map.getCanvas().style.cursor = ""));
       map.on("mouseenter", "unclustered-point", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "unclustered-point", () => (map.getCanvas().style.cursor = ""));
+      map.on("mouseenter", "all-points", () => (map.getCanvas().style.cursor = "pointer"));
+      map.on("mouseleave", "all-points", () => (map.getCanvas().style.cursor = ""));
 
       map.on("click", "clusters", async (e: maplibregl.MapMouseEvent) => {
         const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
@@ -205,7 +243,7 @@ export default function MapLibreMap({
         map.easeTo({ center: (features[0].geometry as GeoJSON.Point).coordinates as [number, number], zoom });
       });
 
-      map.on("click", "unclustered-point", (e: maplibregl.MapLayerMouseEvent) => {
+      const openPointPopup = (e: maplibregl.MapLayerMouseEvent) => {
         const feature = e.features?.[0];
         if (!feature) return;
         const coords = (feature.geometry as GeoJSON.Point).coordinates.slice() as [number, number];
@@ -214,21 +252,60 @@ export default function MapLibreMap({
           .setLngLat(coords)
           .setHTML(popupHtml(feature.properties))
           .addTo(map);
-      });
+      };
+
+      map.on("click", "unclustered-point", openPointPopup);
+      map.on("click", "all-points", openPointPopup);
     });
 
     return () => {
+      layersReadyRef.current = false;
       popup?.remove();
       map.remove();
     };
   }, [listings]);
 
+  // Toggling the mode after the map is already up just flips layer
+  // visibility — no need to touch the sources or recenter the view.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !layersReadyRef.current) return;
+    const clusteredVisibility = mode === "clusters" ? "visible" : "none";
+    const flatVisibility = mode === "all" ? "visible" : "none";
+    map.setLayoutProperty("clusters", "visibility", clusteredVisibility);
+    map.setLayoutProperty("cluster-count", "visibility", clusteredVisibility);
+    map.setLayoutProperty("unclustered-point", "visibility", clusteredVisibility);
+    map.setLayoutProperty("all-points", "visibility", flatVisibility);
+  }, [mode]);
+
   return (
     <div
       style={{ height }}
-      className="w-full overflow-hidden rounded-2xl border border-gray-800 shadow-sm ring-1 ring-white/5"
+      className="relative w-full overflow-hidden rounded-2xl border border-gray-800 shadow-sm ring-1 ring-white/5"
     >
       <div ref={containerRef} className="h-full w-full" />
+
+      <div className="absolute right-3 top-3 z-10 flex gap-1 rounded-full bg-gray-900/90 p-1 shadow-sm ring-1 ring-white/10 backdrop-blur">
+        <button
+          type="button"
+          onClick={() => setMode("clusters")}
+          className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
+            mode === "clusters" ? "bg-red-600 text-white" : "text-gray-300 hover:bg-gray-700"
+          }`}
+        >
+          Clustered
+        </button>
+        <button
+          type="button"
+          onClick={() => setMode("all")}
+          className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
+            mode === "all" ? "bg-red-600 text-white" : "text-gray-300 hover:bg-gray-700"
+          }`}
+        >
+          Show all
+        </button>
+      </div>
+
       <style jsx global>{`
         .maplibregl-popup-content {
           border-radius: 0.75rem;

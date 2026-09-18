@@ -1,4 +1,4 @@
-import { getListings, getCountries } from "@/lib/listings";
+import { getListings, getCountries, sortByUpcomingEvent } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
 import CategoryPreview from "@/components/Listing/CategoryPreview";
@@ -41,9 +41,10 @@ export default async function HomePage({
 
       <section className="mx-auto max-w-3xl">
         <p className="mb-3 text-sm text-gray-400">
-          {listings.length} location{listings.length === 1 ? "" : "s"} &mdash; click one to expand
+          {listings.length} location{listings.length === 1 ? "" : "s"} &mdash; soonest upcoming
+          events first, click one to expand
         </p>
-        <ListingList listings={listings} />
+        <ListingList listings={sortByUpcomingEvent(listings)} initialCount={10} />
       </section>
     </div>
   );
