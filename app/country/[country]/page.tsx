@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getListings, getCountries, getCountryCode } from "@/lib/listings";
+import Link from "next/link";
+import { getListings, getCountries, getCountryCode, slugifyCountry } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
@@ -9,10 +10,6 @@ import CountryFlag from "@/components/CountryFlag";
 export async function generateStaticParams() {
   const countries = await getCountries();
   return countries.map((country) => ({ country: slugifyCountry(country) }));
-}
-
-function slugifyCountry(country: string) {
-  return country.toLowerCase().replace(/\s+/g, "-");
 }
 
 async function resolveCountry(slug: string) {
@@ -58,6 +55,9 @@ export default async function CountryPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
+      <Link href="/" className="mb-3 inline-flex items-center gap-1 text-sm text-blue-400 hover:underline">
+        &larr; World map
+      </Link>
       <h1 className="mb-1 flex items-center gap-2 text-2xl font-bold">
         {countryCode && <CountryFlag countryCode={countryCode} className="text-xl" />}
         Motorsport venues in {resolved}

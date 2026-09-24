@@ -4,7 +4,7 @@ const faqs = [
   {
     question: "What is RaceFinder?",
     answer:
-      "RaceFinder is a free directory of sim racing centers, track day circuits, and karting tracks across Europe, so you can find a place to race near you.",
+      "RaceFinder is a free directory of sim racing centers, track day circuits, karting tracks, and F1 circuits, so you can find a place to race near you.",
   },
   {
     question: "Is RaceFinder free to use?",
@@ -14,17 +14,17 @@ const faqs = [
   {
     question: "What categories of venues are listed?",
     answer:
-      "Three categories: Sim Racing centers, Track Day circuits, and Karting tracks. You can browse each from the navigation bar or filter by category on the map.",
+      "Four categories: Sim Racing centers, Track Day circuits, Karting tracks, and F1 circuits. You can browse each from the navigation bar or filter by category on the map.",
   },
   {
     question: "Which countries are covered?",
     answer:
-      "RaceFinder focuses on venues across Europe. Coverage is growing over time, so if a venue near you is missing, let us know.",
+      "Sim racing, track day, and karting listings currently focus on Europe, with coverage growing over time. F1 circuits are covered worldwide, following the full Grand Prix calendar. Choose your country from the homepage to jump straight there, or browse the world map to see everything at once — and if a venue near you is missing, let us know.",
   },
   {
     question: "How do I find venues near me?",
     answer:
-      "Use the Map to see all locations at once, or browse by category and country to narrow things down.",
+      "Pick your country from the dropdown on the homepage to jump straight there, or use the Map to see all locations at once and filter by category and country.",
   },
   {
     question: "How accurate is the listing information?",

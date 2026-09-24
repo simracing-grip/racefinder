@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Link from "next/link";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
-import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_TAGLINE, SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,20 +19,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    default: SITE_TAGLINE,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    title: SITE_TAGLINE,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    title: SITE_TAGLINE,
     description: SITE_DESCRIPTION,
   },
 };

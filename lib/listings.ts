@@ -57,6 +57,13 @@ export async function getCountries(): Promise<string[]> {
   return Array.from(countries).sort();
 }
 
+// Single source of truth for the country slug used in /country/[country]
+// URLs, shared by the route itself and anything that links into it (e.g. the
+// homepage's country picker).
+export function slugifyCountry(country: string): string {
+  return country.toLowerCase().replace(/\s+/g, "-");
+}
+
 // Country name -> ISO code, for pages that only have the name (e.g. the
 // /country/[country] route param) and need it to render a flag.
 export async function getCountryCode(countryName: string): Promise<string | undefined> {
