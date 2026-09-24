@@ -24,7 +24,14 @@ import { stringify } from "csv-stringify/sync";
 import slugify from "slugify";
 
 const RAW_DIR = path.join(process.cwd(), "data", "import", "raw");
-const OUT_FILE = path.join(process.cwd(), "data", "import", "review.csv");
+// Optional: PARSE_ONLY=<substring> parses just the raw files whose name contains
+// it, and PARSE_OUT=<path> writes somewhere other than review.csv. Together they
+// let a new batch be staged without regenerating (and losing manual edits in)
+// the existing review.csv.
+const OUT_FILE = process.env.PARSE_OUT
+  ? path.resolve(process.env.PARSE_OUT)
+  : path.join(process.cwd(), "data", "import", "review.csv");
+const ONLY = process.env.PARSE_ONLY;
 const NOMINATIM_USER_AGENT = "motorsport-directory-import-script/0.1 (one-time personal use)";
 
 interface TakeoutRow {
@@ -182,8 +189,14 @@ const EUROPE_VIEWBOX = "-11,71,31,35"; // lon_min,lat_max,lon_max,lat_min
 async function forwardGeocode(
   query: string,
   options?: { boundedToEurope?: boolean }
-): Promise<{ lat: number; lng: number } | null> {
-  const params = new URLSearchParams({ q: query, format: "jsonv2", limit: "1" });
+): Promise<{ lat: number; lng: number; country: string } | null> {
+  const params = new URLSearchParams({
+    q: query,
+    format: "jsonv2",
+    limit: "1",
+    addressdetails: "1",
+    "accept-language": "en",
+  });
   if (options?.boundedToEurope) {
     params.set("viewbox", EUROPE_VIEWBOX);
     params.set("bounded", "1");
@@ -193,10 +206,79 @@ async function forwardGeocode(
     const res = await fetch(url, { headers: { "User-Agent": NOMINATIM_USER_AGENT } });
     const data = await res.json();
     if (!Array.isArray(data) || data.length === 0) return null;
-    return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+    return {
+      lat: parseFloat(data[0].lat),
+      lng: parseFloat(data[0].lon),
+      country: data[0].address?.country ?? "",
+    };
   } catch {
     return null;
   }
+}
+
+const COUNTRY_ALIASES: Record<string, string> = {
+  usa: "united states",
+  us: "united states",
+  "united states of america": "united states",
+  uk: "united kingdom",
+  england: "united kingdom",
+  scotland: "united kingdom",
+  wales: "united kingdom",
+  "northern ireland": "united kingdom",
+  "czech republic": "czechia",
+  turkiye: "turkey",
+  "republic of korea": "south korea",
+  korea: "south korea",
+  uae: "united arab emirates",
+  "hong kong": "china",
+  macau: "china",
+  reunion: "france",
+  "french guiana": "france",
+  guadeloupe: "france",
+  martinique: "france",
+  "new caledonia": "france",
+  "french polynesia": "france",
+};
+
+function normalizeCountry(s: string): string {
+  const cleaned = s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z ]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return COUNTRY_ALIASES[cleaned] ?? cleaned;
+}
+
+// True if the result mentions the street or town from the address (the parts
+// before the region and country). Skipped when the address has no such part.
+function locationMatches(segments: string[], resultText: string): boolean {
+  const norm = (s: string) =>
+    s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .replace(/[^a-z ]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  const own = segments.slice(0, Math.max(1, segments.length - (segments.length >= 4 ? 2 : 1)));
+  const candidates = own.map(norm).filter((s) => s.length >= 4);
+  if (candidates.length === 0) return true;
+  const haystack = norm(resultText);
+  return candidates.some((c) => haystack.includes(c));
+}
+
+// The last comma-separated part of a manual address is the country. Used to
+// reject geocoder hits in a different country: a loose or partial query (a
+// bare postcode, "CA 93908, USA") can otherwise return a confident but wrong
+// match, e.g. a Singapore postcode landing in Sweden.
+function countryMatches(address: string, resultCountry: string): boolean {
+  const last = address.split(",").pop()?.replace(/\d+/g, "").trim() ?? "";
+  if (!last || !resultCountry) return true;
+  const expected = normalizeCountry(last);
+  const actual = normalizeCountry(resultCountry);
+  return expected === actual || actual.includes(expected) || expected.includes(actual);
 }
 
 async function reverseGeocode(lat: number, lng: number) {
@@ -400,37 +482,37 @@ async function processAddressListFile(filePath: string, fileLabel: string): Prom
     if (!title || !address) continue;
 
     process.stdout.write(`Resolving ${i}/${rows.length} from ${fileLabel}: ${title}...`);
-    let coords = await forwardGeocode(address, { boundedToEurope: true });
-    await sleep(1100);
+    // The directory is worldwide, so addresses are geocoded unbounded. Try the
+    // full address, then coarser queries (last three parts, then last two).
+    // A hit is accepted only if it is in the address's country AND its
+    // reverse-geocoded location mentions the street or town from the address.
+    // Nominatim's fuzzy matching otherwise returns confident but wrong places
+    // in the right country (a school in another suburb, a city centre), so an
+    // uncertain row is skipped for manual handling instead of pinned wrongly.
+    const segments = address.split(",").map((s) => s.trim()).filter(Boolean);
+    const queries = [address];
+    if (segments.length > 3) queries.push(segments.slice(-3).join(", "));
+    if (segments.length > 2) queries.push(segments.slice(-2).join(", "));
+    let coords: { lat: number; lng: number; country: string } | null = null;
+    let geo: Awaited<ReturnType<typeof reverseGeocode>> | null = null;
     let loosened = false;
-    if (!coords) {
-      // Retry unbounded — this directory now also covers USA/Asia venues, and
-      // a full street address (unlike a name-only search) is precise enough
-      // that an unbounded retry isn't meaningfully riskier than the bounded one.
-      coords = await forwardGeocode(address);
+    for (let q = 0; q < queries.length && !coords; q++) {
+      const hit = await forwardGeocode(queries[q]);
       await sleep(1100);
+      if (!hit || !countryMatches(address, hit.country)) continue;
+      const rev = await reverseGeocode(hit.lat, hit.lng);
+      await sleep(1100);
+      if (!locationMatches(segments, `${rev.address} ${rev.city}`)) continue;
+      coords = hit;
+      geo = rev;
+      loosened = q > 0;
     }
-    if (!coords) {
-      // Full street address often doesn't match Nominatim's index exactly
-      // (unit numbers, mall names, local formatting quirks). Fall back to
-      // just the last two comma-separated segments (typically city/region +
-      // country) — coarser, so flag these for review since the pin may only
-      // be city-level rather than the exact venue.
-      const segments = address.split(",").map((s) => s.trim()).filter(Boolean);
-      if (segments.length >= 2) {
-        coords = await forwardGeocode(segments.slice(-2).join(", "));
-        await sleep(1100);
-        if (coords) loosened = true;
-      }
-    }
-    if (!coords) {
+    if (!coords || !geo) {
       console.log(" could not geocode this address, skipping.");
       skipped.push(`${title} (${address})`);
       continue;
     }
 
-    const geo = await reverseGeocode(coords.lat, coords.lng);
-    await sleep(1100);
     console.log(` ${geo.city || "?"}, ${geo.country || "?"}${loosened ? " (loosened match — verify)" : ""}`);
 
     const venueType = row.VenueType?.trim().toLowerCase() ?? "";
@@ -536,7 +618,11 @@ async function main() {
     return;
   }
 
-  const files = readdirSync(RAW_DIR).filter((f) => f.endsWith(".csv") || f.endsWith(".json"));
+  const files = readdirSync(RAW_DIR).filter(
+    (f) =>
+      (f.endsWith(".csv") || f.endsWith(".json")) &&
+      (!ONLY || ONLY.split(",").some((s) => f.includes(s.trim())))
+  );
   if (files.length === 0) {
     console.log(`No CSV or JSON files found in ${RAW_DIR}. See README.md for the Google Takeout export steps.`);
     return;

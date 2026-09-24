@@ -680,6 +680,22 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Castle_Combe_Circuit_MMB_G5.jpg"
   },
   {
+    "id": "41",
+    "slug": "anglesey-circuit",
+    "name": "Anglesey Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Aberffraw",
+    "address": "Anglesey Circuit, Fire Lane, Aberffraw, Isle of Anglesey, Wales, LL63 5TF, United Kingdom",
+    "lat": 53.190485,
+    "lng": -4.498129,
+    "websiteUrl": "https://www.angleseycircuit.co.uk/"
+  },
+  {
     "id": "42",
     "slug": "thruxton-circuit",
     "name": "Thruxton Circuit",
@@ -715,6 +731,23 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Croft_Circuit_%2C_North_Yorkshire_-_geograph.org.uk_-_137696.jpg"
   },
   {
+    "id": "44",
+    "slug": "knockhill-racing-circuit",
+    "name": "Knockhill Racing Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Fife",
+    "address": "Knockhill Racing Circuit, A823, Hill End, Fife, Scotland, KY12 9TF, United Kingdom",
+    "lat": 56.128301,
+    "lng": -3.505785,
+    "websiteUrl": "https://www.knockhill.com/",
+    "phone": "01383 723337"
+  },
+  {
     "id": "45",
     "slug": "sim-racing-center-dusseldorf",
     "name": "Sim Racing Center Düsseldorf",
@@ -731,6 +764,22 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://simracing-center.de",
     "phone": "0172 7509881",
     "coverImageUrl": "https://simracing-center.de/wp-content/uploads/simracing-fahrzeug-foto.png"
+  },
+  {
+    "id": "46",
+    "slug": "race-factory-berlin",
+    "name": "Race Factory Berlin",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Berlin",
+    "address": "68, Zitadellenweg, Haselhorst, Spandau, Berlin, 13599, Germany",
+    "lat": 52.53989,
+    "lng": 13.21849,
+    "websiteUrl": "https://race-factory.de/en/"
   },
   {
     "id": "47",
@@ -766,6 +815,39 @@ export const generatedListings: Listing[] = [
     "lat": 51.094861,
     "lng": 17.020387,
     "websiteUrl": "https://apexone.pl/en/"
+  },
+  {
+    "id": "49",
+    "slug": "sim-motorsport-brands-hatch",
+    "name": "SIM Motorsport Brands Hatch",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Sevenoaks",
+    "address": "Brands Hatch Circuit, Fawkham Road, West Kingsdown, Fawkham Green, Sevenoaks, Kent, England, DA3 8NG, United Kingdom",
+    "lat": 51.357488,
+    "lng": 0.260006,
+    "websiteUrl": "https://www.simmotorsport.co.uk/"
+  },
+  {
+    "id": "50",
+    "slug": "the-race-cave",
+    "name": "The Race Cave",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Pontypridd",
+    "address": "Green Rooms, Taffs Fall Road, Treforest Industrial Estate, Llantwit Fardre, Upper Boat, Pontypridd, Rhondda Cynon Taf, Wales, CF37 5YB, United Kingdom",
+    "lat": 51.57055,
+    "lng": -3.292844,
+    "websiteUrl": "http://www.theracecave.co.uk/",
+    "phone": "02920 844444"
   },
   {
     "id": "51",
@@ -819,6 +901,23 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.adac-simracing-center.de/",
     "phone": "0961 94193030",
     "coverImageUrl": "https://www.adac-simracing-center.de/fileadmin/_processed_/2/3/csm_58_-_ADAC_x_Thomas_Scheck_Photography_Weiden-47_3dd77e38ac.jpg"
+  },
+  {
+    "id": "54",
+    "slug": "racing-unleashed-munich",
+    "name": "Racing Unleashed Munich",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Munich",
+    "address": "Motorwold Inn, 8, Am Ausbesserungswerk, Alt-Freimann, Freimann, Schwabing-Freimann, Munich, Bavaria, 80939, Germany",
+    "lat": 48.196538,
+    "lng": 11.607815,
+    "websiteUrl": "https://www.racing-unleashed.com/lounges/munich",
+    "phone": "+49 89 2000 340 70"
   },
   {
     "id": "55",
@@ -908,6 +1007,22 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Alfa_Romeo_-_Circuit_du_Val_de_Vienne_-_15-11-2014_-_Image_Picture_Photography_-_Organisateur_-_Club_AGC86_Vienne_-_www.agc86.fr_%2815800171041%29.jpg"
   },
   {
+    "id": "60",
+    "slug": "sim-drivers-paris",
+    "name": "Sim Drivers Paris",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "110, Boulevard Saint-Germain, Quartier de la Monnaie, 6th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75006, France",
+    "lat": 48.85188,
+    "lng": 2.341752,
+    "websiteUrl": "https://simdrivers-paris.fr/"
+  },
+  {
     "id": "61",
     "slug": "lydden-hill-race-circuit",
     "name": "Lydden Hill Race Circuit",
@@ -923,6 +1038,39 @@ export const generatedListings: Listing[] = [
     "lng": 1.198826,
     "websiteUrl": "https://lyddenhill.co.uk/",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/View_of_Chessons_Drift_on_Lydden_circuit_race_track.jpg"
+  },
+  {
+    "id": "62",
+    "slug": "podium-place-sim-lounge",
+    "name": "Podium Place Sim Lounge",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Newbury",
+    "address": "Bone Lane, Hambridge Road Industrial Area, Ham Marsh, Speenhamland, Newbury, West Berkshire, England, RG14 5SH, United Kingdom",
+    "lat": 51.401967,
+    "lng": -1.310061,
+    "websiteUrl": "https://podiumplace.co.uk/"
+  },
+  {
+    "id": "63",
+    "slug": "simply-race-manchester",
+    "name": "Simply Race Manchester",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Trafford",
+    "address": "Trafford Park, Ashburton Road W / Park Way (Stop A), Ashburton Road West, Trafford Park, Stretford, Trafford, Greater Manchester, England, M17 1WT, United Kingdom",
+    "lat": 53.469419,
+    "lng": -2.326438,
+    "websiteUrl": "https://www.simplyrace.co.uk/manchester",
+    "phone": "0161 528 3358"
   },
   {
     "id": "64",
@@ -1066,6 +1214,22 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://luxembourg.e-motion.racing/images/site/are-you-ready-to-race.jpg"
   },
   {
+    "id": "72",
+    "slug": "indoor-racing-aadorf",
+    "name": "Indoor Racing Aadorf",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "city": "Wittenwil",
+    "address": "Kärcher Autowasch-Center Aadorf, 33, Wittenwilerstrasse, Weiern, Wittenwil, Aadorf, Bezirk Münchwilen, Thurgau, 8355, Switzerland",
+    "lat": 47.497192,
+    "lng": 8.904199,
+    "websiteUrl": "https://indoor-racing.ch/"
+  },
+  {
     "id": "73",
     "slug": "circuit-de-lignieres",
     "name": "Circuit de Lignières",
@@ -1082,6 +1246,23 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.circuit-de-lignieres.ch/",
     "phone": "+41 58 827 15 00",
     "coverImageUrl": "https://cdn.prod.website-files.com/63775f982c8a5c18c3173882/63bfc7c2709362730ad5115c_TCS_Circuit_de_Lignieres_Hero_Bild_01_Tiny.jpg"
+  },
+  {
+    "id": "74",
+    "slug": "sim-race-pinzgau",
+    "name": "SIM RACE PINZGAU",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Austria",
+    "countryCode": "AT",
+    "city": "Bruck an der Großglocknerstraße",
+    "address": "Waagstraße, Fischhorn, Bruck an der Großglocknerstraße, Bezirk Zell am See, Salzburg, 5671, Austria",
+    "lat": 47.289408,
+    "lng": 12.810569,
+    "websiteUrl": "https://www.sim-race-pinzgau.at/",
+    "phone": "+43 6545 22238"
   },
   {
     "id": "75",
@@ -1256,6 +1437,39 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.levantecircuit.com/wp-content/uploads/2021/04/circuito.jpg"
   },
   {
+    "id": "85",
+    "slug": "wave-italy-racing-center",
+    "name": "Wave Italy Racing Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "San Martino Buon Albergo",
+    "address": "Fontanara S.r.l., 10/12, Via Alexander Fleming, Scimmia, San Martino Buon Albergo, Verona, Veneto, 37036, Italy",
+    "lat": 45.424344,
+    "lng": 11.077768,
+    "websiteUrl": "https://waveitaly.com/en/",
+    "phone": "+39 045 879 8414"
+  },
+  {
+    "id": "86",
+    "slug": "simclub-athens",
+    "name": "SimClub Athens",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Greece",
+    "countryCode": "GR",
+    "city": "Municipality of Glyfada",
+    "address": "Αγίου Ιωάννου, Glyfada, Municipality of Glyfada, Regional Unit of South Athens, Attica, 166 74, Greece",
+    "lat": 37.862409,
+    "lng": 23.75573,
+    "websiteUrl": "https://www.simclub.gr/en/home/"
+  },
+  {
     "id": "87",
     "slug": "go-kart-center-track-thessaloniki",
     "name": "Go Kart Center Track Thessaloniki",
@@ -1357,6 +1571,22 @@ export const generatedListings: Listing[] = [
     "lng": -8.717227,
     "websiteUrl": "https://cabodomundokarting.pt/",
     "phone": "+351 229 959 852"
+  },
+  {
+    "id": "93",
+    "slug": "estoril-racing-lab",
+    "name": "Estoril Racing Lab",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "city": "Terrugem",
+    "address": "Fervença, Terrugem, Sintra, Lisbon, 2705-311, Portugal",
+    "lat": 38.835545,
+    "lng": -9.352237,
+    "websiteUrl": "https://www.estorilracinglab.com/en/"
   },
   {
     "id": "94",
@@ -1570,6 +1800,22 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.kartmax.cz/gallery/karting1.jpg"
   },
   {
+    "id": "106",
+    "slug": "levels-prague",
+    "name": "LEVELS Prague",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "Fly Vista, 63/26, Národní, Old Town, obvod Praha 1, Prague, 110 00, Czechia",
+    "lat": 50.082243,
+    "lng": 14.419475,
+    "websiteUrl": "https://levelsprague.com/en/"
+  },
+  {
     "id": "107",
     "slug": "karting-arena-kosice",
     "name": "Karting Arena Košice",
@@ -1620,6 +1866,23 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://gokartbudapest.hu/wp-content/uploads/2025/03/PIC_elektromos_gokart_verseny_5b.jpg"
   },
   {
+    "id": "110",
+    "slug": "race-center-budapest",
+    "name": "Race Center Budapest",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "24FitClub, 19, Szemere utca, Lipótváros, 5th district, Budapest, Central Hungary, 1054, Hungary",
+    "lat": 47.510445,
+    "lng": 19.051742,
+    "websiteUrl": "https://www.racecenter.hu",
+    "phone": "+36 70 633 7223"
+  },
+  {
     "id": "111",
     "slug": "tandt-karting-transilvania",
     "name": "T&T Karting Transilvania",
@@ -1651,6 +1914,23 @@ export const generatedListings: Listing[] = [
     "lng": 26.087403,
     "websiteUrl": "https://irace.ro/",
     "phone": "+40 773 860 041"
+  },
+  {
+    "id": "113",
+    "slug": "racing-sim-brasov",
+    "name": "Racing Sim Brasov",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Brasov",
+    "address": "Bijuteria Diamantul, 2, Strada Paul Richter, Brașov Historical Centre, Brasov, Zona Metropolitană Brașov, Brașov, 500020, Romania",
+    "lat": 45.640501,
+    "lng": 25.586424,
+    "websiteUrl": "https://www.facebook.com/racingsim.ro/",
+    "phone": "+40 744 315 662"
   },
   {
     "id": "114",
@@ -2043,6 +2323,23 @@ export const generatedListings: Listing[] = [
     "phone": "+358 44 776 5000"
   },
   {
+    "id": "137",
+    "slug": "mondello-park",
+    "name": "Mondello Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Ireland",
+    "countryCode": "IE",
+    "city": "Donore",
+    "address": "Mondello Park, R409, Donore, Donore ED, The Municipal District of Clane — Maynooth, County Kildare, Leinster, Ireland",
+    "lat": 53.257564,
+    "lng": -6.748963,
+    "websiteUrl": "https://mondellopark.ie/",
+    "phone": "+353 45 860200"
+  },
+  {
     "id": "138",
     "slug": "kirkistown-motor-racing-circuit",
     "name": "Kirkistown Motor Racing Circuit",
@@ -2110,6 +2407,39 @@ export const generatedListings: Listing[] = [
     "phone": "+30 697 997 7097"
   },
   {
+    "id": "142",
+    "slug": "drive-lounge-london",
+    "name": "Drive Lounge London",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Greater London",
+    "address": "The White Company, Ariel Way, Shepherd's Bush, London Borough of Hammersmith and Fulham, Greater London, England, W12 7NS, United Kingdom",
+    "lat": 51.509114,
+    "lng": -0.222012,
+    "websiteUrl": "https://www.drivelounge.co.uk/locations/london/",
+    "phone": "0203 307 6003"
+  },
+  {
+    "id": "143",
+    "slug": "silverstone-sim-suite",
+    "name": "Silverstone Sim Suite",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Silverstone",
+    "address": "Luffield Terrace, Lillingstone Dayrell with Luffield Abbey, Buckinghamshire, England, NN12 8GZ, United Kingdom",
+    "lat": 52.07414,
+    "lng": -1.021811,
+    "websiteUrl": "https://www.silverstonemuseum.co.uk/whats-on/sim-suite-at-silverstone/"
+  },
+  {
     "id": "144",
     "slug": "sim-racing-f1-nl",
     "name": "Sim Racing F1 NL",
@@ -2126,6 +2456,22 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://simracingf1.nl/",
     "phone": "+31 6 35118354",
     "coverImageUrl": "https://simracingf1.nl/storage/2024/07/WhatsApp-Image-2024-07-15-at-18.01.48-5-300x200.jpeg"
+  },
+  {
+    "id": "145",
+    "slug": "racesquare-rotterdam",
+    "name": "Racesquare Rotterdam",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Rotterdam",
+    "address": "Hollywood Café, 513, Cor Kieboomplein, De Veranda, Oud-IJsselmonde, IJsselmonde, Rotterdam, South Holland, Netherlands, 3077 MK, Netherlands",
+    "lat": 51.896101,
+    "lng": 4.525016,
+    "websiteUrl": "https://www.racesquare.com/vestiging/rotterdam/"
   },
   {
     "id": "146",
@@ -2233,6 +2579,23 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "http://www.amckart.ro/tunari/",
     "phone": "+40 741 100 700",
     "coverImageUrl": "https://www.amckart.ro/assets/carusel-reel/reel-1.webp"
+  },
+  {
+    "id": "152",
+    "slug": "escuderia-madrid",
+    "name": "Escudería Madrid",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Las Rozas de Madrid",
+    "address": "32, Avenida de Lazarejo, El Cantizal, Las Rozas de Madrid, Community of Madrid, 28232, Spain",
+    "lat": 40.526288,
+    "lng": -3.929606,
+    "websiteUrl": "https://www.escuderiamadrid.com/",
+    "phone": "+34 910 591 582"
   },
   {
     "id": "153",
@@ -2430,10 +2793,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Barcelona",
-    "address": "1, Plaça de Sant Jaume, el Palau, Gothic Quarter, Ciutat Vella, Barcelona, Barcelonès, Barcelona, Catalonia, 08002, Spain",
-    "lat": 41.38258,
-    "lng": 2.177073,
+    "city": "Sant Feliu de Llobregat",
+    "address": "Sant Feliu de Llobregat, Baix Llobregat, Barcelona, Catalunya, 08980, Spain",
+    "lat": 41.381285,
+    "lng": 2.044638,
     "websiteUrl": "https://indoorkartingbarcelona.com",
     "phone": "+34 936 857 500"
   },
@@ -2447,10 +2810,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Valencia",
-    "address": "Clínica Facial 10, 19, Plaça de l'Ajuntament, Ciutat Vella, Valencia, Comarca de València, Valencia, Valencian Community, 46002, Spain",
-    "lat": 39.469707,
-    "lng": -0.376335,
+    "city": "Burjassot",
+    "address": "Burjassot, l'Horta Nord, Valencia, Comunitat Valenciana, 46100, Spain",
+    "lat": 39.50906,
+    "lng": -0.410858,
     "websiteUrl": "https://racingdakartvalencia.com/en/home"
   },
   {
@@ -2738,6 +3101,71 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.nuerburgring-esports.com/en/sim_racing_lounges/koeln-esports"
   },
   {
+    "id": "183",
+    "slug": "sim4race-motorworld-koln",
+    "name": "sim4race MOTORWORLD Köln",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Cologne",
+    "address": "BARATIE, 35-39, Butzweilerstraße, Ossendorf, Ehrenfeld, Cologne, North Rhine-Westphalia, 50829, Germany",
+    "lat": 50.981702,
+    "lng": 6.899275,
+    "websiteUrl": "https://sim4race.com/standorte/koeln/"
+  },
+  {
+    "id": "184",
+    "slug": "v-racing-stockholm",
+    "name": "V-Racing Stockholm",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "city": "Stockholm",
+    "address": "Västberga Grillen, 20, Vretensborgsvägen, Västberga industriområde, Västberga, Hägersten-Älvsjö stadsdelsområde, Stockholm, Stockholm Municipality, Stockholm County, 126 32, Sweden",
+    "lat": 59.298778,
+    "lng": 18.015889,
+    "websiteUrl": "https://www.v-racing.se"
+  },
+  {
+    "id": "185",
+    "slug": "simtrack-driver-performance-centre",
+    "name": "SIMTrack Driver Performance Centre",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Leeds",
+    "address": "Isabella Road, Sturton Grange, Garforth, Leeds, West Yorkshire, England, LS25 2DY, United Kingdom",
+    "lat": 53.80009,
+    "lng": -1.3709,
+    "websiteUrl": "https://simtrack.co.uk/"
+  },
+  {
+    "id": "186",
+    "slug": "the-race-lounge-star-city-birmingham",
+    "name": "The Race Lounge Star City Birmingham",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Birmingham",
+    "address": "Watson Road, Aston, Nechells, Birmingham, West Midlands, England, B7 5SA, United Kingdom",
+    "lat": 52.504694,
+    "lng": -1.85552,
+    "websiteUrl": "https://www.capitalkarts.com/star-city/the-race-lounge/",
+    "phone": "0121 3124 800"
+  },
+  {
     "id": "187",
     "slug": "national-esports-centre-sim-racing-lounge",
     "name": "National Esports Centre Sim Racing Lounge",
@@ -2755,6 +3183,206 @@ export const generatedListings: Listing[] = [
     "phone": "021 245 5420"
   },
   {
+    "id": "188",
+    "slug": "simotion",
+    "name": "SimOtion",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Southill",
+    "address": "131, Ireland, Southill, Central Bedfordshire, England, SG17 5QL, United Kingdom",
+    "lat": 52.060034,
+    "lng": -0.347478,
+    "websiteUrl": "https://simotion.ie/",
+    "phone": "+353 874 500 400"
+  },
+  {
+    "id": "189",
+    "slug": "sim-lounge-zagreb",
+    "name": "SIM Lounge Zagreb",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Croatia",
+    "countryCode": "HR",
+    "city": "City of Zagreb",
+    "address": "2, Dubrava, Mjesni odbor Dubrava - središte, Gradska četvrt Gornja Dubrava, Zagreb, City of Zagreb, 10040, Croatia",
+    "lat": 45.824682,
+    "lng": 16.039245
+  },
+  {
+    "id": "190",
+    "slug": "sim-master-bgd",
+    "name": "Sim Master BGD",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Belgrade",
+    "address": "68, Дунавска, Skadarlija, Stari grad, Belgrade, Stari Grad Urban Municipality, City of Belgrade, Central Serbia, 11000, Serbia",
+    "lat": 44.821939,
+    "lng": 20.471174,
+    "websiteUrl": "https://simmaster.rs/",
+    "phone": "+381 60 49 46 481"
+  },
+  {
+    "id": "191",
+    "slug": "racelab-racex",
+    "name": "raceLAB / raceX",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Lainate",
+    "address": "Via Don Silvestro Beneggi, Grancia-Pagliera, Lainate, Milan, Lombardy, 20045, Italy",
+    "lat": 45.568866,
+    "lng": 9.029478,
+    "websiteUrl": "https://www.race-x.it/en",
+    "phone": "+39 3298864486"
+  },
+  {
+    "id": "192",
+    "slug": "fdrive-experience-bergamo",
+    "name": "Fdrive Experience Bergamo",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Bergamo",
+    "address": "33, Via Vittore Ghislandi, San Tomaso de' Calvi, Borgo Palazzo, Bergamo, Lombardy, 24125, Italy",
+    "lat": 45.697331,
+    "lng": 9.68427,
+    "websiteUrl": "https://www.fdrive.it/",
+    "phone": "0355908963"
+  },
+  {
+    "id": "193",
+    "slug": "driving-simulation-center-lanciano",
+    "name": "Driving Simulation Center Lanciano",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Lanciano",
+    "address": "Corso Bandiera, Trento e Trieste, Lanciano, Chieti, Abruzzo, 66034, Italy",
+    "lat": 42.22906,
+    "lng": 14.393458,
+    "websiteUrl": "https://www.drivingsimulationcenter.it/"
+  },
+  {
+    "id": "194",
+    "slug": "meet-the-tracks",
+    "name": "Meet The Tracks",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Limonest",
+    "address": "Garage de la Tourte, 2, Rue des Rosiéristes, Limonest, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, 69410, France",
+    "lat": 45.805836,
+    "lng": 4.778353,
+    "websiteUrl": "https://www.meetthetracks.com/",
+    "phone": "04 72 59 94 23"
+  },
+  {
+    "id": "195",
+    "slug": "driver-xperience-toulouse",
+    "name": "Driver Xperience Toulouse",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Muret",
+    "address": "Driver Xperience, 42, Boulevard de Joffrery, Muret, Haute-Garonne, Occitania, Metropolitan France, 31600, France",
+    "lat": 43.490251,
+    "lng": 1.342984,
+    "websiteUrl": "https://www.driverxperience.fr/toulouse/",
+    "phone": "05 62 48 75 80"
+  },
+  {
+    "id": "196",
+    "slug": "racesquare-utrecht",
+    "name": "Racesquare Utrecht",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Utrecht",
+    "address": "Hertogswetering, Bedrijvengebied De Wetering, Terwijde. De Wetering, Leidsche Rijn, Utrecht, Netherlands, 3543 AS, Netherlands",
+    "lat": 52.105161,
+    "lng": 5.05788,
+    "websiteUrl": "https://www.racesquare.com/vestiging/utrecht/",
+    "phone": "085 130 4333"
+  },
+  {
+    "id": "197",
+    "slug": "racesquare-eindhoven",
+    "name": "Racesquare Eindhoven",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Eindhoven",
+    "address": "ir. Ottenbad, 12, Vijfkamplaan, Woenselse Heide, Achtse Barrier, Woensel-Noord, Eindhoven, North Brabant, Netherlands, 5624 EB, Netherlands",
+    "lat": 51.4764,
+    "lng": 5.456027,
+    "websiteUrl": "https://www.racesquare.com/vestiging/eindhoven/"
+  },
+  {
+    "id": "198",
+    "slug": "racesquare-zwolle",
+    "name": "Racesquare Zwolle",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Zwolle",
+    "address": "3, Stadionplein, Zwolle, Overijssel, Netherlands, 8025 CP, Netherlands",
+    "lat": 52.517592,
+    "lng": 6.119723,
+    "websiteUrl": "https://www.racesquare.com/nl/vestiging/zwolle/",
+    "phone": "085 130 4336"
+  },
+  {
+    "id": "199",
+    "slug": "racesquare-amsterdam",
+    "name": "Racesquare Amsterdam",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Amsterdam",
+    "address": "GlowGolf Hollywood Café Amsterdam, 2005, Buikslotermeerplein, Noord, Amsterdam, North Holland, Netherlands, 1025 XL, Netherlands",
+    "lat": 52.400779,
+    "lng": 4.934848,
+    "websiteUrl": "https://www.racesquare.com/vestiging/amsterdam/",
+    "phone": "020 891 47 51"
+  },
+  {
     "id": "200",
     "slug": "hispeed-sim-racing-center-barcelona",
     "name": "Hispeed Sim Racing Center Barcelona",
@@ -2770,6 +3398,55 @@ export const generatedListings: Listing[] = [
     "lng": 2.191657,
     "websiteUrl": "https://hispeedsim.com/",
     "phone": "93 131 66 17"
+  },
+  {
+    "id": "201",
+    "slug": "simrace-cafe-bratislava",
+    "name": "SimRace Café Bratislava",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "city": "Bratislava",
+    "address": "5300/21A, Ružová dolina, Nivy, Bratislava-Ružinov, District of Bratislava II, Bratislava, Borinka, Region of Bratislava, 821 09, Slovakia",
+    "lat": 48.153459,
+    "lng": 17.139695,
+    "websiteUrl": "https://simracecafe.sk/",
+    "phone": "+421 910 135 330"
+  },
+  {
+    "id": "202",
+    "slug": "vr-racing-denmark",
+    "name": "VR Racing Denmark",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "city": "Copenhagen",
+    "address": "169, Nørrebrogade, De Gamles By, Nørrebro, Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 2200, Denmark",
+    "lat": 55.695475,
+    "lng": 12.547109,
+    "websiteUrl": "https://vr-racing.dk/"
+  },
+  {
+    "id": "203",
+    "slug": "racing-performance-center-vestby",
+    "name": "Racing Performance Center Vestby",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Norway",
+    "countryCode": "NO",
+    "city": "Verpet",
+    "address": "6, Nordlysveien, Randem, Randem skog, Verpet, Vestby, Akershus, 1543, Norway",
+    "lat": 59.61886,
+    "lng": 10.744548,
+    "websiteUrl": "https://racingpc.no/"
   },
   {
     "id": "204",
@@ -2798,10 +3475,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Valencia",
-    "address": "Clínica Facial 10, 19, Plaça de l'Ajuntament, Ciutat Vella, Valencia, Comarca de València, Valencia, Valencian Community, 46002, Spain",
-    "lat": 39.469707,
-    "lng": -0.376335,
+    "city": "Cheste",
+    "address": "Cheste, La Hoya de Buñol, Valencia, Comunitat Valenciana, 46380, Spain",
+    "lat": 39.493937,
+    "lng": -0.68421,
     "websiteUrl": "https://www.circuitricardotormo.com/en/",
     "phone": "+34 96 252 52 20"
   },
@@ -2815,10 +3492,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Úcar",
-    "address": "Camino de Elordi, Úcar, Izarbeibar-Novenera, Navarre, 31153, Spain",
-    "lat": 42.702794,
-    "lng": -1.708623,
+    "city": "Los Arcos",
+    "address": "Los Arcos, Estellerria, Navarra, 31210, Spain",
+    "lat": 42.569742,
+    "lng": -2.192309,
     "websiteUrl": "https://www.circuitodenavarra.com/",
     "phone": "+34 948 64 03 50"
   },
@@ -2849,10 +3526,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Barcelona",
-    "address": "1, Plaça de Sant Jaume, el Palau, Gothic Quarter, Ciutat Vella, Barcelona, Barcelonès, Barcelona, Catalonia, 08002, Spain",
-    "lat": 41.38258,
-    "lng": 2.177073,
+    "city": "Castellolí",
+    "address": "Castellolí, Anoia, Barcelona, Catalunya, 08719, Spain",
+    "lat": 41.5951,
+    "lng": 1.706415,
     "websiteUrl": "https://circuitparcmotor.com/en/",
     "phone": "+34 616 500 600"
   },
@@ -3254,6 +3931,23 @@ export const generatedListings: Listing[] = [
     "phone": "317-348-1176"
   },
   {
+    "id": "233",
+    "slug": "k1-speed-des-moines",
+    "name": "K1 Speed Des Moines",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Grimes",
+    "address": "Grimes, Polk County, Iowa, 50111, United States",
+    "lat": 41.688321,
+    "lng": -93.791058,
+    "websiteUrl": "https://www.k1speed.com/des-moines-location.html",
+    "phone": "515-986-2442"
+  },
+  {
     "id": "234",
     "slug": "k1-speed-new-orleans",
     "name": "K1 Speed New Orleans",
@@ -3302,6 +3996,23 @@ export const generatedListings: Listing[] = [
     "lat": 42.560884,
     "lng": -71.136785,
     "websiteUrl": "https://www.k1speed.com/boston-location.html"
+  },
+  {
+    "id": "237",
+    "slug": "k1-speed-oxford",
+    "name": "K1 Speed Oxford",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Oxford",
+    "address": "Oxford, Oxford Charter Township, Oakland County, Michigan, United States",
+    "lat": 42.824752,
+    "lng": -83.264662,
+    "websiteUrl": "https://www.k1speed.com/oxford-location.html",
+    "phone": "248-823-7677"
   },
   {
     "id": "238",
@@ -3582,10 +4293,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Washington",
-    "address": "United States Department of Veterans Affairs, 810, Vermont Avenue Northwest, Golden Triangle, Ward 2, Washington, District of Columbia, 20420, United States",
-    "lat": 38.900769,
-    "lng": -77.03521,
+    "city": "Richmond",
+    "address": "Richmond, Virginia, United States",
+    "lat": 37.538509,
+    "lng": -77.43428,
     "websiteUrl": "https://www.k1speed.com/richmond-location.html"
   },
   {
@@ -3598,10 +4309,10 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Sharon Springs",
-    "address": "Sharon Springs, Sharon Springs Township, Wallace County, Kansas, 67758, United States",
-    "lat": 38.907385,
-    "lng": -101.75651,
+    "city": "Redmond",
+    "address": "Redmond, King County, Washington, 98052, United States",
+    "lat": 47.669414,
+    "lng": -122.123877,
     "websiteUrl": "https://www.k1speed.com/seattle-location.html",
     "phone": "425-455-9999"
   },
@@ -3641,18 +4352,18 @@ export const generatedListings: Listing[] = [
   },
   {
     "id": "258",
-    "slug": "bluegrass-indoor-karting",
-    "name": "Bluegrass Indoor Karting",
+    "slug": "full-throttle-adrenaline-park",
+    "name": "Full Throttle Adrenaline Park",
     "categories": [
       "karting"
     ],
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Mead Township",
-    "address": "51102, Key Bellaire Road, Mead Township, Belmont County, Ohio, 43906, United States",
-    "lat": 39.975073,
-    "lng": -80.870091,
+    "city": "Louisville",
+    "address": "2520 Ampere Drive, Louisville, Jefferson County, Kentucky, United States",
+    "lat": 38.254238,
+    "lng": -85.759407,
     "phone": "502-297-9899"
   },
   {
@@ -3764,9 +4475,9 @@ export const generatedListings: Listing[] = [
     "country": "China",
     "countryCode": "CN",
     "city": "Shanghai",
-    "address": "People's Square, Jiangyin, Nanjingdonglu Subdistrict, Shanghai, Huangpu District, Shanghai, 200001, China",
-    "lat": 31.231271,
-    "lng": 121.470015
+    "address": "Baoshan District, Shanghai, China",
+    "lat": 31.407391,
+    "lng": 121.484838
   },
   {
     "id": "266",
@@ -3779,27 +4490,12 @@ export const generatedListings: Listing[] = [
     "country": "China",
     "countryCode": "CN",
     "city": "Shanghai",
-    "address": "People's Square, Jiangyin, Nanjingdonglu Subdistrict, Shanghai, Huangpu District, Shanghai, 200001, China",
-    "lat": 31.231271,
-    "lng": 121.470015
+    "address": "Putuo District, Shanghai, China",
+    "lat": 31.251326,
+    "lng": 121.391229
   },
   {
     "id": "267",
-    "slug": "u-speed-indoor-go-karting",
-    "name": "U-SPEED Indoor Go-Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "China",
-    "countryCode": "CN",
-    "city": "Chaoyang District",
-    "address": "Bank of Beijing, 利泽西街, 师家坟, Donghu, Chaoyang District, Beijing, 100102, China",
-    "lat": 40.006709,
-    "lng": 116.456083
-  },
-  {
-    "id": "268",
     "slug": "easykart-bangkok",
     "name": "EasyKart Bangkok",
     "categories": [
@@ -3815,7 +4511,23 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://easykart.net/"
   },
   {
-    "id": "270",
+    "id": "268",
+    "slug": "impact-speed-park",
+    "name": "IMPACT Speed Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "city": "Pak Kret City Municipality",
+    "address": "Kasikorn Chaengwattana Building, 47/7, Popular Road, Muang Thong Thani, Ban Mai Subdistrict, Pak Kret City Municipality, Pak Kret District, Nonthaburi Province, 11120, Thailand",
+    "lat": 13.909858,
+    "lng": 100.550568,
+    "phone": "+66 2 833 4888"
+  },
+  {
+    "id": "269",
     "slug": "nanocircuit",
     "name": "NanoCircuit",
     "categories": [
@@ -3830,24 +4542,7 @@ export const generatedListings: Listing[] = [
     "lng": 100.718902
   },
   {
-    "id": "271",
-    "slug": "kf1-karting-circuit",
-    "name": "KF1 Karting Circuit",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "city": "Singapore",
-    "address": "Woodlands Road, Turf Club, Sungei Kadut, North Region, Singapore, 738702, Singapore",
-    "lat": 1.422055,
-    "lng": 103.764182,
-    "websiteUrl": "https://kf1karting.com/",
-    "phone": "+65 6891 1191"
-  },
-  {
-    "id": "272",
+    "id": "270",
     "slug": "lalaspeed-e-kart-raceway",
     "name": "LalaSpeed E Kart Raceway",
     "categories": [
@@ -3863,7 +4558,7 @@ export const generatedListings: Listing[] = [
     "lng": 101.714863
   },
   {
-    "id": "273",
+    "id": "271",
     "slug": "sepang-international-kart-circuit",
     "name": "Sepang International Kart Circuit",
     "categories": [
@@ -3880,7 +4575,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.sepangcircuit.com/"
   },
   {
-    "id": "274",
+    "id": "272",
     "slug": "gokart-avenue",
     "name": "Gokart Avenue",
     "categories": [
@@ -3897,7 +4592,22 @@ export const generatedListings: Listing[] = [
     "phone": "+62 878-8776-6168"
   },
   {
-    "id": "276",
+    "id": "273",
+    "slug": "driftinc-central-park",
+    "name": "Drift.Inc Central Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "city": "Special Capital Region of Jakarta",
+    "address": "Dewan Perwakilan Rakyat / Majelis Permusyawaratan Rakyat, 6, Jalan Jenderal Gatot Subroto, RW 01, Gelora, Tanah Abang, Central Jakarta, Special Capital Region of Jakarta, 10270, Indonesia",
+    "lat": -6.210208,
+    "lng": 106.80029
+  },
+  {
+    "id": "274",
     "slug": "ekartraceway",
     "name": "EKartraceway",
     "categories": [
@@ -3913,7 +4623,22 @@ export const generatedListings: Listing[] = [
     "lng": 121.048625
   },
   {
-    "id": "278",
+    "id": "275",
+    "slug": "nitro-drift-greenhills",
+    "name": "Nitro Drift Greenhills",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Philippines",
+    "countryCode": "PH",
+    "city": "San Juan",
+    "address": "Pinaglabanan Street, Corazon de Jesus, 1st District, San Juan, Eastern Manila District, Metro Manila, 1500, Philippines",
+    "lat": 14.604436,
+    "lng": 121.029947
+  },
+  {
+    "id": "276",
     "slug": "saigon-go-kart-racing",
     "name": "Saigon Go-Kart Racing",
     "categories": [
@@ -3928,7 +4653,23 @@ export const generatedListings: Listing[] = [
     "lng": 106.716601
   },
   {
-    "id": "280",
+    "id": "277",
+    "slug": "infinity-racing",
+    "name": "Infinity Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "city": "Ho Chi Minh City",
+    "address": "McDonald's Vincom Mega Mall Thảo Điền, 159-161, Vo Nguyen Giap Boulevard, Khu phố 1, Phường An Khánh, Ho Chi Minh City, 71108, Vietnam",
+    "lat": 10.802442,
+    "lng": 106.741565,
+    "websiteUrl": "https://www.infinity.racing/"
+  },
+  {
+    "id": "278",
     "slug": "al-forsan-karting",
     "name": "Al Forsan Karting",
     "categories": [
@@ -3945,7 +4686,23 @@ export const generatedListings: Listing[] = [
     "phone": "+971 2 656 5656"
   },
   {
-    "id": "282",
+    "id": "279",
+    "slug": "dubai-kartdrome",
+    "name": "Dubai Kartdrome",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Al Khamila Street, Al Barsha, Al Thanyah 2, Dubai Emirate, United Arab Emirates",
+    "lat": 25.074282,
+    "lng": 55.188562,
+    "websiteUrl": "https://www.dubaiautodrome.com/"
+  },
+  {
+    "id": "280",
     "slug": "republic-of-karting-ajmera-indikarting",
     "name": "Republic of Karting (Ajmera IndiKarting)",
     "categories": [
@@ -3961,7 +4718,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://republicofkarting.com/"
   },
   {
-    "id": "283",
+    "id": "281",
     "slug": "meco-kartopia",
     "name": "Meco Kartopia",
     "categories": [
@@ -3978,7 +4735,7 @@ export const generatedListings: Listing[] = [
     "phone": "+91 9901908789"
   },
   {
-    "id": "284",
+    "id": "282",
     "slug": "harbor-circuit-kisarazu",
     "name": "Harbor Circuit Kisarazu",
     "categories": [
@@ -3994,7 +4751,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.harbor-circuit.com/"
   },
   {
-    "id": "285",
+    "id": "283",
     "slug": "city-circuit-tokyo-bay",
     "name": "City Circuit Tokyo Bay",
     "categories": [
@@ -4003,14 +4760,14 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Japan",
     "countryCode": "JP",
-    "city": "Chiyoda",
-    "address": "AED, 1, Marunouchi 3, Marunouchi, Chiyoda, Tokyo, 100-0005, Japan",
-    "lat": 35.67686,
-    "lng": 139.763895,
+    "city": "Koto",
+    "address": "Aomi, Koto City, Tokyo, 135-0064, Japan",
+    "lat": 35.613775,
+    "lng": 139.781402,
     "websiteUrl": "https://city-circuit.com/en/"
   },
   {
-    "id": "286",
+    "id": "284",
     "slug": "street-kart-osaka",
     "name": "Street Kart Osaka",
     "categories": [
@@ -4026,7 +4783,23 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://streetkart.com/"
   },
   {
-    "id": "288",
+    "id": "285",
+    "slug": "shftclub",
+    "name": "SHFTCLUB",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "New York",
+    "address": "United States, 97-30, 57th Avenue, Queens, Queens County, New York, 11368, United States",
+    "lat": 40.737233,
+    "lng": -73.862477,
+    "websiteUrl": "https://www.shftclub.com/"
+  },
+  {
+    "id": "286",
     "slug": "circuit-sim-racing",
     "name": "Circuit Sim Racing",
     "categories": [
@@ -4044,7 +4817,41 @@ export const generatedListings: Listing[] = [
     "phone": "(818) 805-3355"
   },
   {
-    "id": "291",
+    "id": "287",
+    "slug": "world-of-racing-pasadena",
+    "name": "World of Racing Pasadena",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Pasadena",
+    "address": "Pasadena, Los Angeles County, California, United States",
+    "lat": 34.147651,
+    "lng": -118.144155,
+    "websiteUrl": "https://www.worldofracing.com/booking-pasadena",
+    "phone": "(310) 461-1055"
+  },
+  {
+    "id": "288",
+    "slug": "world-of-racing-phoenix",
+    "name": "World of Racing Phoenix",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Phoenix",
+    "address": "Piestewa Freeway, Paradise Valley, Phoenix, Maricopa County, Arizona, 85032, United States",
+    "lat": 33.605736,
+    "lng": -112.009677,
+    "websiteUrl": "https://worldofracingphx.com/",
+    "phone": "(480) 228-7019"
+  },
+  {
+    "id": "289",
     "slug": "mp-sim-racing-chicago",
     "name": "MP Sim Racing Chicago",
     "categories": [
@@ -4061,7 +4868,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 224-389-5196"
   },
   {
-    "id": "292",
+    "id": "290",
     "slug": "sim-racing-south-barrington",
     "name": "Sim Racing South Barrington",
     "categories": [
@@ -4079,7 +4886,7 @@ export const generatedListings: Listing[] = [
     "phone": "(224) 630-3076"
   },
   {
-    "id": "293",
+    "id": "291",
     "slug": "velocity-sim-racing-dallas",
     "name": "Velocity Sim Racing Dallas",
     "categories": [
@@ -4096,7 +4903,7 @@ export const generatedListings: Listing[] = [
     "phone": "972-209-5215"
   },
   {
-    "id": "294",
+    "id": "292",
     "slug": "velocity-sim-racing-houston",
     "name": "Velocity Sim Racing Houston",
     "categories": [
@@ -4113,7 +4920,140 @@ export const generatedListings: Listing[] = [
     "phone": "832-627-4981"
   },
   {
-    "id": "303",
+    "id": "293",
+    "slug": "atlanta-sim-racing-and-vr",
+    "name": "Atlanta Sim Racing & VR",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Sugar Hill",
+    "address": "Sugar Hill, Gwinnett County, Georgia, 30518, United States",
+    "lat": 34.10649,
+    "lng": -84.03352,
+    "websiteUrl": "https://www.atlantasimracing.com/",
+    "phone": "(470) 266-1132"
+  },
+  {
+    "id": "294",
+    "slug": "torque-motorsports",
+    "name": "Torque Motorsports",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Norcross",
+    "address": "Norcross, Gwinnett County, Georgia, 30071, United States",
+    "lat": 33.941213,
+    "lng": -84.213531,
+    "websiteUrl": "https://www.torqueatlanta.com/",
+    "phone": "678-349-2124"
+  },
+  {
+    "id": "295",
+    "slug": "garage-2-grid-sim-racing",
+    "name": "Garage 2 Grid Sim Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Alpharetta",
+    "address": "Alpharetta, Fulton County, Georgia, United States",
+    "lat": 34.075596,
+    "lng": -84.294596,
+    "websiteUrl": "https://g2gsimracing.com/",
+    "phone": "770-676-0748"
+  },
+  {
+    "id": "296",
+    "slug": "shift-arcade-miami",
+    "name": "Shift Arcade Miami",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Miami",
+    "address": "Miami, Miami-Dade County, Florida, United States",
+    "lat": 25.774157,
+    "lng": -80.193597,
+    "websiteUrl": "https://miami.shiftarcade.com/",
+    "phone": "(786) 550-0022"
+  },
+  {
+    "id": "297",
+    "slug": "nxt-lvl-gaming",
+    "name": "NXT LVL Gaming",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Miami",
+    "address": "10772, Southwest 24th Street, University Park, Miami, Miami-Dade County, Florida, 33165, United States",
+    "lat": 25.746105,
+    "lng": -80.368955,
+    "websiteUrl": "https://nlg.gg/",
+    "phone": "305-998-2080"
+  },
+  {
+    "id": "298",
+    "slug": "gripwerx-simulation-racing",
+    "name": "GripWerx Simulation Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Redmond",
+    "address": "Redmond, King County, Washington, 98052, United States",
+    "lat": 47.669414,
+    "lng": -122.123877,
+    "websiteUrl": "https://www.gripwerxracing.com/"
+  },
+  {
+    "id": "299",
+    "slug": "i-simrace",
+    "name": "i-SimRace",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Las Vegas",
+    "address": "United States Post Office, 4975, University Center Drive, Midtown UNLV, Las Vegas, Clark County, Nevada, 89119, United States",
+    "lat": 36.09964,
+    "lng": -115.14675,
+    "websiteUrl": "https://www.isimrace.com/"
+  },
+  {
+    "id": "300",
+    "slug": "f1-arcade-las-vegas",
+    "name": "F1 Arcade Las Vegas",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Las Vegas",
+    "address": "The 3D Crystal, 3500, South Las Vegas Boulevard, Las Vegas, Clark County, Nevada, 89109, United States",
+    "lat": 36.119018,
+    "lng": -115.176276,
+    "websiteUrl": "https://f1arcade.com/us/las-vegas"
+  },
+  {
+    "id": "301",
     "slug": "victory-sim-center",
     "name": "Victory Sim Center",
     "categories": [
@@ -4130,7 +5070,40 @@ export const generatedListings: Listing[] = [
     "phone": "(828) 815-0996"
   },
   {
-    "id": "306",
+    "id": "302",
+    "slug": "f1-arcade-boston",
+    "name": "F1 Arcade Boston",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Boston",
+    "address": "Amazon Boston, 55, Pier Four Boulevard, Seaport, Boston, Suffolk County, Massachusetts, 02210, United States",
+    "lat": 42.349741,
+    "lng": -71.045022,
+    "websiteUrl": "https://f1arcade.com/us/boston"
+  },
+  {
+    "id": "303",
+    "slug": "shift-arcade-san-ramon",
+    "name": "Shift Arcade San Ramon",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "San Ramon",
+    "address": "San Ramon, Contra Costa County, California, United States",
+    "lat": 37.764802,
+    "lng": -121.954439,
+    "websiteUrl": "https://sanramon.shiftarcade.com/",
+    "phone": "925-329-6229"
+  },
+  {
+    "id": "304",
     "slug": "the-paddock-sim-racing",
     "name": "The Paddock Sim Racing",
     "categories": [
@@ -4146,7 +5119,108 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.paddockclubracing.com"
   },
   {
-    "id": "313",
+    "id": "305",
+    "slug": "kc-kinetica",
+    "name": "KC Kinetica",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Taito",
+    "address": "Ueno, Taito City, Tokyo, 110-8615, Japan",
+    "lat": 35.711822,
+    "lng": 139.777607,
+    "websiteUrl": "https://www.kckinetica.com/en"
+  },
+  {
+    "id": "306",
+    "slug": "ddr-akiba",
+    "name": "D.D.R Akiba",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Chiyoda",
+    "address": "Sony Music Entertainment Japan, 5, Rokuban-chō, Chiyoda, Tokyo, 102-8353, Japan",
+    "lat": 35.688795,
+    "lng": 139.734537,
+    "websiteUrl": "http://your-tokyo.com/en/activity/game/d-d-r-race-car-simulation/",
+    "phone": "03-6206-8480"
+  },
+  {
+    "id": "307",
+    "slug": "psr-racing",
+    "name": "PSR Racing (피에스레이싱)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "city": "Seoul",
+    "address": "Happy Plus Cafe, 110, Sejong-daero, Taepyeongno 1-ga, Myeong-dong, Jung-gu, Seoul, 04520, South Korea",
+    "lat": 37.566679,
+    "lng": 126.978291,
+    "websiteUrl": "https://www.instagram.com/psrsim/",
+    "phone": "010-9979-3997"
+  },
+  {
+    "id": "308",
+    "slug": "legion-of-racers",
+    "name": "Legion of Racers",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "city": "Singapore",
+    "address": "339407, Kallang, Central Region, Singapore",
+    "lat": 1.312248,
+    "lng": 103.862944,
+    "websiteUrl": "https://www.legionofracers.com/",
+    "phone": "+65 8750 1507"
+  },
+  {
+    "id": "309",
+    "slug": "full-focus-sim-lab",
+    "name": "Full Focus Sim Lab",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "city": "Singapore",
+    "address": "238291, Singapore River, Central Region, Singapore",
+    "lat": 1.293797,
+    "lng": 103.842142,
+    "websiteUrl": "https://fullfocus.racing/",
+    "phone": "+65 8899 2872"
+  },
+  {
+    "id": "310",
+    "slug": "racestudios",
+    "name": "RaceStudios",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "city": "Singapore",
+    "address": "21, Hillview Avenue, Hillview, Bukit Batok, West Region, Singapore, 667981, Singapore",
+    "lat": 1.363681,
+    "lng": 103.764999,
+    "websiteUrl": "https://racestudios.sg/",
+    "phone": "+65 8010 5055"
+  },
+  {
+    "id": "311",
     "slug": "hipole-sim-racing-minhang",
     "name": "HiPole Sim Racing (Minhang)",
     "categories": [
@@ -4156,14 +5230,14 @@ export const generatedListings: Listing[] = [
     "country": "China",
     "countryCode": "CN",
     "city": "Shanghai",
-    "address": "People's Square, Jiangyin, Nanjingdonglu Subdistrict, Shanghai, Huangpu District, Shanghai, 200001, China",
-    "lat": 31.231271,
-    "lng": 121.470015,
+    "address": "Minhang District, Shanghai, China",
+    "lat": 31.114767,
+    "lng": 121.376943,
     "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
     "phone": "133 7022 6323"
   },
   {
-    "id": "314",
+    "id": "312",
     "slug": "hipole-sim-racing-xuhui",
     "name": "HiPole Sim Racing (Xuhui)",
     "categories": [
@@ -4173,14 +5247,14 @@ export const generatedListings: Listing[] = [
     "country": "China",
     "countryCode": "CN",
     "city": "Shanghai",
-    "address": "People's Square, Jiangyin, Nanjingdonglu Subdistrict, Shanghai, Huangpu District, Shanghai, 200001, China",
-    "lat": 31.231271,
-    "lng": 121.470015,
+    "address": "Xuhui District, Shanghai, China",
+    "lat": 31.190094,
+    "lng": 121.431114,
     "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
     "phone": "135 6435 1096"
   },
   {
-    "id": "315",
+    "id": "313",
     "slug": "hipole-sim-racing-chengdu",
     "name": "HiPole Sim Racing (Chengdu)",
     "categories": [
@@ -4197,7 +5271,7 @@ export const generatedListings: Listing[] = [
     "phone": "199 3880 5891"
   },
   {
-    "id": "316",
+    "id": "314",
     "slug": "hipole-sim-racing-xian",
     "name": "HiPole Sim Racing (Xi'an)",
     "categories": [
@@ -4214,7 +5288,7 @@ export const generatedListings: Listing[] = [
     "phone": "177 9583 4815"
   },
   {
-    "id": "317",
+    "id": "315",
     "slug": "apex-sim-racing-club",
     "name": "Apex Sim Racing Club",
     "categories": [
@@ -4231,7 +5305,208 @@ export const generatedListings: Listing[] = [
     "phone": "098 275 2000"
   },
   {
-    "id": "330",
+    "id": "316",
+    "slug": "bamboo-gaming-center-and-bar",
+    "name": "Bamboo Gaming Center & Bar",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "city": "Bangkok",
+    "address": "Soi Ekkamai 22, Nuan Chit Community, Khlong Tan Nuea Subdistrict, Vadhana District, Bangkok, 10110, Thailand",
+    "lat": 13.735144,
+    "lng": 100.591464,
+    "websiteUrl": "https://www.bambooesc.com/racing-simulator-bangkok/",
+    "phone": "+66 6503 93924"
+  },
+  {
+    "id": "317",
+    "slug": "rush-racing-esports",
+    "name": "Rush Racing Esports",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Indoor Kartdrome, Turin Boulevard Road, Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
+    "lat": 25.044241,
+    "lng": 55.237926,
+    "websiteUrl": "https://rush-racing.com/",
+    "phone": "+971 58 536 0320"
+  },
+  {
+    "id": "318",
+    "slug": "immersive-esports",
+    "name": "Immersive Esports",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Umm Suqeim Street, Al Barsha, Al Quoz Industrial 4, Al Barsha 2, Dubai Emirate, United Arab Emirates",
+    "lat": 25.116789,
+    "lng": 55.211006,
+    "websiteUrl": "https://immersive-esports.net/"
+  },
+  {
+    "id": "319",
+    "slug": "racecraft",
+    "name": "Racecraft",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Abu Dhabi",
+    "address": "Marina Walk Bridge, Yas Island, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+    "lat": 24.467411,
+    "lng": 54.606074,
+    "websiteUrl": "https://racecraft.ae/",
+    "phone": "+971 2 556 7144"
+  },
+  {
+    "id": "320",
+    "slug": "virtual-racing-hub",
+    "name": "Virtual Racing Hub",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "New Delhi",
+    "address": "Kartavya Path, Raisina Hill, New Delhi, Delhi, 110004, India",
+    "lat": 28.613895,
+    "lng": 77.209006,
+    "websiteUrl": "https://www.virtualracinghub.com/pages/sim-room",
+    "phone": "+91-8448868638"
+  },
+  {
+    "id": "321",
+    "slug": "racing-rigs",
+    "name": "Racing Rigs",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Bengaluru",
+    "address": "South End A Cross, KSRTC Layout, JP Nagar 2nd Phase, Pattabhirama Nagara, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560078, India",
+    "lat": 12.916434,
+    "lng": 77.595033,
+    "websiteUrl": "https://racingrigs.in/",
+    "phone": "+91-9071097777"
+  },
+  {
+    "id": "322",
+    "slug": "proracing-simulation-and-training-center",
+    "name": "ProRacing Simulation & Training Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Hong Kong",
+    "address": "Tai Kok Tsui, Yau Tsim Mong District, Kowloon, Hong Kong, China",
+    "lat": 22.320751,
+    "lng": 114.160351,
+    "websiteUrl": "https://proracing.com.hk/"
+  },
+  {
+    "id": "323",
+    "slug": "godzpeed-autosport-racing-simulation",
+    "name": "Godzpeed Autosport Racing Simulation",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Hong Kong",
+    "address": "2, Ho Pong Street, Tuen Mun San Hui, Tuen Mun Central, Tuen Mun District, New Territories, Hong Kong, China",
+    "lat": 22.394871,
+    "lng": 113.973007,
+    "websiteUrl": "https://www.godzpeed.com/",
+    "phone": "(852) 6700 6093"
+  },
+  {
+    "id": "324",
+    "slug": "ironclad-racing-experience-center",
+    "name": "IronClad Racing Experience Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Hong Kong",
+    "address": "Cheung Sha Wan, Sham Shui Po District, Kowloon, Hong Kong, China",
+    "lat": 22.33719,
+    "lng": 114.153727,
+    "websiteUrl": "https://www.ironcladracing.com/",
+    "phone": "+852 3100 0076"
+  },
+  {
+    "id": "325",
+    "slug": "weathertech-raceway-laguna-seca",
+    "name": "WeatherTech Raceway Laguna Seca",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Salinas",
+    "address": "Salinas, Monterey County, California, United States",
+    "lat": 36.674412,
+    "lng": -121.655037,
+    "websiteUrl": "https://weathertechraceway.com/",
+    "phone": "+1 831-242-8201"
+  },
+  {
+    "id": "326",
+    "slug": "sonoma-raceway",
+    "name": "Sonoma Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Sonoma",
+    "address": "Sonoma Raceway, 29355, Arnold Drive, Sears Point, Sonoma County, California, 95476, United States",
+    "lat": 38.160919,
+    "lng": -122.454835,
+    "websiteUrl": "https://www.sonomaraceway.com/",
+    "phone": "+1 707-509-3813"
+  },
+  {
+    "id": "327",
+    "slug": "thunderhill-raceway-park",
+    "name": "Thunderhill Raceway Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Willows",
+    "address": "Willows, Glenn County, California, 95988, United States",
+    "lat": 39.523328,
+    "lng": -122.193531,
+    "websiteUrl": "https://www.thunderhill.com/"
+  },
+  {
+    "id": "328",
     "slug": "buttonwillow-raceway-park",
     "name": "Buttonwillow Raceway Park",
     "categories": [
@@ -4247,7 +5522,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://buttonwillowraceway.com/"
   },
   {
-    "id": "331",
+    "id": "329",
     "slug": "the-ridge-motorsports-park",
     "name": "The Ridge Motorsports Park",
     "categories": [
@@ -4256,15 +5531,15 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Sharon Springs",
-    "address": "Sharon Springs, Sharon Springs Township, Wallace County, Kansas, 67758, United States",
-    "lat": 38.907385,
-    "lng": -101.75651,
+    "city": "Shelton",
+    "address": "Shelton, Mason County, Washington, United States",
+    "lat": 47.215095,
+    "lng": -123.100706,
     "websiteUrl": "https://www.ridgemotorsportspark.com/",
     "phone": "+1 360-427-7223"
   },
   {
-    "id": "332",
+    "id": "330",
     "slug": "pacific-raceways",
     "name": "Pacific Raceways",
     "categories": [
@@ -4280,7 +5555,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://pacificraceways.com/"
   },
   {
-    "id": "333",
+    "id": "331",
     "slug": "portland-international-raceway",
     "name": "Portland International Raceway",
     "categories": [
@@ -4296,7 +5571,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://portlandraceway.com/"
   },
   {
-    "id": "334",
+    "id": "332",
     "slug": "utah-motorsports-campus",
     "name": "Utah Motorsports Campus",
     "categories": [
@@ -4305,13 +5580,13 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Toledo",
-    "address": "The University of Toledo, 2801, Douglas Road, Vulcan, Toledo, Lucas County, Ohio, 43606, United States",
-    "lat": 41.658395,
-    "lng": -83.614791
+    "city": "Tooele",
+    "address": "Tooele County, Utah, United States",
+    "lat": 40.406287,
+    "lng": -113.196639
   },
   {
-    "id": "335",
+    "id": "333",
     "slug": "inde-motorsports-ranch",
     "name": "Inde Motorsports Ranch",
     "categories": [
@@ -4328,7 +5603,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 520-384-0796"
   },
   {
-    "id": "336",
+    "id": "334",
     "slug": "firebird-motorsports-park",
     "name": "Firebird Motorsports Park",
     "categories": [
@@ -4344,23 +5619,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://racefirebird.com/"
   },
   {
-    "id": "337",
-    "slug": "arizona-motorsports-park",
-    "name": "Arizona Motorsports Park",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Litchfield Park",
-    "address": "14486, West Camelback Road, Litchfield Park, Maricopa County, Arizona, 85340, United States",
-    "lat": 33.508198,
-    "lng": -112.370571,
-    "phone": "+1 602-622-0035"
-  },
-  {
-    "id": "338",
+    "id": "335",
     "slug": "motorsport-ranch-cresson",
     "name": "MotorSport Ranch Cresson",
     "categories": [
@@ -4375,7 +5634,7 @@ export const generatedListings: Listing[] = [
     "lng": -97.615943
   },
   {
-    "id": "339",
+    "id": "336",
     "slug": "eagles-canyon-raceway",
     "name": "Eagles Canyon Raceway",
     "categories": [
@@ -4392,7 +5651,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 817-583-9476"
   },
   {
-    "id": "340",
+    "id": "337",
     "slug": "harris-hill-raceway",
     "name": "Harris Hill Raceway",
     "categories": [
@@ -4408,7 +5667,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://harrishillroad.com/"
   },
   {
-    "id": "341",
+    "id": "338",
     "slug": "road-america",
     "name": "Road America",
     "categories": [
@@ -4424,7 +5683,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.roadamerica.com/"
   },
   {
-    "id": "342",
+    "id": "339",
     "slug": "grattan-raceway",
     "name": "Grattan Raceway",
     "categories": [
@@ -4439,7 +5698,7 @@ export const generatedListings: Listing[] = [
     "lng": -85.384898
   },
   {
-    "id": "343",
+    "id": "340",
     "slug": "gingerman-raceway",
     "name": "GingerMan Raceway",
     "categories": [
@@ -4456,7 +5715,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 269-253-4445"
   },
   {
-    "id": "344",
+    "id": "341",
     "slug": "autobahn-country-club",
     "name": "Autobahn Country Club",
     "categories": [
@@ -4472,7 +5731,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 815-722-2223"
   },
   {
-    "id": "345",
+    "id": "342",
     "slug": "blackhawk-farms-raceway",
     "name": "Blackhawk Farms Raceway",
     "categories": [
@@ -4487,7 +5746,7 @@ export const generatedListings: Listing[] = [
     "lng": -89.114653
   },
   {
-    "id": "346",
+    "id": "343",
     "slug": "mid-ohio-sports-car-course",
     "name": "Mid-Ohio Sports Car Course",
     "categories": [
@@ -4504,22 +5763,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 419-884-4000"
   },
   {
-    "id": "347",
-    "slug": "pittsburgh-international-race-complex",
-    "name": "Pittsburgh International Race Complex",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Wampum",
-    "address": "Pittsburgh International Race Complex, 201, Penndale Road, Hoytdale, Wampum, Beaver County, Pennsylvania, 16157, United States",
-    "lat": 40.847973,
-    "lng": -80.347236
-  },
-  {
-    "id": "348",
+    "id": "344",
     "slug": "summit-point-motorsports-park",
     "name": "Summit Point Motorsports Park",
     "categories": [
@@ -4535,7 +5779,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://summitpointmp.com/"
   },
   {
-    "id": "349",
+    "id": "345",
     "slug": "watkins-glen-international",
     "name": "Watkins Glen International",
     "categories": [
@@ -4550,7 +5794,7 @@ export const generatedListings: Listing[] = [
     "lng": -76.922383
   },
   {
-    "id": "350",
+    "id": "346",
     "slug": "lime-rock-park",
     "name": "Lime Rock Park",
     "categories": [
@@ -4566,7 +5810,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://limerock.com/"
   },
   {
-    "id": "351",
+    "id": "347",
     "slug": "new-jersey-motorsports-park",
     "name": "New Jersey Motorsports Park",
     "categories": [
@@ -4583,7 +5827,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 856-327-8000"
   },
   {
-    "id": "352",
+    "id": "348",
     "slug": "palmer-motorsports-park",
     "name": "Palmer Motorsports Park",
     "categories": [
@@ -4599,7 +5843,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://palmermsp.com/"
   },
   {
-    "id": "353",
+    "id": "349",
     "slug": "michelin-raceway-road-atlanta",
     "name": "Michelin Raceway Road Atlanta",
     "categories": [
@@ -4615,7 +5859,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://michelinracewayroadatlanta.com/"
   },
   {
-    "id": "354",
+    "id": "350",
     "slug": "sebring-international-raceway",
     "name": "Sebring International Raceway",
     "categories": [
@@ -4631,7 +5875,24 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.sebringraceway.com/"
   },
   {
-    "id": "356",
+    "id": "351",
+    "slug": "virginia-international-raceway",
+    "name": "Virginia International Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Alton",
+    "address": "Virginia International Raceway, 1245, Pine Tree Road, Halifax County, Virginia, 24520, United States",
+    "lat": 36.562447,
+    "lng": -79.206345,
+    "websiteUrl": "https://virnow.com/",
+    "phone": "+1 434-822-7700"
+  },
+  {
+    "id": "352",
     "slug": "ncm-motorsports-park",
     "name": "NCM Motorsports Park",
     "categories": [
@@ -4640,15 +5901,15 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Mead Township",
-    "address": "51102, Key Bellaire Road, Mead Township, Belmont County, Ohio, 43906, United States",
-    "lat": 39.975073,
-    "lng": -80.870091,
+    "city": "Bowling Green",
+    "address": "Bowling Green, Warren County, Kentucky, 42101, United States",
+    "lat": 36.99292,
+    "lng": -86.442868,
     "websiteUrl": "https://www.motorsportspark.org/",
     "phone": "+1 844-977-7333"
   },
   {
-    "id": "357",
+    "id": "353",
     "slug": "barber-motorsports-park",
     "name": "Barber Motorsports Park",
     "categories": [
@@ -4664,7 +5925,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://barberracingevents.com/"
   },
   {
-    "id": "358",
+    "id": "354",
     "slug": "nola-motorsports-park",
     "name": "NOLA Motorsports Park",
     "categories": [
@@ -4680,7 +5941,24 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://nolamotor.com/"
   },
   {
-    "id": "360",
+    "id": "355",
+    "slug": "carolina-motorsports-park",
+    "name": "Carolina Motorsports Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Kershaw",
+    "address": "Carolina Motorsports Park, 3662, Kershaw Highway, Westville, Kershaw County, South Carolina, 29067, United States",
+    "lat": 34.488809,
+    "lng": -80.595083,
+    "websiteUrl": "https://carolinamotorsportspark.com/",
+    "phone": "+1 803-475-2448"
+  },
+  {
+    "id": "356",
     "slug": "roebling-road-raceway",
     "name": "Roebling Road Raceway",
     "categories": [
@@ -4697,7 +5975,39 @@ export const generatedListings: Listing[] = [
     "phone": "+1 912-748-4205"
   },
   {
-    "id": "363",
+    "id": "357",
+    "slug": "willow-springs-international-raceway",
+    "name": "Willow Springs International Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Rosamond",
+    "address": "Rosamond, Kern County, California, 93560, United States",
+    "lat": 34.871472,
+    "lng": -118.215842,
+    "websiteUrl": "https://willowspringsraceway.com/"
+  },
+  {
+    "id": "358",
+    "slug": "chuckwalla-valley-raceway",
+    "name": "Chuckwalla Valley Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Desert Center",
+    "address": "Rice Road, Desert Center, Riverside County, California, 92239, United States",
+    "lat": 33.714956,
+    "lng": -115.399479,
+    "websiteUrl": "https://chuckwalla.com/"
+  },
+  {
+    "id": "359",
     "slug": "hallett-motor-racing-circuit",
     "name": "Hallett Motor Racing Circuit",
     "categories": [
@@ -4714,7 +6024,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 918-356-4814"
   },
   {
-    "id": "364",
+    "id": "360",
     "slug": "msr-houston",
     "name": "MSR Houston",
     "categories": [
@@ -4731,7 +6041,7 @@ export const generatedListings: Listing[] = [
     "phone": "+1 281-595-3305"
   },
   {
-    "id": "365",
+    "id": "361",
     "slug": "putnam-park-road-course",
     "name": "Putnam Park Road Course",
     "categories": [
@@ -4747,7 +6057,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://putnampark.com/"
   },
   {
-    "id": "366",
+    "id": "362",
     "slug": "daytona-international-speedway",
     "name": "Daytona International Speedway",
     "categories": [
@@ -4763,7 +6073,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.daytonainternationalspeedway.com/"
   },
   {
-    "id": "367",
+    "id": "363",
     "slug": "sepang-international-circuit",
     "name": "Sepang International Circuit",
     "categories": [
@@ -4779,7 +6089,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://www.sepangcircuit.com/"
   },
   {
-    "id": "368",
+    "id": "364",
     "slug": "chang-international-circuit",
     "name": "Chang International Circuit",
     "categories": [
@@ -4794,7 +6104,7 @@ export const generatedListings: Listing[] = [
     "lng": 103.098999
   },
   {
-    "id": "369",
+    "id": "365",
     "slug": "bira-international-circuit",
     "name": "Bira International Circuit",
     "categories": [
@@ -4810,7 +6120,7 @@ export const generatedListings: Listing[] = [
     "phone": "+66 38 938140"
   },
   {
-    "id": "370",
+    "id": "366",
     "slug": "sentul-international-circuit",
     "name": "Sentul International Circuit",
     "categories": [
@@ -4825,7 +6135,7 @@ export const generatedListings: Listing[] = [
     "lng": 106.861138
   },
   {
-    "id": "371",
+    "id": "367",
     "slug": "buddh-international-circuit",
     "name": "Buddh International Circuit",
     "categories": [
@@ -4840,7 +6150,7 @@ export const generatedListings: Listing[] = [
     "lng": 80.947821
   },
   {
-    "id": "372",
+    "id": "368",
     "slug": "madras-international-circuit",
     "name": "Madras International Circuit",
     "categories": [
@@ -4855,7 +6165,7 @@ export const generatedListings: Listing[] = [
     "lng": 79.99042
   },
   {
-    "id": "373",
+    "id": "369",
     "slug": "fuji-speedway",
     "name": "Fuji Speedway",
     "categories": [
@@ -4870,7 +6180,7 @@ export const generatedListings: Listing[] = [
     "lng": 138.38317
   },
   {
-    "id": "374",
+    "id": "370",
     "slug": "twin-ring-motegi-mobility-resort-motegi",
     "name": "Twin Ring Motegi (Mobility Resort Motegi)",
     "categories": [
@@ -4885,7 +6195,7 @@ export const generatedListings: Listing[] = [
     "lng": 139.809655
   },
   {
-    "id": "375",
+    "id": "371",
     "slug": "okayama-international-circuit",
     "name": "Okayama International Circuit",
     "categories": [
@@ -4900,7 +6210,7 @@ export const generatedListings: Listing[] = [
     "lng": 134.220253
   },
   {
-    "id": "376",
+    "id": "372",
     "slug": "sportsland-sugo",
     "name": "Sportsland SUGO",
     "categories": [
@@ -4917,7 +6227,7 @@ export const generatedListings: Listing[] = [
     "phone": "+81 224-83-3111"
   },
   {
-    "id": "377",
+    "id": "373",
     "slug": "autopolis-international-racing-course",
     "name": "Autopolis International Racing Course",
     "categories": [
@@ -4932,7 +6242,7 @@ export const generatedListings: Listing[] = [
     "lng": 131.609652
   },
   {
-    "id": "378",
+    "id": "374",
     "slug": "tsukuba-circuit",
     "name": "Tsukuba Circuit",
     "categories": [
@@ -4947,7 +6257,7 @@ export const generatedListings: Listing[] = [
     "lng": 135.568553
   },
   {
-    "id": "379",
+    "id": "375",
     "slug": "ebisu-circuit",
     "name": "Ebisu Circuit",
     "categories": [
@@ -4962,7 +6272,7 @@ export const generatedListings: Listing[] = [
     "lng": 140.474581
   },
   {
-    "id": "380",
+    "id": "376",
     "slug": "central-circuit",
     "name": "Central Circuit",
     "categories": [
@@ -4977,7 +6287,7 @@ export const generatedListings: Listing[] = [
     "lng": 135.164182
   },
   {
-    "id": "381",
+    "id": "377",
     "slug": "sodegaura-forest-raceway",
     "name": "Sodegaura Forest Raceway",
     "categories": [
@@ -4992,7 +6302,7 @@ export const generatedListings: Listing[] = [
     "lng": 140.26473
   },
   {
-    "id": "382",
+    "id": "378",
     "slug": "korea-international-circuit",
     "name": "Korea International Circuit",
     "categories": [
@@ -5007,7 +6317,7 @@ export const generatedListings: Listing[] = [
     "lng": 126.401429
   },
   {
-    "id": "383",
+    "id": "379",
     "slug": "inje-speedium",
     "name": "Inje Speedium",
     "categories": [
@@ -5022,7 +6332,7 @@ export const generatedListings: Listing[] = [
     "lng": 128.292613
   },
   {
-    "id": "384",
+    "id": "380",
     "slug": "everland-speedway",
     "name": "Everland Speedway",
     "categories": [
@@ -5037,7 +6347,7 @@ export const generatedListings: Listing[] = [
     "lng": 127.202479
   },
   {
-    "id": "385",
+    "id": "381",
     "slug": "zhuhai-international-circuit",
     "name": "Zhuhai International Circuit",
     "categories": [
@@ -5052,7 +6362,7 @@ export const generatedListings: Listing[] = [
     "lng": 113.198269
   },
   {
-    "id": "386",
+    "id": "382",
     "slug": "ningbo-international-speedpark",
     "name": "Ningbo International Speedpark",
     "categories": [
@@ -5067,7 +6377,7 @@ export const generatedListings: Listing[] = [
     "lng": 120
   },
   {
-    "id": "387",
+    "id": "383",
     "slug": "shanghai-tianma-circuit",
     "name": "Shanghai Tianma Circuit",
     "categories": [
@@ -5082,7 +6392,23 @@ export const generatedListings: Listing[] = [
     "lng": 121.224568
   },
   {
-    "id": "389",
+    "id": "384",
+    "slug": "dubai-autodrome",
+    "name": "Dubai Autodrome",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Dubai Autodrome, Turin Boulevard Road, Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
+    "lat": 25.050158,
+    "lng": 55.236342,
+    "websiteUrl": "https://dubaiautodrome.ae/"
+  },
+  {
+    "id": "385",
     "slug": "clark-international-speedway",
     "name": "Clark International Speedway",
     "categories": [
@@ -5098,7 +6424,7 @@ export const generatedListings: Listing[] = [
     "phone": "+63 45 499 8034"
   },
   {
-    "id": "390",
+    "id": "386",
     "slug": "in-and-outdoor-kartbahn-wien",
     "name": "In & Outdoor Kartbahn Wien",
     "categories": [
@@ -5115,7 +6441,7 @@ export const generatedListings: Listing[] = [
     "phone": "0676 3217990"
   },
   {
-    "id": "391",
+    "id": "387",
     "slug": "koszegi-karting-track",
     "name": "Kőszegi Karting Track",
     "categories": [
@@ -5132,7 +6458,7 @@ export const generatedListings: Listing[] = [
     "phone": "+36 70 315 4741"
   },
   {
-    "id": "392",
+    "id": "388",
     "slug": "radring-karting",
     "name": "Radring Karting",
     "categories": [
@@ -5149,7 +6475,7 @@ export const generatedListings: Listing[] = [
     "phone": "+36 20 980 8515"
   },
   {
-    "id": "393",
+    "id": "389",
     "slug": "speedarena-go-kart-bahn-in-rechnitz",
     "name": "Speedarena Go Kart Bahn in Rechnitz",
     "categories": [
@@ -5167,7 +6493,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://speedarena.at/upload/resized/xel00880_resized_Oehyr89JgM.jpg"
   },
   {
-    "id": "394",
+    "id": "390",
     "slug": "karting-center-maribor",
     "name": "Karting Center Maribor",
     "categories": [
@@ -5184,7 +6510,7 @@ export const generatedListings: Listing[] = [
     "phone": "+386 31 577 581"
   },
   {
-    "id": "395",
+    "id": "391",
     "slug": "karting-arena-osijek-avenue-mall",
     "name": "Karting Arena Osijek Avenue Mall",
     "categories": [
@@ -5200,7 +6526,7 @@ export const generatedListings: Listing[] = [
     "phone": "+385 99 407 3870"
   },
   {
-    "id": "396",
+    "id": "392",
     "slug": "gokart-centar-west",
     "name": "GoKart Centar West",
     "categories": [
@@ -5218,7 +6544,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://content.selectbox.hr/uploads/2024/07/449953776_122185699022019376_1326310712170900414_n-1024x683.jpg"
   },
   {
-    "id": "397",
+    "id": "393",
     "slug": "pro-karting-koper",
     "name": "Pro karting Koper",
     "categories": [
@@ -5236,7 +6562,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://prokartingslovenija.si/wp-content/uploads/2024/07/IMG_7683.jpg"
   },
   {
-    "id": "398",
+    "id": "394",
     "slug": "karting-koper-kartodromo-capodistria",
     "name": "Karting Koper / Kartodromo Capodistria",
     "categories": [
@@ -5253,7 +6579,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://prokartingslovenija.si/wp-content/uploads/2024/07/IMG_7674.jpg"
   },
   {
-    "id": "399",
+    "id": "395",
     "slug": "circuito-naparrak-drift",
     "name": "CIRCUITO NAPARRAK DRIFT",
     "categories": [
@@ -5262,14 +6588,14 @@ export const generatedListings: Listing[] = [
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "Úcar",
-    "address": "Camino de Elordi, Úcar, Izarbeibar-Novenera, Navarre, 31153, Spain",
-    "lat": 42.702794,
-    "lng": -1.708623,
+    "city": "Allo",
+    "address": "Allo, Estellerria, Navarra, Spain",
+    "lat": 42.567371,
+    "lng": -2.021117,
     "phone": "+34 676 44 81 31"
   },
   {
-    "id": "400",
+    "id": "396",
     "slug": "ala-karting-circuit",
     "name": "Ala Karting Circuit",
     "categories": [
@@ -5286,7 +6612,7 @@ export const generatedListings: Listing[] = [
     "phone": "+39 366 226 3776"
   },
   {
-    "id": "401",
+    "id": "397",
     "slug": "kartodromo-internacional-de-braga",
     "name": "Kartódromo internacional de Braga",
     "categories": [
@@ -5303,7 +6629,7 @@ export const generatedListings: Listing[] = [
     "phone": "+351 253 607 560"
   },
   {
-    "id": "402",
+    "id": "398",
     "slug": "kart-club-graubunden",
     "name": "Kart Club Graubünden",
     "categories": [
@@ -5319,7 +6645,7 @@ export const generatedListings: Listing[] = [
     "websiteUrl": "https://kcgr.ch"
   },
   {
-    "id": "403",
+    "id": "399",
     "slug": "spirit-karting-ag",
     "name": "Spirit Karting AG",
     "categories": [
@@ -5337,7 +6663,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://spirit-karting.ch/wp-content/uploads/2023/08/SK_101-1920x1093.jpg"
   },
   {
-    "id": "404",
+    "id": "400",
     "slug": "indoor-karting-waldshut-gmbh",
     "name": "Indoor-Karting Waldshut GmbH",
     "categories": [
@@ -5355,7 +6681,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.kartbahn-waldshut.de/fileadmin/_processed_/1/f/csm_IMG_0119_4dafda2ef5.jpg"
   },
   {
-    "id": "405",
+    "id": "401",
     "slug": "pista-go-kart-locarno-magadino",
     "name": "Pista Go-Kart Locarno-Magadino",
     "categories": [
@@ -5373,7 +6699,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.karts.ch/wp-content/uploads/2022/10/FDA80F6E-BD15-42FF-A1D1-ECA663E5B7AE-1200x746.jpg"
   },
   {
-    "id": "406",
+    "id": "402",
     "slug": "kartbahn-kappelen-ag",
     "name": "Kartbahn Kappelen AG",
     "categories": [
@@ -5391,7 +6717,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://pcdn1.i-web.ch/KM0fIpJY2S-HNjCyRcsKbALq3m4=/600x0/smart/filters:strip_exif()/g377/0/0/63a18c86f4117"
   },
   {
-    "id": "407",
+    "id": "403",
     "slug": "karting-payerneland",
     "name": "Karting Payerneland",
     "categories": [
@@ -5409,7 +6735,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://payerneland.ch/wp-content/uploads/2025/03/home-banner-indoor-mobile.jpg"
   },
   {
-    "id": "408",
+    "id": "404",
     "slug": "karting-vuiteboeuf-good-kart-indoor-sarl",
     "name": "Karting Vuiteboeuf / Good Kart Indoor Sàrl",
     "categories": [
@@ -5426,7 +6752,7 @@ export const generatedListings: Listing[] = [
     "phone": "+41 24 459 19 22"
   },
   {
-    "id": "410",
+    "id": "406",
     "slug": "karting-centar-bijeljina",
     "name": "Karting Centar Bijeljina",
     "categories": [
@@ -5444,7 +6770,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://op.bhrt.ba/wp-content/uploads/2020/06/karting-naslovna-1-768x294.jpg"
   },
   {
-    "id": "411",
+    "id": "407",
     "slug": "karting-arena-speedxtreme-tuzla",
     "name": "Karting Arena SpeedXtreme Tuzla",
     "categories": [
@@ -5462,7 +6788,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://gdjeizaci.ba/wp-content/uploads/2023/07/speedxtreme-tuzla-1.jpg"
   },
   {
-    "id": "412",
+    "id": "408",
     "slug": "speedworld-kart-racing",
     "name": "Speedworld Kart Racing",
     "categories": [
@@ -5480,7 +6806,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://speedworld-kart.at/images/strecke-hero.jpg"
   },
   {
-    "id": "413",
+    "id": "409",
     "slug": "kartbahn-ziersdorf-kartshop-eichinger",
     "name": "Kartbahn Ziersdorf - Kartshop Eichinger",
     "categories": [
@@ -5497,7 +6823,7 @@ export const generatedListings: Listing[] = [
     "phone": "0664 4328005"
   },
   {
-    "id": "414",
+    "id": "410",
     "slug": "daytona-raceways",
     "name": "Daytona Raceways",
     "categories": [
@@ -5515,7 +6841,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://karthalle.wien/wp-content/uploads/2024/10/halle.jpg"
   },
   {
-    "id": "415",
+    "id": "411",
     "slug": "racb-karting-spa-francorchamps",
     "name": "RACB Karting Spa-Francorchamps",
     "categories": [
@@ -5533,7 +6859,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.francorchamps-karting.be/images/site/2024121754_1734447294se.jpg"
   },
   {
-    "id": "416",
+    "id": "412",
     "slug": "curva-del-carro-misano-world-circuit",
     "name": "Curva del Carro - Misano World Circuit",
     "categories": [
@@ -5549,7 +6875,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Misano_World_Circuit_Marco_Simoncelli.jpg"
   },
   {
-    "id": "417",
+    "id": "413",
     "slug": "racing-in-italy",
     "name": "Racing in Italy",
     "categories": [
@@ -5566,7 +6892,7 @@ export const generatedListings: Listing[] = [
     "phone": "+39 328 596 9126"
   },
   {
-    "id": "418",
+    "id": "414",
     "slug": "porsche-experience-center-leipzig",
     "name": "Porsche Experience Center Leipzig",
     "categories": [
@@ -5584,7 +6910,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.porsche-leipzig.com/fileadmin/_processed_content/3/3/csm_Porsche-Experience-Center-Leipzig-Hero_57ef75919e.jpg"
   },
   {
-    "id": "419",
+    "id": "415",
     "slug": "prokart-raceland-gmbh-and-co-kg",
     "name": "Prokart Raceland GmbH & Co. KG",
     "categories": [
@@ -5601,7 +6927,7 @@ export const generatedListings: Listing[] = [
     "phone": "+49 9431 75520"
   },
   {
-    "id": "421",
+    "id": "417",
     "slug": "steel-ring-trinec-ltd",
     "name": "STEEL RING TRINEC Ltd.",
     "categories": [
@@ -5619,7 +6945,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.steelring.cz/content_data/slider/1/1_dji-fly-20250810-094218-0091-1754811922521-photo.jpg"
   },
   {
-    "id": "422",
+    "id": "418",
     "slug": "verkehrssicherheitszentrum-and-sachsenring-gmbh-and-co-kg",
     "name": "Verkehrssicherheitszentrum & Sachsenring GmbH & Co. KG",
     "categories": [
@@ -5637,7 +6963,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://hohenstein-ernstthal.de/fileadmin/user_upload/Bilder/sachsenring/VSZ_Fahrsicherheitstraining.jpg"
   },
   {
-    "id": "423",
+    "id": "419",
     "slug": "brno-circuit",
     "name": "BRNO Circuit",
     "categories": [
@@ -5654,7 +6980,7 @@ export const generatedListings: Listing[] = [
     "phone": "+420 546 123 300"
   },
   {
-    "id": "425",
+    "id": "421",
     "slug": "raceland-krsko",
     "name": "Raceland Krško",
     "categories": [
@@ -5670,7 +6996,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://karting.raceland.si/wp-content/uploads/2022/07/raceland-glava-slika-2019-700x441.jpg"
   },
   {
-    "id": "426",
+    "id": "422",
     "slug": "kartodrom-bura",
     "name": "Kartodrom Bura",
     "categories": [
@@ -5686,7 +7012,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://gokartcrocup.com/ieNews/media/7-staza-bura.jpg"
   },
   {
-    "id": "427",
+    "id": "423",
     "slug": "green-garden-go-kart",
     "name": "Green Garden Go kart",
     "categories": [
@@ -5702,7 +7028,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.karting.hr/images/objects/02.jpg"
   },
   {
-    "id": "428",
+    "id": "424",
     "slug": "circuit-paddock",
     "name": "Circuit Paddock",
     "categories": [
@@ -5718,7 +7044,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Parcmotor_Castellol%C3%AD_09_Karting_and_Supermotard_circuit.jpg"
   },
   {
-    "id": "429",
+    "id": "425",
     "slug": "kartodromo-internacional-do-algarve",
     "name": "Kartódromo Internacional do Algarve",
     "categories": [
@@ -5733,7 +7059,7 @@ export const generatedListings: Listing[] = [
     "lng": -8.635789
   },
   {
-    "id": "430",
+    "id": "426",
     "slug": "south-garda-karting",
     "name": "South Garda Karting",
     "categories": [
@@ -5749,7 +7075,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.lonatoturismo.it/public/photo/4aa.jpg"
   },
   {
-    "id": "431",
+    "id": "427",
     "slug": "race-inn",
     "name": "Race-Inn",
     "categories": [
@@ -5765,7 +7091,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s9a6bbcc09155d36b/image/i1fb1e5588f502e6b/version/1551955501/image.jpg"
   },
   {
-    "id": "432",
+    "id": "428",
     "slug": "kart-bahn-wohlen-ag",
     "name": "Kart - Bahn - Wohlen AG",
     "categories": [
@@ -5781,7 +7107,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.kartbahnwohlen.ch/wp-content/uploads/2022/10/kartbahn-img1.jpg"
   },
   {
-    "id": "433",
+    "id": "429",
     "slug": "circuit-du-laquais",
     "name": "Circuit du Laquais",
     "categories": [
@@ -5797,7 +7123,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://circuitdulaquais.com/img/stage-pilotage-circuit-du-laquais.jpg"
   },
   {
-    "id": "434",
+    "id": "430",
     "slug": "vaison-piste",
     "name": "Vaison Piste",
     "categories": [
@@ -5813,7 +7139,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.cascadevents.fr/img/cms/Circuit/circuit-vaison.jpg"
   },
   {
-    "id": "435",
+    "id": "431",
     "slug": "circuit-de-bresse",
     "name": "Circuit de Bresse",
     "categories": [
@@ -5828,7 +7154,7 @@ export const generatedListings: Listing[] = [
     "lng": 5.328889
   },
   {
-    "id": "436",
+    "id": "432",
     "slug": "oamtc-fahrtechnikzentrum-wachauring",
     "name": "ÖAMTC Fahrtechnikzentrum Wachauring",
     "categories": [
@@ -5844,7 +7170,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.wachauring.at/files/freiesfahren/img/jpg/Roland2.jpg"
   },
   {
-    "id": "437",
+    "id": "433",
     "slug": "max-60",
     "name": "MAX 60",
     "categories": [
@@ -5860,7 +7186,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.motokary.sk/upload/banner/3.jpg"
   },
   {
-    "id": "438",
+    "id": "434",
     "slug": "kart-center-kottingbrunn",
     "name": "Kart Center Kottingbrunn",
     "categories": [
@@ -5876,7 +7202,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://www.kartcenter.at/images/astroid_template_zero/kopfbild.png"
   },
   {
-    "id": "439",
+    "id": "435",
     "slug": "monza",
     "name": "Monza",
     "categories": [
@@ -5891,7 +7217,7 @@ export const generatedListings: Listing[] = [
     "lng": 9.27883
   },
   {
-    "id": "440",
+    "id": "436",
     "slug": "styria-karting-gesmbh",
     "name": "Styria Karting GesmbH",
     "categories": [
@@ -5907,7 +7233,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://styriakarting.at/s3/d/wsw.website.12865/public/images/pages/kart-nordschleife-4.webp"
   },
   {
-    "id": "441",
+    "id": "437",
     "slug": "automotodrom-grobnik",
     "name": "Automotodrom Grobnik",
     "categories": [
@@ -5923,7 +7249,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Automotodrom_Rijeka3.JPG"
   },
   {
-    "id": "442",
+    "id": "438",
     "slug": "autodromo-enzo-e-dino-ferrari",
     "name": "Autodromo Enzo e Dino Ferrari",
     "categories": [
@@ -5939,7 +7265,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Autodromo_Internazionale_Enzo_e_Dino_Ferrari_Imola.jpg"
   },
   {
-    "id": "443",
+    "id": "439",
     "slug": "mugello-circuit",
     "name": "Mugello Circuit",
     "categories": [
@@ -5955,7 +7281,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mugello_circuit_superbike_21_September_2019_race_seen_from_the_Palagio_entrance.jpg"
   },
   {
-    "id": "444",
+    "id": "440",
     "slug": "autodromo-vallelunga-piero-taruffi",
     "name": "Autodromo Vallelunga Piero Taruffi",
     "categories": [
@@ -5971,7 +7297,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Vallelunga.race.circuit.in.italy.arp.jpg"
   },
   {
-    "id": "445",
+    "id": "441",
     "slug": "nurburgring",
     "name": "Nürburgring",
     "categories": [
@@ -5987,7 +7313,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Porsche_996_GT3_RS_at_the_N%C3%BCrburgring_Nordschleife_Br%C3%BCnnchen.JPG"
   },
   {
-    "id": "446",
+    "id": "442",
     "slug": "sachsenring",
     "name": "Sachsenring",
     "categories": [
@@ -6003,7 +7329,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aerial_image_of_Sachsenring_%28view_from_the_southwest%29.jpg"
   },
   {
-    "id": "447",
+    "id": "443",
     "slug": "hungaroring-gokart-center",
     "name": "Hungaroring GoKart Center",
     "categories": [
@@ -6019,7 +7345,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://hungaroringkartcenter.hu/pickezdo/dsc06035_89.jpg"
   },
   {
-    "id": "448",
+    "id": "444",
     "slug": "motorsport-arena-oschersleben",
     "name": "Motorsport Arena Oschersleben",
     "categories": [
@@ -6035,7 +7361,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aerial_image_of_Motorsport_Arena_Oschersleben_%28view_from_the_west%29.jpg"
   },
   {
-    "id": "449",
+    "id": "445",
     "slug": "red-bull-ring",
     "name": "Red Bull Ring",
     "categories": [
@@ -6051,7 +7377,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/United_Autosports_ELMS_Red_Bull_Ring_2017-218.jpg"
   },
   {
-    "id": "450",
+    "id": "446",
     "slug": "hungaroring",
     "name": "Hungaroring",
     "categories": [
@@ -6067,7 +7393,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hungaroring%2C_Mogyor%C3%B3d_12.jpg"
   },
   {
-    "id": "451",
+    "id": "447",
     "slug": "silesia-ring-kamien-slaski",
     "name": "Silesia Ring - Kamień Śląski",
     "categories": [
@@ -6083,7 +7409,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://silesiaring.pl/wp-content/uploads/2026/03/SILESIA_RING_f_Dominik_Kalamus_0091-1024x682.jpg"
   },
   {
-    "id": "452",
+    "id": "448",
     "slug": "pannonia-ring",
     "name": "Pannonia Ring",
     "categories": [
@@ -6099,7 +7425,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://pannonia-ring.com/media/2026/03/Pannonia_Ring_Turn_5.jpg"
   },
   {
-    "id": "453",
+    "id": "449",
     "slug": "autodrom-most",
     "name": "AUTODROM MOST",
     "categories": [
@@ -6115,7 +7441,7 @@ export const generatedListings: Listing[] = [
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Most_autodrom.JPG"
   },
   {
-    "id": "454",
+    "id": "450",
     "slug": "slovakia-ring",
     "name": "Slovakia Ring",
     "categories": [
@@ -6129,5 +7455,4204 @@ export const generatedListings: Listing[] = [
     "lat": 48.054621,
     "lng": 17.564862,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Slovakia_Ring_2018.jpg"
+  },
+  {
+    "id": "451",
+    "slug": "kyalami-grand-prix-circuit",
+    "name": "Kyalami Grand Prix Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Midrand",
+    "address": "Allandale Road, Kyalami, Midrand, Gauteng, South Africa",
+    "lat": -26.001883,
+    "lng": 28.086374,
+    "websiteUrl": "https://kyalamigrandprixcircuit.com/",
+    "phone": "+27 11 466 0204"
+  },
+  {
+    "id": "452",
+    "slug": "zwartkops-raceway",
+    "name": "Zwartkops Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Pretoria",
+    "address": "Quagga Road, Pretoria-West, Tshwane Ward 60, Pretoria, City of Tshwane Metropolitan Municipality, Gauteng, 1083, South Africa",
+    "lat": -25.749113,
+    "lng": 28.146197,
+    "websiteUrl": "https://www.zwartkops.co.za/",
+    "phone": "+27 12 384 2299"
+  },
+  {
+    "id": "453",
+    "slug": "killarney-international-raceway",
+    "name": "Killarney International Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Cape Town",
+    "address": "Potsdam Road, Cape Town Ward 113, Cape Town, City of Cape Town, Western Cape, 7435, South Africa",
+    "lat": -33.820449,
+    "lng": 18.533761,
+    "websiteUrl": "https://wpmc.co.za/",
+    "phone": "+27 21 557 1639"
+  },
+  {
+    "id": "454",
+    "slug": "red-star-raceway",
+    "name": "Red Star Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Victor Khanye Local Municipality",
+    "address": "N12, Victor Khanye Ward 9, Victor Khanye Local Municipality, Nkangala, Mpumalanga, South Africa",
+    "lat": -26.017232,
+    "lng": 28.960571,
+    "websiteUrl": "https://www.redstarraceway.co.za/",
+    "phone": "+27 76 624 6972"
+  },
+  {
+    "id": "455",
+    "slug": "aldo-scribante-race-circuit",
+    "name": "Aldo Scribante Race Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Gqeberha",
+    "address": "Vulindlela Village, Coega Vulindlela Village, Nelson Mandela Bay Ward 60, Gqeberha, Nelson Mandela Bay Metropolitan Municipality, Eastern Cape, 6212, South Africa",
+    "lat": -33.825987,
+    "lng": 25.642643,
+    "websiteUrl": "https://amsc.co.za/",
+    "phone": "+27 66 464 1690"
+  },
+  {
+    "id": "456",
+    "slug": "kartzone",
+    "name": "Kartzone",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Pretoria",
+    "address": "Quagga Road, Pretoria-West, Tshwane Ward 60, Pretoria, City of Tshwane Metropolitan Municipality, Gauteng, 1083, South Africa",
+    "lat": -25.749113,
+    "lng": 28.146197,
+    "websiteUrl": "https://kartzone.co.za/",
+    "phone": "+27 82 456 9773"
+  },
+  {
+    "id": "457",
+    "slug": "epic-karting-syringa-park",
+    "name": "Epic Karting Syringa Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Muldersdrift",
+    "address": "Avianto Estate, Muldersdrift, Gauteng, South Africa",
+    "lat": -26.03587,
+    "lng": 27.848105,
+    "websiteUrl": "https://epickarting.co.za/syringa-park/",
+    "phone": "+27 10 500 8640"
+  },
+  {
+    "id": "458",
+    "slug": "kyalami-indoor-karting",
+    "name": "Kyalami Indoor Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Midrand",
+    "address": "Mall of Africa, Lone Creek Crescent, Waterfall City, Midrand, Gauteng, South Africa",
+    "lat": -26.013989,
+    "lng": 28.10136,
+    "websiteUrl": "https://www.indoorkarting.co.za/",
+    "phone": "+27 10 109 0927"
+  },
+  {
+    "id": "459",
+    "slug": "s1-speedway-marrakech",
+    "name": "S1 Speedway Marrakech",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "city": "Marrakech",
+    "address": "Ouahat Sidi Brahim, Marrakech, Morocco",
+    "lat": 31.726827,
+    "lng": -7.959864,
+    "websiteUrl": "https://www.s1speedway.com",
+    "phone": "+212 665 130 010"
+  },
+  {
+    "id": "460",
+    "slug": "autovrooom-international-karting-circuit",
+    "name": "AutoVrooom International Karting Circuit",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "city": "Obour City",
+    "address": "Obour City, Al Qalyubiya, Egypt",
+    "lat": 30.1914,
+    "lng": 31.450548,
+    "websiteUrl": "https://www.facebook.com/Autovrooom/",
+    "phone": "+20 120 000 4485"
+  },
+  {
+    "id": "461",
+    "slug": "extreme-adventure-park-busika",
+    "name": "Extreme Adventure Park Busika",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Uganda",
+    "countryCode": "UG",
+    "city": "Busiika",
+    "address": "Busiika Adventure Park, Zirobwe - Gayaza Road, Luweero, Central Region, Uganda",
+    "lat": 0.581931,
+    "lng": 32.663396,
+    "websiteUrl": "https://www.extremeadventures.co.ug/product/go-karting/",
+    "phone": "+256 755 933 006"
+  },
+  {
+    "id": "462",
+    "slug": "gravity-max-tribeca",
+    "name": "Gravity Max Tribeca",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Mauritius",
+    "countryCode": "MU",
+    "city": "Quatre Bornes",
+    "address": "Trianon, Saint Jean, Town of Quatre-Bornes, Ward 2, Quatre Bornes, Plaines Wilhems, 72208, Mauritius",
+    "lat": -20.255297,
+    "lng": 57.491139,
+    "websiteUrl": "https://gravity-global.com/mu/max/tribeca-mall-max-mu",
+    "phone": "+230 460 4888"
+  },
+  {
+    "id": "463",
+    "slug": "kartin-974",
+    "name": "Kart'in 974",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Saint-Pierre",
+    "address": "Rue Antoine Bigot, Z.I. n°3, Bois d'Olives, Saint-Pierre, Réunion, 97410, France",
+    "lat": -21.312521,
+    "lng": 55.448982,
+    "websiteUrl": "https://www.facebook.com/p/Kartin-974-61557837928616/",
+    "phone": "+262 692 28 92 70"
+  },
+  {
+    "id": "464",
+    "slug": "fastlane-karting-sydney",
+    "name": "Fastlane Karting Sydney",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Swettenham Road, Minto, Sydney, New South Wales, 2566, Australia",
+    "lat": -34.028764,
+    "lng": 150.832068,
+    "websiteUrl": "https://www.fastlanekarting.com.au/",
+    "phone": "0434 214 351"
+  },
+  {
+    "id": "465",
+    "slug": "picton-karting-track",
+    "name": "Picton Karting Track",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Picton",
+    "address": "200, Picton Road, Picton, New South Wales, 2571, Australia",
+    "lat": -34.190286,
+    "lng": 150.633258,
+    "websiteUrl": "https://pkt.net.au/",
+    "phone": "(02) 4677 3330"
+  },
+  {
+    "id": "466",
+    "slug": "indy-800-kart-track",
+    "name": "Indy 800 Kart Track",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Butterfly Museum, 446, Wilberforce Road, Wilberforce, Sydney, New South Wales, 2756, Australia",
+    "lat": -33.569713,
+    "lng": 150.83665,
+    "websiteUrl": "https://www.indy800karts.com.au/",
+    "phone": "(02) 4575 1265"
+  },
+  {
+    "id": "467",
+    "slug": "eastern-creek-karts",
+    "name": "Eastern Creek Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Peter Brock Drive, Eastern Creek, Sydney, New South Wales, 2766, Australia",
+    "lat": -33.802665,
+    "lng": 150.877946,
+    "websiteUrl": "https://easterncreekkarts.com.au/",
+    "phone": "(02) 9672 7530"
+  },
+  {
+    "id": "468",
+    "slug": "luddenham-raceway",
+    "name": "Luddenham Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Luddenham Road, Sydney, New South Wales, 2745, Australia",
+    "lat": -33.852952,
+    "lng": 150.730138,
+    "websiteUrl": "https://luddenhamraceway.com/",
+    "phone": "02 9834 2366"
+  },
+  {
+    "id": "469",
+    "slug": "hyper-karting",
+    "name": "Hyper Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "John Hargreaves Avenue, Disney Studios Australia, Oxford Street, Moore Park, Sydney, New South Wales, 2021, Australia",
+    "lat": -33.893068,
+    "lng": 151.225085,
+    "websiteUrl": "https://hyperkarting.com.au",
+    "phone": "(02) 8311 4124"
+  },
+  {
+    "id": "470",
+    "slug": "extreme-indoor-go-karting-sydney",
+    "name": "Extreme Indoor Go Karting Sydney",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Extreme Indoor Go Karting Sydney, 66, Christina Road, Villawood, Sydney, New South Wales, 2163, Australia",
+    "lat": -33.880124,
+    "lng": 150.984619,
+    "websiteUrl": "https://extremegokartingsydney.com.au",
+    "phone": "(02) 8764 8970"
+  },
+  {
+    "id": "471",
+    "slug": "entertainment-park-e-karting",
+    "name": "Entertainment Park E-Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Milperra",
+    "address": "Milperra Road, Milperra, Sydney, New South Wales, Australia",
+    "lat": -33.938824,
+    "lng": 150.984642,
+    "websiteUrl": "https://entertainmentpark.com.au/e-karting/",
+    "phone": "(02) 9064 4001"
+  },
+  {
+    "id": "472",
+    "slug": "wollongong-kart-raceway",
+    "name": "Wollongong Kart Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Wollongong",
+    "address": "West Dapto Road, Kembla Grange, Wollongong, New South Wales, 2526, Australia",
+    "lat": -34.470579,
+    "lng": 150.806809,
+    "websiteUrl": "https://www.wollongongkarts.com.au",
+    "phone": "02 9138 7610"
+  },
+  {
+    "id": "473",
+    "slug": "powerplay-northmead",
+    "name": "PowerPlay Northmead",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "1c, Redbank Road, Northmead, Sydney, New South Wales, 2152, Australia",
+    "lat": -33.797439,
+    "lng": 150.990908,
+    "websiteUrl": "https://www.powerplay.com.au/locations/northmead",
+    "phone": "(02) 8608 1271"
+  },
+  {
+    "id": "474",
+    "slug": "go-karts-go-hunter-valley",
+    "name": "Go Karts Go Hunter Valley",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Kearsley",
+    "address": "Neath Road, Kearsley, New South Wales, 2325, Australia",
+    "lat": -32.840069,
+    "lng": 151.414497,
+    "websiteUrl": "https://gokartsgo.com.au/hunter-valley/",
+    "phone": "0455 999 096"
+  },
+  {
+    "id": "475",
+    "slug": "xtreme-karts-warners-bay",
+    "name": "Xtreme Karts Warners Bay",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Newcastle",
+    "address": "308, Hillsborough Road, Warners Bay, Newcastle, Newcastle-Maitland, New South Wales, 2282, Australia",
+    "lat": -32.966348,
+    "lng": 151.65771,
+    "websiteUrl": "https://www.xtremekartswarnersbay.com.au",
+    "phone": "+61 2 4954 5353"
+  },
+  {
+    "id": "476",
+    "slug": "kartatak-raceway",
+    "name": "Kartatak Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Gosford",
+    "address": "Ace Crescent, Tuggerah, Gosford, New South Wales, 2259, Australia",
+    "lat": -33.305113,
+    "lng": 151.418912,
+    "websiteUrl": "https://www.kartatak.com.au/",
+    "phone": "+61 2 4351 5929"
+  },
+  {
+    "id": "477",
+    "slug": "ace-karts",
+    "name": "Ace Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "20, Carrington Drive, Albion, Melbourne, Victoria, 3020, Australia",
+    "lat": -37.77092,
+    "lng": 144.810245,
+    "websiteUrl": "https://www.acekarts.com.au/",
+    "phone": "(03) 9360 5005"
+  },
+  {
+    "id": "478",
+    "slug": "le-mans-go-karts",
+    "name": "Le Mans Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "11-55, Waterview Close, Dandenong South, Melbourne, Victoria, 3175, Australia",
+    "lat": -38.019567,
+    "lng": 145.243901,
+    "websiteUrl": "https://www.lemansentertainment.com.au/go-karts/",
+    "phone": "(03) 8787 8741"
+  },
+  {
+    "id": "479",
+    "slug": "phillip-island-go-karts",
+    "name": "Phillip Island Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Ventnor",
+    "address": "Phillip Island GP Circuit, Shuttle U-Turn, Ventnor, Victoria, 3922, Australia",
+    "lat": -38.504081,
+    "lng": 145.234554,
+    "websiteUrl": "https://www.phillipislandgokarts.com.au/",
+    "phone": "03 5952 9400"
+  },
+  {
+    "id": "480",
+    "slug": "auscarts-racing",
+    "name": "Auscarts Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Salmon Street, Fishermans Bend, Port Melbourne, Melbourne, Victoria, 3207, Australia",
+    "lat": -37.825754,
+    "lng": 144.922179,
+    "websiteUrl": "https://www.auscarts.com.au/",
+    "phone": "03 9646 6015"
+  },
+  {
+    "id": "481",
+    "slug": "karting-madness-braybrook",
+    "name": "Karting Madness Braybrook",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Fun City, 234, Ballarat Road, Braybrook, Melbourne, Victoria, 3019, Australia",
+    "lat": -37.780163,
+    "lng": 144.863746,
+    "websiteUrl": "https://kartingmadness.com.au/braybrook/",
+    "phone": "03 9317 8222"
+  },
+  {
+    "id": "482",
+    "slug": "karting-madness-bayswater",
+    "name": "Karting Madness Bayswater",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "841, Mountain Highway, Bayswater, Melbourne, Victoria, 3153, Australia",
+    "lat": -37.836481,
+    "lng": 145.277779,
+    "websiteUrl": "https://kartingmadness.com.au/",
+    "phone": "03 9720 8284"
+  },
+  {
+    "id": "483",
+    "slug": "oz-ekarts-vic",
+    "name": "OZ-EKARTS VIC",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "11, Industrial Avenue, Thomastown, Melbourne, Victoria, 3074, Australia",
+    "lat": -37.689454,
+    "lng": 144.978209,
+    "websiteUrl": "https://ozekartsvic.com.au/"
+  },
+  {
+    "id": "484",
+    "slug": "powerplay-moorabbin",
+    "name": "PowerPlay Moorabbin",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "94-98, Cochranes Road, Moorabbin East, Moorabbin, Melbourne, Victoria, 3189, Australia",
+    "lat": -37.943869,
+    "lng": 145.071604,
+    "websiteUrl": "https://www.powerplay.com.au/locations/moorabbin",
+    "phone": "(03) 9989 7323"
+  },
+  {
+    "id": "485",
+    "slug": "powerplay-campbellfield",
+    "name": "PowerPlay Campbellfield",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "464-466, Mahoneys Road, Campbellfield, Melbourne, Victoria, 3060, Australia",
+    "lat": -37.690046,
+    "lng": 144.966023,
+    "websiteUrl": "https://www.powerplay.com.au/locations/campbellfield",
+    "phone": "(03) 8001 7233"
+  },
+  {
+    "id": "486",
+    "slug": "powerplay-braybrook",
+    "name": "PowerPlay Braybrook",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Ballarat Road, Braybrook, Melbourne, Victoria, 3019, Australia",
+    "lat": -37.782192,
+    "lng": 144.864373,
+    "websiteUrl": "https://www.powerplay.com.au/locations/braybrook",
+    "phone": "(03) 7073 7421"
+  },
+  {
+    "id": "487",
+    "slug": "a1-supa-karts",
+    "name": "A1 Supa Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bendigo",
+    "address": "47, Gold Associates Road, West Bendigo, Maiden Gully, Bendigo, Victoria, 3550, Australia",
+    "lat": -36.757336,
+    "lng": 144.241312,
+    "websiteUrl": "https://www.a1supakarts.com.au/"
+  },
+  {
+    "id": "488",
+    "slug": "ballarat-indoor-go-karts-and-laserforce",
+    "name": "Ballarat Indoor Go Karts and Laserforce",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Ballarat",
+    "address": "502-506, Howitt Street, Ballarat North, Ballarat, Victoria, 3350, Australia",
+    "lat": -37.543161,
+    "lng": 143.857591,
+    "websiteUrl": "https://ballaratindoorgokarts.com.au/",
+    "phone": "+61 3 5332 8022"
+  },
+  {
+    "id": "489",
+    "slug": "kingston-park-raceway",
+    "name": "Kingston Park Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Logan City",
+    "address": "Mudgee Street, Kingston, Logan City, Brisbane, Queensland, 4114, Australia",
+    "lat": -27.669487,
+    "lng": 153.115026,
+    "websiteUrl": "https://kingstonpark.com.au/",
+    "phone": "(07) 3826 2255"
+  },
+  {
+    "id": "490",
+    "slug": "slideways-go-karting-brisbane",
+    "name": "Slideways Go Karting Brisbane",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Brisbane",
+    "address": "870, Kingsford Smith Drive, Eagle Farm, Brisbane, Queensland, 4009, Australia",
+    "lat": -27.431732,
+    "lng": 153.085948,
+    "websiteUrl": "https://gokartingbrisbane.com.au/",
+    "phone": "(07) 3868 2225"
+  },
+  {
+    "id": "491",
+    "slug": "slideways-go-karting-gold-coast",
+    "name": "Slideways Go Karting Gold Coast",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Gold Coast",
+    "address": "Slideways Go Karting Gold Coast, 10, Spencer Road, Nerang, Gold Coast, Queensland, 4211, Australia",
+    "lat": -27.997906,
+    "lng": 153.340655,
+    "websiteUrl": "https://gokartinggoldcoast.com.au/",
+    "phone": "(07) 5596 3663"
+  },
+  {
+    "id": "492",
+    "slug": "big-kart-track",
+    "name": "Big Kart Track",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Landsborough",
+    "address": "Steve Irwin Way, Landsborough, Queensland, 4550, Australia",
+    "lat": -26.806135,
+    "lng": 152.977538,
+    "websiteUrl": "https://www.bigkart.com.au/",
+    "phone": "07 5494 1613"
+  },
+  {
+    "id": "493",
+    "slug": "game-over-gold-coast",
+    "name": "Game Over Gold Coast",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Helensvale",
+    "address": "Siganto Drive, Helensvale, Queensland, 4212, Australia",
+    "lat": -27.886114,
+    "lng": 153.31675,
+    "websiteUrl": "https://www.gameovergc.com.au/go-karts"
+  },
+  {
+    "id": "494",
+    "slug": "game-over-brisbane",
+    "name": "Game Over Brisbane",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Logan City",
+    "address": "2175, Ipswich Road, Oxley, Logan City, Brisbane, Queensland, 4075, Australia",
+    "lat": -27.564449,
+    "lng": 152.981815,
+    "websiteUrl": "https://www.gameoverbrisbane.com.au/"
+  },
+  {
+    "id": "495",
+    "slug": "cairns-kart-hire",
+    "name": "Cairns Kart Hire",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Cairns",
+    "address": "Captain Cook Highway, Yorkeys Knob, Cairns, Queensland, 4878, Australia",
+    "lat": -16.849635,
+    "lng": 145.711696,
+    "phone": "0448 640 009"
+  },
+  {
+    "id": "496",
+    "slug": "pitstop-karting",
+    "name": "Pitstop Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Townsville",
+    "address": "Caldwell Street, Garbutt, Townsville, Queensland, 4814, Australia",
+    "lat": -19.266984,
+    "lng": 146.764758,
+    "websiteUrl": "https://www.pitstopkarting.com.au/",
+    "phone": "(07) 4401 5045"
+  },
+  {
+    "id": "497",
+    "slug": "adrenaline-sports-go-karts",
+    "name": "Adrenaline Sports Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Withcott",
+    "address": "Toowoomba Connection Road, Withcott, Queensland, 4352, Australia",
+    "lat": -27.547057,
+    "lng": 152.041943,
+    "websiteUrl": "https://adrenaline-sports.com.au/"
+  },
+  {
+    "id": "498",
+    "slug": "powerplay-bibra-lake",
+    "name": "PowerPlay Bibra Lake",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bibra Lake",
+    "address": "Sobek Pass, Bibra Lake, Western Australia, 6163, Australia",
+    "lat": -32.095579,
+    "lng": 115.815981,
+    "websiteUrl": "https://www.powerplay.com.au/locations/bibra-lake",
+    "phone": "(08) 6205 5045"
+  },
+  {
+    "id": "499",
+    "slug": "powerplay-joondalup",
+    "name": "PowerPlay Joondalup",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Joondalup",
+    "address": "Winton Road, Joondalup, Western Australia, 6027, Australia",
+    "lat": -31.750887,
+    "lng": 115.762804,
+    "websiteUrl": "https://www.powerplay.com.au/locations/joondalup",
+    "phone": "(08) 6365 5094"
+  },
+  {
+    "id": "500",
+    "slug": "powerplay-malaga",
+    "name": "PowerPlay Malaga",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Perth",
+    "address": "Marshall Road, Malaga, Perth, Western Australia, 6090, Australia",
+    "lat": -31.855358,
+    "lng": 115.894333,
+    "websiteUrl": "https://www.powerplay.com.au/locations/malaga",
+    "phone": "(08) 6365 5771"
+  },
+  {
+    "id": "501",
+    "slug": "powerplay-welshpool",
+    "name": "PowerPlay Welshpool",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Perth",
+    "address": "103-105, Welshpool Road, Welshpool, Perth, Western Australia, 6106, Australia",
+    "lat": -31.99429,
+    "lng": 115.92812,
+    "websiteUrl": "https://www.powerplay.com.au/locations/welshpool",
+    "phone": "(08) 6365 5049"
+  },
+  {
+    "id": "502",
+    "slug": "battlekart-perth",
+    "name": "BattleKart Perth",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Perth",
+    "address": "Alexander Drive Exit, Malaga, Perth, Western Australia, 6090, Australia",
+    "lat": -31.853215,
+    "lng": 115.877541,
+    "websiteUrl": "https://www.battlekart.com/en/perth",
+    "phone": "+61 415 411 608"
+  },
+  {
+    "id": "503",
+    "slug": "mega-fast-karts-wanneroo",
+    "name": "Mega Fast Karts Wanneroo",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Nowergup",
+    "address": "Wattle Avenue East, Nowergup, Western Australia, 6032, Australia",
+    "lat": -31.660478,
+    "lng": 115.793564,
+    "websiteUrl": "https://megafastkarts.com.au/",
+    "phone": "(08) 6202 8257"
+  },
+  {
+    "id": "504",
+    "slug": "hi-voltage-entertainment",
+    "name": "Hi Voltage Entertainment",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Perth",
+    "address": "Hubert Street, Belmont, Perth, Western Australia, 6104, Australia",
+    "lat": -31.950851,
+    "lng": 115.929616,
+    "websiteUrl": "https://hivoltageentertainment.com.au/"
+  },
+  {
+    "id": "505",
+    "slug": "pro-karts-pooraka",
+    "name": "Pro Karts Pooraka",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Town & Country Mattresses & Beds, 68, Research Road, Pooraka, Adelaide, South Australia, 5095, Australia",
+    "lat": -34.815681,
+    "lng": 138.63414,
+    "websiteUrl": "https://prokartsracecentre.com.au/",
+    "phone": "(08) 8262 9027"
+  },
+  {
+    "id": "506",
+    "slug": "kartmania-gepps-cross",
+    "name": "Kartmania Gepps Cross",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Port Wakefield Road, Gepps Cross, Adelaide, South Australia, 5094, Australia",
+    "lat": -34.847842,
+    "lng": 138.600074,
+    "websiteUrl": "https://www.kartmania.com.au/",
+    "phone": "(08) 8262 8548"
+  },
+  {
+    "id": "507",
+    "slug": "xkarts-gawler",
+    "name": "XKarts Gawler",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Tiver Road, Evanston South, Adelaide, South Australia, 5116, Australia",
+    "lat": -34.640286,
+    "lng": 138.725969,
+    "websiteUrl": "https://xkarts.com.au",
+    "phone": "08 7086 6666"
+  },
+  {
+    "id": "508",
+    "slug": "p1-entertainment-complex",
+    "name": "P1 Entertainment Complex",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "P1 Entertainment Complex, 41-55, Holden Street, Hindmarsh, Adelaide, South Australia, 5007, Australia",
+    "lat": -34.909339,
+    "lng": 138.567402,
+    "websiteUrl": "https://p1entertainment.com.au/",
+    "phone": "0461 471 197"
+  },
+  {
+    "id": "509",
+    "slug": "oz-ekarts-adelaide",
+    "name": "OZ EKARTS Adelaide",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Jacobsen Crescent, Holden Hill, Adelaide, South Australia, 5088, Australia",
+    "lat": -34.84682,
+    "lng": 138.675752,
+    "websiteUrl": "https://ozekarts.com.au/"
+  },
+  {
+    "id": "510",
+    "slug": "the-bend-kartdrome",
+    "name": "The Bend Kartdrome",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Tailem Bend",
+    "address": "The Bend Motorsport Park, 543, Dukes Highway, Tailem Bend, South Australia, 5260, Australia",
+    "lat": -35.30191,
+    "lng": 139.514792,
+    "websiteUrl": "https://www.thebend.com.au/contact-us",
+    "phone": "(08) 8531 4571"
+  },
+  {
+    "id": "511",
+    "slug": "mallala-kartdrome",
+    "name": "Mallala Kartdrome",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Mallala",
+    "address": "Aerodrome Road, Mallala, South Australia, 5502, Australia",
+    "lat": -34.423576,
+    "lng": 138.509844,
+    "websiteUrl": "https://www.mallala.com/karting",
+    "phone": "08 8527 2541"
+  },
+  {
+    "id": "512",
+    "slug": "hyperdrive-kart-racing",
+    "name": "Hyperdrive Kart Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Kingston",
+    "address": "Hyperdrive Kart Racing, 22-24, Mertonvale Circuit, Mertonvale, Kingston, Tasmania, 7050, Australia",
+    "lat": -42.980833,
+    "lng": 147.294465,
+    "websiteUrl": "https://hyperdrive.racing/",
+    "phone": "(03) 6229 1895"
+  },
+  {
+    "id": "513",
+    "slug": "kart-magic-entertainment-centre",
+    "name": "Kart Magic Entertainment Centre",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Latrobe",
+    "address": "Speedway Drive, Latrobe, Tasmania, 7307, Australia",
+    "lat": -41.238805,
+    "lng": 146.440998,
+    "phone": "(03) 6426 2455"
+  },
+  {
+    "id": "514",
+    "slug": "power-kart-raceway",
+    "name": "Power Kart Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "South Canberra",
+    "address": "Jungle Golf, 125, Canberra Avenue, Griffith, South Canberra, District of Canberra Central, Australian Capital Territory, 2603, Australia",
+    "lat": -35.321679,
+    "lng": 149.149999,
+    "websiteUrl": "https://powerkarts.com.au/",
+    "phone": "+61 2 6239 5599"
+  },
+  {
+    "id": "515",
+    "slug": "darwin-kart-hire",
+    "name": "Darwin Kart Hire",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Darwin",
+    "address": "Hidden Valley Road, Hidden Valley, Darwin, Northern Territory, 0822, Australia",
+    "lat": -12.441308,
+    "lng": 130.91056,
+    "websiteUrl": "https://darwinkarthire.com.au/",
+    "phone": "0428 486 868"
+  },
+  {
+    "id": "516",
+    "slug": "phillip-island-grand-prix-circuit",
+    "name": "Phillip Island Grand Prix Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Cowes",
+    "address": "Back Beach Road, Cowes, Victoria, 3922, Australia",
+    "lat": -38.496687,
+    "lng": 145.225084,
+    "websiteUrl": "https://www.phillipislandcircuit.com.au/",
+    "phone": "+61 3 5952 2710"
+  },
+  {
+    "id": "517",
+    "slug": "sydney-motorsport-park",
+    "name": "Sydney Motorsport Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Ferrers Road, Eastern Creek, Sydney, New South Wales, 2766, Australia",
+    "lat": -33.813386,
+    "lng": 150.865817,
+    "websiteUrl": "https://www.sydneymotorsportpark.com.au/",
+    "phone": "+61 2 9672 1000"
+  },
+  {
+    "id": "518",
+    "slug": "one-raceway-wakefield-park",
+    "name": "One Raceway (Wakefield Park)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Tirrannaville",
+    "address": "One Raceway, 4770, Braidwood Road, Springfield, Tirrannaville, New South Wales, 2580, Australia",
+    "lat": -34.841631,
+    "lng": 149.687137,
+    "websiteUrl": "https://www.oneraceway.com.au/"
+  },
+  {
+    "id": "519",
+    "slug": "mount-panorama-motor-racing-circuit",
+    "name": "Mount Panorama Motor Racing Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bathurst",
+    "address": "Mountain Straight, Mount Panorama, Bathurst, New South Wales, 2795, Australia",
+    "lat": -33.443926,
+    "lng": 149.554692,
+    "websiteUrl": "https://www.bathurstregion.com.au/venue/mount-panorama-motor-racing-circuit/"
+  },
+  {
+    "id": "520",
+    "slug": "winton-motor-raceway",
+    "name": "Winton Motor Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Winton",
+    "address": "41, Fox Street, Winton, Victoria, 3673, Australia",
+    "lat": -36.516909,
+    "lng": 146.082635,
+    "websiteUrl": "https://wintonraceway.com.au/",
+    "phone": "(03) 5760 7100"
+  },
+  {
+    "id": "521",
+    "slug": "sandown-raceway",
+    "name": "Sandown Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "591-659, Princes Highway, Springvale, Melbourne, Victoria, 3171, Australia",
+    "lat": -37.944185,
+    "lng": 145.16837
+  },
+  {
+    "id": "522",
+    "slug": "queensland-raceway",
+    "name": "Queensland Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Brisbane",
+    "address": "Ipswich Motorsport Precinct, Champions Way, Willowbank, Brisbane, Queensland, 4306, Australia",
+    "lat": -27.695023,
+    "lng": 152.655412,
+    "websiteUrl": "https://www.qldraceways.com.au",
+    "phone": "07 5461 9100"
+  },
+  {
+    "id": "523",
+    "slug": "lakeside-park",
+    "name": "Lakeside Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Brisbane",
+    "address": "Lakeside Drive, Kurwongbah, Brisbane, Queensland, 4503, Australia",
+    "lat": -27.23179,
+    "lng": 152.975863,
+    "websiteUrl": "https://lakesidepark.com.au/"
+  },
+  {
+    "id": "524",
+    "slug": "morgan-park-raceway",
+    "name": "Morgan Park Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Warwick",
+    "address": "Old Stanthorpe Road, Warwick, Queensland, Australia",
+    "lat": -28.21632,
+    "lng": 152.032704,
+    "websiteUrl": "https://www.morganparkraceway.com.au",
+    "phone": "0437 471 433"
+  },
+  {
+    "id": "525",
+    "slug": "motormall-wanneroo-raceway",
+    "name": "MotorMall Wanneroo Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Nowergup",
+    "address": "Wattle Avenue West, Nowergup, Western Australia, 6032, Australia",
+    "lat": -31.665201,
+    "lng": 115.740449,
+    "websiteUrl": "https://wannerooraceway.com.au"
+  },
+  {
+    "id": "526",
+    "slug": "shell-v-power-motorsport-park-the-bend",
+    "name": "Shell V-Power Motorsport Park (The Bend)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Tailem Bend",
+    "address": "The Bend Motorsport Park, 543, Dukes Highway, Tailem Bend, South Australia, 5260, Australia",
+    "lat": -35.30191,
+    "lng": 139.514792,
+    "websiteUrl": "https://www.thebend.com.au/contact-us",
+    "phone": "(08) 8165 5700"
+  },
+  {
+    "id": "527",
+    "slug": "mallala-motorsport-park",
+    "name": "Mallala Motorsport Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Mallala",
+    "address": "Aerodrome Road, Mallala, South Australia, 5502, Australia",
+    "lat": -34.423576,
+    "lng": 138.509844,
+    "websiteUrl": "https://www.mallala.com/",
+    "phone": "08 8527 2541"
+  },
+  {
+    "id": "528",
+    "slug": "baskerville-raceway",
+    "name": "Baskerville Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Hobart",
+    "address": "Baskerville Road, Old Beach, Hobart, Tasmania, 7017, Australia",
+    "lat": -42.749923,
+    "lng": 147.301134,
+    "websiteUrl": "https://www.motorsportstas.com.au/baskerville-raceway"
+  },
+  {
+    "id": "529",
+    "slug": "symmons-plains-raceway",
+    "name": "Symmons Plains Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Symmons Plains",
+    "address": "Midland Highway, Symmons Plains, Powranna, Tasmania, 7300, Australia",
+    "lat": -41.670862,
+    "lng": 147.26211,
+    "websiteUrl": "https://www.motorsportstas.com.au/symmons-plains-raceway"
+  },
+  {
+    "id": "530",
+    "slug": "hidden-valley-raceway",
+    "name": "Hidden Valley Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Darwin",
+    "address": "Darwin Motorcycle Riding School, 171, Hidden Valley Road, Hidden Valley, Darwin, Northern Territory, 0822, Australia",
+    "lat": -12.444271,
+    "lng": 130.907265,
+    "websiteUrl": "https://nt.gov.au/leisure/sport/facilities-and-contacts/find-a-sports-facility/hidden-valley-motor-sports-complex"
+  },
+  {
+    "id": "531",
+    "slug": "simrigs-melbourne-sim-racing-centre",
+    "name": "SimRigs Melbourne Sim Racing Centre",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Matthews Avenue, Airport West, Melbourne, Victoria, 3042, Australia",
+    "lat": -37.713118,
+    "lng": 144.889775,
+    "websiteUrl": "https://www.simrigs.com.au/pages/sim-centre",
+    "phone": "0449 934 473"
+  },
+  {
+    "id": "532",
+    "slug": "motorsport-simworld",
+    "name": "Motorsport Simworld",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "205, Greens Road, Dandenong South, Melbourne, Victoria, 3175, Australia",
+    "lat": -38.012365,
+    "lng": 145.200292,
+    "websiteUrl": "https://motorsportsimworld.com.au/",
+    "phone": "03 9768 8996"
+  },
+  {
+    "id": "533",
+    "slug": "vr-motorsports",
+    "name": "VR Motorsports",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Cannon Hill",
+    "address": "Container Street, Cannon Hill, Brisbane, Queensland, Australia",
+    "lat": -27.472393,
+    "lng": 153.092742,
+    "websiteUrl": "https://www.vrmotorsports.com.au/",
+    "phone": "(07) 3667 7445"
+  },
+  {
+    "id": "534",
+    "slug": "sim-racing-adelaide",
+    "name": "Sim Racing Adelaide",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Reese Avenue, Richmond, Adelaide, South Australia, 5033, Australia",
+    "lat": -34.940396,
+    "lng": 138.567523,
+    "websiteUrl": "https://simracingadelaide.com.au/",
+    "phone": "0455 355 366"
+  },
+  {
+    "id": "535",
+    "slug": "vrace-perth",
+    "name": "VRACE Perth",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Perth",
+    "address": "Hector Street West, Osborne Park, Perth, Western Australia, 6017, Australia",
+    "lat": -31.904086,
+    "lng": 115.820918,
+    "websiteUrl": "https://vrace.com.au/",
+    "phone": "08 6245 7970"
+  },
+  {
+    "id": "536",
+    "slug": "ace-motorsport-karting",
+    "name": "Ace Motorsport Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Maungakiekie-Tāmaki",
+    "address": "69, Maurice Road, Penrose, Maungakiekie-Tāmaki, Auckland, 1061, New Zealand",
+    "lat": -36.920246,
+    "lng": 174.810074,
+    "websiteUrl": "https://www.acemotorsport.co.nz/",
+    "phone": "+64 21 185 6024"
+  },
+  {
+    "id": "537",
+    "slug": "game-over-auckland",
+    "name": "Game Over Auckland",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Albany",
+    "address": "Albany, Auckland, New Zealand",
+    "lat": -36.727934,
+    "lng": 174.708648,
+    "websiteUrl": "https://www.gameoverauckland.co.nz/",
+    "phone": "0508 426 368"
+  },
+  {
+    "id": "538",
+    "slug": "game-over-queenstown",
+    "name": "Game Over Queenstown",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Queenstown",
+    "address": "14, Red Oaks Drive, Remarkables Park, Frankton, Queenstown-Lakes District, Otago, 9304, New Zealand",
+    "lat": -45.023212,
+    "lng": 168.745346,
+    "websiteUrl": "https://www.gameoverqueenstown.co.nz/indoor-go-karting",
+    "phone": "03 441 3139"
+  },
+  {
+    "id": "539",
+    "slug": "game-over-christchurch",
+    "name": "Game Over Christchurch",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Christchurch",
+    "address": "211, Blenheim Road, Riccarton South, Riccarton, Christchurch, Christchurch City, Canterbury, 8041, New Zealand",
+    "lat": -43.538132,
+    "lng": 172.590859,
+    "websiteUrl": "https://www.gameoverchristchurch.co.nz/go-karts",
+    "phone": "03 365 5955"
+  },
+  {
+    "id": "540",
+    "slug": "supa-karts",
+    "name": "Supa Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Christchurch",
+    "address": "91, Buchan Street, Sydenham, Christchurch, Christchurch City, Canterbury, 8023, New Zealand",
+    "lat": -43.542828,
+    "lng": 172.638097,
+    "websiteUrl": "https://www.supakarts.co.nz/",
+    "phone": "03 374 9425"
+  },
+  {
+    "id": "541",
+    "slug": "action-kart-raceway",
+    "name": "Action Kart Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Christchurch",
+    "address": "575, Sawyers Arms Road, Harewood, Christchurch, Christchurch City, Canterbury, 8051, New Zealand",
+    "lat": -43.466871,
+    "lng": 172.567813,
+    "websiteUrl": "https://www.actionkarts.co.nz/",
+    "phone": "(03) 359 4276"
+  },
+  {
+    "id": "542",
+    "slug": "raceline-karting-off-road-nz",
+    "name": "Raceline Karting (Off Road NZ)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Rotorua",
+    "address": "193, Amoore Road, Rotorua Lakes District, Waikato, 3020, New Zealand",
+    "lat": -38.065481,
+    "lng": 176.050531,
+    "websiteUrl": "https://offroadnz.co.nz/adventures/raceline-karting/",
+    "phone": "+64 7 3325 748"
+  },
+  {
+    "id": "543",
+    "slug": "driftkartz-rotorua",
+    "name": "DriftKartz Rotorua",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Rotorua",
+    "address": "27, Old Taupo Road, Waterford Estate, Mangakakahi, Rotorua, Rotorua Lakes District, Bay of Plenty, 3045, New Zealand",
+    "lat": -38.127278,
+    "lng": 176.232256,
+    "websiteUrl": "https://driftkartz.co.nz/",
+    "phone": "+64 7 345 6211"
+  },
+  {
+    "id": "544",
+    "slug": "daytona-raceway-palmerston-north",
+    "name": "Daytona Raceway Palmerston North",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Palmerston North",
+    "address": "Hopwood Clock Tower, Main Street, Palmerston North Central, Palmerston North, Palmerston North City, Manawatū-Whanganui, 4410, New Zealand",
+    "lat": -40.356317,
+    "lng": 175.611239,
+    "websiteUrl": "https://www.daytona.co.nz/",
+    "phone": "(06) 353 5082"
+  },
+  {
+    "id": "545",
+    "slug": "daytona-adventure-park",
+    "name": "Daytona Adventure Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Upper Hutt",
+    "address": "Chipmunks, 25, Blenheim Street, Maidstone, Upper Hutt Central, Upper Hutt, Upper Hutt City, Wellington, 5018, New Zealand",
+    "lat": -41.129235,
+    "lng": 175.069739,
+    "websiteUrl": "https://www.daytonaadventurepark.co.nz/",
+    "phone": "021 350 873"
+  },
+  {
+    "id": "546",
+    "slug": "blastacars-drift-karts-hamilton",
+    "name": "Blastacars Drift Karts Hamilton",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Hamilton City",
+    "address": "82, Duke Street, Frankton, Hamilton City, Waikato, 3204, New Zealand",
+    "lat": -37.801816,
+    "lng": 175.259072,
+    "websiteUrl": "https://blastacarshamilton.co.nz/",
+    "phone": "+64 7 846 6455"
+  },
+  {
+    "id": "547",
+    "slug": "hampton-downs-go-karts",
+    "name": "Hampton Downs Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Te Kauwhata",
+    "address": "Hampton Downs, Te Kauwhata, Waikato, New Zealand",
+    "lat": -37.403464,
+    "lng": 175.146801,
+    "websiteUrl": "https://www.hamptondowns.com/experience/go-karts",
+    "phone": "+64 9 280 6593"
+  },
+  {
+    "id": "548",
+    "slug": "taupo-go-karts",
+    "name": "Taupo Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Taupō",
+    "address": "463, Broadlands Road, Taupō, Taupō District, Waikato, 3330, New Zealand",
+    "lat": -38.663562,
+    "lng": 176.148896,
+    "websiteUrl": "https://www.taupomp.co.nz/experience/go-karts",
+    "phone": "07 376 5033"
+  },
+  {
+    "id": "549",
+    "slug": "kartsport-wellington",
+    "name": "Kartsport Wellington",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Upper Hutt",
+    "address": "80, Incline Road, Kaitoke, Upper Hutt, Upper Hutt City, Wellington, 5372, New Zealand",
+    "lat": -41.085544,
+    "lng": 175.175768,
+    "websiteUrl": "https://www.kartsportwellington.nz/",
+    "phone": "0274 434 812"
+  },
+  {
+    "id": "550",
+    "slug": "hampton-downs-motorsport-park",
+    "name": "Hampton Downs Motorsport Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Te Kauwhata",
+    "address": "Hampton Downs, Te Kauwhata, Waikato, New Zealand",
+    "lat": -37.403464,
+    "lng": 175.146801,
+    "websiteUrl": "https://www.hamptondowns.com/",
+    "phone": "+64 9 280 6504"
+  },
+  {
+    "id": "551",
+    "slug": "highlands-motorsport-park",
+    "name": "Highlands Motorsport Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Cromwell",
+    "address": "State Highway 8B, Cromwell, Central Otago District, Otago, 9310, New Zealand",
+    "lat": -45.037321,
+    "lng": 169.217115,
+    "websiteUrl": "https://www.highlands.co.nz/",
+    "phone": "03 445 4052"
+  },
+  {
+    "id": "552",
+    "slug": "taupo-motorsport-park",
+    "name": "Taupo Motorsport Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Taupō",
+    "address": "463, Broadlands Road, Taupō, Taupō District, Waikato, 3330, New Zealand",
+    "lat": -38.663562,
+    "lng": 176.148896,
+    "websiteUrl": "https://www.taupomp.co.nz/",
+    "phone": "07 376 5033"
+  },
+  {
+    "id": "553",
+    "slug": "manfeild-circuit-chris-amon",
+    "name": "Manfeild Circuit Chris Amon",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Feilding",
+    "address": "59, South Street, Feilding, Manawatū District, Manawatū-Whanganui, 4702, New Zealand",
+    "lat": -40.232334,
+    "lng": 175.560322,
+    "websiteUrl": "https://www.manfeild.co.nz/motorsport"
+  },
+  {
+    "id": "554",
+    "slug": "euromarque-motorsport-park-ruapuna",
+    "name": "Euromarque Motorsport Park (Ruapuna)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Christchurch",
+    "address": "107, Hasketts Road, Templeton, Christchurch, Christchurch City, Canterbury, 7676, New Zealand",
+    "lat": -43.532642,
+    "lng": 172.485407,
+    "websiteUrl": "https://www.ruapuna.co.nz/"
+  },
+  {
+    "id": "555",
+    "slug": "teretonga-park",
+    "name": "Teretonga Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Invercargill City",
+    "address": "Teretonga Motor Racing Circuit, McLauchlans Road, Otatara, Invercargill City, Southland, 9879, New Zealand",
+    "lat": -46.441278,
+    "lng": 168.262065,
+    "websiteUrl": "https://www.teretonga.org.nz/"
+  },
+  {
+    "id": "556",
+    "slug": "levels-raceway",
+    "name": "Levels Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Timaru",
+    "address": "Levels Raceway, 418, Falvey Road, Timaru District, Canterbury, New Zealand",
+    "lat": -44.296971,
+    "lng": 171.202369,
+    "websiteUrl": "https://southcanterburycarclub.org.nz/levels-raceway/"
+  },
+  {
+    "id": "557",
+    "slug": "kart-park-pacific",
+    "name": "Kart Park Pacific",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Dumbéa",
+    "address": "Accès Aérodrome de Nakutakoin, Dumbéa, South Province, New Caledonia, 99835, France",
+    "lat": -22.171976,
+    "lng": 166.436671,
+    "websiteUrl": "https://karting-jm.com/kart-park-pacific/",
+    "phone": "+687 76 39 40"
+  },
+  {
+    "id": "558",
+    "slug": "speedland-kart-center",
+    "name": "Speedland Kart Center",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São Paulo",
+    "address": "Rua Ulisses Cruz, 809, 809, Rua Ulisses Cruz, Parque São Jorge, Tatuapé, São Paulo, Southeast Region, 03080-000, Brazil",
+    "lat": -23.531127,
+    "lng": -46.579202,
+    "websiteUrl": "https://speedland.com.br/",
+    "phone": "+55 11 2159-3888"
+  },
+  {
+    "id": "559",
+    "slug": "kartodromo-internacional-aldeia-da-serra",
+    "name": "Kartódromo Internacional Aldeia da Serra",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Barueri",
+    "address": "Estrada Doutor Yojiro Takaoka, Jardim Belval, Barueri, São Paulo, Southeast Region, 06423-150, Brazil",
+    "lat": -23.506109,
+    "lng": -46.944701,
+    "websiteUrl": "https://kartodromoaldeiadaserra.com.br",
+    "phone": "+55 11 99113-0853"
+  },
+  {
+    "id": "560",
+    "slug": "italia-kart-eventos",
+    "name": "Itália Kart Eventos",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Itatiba",
+    "address": "Rodovia Dom Pedro I, Itatiba, Valinhos, São Paulo, Southeast Region, 13258-055, Brazil",
+    "lat": -22.94325,
+    "lng": -46.875022,
+    "websiteUrl": "https://italiakarteventos.com.br/",
+    "phone": "+55 19 98446-1515"
+  },
+  {
+    "id": "561",
+    "slug": "san-marino-kart",
+    "name": "San Marino Kart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Paulínia",
+    "address": "Rua Armando Botasso, Betel, Paulínia, São Paulo, Southeast Region, 13148-116, Brazil",
+    "lat": -22.777242,
+    "lng": -47.120155,
+    "websiteUrl": "https://www.sanmarinokart.com.br",
+    "phone": "+55 19 3833-1818"
+  },
+  {
+    "id": "562",
+    "slug": "kartodromo-internacional-nova-odessa",
+    "name": "Kartódromo Internacional Nova Odessa",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Nova Odessa",
+    "address": "Rodovia Anhanguera, Nova Odessa, São Paulo, Southeast Region, 13460-000, Brazil",
+    "lat": -22.769324,
+    "lng": -47.241052,
+    "websiteUrl": "https://kartodromonovaodessa.com.br",
+    "phone": "+55 19 98109-0001"
+  },
+  {
+    "id": "563",
+    "slug": "kgv-granja-viana-kartodromo",
+    "name": "KGV Granja Viana Kartódromo",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Cotia",
+    "address": "Rua Comendador Jaroslav Simonek, Jardim da Glória, Cotia, São Paulo, Southeast Region, 06711-270, Brazil",
+    "lat": -23.605096,
+    "lng": -46.836586,
+    "websiteUrl": "https://kgvracetracks.com/"
+  },
+  {
+    "id": "564",
+    "slug": "kgv-kart-center-osasco",
+    "name": "KGV Kart Center Osasco",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Osasco",
+    "address": "Avenida Presidente Kennedy, Vila dos Remédios, Osasco, São Paulo, Southeast Region, 06298-100, Brazil",
+    "lat": -23.524601,
+    "lng": -46.753149,
+    "websiteUrl": "https://kgvracetracks.com/"
+  },
+  {
+    "id": "565",
+    "slug": "kgv-arena-itu",
+    "name": "KGV Arena Itu",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Itu",
+    "address": "Rua Paula Donaio Schincariol, Chácaras Agrícolas Bandeirantes, Itu, São Paulo, Southeast Region, 13312-300, Brazil",
+    "lat": -23.247991,
+    "lng": -47.339911,
+    "websiteUrl": "https://kgvracetracks.com/"
+  },
+  {
+    "id": "566",
+    "slug": "autodromo-internacional-zilmar-beux",
+    "name": "Autódromo Internacional Zilmar Beux",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Cascavel",
+    "address": "Rua Três Poderes, Jardim Veneza, Cascavel, Paraná, South Region, 85818-560, Brazil",
+    "lat": -24.973888,
+    "lng": -53.396038
+  },
+  {
+    "id": "567",
+    "slug": "autodromo-fueltech-velopark",
+    "name": "Autódromo FuelTech Velopark",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Nova Santa Rita",
+    "address": "BR-386 km 430, Nova Santa Rita, Rio Grande do Sul, Brazil",
+    "lat": -29.857048,
+    "lng": -51.275495,
+    "websiteUrl": "https://autodromofueltech.com.br",
+    "phone": "+55 51 3479-4700"
+  },
+  {
+    "id": "568",
+    "slug": "autodromo-oscar-cabalen",
+    "name": "Autódromo Oscar Cabalén",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Alta Gracia",
+    "address": "Ruta Provincial 5, Villa Parque Santa Ana, Alta Gracia, Córdoba, Argentina",
+    "lat": -31.657892,
+    "lng": -64.433856
+  },
+  {
+    "id": "569",
+    "slug": "circuito-san-juan-villicum",
+    "name": "Circuito San Juan Villicum",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Albardón",
+    "address": "Ruta Nacional 40 \"Libertador General Don José de San Martín\", Albardón, San Juan, Argentina",
+    "lat": -31.39179,
+    "lng": -68.580505
+  },
+  {
+    "id": "570",
+    "slug": "a-racing-simuladores-la-plata",
+    "name": "A Racing Simuladores La Plata",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "La Plata",
+    "address": "793, Calle 8, Area comercial \"Calle 8\", Microcentro, La Plata, Partido de La Plata, Buenos Aires, 1900, Argentina",
+    "lat": -34.914558,
+    "lng": -57.952464,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "571",
+    "slug": "autodromo-internacional-de-codegua",
+    "name": "Autódromo Internacional de Codegua",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Codegua",
+    "address": "Codegua, Provincia de Cachapoal, O'Higgins Region, Chile",
+    "lat": -34.0377,
+    "lng": -70.656542
+  },
+  {
+    "id": "572",
+    "slug": "speedpark-huechuraba",
+    "name": "SpeedPark Huechuraba",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Santiago",
+    "address": "Avenida El Salto, Ciudad Empresarial, Huechuraba, Santiago, Provincia de Santiago, Santiago Metropolitan Region, 8320000, Chile",
+    "lat": -33.387712,
+    "lng": -70.622732,
+    "websiteUrl": "https://speedpark.cl/"
+  },
+  {
+    "id": "573",
+    "slug": "karting-pirque",
+    "name": "Karting Pirque",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Lo Arcaya",
+    "address": "Camino San Vicente de Macul, Parcelación Las Casas de Lo Arcaya, Pirque, Lo Arcaya, Provincia de Cordillera, Santiago Metropolitan Region, Chile",
+    "lat": -33.692104,
+    "lng": -70.590991,
+    "websiteUrl": "https://kartingpirque.cl/",
+    "phone": "+56 9 9359 2613"
+  },
+  {
+    "id": "574",
+    "slug": "go-karts-chile",
+    "name": "Go Karts Chile",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Las Condes",
+    "address": "Las Condes, Santiago, Chile",
+    "lat": -33.408455,
+    "lng": -70.567149,
+    "websiteUrl": "https://gokarts.cl/",
+    "phone": "+56 9 4807 3142"
+  },
+  {
+    "id": "575",
+    "slug": "kartodromo-las-perdices",
+    "name": "Kartódromo Las Perdices",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Melipilla",
+    "address": "Fundo Las Perdices, Melipilla, Región Metropolitana, Chile",
+    "lat": -33.685513,
+    "lng": -71.21458,
+    "websiteUrl": "https://klperdices.cl/"
+  },
+  {
+    "id": "576",
+    "slug": "autodromo-de-tocancipa",
+    "name": "Autódromo de Tocancipá",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "city": "Tocancipá",
+    "address": "Autódromo de Tocancipá, Tocancipá, Cundinamarca, Colombia",
+    "lat": 4.97371,
+    "lng": -73.92118,
+    "websiteUrl": "https://autodromodetocancipa.com/",
+    "phone": "+57 315 332 7192"
+  },
+  {
+    "id": "577",
+    "slug": "xtreme-karts-bogota",
+    "name": "Xtreme Karts Bogotá",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "city": "Bogota",
+    "address": "Rapidisimo, 71-33, Calle 6, Nueva Marsella, UPZs Localidad Kennedy, Localidad Kennedy, Bogota, Bogota, Capital District, RAP (Especial) Central, 110831, Colombia",
+    "lat": 4.629479,
+    "lng": -74.133646,
+    "websiteUrl": "http://www.xtremekarts.co",
+    "phone": "+57 301 496 3175"
+  },
+  {
+    "id": "578",
+    "slug": "autodromo-victor-borrat-fabini",
+    "name": "Autódromo Víctor Borrat Fabini",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Uruguay",
+    "countryCode": "UY",
+    "city": "Ciudad de la Costa",
+    "address": "157, Avenida Manuel Oribe, El Pinar, Ciudad de la Costa, Municipio de Salinas, Canelones, 15800, Uruguay",
+    "lat": -34.796898,
+    "lng": -55.907669
+  },
+  {
+    "id": "579",
+    "slug": "karting-27",
+    "name": "Karting 27",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Uruguay",
+    "countryCode": "UY",
+    "city": "Montevideo",
+    "address": "8460,8590, O'Higgins, Paso de la Arena, Montevideo, Uruguay",
+    "lat": -34.842792,
+    "lng": -56.330241,
+    "websiteUrl": "https://karting27.com.uy/",
+    "phone": "+598 98 072 727"
+  },
+  {
+    "id": "580",
+    "slug": "kartodromo-del-parque-de-la-velocidad",
+    "name": "Kartódromo del Parque de la Velocidad",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Paraguay",
+    "countryCode": "PY",
+    "city": "Luque",
+    "address": "Autopista Ñu Guasú, Zárate Isla, Luque, Central Department, Región Oriental, 110932, Paraguay",
+    "lat": -25.261675,
+    "lng": -57.520404,
+    "websiteUrl": "https://kcp.com.py/"
+  },
+  {
+    "id": "581",
+    "slug": "555-speedway",
+    "name": "555 Speedway",
+    "categories": [
+      "karting",
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Guyana",
+    "countryCode": "GY",
+    "city": "City of Georgetown",
+    "address": "Albert Street, Sophia, Section A, City of Georgetown, Plaisance-Industry Local Government, Demerara-Mahaica, Guyana",
+    "lat": 6.798736,
+    "lng": -58.1296,
+    "websiteUrl": "https://555speedway.com/",
+    "phone": "+592 660 5555"
+  },
+  {
+    "id": "582",
+    "slug": "midvaal-raceway",
+    "name": "Midvaal Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Midvaal Local Municipality",
+    "address": "Boet Kruger Street, Midvaal Ward 9, Meyerton, Midvaal Local Municipality, Sedibeng District Municipality, Gauteng, 1960, South Africa",
+    "lat": -26.558333,
+    "lng": 28.019722,
+    "websiteUrl": "https://midvaalraceway.co.za/",
+    "phone": "+27 16 100 1572"
+  },
+  {
+    "id": "583",
+    "slug": "east-london-grand-prix-circuit",
+    "name": "East London Grand Prix Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "KuGompo City",
+    "address": "Potters Pass, Woodbrook, Buffalo City Ward 46, KuGompo City, Buffalo City Metropolitan Municipality, Eastern Cape, 5209, South Africa",
+    "lat": -33.035884,
+    "lng": 27.869123,
+    "websiteUrl": "http://bmsc.co.za/",
+    "phone": "+27 43 736 4024"
+  },
+  {
+    "id": "584",
+    "slug": "dezzi-raceway",
+    "name": "Dezzi Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Hibiscus Coast Local Municipality",
+    "address": "6th Avenue, Marburg, Hibiscus Coast Ward 17, Port Shepstone, Hibiscus Coast Local Municipality, Ugu District Municipality, KwaZulu-Natal, 4240, South Africa",
+    "lat": -30.740556,
+    "lng": 30.423056,
+    "websiteUrl": "https://www.dezziraceway.co.za/",
+    "phone": "+27 83 478 6666"
+  },
+  {
+    "id": "585",
+    "slug": "idube-kart-circuit",
+    "name": "iDube Kart Circuit",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Mkhambathini Local Municipality",
+    "address": "Bishop Road, Camperdown, Mkhambathini Ward 4, Mkhambathini Local Municipality, uMgungundlovu District Municipality, KwaZulu-Natal, 3730, South Africa",
+    "lat": -29.727778,
+    "lng": 30.543333,
+    "websiteUrl": "https://www.kznkartclub.co.za/track",
+    "phone": "+27 83 232 3084"
+  },
+  {
+    "id": "586",
+    "slug": "celso-scribante-kart-track",
+    "name": "Celso Scribante Kart Track",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Gqeberha",
+    "address": "Victoria Drive, Walmer South, Nelson Mandela Bay Ward 4, Gqeberha, Nelson Mandela Bay Metropolitan Municipality, Eastern Cape, 6057, South Africa",
+    "lat": -33.998922,
+    "lng": 25.576876,
+    "websiteUrl": "https://www.facebook.com/algoakart/",
+    "phone": "+27 82 313 0344"
+  },
+  {
+    "id": "587",
+    "slug": "tony-rust-race-track",
+    "name": "Tony Rust Race Track",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Namibia",
+    "countryCode": "NA",
+    "city": "Windhoek",
+    "address": "Safari Street, Grysblock, Soweto, Windhoek, Khomas, 13007, Namibia",
+    "lat": -22.53356,
+    "lng": 17.045478,
+    "websiteUrl": "https://www.facebook.com/WindhoekMotorClub/"
+  },
+  {
+    "id": "588",
+    "slug": "swakopmund-go-karting-rr-racetrack",
+    "name": "Swakopmund Go-Karting (R+R Racetrack)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Namibia",
+    "countryCode": "NA",
+    "city": "Swakopmund",
+    "address": "Daniel Tjongarero Avenue, Central, Swakopmund, Erongo Region, 13001, Namibia",
+    "lat": -22.676842,
+    "lng": 14.528972,
+    "websiteUrl": "https://www.facebook.com/swakopmundgokarting/",
+    "phone": "+264 81 350 2723"
+  },
+  {
+    "id": "589",
+    "slug": "circuit-de-la-jamaique",
+    "name": "Circuit de la Jamaique",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Saint-Denis",
+    "address": "15 bis, Rue du Maréchal Leclerc, Saint-Jacques, Saint-Denis, Réunion, 97400, France",
+    "lat": -20.879989,
+    "lng": 55.448137,
+    "websiteUrl": "https://www.circuitdelajamaique.re/",
+    "phone": "+262 692 84 45 26"
+  },
+  {
+    "id": "590",
+    "slug": "wagga-and-district-kart-racing-club",
+    "name": "Wagga & District Kart Racing Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Wagga Wagga",
+    "address": "Tasman Road, Gumly Gumly, Wagga Wagga, New South Wales, 2652, Australia",
+    "lat": -35.132647,
+    "lng": 147.419096,
+    "websiteUrl": "https://www.waggakartracing.com.au/"
+  },
+  {
+    "id": "591",
+    "slug": "eastern-lions-kart-club-hume-international-raceway",
+    "name": "Eastern Lions Kart Club (Hume International Raceway)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Puckapunyal",
+    "address": "1005, Seymour - Tooborac Road, Hilldene, Puckapunyal, Victoria, 3662, Australia",
+    "lat": -37.009562,
+    "lng": 145.027473,
+    "websiteUrl": "https://elkc.com.au/"
+  },
+  {
+    "id": "592",
+    "slug": "ballarat-kart-club-haddon-park-raceway",
+    "name": "Ballarat Kart Club (Haddon Park Raceway)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Haddon",
+    "address": "70, Racecourse Road, Haddon, Victoria, 3351, Australia",
+    "lat": -37.589282,
+    "lng": 143.712509,
+    "websiteUrl": "https://www.ballaratkartclub.com/"
+  },
+  {
+    "id": "593",
+    "slug": "albury-wodonga-kart-club",
+    "name": "Albury Wodonga Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Wodonga",
+    "address": "102, Sheathers Road, Wodonga, Victoria, 3690, Australia",
+    "lat": -36.097929,
+    "lng": 146.854053,
+    "websiteUrl": "https://kartracing.com.au/"
+  },
+  {
+    "id": "594",
+    "slug": "gippsland-go-kart-club-tramway-park-raceway",
+    "name": "Gippsland Go Kart Club (Tramway Park Raceway)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Morwell",
+    "address": "130, Princes Drive, Morwell, Victoria, 3840, Australia",
+    "lat": -38.233566,
+    "lng": 146.439504,
+    "websiteUrl": "https://www.ggkc.org.au/",
+    "phone": "0417 302 023"
+  },
+  {
+    "id": "595",
+    "slug": "rochester-kart-club",
+    "name": "Rochester Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Nanneella",
+    "address": "387, Quarry Road, Nanneella, Victoria, 3561, Australia",
+    "lat": -36.391886,
+    "lng": 144.777783,
+    "websiteUrl": "https://www.rochesterkartclub.com/"
+  },
+  {
+    "id": "596",
+    "slug": "go-kart-club-of-victoria",
+    "name": "Go Kart Club of Victoria",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Todd Road, Port Melbourne, Melbourne, Victoria, 3207, Australia",
+    "lat": -37.832985,
+    "lng": 144.912366,
+    "websiteUrl": "https://www.gkcv.com.au/",
+    "phone": "0448 000 417"
+  },
+  {
+    "id": "597",
+    "slug": "geelong-kart-club",
+    "name": "Geelong Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Geelong",
+    "address": "40, Broderick Road, Rosewall, Corio, Geelong, Victoria, 3214, Australia",
+    "lat": -38.063117,
+    "lng": 144.379141,
+    "websiteUrl": "https://www.geelongkartclub.com/",
+    "phone": "0447 607 796"
+  },
+  {
+    "id": "598",
+    "slug": "oakleigh-go-kart-racing-club",
+    "name": "Oakleigh Go-Kart Racing Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "99, Deals Road, Clayton South, Melbourne, Victoria, 3169, Australia",
+    "lat": -37.95058,
+    "lng": 145.119602,
+    "websiteUrl": "https://ogkrc.com.au/"
+  },
+  {
+    "id": "599",
+    "slug": "norwell-motorplex",
+    "name": "Norwell Motorplex",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Norwell",
+    "address": "Norwell Road, Norwell, Queensland, 4208, Australia",
+    "lat": -27.781977,
+    "lng": 153.313994,
+    "websiteUrl": "https://www.norwellmotorplex.com.au/",
+    "phone": "(07) 5546 1366"
+  },
+  {
+    "id": "600",
+    "slug": "townsville-kart-club",
+    "name": "Townsville Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Townsville",
+    "address": "Shaw Road, Shaw, Townsville, Queensland, 4818, Australia",
+    "lat": -19.292312,
+    "lng": 146.696041,
+    "websiteUrl": "https://townsvillekartclub.com.au/"
+  },
+  {
+    "id": "601",
+    "slug": "racing-simulator-centre-6210",
+    "name": "Racing Simulator Centre 6210",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Mandurah",
+    "address": "Reserve Drive, Mandurah, Western Australia, 6210, Australia",
+    "lat": -32.51561,
+    "lng": 115.742795,
+    "websiteUrl": "https://rsc6210.com.au/",
+    "phone": "0417 806 849"
+  },
+  {
+    "id": "602",
+    "slug": "collie-motorplex",
+    "name": "Collie Motorplex",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Cardiff",
+    "address": "Powerhouse Road, Collie Burn, Cardiff, Western Australia, 6225, Australia",
+    "lat": -33.404327,
+    "lng": 116.213822,
+    "websiteUrl": "https://colliemotorplex.org.au/"
+  },
+  {
+    "id": "603",
+    "slug": "hurricane-go-kart-club",
+    "name": "Hurricane Go Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Wundowie",
+    "address": "Burma Road, Bailup, Wundowie, Western Australia, 6560, Australia",
+    "lat": -31.758031,
+    "lng": 116.34435,
+    "websiteUrl": "https://hurricanegokartclub.com.au/"
+  },
+  {
+    "id": "604",
+    "slug": "bunbury-city-kart-club",
+    "name": "Bunbury City Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bunbury",
+    "address": "South Western Highway, Davenport, Bunbury, Western Australia, 6230, Australia",
+    "lat": -33.36362,
+    "lng": 115.683224,
+    "websiteUrl": "https://bunburycitykartclub.teamapp.com/"
+  },
+  {
+    "id": "605",
+    "slug": "cockburn-international-kartway-tiger-kart-club",
+    "name": "Cockburn International Kartway (Tiger Kart Club)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Henderson",
+    "address": "Gemma Road, Henderson, Western Australia, 6166, Australia",
+    "lat": -32.170476,
+    "lng": 115.773882,
+    "websiteUrl": "https://tigerkartclub.com.au/"
+  },
+  {
+    "id": "606",
+    "slug": "alice-springs-kart-club-arunga-park",
+    "name": "Alice Springs Kart Club (Arunga Park)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Nyewente",
+    "address": "Herbert Heritage Drive, Aper Alwerrkng, Stuart, Nyewente, Northern Territory, 0870, Australia",
+    "lat": -23.670653,
+    "lng": 133.883169,
+    "phone": "0427 313 341"
+  },
+  {
+    "id": "607",
+    "slug": "circular-head-kart-club",
+    "name": "Circular Head Kart Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Smithton",
+    "address": "Pump House Road, Smithton, Tasmania, 7330, Australia",
+    "lat": -40.839999,
+    "lng": 145.15044
+  },
+  {
+    "id": "608",
+    "slug": "autodromo-velocitta",
+    "name": "Autódromo Velocitta",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Mogi Guaçu",
+    "address": "Rodovia Governador Doutor Adhemar Pereira de Barros, Jardim Ype II, Parque Cidade Nova, Mogi Guaçu, São Paulo, Southeast Region, 13845-440, Brazil",
+    "lat": -22.346202,
+    "lng": -46.951127,
+    "websiteUrl": "https://www.autodromovelocitta.com.br/"
+  },
+  {
+    "id": "609",
+    "slug": "autodromo-internacional-ayrton-senna-goiania",
+    "name": "Autódromo Internacional Ayrton Senna Goiânia",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Goiânia",
+    "address": "BR-352;GO-020, Residencial Vale das Brisas, Ville de France, Goiânia, Goiás, Central-West Region, 75252-505, Brazil",
+    "lat": -16.737848,
+    "lng": -49.159376
+  },
+  {
+    "id": "610",
+    "slug": "autodromo-internacional-de-taruma",
+    "name": "Autódromo Internacional de Tarumã",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Viamão",
+    "address": "Autódromo Internacional de Tarumã, 5905, Estrada Capitão Gentil Machado de Godoy, Parque São Cristóvão, Tarumã, Sede, Viamão, Rio Grande do Sul, South Region, 94420-000, Brazil",
+    "lat": -30.048591,
+    "lng": -51.016641,
+    "websiteUrl": "https://www.autodromodetaruma.com.br/",
+    "phone": "+55 51 3485-1510"
+  },
+  {
+    "id": "611",
+    "slug": "autodromo-internacional-virgilio-tavora",
+    "name": "Autódromo Internacional Virgílio Távora",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Eusébio",
+    "address": "Rua Ayrton Senna, Centro, Eusébio, Ceará, Northeast Region, 61761-270, Brazil",
+    "lat": -3.890426,
+    "lng": -38.455945,
+    "websiteUrl": "https://www.esporte.ce.gov.br/autodromo/",
+    "phone": "+55 85 3101-4410"
+  },
+  {
+    "id": "612",
+    "slug": "autodromo-internacional-ayrton-senna-londrina",
+    "name": "Autódromo Internacional Ayrton Senna Londrina",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Londrina",
+    "address": "Autódromo Internacional Ayrton Senna, 777, Avenida Henrique Mansano, Jardim Alpes, Vila Nova, Londrina, Paraná, South Region, 86077-130, Brazil",
+    "lat": -23.281755,
+    "lng": -51.167809,
+    "phone": "+55 43 3338-5577"
+  },
+  {
+    "id": "613",
+    "slug": "autodromo-internacional-nelson-piquet",
+    "name": "Autódromo Internacional Nelson Piquet",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Brasília",
+    "address": "Autódromo Nelson Piquet, Setor de Administração Municipal, Brasília, Federal District, Brazil",
+    "lat": -15.783547,
+    "lng": -47.905709
+  },
+  {
+    "id": "614",
+    "slug": "autodromo-internacional-de-mato-grosso",
+    "name": "Autódromo Internacional de Mato Grosso",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Cuiabá",
+    "address": "Estacionamento Sul, Avenida Sul, Cuiabá, Mato Grosso, Central-West Region, Brazil",
+    "lat": -15.458227,
+    "lng": -56.0844
+  },
+  {
+    "id": "615",
+    "slug": "circuito-dos-cristais",
+    "name": "Circuito dos Cristais",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Curvelo",
+    "address": "Praça Central do Brasil, Centro, Curvelo, Minas Gerais, Southeast Region, 35790-246, Brazil",
+    "lat": -18.757193,
+    "lng": -44.430599,
+    "websiteUrl": "https://www.circuitodoscristais.com.br/",
+    "phone": "+55 38 99737-0879"
+  },
+  {
+    "id": "616",
+    "slug": "autodromo-internacional-de-santa-cruz-do-sul",
+    "name": "Autódromo Internacional de Santa Cruz do Sul",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Santa Cruz do Sul",
+    "address": "Centro, Sede Municipal, Santa Cruz do Sul, Rio Grande do Sul, South Region, 96810-034, Brazil",
+    "lat": -29.714209,
+    "lng": -52.428581,
+    "phone": "+55 51 3120-4660"
+  },
+  {
+    "id": "617",
+    "slug": "autodromo-internacional-de-guapore",
+    "name": "Autódromo Internacional de Guaporé",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Guaporé",
+    "address": "Avenida Silvio Sanson, Guaporé, Rio Grande do Sul, South Region, 99200-000, Brazil",
+    "lat": -28.848168,
+    "lng": -51.856673,
+    "phone": "+55 54 3443-1110"
+  },
+  {
+    "id": "618",
+    "slug": "autodromo-internacional-orlando-moura",
+    "name": "Autódromo Internacional Orlando Moura",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Campo Grande",
+    "address": "Rua Antônio Maria Coelho, Carandá Bosque, Campo Grande, Mato Grosso do Sul, Central-West Region, 79021-160, Brazil",
+    "lat": -20.451128,
+    "lng": -54.580667,
+    "phone": "+55 67 3025-1910"
+  },
+  {
+    "id": "619",
+    "slug": "speed-park-kartodromo-internacional-de-birigui",
+    "name": "Speed Park Kartódromo Internacional de Birigui",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Birigui",
+    "address": "Rua Barão do Rio Branco, Vila Germano, Centro, Birigui, São Paulo, Southeast Region, 16200-006, Brazil",
+    "lat": -21.290849,
+    "lng": -50.34144,
+    "websiteUrl": "https://www.speedpark.com.br",
+    "phone": "+55 18 3638-3050"
+  },
+  {
+    "id": "620",
+    "slug": "kartodromo-internacional-de-imperatriz",
+    "name": "Kartódromo Internacional de Imperatriz",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Imperatriz",
+    "address": "Avenida Getúlio Vargas, Beira-Rio, Centro, Imperatriz, Maranhão, Northeast Region, 65903-320, Brazil",
+    "lat": -5.526928,
+    "lng": -47.478115
+  },
+  {
+    "id": "621",
+    "slug": "brasilia-kart",
+    "name": "Brasília Kart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Paranoá",
+    "address": "Paranoá, Federal District, Brazil",
+    "lat": -15.77544,
+    "lng": -47.779763,
+    "websiteUrl": "https://www.brasiliakart.com.br/",
+    "phone": "(61) 99866-9200"
+  },
+  {
+    "id": "622",
+    "slug": "kartodromo-ricardo-santos",
+    "name": "Kartódromo Ricardo Santos",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Goiânia",
+    "address": "Avenida Autodrómo Ayrton Senna, Jardim Vitória II, Goiânia, Goiás, Central-West Region, 74475-022, Brazil",
+    "lat": -16.712614,
+    "lng": -49.197418,
+    "websiteUrl": "https://kartodromodegoiania.com.br/",
+    "phone": "+55 62 99501-0047"
+  },
+  {
+    "id": "623",
+    "slug": "kartodromo-kart-clube-premium",
+    "name": "Kartódromo Kart Clube Premium",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Caucaia",
+    "address": "Avenida Mister Hull - Pista Lateral, Tabapuá, Caucaia, Ceará, Northeast Region, 61635-365, Brazil",
+    "lat": -3.741433,
+    "lng": -38.604859
+  },
+  {
+    "id": "624",
+    "slug": "kartodromo-da-vila-olimpica-de-manaus",
+    "name": "Kartódromo da Vila Olímpica de Manaus",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Manaus",
+    "address": "Avenida Açaí, Distrito Industrial I, Manaus, Amazonas, North Region, 69000-000, Brazil",
+    "lat": -3.131633,
+    "lng": -59.982504
+  },
+  {
+    "id": "625",
+    "slug": "kartodromo-internacional-de-guapimirim",
+    "name": "Kartódromo Internacional de Guapimirim",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Guapimirim",
+    "address": "Rua Vereador Moacyr Pimentel, Centro, Guapimirim, Rio de Janeiro, Southeast Region, 25946-619, Brazil",
+    "lat": -22.526631,
+    "lng": -42.979069,
+    "phone": "+55 21 96480-6275"
+  },
+  {
+    "id": "626",
+    "slug": "monaco-kart-indoor-curitiba",
+    "name": "Mônaco Kart Indoor Curitiba",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Curitiba",
+    "address": "Havan, 292, Rua Itacolomi, Portão, Curitiba, Paraná, South Region, 81050-040, Brazil",
+    "lat": -25.478822,
+    "lng": -49.294562,
+    "websiteUrl": "https://monacokartindoor.com.br/",
+    "phone": "+55 41 99205-3840"
+  },
+  {
+    "id": "627",
+    "slug": "autodromo-ciudad-de-rafaela",
+    "name": "Autódromo Ciudad de Rafaela",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Rafaela",
+    "address": "Ex FC Belgrano, Microcentro, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
+    "lat": -31.252692,
+    "lng": -61.491676
+  },
+  {
+    "id": "628",
+    "slug": "autodromo-rosamonte",
+    "name": "Autódromo Rosamonte",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Posadas",
+    "address": "Avenida 192, San Isidro, Delegación Municipal Las Dolores Sur, Posadas, Departamento Capital, Misiones, N3300GBD, Argentina",
+    "lat": -27.436415,
+    "lng": -55.938934
+  },
+  {
+    "id": "629",
+    "slug": "autodromo-ciudad-de-parana",
+    "name": "Autódromo Ciudad de Paraná",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Paraná",
+    "address": "Ruta Nacional 12, Paraná, Municipio de Paraná, Distrito Sauce, Departamento Paraná, Entre Ríos Province, E3106LEQ, Argentina",
+    "lat": -31.787618,
+    "lng": -60.456397,
+    "phone": "+54 343 497-9195"
+  },
+  {
+    "id": "630",
+    "slug": "autodromo-parque-provincia-del-neuquen",
+    "name": "Autódromo Parque Provincia del Neuquén",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Municipio de Centenario",
+    "address": "Julio Holzmann, Primeros Pobladores, Centenario, Municipio de Centenario, Departamento Confluencia, Neuquén, Q8309, Argentina",
+    "lat": -38.844667,
+    "lng": -68.152684
+  },
+  {
+    "id": "631",
+    "slug": "autodromo-ciudad-de-concordia",
+    "name": "Autódromo Ciudad de Concordia",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Concordia",
+    "address": "Avenida Las Palmeras, Concordia, Distrito Suburbios, Departamento Concordia, Entre Ríos Province, E3201XAJ, Argentina",
+    "lat": -31.340191,
+    "lng": -58.026364
+  },
+  {
+    "id": "632",
+    "slug": "autodromo-el-zonda-eduardo-copello",
+    "name": "Autódromo El Zonda Eduardo Copello",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Rivadavia",
+    "address": "Avenida José Ignacio de la Roza, Comuna La Bebida, Rivadavia, San Juan, 5478, Argentina",
+    "lat": -31.546595,
+    "lng": -68.650544
+  },
+  {
+    "id": "633",
+    "slug": "autodromo-internacional-termas-de-rio-hondo",
+    "name": "Autódromo Internacional Termas de Río Hondo",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Termas de Río Hondo",
+    "address": "Correo Argentino, 766, Avenida Juan B. Alberdi, Termas de Río Hondo, Departamento Río Hondo, Santiago del Estero, 4220, Argentina",
+    "lat": -27.495925,
+    "lng": -64.864078,
+    "websiteUrl": "https://autodromotermas.com/",
+    "phone": "+54 385 421-8606"
+  },
+  {
+    "id": "634",
+    "slug": "autodromo-municipal-juan-manuel-fangio",
+    "name": "Autódromo Municipal Juan Manuel Fangio",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Rafaela",
+    "address": "Jorge Newbery, Rosario, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
+    "lat": -31.236589,
+    "lng": -61.465787,
+    "phone": "+54 341 451-9654"
+  },
+  {
+    "id": "635",
+    "slug": "autodromo-parque-ciudad-de-rio-cuarto",
+    "name": "Autódromo Parque Ciudad de Río Cuarto",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Río Cuarto",
+    "address": "3520, Avenida Juan Manuel Fangio, Las Ferias, Río Cuarto, Municipio de Río Cuarto, Pedanía Río Cuarto, Departamento Río Cuarto, Córdoba, X5800, Argentina",
+    "lat": -33.155797,
+    "lng": -64.359117
+  },
+  {
+    "id": "636",
+    "slug": "kartodromo-internacional-de-zarate",
+    "name": "Kartódromo Internacional de Zárate",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Zárate",
+    "address": "754, Rivadavia, Zárate, Partido de Zárate, Buenos Aires, 2800, Argentina",
+    "lat": -34.095471,
+    "lng": -59.02451,
+    "websiteUrl": "https://kartplus.com.ar/"
+  },
+  {
+    "id": "637",
+    "slug": "kartodromo-francisco-de-aguirre",
+    "name": "Kartódromo Francisco de Aguirre",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Santiago del Estero",
+    "address": "Santiago del Estero, Santiago del Estero, Argentina",
+    "lat": -27.787715,
+    "lng": -64.259506
+  },
+  {
+    "id": "638",
+    "slug": "kartodromo-nicolas-vuyovich",
+    "name": "Kartódromo Nicolás Vuyovich",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Campo Santo",
+    "address": "Ruta Provincial 11, Campo Santo, Municipio de Campo Santo, General Güemes, Salta, A4432, Argentina",
+    "lat": -24.676071,
+    "lng": -65.083472
+  },
+  {
+    "id": "639",
+    "slug": "kartodromo-ciudad-de-san-martin",
+    "name": "Kartódromo Ciudad de San Martín",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Distrito Ciudad de San Martín",
+    "address": "69, Manuel Belgrano, Distrito Ciudad de San Martín, Departamento San Martín, Mendoza, 5570, Argentina",
+    "lat": -33.080397,
+    "lng": -68.470529
+  },
+  {
+    "id": "640",
+    "slug": "autodromo-internacional-de-yahuarcocha",
+    "name": "Autódromo Internacional de Yahuarcocha",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Ecuador",
+    "countryCode": "EC",
+    "city": "Ibarra",
+    "address": "Avenida José Tobar y Tobar, El Sagrario, Ibarra, Imbabura, 100159, Ecuador",
+    "lat": 0.345215,
+    "lng": -78.12777
+  },
+  {
+    "id": "641",
+    "slug": "kartodromo-internacional-de-guayaquil",
+    "name": "Kartódromo Internacional de Guayaquil",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Ecuador",
+    "countryCode": "EC",
+    "city": "Guayaquil",
+    "address": "Lorenzo de Garaycoa, Parque Seminario, Centro, Roca, Guayaquil, Guayas, 090312, Ecuador",
+    "lat": -2.190057,
+    "lng": -79.886867
+  },
+  {
+    "id": "642",
+    "slug": "autodromo-eduardo-prudencio-cabrera",
+    "name": "Autódromo Eduardo Prudêncio Cabrera",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Uruguay",
+    "countryCode": "UY",
+    "city": "Rivera",
+    "address": "Monseñor Jacinto Vera, Centro, Rivera, 40000, Uruguay",
+    "lat": -30.900058,
+    "lng": -55.540815
+  },
+  {
+    "id": "643",
+    "slug": "vereeniging-kart-circuit-global-touch-raceway",
+    "name": "Vereeniging Kart Circuit (Global Touch Raceway)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Vereeniging",
+    "address": "Vereeniging, Emfuleni Local Municipality, Sedibeng District Municipality, Gauteng, 1939, South Africa",
+    "lat": -26.674722,
+    "lng": 27.926111,
+    "websiteUrl": "https://www.globaltouchraceway.co.za/",
+    "phone": "+27 64 522 7088"
+  },
+  {
+    "id": "644",
+    "slug": "madmax-karting-two-rivers",
+    "name": "MadMax Karting Two Rivers",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "city": "Ruaka",
+    "address": "Valley Park Falls -Ruaka Bar, Ruaka, Fiesta-Bypass Link, Karura sublocation, Highridge location, Highridge division, Westlands, Ruaka, Nairobi County, 43563, Kenya",
+    "lat": -1.206859,
+    "lng": 36.788522,
+    "websiteUrl": "https://madmax.co.ke/",
+    "phone": "+254 700 002 211"
+  },
+  {
+    "id": "645",
+    "slug": "rev-virtual-racing-village-market",
+    "name": "REV Virtual Racing Village Market",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "city": "Nairobi",
+    "address": "Village Market, Limuru Road, Karura sublocation, Highridge location, Highridge division, Westlands, Nairobi, Nairobi County, 00601, Kenya",
+    "lat": -1.229727,
+    "lng": 36.803979,
+    "websiteUrl": "https://linktr.ee/revvm",
+    "phone": "+254 746 723 807"
+  },
+  {
+    "id": "646",
+    "slug": "whistling-morans-kart-circuit",
+    "name": "Whistling Morans Kart Circuit",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "city": "Athi River ward",
+    "address": "Embakasi, Athi River ward, Mavoko, Machakos County, Kenya",
+    "lat": -1.448115,
+    "lng": 36.971587,
+    "websiteUrl": "https://whistlingmorans.com",
+    "phone": "+254 784 009 009"
+  },
+  {
+    "id": "647",
+    "slug": "mombasa-go-kart-and-adventure-park",
+    "name": "Mombasa Go-Kart and Adventure Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "city": "Shanzu ward",
+    "address": "Kenya Bay Beach Hotel, Malindi Road, Dolphin, Shanzu, Bamburi, Shanzu ward, Kisauni, Mombasa County, 80295, Kenya",
+    "lat": -3.989016,
+    "lng": 39.737421,
+    "websiteUrl": "https://www.mombasa-gokart.com"
+  },
+  {
+    "id": "648",
+    "slug": "noos-karting",
+    "name": "Noos Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "city": "Sheikh Zayed",
+    "address": "Cairo, Alexandria Desert Road, Sheikh Zayed, Aj Jiza, 12556, Egypt",
+    "lat": 30.02325,
+    "lng": 31.077787,
+    "websiteUrl": "https://nooskarting.com",
+    "phone": "+20 121 220 3201"
+  },
+  {
+    "id": "649",
+    "slug": "vgk-karting",
+    "name": "VGK Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "city": "Mohammedia",
+    "address": "Hassan II Boulevard, Centre, Mohammedia, Pachalik de Mohammédia باشوية المحمدية, Prefecture of Mohammédia, Casablanca-Settat, 28820, Morocco",
+    "lat": 33.695838,
+    "lng": -7.389329,
+    "websiteUrl": "https://vgk.ma/karting/",
+    "phone": "+212 608 12 12 00"
+  },
+  {
+    "id": "650",
+    "slug": "marrakech-kart-racing",
+    "name": "Marrakech Kart Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "city": "Mechouar Kasbah",
+    "address": "Agdal, Zone Touristique de l'Agdal ⵜⴰⵎⵏⴰⴹⵜ ⵜⴰⵎⴰⵍⵍⴰⵢⴰⵏⵜ ⵏ ⵓⴳⴷⴰⵍ, Mechouar Kasbah, Pachalik de Méchouar Kasba, Marrakesh Prefecture, Marrakech-Safi, 40035, Morocco",
+    "lat": 31.592774,
+    "lng": -7.998793,
+    "websiteUrl": "https://www.marrakechgrandprix.com/marrakech-kart-racing",
+    "phone": "+212 660 10 15 13"
+  },
+  {
+    "id": "651",
+    "slug": "circuit-de-dakar-baobabs",
+    "name": "Circuit de Dakar Baobabs",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "city": "Communauté rurale de Sindia",
+    "address": "Route Thies-Sindia, Sindia, Communauté rurale de Sindia, Arrondissement de Sindia, Département de M'bour, Thiès Region, 23000, Senegal",
+    "lat": 14.582622,
+    "lng": -17.034832,
+    "websiteUrl": "https://circuitdedakar.com/"
+  },
+  {
+    "id": "652",
+    "slug": "formula-k-raceway",
+    "name": "Formula-K Raceway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Benoni",
+    "address": "Woburn Avenue, Kleinfontein Lake, Ekurhuleni Ward 28, Benoni, City of Ekurhuleni Metropolitan Municipality, Gauteng, 1500, South Africa",
+    "lat": -26.193036,
+    "lng": 28.308238,
+    "websiteUrl": "https://www.formula-k.co.za/"
+  },
+  {
+    "id": "653",
+    "slug": "monstermob-raceway",
+    "name": "Monstermob Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Sol Plaatje Local Municipality",
+    "address": "Kenilworth Road, De Beers, Sol Plaatje Ward 21, Sol Plaatje Local Municipality, Frances Baard District Municipality, Northern Cape, 8301, South Africa",
+    "lat": -28.727599,
+    "lng": 24.775279,
+    "websiteUrl": "https://www.kimberley.co.za/places/kimberley/business-venues/monstermob-raceway/",
+    "phone": "+27 53 832 9609"
+  },
+  {
+    "id": "654",
+    "slug": "indy-kart-mall-of-the-south",
+    "name": "Indy Kart Mall of the South",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Johannesburg",
+    "address": "Aspen Lakes, Johannesburg, Gauteng, South Africa",
+    "lat": -26.25,
+    "lng": 28.033333,
+    "websiteUrl": "https://indykart.co.za/our-tracks/mall-of-the-south/",
+    "phone": "+27 11 764 2771"
+  },
+  {
+    "id": "655",
+    "slug": "battlekart-melbourne",
+    "name": "BattleKart Melbourne",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Battle Kart, 50, McArthur Street, West Footscray, Melbourne, Victoria, 3012, Australia",
+    "lat": -37.803028,
+    "lng": 144.868513,
+    "websiteUrl": "https://www.battlekart.com/en/melbourne",
+    "phone": "+61 477 602 057"
+  },
+  {
+    "id": "656",
+    "slug": "the-zone-fun-park-kart-zone",
+    "name": "The Zone Fun Park (Kart Zone)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bendigo",
+    "address": "1, Gildea Lane, East Bendigo, Bendigo, Victoria, 3550, Australia",
+    "lat": -36.745918,
+    "lng": 144.31011,
+    "websiteUrl": "https://www.thezone.com.au/",
+    "phone": "(03) 5441 7046"
+  },
+  {
+    "id": "657",
+    "slug": "go-karts-go-nelson-bay",
+    "name": "Go Karts Go Nelson Bay",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bobs Farm",
+    "address": "Marsh Road, Bobs Farm, New South Wales, 2316, Australia",
+    "lat": -32.775102,
+    "lng": 151.972436,
+    "websiteUrl": "https://gokartsgo.com.au/nelson-bay/",
+    "phone": "0477 744 094"
+  },
+  {
+    "id": "658",
+    "slug": "battlekart-tuggerah",
+    "name": "BattleKart Tuggerah",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Gosford",
+    "address": "Red Rooster, 184, Pacific Highway, Tuggerah, Gosford, New South Wales, 2259, Australia",
+    "lat": -33.294435,
+    "lng": 151.422198,
+    "websiteUrl": "https://www.battlekart.com/en/tuggerah",
+    "phone": "+61 428 201 565"
+  },
+  {
+    "id": "659",
+    "slug": "c1-speed-indoor-karting-and-laser-tag",
+    "name": "C1 Speed Indoor Karting and Laser Tag",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Albion Park Rail",
+    "address": "Princes Highway, Albion Park Rail, New South Wales, 2527, Australia",
+    "lat": -34.569212,
+    "lng": 150.809429,
+    "websiteUrl": "https://www.c1speed.com.au/karts-and-tracks",
+    "phone": "(02) 4256 6566"
+  },
+  {
+    "id": "660",
+    "slug": "stony-creek-go-karts",
+    "name": "Stony Creek Go Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Stony Creek",
+    "address": "2000, South Gippsland Highway, Stony Creek, Victoria, 3956, Australia",
+    "lat": -38.579096,
+    "lng": 146.041552,
+    "websiteUrl": "https://www.stonycreekgokarts.com.au/hire",
+    "phone": "(03) 5664 7272"
+  },
+  {
+    "id": "661",
+    "slug": "hamilton-island-go-kart-racing",
+    "name": "Hamilton Island Go Kart Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Hamilton Island",
+    "address": "Palm Valley Way, Whitsundays, Hamilton Island, Queensland, 4802, Australia",
+    "lat": -20.355293,
+    "lng": 148.952474,
+    "websiteUrl": "https://www.hamiltonisland.com.au/attractions-and-activities/go-kart-racing",
+    "phone": "(07) 4946 8850"
+  },
+  {
+    "id": "662",
+    "slug": "perth-motorplex",
+    "name": "Perth Motorplex",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Kwinana Beach",
+    "address": "Anketell Road, Kwinana Beach, Western Australia, 6167, Australia",
+    "lat": -32.209218,
+    "lng": 115.786745,
+    "websiteUrl": "https://www.motorplex.com.au/",
+    "phone": "(08) 9419 6622"
+  },
+  {
+    "id": "663",
+    "slug": "sir-colin-giltrap-raceway-colin-dale-park",
+    "name": "Sir Colin Giltrap Raceway (Colin Dale Park)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Manurewa",
+    "address": "Prices Road Extension, Wiri, Manurewa, Auckland, 2242, New Zealand",
+    "lat": -37.008619,
+    "lng": 174.845219,
+    "websiteUrl": "https://www.kartsportauckland.org.nz/"
+  },
+  {
+    "id": "664",
+    "slug": "karting-taranaki",
+    "name": "Karting Taranaki",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Waitara",
+    "address": "55, Joll Street, Waitara, New Plymouth District, Taranaki, 4320, New Zealand",
+    "lat": -39.006155,
+    "lng": 174.247219,
+    "websiteUrl": "https://www.kartsporttaranaki.co.nz/"
+  },
+  {
+    "id": "665",
+    "slug": "pro-karts-nelson",
+    "name": "Pro Karts Nelson",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Nelson",
+    "address": "40, Hounsell Circle, Moana, Tāhunanui, Nelson, 7011, New Zealand",
+    "lat": -41.280803,
+    "lng": 173.242578,
+    "websiteUrl": "https://www.prokarts.co.nz/",
+    "phone": "+64 3 548 5278"
+  },
+  {
+    "id": "666",
+    "slug": "e-volt-racing-matakana",
+    "name": "E-Volt Racing Matakana",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Rodney",
+    "address": "31, Ōmaha Flats Road, Ōmaha Flats, Matakana, Rodney, Auckland, 0985, New Zealand",
+    "lat": -36.341078,
+    "lng": 174.735784,
+    "websiteUrl": "https://www.evoltracing.co.nz/",
+    "phone": "021 722 361"
+  },
+  {
+    "id": "667",
+    "slug": "kartsport-bay-of-plenty-apparelmaster-raceway",
+    "name": "KartSport Bay of Plenty (Apparelmaster Raceway)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Te Puke",
+    "address": "Alley Road, Te Puke, Western Bay of Plenty District, Bay of Plenty, 3183, New Zealand",
+    "lat": -37.773886,
+    "lng": 176.285415,
+    "websiteUrl": "https://www.bopkartclub.org.nz/"
+  },
+  {
+    "id": "668",
+    "slug": "kartsport-manawatu",
+    "name": "KartSport Manawatu",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Palmerston North",
+    "address": "129-141, Shirriffs Road, Awapuni, Palmerston North, Palmerston North City, Manawatū-Whanganui, 4412, New Zealand",
+    "lat": -40.384211,
+    "lng": 175.566248,
+    "websiteUrl": "https://www.kartsportmanawatu.org.nz/"
+  },
+  {
+    "id": "669",
+    "slug": "kartsport-tokoroa",
+    "name": "KartSport Tokoroa",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Tokoroa",
+    "address": "155, Moffat Road, Amisfield, Tokoroa, South Waikato District, Waikato, 3420, New Zealand",
+    "lat": -38.237144,
+    "lng": 175.89116,
+    "websiteUrl": "https://www.kartsporttokoroa.co.nz/"
+  },
+  {
+    "id": "670",
+    "slug": "superkart-abidjan",
+    "name": "SuperKart Abidjan",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Ivory Coast",
+    "countryCode": "CI",
+    "city": "Marcory",
+    "address": "Marcory, Abidjan, Ivory Coast",
+    "lat": 5.303612,
+    "lng": -3.985395,
+    "websiteUrl": "https://www.facebook.com/p/Superkart-ci-100084614375014/",
+    "phone": "+225 27 21 54 94 21"
+  },
+  {
+    "id": "671",
+    "slug": "karting-evasion-algerie",
+    "name": "Karting Evasion Algerie",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "city": "Bordj El Kiffan",
+    "address": "Bordj El Kiffan, Dar el-Beida District, Algiers, Algeria",
+    "lat": 36.747273,
+    "lng": 3.190895,
+    "websiteUrl": "https://www.facebook.com/KartingEvasionAlgerie/",
+    "phone": "+213 770 37 62 25"
+  },
+  {
+    "id": "672",
+    "slug": "kartsport-nelson",
+    "name": "KartSport Nelson",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Redwood Valley",
+    "address": "Redwood Valley, Tasman District, New Zealand",
+    "lat": -41.332071,
+    "lng": 173.201116,
+    "websiteUrl": "https://www.kartsportnelson.co.nz/",
+    "phone": "027 231 9224"
+  },
+  {
+    "id": "673",
+    "slug": "kartodromo-rbc-racing",
+    "name": "Kartódromo RBC Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Vespasiano",
+    "address": "MG-424, Vila Jardim da Glória, Vespasiano, Minas Gerais, Southeast Region, 33206-006, Brazil",
+    "lat": -19.730554,
+    "lng": -43.963313,
+    "websiteUrl": "https://rbcracing.com.br/",
+    "phone": "+55 31 3621-8639"
+  },
+  {
+    "id": "674",
+    "slug": "kartodromo-internacional-de-betim",
+    "name": "Kartódromo Internacional de Betim",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Betim",
+    "address": "Kartódromo Internacional de Betim, 477, Rua Mateus Gonçalves Mendonça, Regional Alterosas, Betim, Minas Gerais, Southeast Region, 32672-587, Brazil",
+    "lat": -19.920319,
+    "lng": -44.17568,
+    "websiteUrl": "https://www.kartodromodebetim.com.br/",
+    "phone": "+55 31 3511-2373"
+  },
+  {
+    "id": "675",
+    "slug": "adrenalina-rio-kart-guadalupe",
+    "name": "Adrenalina Rio Kart Guadalupe",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Avenida Brasil, Guadalupe, Rio de Janeiro, Southeast Region, 21675-310, Brazil",
+    "lat": -22.842727,
+    "lng": -43.373018,
+    "websiteUrl": "https://adrenalinariokart.com.br/",
+    "phone": "+55 21 3178-8811"
+  },
+  {
+    "id": "676",
+    "slug": "meta-kart-indoor-barra",
+    "name": "Meta Kart Indoor Barra",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Shopping Metropolitano Barra, 1300, Avenida Engenheiro Carlos Carvalho, Barra Olímpica, Rio de Janeiro, Southeast Region, 22775-040, Brazil",
+    "lat": -22.971164,
+    "lng": -43.372366,
+    "websiteUrl": "https://www.metakart.com.br/barra",
+    "phone": "+55 21 97318-8921"
+  },
+  {
+    "id": "677",
+    "slug": "meta-kart-indoor-norte-shopping",
+    "name": "Meta Kart Indoor Norte Shopping",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Smart Fit, 5474, Avenida Dom Hélder Câmara, Cachambi, Rio de Janeiro, Southeast Region, 20771-004, Brazil",
+    "lat": -22.886597,
+    "lng": -43.280935,
+    "websiteUrl": "https://www.metakart.com.br/norte",
+    "phone": "+55 21 96645-2862"
+  },
+  {
+    "id": "678",
+    "slug": "meta-kart-indoor-campo-grande",
+    "name": "Meta Kart Indoor Campo Grande",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Starbucks, 1200, Estrada do Monteiro, Campo Grande, Rio de Janeiro, Southeast Region, 23036-053, Brazil",
+    "lat": -22.926459,
+    "lng": -43.576059,
+    "websiteUrl": "https://www.metakart.com.br/",
+    "phone": "+55 21 97338-5900"
+  },
+  {
+    "id": "679",
+    "slug": "prime-kart-caxias-shopping",
+    "name": "Prime Kart Caxias Shopping",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Duque de Caxias",
+    "address": "Rodovia Washington Luiz, Parque Duque, Jardim 25 de Agosto, Duque de Caxias, Rio de Janeiro, Southeast Region, 25085-240, Brazil",
+    "lat": -22.801732,
+    "lng": -43.290341
+  },
+  {
+    "id": "680",
+    "slug": "parque-kartodromo-de-joinville",
+    "name": "Parque Kartódromo de Joinville",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Joinville",
+    "address": "Rua Dorothóvio do Nascimento, Zona Industrial Norte, Joinville, Santa Catarina, South Region, 89223-600, Brazil",
+    "lat": -26.230385,
+    "lng": -48.825739,
+    "websiteUrl": "https://parquekartodromo.com/",
+    "phone": "+55 47 99637-0011"
+  },
+  {
+    "id": "681",
+    "slug": "kartodromo-internacional-cesar-francischini",
+    "name": "Kartódromo Internacional César Francischini",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Farroupilha",
+    "address": "Rua São Vicente, Cinquentenário, Farroupilha, Rio Grande do Sul, South Region, 95180-188, Brazil",
+    "lat": -29.200964,
+    "lng": -51.348424,
+    "phone": "+55 54 3268-9898"
+  },
+  {
+    "id": "682",
+    "slug": "unico-simracing",
+    "name": "Único SimRacing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Rio de Janeiro",
+    "address": "Açougue Vegano, 5500, Avenida Ayrton Senna, Barra da Tijuca, Rio de Janeiro, Southeast Region, 22775-004, Brazil",
+    "lat": -22.96533,
+    "lng": -43.353215,
+    "websiteUrl": "https://unicosimracing.setmore.com/",
+    "phone": "+55 21 97015-3362"
+  },
+  {
+    "id": "683",
+    "slug": "kartodromo-municipal-de-venancio-aires",
+    "name": "Kartódromo Municipal de Venâncio Aires",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Venâncio Aires",
+    "address": "Rua 13 de Maio, Centro, Venâncio Aires, Rio Grande do Sul, South Region, 95800-000, Brazil",
+    "lat": -29.614306,
+    "lng": -52.193159
+  },
+  {
+    "id": "684",
+    "slug": "kartodromo-osternack",
+    "name": "Kartódromo Osternack",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São José dos Pinhais",
+    "address": "Centro de Referência da Assistência Social Helena Meister, 3480, Avenida Guatupê, Guatupê, São José dos Pinhais, Paraná, South Region, 83060-645, Brazil",
+    "lat": -25.486571,
+    "lng": -49.139027,
+    "phone": "+55 41 3398-7896"
+  },
+  {
+    "id": "685",
+    "slug": "kartodromo-leandro-merlo",
+    "name": "Kartódromo Leandro Merlo",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Vitória da Conquista",
+    "address": "Fazenda Urucu, Cabeceira da Jiboia, Vitória da Conquista, Bahia, Northeast Region, Brazil",
+    "lat": -15.074744,
+    "lng": -40.89403
+  },
+  {
+    "id": "686",
+    "slug": "kbv-kart-bela-vista",
+    "name": "KBV - Kart Bela Vista",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Salvador",
+    "address": "Cheirin Bão, 92, Alameda Euvaldo Luz, Horto Bela Vista, Pernambués, Salvador, Bahia, Northeast Region, 41098-020, Brazil",
+    "lat": -12.970443,
+    "lng": -38.474257,
+    "phone": "+55 71 3460-5485"
+  },
+  {
+    "id": "687",
+    "slug": "circuito-m3-speed-racing-club",
+    "name": "Circuito M3 Speed Racing Club",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Pilar",
+    "address": "Rodovia BR-316, Chã do Pilar, Pilar, Alagoas, Northeast Region, 57150-000, Brazil",
+    "lat": -9.586847,
+    "lng": -35.956735,
+    "websiteUrl": "https://circuitom3.com.br/",
+    "phone": "+55 82 98808-6886"
+  },
+  {
+    "id": "688",
+    "slug": "a-racing-simuladores-rosario",
+    "name": "A Racing Simuladores Rosario",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Rosario",
+    "address": "2927, Córdoba, Nuestra Señora de Lourdes, Distrito Centro, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, 2002, Argentina",
+    "lat": -32.941997,
+    "lng": -60.6633,
+    "websiteUrl": "https://aracingsimuladores.com.ar/rosario/"
+  },
+  {
+    "id": "689",
+    "slug": "a-racing-simuladores-neuquen",
+    "name": "A Racing Simuladores Neuquén",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Neuquén",
+    "address": "525, Juan Bautista Justo, Área Centro Oeste, Neuquén, Municipio de Neuquén, Departamento Confluencia, Neuquén, Q8300, Argentina",
+    "lat": -38.953846,
+    "lng": -68.066696,
+    "websiteUrl": "https://aracingsimuladores.com.ar/neuquen/",
+    "phone": "+54 299 588-3020"
+  },
+  {
+    "id": "690",
+    "slug": "a-racing-simuladores-mar-del-plata",
+    "name": "A Racing Simuladores Mar del Plata",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Mar del Plata",
+    "address": "1942, Córdoba, Centro, Mar del Plata, Partido de General Pueyrredón, Buenos Aires, B7600DTR, Argentina",
+    "lat": -38.001425,
+    "lng": -57.548365,
+    "websiteUrl": "https://aracingsimuladores.com.ar/mar-del-plata/",
+    "phone": "+54 223 531-9038"
+  },
+  {
+    "id": "691",
+    "slug": "iron-driver-experience-villa-devoto",
+    "name": "Iron Driver Experience Villa Devoto",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Buenos Aires",
+    "address": "2909, Asunción, Agronomía, Buenos Aires, Comuna 15, Autonomous City of Buenos Aires, C1419HTH, Argentina",
+    "lat": -34.592148,
+    "lng": -58.497197,
+    "websiteUrl": "https://irondriverexperience.com/",
+    "phone": "+54 9 11 2294 2520"
+  },
+  {
+    "id": "692",
+    "slug": "autodromo-enrique-freile",
+    "name": "Autódromo Enrique Freile",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "El Calafate",
+    "address": "Ruta Provincial 11, El Calafate, Lago Argentino, Santa Cruz, Argentina",
+    "lat": -50.317424,
+    "lng": -72.173781
+  },
+  {
+    "id": "693",
+    "slug": "autodromo-ciudad-de-viedma",
+    "name": "Autódromo Ciudad de Viedma",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Viedma",
+    "address": "Viedma, Departamento Adolfo Alsina, Río Negro, Argentina",
+    "lat": -40.851079,
+    "lng": -62.944401
+  },
+  {
+    "id": "694",
+    "slug": "autodromo-rosendo-hernandez",
+    "name": "Autódromo Rosendo Hernández",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "San Luis",
+    "address": "San Luis, Juan Martín de Pueyrredón, San Luis, Argentina",
+    "lat": -33.302074,
+    "lng": -66.336958
+  },
+  {
+    "id": "695",
+    "slug": "autodromo-de-concepcion-del-uruguay",
+    "name": "Autódromo de Concepción del Uruguay",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Concepción del Uruguay",
+    "address": "700, San Martín, Concepción del Uruguay, Distrito Molino, Departamento Uruguay, Entre Ríos Province, E3260FTD, Argentina",
+    "lat": -32.485185,
+    "lng": -58.232023
+  },
+  {
+    "id": "696",
+    "slug": "autodromo-provincia-de-la-pampa",
+    "name": "Autódromo Provincia de La Pampa",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Toay",
+    "address": "Autódromo Provincia de La Pampa, Ruta Provincial 14, Toay, Municipio de Toay, Departamento Toay, La Pampa, L6303, Argentina",
+    "lat": -36.724735,
+    "lng": -64.349682,
+    "websiteUrl": "https://autodromolapampa.com.ar/"
+  },
+  {
+    "id": "697",
+    "slug": "autodromo-juan-maria-traverso",
+    "name": "Autódromo Juan María Traverso",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "San Nicolás de los Arroyos",
+    "address": "69, Bartolomé Mitre, Centro, San Nicolás de los Arroyos, Partido de San Nicolás, Buenos Aires, 2900, Argentina",
+    "lat": -33.327709,
+    "lng": -60.216591
+  },
+  {
+    "id": "698",
+    "slug": "autodromo-eusebio-marcilla",
+    "name": "Autódromo Eusebio Marcilla",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Balneario Laguna de Gómez",
+    "address": "Autódromo Eusebio Marcilla, Camino al Parque Natural Laguna de Gómez, Balneario Laguna de Gómez, Partido de Junín, Buenos Aires, Argentina",
+    "lat": -34.650449,
+    "lng": -61.019072
+  },
+  {
+    "id": "699",
+    "slug": "autodromo-ciudad-de-obera",
+    "name": "Autódromo Ciudad de Oberá",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Oberá",
+    "address": "2045, Avenida de Las Américas, Kleiven, El Chachí, Oberá, Municipio de Oberá, Departamento Oberá, Misiones, 3360, Argentina",
+    "lat": -27.475624,
+    "lng": -55.087652
+  },
+  {
+    "id": "700",
+    "slug": "autodromo-general-san-martin",
+    "name": "Autódromo General San Martín",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Comodoro Rivadavia",
+    "address": "Avenida Hipólito Yrigoyen, Centro, Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
+    "lat": -45.864006,
+    "lng": -67.478397
+  },
+  {
+    "id": "701",
+    "slug": "kartodromo-valentin-lauret",
+    "name": "Kartódromo Valentín Lauret",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Colonia Caroya",
+    "address": "3899, Avenida San Martín, René Favaloro, Colonia Caroya, Municipio de Colonia Caroya, Pedanía Las Cañas, Departamento Colón, Córdoba, 5223, Argentina",
+    "lat": -31.021189,
+    "lng": -64.061737,
+    "phone": "(03525) 461111"
+  },
+  {
+    "id": "702",
+    "slug": "kartodromo-jorge-frare",
+    "name": "Kartódromo Jorge Frare",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Gualeguay",
+    "address": "Remedios Escalada de San Martín, Gualeguay, Distrito Cuchilla, Departamento Gualeguay, Entre Ríos Province, Argentina",
+    "lat": -33.150426,
+    "lng": -59.310679
+  },
+  {
+    "id": "703",
+    "slug": "kartodromo-internacional-akps-km-9",
+    "name": "Kartódromo Internacional AKPS Km 9",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Comodoro Rivadavia",
+    "address": "1553, Tito Steimastuk, Dr. René Gerónimo Favaloro, René Favaloro, Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
+    "lat": -45.779665,
+    "lng": -67.487685,
+    "websiteUrl": "https://akps.com.ar",
+    "phone": "+54 297 408-9040"
+  },
+  {
+    "id": "704",
+    "slug": "kartodromo-juan-navarro-el-timbo",
+    "name": "Kartódromo Juan Navarro El Timbó",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Municipio de El Timbó",
+    "address": "Ruta Provincial 312, El Mollar, Municipio de El Timbó, Departamento Burruyacú, Tucumán, T4119, Argentina",
+    "lat": -26.721249,
+    "lng": -65.132547,
+    "websiteUrl": "https://kartodromoeltimbo.blogspot.com",
+    "phone": "+54 381 354-0197"
+  },
+  {
+    "id": "705",
+    "slug": "kartodromo-valentino-temuco",
+    "name": "Kartódromo Valentino Temuco",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Chile",
+    "countryCode": "CL",
+    "city": "Lautaro",
+    "address": "Ruta 5 Sur, Pumalal, Pillanlelbún, Lautaro, Provincia de Cautín, Araucania Region, Chile",
+    "lat": -38.644047,
+    "lng": -72.468715,
+    "websiteUrl": "https://www.instagram.com/kartodromovalentino.cl/",
+    "phone": "+56 9 9871 3263"
   }
 ];
