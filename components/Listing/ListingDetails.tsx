@@ -1,6 +1,7 @@
 import type { Listing, TrackEvent } from "@/lib/types";
 import { CATEGORY_LABEL } from "@/lib/categoryMeta";
 import { SERIES_LABEL, SERIES_BADGE_CLASS } from "@/lib/seriesMeta";
+import { formatAddress, googleMapsUrl } from "@/lib/formatAddress";
 
 function DetailRow({ label, value }: { label: string; value: React.ReactNode }) {
   if (value === undefined || value === null || value === "") return null;
@@ -81,7 +82,21 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
         }
       />
       <DetailRow label="Phone" value={listing.phone} />
-      <DetailRow label="Address" value={listing.address || undefined} />
+      <DetailRow
+        label="Address"
+        value={
+          listing.address && (
+            <a
+              href={googleMapsUrl(listing)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline"
+            >
+              {formatAddress(listing)}
+            </a>
+          )
+        }
+      />
       <DetailRow label="Indoor / Outdoor" value={listing.indoorOutdoor} />
       <DetailRow
         label="Track length"

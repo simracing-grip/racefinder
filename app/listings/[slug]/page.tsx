@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getListingBySlug } from "@/lib/listings";
+import { formatAddress, googleMapsUrl } from "@/lib/formatAddress";
 import CategoryBadge from "@/components/Listing/CategoryBadge";
 import ListingDetails from "@/components/Listing/ListingDetails";
 import MapView from "@/components/Map/MapView";
@@ -71,7 +72,14 @@ export default async function ListingDetailPage({
       <h1 className="text-3xl font-bold">{listing.name}</h1>
       <p className="mt-1 flex items-center gap-1.5 text-gray-400">
         <CountryFlag countryCode={listing.countryCode} />
-        {listing.address || `${listing.city}, ${listing.country}`}
+        <a
+          href={googleMapsUrl(listing)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-200 hover:underline"
+        >
+          {listing.address ? formatAddress(listing) : `${listing.city}, ${listing.country}`}
+        </a>
       </p>
 
       {listing.description && (
