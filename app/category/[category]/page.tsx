@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getListings, getCountries } from "@/lib/listings";
+import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
 import FilterBar from "@/components/Filters/FilterBar";
@@ -37,9 +37,10 @@ export default async function CategoryPage({
   if (!meta) notFound();
 
   const { country } = await searchParams;
-  const [listings, countries] = await Promise.all([
+  const [listings, countries, countryCodes] = await Promise.all([
     getListings({ category: category as Category, country }),
     getCountries(),
+    getCountryCodeMap(),
   ]);
 
   return (
@@ -51,11 +52,15 @@ export default async function CategoryPage({
       </p>
 
       <section className="mb-6">
-        <MapView listings={listings} height="320px" />
+        <FilterBar
+          countries={countries}
+          countryCodes={countryCodes}
+          activeCategory={category as Category}
+        />
       </section>
 
       <section className="mb-6">
-        <FilterBar countries={countries} activeCategory={category as Category} />
+        <MapView listings={listings} height="320px" />
       </section>
 
       <section className="mx-auto max-w-3xl">

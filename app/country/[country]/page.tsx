@@ -1,7 +1,13 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getListings, getCountries, getCountryCode, slugifyCountry } from "@/lib/listings";
+import {
+  getListings,
+  getCountries,
+  getCountryCode,
+  getCountryCodeMap,
+  slugifyCountry,
+} from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
@@ -47,10 +53,11 @@ export default async function CountryPage({
   const { country: queryCountry } = await searchParams;
   const resolved = queryCountry ?? routeCountry;
 
-  const [listings, countries, countryCode] = await Promise.all([
+  const [listings, countries, countryCode, countryCodes] = await Promise.all([
     getListings({ country: resolved }),
     getCountries(),
     getCountryCode(resolved),
+    getCountryCodeMap(),
   ]);
 
   return (
@@ -67,11 +74,11 @@ export default async function CountryPage({
       </p>
 
       <section className="mb-6">
-        <MapView listings={listings} height="320px" />
+        <FilterBar countries={countries} countryCodes={countryCodes} />
       </section>
 
       <section className="mb-6">
-        <FilterBar countries={countries} />
+        <MapView listings={listings} height="320px" />
       </section>
 
       <section className="mx-auto max-w-3xl">
