@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import Link from "next/link";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
+import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,12 +17,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "RaceFinder — Sim Racing, Track Days & Karting in Europe",
-    template: "%s | RaceFinder",
+    default: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    "Find sim racing centers, track day circuits, and karting tracks across Europe.",
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} — Sim Racing, Track Days & Karting in Europe`,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -32,8 +47,26 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <footer className="border-t border-gray-800 bg-gray-950 py-6 text-center text-sm text-gray-500">
-          RaceFinder — free directory of sim racing, track day, and karting venues.
+          <p>{SITE_NAME} — free directory of sim racing, track day, and karting venues.</p>
+          <nav className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+            <Link href="/about" className="hover:text-gray-300">
+              About
+            </Link>
+            <Link href="/contact" className="hover:text-gray-300">
+              Contact
+            </Link>
+            <Link href="/privacy" className="hover:text-gray-300">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-gray-300">
+              Terms
+            </Link>
+            <Link href="/faq" className="hover:text-gray-300">
+              FAQ
+            </Link>
+          </nav>
         </footer>
+        <Analytics />
       </body>
     </html>
   );

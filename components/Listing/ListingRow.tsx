@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import type { Listing } from "@/lib/types";
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import { formatEventDate, getNextEvent } from "@/lib/listingSort";
 import CategoryBadge from "./CategoryBadge";
 import ListingDetails from "./ListingDetails";
-import MapView from "@/components/Map/MapView";
 import CountryFlag from "@/components/CountryFlag";
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -49,7 +49,6 @@ export default function ListingRow({
   const rowRef = useRef<HTMLDivElement>(null);
   const accentColor = CATEGORY_COLOR[listing.categories[0]] ?? "#2563eb";
   const nextEvent = getNextEvent(listing);
-  const mapListings = useMemo(() => [listing], [listing]);
 
   useEffect(() => {
     if (selected) rowRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
@@ -79,8 +78,14 @@ export default function ListingRow({
           style={{ background: listing.coverImageUrl ? undefined : accentColor }}
         >
           {listing.coverImageUrl ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={listing.coverImageUrl} alt="" className="h-full w-full object-cover" />
+            <Image
+              src={listing.coverImageUrl}
+              alt={listing.name}
+              width={56}
+              height={56}
+              unoptimized
+              className="h-full w-full object-cover"
+            />
           ) : (
             <FlagIcon />
           )}
@@ -114,17 +119,14 @@ export default function ListingRow({
 
       {open && (
         <div className="border-t border-gray-800 bg-gray-950/50 p-3.5 sm:p-4">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-[1fr_1.2fr]">
-            <MapView listings={mapListings} height="200px" />
-            <div className="rounded-lg border border-gray-800 bg-gray-900 p-3.5">
-              <ListingDetails listing={listing} />
-              <Link
-                href={`/listings/${listing.slug}`}
-                className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-blue-400 hover:underline"
-              >
-                Open full page &rarr;
-              </Link>
-            </div>
+          <div className="rounded-lg border border-gray-800 bg-gray-900 p-3.5">
+            <ListingDetails listing={listing} />
+            <Link
+              href={`/listings/${listing.slug}`}
+              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-blue-400 hover:underline"
+            >
+              Open full page &rarr;
+            </Link>
           </div>
         </div>
       )}
