@@ -60,6 +60,7 @@ function listingsToGeoJSON(listings: Listing[]): GeoJSON.FeatureCollection {
         name: l.name,
         city: l.city,
         country: l.country,
+        countryCode: l.countryCode,
         categories: l.categories.join(","),
         primaryCategory: l.categories[0],
         icon: `pin-${l.categories[0]}`,
@@ -78,12 +79,16 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
     )
     .join(" ");
   const buttonColor = CATEGORY_COLOR[categories[0]] ?? "#2563eb";
+  const countryCode = props.countryCode ? String(props.countryCode).toLowerCase() : "";
+  const flag = countryCode
+    ? `<span class="fi fi-${escapeHtml(countryCode)} inline-block rounded-[2px] align-[-1px]" aria-hidden="true"></span> `
+    : "";
 
   return `
     <div class="w-56">
       <div class="flex flex-wrap gap-1">${badges}</div>
       <div class="mt-1.5 text-[15px] font-semibold leading-snug text-gray-100">${escapeHtml(String(props.name))}</div>
-      <div class="text-xs text-gray-400">${escapeHtml(String(props.city))}, ${escapeHtml(String(props.country))}</div>
+      <div class="text-xs text-gray-400">${flag}${escapeHtml(String(props.city))}, ${escapeHtml(String(props.country))}</div>
       <a class="mt-2.5 inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
         View details &rarr;
       </a>
@@ -314,6 +319,7 @@ export default function MapLibreMap({
           name: listing.name,
           city: listing.city,
           country: listing.country,
+          countryCode: listing.countryCode,
           categories: listing.categories.join(","),
         })
       )
