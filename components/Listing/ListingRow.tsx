@@ -102,7 +102,7 @@ export default function ListingRow({
               </span>
             )}
           </div>
-          <h3 className="mt-1 truncate font-semibold text-gray-100">{listing.name}</h3>
+          <h3 className="mt-1 line-clamp-2 font-semibold leading-snug text-gray-100">{listing.name}</h3>
           <p className="flex items-center gap-1.5 truncate text-sm text-gray-400">
             <CountryFlag countryCode={listing.countryCode} />
             {listing.city}, {listing.country}
