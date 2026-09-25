@@ -3,12 +3,7 @@ import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import HomeExplorer from "@/components/Home/HomeExplorer";
 import CountryPicker from "@/components/Home/CountryPicker";
 
-export default async function HomePage({
-  searchParams,
-}: {
-  searchParams: Promise<{ country?: string }>;
-}) {
-  const params = await searchParams;
+export default async function HomePage() {
   const [listings, countries, countryCodes] = await Promise.all([
     getListings(),
     getCountries(),
@@ -20,9 +15,7 @@ export default async function HomePage({
       <section className="mb-8 text-center">
         <h1 className="text-3xl font-bold sm:text-4xl">Find your next lap</h1>
         <p className="mx-auto mt-3 max-w-xl text-gray-400">
-          A free, growing directory of sim racing centers, track day circuits, and
-          karting tracks across Europe &mdash; plus every F1 circuit on the calendar,
-          worldwide.
+          Sim racing, track days, karting, and F1 circuits &mdash; find one near you.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
           <CountryPicker countries={countries} countryCodes={countryCodes} />
@@ -35,12 +28,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <HomeExplorer
-        listings={listings}
-        countries={countries}
-        countryCodes={countryCodes}
-        initialCountry={params.country}
-      />
+      <HomeExplorer listings={listings} />
     </div>
   );
 }

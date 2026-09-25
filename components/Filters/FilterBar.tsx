@@ -17,8 +17,10 @@ function pillClass(active: boolean): string {
 // Category/country pages (/category/[x], /country/[x]) drive this bar from
 // the URL so filters stay crawlable and linkable. The homepage instead
 // filters a map + list in place without navigating, so it passes
-// onCategoryChange/onCountryChange to switch the bar into controlled mode —
-// one filter UI shared by both instead of two near-identical copies.
+// onCategoryChange to switch the bar into controlled mode — one filter UI
+// shared by both instead of two near-identical copies. The homepage doesn't
+// pass onCountryChange (country there is a separate entry point — see
+// CountryPicker), which hides the country select in controlled mode.
 export default function FilterBar({
   countries,
   countryCodes,
@@ -29,7 +31,7 @@ export default function FilterBar({
   onCategoryChange,
   onCountryChange,
 }: {
-  countries: string[];
+  countries?: string[];
   countryCodes?: Record<string, string>;
   activeCategory?: CategoryFilter;
   counts?: Record<Category, number>;
@@ -66,7 +68,9 @@ export default function FilterBar({
       <div className="flex flex-wrap gap-2">
         {controlled ? (
           <button onClick={() => onCategoryChange?.("all")} className={pillClass(!activeCategory || activeCategory === "all")}>
-            All {allCount != null && <span className="opacity-70">{allCount}</span>}
+            All {allCount != null && (!activeCategory || activeCategory === "all") && (
+              <span className="opacity-70">{allCount}</span>
+            )}
           </button>
         ) : (
           <Link href={`/${countryQuery}`} className={pillClass(!activeCategory)}>
@@ -76,7 +80,7 @@ export default function FilterBar({
         {CATEGORIES.map((c) =>
           controlled ? (
             <button key={c.value} onClick={() => onCategoryChange?.(c.value)} className={pillClass(activeCategory === c.value)}>
-              {c.label} {counts && <span className="opacity-70">{counts[c.value]}</span>}
+              {c.label} {counts && activeCategory === c.value && <span className="opacity-70">{counts[c.value]}</span>}
             </button>
           ) : (
             <Link key={c.value} href={`/category/${c.value}${countryQuery}`} className={pillClass(activeCategory === c.value)}>
@@ -86,25 +90,27 @@ export default function FilterBar({
         )}
       </div>
 
-      <div className="ml-auto flex items-center gap-2">
-        <label htmlFor="country-select" className="text-sm text-gray-400">
-          Country
-        </label>
-        <select
-          id="country-select"
-          value={activeCountry}
-          onChange={(e) => updateCountry(e.target.value)}
-          className="rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
-        >
-          <option value="">All countries</option>
-          {countries.map((c) => (
-            <option key={c} value={c}>
-              {countryCodes?.[c] ? `${flagEmoji(countryCodes[c])} ` : ""}
-              {c}
-            </option>
-          ))}
-        </select>
-      </div>
+      {(!controlled || onCountryChange) && (
+        <div className="ml-auto flex items-center gap-2">
+          <label htmlFor="country-select" className="text-sm text-gray-400">
+            Country
+          </label>
+          <select
+            id="country-select"
+            value={activeCountry}
+            onChange={(e) => updateCountry(e.target.value)}
+            className="rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
+          >
+            <option value="">All countries</option>
+            {countries?.map((c) => (
+              <option key={c} value={c}>
+                {countryCodes?.[c] ? `${flagEmoji(countryCodes[c])} ` : ""}
+                {c}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
     </div>
   );
 }
