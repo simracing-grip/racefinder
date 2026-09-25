@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
+import { flagEmoji } from "@/components/CountryFlag";
 
 type CategoryFilter = Category | "all";
 
@@ -20,6 +21,7 @@ function pillClass(active: boolean): string {
 // one filter UI shared by both instead of two near-identical copies.
 export default function FilterBar({
   countries,
+  countryCodes,
   activeCategory,
   counts,
   allCount,
@@ -28,6 +30,7 @@ export default function FilterBar({
   onCountryChange,
 }: {
   countries: string[];
+  countryCodes?: Record<string, string>;
   activeCategory?: CategoryFilter;
   counts?: Record<Category, number>;
   allCount?: number;
@@ -96,6 +99,7 @@ export default function FilterBar({
           <option value="">All countries</option>
           {countries.map((c) => (
             <option key={c} value={c}>
+              {countryCodes?.[c] ? `${flagEmoji(countryCodes[c])} ` : ""}
               {c}
             </option>
           ))}

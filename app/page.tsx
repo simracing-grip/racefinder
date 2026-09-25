@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getListings, getCountries } from "@/lib/listings";
+import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import HomeExplorer from "@/components/Home/HomeExplorer";
 import CountryPicker from "@/components/Home/CountryPicker";
 
@@ -9,7 +9,11 @@ export default async function HomePage({
   searchParams: Promise<{ country?: string }>;
 }) {
   const params = await searchParams;
-  const [listings, countries] = await Promise.all([getListings(), getCountries()]);
+  const [listings, countries, countryCodes] = await Promise.all([
+    getListings(),
+    getCountries(),
+    getCountryCodeMap(),
+  ]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -21,7 +25,7 @@ export default async function HomePage({
           worldwide.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
-          <CountryPicker countries={countries} />
+          <CountryPicker countries={countries} countryCodes={countryCodes} />
           <Link
             href="/calendar"
             className="inline-flex items-center gap-1.5 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200 hover:border-red-500"
@@ -31,7 +35,12 @@ export default async function HomePage({
         </div>
       </section>
 
-      <HomeExplorer listings={listings} countries={countries} initialCountry={params.country} />
+      <HomeExplorer
+        listings={listings}
+        countries={countries}
+        countryCodes={countryCodes}
+        initialCountry={params.country}
+      />
     </div>
   );
 }

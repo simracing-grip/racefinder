@@ -14,10 +14,12 @@ type CategoryFilter = Category | "all";
 export default function HomeExplorer({
   listings,
   countries,
+  countryCodes,
   initialCountry,
 }: {
   listings: Listing[];
   countries: string[];
+  countryCodes: Record<string, string>;
   initialCountry?: string;
 }) {
   const [category, setCategory] = useState<CategoryFilter>("all");
@@ -59,6 +61,7 @@ export default function HomeExplorer({
       <div className="mb-4">
         <FilterBar
           countries={countries}
+          countryCodes={countryCodes}
           activeCategory={category}
           counts={counts}
           allCount={inCountry.length}

@@ -71,3 +71,16 @@ export async function getCountryCode(countryName: string): Promise<string | unde
     (l) => l.country.toLowerCase() === countryName.toLowerCase()
   )?.countryCode;
 }
+
+// Same lookup as getCountryCode, but for every country at once — for
+// country-select dropdowns (CountryPicker, FilterBar) that want to prefix
+// each option with a flag. Returned as a plain object (rather than exporting
+// allListings itself) so client components can take just this small map as a
+// prop instead of pulling the full listings dataset into the client bundle.
+export async function getCountryCodeMap(): Promise<Record<string, string>> {
+  const map: Record<string, string> = {};
+  for (const l of allListings) {
+    map[l.country] = l.countryCode;
+  }
+  return map;
+}
