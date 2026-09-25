@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import HomeExplorer from "@/components/Home/HomeExplorer";
@@ -28,7 +29,9 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <HomeExplorer listings={listings} />
+      <Suspense fallback={null}>
+        <HomeExplorer listings={listings} />
+      </Suspense>
     </div>
   );
 }
