@@ -11663,8 +11663,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-de-lages",
     "name": "Kartódromo de Lages",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Brazil",
@@ -11799,8 +11798,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-afonso-petschow",
     "name": "Kartódromo Afonso Petschow",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Brazil",
@@ -11845,8 +11843,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-ayrton-senna-de-pato-branco",
     "name": "Kartódromo Ayrton Senna de Pato Branco",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Brazil",
@@ -12026,8 +12023,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-municipal-delci-damian",
     "name": "Kartódromo Municipal Delci Damian",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Brazil",
@@ -12057,8 +12053,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-municipal-de-vacaria",
     "name": "Kartódromo Municipal de Vacaria",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Brazil",
@@ -14638,8 +14633,7 @@ export const generatedListings: Listing[] = [
     "slug": "eastland-kart-club",
     "name": "Eastland Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "New Zealand",
@@ -14819,8 +14813,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartsport-marlborough",
     "name": "KartSport Marlborough",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "New Zealand",
@@ -42478,8 +42471,7 @@ export const generatedListings: Listing[] = [
     "slug": "coffs-harbour-kart-racing-club",
     "name": "Coffs Harbour Kart Racing Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42495,8 +42487,7 @@ export const generatedListings: Listing[] = [
     "slug": "toowoomba-and-lockyer-valley-kart-club",
     "name": "Toowoomba & Lockyer Valley Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42511,8 +42502,7 @@ export const generatedListings: Listing[] = [
     "slug": "cairns-kart-club",
     "name": "Cairns Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42527,8 +42517,7 @@ export const generatedListings: Listing[] = [
     "slug": "bundaberg-kart-club-dromeside-raceway",
     "name": "Bundaberg Kart Club (Dromeside Raceway)",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42543,8 +42532,7 @@ export const generatedListings: Listing[] = [
     "slug": "albany-city-kart-club",
     "name": "Albany City Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42559,8 +42547,7 @@ export const generatedListings: Listing[] = [
     "slug": "eastern-goldfields-kart-club",
     "name": "Eastern Goldfields Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42575,8 +42562,7 @@ export const generatedListings: Listing[] = [
     "slug": "esperance-kart-klub",
     "name": "Esperance Kart Klub",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42591,8 +42577,7 @@ export const generatedListings: Listing[] = [
     "slug": "karratha-kart-club",
     "name": "Karratha Kart Club",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42608,8 +42593,7 @@ export const generatedListings: Listing[] = [
     "slug": "adelaide-dirt-kart-club-speedway-city",
     "name": "Adelaide Dirt Kart Club (Speedway City)",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
@@ -42626,8 +42610,7 @@ export const generatedListings: Listing[] = [
     "slug": "autodromo-internacional-de-maputo",
     "name": "Autodromo Internacional de Maputo",
     "categories": [
-      "track_day",
-      "club_only"
+      "track_day"
     ],
     "status": "published",
     "country": "Mozambique",
@@ -42644,8 +42627,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-atcm-maputo",
     "name": "Kartodromo ATCM Maputo",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Mozambique",
@@ -42662,8 +42644,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-sudamericano",
     "name": "Kartódromo Sudamericano",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Argentina",
@@ -42678,8 +42659,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-juan-c-ferrer",
     "name": "Kartódromo Juan C. Ferrer",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Argentina",
@@ -42694,8 +42674,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-juan-albertella",
     "name": "Kartódromo Juan Albertella",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Argentina",
@@ -42710,8 +42689,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-ramiro-tot",
     "name": "Kartódromo Ramiro Tot",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Argentina",
@@ -42726,8 +42704,7 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-las-nubes",
     "name": "Kartódromo Las Nubes",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Argentina",
@@ -42742,8 +42719,7 @@ export const generatedListings: Listing[] = [
     "slug": "canberra-kart-racing-club-circuit-mark-webber",
     "name": "Canberra Kart Racing Club (Circuit Mark Webber)",
     "categories": [
-      "karting",
-      "club_only"
+      "karting"
     ],
     "status": "published",
     "country": "Australia",
