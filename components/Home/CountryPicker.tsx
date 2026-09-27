@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { slugifyCountry } from "@/lib/countrySlug";
-import { flagEmoji } from "@/components/CountryFlag";
+import CountrySelect from "@/components/CountrySelect";
 
 // Entry-point dropdown for the hero: jumps straight to a country's dedicated
 // page (/country/[slug]). Distinct from FilterBar's country select further
@@ -17,6 +17,8 @@ export default function CountryPicker({
 }) {
   const router = useRouter();
 
+  const options = countries.map((c) => ({ value: c, label: c, code: countryCodes[c] }));
+
   function handleChange(value: string) {
     if (value) {
       router.push(`/country/${slugifyCountry(value)}`);
@@ -24,24 +26,16 @@ export default function CountryPicker({
   }
 
   return (
-    <label className="inline-flex items-center gap-2 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200">
+    <div className="inline-flex items-center gap-2 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200">
       <span className="text-gray-400">Choose your country</span>
-      <select
-        aria-label="Choose your country"
-        defaultValue=""
-        onChange={(e) => handleChange(e.target.value)}
-        className="rounded-md border-none bg-transparent text-gray-100 focus:outline-none"
-      >
-        <option value="" disabled>
-          Select&hellip;
-        </option>
-        {countries.map((c) => (
-          <option key={c} value={c} className="bg-gray-900">
-            {countryCodes[c] ? `${flagEmoji(countryCodes[c])} ` : ""}
-            {c}
-          </option>
-        ))}
-      </select>
-    </label>
+      <CountrySelect
+        ariaLabel="Choose your country"
+        options={options}
+        value=""
+        onChange={handleChange}
+        placeholder="Select…"
+        buttonClassName="flex items-center gap-1.5 rounded-md bg-transparent text-gray-100 focus:outline-none"
+      />
+    </div>
   );
 }

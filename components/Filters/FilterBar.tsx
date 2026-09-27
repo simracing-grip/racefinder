@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
-import { flagEmoji } from "@/components/CountryFlag";
+import CountrySelect from "@/components/CountrySelect";
 
 type CategoryFilter = Category | "all";
 
@@ -95,20 +95,17 @@ export default function FilterBar({
           <label htmlFor="country-select" className="text-sm text-gray-400">
             Country
           </label>
-          <select
+          <CountrySelect
             id="country-select"
+            ariaLabel="Country"
             value={activeCountry}
-            onChange={(e) => updateCountry(e.target.value)}
-            className="rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
-          >
-            <option value="">All countries</option>
-            {countries?.map((c) => (
-              <option key={c} value={c}>
-                {countryCodes?.[c] ? `${flagEmoji(countryCodes[c])} ` : ""}
-                {c}
-              </option>
-            ))}
-          </select>
+            onChange={updateCountry}
+            options={[
+              { value: "", label: "All countries" },
+              ...(countries ?? []).map((c) => ({ value: c, label: c, code: countryCodes?.[c] })),
+            ]}
+            buttonClassName="flex min-w-[9rem] items-center justify-between gap-2 rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
+          />
         </div>
       )}
     </div>
