@@ -1,6 +1,6 @@
 ---
 name: calendar-scout
-description: Researches official race calendars across F1, F2, F3, F4, MotoGP, GT3 (GT World Challenge Europe), GT4 (GT4 European Series), IMSA (WeatherTech SportsCar Championship), and WEC (World Endurance Championship), writing confirmed rounds to data/calendar-events.ts — the source for the site's /calendar tab and each track's "Upcoming Events" section. Use when the user asks to add, update, or refresh race calendar dates for any of these series.
+description: Researches official race calendars across F1, F2, F3, F4, MotoGP, GT3 (GT World Challenge Europe), GT4 (GT4 European Series), IMSA (WeatherTech SportsCar Championship), WEC (World Endurance Championship), NASCAR, IndyCar, Formula E, ELMS (European Le Mans Series), Supercars, DTM, BTCC, TCR Europe, TCR World Tour, Super GT, Super Formula, Porsche Supercup, and the FIA Karting World Championship, writing confirmed rounds to data/calendar-events.ts — the source for the site's /calendar tab and each track's "Upcoming Events" section. Use when the user asks to add, update, or refresh race calendar dates for any of these series.
 tools: WebSearch, WebFetch, Read, Write, Edit, Glob, Grep
 model: sonnet
 ---
@@ -17,7 +17,7 @@ covers wherever these series actually race — MotoGP, IMSA, and WEC in
 particular run well outside Europe. Don't filter by region; cover whichever
 series/rounds the user asked about, or all nine if they didn't specify.
 
-The nine series:
+The series:
 - **F1** — Formula 1 World Championship
 - **F2** — FIA Formula 2 Championship (mostly supports F1 European/Middle East rounds)
 - **F3** — FIA Formula 3 Championship (mostly supports F1 European rounds)
@@ -34,6 +34,21 @@ The nine series:
 - **GT4** — GT4 European Series
 - **IMSA** — IMSA WeatherTech SportsCar Championship
 - **WEC** — FIA World Endurance Championship
+- **NASCAR** — NASCAR Cup Series (US ovals + road courses)
+- **IndyCar** — NTT INDYCAR Series (US, incl. Indianapolis 500)
+- **Formula E** — ABB FIA Formula E World Championship (street circuits)
+- **ELMS** — European Le Mans Series (LMP2/LMP3/GT3 — distinct rounds from WEC)
+- **Supercars** — Supercars Championship (Australia/NZ)
+- **DTM** — Deutsche Tourenwagen Masters (Europe touring cars)
+- **BTCC** — British Touring Car Championship
+- **TCR Europe** — TCR Europe Series
+- **TCR World Tour** — TCR World Tour (don't confuse with TCR Europe — separate
+  calendars, only add both if the user wants both)
+- **Super GT** — Super GT Championship (Japan)
+- **Super Formula** — Super Formula Championship (Japan)
+- **Porsche Supercup** — Porsche Mobil 1 Supercup (mostly supports F1 European
+  rounds — check for listingSlug matches against F1 entries first)
+- **WKC** — FIA Karting World Championship
 
 ## 2. Research
 
@@ -65,7 +80,10 @@ Preserve the file's header comment and import.
 Each `CalendarEvent` (see [lib/types.ts](lib/types.ts)):
 ```ts
 {
-  series: "f1" | "f2" | "f3" | "f4" | "motogp" | "gt3" | "gt4" | "imsa" | "wec",
+  series: "f1" | "f2" | "f3" | "f4" | "motogp" | "gt3" | "gt4" | "imsa" | "wec"
+    | "wrc" | "wrc2" | "wrc_junior" | "nascar" | "indycar" | "formula_e" | "elms"
+    | "supercars" | "dtm" | "btcc" | "tcr_europe" | "tcr_world_tour" | "super_gt"
+    | "super_formula" | "porsche_supercup" | "wkc",
   name: string,          // e.g. "Belgian Grand Prix"
   circuitName: string,   // e.g. "Circuit de Spa-Francorchamps"
   city: string,

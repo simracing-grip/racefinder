@@ -58,7 +58,20 @@ export type EventSeries =
   | "wec"
   | "wrc"
   | "wrc2"
-  | "wrc_junior";
+  | "wrc_junior"
+  | "nascar"
+  | "indycar"
+  | "formula_e"
+  | "elms"
+  | "supercars"
+  | "dtm"
+  | "btcc"
+  | "tcr_europe"
+  | "tcr_world_tour"
+  | "super_gt"
+  | "super_formula"
+  | "porsche_supercup"
+  | "wkc";
 
 export interface TrackEvent {
   series: EventSeries;
