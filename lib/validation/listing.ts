@@ -39,7 +39,11 @@ export const listingSchema = z.object({
   status: z.enum(["draft", "pending", "published", "archived"]).default("published"),
   country: z.string().min(1),
   countryCode: z.string().length(2),
-  city: z.string().min(1),
+  // Some landmark-style addresses (e.g. race circuits) don't resolve to a
+  // city via reverse geocoding — allow blank rather than silently dropping
+  // an otherwise-valid, real venue from the import (see Silverstone Circuit,
+  // Circuit of the Americas).
+  city: z.string(),
   address: z.string().min(1),
   lat: z.number().min(-90).max(90),
   lng: z.number().min(-180).max(180),

@@ -105,7 +105,8 @@ export default function ListingRow({
           <h3 className="mt-1 line-clamp-2 font-semibold leading-snug text-gray-100">{listing.name}</h3>
           <p className="flex items-center gap-1.5 truncate text-sm text-gray-400">
             <CountryFlag countryCode={listing.countryCode} />
-            {listing.city}, {listing.country}
+            {listing.city ? `${listing.city}, ` : ""}
+            {listing.country}
           </p>
           {nextEvent && (
             <p className="mt-0.5 truncate text-xs font-medium text-red-400">

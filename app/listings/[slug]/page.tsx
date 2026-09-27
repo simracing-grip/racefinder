@@ -18,7 +18,8 @@ export async function generateMetadata({
   return {
     title: listing.name,
     description:
-      listing.description ?? `${listing.name} — ${listing.city}, ${listing.country}`,
+      listing.description ??
+      `${listing.name} — ${listing.city ? `${listing.city}, ` : ""}${listing.country}`,
   };
 }
 

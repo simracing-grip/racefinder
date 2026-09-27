@@ -88,7 +88,7 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
     <div class="w-56">
       <div class="flex flex-wrap gap-1">${badges}</div>
       <div class="mt-1.5 text-[15px] font-semibold leading-snug text-gray-100">${escapeHtml(String(props.name))}</div>
-      <div class="text-xs text-gray-400">${flag}${escapeHtml(String(props.city))}, ${escapeHtml(String(props.country))}</div>
+      <div class="text-xs text-gray-400">${flag}${props.city ? `${escapeHtml(String(props.city))}, ` : ""}${escapeHtml(String(props.country))}</div>
       <a class="mt-2.5 inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
         View details &rarr;
       </a>
