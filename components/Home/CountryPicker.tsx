@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { slugifyCountry } from "@/lib/listings";
+import { slugifyCountry } from "@/lib/countrySlug";
 import { flagEmoji } from "@/components/CountryFlag";
 
 // Entry-point dropdown for the hero: jumps straight to a country's dedicated

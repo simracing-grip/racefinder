@@ -1,22 +1,56 @@
-import type { Category, Listing } from "@/lib/types";
-import { generatedListings } from "@/data/generated-listings";
+import { and, asc, eq, sql } from "drizzle-orm";
+import type { Category, Listing, ListingDetails, IndoorOutdoor } from "@/lib/types";
 import { CALENDAR_EVENTS } from "@/data/calendar-events";
+import { db } from "@/lib/db/client";
+import { listings as listingsTable } from "@/lib/db/schema";
+import { slugifyCountry } from "@/lib/countrySlug";
 
-// Backed by data/generated-listings.ts (produced from your real Google Maps
-// data via the import pipeline — see README). Once Supabase is connected,
-// swap the bodies of these functions for Drizzle queries against
-// lib/db/schema.ts — nothing that calls this module needs to change.
+export { slugifyCountry };
+
+// Backed by Postgres (Supabase) via Drizzle — see lib/db/schema.ts and
+// data/import/migrate-to-supabase.ts for how the ~2,900 venues got there.
+// Every exported function here is already async, so this swap from the old
+// static generated-listings.ts array was transparent to every caller.
 //
 // Race-calendar dates (data/calendar-events.ts — also the source for the
-// site's /calendar tab) are merged in here by matching listingSlug, rather
-// than baked into generated-listings.ts, since they're maintained on a
-// different cadence than venue location data.
+// site's /calendar tab) are merged in here in JS by matching listingSlug,
+// rather than living in Postgres too, since they're maintained on a much
+// faster cadence (a scout agent re-runs) than venue location data and the
+// full calendar isn't scoped to our listings anyway (MotoGP/IMSA/WEC race
+// well outside them).
 function withEvents(listing: Listing): Listing {
   const events = CALENDAR_EVENTS.filter((e) => e.listingSlug === listing.slug);
   return events.length > 0 ? { ...listing, events } : listing;
 }
 
-const allListings = generatedListings.map(withEvents);
+// Postgres numeric/jsonb columns come back from postgres-js as strings (to
+// avoid float-precision loss) and possibly-null respectively — normalize
+// both to the shape lib/types.ts's Listing expects everywhere else.
+function rowToListing(row: typeof listingsTable.$inferSelect): Listing {
+  return {
+    id: row.id,
+    slug: row.slug,
+    name: row.name,
+    categories: row.categories as Category[],
+    status: row.status,
+    country: row.country,
+    countryCode: row.countryCode,
+    city: row.city,
+    address: row.address,
+    lat: parseFloat(row.lat),
+    lng: parseFloat(row.lng),
+    websiteUrl: row.websiteUrl ?? undefined,
+    phone: row.phone ?? undefined,
+    email: row.email ?? undefined,
+    description: row.description ?? undefined,
+    coverImageUrl: row.coverImageUrl ?? undefined,
+    googleMapsUrl: row.googleMapsUrl ?? undefined,
+    indoorOutdoor: (row.indoorOutdoor ?? undefined) as IndoorOutdoor | undefined,
+    trackLengthM: row.trackLengthM != null ? parseFloat(row.trackLengthM) : undefined,
+    details: (row.details ?? undefined) as ListingDetails | undefined,
+    featured: row.featured,
+  };
+}
 
 export interface ListingFilters {
   category?: Category;
@@ -26,61 +60,72 @@ export interface ListingFilters {
 }
 
 export async function getListings(filters: ListingFilters = {}): Promise<Listing[]> {
-  let results = allListings.filter((l) => l.status === "published");
+  const conditions = [eq(listingsTable.status, "published")];
 
   if (filters.category) {
-    results = results.filter((l) => l.categories.includes(filters.category!));
+    // categories is a Postgres text[]; @> is the "array contains" operator.
+    conditions.push(sql`${listingsTable.categories} @> ARRAY[${filters.category}]::text[]`);
   }
   if (filters.country) {
-    results = results.filter(
-      (l) => l.country.toLowerCase() === filters.country!.toLowerCase()
-    );
+    conditions.push(sql`lower(${listingsTable.country}) = lower(${filters.country})`);
   }
   if (filters.city) {
-    results = results.filter(
-      (l) => l.city.toLowerCase() === filters.city!.toLowerCase()
-    );
+    conditions.push(sql`lower(${listingsTable.city}) = lower(${filters.city})`);
   }
   if (filters.indoorOutdoor) {
-    results = results.filter((l) => l.indoorOutdoor === filters.indoorOutdoor);
+    conditions.push(eq(listingsTable.indoorOutdoor, filters.indoorOutdoor as IndoorOutdoor));
   }
 
-  return results;
+  const rows = await db
+    .select()
+    .from(listingsTable)
+    .where(and(...conditions))
+    .orderBy(asc(listingsTable.name));
+
+  return rows.map(rowToListing).map(withEvents);
 }
 
 export async function getListingBySlug(slug: string): Promise<Listing | undefined> {
-  return allListings.find((l) => l.slug === slug && l.status === "published");
+  const rows = await db
+    .select()
+    .from(listingsTable)
+    .where(and(eq(listingsTable.slug, slug), eq(listingsTable.status, "published")))
+    .limit(1);
+
+  const row = rows[0];
+  return row ? withEvents(rowToListing(row)) : undefined;
 }
 
 export async function getCountries(): Promise<string[]> {
-  const countries = new Set(allListings.map((l) => l.country));
-  return Array.from(countries).sort();
-}
-
-// Single source of truth for the country slug used in /country/[country]
-// URLs, shared by the route itself and anything that links into it (e.g. the
-// homepage's country picker).
-export function slugifyCountry(country: string): string {
-  return country.toLowerCase().replace(/\s+/g, "-");
+  const rows = await db
+    .selectDistinct({ country: listingsTable.country })
+    .from(listingsTable)
+    .where(eq(listingsTable.status, "published"))
+    .orderBy(asc(listingsTable.country));
+  return rows.map((r) => r.country);
 }
 
 // Country name -> ISO code, for pages that only have the name (e.g. the
 // /country/[country] route param) and need it to render a flag.
 export async function getCountryCode(countryName: string): Promise<string | undefined> {
-  return allListings.find(
-    (l) => l.country.toLowerCase() === countryName.toLowerCase()
-  )?.countryCode;
+  const rows = await db
+    .select({ countryCode: listingsTable.countryCode })
+    .from(listingsTable)
+    .where(sql`lower(${listingsTable.country}) = lower(${countryName})`)
+    .limit(1);
+  return rows[0]?.countryCode;
 }
 
 // Same lookup as getCountryCode, but for every country at once — for
 // country-select dropdowns (CountryPicker, FilterBar) that want to prefix
 // each option with a flag. Returned as a plain object (rather than exporting
-// allListings itself) so client components can take just this small map as a
-// prop instead of pulling the full listings dataset into the client bundle.
+// all listings) so client components can take just this small map as a prop
+// instead of pulling the full listings dataset into the client bundle.
 export async function getCountryCodeMap(): Promise<Record<string, string>> {
+  const rows = await db
+    .selectDistinct({ country: listingsTable.country, countryCode: listingsTable.countryCode })
+    .from(listingsTable);
   const map: Record<string, string> = {};
-  for (const l of allListings) {
-    map[l.country] = l.countryCode;
-  }
+  for (const r of rows) map[r.country] = r.countryCode;
   return map;
 }
