@@ -11663,7 +11663,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-de-lages",
     "name": "Kartódromo de Lages",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "Brazil",
@@ -11798,7 +11799,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-afonso-petschow",
     "name": "Kartódromo Afonso Petschow",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "Brazil",
@@ -11843,7 +11845,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-ayrton-senna-de-pato-branco",
     "name": "Kartódromo Ayrton Senna de Pato Branco",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "Brazil",
@@ -12023,7 +12026,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-municipal-delci-damian",
     "name": "Kartódromo Municipal Delci Damian",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "Brazil",
@@ -12053,7 +12057,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartodromo-municipal-de-vacaria",
     "name": "Kartódromo Municipal de Vacaria",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "Brazil",
@@ -14633,7 +14638,8 @@ export const generatedListings: Listing[] = [
     "slug": "eastland-kart-club",
     "name": "Eastland Kart Club",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "New Zealand",
@@ -14813,7 +14819,8 @@ export const generatedListings: Listing[] = [
     "slug": "kartsport-marlborough",
     "name": "KartSport Marlborough",
     "categories": [
-      "karting"
+      "karting",
+      "club_only"
     ],
     "status": "published",
     "country": "New Zealand",
@@ -42405,5 +42412,347 @@ export const generatedListings: Listing[] = [
     "lat": 48.054621,
     "lng": 17.564862,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Slovakia_Ring_2018.jpg"
+  },
+  {
+    "id": "2832",
+    "slug": "bahrain-international-circuit",
+    "name": "Bahrain International Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "city": "Sakhir",
+    "address": "Bahrain International Circuit, Sakhir, Bahrain",
+    "lat": 26.0325,
+    "lng": 50.5106
+  },
+  {
+    "id": "2833",
+    "slug": "albert-park-circuit",
+    "name": "Albert Park Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Melbourne",
+    "address": "Albert Park, Melbourne, Victoria, Australia",
+    "lat": -37.8497,
+    "lng": 144.968
+  },
+  {
+    "id": "2834",
+    "slug": "suzuka-international-racing-course",
+    "name": "Suzuka International Racing Course",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Suzuka",
+    "address": "Suzuka Circuit, Suzuka, Mie, Japan",
+    "lat": 34.8431,
+    "lng": 136.541
+  },
+  {
+    "id": "2835",
+    "slug": "losail-international-circuit",
+    "name": "Losail International Circuit",
+    "categories": [
+      "f1"
+    ],
+    "status": "published",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "city": "Lusail",
+    "address": "Losail International Circuit, Lusail, Qatar",
+    "lat": 25.49,
+    "lng": 51.4542
+  },
+  {
+    "id": "2836",
+    "slug": "coffs-harbour-kart-racing-club",
+    "name": "Coffs Harbour Kart Racing Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Coffs Harbour",
+    "address": "Hill Street, Coffs Harbour, New South Wales, 2450, Australia",
+    "lat": -30.2986,
+    "lng": 153.109412,
+    "websiteUrl": "https://www.coffsharbourkartclub.com.au/"
+  },
+  {
+    "id": "2837",
+    "slug": "toowoomba-and-lockyer-valley-kart-club",
+    "name": "Toowoomba & Lockyer Valley Kart Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Helidon",
+    "address": "Turner Street, Helidon, Queensland, 4344, Australia",
+    "lat": -27.550524,
+    "lng": 152.124466
+  },
+  {
+    "id": "2838",
+    "slug": "cairns-kart-club",
+    "name": "Cairns Kart Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Mareeba",
+    "address": "Springs Road, Paddys Green, Mareeba, Queensland, 4880, Australia",
+    "lat": -16.986722,
+    "lng": 145.375069
+  },
+  {
+    "id": "2839",
+    "slug": "bundaberg-kart-club-dromeside-raceway",
+    "name": "Bundaberg Kart Club (Dromeside Raceway)",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Bundaberg",
+    "address": "University Drive, Branyan, Bundaberg, Queensland, 4670, Australia",
+    "lat": -24.897399,
+    "lng": 152.310674
+  },
+  {
+    "id": "2840",
+    "slug": "albany-city-kart-club",
+    "name": "Albany City Kart Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Albany",
+    "address": "Parker Brook Road, Willyung, Albany, Western Australia, 6330, Australia",
+    "lat": -34.940671,
+    "lng": 117.83166
+  },
+  {
+    "id": "2841",
+    "slug": "eastern-goldfields-kart-club",
+    "name": "Eastern Goldfields Kart Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Kalgoorlie",
+    "address": "Greenhill Road, Broadwood, Kalgoorlie, Western Australia, 6430, Australia",
+    "lat": -30.792899,
+    "lng": 121.444903
+  },
+  {
+    "id": "2842",
+    "slug": "esperance-kart-klub",
+    "name": "Esperance Kart Klub",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Esperance",
+    "address": "Hicks Street, Esperance, Western Australia, 6450, Australia",
+    "lat": -33.858228,
+    "lng": 121.893161
+  },
+  {
+    "id": "2843",
+    "slug": "karratha-kart-club",
+    "name": "Karratha Kart Club",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Karratha",
+    "address": "Anderson Road, Karratha Industrial Estate, Karratha, Western Australia, 6714, Australia",
+    "lat": -20.775136,
+    "lng": 116.871811,
+    "websiteUrl": "https://karrathakartclub.com"
+  },
+  {
+    "id": "2844",
+    "slug": "adelaide-dirt-kart-club-speedway-city",
+    "name": "Adelaide Dirt Kart Club (Speedway City)",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Adelaide",
+    "address": "Supple Road, Adelaide, South Australia, 5120, Australia",
+    "lat": -34.668848,
+    "lng": 138.547412,
+    "websiteUrl": "https://www.adkc.com.au/",
+    "phone": "0415 559 495"
+  },
+  {
+    "id": "2845",
+    "slug": "autodromo-internacional-de-maputo",
+    "name": "Autodromo Internacional de Maputo",
+    "categories": [
+      "track_day",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Mozambique",
+    "countryCode": "MZ",
+    "city": "Maputo",
+    "address": "Avenida da Marginal, Costa do Sol, Distrito Municipal de KaMavota, Maputo, Zona Sul, 0104-03, Mozambique",
+    "lat": -25.881144,
+    "lng": 32.661023,
+    "websiteUrl": "https://www.atcm.org.mz/",
+    "phone": "+258 84 328 4790"
+  },
+  {
+    "id": "2846",
+    "slug": "kartodromo-atcm-maputo",
+    "name": "Kartodromo ATCM Maputo",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Mozambique",
+    "countryCode": "MZ",
+    "city": "Maputo",
+    "address": "Avenida da Marginal, Costa do Sol, Distrito Municipal de KaMavota, Maputo, Zona Sul, 0104-03, Mozambique",
+    "lat": -25.881144,
+    "lng": 32.661023,
+    "websiteUrl": "https://karting.atcm.org.mz/",
+    "phone": "+258 84 328 4790"
+  },
+  {
+    "id": "2847",
+    "slug": "kartodromo-sudamericano",
+    "name": "Kartódromo Sudamericano",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Sunchales",
+    "address": "Banda de Música - Orquesta, Florentino Ameghino, Centro, Sunchales, Departamento Castellanos, Santa Fe, S2322ATA, Argentina",
+    "lat": -30.945089,
+    "lng": -61.560807
+  },
+  {
+    "id": "2848",
+    "slug": "kartodromo-juan-c-ferrer",
+    "name": "Kartódromo Juan C. Ferrer",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Charata",
+    "address": "Rivadavia, Norte, Charata, Municipio de Charata, Departamento Chacabuco, Chaco, H3730AVI, Argentina",
+    "lat": -27.217811,
+    "lng": -61.187371
+  },
+  {
+    "id": "2849",
+    "slug": "kartodromo-juan-albertella",
+    "name": "Kartódromo Juan Albertella",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Trelew",
+    "address": "La Glorieta, San Martín, Presidente Dr. Raúl Ricardo Alfonsín, Trelew, Municipio de Trelew, Departamento Rawson, Chubut, U9100, Argentina",
+    "lat": -43.253124,
+    "lng": -65.309441
+  },
+  {
+    "id": "2850",
+    "slug": "kartodromo-ramiro-tot",
+    "name": "Kartódromo Ramiro Tot",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Baradero",
+    "address": "Medrano, Maipu, Baradero, Partido de Baradero, Buenos Aires, B2942EBQ, Argentina",
+    "lat": -33.812047,
+    "lng": -59.505176
+  },
+  {
+    "id": "2851",
+    "slug": "kartodromo-las-nubes",
+    "name": "Kartódromo Las Nubes",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Marcos Paz",
+    "address": "Marcos Paz (Belgrano), Viena, La Trocha, Martín Fierro, Marcos Paz, Partido de Marcos Paz, Buenos Aires, 1727, Argentina",
+    "lat": -34.786509,
+    "lng": -58.829681
+  },
+  {
+    "id": "2852",
+    "slug": "canberra-kart-racing-club-circuit-mark-webber",
+    "name": "Canberra Kart Racing Club (Circuit Mark Webber)",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Canberra",
+    "address": "Pialligo, Australian Capital Territory, Australia",
+    "lat": -35.311479,
+    "lng": 149.183122,
+    "websiteUrl": "https://canberrakarts.com.au/",
+    "phone": "0417 816 237"
   }
 ];
