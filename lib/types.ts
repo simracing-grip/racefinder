@@ -1,4 +1,4 @@
-export type Category = "sim_racing" | "track_day" | "karting" | "f1";
+export type Category = "sim_racing" | "track_day" | "karting" | "f1" | "club_only";
 
 export const CATEGORIES: { value: Category; label: string; plural: string; global?: boolean }[] = [
   { value: "sim_racing", label: "Sim Racing", plural: "Sim Racing Centers" },
@@ -8,6 +8,14 @@ export const CATEGORIES: { value: Category; label: string; plural: string; globa
   // continent the calendar races on — there's no "Europe first" phase-in
   // that makes sense for a fixed list of ~24 circuits.
   { value: "f1", label: "F1", plural: "Formula 1 Circuits", global: true },
+  // A modifier, not a replacement: club_only always appears alongside a
+  // "real" category (e.g. ["karting", "club_only"]) rather than instead of
+  // one, so these venues still show up under Karting/Track Day too. It gets
+  // its own CATEGORIES entry purely so it renders as its own filter tab,
+  // badge, and /category/club_only page like everything else here — venues
+  // with membership required and no public walk-in/hire, found scouting
+  // Australia, NZ, Mozambique, Brazil and Argentina.
+  { value: "club_only", label: "Club / Members Only", plural: "Club & Members-Only Venues", global: true },
 ];
 
 export type IndoorOutdoor = "indoor" | "outdoor" | "both";

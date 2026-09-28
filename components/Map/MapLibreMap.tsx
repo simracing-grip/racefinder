@@ -27,7 +27,7 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 // https://openfreemap.org
 const STYLE_URL = "https://tiles.openfreemap.org/styles/dark";
 
-const CATEGORY_ORDER: Category[] = ["sim_racing", "track_day", "karting", "f1"];
+const CATEGORY_ORDER: Category[] = ["sim_racing", "track_day", "karting", "f1", "club_only"];
 
 function pinSvg(color: string): string {
   return `<svg width="30" height="38" viewBox="0 0 30 38" xmlns="http://www.w3.org/2000/svg">

@@ -5,6 +5,7 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   track_day: "Track Day",
   karting: "Karting",
   f1: "F1",
+  club_only: "Members Only",
 };
 
 export const CATEGORY_COLOR: Record<Category, string> = {
@@ -12,6 +13,7 @@ export const CATEGORY_COLOR: Record<Category, string> = {
   track_day: "#dc2626", // red
   karting: "#16a34a", // green
   f1: "#eab308", // gold
+  club_only: "#64748b", // slate
 };
 
 export const CATEGORY_BADGE_CLASS: Record<Category, string> = {
@@ -19,4 +21,5 @@ export const CATEGORY_BADGE_CLASS: Record<Category, string> = {
   track_day: "bg-red-500/15 text-red-300",
   karting: "bg-green-500/15 text-green-300",
   f1: "bg-amber-500/15 text-amber-300",
+  club_only: "bg-slate-500/15 text-slate-300",
 };
