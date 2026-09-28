@@ -50577,5 +50577,1308 @@ export const generatedListings: Listing[] = [
     "lng": -80.368032,
     "websiteUrl": "https://p1motorclub.com/",
     "phone": "+1 772-510-4805"
+  },
+  {
+    "id": "3254",
+    "slug": "coach-and-race",
+    "name": "Coach And Race",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Le Portel",
+    "address": "58, Rue Notre-Dame, Henriville, Le Portel, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62480, France",
+    "lat": 50.710503,
+    "lng": 1.577464,
+    "websiteUrl": "https://coachandrace.fr/",
+    "phone": "+33 3 21 31 92 59"
+  },
+  {
+    "id": "3255",
+    "slug": "race-park-twente-rv-actief",
+    "name": "Race Park Twente (RV Actief)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Weerselo",
+    "address": "'t Trefpunt, 6, Legtenbergerstraat, Nijstad, Weerselo, Dinkelland, Overijssel, Netherlands, 7595 XB, Netherlands",
+    "lat": 52.352686,
+    "lng": 6.857789,
+    "websiteUrl": "https://rvactief.nl/en/sim-racing/",
+    "phone": "+31 541 792 029"
+  },
+  {
+    "id": "3256",
+    "slug": "legend-track",
+    "name": "Legend Track",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Colmar",
+    "address": "180, Rue du Ladhof, Zone industrielle Nord, Colmar, Colmar-Ribeauvillé, Haut-Rhin, European Collectivity of Alsace, Grand Est, Metropolitan France, 68000, France",
+    "lat": 48.105542,
+    "lng": 7.379389,
+    "websiteUrl": "https://legend-track.com/",
+    "phone": "+33 6 70 72 71 55"
+  },
+  {
+    "id": "3257",
+    "slug": "elsass-simracing",
+    "name": "Elsass Simracing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Haguenau",
+    "address": "Rue du Kestlerhof, Taubenhof Nord, Haguenau, Haguenau-Wissembourg, Bas-Rhin, European Collectivity of Alsace, Grand Est, Metropolitan France, 67500, France",
+    "lat": 48.806488,
+    "lng": 7.830713,
+    "websiteUrl": "https://elsass-simracing.fr/",
+    "phone": "+33 6 40 58 36 19"
+  },
+  {
+    "id": "3258",
+    "slug": "simu-racing-area-dijon",
+    "name": "Simu Racing Area Dijon",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Dijon",
+    "address": "24, Cours Fleury, Centre-Ville, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France",
+    "lat": 47.328153,
+    "lng": 5.042565,
+    "websiteUrl": "https://simuracingarea21.fr/",
+    "phone": "+33 6 98 51 30 74"
+  },
+  {
+    "id": "3259",
+    "slug": "sim-racers-mons",
+    "name": "Sim-Racers Mons",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Mons",
+    "address": "ACE Security-Alarms, 87A, Chaussée du Roi Baudouin, Saint-Symphorien, Mons, Hainaut, Wallonia, 7030, Belgium",
+    "lat": 50.4417,
+    "lng": 4.007444,
+    "websiteUrl": "https://sim-racers.be/",
+    "phone": "+32 475 19 39 09"
+  },
+  {
+    "id": "3260",
+    "slug": "the-sim-power-braine-lalleud",
+    "name": "The Sim Power Braine-l'Alleud",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Braine-l'Alleud",
+    "address": "Sweet & Drinks, 2A, Avenue de l'Artisanat, Zoning artisanal de Braine-l'Alleud, Mont-Saint-Pont, Sart-Moulin, Braine-l’Alleud, Braine-l'Alleud, Nivelles, Walloon Brabant, Wallonia, 1420, Belgium",
+    "lat": 50.696131,
+    "lng": 4.360859,
+    "websiteUrl": "https://thesimpower.be/",
+    "phone": "+32 494 36 59 13"
+  },
+  {
+    "id": "3261",
+    "slug": "simu-racing-malonne",
+    "name": "Simu Racing Malonne",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Namur",
+    "address": "784, Chaussée de Charleroi, Majolique, Malonne, Namur, Wallonia, 5020, Belgium",
+    "lat": 50.444156,
+    "lng": 4.793582,
+    "websiteUrl": "https://www.simuracing.be/",
+    "phone": "+32 81 81 10 36"
+  },
+  {
+    "id": "3262",
+    "slug": "laptime-racing-simulation-center",
+    "name": "LAPTIME Racing Simulation Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Gembloux",
+    "address": "84, Avenue des Combattants, Gembloux, Namur, Wallonia, 5030, Belgium",
+    "lat": 50.556387,
+    "lng": 4.702617,
+    "websiteUrl": "https://www.laptime.be/en",
+    "phone": "+32 81 11 10 55"
+  },
+  {
+    "id": "3263",
+    "slug": "digitraqz-simracing-center",
+    "name": "DIGITRAQZ Simracing Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Kampenhout",
+    "address": "122, Haachtsesteenweg, Lelle, Berg, Kampenhout, Halle-Vilvoorde, Flemish Brabant, Flanders, 1910, Belgium",
+    "lat": 50.932733,
+    "lng": 4.5375,
+    "websiteUrl": "https://www.digitraqz.be/",
+    "phone": "+32 16 88 08 33"
+  },
+  {
+    "id": "3264",
+    "slug": "apex-racing-hub",
+    "name": "APEX Racing Hub",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Hasselt",
+    "address": "Corda 7D, 293A, Kempische Steenweg, Kiewit, Hasselt, Heusden-Zolder, Hasselt, Limburg, Flanders, 3500, Belgium",
+    "lat": 50.953729,
+    "lng": 5.353685,
+    "websiteUrl": "https://www.apexracinghub.be/en/",
+    "phone": "+32 11 333 181"
+  },
+  {
+    "id": "3265",
+    "slug": "sim-motorsport-liege",
+    "name": "Sim MotorSport Liège",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Liège",
+    "address": "Allison Protection, 326, Chaussée de Tongres, Rocourt, Liège, Wallonia, 4000, Belgium",
+    "lat": 50.670964,
+    "lng": 5.550378,
+    "websiteUrl": "https://www.sim-motorsport.com/"
+  },
+  {
+    "id": "3266",
+    "slug": "racesquare-hoorn-samcity",
+    "name": "Racesquare Hoorn (Samcity)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Hoorn",
+    "address": "Samcity, 4, Westfriese Parkweg, Hoorn, North Holland, Netherlands, 1625 MA, Netherlands",
+    "lat": 52.65415,
+    "lng": 5.039047,
+    "websiteUrl": "https://samcity.nl/activiteit/racesquare/",
+    "phone": "+31 229 34 33 33"
+  },
+  {
+    "id": "3267",
+    "slug": "race-park-den-bosch-the-madhouse",
+    "name": "Race Park Den Bosch (The Madhouse)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "'s-Hertogenbosch",
+    "address": "3A, Werfpad, Orthenpoort, Binnenstad, 's-Hertogenbosch, North Brabant, Netherlands, 5212 VJ, Netherlands",
+    "lat": 51.69701,
+    "lng": 5.302258,
+    "websiteUrl": "https://www.themadhouse.nl/f1simracen",
+    "phone": "+31 85 401 25 80"
+  },
+  {
+    "id": "3268",
+    "slug": "posta-race-experience-tolbert",
+    "name": "Posta Race Experience Tolbert",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Tolbert",
+    "address": "PostA7, 53, Hoofdstraat, De Holm, Tolbert, Westerkwartier, Groningen, Netherlands, 9356 AV, Netherlands",
+    "lat": 53.173528,
+    "lng": 6.358627,
+    "websiteUrl": "https://www.posta7.nl/race-experience-f1-racen/",
+    "phone": "+31 594 515 999"
+  },
+  {
+    "id": "3269",
+    "slug": "urban-grnd-emmen-simracing",
+    "name": "URBAN GRND Emmen Simracing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Emmen",
+    "address": "Urban GRND, 41, Nijbracht, Bargermeer, Emmen, Drenthe, Netherlands, 7821 CB, Netherlands",
+    "lat": 52.761946,
+    "lng": 6.901985,
+    "websiteUrl": "https://www.urbangrnd.nl/simracing/",
+    "phone": "+31 591 799 705"
+  },
+  {
+    "id": "3270",
+    "slug": "racing-zone",
+    "name": "Racing Zone",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Saint-Laurent-du-Var",
+    "address": "Avenue Léon Bérenger, Saint-Laurent-du-Var, Grasse, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, 06700, France",
+    "lat": 43.659802,
+    "lng": 7.193265,
+    "websiteUrl": "https://www.racingzone.fr/simulateurs/",
+    "phone": "+33 4 93 19 02 49"
+  },
+  {
+    "id": "3271",
+    "slug": "eb-racing-simulator",
+    "name": "EB Racing Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Le Mans",
+    "address": "26, Rue Voltaire, Cité Plantagenêt, Le Pré, Le Mans, Sarthe, Pays de la Loire, Metropolitan France, 72000, France",
+    "lat": 48.010887,
+    "lng": 0.192923,
+    "websiteUrl": "https://www.ebracingsimulator.com/",
+    "phone": "+33 6 51 46 24 54"
+  },
+  {
+    "id": "3272",
+    "slug": "grace-simulator",
+    "name": "G.Race Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Saran",
+    "address": "Allée de l'Orée de la Forêt, Le Colombier, Saran, Orléans, Loiret, Centre-Val de Loire, Metropolitan France, 45770, France",
+    "lat": 47.957841,
+    "lng": 1.894113,
+    "websiteUrl": "https://www.gracesimulator.fr/"
+  },
+  {
+    "id": "3273",
+    "slug": "uni-xp-simracing-brest",
+    "name": "UNI-XP Simracing Brest",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Brest",
+    "address": "60, Rue Amiral Romain Desfossés, Parc d’activités de l'Hermitage, L'Hermitage, Brest, Finistère, Brittany, Metropolitan France, 29200, France",
+    "lat": 48.427715,
+    "lng": -4.468938,
+    "websiteUrl": "https://uni-xp.fr/activite/simulateur/",
+    "phone": "+33 2 30 99 95 37"
+  },
+  {
+    "id": "3274",
+    "slug": "racesquare-almere",
+    "name": "Racesquare Almere",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Almere",
+    "address": "Bowling Almere, 31, Trekweg, Almere Buiten, Almere, Flevoland, Netherlands, 1338 GA, Netherlands",
+    "lat": 52.37982,
+    "lng": 5.282563,
+    "websiteUrl": "https://www.racesquare.com/vestiging/almere/",
+    "phone": "+31 85 130 6331"
+  },
+  {
+    "id": "3275",
+    "slug": "fit-and-fun-plaza-wolvega",
+    "name": "Fit & Fun Plaza Wolvega",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Wolvega",
+    "address": "124, Grindweg, Schipsloot, Wolvega, Weststellingwerf, Frisia, Netherlands, 8471 EM, Netherlands",
+    "lat": 52.878449,
+    "lng": 5.98837,
+    "websiteUrl": "https://www.fitenfunplaza.nl/",
+    "phone": "+31 561 616262"
+  },
+  {
+    "id": "3276",
+    "slug": "saxfreizeitcenter-sim-racing",
+    "name": "SaxFreizeitCenter Sim Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Schkeuditz",
+    "address": "Sax Freizeit Center, 6, Westringstraße, Dölzig, Schkeuditz, Nordsachsen, Saxony, 04435, Germany",
+    "lat": 51.349909,
+    "lng": 12.198446,
+    "websiteUrl": "https://saxfreizeitcenter.de/sim-racing/",
+    "phone": "+49 34205 42530"
+  },
+  {
+    "id": "3277",
+    "slug": "the-racing-experience",
+    "name": "The Racing Experience",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "city": "Villars-Sainte-Croix",
+    "address": "4, En Coulaye, Villars-Sainte-Croix, District de l'Ouest lausannois, Vaud, 1029, Switzerland",
+    "lat": 46.567065,
+    "lng": 6.559952,
+    "websiteUrl": "https://www.theracingexperience.ch/",
+    "phone": "+41 44 594 39 54"
+  },
+  {
+    "id": "3278",
+    "slug": "sim-racing-valais",
+    "name": "Sim Racing Valais",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "city": "Sion",
+    "address": "41, Route de la Drague, Zone Industrielle de la Drague, Sion, Valais central, Valais/Wallis, 1950, Switzerland",
+    "lat": 46.220102,
+    "lng": 7.354365,
+    "websiteUrl": "https://www.simracingvs.ch/",
+    "phone": "+41 79 700 81 57"
+  },
+  {
+    "id": "3279",
+    "slug": "area-53-simrace",
+    "name": "Area 53 Simrace",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Mortsel",
+    "address": "Area 53, 53, Krijgsbaan, Oude God, Mortsel, Antwerp, Flanders, 2640, Belgium",
+    "lat": 51.176806,
+    "lng": 4.458653,
+    "websiteUrl": "https://area53.be/activiteiten/simrace/",
+    "phone": "+32 3 888 81 08"
+  },
+  {
+    "id": "3280",
+    "slug": "racing-car-benz-esports-lounge-essen",
+    "name": "Racing Car Benz Esports Lounge Essen",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Essen",
+    "address": "ADAC, 2, Nordhofstraße, Westviertel, Stadtbezirk I, Essen, North Rhine-Westphalia, 45127, Germany",
+    "lat": 51.461303,
+    "lng": 7.003037,
+    "websiteUrl": "https://www.racingcar-benz.com/standorte/esports-lounge-essen/",
+    "phone": "+49 201 84323500"
+  },
+  {
+    "id": "3281",
+    "slug": "diamond-esports-center-moncloa-simufy-zone",
+    "name": "Diamond Esports Center Moncloa (Simufy Zone)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Madrid",
+    "address": "Calle de Emilio Carrere, Arapiles, Chamberí, Madrid, Community of Madrid, 28015, Spain",
+    "lat": 40.431131,
+    "lng": -3.710217,
+    "websiteUrl": "https://www.diamondesportscenter.com/centros/moncloa",
+    "phone": "+34 605 332 652"
+  },
+  {
+    "id": "3282",
+    "slug": "sim-racing-center-mallorca-motorworld",
+    "name": "Sim Racing Center Mallorca (Motorworld)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Palma de Mallorca",
+    "address": "112, Camí Fondo, Son Gallal de Sal, es Coll d'en Rabassa, Districte de Platja de Palma i Pla de Sant Jordi, Palma de Mallorca, Palma, Balearic Islands, 07007, Spain",
+    "lat": 39.558934,
+    "lng": 2.700979,
+    "websiteUrl": "https://simracing-mallorca.es/en",
+    "phone": "+49 1577 2665119"
+  },
+  {
+    "id": "3283",
+    "slug": "gtr-simracing-center",
+    "name": "GTR SimRacing Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Alhaurín de la Torre",
+    "address": "Calle Catamarán, El Lagar, Alhaurín de la Torre, Valle del Guadalhorce, Malaga, Andalusia, 29040, Spain",
+    "lat": 36.663908,
+    "lng": -4.534388,
+    "websiteUrl": "https://www.gtrsimcenter.es/",
+    "phone": "+34 645 976 088"
+  },
+  {
+    "id": "3284",
+    "slug": "nexo-racing-lounge-zaragoza",
+    "name": "Nexo Racing Lounge Zaragoza",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Zaragoza",
+    "address": "Luca, 6, Calle Arzobispo Apaolaza, Romareda, Universidad, Zaragoza, Aragon, 50005, Spain",
+    "lat": 41.640511,
+    "lng": -0.896566,
+    "websiteUrl": "https://nexo-racing.com/"
+  },
+  {
+    "id": "3285",
+    "slug": "london-pilots-club-simracing-zaragoza",
+    "name": "London Pilots Club SimRacing Zaragoza",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Zaragoza",
+    "address": "Camino del Arzobispo, Juslibol, Distrito Rural, Zaragoza, Aragon, 50191, Spain",
+    "lat": 41.691585,
+    "lng": -0.910127,
+    "websiteUrl": "https://autoescuelalondon.com/centro-simracing-zaragoza/",
+    "phone": "+34 685 570 093"
+  },
+  {
+    "id": "3286",
+    "slug": "arc-simracing-center-karting-las-americas",
+    "name": "ARC SimRacing Center (Karting Las Américas)",
+    "categories": [
+      "karting",
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "La Orotava",
+    "address": "La Orotava, Santa Cruz de Tenerife, Canary Islands, Spain",
+    "lat": 28.293578,
+    "lng": -16.621447,
+    "websiteUrl": "https://www.arcanarias.com/",
+    "phone": "+34 634 333 901"
+  },
+  {
+    "id": "3287",
+    "slug": "driving-simulation-center-bagheria",
+    "name": "Driving Simulation Center Bagheria",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Bagheria",
+    "address": "Via Giuseppe La Masa, Rione Coglitore, Bagheria, Palermo, Sicily, 90011, Italy",
+    "lat": 38.083466,
+    "lng": 13.508482,
+    "websiteUrl": "https://www.drivingsimulationcenter.it/tag/bagheria/",
+    "phone": "+39 329 144 8323"
+  },
+  {
+    "id": "3288",
+    "slug": "driving-simulation-center-bolzano",
+    "name": "Driving Simulation Center Bolzano",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Bolzano",
+    "address": "88, Via San Maurizio - Moritzinger Weg, San Maurizio - Moritzing, Gries-San Quirino - Gries-Quirein, Bolzano, South Tyrol, Trentino – Alto Adige/Südtirol, 39100, Italy",
+    "lat": 46.504942,
+    "lng": 11.294552,
+    "websiteUrl": "https://www.drivingsimulationcenter.it/2024/06/10/driving-simulation-center-arriva-anche-a-bolzano/"
+  },
+  {
+    "id": "3289",
+    "slug": "sim-speed-room-imola-carman",
+    "name": "Sim Speed Room Imola (CarMan)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Imola",
+    "address": "Carburo, 2, Piazza Ayrton Senna da Silva, Tre Monti - Zello, Imola, Nuovo Circondario Imolese, Bologna, Emilia-Romagna, 40026, Italy",
+    "lat": 44.344561,
+    "lng": 11.715165,
+    "websiteUrl": "https://sim.carmansrl.com/",
+    "phone": "+39 0542 25413"
+  },
+  {
+    "id": "3290",
+    "slug": "virtual-racing-desenzano",
+    "name": "Virtual Racing Desenzano",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Desenzano del Garda",
+    "address": "Via Giotto, Vicina, Desenzano del Garda, Brescia, Lombardy, 25015, Italy",
+    "lat": 45.460351,
+    "lng": 10.546626,
+    "websiteUrl": "https://www.virtualracingdesenzano.com/",
+    "phone": "+39 333 916 9466"
+  },
+  {
+    "id": "3291",
+    "slug": "world-pro-racing",
+    "name": "World Pro Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Malta",
+    "countryCode": "MT",
+    "city": "Luqa",
+    "address": "Triq Ħal Farruġ, Luqa, Southern Region, LQA 1039, Malta",
+    "lat": 35.856321,
+    "lng": 14.468127,
+    "websiteUrl": "https://wpr.gg/",
+    "phone": "+356 2180 0424"
+  },
+  {
+    "id": "3292",
+    "slug": "wac-arena-olbia",
+    "name": "WAC Arena Olbia",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Olbia",
+    "address": "19, Via Capotesta, Quartiere Centro, Olbia, Gallura Nord-Est Sardegna, Sardinia, 07026, Italy",
+    "lat": 40.920265,
+    "lng": 9.496414,
+    "websiteUrl": "https://www.wacarena.com/en",
+    "phone": "+39 345 172 5248"
+  },
+  {
+    "id": "3293",
+    "slug": "simracing-almeria",
+    "name": "SimRacing Almería",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Almeria",
+    "address": "3, Calle Leandro Fernández de Moratín, El Tagarete, Almeria, Andalusia, 04007, Spain",
+    "lat": 36.835397,
+    "lng": -2.450171,
+    "websiteUrl": "https://www.simracingalmeria.es/"
+  },
+  {
+    "id": "3294",
+    "slug": "esport-on3",
+    "name": "eSport oN3",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Italy",
+    "countryCode": "IT",
+    "city": "Rende",
+    "address": "96, Via Guglielmo Marconi, Quattromiglia, Rende, Cosenza, Calabria, 87036, Italy",
+    "lat": 39.353782,
+    "lng": 16.239491,
+    "websiteUrl": "https://esporton3.it/",
+    "phone": "+39 0984 1573798"
+  },
+  {
+    "id": "3295",
+    "slug": "simulatory-plzen-301",
+    "name": "Simulátory Plzeň (301)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Pilsen",
+    "address": "75, Masarykova, Plzeň 4, Pilsen, okres Plzeň-město, Plzeň Region, Southwest, 312 00, Czechia",
+    "lat": 49.751924,
+    "lng": 13.415466,
+    "websiteUrl": "https://www.simulatoryplzen.cz/",
+    "phone": "+420 777 701 301"
+  },
+  {
+    "id": "3296",
+    "slug": "simulatory-brno",
+    "name": "Simulátory Brno",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Brno",
+    "address": "271/29, Hybešova, Staré Brno, Brno-střed, Brno, okres Brno-město, South Moravian Region, 602 00, Czechia",
+    "lat": 49.189082,
+    "lng": 16.604102,
+    "websiteUrl": "https://www.simulatorybrno.cz/",
+    "phone": "+420 544 501 040"
+  },
+  {
+    "id": "3297",
+    "slug": "overtake-racing-brno",
+    "name": "Overtake Racing Brno",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Brno",
+    "address": "1535/1, Čajkovského, Brno-Žabovřesky, Brno, okres Brno-město, South Moravian Region, 616 00, Czechia",
+    "lat": 49.21272,
+    "lng": 16.577205,
+    "websiteUrl": "https://overtake.cz/",
+    "phone": "+420 724 041 857"
+  },
+  {
+    "id": "3298",
+    "slug": "racing-simulator-rzeszow",
+    "name": "Racing Simulator Rzeszów",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Rzeszów",
+    "address": "13, Księcia Józefa Poniatowskiego, Pułaskiego, Rzeszów, Subcarpathian Voivodeship, 35-026, Poland",
+    "lat": 50.03461,
+    "lng": 21.994863,
+    "websiteUrl": "https://racingsimulator.pl/",
+    "phone": "+48 602 618 037"
+  },
+  {
+    "id": "3299",
+    "slug": "pedalycz",
+    "name": "PEDALY.cz",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Prague",
+    "address": "21/29, Rumunská, Vyšehrad, obvod Praha 2, Prague, 120 00, Czechia",
+    "lat": 50.074447,
+    "lng": 14.434554,
+    "websiteUrl": "https://www.pedaly.cz/",
+    "phone": "+420 702 172 617"
+  },
+  {
+    "id": "3300",
+    "slug": "gtandf1-ostrava",
+    "name": "GT&F1 Ostrava",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Ostrava",
+    "address": "573, Luční, Svinov, Ostrava, okres Ostrava-město, Moravian-Silesian Region, 721 00, Czechia",
+    "lat": 49.81447,
+    "lng": 18.209296,
+    "websiteUrl": "https://gtf1.cz/",
+    "phone": "+420 775 551 982"
+  },
+  {
+    "id": "3301",
+    "slug": "4a1a-racing-sofia",
+    "name": "4a1a Racing Sofia",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "city": "Sofia",
+    "address": "бл. 61, Iztok, Sofia, Izgrev, Stolichna, Sofia-City, 1113, Bulgaria",
+    "lat": 42.672545,
+    "lng": 23.357613,
+    "websiteUrl": "https://4a1a.racing/"
+  },
+  {
+    "id": "3302",
+    "slug": "formulax-bucharest",
+    "name": "FormulaX Bucharest",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Bucharest",
+    "address": "Hotel Caro, 164A, Strada Barbu Văcărescu, Sector 2, Bucharest, 020285, Romania",
+    "lat": 44.474333,
+    "lng": 26.10833,
+    "websiteUrl": "https://formulax.ro/",
+    "phone": "+40 734 982 151"
+  },
+  {
+    "id": "3303",
+    "slug": "playdrive",
+    "name": "PlayDrive",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Bucharest",
+    "address": "1C, Șoseaua Virtuții, Militari, Sector 6, Bucharest, 060781, Romania",
+    "lat": 44.43581,
+    "lng": 26.034784,
+    "websiteUrl": "https://playdrive.ro/"
+  },
+  {
+    "id": "3304",
+    "slug": "sim-racing-experience-iasi",
+    "name": "Sim Racing Experience Iași",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Iași",
+    "address": "Argeș 25, Strada Argeș, Alexandru cel Bun, Iași, Iași Metropolitan Area, Iași, 700571, Romania",
+    "lat": 47.163921,
+    "lng": 27.564602,
+    "websiteUrl": "https://simracingexperience.ro/"
+  },
+  {
+    "id": "3305",
+    "slug": "nspeed-sim-racing-novi-sad",
+    "name": "NSpeed Sim Racing Novi Sad",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Novi Sad",
+    "address": "18, Змај Огњена Вука, МЗ Сава Ковачевић, Rotkvarija, Novi Sad, City of Novi Sad, South Backa Administrative District, Vojvodina, 21101, Serbia",
+    "lat": 45.262493,
+    "lng": 19.837311,
+    "websiteUrl": "https://nspeed.rs/simcentar/"
+  },
+  {
+    "id": "3306",
+    "slug": "360r-club-wimbledon",
+    "name": "360R Club Wimbledon",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Greater London",
+    "address": "The Broadway, Merton Park, London Borough of Merton, Greater London, England, SW19 8YE, United Kingdom",
+    "lat": 51.420789,
+    "lng": -0.205063,
+    "websiteUrl": "https://www.360r.club/",
+    "phone": "020 8050 8086"
+  },
+  {
+    "id": "3307",
+    "slug": "full-send-racing-lounge",
+    "name": "Full Send Racing Lounge",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Winchester",
+    "address": "Witton Hill, New Alresford, Winchester, Hampshire, England, SO24 9PT, United Kingdom",
+    "lat": 51.083333,
+    "lng": -1.166667,
+    "websiteUrl": "https://fullsendracinglounge.co.uk/",
+    "phone": "023 9200 9183"
+  },
+  {
+    "id": "3308",
+    "slug": "sim-lounge-rochdale",
+    "name": "Sim Lounge Rochdale",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Rochdale",
+    "address": "Queensway, Trub, Castleton, Rochdale, Greater Manchester, England, OL11 2QQ, United Kingdom",
+    "lat": 53.594706,
+    "lng": -2.172808,
+    "websiteUrl": "https://simlounge.co.uk/",
+    "phone": "01706 310999"
+  },
+  {
+    "id": "3309",
+    "slug": "strefa-racing-szczecin",
+    "name": "Strefa Racing Szczecin",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Szczecin",
+    "address": "30, Księdza kardynała Stefana Wyszyńskiego, Stare Miasto, Śródmieście, Szczecin, West Pomeranian Voivodeship, 70-203, Poland",
+    "lat": 53.42375,
+    "lng": 14.556103,
+    "websiteUrl": "https://strefa.racing/",
+    "phone": "+48 695 587 243"
+  },
+  {
+    "id": "3310",
+    "slug": "autodrom-vysoke-myto",
+    "name": "Autodrom Vysoké Mýto",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "city": "Vysoké Mýto",
+    "address": "45, Dráby, Litomyšlské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubice Region, 566 01, Czechia",
+    "lat": 49.939017,
+    "lng": 16.169094,
+    "websiteUrl": "https://www.autodromvmyto.cz/",
+    "phone": "+420 777 111 605"
+  },
+  {
+    "id": "3311",
+    "slug": "motopark-torun",
+    "name": "MotoPark Toruń",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Toruń",
+    "address": "Toruńska Akademia Jazdy - Centrum Treningowe, 66, Ignacego Łukasiewicza, Starotoruńskie Przedmieście, Toruń, Kuyavian-Pomeranian Voivodeship, 87-100, Poland",
+    "lat": 53.021859,
+    "lng": 18.548046,
+    "websiteUrl": "https://www.motoparktorun.pl/",
+    "phone": "+48 783 909 093"
+  },
+  {
+    "id": "3312",
+    "slug": "tor-bialystok",
+    "name": "Tor Białystok",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Białystok",
+    "address": "1/2, Konstantego Ciołkowskiego, Mickiewicza, Białystok, Podlachia Voivodeship, 15-245, Poland",
+    "lat": 53.112865,
+    "lng": 23.17335
+  },
+  {
+    "id": "3313",
+    "slug": "autodrom-pomorze-tor-pszczolki",
+    "name": "Autodrom Pomorze (Tor Pszczółki)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Pszczółki",
+    "address": "Żuławska, Pszczółki, gmina Pszczółki, Gdańsk County, Pomeranian Voivodeship, 83-032, Poland",
+    "lat": 54.178068,
+    "lng": 18.71023,
+    "websiteUrl": "https://autodrompomorze.pl/",
+    "phone": "+48 514 059 522"
+  },
+  {
+    "id": "3314",
+    "slug": "motopark-krakow",
+    "name": "MotoPark Kraków",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Poland",
+    "countryCode": "PL",
+    "city": "Krakow",
+    "address": "Moto Park Kraków, 4R, Rzepakowa, Branice, Nowa Huta, Krakow, Lesser Poland Voivodeship, 31-989, Poland",
+    "lat": 50.068575,
+    "lng": 20.150729
+  },
+  {
+    "id": "3315",
+    "slug": "circuit-de-can-padro",
+    "name": "Circuit de Can Padró",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Barcelona",
+    "address": "1, Plaça de Sant Jaume, el Palau, Gothic Quarter, Ciutat Vella, Barcelona, Barcelonès, Barcelona, Catalonia, 08002, Spain",
+    "lat": 41.38258,
+    "lng": 2.177073,
+    "websiteUrl": "https://www.canpadro.com/",
+    "phone": "+34 938 330 311"
+  },
+  {
+    "id": "3316",
+    "slug": "raceway-park-of-the-midlands-i-29-speedway",
+    "name": "Raceway Park of the Midlands (I-29 Speedway)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Pacific Junction",
+    "address": "Jesup Avenue, Pacific Junction, Mills County, Iowa, 51561, United States",
+    "lat": 41.019812,
+    "lng": -95.811003,
+    "websiteUrl": "https://www.i29speedway.com/",
+    "phone": "+1 402-306-5015"
+  },
+  {
+    "id": "3317",
+    "slug": "darana-heartland-motorsports-park",
+    "name": "Darana-Heartland Motorsports Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Topeka",
+    "address": "Heartland Park Topeka, 7530, Southwest Topeka Boulevard, Topeka, Shawnee County, Kansas, 66619, United States",
+    "lat": 38.927323,
+    "lng": -95.673396,
+    "websiteUrl": "https://www.facebook.com/p/Darana-Heartland-Motorsports-Park-61583038233531/"
+  },
+  {
+    "id": "3318",
+    "slug": "jennings-gp",
+    "name": "Jennings GP",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Jennings",
+    "address": "1201, Southern Street, Jennings, Hamilton County, Florida, 32053, United States",
+    "lat": 30.604182,
+    "lng": -83.09907,
+    "websiteUrl": "https://www.jenningsgp.com/",
+    "phone": "+1 386-938-1110"
+  },
+  {
+    "id": "3319",
+    "slug": "canaan-motor-club",
+    "name": "Canaan Motor Club",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Canaan",
+    "address": "Canaan Motor Club, 18, Orange Road, Graceville, Canaan, Grafton County, New Hampshire, 03741, United States",
+    "lat": 43.650261,
+    "lng": -71.9995,
+    "websiteUrl": "http://www.canaanmotorclub.com/"
+  },
+  {
+    "id": "3320",
+    "slug": "new-york-safety-track",
+    "name": "New York Safety Track",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Town of Davenport",
+    "address": "396, Zimmerman Road, Town of Harpersfield, Town of Davenport, Delaware County, New York, 13750, United States",
+    "lat": 42.488016,
+    "lng": -74.779866,
+    "websiteUrl": "http://www.nyst.com/"
+  },
+  {
+    "id": "3321",
+    "slug": "pineview-run",
+    "name": "Pineview Run",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Town of LaFayette",
+    "address": "5997, Cherry Valley Turnpike, Onativia, Town of LaFayette, Onondaga County, New York, 13084, United States",
+    "lat": 42.892289,
+    "lng": -76.105202,
+    "websiteUrl": "https://pineviewrun.com/",
+    "phone": "+1 315-960-2566"
+  },
+  {
+    "id": "3322",
+    "slug": "grandsport-speedway",
+    "name": "GrandSport Speedway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Hitchcock",
+    "address": "9953, Camp Wallace Road, Hitchcock, Galveston County, Texas, 77510, United States",
+    "lat": 29.305464,
+    "lng": -95.109996,
+    "phone": "+1 409-986-7223"
+  },
+  {
+    "id": "3323",
+    "slug": "charlotte-motor-speedway-roval",
+    "name": "Charlotte Motor Speedway (ROVAL)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Concord",
+    "address": "zMAX Dragway, 5555, Concord Parkway South, Concord, Cabarrus County, North Carolina, 28027, United States",
+    "lat": 35.360831,
+    "lng": -80.687254,
+    "websiteUrl": "https://www.charlottemotorspeedway.com/",
+    "phone": "+1 866-723-8849"
+  },
+  {
+    "id": "3324",
+    "slug": "nashville-superspeedway",
+    "name": "Nashville Superspeedway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Lebanon",
+    "address": "General Hatton, Public Square, Lebanon, Wilson County, Middle Tennessee, Tennessee, 37087, United States",
+    "lat": 36.207978,
+    "lng": -86.291094,
+    "websiteUrl": "https://www.nashvillesuperspeedway.com/"
+  },
+  {
+    "id": "3325",
+    "slug": "pikes-peak-international-raceway",
+    "name": "Pikes Peak International Raceway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Fountain",
+    "address": "16650, Midway Ranch Road, Fountain, El Paso County, Colorado, 80817, United States",
+    "lat": 38.586486,
+    "lng": -104.672528
+  },
+  {
+    "id": "3326",
+    "slug": "homestead-miami-speedway",
+    "name": "Homestead-Miami Speedway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Homestead",
+    "address": "New City Hall, 100, Civic Court, Homestead Trailer Park, Homestead, Miami-Dade County, Florida, 33030, United States",
+    "lat": 25.471895,
+    "lng": -80.47599,
+    "websiteUrl": "https://www.homesteadmiamispeedway.com/"
+  },
+  {
+    "id": "3327",
+    "slug": "salinas-speedway",
+    "name": "Salinas Speedway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Salinas",
+    "address": "200, Calle Héctor M. Hernández Suárez, La Carmen, Barrio Pueblo, Salinas, Puerto Rico, 00751, United States",
+    "lat": 17.974874,
+    "lng": -66.292027
+  },
+  {
+    "id": "3328",
+    "slug": "no-problem-raceway-park",
+    "name": "No Problem Raceway Park",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Assumption Parish",
+    "address": "6470 LA-996, Belle Rose, Louisiana, United States",
+    "lat": 30.038571,
+    "lng": -91.054618,
+    "websiteUrl": "https://www.racenpr.com/",
+    "phone": "+1 985-366-9692"
+  },
+  {
+    "id": "3329",
+    "slug": "kakucs-ring",
+    "name": "Kakucs Ring",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Magyarország",
+    "countryCode": "XX",
+    "city": "Kakucs",
+    "address": "Dózsa György utca 1, 2366 Kakucs, Pest County, Hungary",
+    "lat": 47.241618,
+    "lng": 19.366743,
+    "websiteUrl": "https://www.kakucs-ring.hu/",
+    "phone": "+36 20 257 0947"
+  },
+  {
+    "id": "3330",
+    "slug": "algarve-simracing",
+    "name": "Algarve SimRacing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "city": "Portimão",
+    "address": "Zona Industrial Coca Maravilhas, Portimão, Algarve, Portugal",
+    "lat": 37.137581,
+    "lng": -8.536843,
+    "websiteUrl": "https://algarvesimracing.com/"
+  },
+  {
+    "id": "3331",
+    "slug": "simracing-thurgau",
+    "name": "Simracing Thurgau",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "city": "Müllheim",
+    "address": "Gewerbestrasse, Müllheim, Thurgau, Switzerland",
+    "lat": 47.601959,
+    "lng": 9.002012,
+    "websiteUrl": "https://www.simracing-thurgau.ch/",
+    "phone": "+41 79 749 47 77"
   }
 ];
