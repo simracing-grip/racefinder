@@ -51880,5 +51880,1339 @@ export const generatedListings: Listing[] = [
     "lng": 9.002012,
     "websiteUrl": "https://www.simracing-thurgau.ch/",
     "phone": "+41 79 749 47 77"
+  },
+  {
+    "id": "3332",
+    "slug": "dynamics-simulators",
+    "name": "Dynamics Simulators",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "city": "Cairo",
+    "address": "3, Omar Ibn Al Khatab Street, Heliopolis, Cairo, 11757, Egypt",
+    "lat": 30.100599,
+    "lng": 31.332914,
+    "websiteUrl": "https://www.facebook.com/DynamicsSim/",
+    "phone": "+20 15 5223 1415"
+  },
+  {
+    "id": "3333",
+    "slug": "racing-lab",
+    "name": "Racing Lab",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "city": "Cairo",
+    "address": "El Tahrir Square, Qasr Al Doubara, Bab al Luq, Cairo, 11519, Egypt",
+    "lat": 30.044388,
+    "lng": 31.235726,
+    "websiteUrl": "https://www.facebook.com/RacingLabSim/",
+    "phone": "+20 10 0948 7353"
+  },
+  {
+    "id": "3334",
+    "slug": "race-way-simulator",
+    "name": "Race way Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "city": "Alexandria",
+    "address": "Al Mansheya Al Kobra, Alexandria, 21519, Egypt",
+    "lat": 31.199181,
+    "lng": 29.895172,
+    "websiteUrl": "https://www.instagram.com/race_way_simulator/",
+    "phone": "+20 35 416409"
+  },
+  {
+    "id": "3335",
+    "slug": "trackstar",
+    "name": "TrackStar",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "city": "Temara",
+    "address": "Wifaq ⵡⵉⴼⴰⵇ الوفاق, Temara, Pachalik de Témara باشوية تمارة, Skhirat-Témara Prefecture, Rabat-Salé-Kénitra, 12000, Morocco",
+    "lat": 33.917166,
+    "lng": -6.923804,
+    "websiteUrl": "https://www.trackstar.ma/"
+  },
+  {
+    "id": "3336",
+    "slug": "dz-racing-simulator",
+    "name": "DZ Racing Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "city": "Algiers",
+    "address": "Rue Arab Sid Ahmed شارع العرب سيد أحمد, Sidi M'Barek, Djenan Sefari, Birkhadem, Bir Mourad Rais District, Algiers, 16000, Algeria",
+    "lat": 36.716075,
+    "lng": 3.049736,
+    "websiteUrl": "https://www.instagram.com/dz_racing_simulator/",
+    "phone": "+213 78 144 7028"
+  },
+  {
+    "id": "3337",
+    "slug": "hncom-vr",
+    "name": "HNcom VR",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "city": "Algiers",
+    "address": "Rue Arab Sid Ahmed شارع العرب سيد أحمد, Sidi M'Barek, Djenan Sefari, Birkhadem, Bir Mourad Rais District, Algiers, 16000, Algeria",
+    "lat": 36.716075,
+    "lng": 3.049736,
+    "websiteUrl": "https://www.instagram.com/hncom_vr/",
+    "phone": "+213 55 330 7352"
+  },
+  {
+    "id": "3338",
+    "slug": "simrush",
+    "name": "Simrush",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "city": "Amman",
+    "address": "Jabal Amman, منطقة المدينة, Amman, Amman Sub-District, Amman Qasabah District, Amman, 11110, Jordan",
+    "lat": 31.951569,
+    "lng": 35.923963,
+    "websiteUrl": "https://www.instagram.com/simrushjo/",
+    "phone": "+962 79 623 6950"
+  },
+  {
+    "id": "3339",
+    "slug": "simhaze-racing",
+    "name": "SimHaze Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "city": "Basta Tahta",
+    "address": "Rue Abdel-Hamid Zehraoui, Basta Tahta, Bashura, Beirut Governorate, 2052 6703, Lebanon",
+    "lat": 33.889226,
+    "lng": 35.502558,
+    "websiteUrl": "https://simhazeracing.com/",
+    "phone": "+961 81 000 420"
+  },
+  {
+    "id": "3340",
+    "slug": "simuliatoriu-akademija",
+    "name": "Simuliatorių Akademija",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Lithuania",
+    "countryCode": "LT",
+    "city": "Vilnius",
+    "address": "239, Ukmergės g., Fabijoniškės, Fabijoniškių seniūnija, Vilnius, Vilnius city municipality, Vilnius County, 07160, Lithuania",
+    "lat": 54.72284,
+    "lng": 25.243833,
+    "websiteUrl": "https://simuliatoriuakademija.lt/",
+    "phone": "+370 626 81194"
+  },
+  {
+    "id": "3341",
+    "slug": "sim-racing-centar-sarajevo",
+    "name": "SIM Racing Centar Sarajevo",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Bosnia and Herzegovina",
+    "countryCode": "BA",
+    "city": "Lukavica",
+    "address": "Nikole Tesle, Naselje Starosjedilaca, Lukavica (RS), Lukavica, Istočno Novo Sarajevo Municipality, City of Istočno Sarajevo, Republika Srpska, 71123, Bosnia and Herzegovina",
+    "lat": 43.827239,
+    "lng": 18.367019,
+    "websiteUrl": "https://www.instagram.com/simracing.ba/",
+    "phone": "066 35 36 64"
+  },
+  {
+    "id": "3342",
+    "slug": "cyber-racing-center",
+    "name": "Cyber Racing Center",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Cyprus",
+    "countryCode": "CY",
+    "city": "Limassol",
+    "address": "Alexandrou Moraitidi, Katholiki, Limassol, Limassol Municipality, Limassol District, Cyprus, 3085, Cyprus",
+    "lat": 34.68529,
+    "lng": 33.033266,
+    "websiteUrl": "https://www.cyberautoracing.com/"
+  },
+  {
+    "id": "3343",
+    "slug": "lap-racing-simulator",
+    "name": "LAP Racing Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Cyprus",
+    "countryCode": "CY",
+    "city": "Ayia Napa",
+    "address": "Leoforos Kryou Nerou, Ayia Napa, Agia Napa Municipality, Famagusta District, Cyprus, 5330, Cyprus",
+    "lat": 34.976776,
+    "lng": 34.038617,
+    "websiteUrl": "https://www.lapracingcyprus.com/",
+    "phone": "7000 3883"
+  },
+  {
+    "id": "3344",
+    "slug": "arceus-park",
+    "name": "Arceus Park",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "city": "Kepez",
+    "address": "Yeşilırmak Caddesi, Yeni Mahallesi, Kepez, Antalya, Mediterranean Region, 07366, Turkey",
+    "lat": 36.91763,
+    "lng": 30.714991,
+    "websiteUrl": "https://arceuspark.com/",
+    "phone": "+90 531 467 07 53"
+  },
+  {
+    "id": "3345",
+    "slug": "sim-race-ankara",
+    "name": "Sim Race Ankara",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "city": "Yenimahalle",
+    "address": "Şehit Kaymakam Muhammed Fatih Safitürk Bulvarı, Çakırlar Mahallesi, Yenimahalle, Ankara, Central Anatolia Region, 06370, Turkey",
+    "lat": 39.991772,
+    "lng": 32.696529,
+    "websiteUrl": "https://simraceankara.com/",
+    "phone": "+90 312 999 90 04"
+  },
+  {
+    "id": "3346",
+    "slug": "wasiu-sim-racing-simulasyon-merkezi",
+    "name": "Wasiu Sim Racing Simülasyon Merkezi",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "city": "Esenyurt",
+    "address": "2131. Sokak, Güzelyurt Mahallesi, Esenyurt, Istanbul, Marmara Region, 34515, Turkey",
+    "lat": 41.0129,
+    "lng": 28.663814,
+    "phone": "+90 553 196 15 65"
+  },
+  {
+    "id": "3347",
+    "slug": "nooxion",
+    "name": "nooxion模拟赛车",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Chaoyang District",
+    "address": "Chaowai Subdistrict, Chaoyang District, Beijing, 100004, China",
+    "lat": 39.92045,
+    "lng": 116.436911,
+    "websiteUrl": "https://huodong.com/venue/detail/eydtC",
+    "phone": "17610291667"
+  },
+  {
+    "id": "3348",
+    "slug": "sparkle-garage-sim-racing-guangzhou",
+    "name": "闪耀车库赛车模拟器店",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Panyu District",
+    "address": "Panyu People's Government, 319, Qinghe East Road, 德兴社区, Shiqiao Subdistrict, Panyu District, Guangzhou City, Guangdong, 511400, China",
+    "lat": 22.938725,
+    "lng": 113.378542,
+    "websiteUrl": "https://huodong.com/venue/detail/eyMps"
+  },
+  {
+    "id": "3349",
+    "slug": "feichi",
+    "name": "FEICHI·斐驰模拟赛车体验馆",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Huangpu District",
+    "address": "Xiangxue 3rd Road, Xiangxue, Luogang Subdistrict, Huangpu District, Guangzhou City, Guangdong, 510530, China",
+    "lat": 23.182938,
+    "lng": 113.47493,
+    "websiteUrl": "https://huodong.com/venue/detail/eyMpT",
+    "phone": "18144889860"
+  },
+  {
+    "id": "3350",
+    "slug": "drug-racing",
+    "name": "DRUG RACING卓格赛车模拟体验馆",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Panyu District",
+    "address": "Luocheng Primary School, Ruyi 3rd Road, 洛溪新城, 丽江花园, Luopu Sub-District, Panyu District, Guangzhou City, Guangdong, 511400, China",
+    "lat": 23.044024,
+    "lng": 113.294229,
+    "websiteUrl": "https://huodong.com/venue/detail/eyMpz"
+  },
+  {
+    "id": "3351",
+    "slug": "raceroom",
+    "name": "Raceroom杭州赛车模拟电竞中心",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Xiaoshan District",
+    "address": "萧山区政府, 金惠路, 华达社区, Beigan, Xiaoshan District, Hangzhou City, Zhejiang, China",
+    "lat": 30.186182,
+    "lng": 120.259753,
+    "websiteUrl": "https://huodong.com/venue/detail/eyoVD",
+    "phone": "13083996992"
+  },
+  {
+    "id": "3352",
+    "slug": "hipole-sim-racing-xian-lianhu",
+    "name": "HiPole Sim Racing (Xi'an Lianhu)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Beilin District",
+    "address": "Bell Tower, Bell Tower Roundabout, 钟楼社区, 书院门社区, Nanyuanmen, Beilin District, Xi'an, Shaanxi, 710001, China",
+    "lat": 34.261004,
+    "lng": 108.942336,
+    "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
+    "phone": "15399420857"
+  },
+  {
+    "id": "3353",
+    "slug": "z-challenger-sim-racing",
+    "name": "Z-Challenger Sim Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "city": "New Taipei",
+    "address": "161號, Section 1, Jhongshan Road, Shenqiu Village, Banqiao District, Xinban Special District, New Taipei, 220242, Taiwan",
+    "lat": 25.011997,
+    "lng": 121.465662,
+    "websiteUrl": "https://sites.google.com/view/z-challenger-tw/home",
+    "phone": "+886282816719"
+  },
+  {
+    "id": "3354",
+    "slug": "svr-esports",
+    "name": "SVR Esports (極速境界)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "city": "Taichung",
+    "address": "府前廣場, Huilai Village, Xitun District, 臺中七期, Taichung, 40701, Taiwan",
+    "lat": 24.163162,
+    "lng": 120.647828,
+    "websiteUrl": "https://www.facebook.com/SVRacingTW/",
+    "phone": "+886423286586"
+  },
+  {
+    "id": "3355",
+    "slug": "apex-racing-kaohsiung",
+    "name": "Apex Racing Kaohsiung",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "city": "Kaohsiung",
+    "address": "Bank of Kaohsiung, 2, Sihwei 3rd Road, Qinglang Village, Lingya District, Kaohsiung, 802, Taiwan",
+    "lat": 22.620335,
+    "lng": 120.312038,
+    "websiteUrl": "https://www.facebook.com/p/Apex-Racing-Kaohsiung-61553733966324/"
+  },
+  {
+    "id": "3356",
+    "slug": "circuit-story-academy-incheon-guwol",
+    "name": "Circuit Story Academy (Incheon Guwol)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "city": "Incheon",
+    "address": "Nongsanmul Crossroad, Yeonnam-ro, Gwangyo-dong, Guwol 1(il)-dong, Michuhol-gu, Incheon, 21574, South Korea",
+    "lat": 37.443232,
+    "lng": 126.702884,
+    "websiteUrl": "https://www.instagram.com/circuitstory_incheon/",
+    "phone": "032-422-3933"
+  },
+  {
+    "id": "3357",
+    "slug": "metadrive-arcade-kolkata",
+    "name": "MetaDrive Arcade (Kolkata)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Kolkata",
+    "address": "Allenby Road, Bhowanipore, Kolkata, Kolkata Metropolitan Area, Kolkata, West Bengal, 700025, India",
+    "lat": 22.533049,
+    "lng": 88.350001,
+    "websiteUrl": "https://metadrive.in/metadrive-arcade/",
+    "phone": "+919073205758"
+  },
+  {
+    "id": "3358",
+    "slug": "metadrive-arcade-jaipur",
+    "name": "MetaDrive Arcade (Jaipur)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Jaipur",
+    "address": "Chitrakoot Marg, Chitrakoot - Sector 8, Tagore Nagar, Vaishali Nagar, Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+    "lat": 26.896819,
+    "lng": 75.739158,
+    "websiteUrl": "https://metadrive.in/metadrive-arcade/",
+    "phone": "+916350047553"
+  },
+  {
+    "id": "3359",
+    "slug": "lights-out-sim-racing",
+    "name": "Lights Out Sim Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Gurgaon",
+    "address": "Sector 48, Sector 69, Gurgaon, Haryana, 122101, India",
+    "lat": 28.39607,
+    "lng": 77.037231,
+    "websiteUrl": "https://lightsout.global/",
+    "phone": "+919217848052"
+  },
+  {
+    "id": "3360",
+    "slug": "purple-sectors-hq",
+    "name": "Purple Sectors HQ",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Gurgaon",
+    "address": "Satya The Hive, SH15A, Sector 102, Gurgaon, Haryana, 122006, India",
+    "lat": 28.471482,
+    "lng": 76.963199,
+    "websiteUrl": "https://www.purplesectorshq.in/",
+    "phone": "+918130186677"
+  },
+  {
+    "id": "3361",
+    "slug": "sim-podium",
+    "name": "Sim Podium",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Bengaluru",
+    "address": "100 Feet Road, HAL 2nd Stage, Kodihalli, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560008, India",
+    "lat": 12.970222,
+    "lng": 77.641239,
+    "websiteUrl": "https://www.simpodium.in/",
+    "phone": "+919900086633"
+  },
+  {
+    "id": "3362",
+    "slug": "simpro-academy-phuket",
+    "name": "SimPro Academy Phuket",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "city": "Ko Kaeo",
+    "address": "Royal Phuket Marina, Soi Kohgaew 14, Pa Khlok, Ko Kaeo, Mueang Phuket District, Phuket Province, Thailand",
+    "lat": 7.963277,
+    "lng": 98.386804,
+    "websiteUrl": "https://simproacademyphuket.com/",
+    "phone": "+66629622822"
+  },
+  {
+    "id": "3363",
+    "slug": "central-sim-racing-kata",
+    "name": "Central Sim Racing (Kata)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "city": "Karon",
+    "address": "Coffee house cafe, 88/25-26, Kata Road, บ้านกะตะคีรี, Ban Kata, Karon, Mueang Phuket District, Phuket Province, 83100, Thailand",
+    "lat": 7.821328,
+    "lng": 98.29921,
+    "websiteUrl": "https://www.instagram.com/central_sim_racing/"
+  },
+  {
+    "id": "3364",
+    "slug": "sim-racing-saigon",
+    "name": "Sim Racing Saigon",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "city": "Ho Chi Minh City",
+    "address": "Nguyen Thi Minh Khai High School, 275, Dien Bien Phu Street, Khu phố 2, Phường Xuân Hòa, Ho Chi Minh City, 70000, Vietnam",
+    "lat": 10.779019,
+    "lng": 106.686951,
+    "websiteUrl": "https://www.facebook.com/p/Sim-Racing-Saigon-61575513697426/",
+    "phone": "+84866015490"
+  },
+  {
+    "id": "3365",
+    "slug": "lt9-club",
+    "name": "LT9 Club",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "city": "Hà Nội",
+    "address": "Cửa Hàng Bún Chả Hương Liên, 24, Le Van Huu Street, Hai Ba Trung Ward, Hà Nội, 11626, Vietnam",
+    "lat": 21.017939,
+    "lng": 105.854001,
+    "websiteUrl": "https://www.tiktok.com/@lt9sg_neverdie"
+  },
+  {
+    "id": "3366",
+    "slug": "chicane-racing-simulator-lounge",
+    "name": "Chicane Racing Simulator Lounge",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Philippines",
+    "countryCode": "PH",
+    "city": "Cebu City",
+    "address": "Rosedale, Governor M. Cuenco Avenue, Holy Family Village, Banilad, Cebu City, Central Visayas, 6000, Philippines",
+    "lat": 10.350703,
+    "lng": 123.913502,
+    "websiteUrl": "https://www.chicaneracingsimulator.com/"
+  },
+  {
+    "id": "3367",
+    "slug": "p1-digital-motorsport-black-stone-garage",
+    "name": "P1 Digital Motorsport (Black Stone Garage)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "city": "Special Capital Region of Jakarta",
+    "address": "Jalan Barito II, RW 04, Pulo, Kebayoran Baru, South Jakarta, Special Capital Region of Jakarta, 12160, Indonesia",
+    "lat": -6.249779,
+    "lng": 106.797232,
+    "websiteUrl": "https://www.instagram.com/blackstonegarage_"
+  },
+  {
+    "id": "3368",
+    "slug": "ers-simulator-racing-studio",
+    "name": "ERS Simulator Racing Studio",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "city": "Bandung City",
+    "address": "Cikutra, Cibeunying Kidul, Bandung City, West Java, 40124, Indonesia",
+    "lat": -6.899303,
+    "lng": 107.637291,
+    "websiteUrl": "https://www.instagram.com/ers.simulator/"
+  },
+  {
+    "id": "3369",
+    "slug": "pilotech",
+    "name": "Pilotech",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São Paulo",
+    "address": "Avenida Quarto Centenário, Indianópolis, Moema, São Paulo, Southeast Region, 04520-010, Brazil",
+    "lat": -23.595742,
+    "lng": -46.666009,
+    "websiteUrl": "https://www.pilotechway.com/",
+    "phone": "+55 11 94477-8385"
+  },
+  {
+    "id": "3370",
+    "slug": "original-experience-racing-room",
+    "name": "Original Experience Racing Room",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São Paulo",
+    "address": "Sé, Rua Santa Teresa, Glicério, Sé, São Paulo, Southeast Region, 01016-020, Brazil",
+    "lat": -23.550651,
+    "lng": -46.633382,
+    "websiteUrl": "https://originalexperience.com.br/",
+    "phone": "+55 11 95555-9139"
+  },
+  {
+    "id": "3371",
+    "slug": "689-rigs-sim-center-club",
+    "name": "689 Rigs Sim Center Club",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "city": "Santa Clara Ocoyucan",
+    "address": "Boulevard de las Cascadas, Lomas de Angelópolis, Tercera Sección de Santa Clara Ocoyucan, Santa Clara Ocoyucan, Ocoyucan, Puebla, 72826, Mexico",
+    "lat": 18.980437,
+    "lng": -98.290335,
+    "websiteUrl": "https://www.689rigs.com/",
+    "phone": "+52 221 841 6891"
+  },
+  {
+    "id": "3372",
+    "slug": "performance-simulators",
+    "name": "Performance Simulators",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "city": "Querétaro",
+    "address": "Boulevard Bernardo Quintana, Delegación Centro Histórico, Querétaro, Municipio de Querétaro, Querétaro, 76050, Mexico",
+    "lat": 20.596283,
+    "lng": -100.372223,
+    "websiteUrl": "https://www.performance-simulators.com/",
+    "phone": "+52 442 195 4049"
+  },
+  {
+    "id": "3373",
+    "slug": "forza-x-simulator",
+    "name": "Forza X Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "city": "Cancún",
+    "address": "Avenida Kabah, Cancún, Benito Juárez, Distrito 1, Quintana Roo, 77508, Mexico",
+    "lat": 21.152747,
+    "lng": -86.842576,
+    "websiteUrl": "https://forzaxsim.com/en"
+  },
+  {
+    "id": "3374",
+    "slug": "sim-cafe-racer",
+    "name": "Sim Café Racer",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Cordoba",
+    "address": "Centro, Cordoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
+    "lat": -31.416687,
+    "lng": -64.183419,
+    "websiteUrl": "https://www.instagram.com/simcaferacer/"
+  },
+  {
+    "id": "3375",
+    "slug": "aracing-simuladores-palermo",
+    "name": "ARACING Simuladores Palermo",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Buenos Aires",
+    "address": "4372, Avenida Córdoba, Villa Crespo, Buenos Aires, Comuna 15, Autonomous City of Buenos Aires, C1414BAO, Argentina",
+    "lat": -34.595809,
+    "lng": -58.427871,
+    "websiteUrl": "https://aracingsimuladores.com.ar/palermo/"
+  },
+  {
+    "id": "3376",
+    "slug": "aracing-simuladores-quilmes",
+    "name": "ARACING Simuladores Quilmes",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Quilmes",
+    "address": "694, Almirante Brown, Quilmes Centro, Quilmes, Partido de Quilmes, Buenos Aires, B1878, Argentina",
+    "lat": -34.722894,
+    "lng": -58.255249,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3377",
+    "slug": "aracing-simuladores-berazategui",
+    "name": "ARACING Simuladores Berazategui",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Berazategui",
+    "address": "Calle 13, Los Robles, Berazategui, Partido de Berazategui, Buenos Aires, 1880, Argentina",
+    "lat": -34.783312,
+    "lng": -58.252103,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3378",
+    "slug": "aracing-simuladores-bahia-blanca",
+    "name": "ARACING Simuladores Bahía Blanca",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Bahía Blanca",
+    "address": "285, Donado, Centro Sudeste, Bahía Blanca, Cuartel I, Partido de Bahía Blanca, Buenos Aires, B8000LQC, Argentina",
+    "lat": -38.723145,
+    "lng": -62.268157,
+    "websiteUrl": "https://aracingsimuladores.com.ar/",
+    "phone": "+54 9 291 566-2160"
+  },
+  {
+    "id": "3379",
+    "slug": "aracing-simuladores-cordoba",
+    "name": "ARACING Simuladores Córdoba",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Cordoba",
+    "address": "1216, Avenida Vélez Sarsfield, Güemes, Cordoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
+    "lat": -31.429395,
+    "lng": -64.192756,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3380",
+    "slug": "aracing-simuladores-azul",
+    "name": "ARACING Simuladores Azul",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Azul",
+    "address": "526, San Martín, S.O.E.M.P.A., Centro, Azul, Partido de Azul, Buenos Aires, 7300, Argentina",
+    "lat": -36.779014,
+    "lng": -59.862138,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3381",
+    "slug": "aracing-simuladores-punta-alta",
+    "name": "ARACING Simuladores Punta Alta",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Punta Alta",
+    "address": "356, Espora, Atepam I, Centro, Punta Alta, Cuartel VI, Partido de Coronel de Marina Leonardo Rosales, Buenos Aires, 8109, Argentina",
+    "lat": -38.881387,
+    "lng": -62.072503,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3382",
+    "slug": "aracing-simuladores-villa-gesell",
+    "name": "ARACING Simuladores Villa Gesell",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Villa Gesell",
+    "address": "Avenida 3, Zona Sur, Villa Gesell, Partido de Villa Gesell, Buenos Aires, B7165, Argentina",
+    "lat": -37.270996,
+    "lng": -56.980801,
+    "websiteUrl": "https://aracingsimuladores.com.ar/",
+    "phone": "+54 9 2255 626-469"
+  },
+  {
+    "id": "3383",
+    "slug": "aracing-simuladores-bariloche",
+    "name": "ARACING Simuladores Bariloche",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "San Carlos de Bariloche",
+    "address": "210, Gobernador León Quaglia, Centro, San Carlos de Bariloche, Municipio de San Carlos de Bariloche, Departamento Bariloche, Río Negro, 8400, Argentina",
+    "lat": -41.133887,
+    "lng": -71.30826,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3384",
+    "slug": "aracing-simuladores-nordelta",
+    "name": "ARACING Simuladores Nordelta",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Nordelta",
+    "address": "José M. Paiva, Nordelta, Partido de Tigre, Buenos Aires, 1624, Argentina",
+    "lat": -34.407458,
+    "lng": -58.634005,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3385",
+    "slug": "aracing-simuladores-tandil",
+    "name": "ARACING Simuladores Tandil",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "city": "Tandil",
+    "address": "451, General Rodríguez, Centro, Cuatro Avenidas, Tandil, Partido de Tandil, Buenos Aires, B7000GKN, Argentina",
+    "lat": -37.328289,
+    "lng": -59.135696,
+    "websiteUrl": "https://aracingsimuladores.com.ar/"
+  },
+  {
+    "id": "3386",
+    "slug": "takasu-circuit",
+    "name": "Takasu Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Fukui",
+    "address": "Hinode 2-chome, Ote, Fukui, Fukui Prefecture, 910-0858, Japan",
+    "lat": 36.061751,
+    "lng": 136.226054,
+    "websiteUrl": "http://www.fnet.ac/"
+  },
+  {
+    "id": "3387",
+    "slug": "suzuka-twin-circuit",
+    "name": "Suzuka Twin Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Suzuka",
+    "address": "神戸一丁目, 飯野寺家町, Suzuka, Mie Prefecture, 513-8701, Japan",
+    "lat": 34.88171,
+    "lng": 136.583652,
+    "websiteUrl": "http://twincircuit.co.jp/"
+  },
+  {
+    "id": "3388",
+    "slug": "bihoku-highland-circuit",
+    "name": "Bihoku Highland Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Niimi",
+    "address": "Niimi, Okayama Prefecture, 718-8501, Japan",
+    "lat": 34.977565,
+    "lng": 133.470431,
+    "websiteUrl": "https://bihoku-circuit.com/",
+    "phone": "+81 867-74-2918"
+  },
+  {
+    "id": "3389",
+    "slug": "setonaikai-circuit",
+    "name": "Setonaikai Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Saijō",
+    "address": "Tanbaracho-Tataki, Saijō, Ehime Prefecture, 791-0505, Japan",
+    "lat": 33.892853,
+    "lng": 132.992454,
+    "websiteUrl": "https://setocircuit.jimdofree.com/",
+    "phone": "+81 898-68-3487"
+  },
+  {
+    "id": "3390",
+    "slug": "south-chiba-circuit",
+    "name": "South Chiba Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Ichihara",
+    "address": "市原市役所, 1, Kokubunjidai-Chūō 1-Chōme, Kokubunjidai-Chūō, Ichihara, Chiba Prefecture, 290-8501, Japan",
+    "lat": 35.497775,
+    "lng": 140.1157,
+    "websiteUrl": "https://reserve.minami-chiba-circuit.com/",
+    "phone": "+81 436-52-4400"
+  },
+  {
+    "id": "3391",
+    "slug": "ibaraki-central-circuit",
+    "name": "Ibaraki Central Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Ishioka",
+    "address": "石岡二丁目, 泉町, Ishioka, Ibaraki Prefecture, 315-0001, Japan",
+    "lat": 36.19084,
+    "lng": 140.28841,
+    "websiteUrl": "http://clear.la.coocan.jp/",
+    "phone": "+81 299-43-6391"
+  },
+  {
+    "id": "3392",
+    "slug": "spa-naoiri",
+    "name": "SPA Naoiri",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Japan",
+    "countryCode": "JP",
+    "city": "Taketa",
+    "address": "竹田市役所, 1650番地, Aiai, Taketa, Oita Prefecture, 878-8555, Japan",
+    "lat": 32.973682,
+    "lng": 131.397953,
+    "websiteUrl": "https://autopolis.jp/spa/",
+    "phone": "+81 974-75-3191"
+  },
+  {
+    "id": "3393",
+    "slug": "xiamen-international-circuit",
+    "name": "Xiamen International Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Siming District",
+    "address": "People's Meeting Hall, Bailuzhou Road, Yundang Subdistrict, Siming District, Xiamen, Fujian, 361000, China",
+    "lat": 24.480107,
+    "lng": 118.085348,
+    "websiteUrl": "http://www.xiamencircuit.com/",
+    "phone": "400-6012-168"
+  },
+  {
+    "id": "3394",
+    "slug": "wuhan-international-circuit",
+    "name": "Wuhan International Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "China",
+    "countryCode": "CN",
+    "city": "Jianghan District",
+    "address": "湖北盐业, 1号, 江汉路, Hualou, Jianghan District, Wuhan, Hubei, 430021, China",
+    "lat": 30.578891,
+    "lng": 114.29212
+  },
+  {
+    "id": "3395",
+    "slug": "pannala-international-racing-circuit",
+    "name": "Pannala International Racing Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "city": "Pannala",
+    "address": "Kurunegala-Negombo Road, Pannala, Kurunegala District, North Western Province, Sri Lanka",
+    "lat": 7.32828,
+    "lng": 80.024383
+  },
+  {
+    "id": "3396",
+    "slug": "phakisa-freeway",
+    "name": "Phakisa Freeway",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Welkom",
+    "address": "Liberty Centre, Mooi Street, Doorn, Matjhabeng Ward 32, Welkom, Matjhabeng Local Municipality, Lejweleputswa District Municipality, Free State, 9460, South Africa",
+    "lat": -27.982298,
+    "lng": 26.737969,
+    "phone": "+27 57 391 8000"
+  },
+  {
+    "id": "3397",
+    "slug": "batangas-racing-circuit",
+    "name": "Batangas Racing Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Philippines",
+    "countryCode": "PH",
+    "city": "Rosario",
+    "address": "Gualberto Avenue, Poblacion B, Rosario, Batangas, Calabarzon, 4225, Philippines",
+    "lat": 13.845434,
+    "lng": 121.20635
+  },
+  {
+    "id": "3398",
+    "slug": "sirkuit-gelora-bung-tomo",
+    "name": "Sirkuit Gelora Bung Tomo",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "city": "Surabaya",
+    "address": "Benowo, Jalan Stasiun Benowo, RW 04, Benowo, Pakal, Surabaya, East Java, 60195, Indonesia",
+    "lat": -7.23391,
+    "lng": 112.615268
+  },
+  {
+    "id": "3399",
+    "slug": "autodromo-internacional-da-paraiba",
+    "name": "Autódromo Internacional da Paraíba",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "São Miguel de Taipu",
+    "address": "Rua Quinze de Novembro, São Miguel de Taipu, Paraíba, Northeast Region, 58334-000, Brazil",
+    "lat": -7.250402,
+    "lng": -35.209409,
+    "phone": "+55 83 99990-9364"
+  },
+  {
+    "id": "3400",
+    "slug": "autodromo-internacional-ayrton-senna-caruaru",
+    "name": "Autódromo Internacional Ayrton Senna (Caruaru)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Caruaru",
+    "address": "UFPE - Universidade Federal de Pernambuco, km 62, Rodovia BR-104, Nova Caruaru, Caruaru, Pernambuco, Northeast Region, 55014-900, Brazil",
+    "lat": -8.225425,
+    "lng": -35.981904,
+    "phone": "+55 81 97912-5431"
+  },
+  {
+    "id": "3401",
+    "slug": "autodromo-internacional-potenza",
+    "name": "Autódromo Internacional Potenza",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Lima Duarte",
+    "address": "Rua Antônio Duque Filho, Lima Duarte, Minas Gerais, Southeast Region, 36140-000, Brazil",
+    "lat": -21.842777,
+    "lng": -43.792777
+  },
+  {
+    "id": "3402",
+    "slug": "esporte-clube-piracicabano-de-automobilismo-ecpa",
+    "name": "Esporte Clube Piracicabano de Automobilismo (ECPA)",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Piracicaba",
+    "address": "Rua Praça da Catedral Dom Ernesto de Paula, São Dimas, Centro, Piracicaba, São Paulo, Southeast Region, 13400-140, Brazil",
+    "lat": -22.725165,
+    "lng": -47.649327,
+    "websiteUrl": "https://ecpa.com.br/",
+    "phone": "+55 19 97403-7683"
+  },
+  {
+    "id": "3403",
+    "slug": "tgn-racing-simulators-durban",
+    "name": "TGN Racing Simulators Durban",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "city": "Durban",
+    "address": "Flanders Drive, Mount Edgecombe, Durban, South Africa",
+    "lat": -29.725057,
+    "lng": 31.038169,
+    "websiteUrl": "https://thegamingnetwork.co.za/",
+    "phone": "+27 10 900 5632"
+  },
+  {
+    "id": "3404",
+    "slug": "africa-simracing",
+    "name": "Africa SimRacing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "تونس",
+    "countryCode": "XX",
+    "city": "تونس",
+    "address": "Rue Mohamed Laaribi, El Menzah, Tunis, Tunisia",
+    "lat": 36.835613,
+    "lng": 10.158361,
+    "websiteUrl": "https://www.facebook.com/AfricaSimRacing/",
+    "phone": "+216 52 917 539"
+  },
+  {
+    "id": "3405",
+    "slug": "toptime-racing-simulator",
+    "name": "TopTime Racing Simulator",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "臺灣",
+    "countryCode": "XX",
+    "city": "新北市",
+    "address": "忠孝東路六段374號, Taipei, Taiwan",
+    "lat": 25.0666,
+    "lng": 121.662109,
+    "websiteUrl": "https://www.facebook.com/TopTime.Racing/",
+    "phone": "+886226559185"
+  },
+  {
+    "id": "3406",
+    "slug": "metadrive-arcade-mumbai",
+    "name": "MetaDrive Arcade (Mumbai)",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Mumbai",
+    "address": "Sanjona Chamber, Govandi Station Road, Mumbai, India",
+    "lat": 19.055369,
+    "lng": 72.91507,
+    "websiteUrl": "https://metadrive.in/metadrive-arcade/",
+    "phone": "+919073205758"
+  },
+  {
+    "id": "3407",
+    "slug": "racesims-studio-chennai",
+    "name": "RaceSims Studio Chennai",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "India",
+    "countryCode": "IN",
+    "city": "Chennai Corporation",
+    "address": "S.P.B Road, Kamdar Nagar, Nungambakkam, Chennai, India",
+    "lat": 13.062063,
+    "lng": 80.240487,
+    "websiteUrl": "https://racesims.in/pages/studio",
+    "phone": "+917358229224"
+  },
+  {
+    "id": "3408",
+    "slug": "panama-racing-simulators",
+    "name": "Panama Racing Simulators",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "Panamá",
+    "countryCode": "XX",
+    "city": "Parque Lefevre",
+    "address": "Calle 3era, Costa del Este, Panama City, Panama",
+    "lat": 9.013146,
+    "lng": -79.477388,
+    "websiteUrl": "https://www.instagram.com/panamaracingsimulators/"
+  },
+  {
+    "id": "3409",
+    "slug": "mihama-circuit",
+    "name": "Mihama Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "日本",
+    "countryCode": "XX",
+    "city": "美浜町",
+    "address": "Noma, Mihama, Chita District, Aichi Prefecture, Japan",
+    "lat": 34.778769,
+    "lng": 136.908246,
+    "websiteUrl": "https://mihama-circuit.com/",
+    "phone": "+81 569-87-3003"
+  },
+  {
+    "id": "3410",
+    "slug": "autodromo-de-pucarani",
+    "name": "Autódromo de Pucarani",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Bolivia",
+    "countryCode": "BO",
+    "city": "Pucarani",
+    "address": "Pucarani, Los Andes Province, La Paz Department, Bolivia",
+    "lat": -16.370805,
+    "lng": -68.332222
+  },
+  {
+    "id": "3411",
+    "slug": "autodrom-chayka",
+    "name": "Autodrom Chayka",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "city": "Chaiky",
+    "address": "Aviakonstruktora Antonova Street 2, Chaiky, Petropavlivska Borshchahivka, Bucha Raion, Kyiv Oblast, Ukraine",
+    "lat": 50.438798,
+    "lng": 30.298445,
+    "websiteUrl": "http://chayka-ring.com.ua"
+  },
+  {
+    "id": "3412",
+    "slug": "motorsport-raceway-evbuobanosa",
+    "name": "Motorsport Raceway Evbuobanosa",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "city": "Benin City",
+    "address": "Benin-Asaba Expressway, Evbuobanosa, Edo State, Nigeria",
+    "lat": 6.333059,
+    "lng": 5.622106
   }
 ];
