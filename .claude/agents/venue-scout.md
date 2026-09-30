@@ -26,7 +26,7 @@ The three categories this directory tracks:
 
 Read these to collect existing venue names + cities (case-insensitive) so you
 never re-suggest something already in the dataset:
-- [data/generated-listings.ts](data/generated-listings.ts)
+- [data/generated-listings.json](data/generated-listings.json)
 - [data/placeholder-listings.ts](data/placeholder-listings.ts)
 - [data/import/review.csv](data/import/review.csv) (if present)
 - every `*.csv` already in [data/import/raw/](data/import/raw/) (if present)

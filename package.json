@@ -9,6 +9,8 @@
     "lint": "eslint",
     "import:parse": "tsx data/import/parse-and-review.ts",
     "import:load": "tsx data/import/import-to-db.ts",
+    "import:sync-social": "tsx data/import/sync-social-links.ts",
+    "import:sync-credits": "tsx data/import/sync-photo-credits.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"
   },

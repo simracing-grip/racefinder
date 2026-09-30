@@ -9,17 +9,19 @@ export default function ListingList({
   initialCount,
   selectedSlug,
   onSelect,
+  distances,
 }: {
   listings: Listing[];
   initialCount?: number;
   selectedSlug?: string | null;
   onSelect?: (slug: string) => void;
+  distances?: Record<string, number>;
 }) {
   const [expanded, setExpanded] = useState(false);
 
   if (listings.length === 0) {
     return (
-      <div className="rounded-xl border border-dashed border-gray-700 p-10 text-center text-gray-500">
+      <div className="border border-dashed border-white/15 p-10 text-center text-gray-500">
         No locations match these filters yet.
       </div>
     );
@@ -39,13 +41,14 @@ export default function ListingList({
           listing={listing}
           selected={listing.slug === selectedSlug}
           onSelect={onSelect}
+          distanceKm={distances?.[listing.slug]}
         />
       ))}
 
       {showToggle && (
         <button
           onClick={() => setExpanded(collapsed)}
-          className="mt-1 self-center rounded-full border border-gray-800 bg-gray-900 px-5 py-2 text-sm font-medium text-gray-300 hover:border-gray-600"
+          className="mt-1 self-center border border-white/15 bg-panel px-5 py-2 text-sm font-semibold text-gray-300 hover:border-white/40 hover:text-white"
         >
           {collapsed ? `Show all ${listings.length} locations` : "Show less"}
         </button>

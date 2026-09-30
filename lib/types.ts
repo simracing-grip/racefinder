@@ -103,6 +103,17 @@ export interface CalendarEvent extends TrackEvent {
   listingSlug?: string;
 }
 
+// Attribution for a listing's cover photo (data/photo-credits.ts). Wikimedia
+// photos carry author + license (CC BY/BY-SA require showing both); photos
+// from venue/tourism sites only have the page they came from.
+export interface PhotoCredit {
+  imageUrl: string;
+  author?: string;
+  license?: string;
+  licenseUrl?: string;
+  sourceUrl?: string;
+}
+
 export interface Listing {
   id: string;
   slug: string;
@@ -120,9 +131,14 @@ export interface Listing {
   email?: string;
   description?: string;
   coverImageUrl?: string;
+  coverImageCredit?: PhotoCredit;
   googleMapsUrl?: string;
+  instagramUrl?: string;
+  facebookUrl?: string;
+  tiktokUrl?: string;
   indoorOutdoor?: IndoorOutdoor;
   trackLengthM?: number;
+  openingHours?: string;
   details?: ListingDetails;
   featured?: boolean;
   events?: TrackEvent[];

@@ -58,9 +58,13 @@ export const listings = pgTable("listings", {
   description: text("description"),
   coverImageUrl: text("cover_image_url"),
   googleMapsUrl: text("google_maps_url"),
+  instagramUrl: text("instagram_url"),
+  facebookUrl: text("facebook_url"),
+  tiktokUrl: text("tiktok_url"),
 
   indoorOutdoor: indoorOutdoorEnum("indoor_outdoor"),
   trackLengthM: numeric("track_length_m", { precision: 8, scale: 1 }),
+  openingHours: text("opening_hours"),
 
   // category-specific attributes (simulator_count, kart_type, track_config_variants, ...)
   // kept schemaless here and validated with Zod at the app layer (lib/validation/listing.ts)

@@ -36,7 +36,7 @@ America.
 
 Read these to collect existing venue names and cities (case-insensitive) so you
 never re-suggest anything:
-- data/generated-listings.ts
+- data/generated-listings.json
 - data/placeholder-listings.ts
 - data/import/review.csv (if present)
 - every `*.csv` in data/import/raw/ (other scouts write there too)

@@ -3,6 +3,9 @@ import { getListings, getCountries } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import { SITE_URL } from "@/lib/site";
 
+// Crawlers don't need it fresher than hourly.
+export const revalidate = 3600;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [listings, countries] = await Promise.all([getListings(), getCountries()]);
 

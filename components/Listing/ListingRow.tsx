@@ -2,12 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import type { Listing } from "@/lib/types";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import { formatEventDate, getNextEvent } from "@/lib/listingSort";
+import { formatDistanceKm } from "@/lib/geo";
 import CategoryBadge from "./CategoryBadge";
 import ListingDetails from "./ListingDetails";
+import PhotoCredit from "./PhotoCredit";
+import VenuePhoto from "./VenuePhoto";
 import CountryFlag from "@/components/CountryFlag";
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -22,32 +23,19 @@ function ChevronIcon({ open }: { open: boolean }) {
   );
 }
 
-function FlagIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6 text-white/90">
-      <path
-        d="M5 3v18M5 4h13l-3 4 3 4H5"
-        stroke="currentColor"
-        strokeWidth="1.75"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 export default function ListingRow({
   listing,
   selected = false,
   onSelect,
+  distanceKm,
 }: {
   listing: Listing;
   selected?: boolean;
   onSelect?: (slug: string) => void;
+  distanceKm?: number;
 }) {
   const [open, setOpen] = useState(false);
   const rowRef = useRef<HTMLDivElement>(null);
-  const accentColor = CATEGORY_COLOR[listing.categories[0]] ?? "#2563eb";
   const nextEvent = getNextEvent(listing);
 
   useEffect(() => {
@@ -57,12 +45,12 @@ export default function ListingRow({
   return (
     <div
       ref={rowRef}
-      className={`overflow-hidden rounded-xl border bg-gray-900 transition ${
+      className={`overflow-hidden border bg-panel transition ${
         selected
-          ? "border-red-500 ring-1 ring-red-500/60"
+          ? "border-signal ring-1 ring-signal/50"
           : open
-            ? "border-gray-600 shadow-sm"
-            : "border-gray-800 hover:border-gray-600"
+            ? "border-white/25"
+            : "border-white/10 hover:border-white/25"
       }`}
     >
       <button
@@ -73,23 +61,7 @@ export default function ListingRow({
         aria-expanded={open}
         className="flex w-full items-center gap-4 p-3.5 text-left sm:p-4"
       >
-        <div
-          className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-lg"
-          style={{ background: listing.coverImageUrl ? undefined : accentColor }}
-        >
-          {listing.coverImageUrl ? (
-            <Image
-              src={listing.coverImageUrl}
-              alt={listing.name}
-              width={56}
-              height={56}
-              unoptimized
-              className="h-full w-full object-cover"
-            />
-          ) : (
-            <FlagIcon />
-          )}
-        </div>
+        <VenuePhoto listing={listing} variant="thumb" className="h-14 w-14 shrink-0" />
 
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
@@ -107,9 +79,12 @@ export default function ListingRow({
             <CountryFlag countryCode={listing.countryCode} />
             {listing.city ? `${listing.city}, ` : ""}
             {listing.country}
+            {distanceKm != null && (
+              <span className="shrink-0 text-gray-500">&middot; {formatDistanceKm(distanceKm)} away</span>
+            )}
           </p>
           {nextEvent && (
-            <p className="mt-0.5 truncate text-xs font-medium text-red-400">
+            <p className="mt-0.5 truncate text-xs font-medium text-timing">
               Next: {nextEvent.name} &middot; {formatEventDate(nextEvent.startDate)}
             </p>
           )}
@@ -119,12 +94,15 @@ export default function ListingRow({
       </button>
 
       {open && (
-        <div className="border-t border-gray-800 bg-gray-950/50 p-3.5 sm:p-4">
-          <div className="rounded-lg border border-gray-800 bg-gray-900 p-3.5">
+        <div className="border-t border-white/10 bg-ink/60 p-3.5 sm:p-4">
+          <div className="border border-white/10 bg-asphalt p-3.5">
             <ListingDetails listing={listing} />
+            {listing.coverImageUrl && listing.coverImageCredit && (
+              <PhotoCredit credit={listing.coverImageCredit} className="mt-3" />
+            )}
             <Link
               href={`/listings/${listing.slug}`}
-              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-blue-400 hover:underline"
+              className="mt-3 inline-flex items-center gap-1 font-display text-base font-bold uppercase italic text-white hover:text-signal"
             >
               Open full page &rarr;
             </Link>

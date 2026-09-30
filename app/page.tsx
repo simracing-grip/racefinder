@@ -1,37 +1,50 @@
 import { Suspense } from "react";
-import Link from "next/link";
 import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
+import { getUpcomingEvents } from "@/lib/calendar";
+import type { Category } from "@/lib/types";
+import { CATEGORIES } from "@/lib/types";
+import Hero from "@/components/Home/Hero";
+import RaceTicker from "@/components/Home/RaceTicker";
+import NextRace from "@/components/Home/NextRace";
+import DisciplineGrid from "@/components/Home/DisciplineGrid";
 import HomeExplorer from "@/components/Home/HomeExplorer";
-import CountryPicker from "@/components/Home/CountryPicker";
+import IconicCircuits from "@/components/Home/IconicCircuits";
+import CountryGrid from "@/components/Home/CountryGrid";
+import ListVenueCta from "@/components/Home/ListVenueCta";
 
+// Served as a cached page, rebuilt at most every 5 minutes (ISR), so
+// visitors never wait on the database. Must be a literal number.
+export const revalidate = 300;
+
+// Page order is the pitch: hook (hero + search) → urgency (next race) →
+// intent (discipline) → the tool itself (map) → aspiration (iconic
+// circuits) → local (countries) → supply side (list your venue).
 export default async function HomePage() {
-  const [listings, countries, countryCodes] = await Promise.all([
+  const [listings, countries, countryCodes, events] = await Promise.all([
     getListings(),
     getCountries(),
     getCountryCodeMap(),
+    getUpcomingEvents(),
   ]);
 
-  return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
-      <section className="mb-8 text-center">
-        <h1 className="text-3xl font-bold sm:text-4xl">Find your next lap</h1>
-        <p className="mx-auto mt-3 max-w-xl text-gray-400">
-          Sim racing, track days, karting, and F1 circuits &mdash; find one near you.
-        </p>
-        <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
-          <CountryPicker countries={countries} countryCodes={countryCodes} />
-          <Link
-            href="/calendar"
-            className="inline-flex items-center gap-1.5 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200 hover:border-red-500"
-          >
-            See upcoming races &rarr;
-          </Link>
-        </div>
-      </section>
+  const counts = {} as Record<Category, number>;
+  for (const c of CATEGORIES) counts[c.value] = listings.filter((l) => l.categories.includes(c.value)).length;
 
-      <Suspense fallback={null}>
-        <HomeExplorer listings={listings} />
-      </Suspense>
+  return (
+    <div className="pb-4">
+      <Hero listings={listings} countries={countries} countryCodes={countryCodes} raceCount={events.length} />
+      <RaceTicker events={events} />
+
+      <div className="mt-20 space-y-24">
+        <NextRace events={events} />
+        <DisciplineGrid counts={counts} />
+        <Suspense fallback={null}>
+          <HomeExplorer listings={listings} />
+        </Suspense>
+        <IconicCircuits listings={listings} />
+        <CountryGrid listings={listings} totalCountries={countries.length} />
+        <ListVenueCta />
+      </div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Barlow_Condensed, Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import Link from "next/link";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import { SITE_NAME, SITE_TAGLINE, SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({
@@ -14,6 +14,15 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// Condensed italic display face for headlines, numbers and CTAs — the
+// livery/timing-board look. Body copy stays on Geist for readability.
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow-condensed",
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -41,31 +50,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${barlowCondensed.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-gray-950 text-gray-100">
+      <body className="flex min-h-full flex-col bg-ink text-gray-100">
         <SiteHeader />
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-gray-800 bg-gray-950 py-6 text-center text-sm text-gray-500">
-          <p>{SITE_NAME} — free directory of sim racing, track day, and karting venues.</p>
-          <nav className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
-            <Link href="/about" className="hover:text-gray-300">
-              About
-            </Link>
-            <Link href="/contact" className="hover:text-gray-300">
-              Contact
-            </Link>
-            <Link href="/privacy" className="hover:text-gray-300">
-              Privacy
-            </Link>
-            <Link href="/terms" className="hover:text-gray-300">
-              Terms
-            </Link>
-            <Link href="/faq" className="hover:text-gray-300">
-              FAQ
-            </Link>
-          </nav>
-        </footer>
+        <SiteFooter />
         <Analytics />
       </body>
     </html>

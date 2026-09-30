@@ -53,8 +53,12 @@ export const listingSchema = z.object({
   description: z.string().optional(),
   coverImageUrl: z.string().url().optional(),
   googleMapsUrl: z.string().url().optional(),
+  instagramUrl: z.string().url().optional(),
+  facebookUrl: z.string().url().optional(),
+  tiktokUrl: z.string().url().optional(),
   indoorOutdoor: z.enum(["indoor", "outdoor", "both"]).optional(),
   trackLengthM: z.number().optional(),
+  openingHours: z.string().optional(),
   details: listingDetailsSchema.optional(),
 });
 

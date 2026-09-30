@@ -1,6 +1,10 @@
 import { getListings } from "@/lib/listings";
 import MapView from "@/components/Map/MapView";
 
+// Served as a cached page, rebuilt at most every 5 minutes (ISR), so
+// visitors never wait on the database. Must be a literal number.
+export const revalidate = 300;
+
 export const metadata = { title: "Map" };
 
 export default async function MapPage() {

@@ -57,7 +57,11 @@ export function formatAddress(listing: Pick<Listing, "address" | "city" | "count
 
 // Every listing has lat/lng (from geocoding at import time), so this always
 // resolves to an exact pin — no dependence on the raw address text being
-// parseable by Google, and no per-listing googleMapsUrl data needed.
+// parseable by Google, and no per-listing googleMapsUrl data needed. The
+// `dir` (directions) endpoint, rather than `search`, is what makes this open
+// straight into turn-by-turn navigation from the visitor's current location
+// when tapped on a phone with the Google Maps app installed, instead of just
+// dropping a pin they'd still have to tap "Directions" on themselves.
 export function googleMapsUrl(listing: Pick<Listing, "lat" | "lng">): string {
-  return `https://www.google.com/maps/search/?api=1&query=${listing.lat},${listing.lng}`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${listing.lat},${listing.lng}`;
 }

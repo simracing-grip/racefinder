@@ -54,6 +54,15 @@ interface AddressListRow {
   VenueType?: string;
   WebsiteUrl?: string;
   Phone?: string;
+  // Optional — most manual-address-list sources don't have these, but a
+  // source that does (e.g. a karting-specific directory) can include them.
+  IndoorOutdoor?: string;
+  Description?: string;
+  TrackLengthM?: string;
+  KartType?: string;
+  MaxKartSpeedKmh?: string;
+  MinAgeOrHeight?: string;
+  OpeningHours?: string;
 }
 
 // Google's own venue-type label for a place (shown on shared-list pages),
@@ -103,6 +112,11 @@ interface ReviewRow {
   websiteUrl: string;
   phone: string;
   description: string;
+  trackLengthM: string;
+  kartType: string;
+  maxKartSpeedKmh: string;
+  minAgeOrHeight: string;
+  openingHours: string;
   googleMapsUrl: string;
   originalNote: string;
   needsReview: string;
@@ -373,6 +387,11 @@ async function processGeoJsonFile(filePath: string, fileLabel: string): Promise<
       websiteUrl: "",
       phone: "",
       description: "",
+      trackLengthM: "",
+      kartType: "",
+      maxKartSpeedKmh: "",
+      minAgeOrHeight: "",
+      openingHours: "",
       googleMapsUrl: props.google_maps_url ?? "",
       originalNote: props.Comment ?? props.Note ?? "",
       needsReview: "",
@@ -445,6 +464,11 @@ async function processSharedListFile(filePath: string, fileLabel: string): Promi
       websiteUrl: "",
       phone: "",
       description: "",
+      trackLengthM: "",
+      kartType: "",
+      maxKartSpeedKmh: "",
+      minAgeOrHeight: "",
+      openingHours: "",
       googleMapsUrl: "",
       originalNote: row.VenueType
         ? `${row.VenueType}${row.Rating ? ` · ${row.Rating}★ (${row.ReviewCount ?? "?"})` : ""}`
@@ -530,10 +554,15 @@ async function processAddressListFile(filePath: string, fileLabel: string): Prom
       address: geo.address || address,
       lat: coords.lat.toFixed(6),
       lng: coords.lng.toFixed(6),
-      indoorOutdoor: "",
+      indoorOutdoor: row.IndoorOutdoor?.trim().toLowerCase() ?? "",
       websiteUrl: row.WebsiteUrl ?? "",
       phone: row.Phone ?? "",
-      description: "",
+      description: row.Description?.trim() ?? "",
+      trackLengthM: row.TrackLengthM?.trim() ?? "",
+      kartType: row.KartType?.trim().toLowerCase() ?? "",
+      maxKartSpeedKmh: row.MaxKartSpeedKmh?.trim() ?? "",
+      minAgeOrHeight: row.MinAgeOrHeight?.trim() ?? "",
+      openingHours: row.OpeningHours?.trim() ?? "",
       googleMapsUrl: "",
       originalNote: row.VenueType ?? "",
       needsReview: flagged ? "yes" : "",
@@ -595,6 +624,11 @@ async function processF1ListFile(filePath: string, fileLabel: string): Promise<R
       websiteUrl: "",
       phone: "",
       description: "",
+      trackLengthM: "",
+      kartType: "",
+      maxKartSpeedKmh: "",
+      minAgeOrHeight: "",
+      openingHours: "",
       googleMapsUrl: "",
       originalNote: "Formula 1 circuit",
       needsReview: "",
@@ -704,6 +738,11 @@ async function main() {
       websiteUrl: "",
       phone: "",
       description: "",
+      trackLengthM: "",
+      kartType: "",
+      maxKartSpeedKmh: "",
+      minAgeOrHeight: "",
+      openingHours: "",
       googleMapsUrl: coords.finalUrl,
       originalNote: row.Note ?? row.Comment ?? "",
       needsReview: "",

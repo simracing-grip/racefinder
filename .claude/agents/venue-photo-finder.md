@@ -30,7 +30,7 @@ attempting a workaround.
 
 ## 1. Scope
 
-Read [data/generated-listings.ts](data/generated-listings.ts) for every
+Read [data/generated-listings.json](data/generated-listings.json) for every
 `published` venue. A venue needs a photo if it has no `coverImageUrl`.
 
 Also read [data/import/cover-images.csv](data/import/cover-images.csv) if it
@@ -76,21 +76,43 @@ For every candidate URL, WebFetch it (or otherwise confirm) that it:
   content should reference the venue's name or the track/circuit itself, not
   just "karting" or "racing" generically
 
-## 4. Record results
+## 4. Record results, with attribution
 
 Append to [data/import/cover-images.csv](data/import/cover-images.csv)
-(create it with a header if it doesn't exist yet — don't touch
-`review.csv` or `generated-listings.ts`, both of which get overwritten by
-the pipeline):
+(create it with this header if it doesn't exist — don't touch `review.csv` or
+`generated-listings.json`, both of which get overwritten by the pipeline). The
+site will credit photographers later, so every row must carry enough to do
+that without re-researching:
 
 ```
-slug,coverImageUrl,source
+slug,coverImageUrl,source,sourcePageUrl,author,license,licenseUrl
 ```
 
-- `slug` — must exactly match the venue's `slug` in `generated-listings.ts`
+- `slug` — must exactly match the venue's `slug` in `generated-listings.json`
 - `coverImageUrl` — the direct image URL
-- `source` — one of `wikimedia-commons`, `official-site`, or the specific
-  page URL you found it on, so provenance is traceable later
+- `source` — exactly one of `wikimedia-commons` or `official-site`
+- `sourcePageUrl` — the page the image was found on (for Commons, the
+  `commons.wikimedia.org/wiki/File:...` page)
+- `author` — the photographer/rights holder as stated on that page. For an
+  official-site photo with no named photographer, use the venue's name
+  (e.g. `Kartmax Prague`) — never guess a person's name
+- `license` — the license exactly as stated (`CC BY-SA 4.0`, `Public domain`,
+  ...). For official-site photos with no stated license, write
+  `All rights reserved (venue promotional photo)`
+- `licenseUrl` — the license URL when one exists, otherwise blank
+
+For Commons images you can leave `sourcePageUrl`/`author`/`license`/`licenseUrl`
+blank and run `node data/import/backfill-image-credits.mjs` afterwards — it
+fills them from the Commons API. Do that rather than typing them by hand.
+
+Sources are limited to Commons (and Wikipedia's Commons-hosted images) and the
+venue's own website. Do NOT use Tripadvisor, Google Maps, tourism boards,
+booking partners, directories, or social media — those are other people's
+photos with no reliable author or license, so they can't be credited. Earlier
+runs used some; leave those existing rows alone but never add new ones.
+
+Skip a venue rather than guessing (see the "skip uncertain venues" rule) —
+launch accuracy matters more than coverage.
 
 ## 5. Report back
 
@@ -102,7 +124,7 @@ skipped. Remind the user of the next step:
 npm run import:load
 ```
 
-which regenerates `data/generated-listings.ts` and merges in
+which regenerates `data/generated-listings.json` and merges in
 `cover-images.csv` by slug, so the cover-photo placeholder on
 [components/Listing/ListingRow.tsx](components/Listing/ListingRow.tsx)
 picks up the new images.

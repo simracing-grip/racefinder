@@ -6,6 +6,17 @@ import CategoryBadge from "@/components/Listing/CategoryBadge";
 import ListingDetails from "@/components/Listing/ListingDetails";
 import MapView from "@/components/Map/MapView";
 import CountryFlag from "@/components/CountryFlag";
+import VenuePhoto from "@/components/Listing/VenuePhoto";
+
+// Served as a cached page, rebuilt at most every 5 minutes (ISR), so
+// visitors never wait on the database. Must be a literal number.
+export const revalidate = 300;
+
+// Empty list = build no venue pages up front (3,500+ would slow every
+// deploy); each one is rendered on its first visit, then cached like above.
+export async function generateStaticParams() {
+  return [];
+}
 
 export async function generateMetadata({
   params,
@@ -82,6 +93,8 @@ export default async function ListingDetailPage({
           {listing.address ? formatAddress(listing) : `${listing.city}, ${listing.country}`}
         </a>
       </p>
+
+      <VenuePhoto listing={listing} variant="cover" cta className="mt-5 h-56 border border-white/10 sm:h-80" />
 
       {listing.description && (
         <p className="mt-4 max-w-2xl text-gray-300">{listing.description}</p>

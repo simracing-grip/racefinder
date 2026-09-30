@@ -25,7 +25,7 @@ The series:
   shared FIA F4 technical regulations (Italian F4, British F4, German F4,
   F4 UAE, etc). Pick the most prominent one you can find a real published
   calendar for — prefer one that races at circuits already in
-  data/calendar-events.ts or data/generated-listings.ts, since that gives
+  data/calendar-events.ts or data/generated-listings.json, since that gives
   the most listingSlug matches — and say in your report which championship
   you picked and why, so the user can redirect you to a different one if
   they meant something else.
@@ -61,7 +61,7 @@ race/finish) when confirmable, otherwise the single race/finish day.
 
 ## 3. Match to an existing listing where possible — don't guess
 
-Read [data/generated-listings.ts](data/generated-listings.ts). If a round's
+Read [data/generated-listings.json](data/generated-listings.json). If a round's
 circuit is confidently the same physical venue as one of our listings (name,
 city, country all line up), set `listingSlug` to that listing's slug — this
 is what makes the event show up on that track's page too. If it's not in the

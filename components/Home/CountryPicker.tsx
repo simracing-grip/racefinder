@@ -26,8 +26,8 @@ export default function CountryPicker({
   }
 
   return (
-    <div className="inline-flex items-center gap-2 rounded-full border border-gray-700 bg-gray-900/80 px-4 py-2 text-sm font-medium text-gray-200">
-      <span className="text-gray-400">Choose your country</span>
+    <div className="inline-flex items-center gap-2 border border-white/10 bg-asphalt px-4 py-2 text-sm font-semibold text-gray-200 transition hover:border-white/40">
+      <span className="text-gray-400">Jump to a country</span>
       <CountrySelect
         ariaLabel="Choose your country"
         options={options}

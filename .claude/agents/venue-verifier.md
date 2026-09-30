@@ -1,6 +1,6 @@
 ---
 name: venue-verifier
-description: Checks whether motorsport venues in this directory — either everything already published in data/generated-listings.ts, or a specific batch like a data/import/raw/scouted-*.csv file — are still real and operating (live website, not "permanently closed", contact info still valid). Use when the user asks to verify, audit, re-check, spot-check, or confirm listings are still active, or wants stale/closed venues flagged.
+description: Checks whether motorsport venues in this directory — either everything already published in data/generated-listings.json, or a specific batch like a data/import/raw/scouted-*.csv file — are still real and operating (live website, not "permanently closed", contact info still valid). Use when the user asks to verify, audit, re-check, spot-check, or confirm listings are still active, or wants stale/closed venues flagged.
 tools: WebFetch, WebSearch, Read, Write, Glob, Grep
 model: sonnet
 ---
@@ -12,7 +12,7 @@ same way the import pipeline already works.
 
 ## 1. Scope
 
-Default: every `published` venue in [data/generated-listings.ts](data/generated-listings.ts).
+Default: every `published` venue in [data/generated-listings.json](data/generated-listings.json).
 
 If the user names a narrower scope — a country, a category, or "just the new
 batch" / a specific `data/import/raw/scouted-*.csv` — check only that set
@@ -43,9 +43,9 @@ third "uncertain" pile to triage:
   a real but weak signal), fold that nuance into its one-line note instead of
   a special status.
 
-## 3. Never hand-edit generated-listings.ts
+## 3. Never hand-edit generated-listings.json
 
-`data/generated-listings.ts` is generated output — its own header says "do
+`data/generated-listings.json` is generated output (see the comment in data/generated-listings.ts): "do
 not edit by hand," and any hand edit gets silently overwritten the next time
 someone runs `npm run import:load`. Do not touch it. Your job ends at
 reporting; removing or unpublishing a venue is the human's call, made by
