@@ -2,7 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import type { Category, Listing } from "@/lib/types";
+import type { Category, ListingSummary } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { distanceKm } from "@/lib/geo";
@@ -19,7 +19,7 @@ type CategoryFilter = Category | "all";
 // page), so this only filters by category and distance. Map and list sit
 // side by side on desktop so picking a pin and reading the venue are one
 // glance apart.
-export default function HomeExplorer({ listings }: { listings: Listing[] }) {
+export default function HomeExplorer({ listings }: { listings: ListingSummary[] }) {
   const [category, setCategory] = useState<CategoryFilter>("all");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const listRef = useRef<HTMLDivElement>(null);

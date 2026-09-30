@@ -3,6 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { Listing } from "@/lib/types";
+
+// Just what this component reads, so both full listings and summaries fit.
+type PhotoListing = Pick<Listing, "name" | "categories" | "coverImageUrl" | "coverImageCredit">;
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import PhotoCredit from "./PhotoCredit";
@@ -23,7 +26,7 @@ function CameraOffIcon({ className }: { className?: string }) {
 // speed streaks, the category's color and icon, and an honest "not
 // available" label. `cta` adds a nudge for venue owners to send one in
 // (only where it can't end up nested inside another link).
-function Placeholder({ listing, variant, cta }: { listing: Listing; variant: Variant; cta: boolean }) {
+function Placeholder({ listing, variant, cta }: { listing: PhotoListing; variant: Variant; cta: boolean }) {
   const category = listing.categories[0];
   const color = CATEGORY_COLOR[category] ?? "#ff2a2a";
 
@@ -90,7 +93,7 @@ export default function VenuePhoto({
   cta = false,
   showCredit = variant === "cover",
 }: {
-  listing: Listing;
+  listing: PhotoListing;
   variant: Variant;
   className?: string;
   imgClassName?: string;

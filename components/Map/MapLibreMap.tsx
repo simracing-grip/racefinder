@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Listing, Category } from "@/lib/types";
+import type { ListingSummary, Category } from "@/lib/types";
 import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_BADGE_CLASS } from "@/lib/categoryMeta";
 
 // Turbopack's dev server doesn't correctly serve the ES-module Web Worker
@@ -49,7 +49,7 @@ function loadPinImage(map: maplibregl.Map, id: string, color: string) {
   });
 }
 
-function listingsToGeoJSON(listings: Listing[]): GeoJSON.FeatureCollection {
+function listingsToGeoJSON(listings: ListingSummary[]): GeoJSON.FeatureCollection {
   return {
     type: "FeatureCollection",
     features: listings.map((l) => ({
@@ -103,7 +103,7 @@ function escapeHtml(value: string): string {
     .replace(/"/g, "&quot;");
 }
 
-function fitToListings(map: maplibregl.Map, listings: Listing[], duration: number) {
+function fitToListings(map: maplibregl.Map, listings: ListingSummary[], duration: number) {
   if (listings.length === 0) return;
   const bounds = new maplibregl.LngLatBounds();
   for (const l of listings) bounds.extend([l.lng, l.lat]);
@@ -116,7 +116,7 @@ export default function MapLibreMap({
   selectedSlug,
   onSelect,
 }: {
-  listings: Listing[];
+  listings: ListingSummary[];
   height?: string;
   selectedSlug?: string | null;
   onSelect?: (slug: string) => void;

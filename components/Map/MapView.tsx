@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { Listing } from "@/lib/types";
+import type { ListingSummary } from "@/lib/types";
 
 // MapLibre touches `window` at module load, so it can only run client-side —
 // dynamic() with ssr:false keeps it out of the server render entirely.
@@ -20,7 +20,7 @@ export default function MapView({
   selectedSlug,
   onSelect,
 }: {
-  listings: Listing[];
+  listings: ListingSummary[];
   height?: string;
   selectedSlug?: string | null;
   onSelect?: (slug: string) => void;

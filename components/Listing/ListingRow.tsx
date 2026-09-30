@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import type { Listing } from "@/lib/types";
+import type { Listing, ListingSummary } from "@/lib/types";
 import { formatEventDate, getNextEvent } from "@/lib/listingSort";
 import { formatDistanceKm } from "@/lib/geo";
 import CategoryBadge from "./CategoryBadge";
@@ -29,14 +29,30 @@ export default function ListingRow({
   onSelect,
   distanceKm,
 }: {
-  listing: Listing;
+  listing: ListingSummary;
   selected?: boolean;
   onSelect?: (slug: string) => void;
   distanceKm?: number;
 }) {
   const [open, setOpen] = useState(false);
+  // Lists only carry a ListingSummary; the full record (address, phone,
+  // hours, all events...) is fetched the first time the row is expanded.
+  const [details, setDetails] = useState<Listing | null>(null);
+  const [loadState, setLoadState] = useState<"idle" | "loading" | "error">("idle");
   const rowRef = useRef<HTMLDivElement>(null);
   const nextEvent = getNextEvent(listing);
+
+  function loadDetails() {
+    if (details || loadState === "loading") return;
+    setLoadState("loading");
+    fetch(`/api/listings/${encodeURIComponent(listing.slug)}`)
+      .then((res) => (res.ok ? (res.json() as Promise<Listing>) : Promise.reject(new Error(String(res.status)))))
+      .then((full) => {
+        setDetails(full);
+        setLoadState("idle");
+      })
+      .catch(() => setLoadState("error"));
+  }
 
   useEffect(() => {
     if (selected) rowRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
@@ -55,7 +71,8 @@ export default function ListingRow({
     >
       <button
         onClick={() => {
-          setOpen((v) => !v);
+          if (!open) loadDetails();
+          setOpen(!open);
           onSelect?.(listing.slug);
         }}
         aria-expanded={open}
@@ -96,9 +113,26 @@ export default function ListingRow({
       {open && (
         <div className="border-t border-white/10 bg-ink/60 p-3.5 sm:p-4">
           <div className="border border-white/10 bg-asphalt p-3.5">
-            <ListingDetails listing={listing} />
-            {listing.coverImageUrl && listing.coverImageCredit && (
-              <PhotoCredit credit={listing.coverImageCredit} className="mt-3" />
+            {details ? (
+              <>
+                <ListingDetails listing={details} />
+                {details.coverImageUrl && details.coverImageCredit && (
+                  <PhotoCredit credit={details.coverImageCredit} className="mt-3" />
+                )}
+              </>
+            ) : loadState === "error" ? (
+              <p className="text-sm text-gray-400">
+                Couldn&rsquo;t load the details.{" "}
+                <button type="button" onClick={loadDetails} className="font-semibold text-white underline underline-offset-2">
+                  Try again
+                </button>
+              </p>
+            ) : (
+              <div className="space-y-2" aria-busy="true" aria-label="Loading details">
+                <div className="h-4 w-3/4 animate-pulse bg-white/5" />
+                <div className="h-4 w-1/2 animate-pulse bg-white/5" />
+                <div className="h-4 w-2/3 animate-pulse bg-white/5" />
+              </div>
             )}
             <Link
               href={`/listings/${listing.slug}`}

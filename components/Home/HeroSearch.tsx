@@ -2,7 +2,7 @@
 
 import { useId, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Listing } from "@/lib/types";
+import type { ListingSummary } from "@/lib/types";
 import { CATEGORY_LABEL, CATEGORY_COLOR } from "@/lib/categoryMeta";
 import CountryFlag from "@/components/CountryFlag";
 
@@ -16,7 +16,7 @@ function normalize(s: string): string {
 // Instant, client-side venue search over the listings the home page already
 // ships for the map — no extra request. Every word must match somewhere in
 // name/city/country; name matches rank first.
-export default function HeroSearch({ listings }: { listings: Listing[] }) {
+export default function HeroSearch({ listings }: { listings: ListingSummary[] }) {
   const router = useRouter();
   const listId = useId();
   const [query, setQuery] = useState("");
@@ -113,7 +113,7 @@ export default function HeroSearch({ listings }: { listings: Listing[] }) {
           )}
           {results.map((l, i) => (
             <li
-              key={l.id}
+              key={l.slug}
               role="option"
               aria-selected={i === active}
               // mousedown (not click) so it fires before the input's blur closes the panel

@@ -143,3 +143,13 @@ export interface Listing {
   featured?: boolean;
   events?: TrackEvent[];
 }
+
+// What the browser gets for lists, maps and search (see toSummary in
+// lib/listingSummary.ts): enough to draw a pin, a row and a search hit, with
+// only the next upcoming event. Full details load on demand from
+// /api/listings/[slug] — sending every field for 3,500 venues made the home
+// page ~3 MB.
+export type ListingSummary = Pick<
+  Listing,
+  "slug" | "name" | "categories" | "country" | "countryCode" | "city" | "lat" | "lng" | "coverImageUrl" | "featured" | "events"
+>;

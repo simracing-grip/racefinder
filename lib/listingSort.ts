@@ -1,8 +1,9 @@
-import type { Listing, TrackEvent } from "@/lib/types";
+import type { TrackEvent } from "@/lib/types";
 
 // Kept separate from lib/listings.ts so client components can use it without
 // bundling the whole venue dataset.
-export function getNextEvent(listing: Listing): TrackEvent | undefined {
+// Structural param types so both full Listings and ListingSummaries work.
+export function getNextEvent(listing: { events?: TrackEvent[] }): TrackEvent | undefined {
   const today = new Date().toISOString().slice(0, 10);
   return (listing.events ?? [])
     .filter((e) => (e.endDate ?? e.startDate) >= today)
@@ -11,7 +12,7 @@ export function getNextEvent(listing: Listing): TrackEvent | undefined {
 
 // Soonest-upcoming-event first; venues with no upcoming event sort after
 // those that have one, keeping their relative order (Array#sort is stable).
-export function sortByUpcomingEvent(listings: Listing[]): Listing[] {
+export function sortByUpcomingEvent<T extends { events?: TrackEvent[] }>(listings: T[]): T[] {
   return [...listings]
     .map((listing) => ({ listing, next: getNextEvent(listing)?.startDate }))
     .sort((a, b) => {

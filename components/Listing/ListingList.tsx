@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Listing } from "@/lib/types";
+import type { ListingSummary } from "@/lib/types";
 import ListingRow from "./ListingRow";
 
 export default function ListingList({
@@ -11,7 +11,7 @@ export default function ListingList({
   onSelect,
   distances,
 }: {
-  listings: Listing[];
+  listings: ListingSummary[];
   initialCount?: number;
   selectedSlug?: string | null;
   onSelect?: (slug: string) => void;
@@ -37,7 +37,7 @@ export default function ListingList({
     <div className="flex flex-col gap-3">
       {visible.map((listing) => (
         <ListingRow
-          key={listing.id}
+          key={listing.slug}
           listing={listing}
           selected={listing.slug === selectedSlug}
           onSelect={onSelect}

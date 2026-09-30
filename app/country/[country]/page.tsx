@@ -11,6 +11,7 @@ import {
 import FilterBar from "@/components/Filters/FilterBar";
 import ListingList from "@/components/Listing/ListingList";
 import MapView from "@/components/Map/MapView";
+import { toSummaries } from "@/lib/listingSummary";
 import CountryFlag from "@/components/CountryFlag";
 
 export async function generateStaticParams() {
@@ -59,6 +60,7 @@ export default async function CountryPage({
     getCountryCode(resolved),
     getCountryCodeMap(),
   ]);
+  const summaries = toSummaries(listings); // map + list share one slim array
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
@@ -78,11 +80,11 @@ export default async function CountryPage({
       </section>
 
       <section className="mb-6">
-        <MapView listings={listings} height="320px" />
+        <MapView listings={summaries} height="320px" />
       </section>
 
       <section className="mx-auto max-w-3xl">
-        <ListingList listings={listings} />
+        <ListingList listings={summaries} />
       </section>
     </div>
   );

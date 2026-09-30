@@ -1,6 +1,6 @@
-import { Suspense } from "react";
 import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import { getUpcomingEvents } from "@/lib/calendar";
+import { toSummaries } from "@/lib/listingSummary";
 import type { Category } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import Hero from "@/components/Home/Hero";
@@ -27,20 +27,26 @@ export default async function HomePage() {
     getUpcomingEvents(),
   ]);
 
+  // Client components (search, map, list) get slim summaries — one shared
+  // array, which React serializes once for both. Server-only sections below
+  // still use the full listings.
+  const summaries = toSummaries(listings);
+
   const counts = {} as Record<Category, number>;
   for (const c of CATEGORIES) counts[c.value] = listings.filter((l) => l.categories.includes(c.value)).length;
 
   return (
     <div className="pb-4">
-      <Hero listings={listings} countries={countries} countryCodes={countryCodes} raceCount={events.length} />
+      <Hero listings={summaries} countries={countries} countryCodes={countryCodes} raceCount={events.length} />
       <RaceTicker events={events} />
 
       <div className="mt-20 space-y-24">
         <NextRace events={events} />
         <DisciplineGrid counts={counts} />
-        <Suspense fallback={null}>
-          <HomeExplorer listings={listings} />
-        </Suspense>
+        {/* No <Suspense> wrapper: it was only needed while this nested the
+            useSearchParams-based FilterBar, and it made the map + list stream
+            as a separate chunk that stays hidden until the tab is repainted. */}
+        <HomeExplorer listings={summaries} />
         <IconicCircuits listings={listings} />
         <CountryGrid listings={listings} totalCountries={countries.length} />
         <ListVenueCta />

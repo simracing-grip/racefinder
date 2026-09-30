@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Listing } from "@/lib/types";
+import type { ListingSummary } from "@/lib/types";
 import HeroTrack from "./HeroTrack";
 import HeroSearch from "./HeroSearch";
 import CountryPicker from "./CountryPicker";
@@ -10,7 +10,7 @@ export default function Hero({
   countryCodes,
   raceCount,
 }: {
-  listings: Listing[];
+  listings: ListingSummary[];
   countries: string[];
   countryCodes: Record<string, string>;
   raceCount: number;
