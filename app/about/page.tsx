@@ -28,10 +28,11 @@ export default function AboutPage() {
       <ProseColumn>
         <div className="space-y-5 text-lg leading-relaxed text-gray-300">
           <p>
-            RaceFinder is a free, independent directory of sim racing centers, track day circuits,
-            and karting tracks across Europe (plus every current Formula 1 circuit worldwide). It
-            started as a way to answer a simple question &mdash; &ldquo;where can I actually go
-            racing near me?&rdquo; &mdash; that scattered search results never answered well.
+            RaceFinder is a free, independent directory of karting tracks, track day circuits and
+            sim racing centers in more than 100 countries, plus every circuit on the current
+            Formula 1 calendar and a race calendar covering F1, MotoGP, WEC and more. It started as
+            a way to answer a simple question &mdash; &ldquo;where can I actually go racing near
+            me?&rdquo; &mdash; that scattered search results never answered well.
           </p>
           <p>
             It&apos;s built and maintained by one person, not a company. Listings are compiled from

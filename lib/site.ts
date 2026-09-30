@@ -12,5 +12,5 @@ export const SITE_URL = (
 export const SITE_NAME = "RaceFinder";
 export const SITE_TAGLINE = `${SITE_NAME} — Sim Racing, Track Days, Karting & F1`;
 export const SITE_DESCRIPTION =
-  "Find sim racing centers, track day circuits, and karting tracks across Europe, plus every F1 circuit on the calendar, worldwide.";
+  "Find karting tracks, track day circuits, sim racing centers and every F1 circuit worldwide — on one map, with a race calendar for F1, MotoGP, WEC and more.";
 export const CONTACT_EMAIL = "simracingbl@gmail.com";

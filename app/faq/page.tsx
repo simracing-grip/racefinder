@@ -21,17 +21,27 @@ const faqs = [
   {
     question: "What categories of venues are listed?",
     answer:
-      "Four categories: Sim Racing centers, Track Day circuits, Karting tracks, and F1 circuits. You can browse each from the navigation bar or filter by category on the map.",
+      "Four disciplines: karting tracks, track day circuits, sim racing centers, and Formula 1 circuits. Venues that only admit club members are also tagged Members Only, so you know before you go. Browse each from the navigation bar, or filter the map on the homepage.",
   },
   {
     question: "Which countries are covered?",
     answer:
-      "Sim racing, track day, and karting listings currently focus on Europe, with coverage growing over time. F1 circuits are covered worldwide, following the full Grand Prix calendar. Choose your country from the homepage to jump straight there, or browse the world map to see everything at once — and if a venue near you is missing, let us know.",
+      "More than 100 countries on every continent, and growing. Jump to your country from the homepage, or browse the world map to see everything at once — and if a venue near you is missing, let us know.",
   },
   {
     question: "How do I find venues near me?",
     answer:
-      "Pick your country from the dropdown on the homepage to jump straight there, or use the Map to see all locations at once and filter by category and country.",
+      "Turn on Near me above the homepage map to see venues within a distance you choose, closest first (your browser will ask to share your location). You can also search for a town or venue at the top of the homepage, or jump straight to your country.",
+  },
+  {
+    question: "What's in the race calendar?",
+    answer:
+      "Upcoming rounds from F1, MotoGP, WEC, IMSA, GT World Challenge, NASCAR, IndyCar, DTM, BTCC and more. Rounds held at a circuit in the directory link straight to that venue's page, which shows a countdown to its next race weekend.",
+  },
+  {
+    question: "Where do the photos come from?",
+    answer:
+      "Mostly from Wikimedia Commons, credited on each photo with the photographer and license. Venues without a photo show a placeholder — if you run one, send us a photo you own and we'll add it.",
   },
   {
     question: "How accurate is the listing information?",

@@ -1,13 +1,11 @@
 export type Category = "sim_racing" | "track_day" | "karting" | "f1" | "club_only";
 
-export const CATEGORIES: { value: Category; label: string; plural: string; global?: boolean }[] = [
+export const CATEGORIES: { value: Category; label: string; plural: string }[] = [
   { value: "sim_racing", label: "Sim Racing", plural: "Sim Racing Centers" },
   { value: "track_day", label: "Track Day", plural: "Track Day Circuits" },
   { value: "karting", label: "Karting", plural: "Karting Tracks" },
-  // Unlike the other categories (Europe-only for now), F1 covers every
-  // continent the calendar races on — there's no "Europe first" phase-in
-  // that makes sense for a fixed list of ~24 circuits.
-  { value: "f1", label: "F1", plural: "Formula 1 Circuits", global: true },
+  // The circuits on the current F1 calendar.
+  { value: "f1", label: "F1", plural: "Formula 1 Circuits" },
   // A modifier, not a replacement: club_only always appears alongside a
   // "real" category (e.g. ["karting", "club_only"]) rather than instead of
   // one, so these venues still show up under Karting/Track Day too. It gets
@@ -15,7 +13,7 @@ export const CATEGORIES: { value: Category; label: string; plural: string; globa
   // badge, and /category/club_only page like everything else here — venues
   // with membership required and no public walk-in/hire, found scouting
   // Australia, NZ, Mozambique, Brazil and Argentina.
-  { value: "club_only", label: "Club / Members Only", plural: "Club & Members-Only Venues", global: true },
+  { value: "club_only", label: "Club / Members Only", plural: "Club & Members-Only Venues" },
 ];
 
 export type IndoorOutdoor = "indoor" | "outdoor" | "both";
