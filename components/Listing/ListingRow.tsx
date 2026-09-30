@@ -9,6 +9,7 @@ import CategoryBadge from "./CategoryBadge";
 import ListingDetails from "./ListingDetails";
 import PhotoCredit from "./PhotoCredit";
 import VenuePhoto from "./VenuePhoto";
+import SaveButton from "@/components/Garage/SaveButton";
 import CountryFlag from "@/components/CountryFlag";
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -69,46 +70,50 @@ export default function ListingRow({
             : "border-white/10 hover:border-white/25"
       }`}
     >
-      <button
-        onClick={() => {
-          if (!open) loadDetails();
-          setOpen(!open);
-          onSelect?.(listing.slug);
-        }}
-        aria-expanded={open}
-        className="flex w-full items-center gap-4 p-3.5 text-left sm:p-4"
-      >
-        <VenuePhoto listing={listing} variant="thumb" className="h-14 w-14 shrink-0" />
+      {/* The save star sits beside the row's toggle button, not inside it. */}
+      <div className="flex items-center pr-1.5">
+        <button
+          onClick={() => {
+            if (!open) loadDetails();
+            setOpen(!open);
+            onSelect?.(listing.slug);
+          }}
+          aria-expanded={open}
+          className="flex min-w-0 flex-1 items-center gap-4 p-3.5 text-left sm:p-4"
+        >
+          <VenuePhoto listing={listing} variant="thumb" className="h-14 w-14 shrink-0" />
 
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-1.5">
-            {listing.categories.map((c) => (
-              <CategoryBadge key={c} category={c} />
-            ))}
-            {listing.featured && (
-              <span className="inline-block bg-timing px-2 py-0.5 font-display text-xs font-bold uppercase italic text-ink">
-                Featured
-              </span>
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-1.5">
+              {listing.categories.map((c) => (
+                <CategoryBadge key={c} category={c} />
+              ))}
+              {listing.featured && (
+                <span className="inline-block bg-timing px-2 py-0.5 font-display text-xs font-bold uppercase italic text-ink">
+                  Featured
+                </span>
+              )}
+            </div>
+            <h3 className="mt-1 line-clamp-2 font-semibold leading-snug text-gray-100">{listing.name}</h3>
+            <p className="flex items-center gap-1.5 truncate text-sm text-gray-400">
+              <CountryFlag countryCode={listing.countryCode} />
+              {listing.city ? `${listing.city}, ` : ""}
+              {listing.country}
+              {distanceKm != null && (
+                <span className="shrink-0 text-gray-500">&middot; {formatDistanceKm(distanceKm)} away</span>
+              )}
+            </p>
+            {nextEvent && (
+              <p className="mt-0.5 truncate text-xs font-medium text-timing">
+                Next: {nextEvent.name} &middot; {formatEventDate(nextEvent.startDate)}
+              </p>
             )}
           </div>
-          <h3 className="mt-1 line-clamp-2 font-semibold leading-snug text-gray-100">{listing.name}</h3>
-          <p className="flex items-center gap-1.5 truncate text-sm text-gray-400">
-            <CountryFlag countryCode={listing.countryCode} />
-            {listing.city ? `${listing.city}, ` : ""}
-            {listing.country}
-            {distanceKm != null && (
-              <span className="shrink-0 text-gray-500">&middot; {formatDistanceKm(distanceKm)} away</span>
-            )}
-          </p>
-          {nextEvent && (
-            <p className="mt-0.5 truncate text-xs font-medium text-timing">
-              Next: {nextEvent.name} &middot; {formatEventDate(nextEvent.startDate)}
-            </p>
-          )}
-        </div>
 
-        <ChevronIcon open={open} />
-      </button>
+          <ChevronIcon open={open} />
+        </button>
+        <SaveButton compact venue={listing} />
+      </div>
 
       {open && (
         <div className="border-t border-white/10 bg-ink/60 p-3.5 sm:p-4">

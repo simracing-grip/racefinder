@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "@/components/Brand/Logo";
 import SearchPalette from "@/components/Search/SearchPalette";
+import GarageLink from "@/components/Garage/GarageLink";
 
 const NAV = [
   { href: "/category/sim_racing", label: "Sim Racing" },
@@ -28,11 +29,13 @@ export default function SiteHeader() {
             ))}
           </nav>
           <SearchPalette />
+          <GarageLink />
           <Link
             href="/map"
-            className="inline-flex items-center gap-2 bg-signal px-4 py-2 font-display text-base font-bold italic uppercase tracking-wide text-white transition [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)] hover:bg-white hover:text-ink"
+            className="inline-flex items-center gap-1.5 bg-signal px-3.5 py-2 font-display sm:gap-2 sm:px-4 text-base font-bold italic uppercase tracking-wide text-white transition [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)] hover:bg-white hover:text-ink"
           >
-            Open map
+            {/* "Map" alone on phones, where search + garage share the row */}
+            <span className="hidden sm:inline">Open</span> map
             <span aria-hidden>&rarr;</span>
           </Link>
         </div>

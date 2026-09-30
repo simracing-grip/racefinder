@@ -12,6 +12,7 @@ import PageHeader from "@/components/UI/PageHeader";
 import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import Countdown from "@/components/Home/Countdown";
 import AddToCalendar from "@/components/Calendar/AddToCalendar";
+import SaveButton from "@/components/Garage/SaveButton";
 import { SITE_URL } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
@@ -113,6 +114,7 @@ export default async function ListingDetailPage({
         ]}
         aside={
           <div className="flex flex-wrap gap-2">
+            <SaveButton venue={listing} />
             {listing.websiteUrl && (
               <a
                 href={listing.websiteUrl}
