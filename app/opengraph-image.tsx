@@ -1,33 +1,17 @@
-import { ImageResponse } from "next/og";
-import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/site";
+import { getListings, getCountries } from "@/lib/listings";
+import { OG_SIZE, OG_CONTENT_TYPE, renderOgCard } from "@/lib/og";
 
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+export const size = OG_SIZE;
+export const contentType = OG_CONTENT_TYPE;
+export const alt = "RaceFinder — find sim racing, track days, karting and F1 circuits";
+// Keeps the venue count in the preview current between deploys.
+export const revalidate = 3600;
 
-export default function Image() {
-  return new ImageResponse(
-    (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "#0a0a0f",
-          fontFamily: "sans-serif",
-        }}
-      >
-        <div style={{ display: "flex", fontSize: 96, fontWeight: 700, color: "#f5f5f5" }}>
-          {SITE_NAME}
-          <span style={{ color: "#ef4444" }}>.</span>
-        </div>
-        <div style={{ display: "flex", marginTop: 24, fontSize: 32, color: "#9ca3af", maxWidth: 900, textAlign: "center" }}>
-          {SITE_DESCRIPTION}
-        </div>
-      </div>
-    ),
-    { ...size }
-  );
+export default async function Image() {
+  const [listings, countries] = await Promise.all([getListings(), getCountries()]);
+  return renderOgCard({
+    kicker: "Sim · Track days · Karting · F1",
+    title: "Find your next lap.",
+    subtitle: `${listings.length.toLocaleString("en-GB")} places to drive, race and spectate in ${countries.length} countries`,
+  });
 }

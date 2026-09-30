@@ -16,6 +16,8 @@ import ListVenueCta from "@/components/Home/ListVenueCta";
 // visitors never wait on the database. Must be a literal number.
 export const revalidate = 300;
 
+export const metadata = { alternates: { canonical: "/" } };
+
 // Page order is the pitch: hook (hero + search) → urgency (next race) →
 // intent (discipline) → the tool itself (map) → aspiration (iconic
 // circuits) → local (countries) → supply side (list your venue).

@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { CONTACT_EMAIL } from "@/lib/site";
 import PageHeader from "@/components/UI/PageHeader";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Contact",
   description: "Get in touch about a listing correction, a new venue, or anything else.",
-};
+  path: "/contact",
+});
 
 const reasons = [
   { label: "Report incorrect listing details", hint: "wrong address, hours, contact info, etc." },

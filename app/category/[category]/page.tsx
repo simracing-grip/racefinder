@@ -10,6 +10,7 @@ import CategoryIcon from "@/components/Home/CategoryIcon";
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { toSummaries } from "@/lib/listingSummary";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ category: c.value }));
@@ -23,10 +24,12 @@ export async function generateMetadata({
   const { category } = await params;
   const meta = CATEGORIES.find((c) => c.value === category);
   if (!meta) return {};
-  return {
+  return pageMetadata({
     title: meta.plural,
     description: `Browse ${meta.plural.toLowerCase()} worldwide, on a map and list with upcoming race weekends.`,
-  };
+    path: `/category/${meta.value}`,
+    image: `/category/${meta.value}/opengraph-image`,
+  });
 }
 
 export default async function CategoryPage({

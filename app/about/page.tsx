@@ -3,11 +3,13 @@ import Link from "next/link";
 import { CONTACT_EMAIL } from "@/lib/site";
 import PageHeader from "@/components/UI/PageHeader";
 import { ProseColumn } from "@/components/UI/Prose";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "About",
   description: "Why RaceFinder exists and how the directory is put together.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

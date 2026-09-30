@@ -15,6 +15,7 @@ import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { toSummaries } from "@/lib/listingSummary";
 import CountryFlag from "@/components/CountryFlag";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateStaticParams() {
   const countries = await getCountries();
@@ -34,10 +35,12 @@ export async function generateMetadata({
   const { country } = await params;
   const resolved = await resolveCountry(country);
   if (!resolved) return {};
-  return {
+  return pageMetadata({
     title: `Motorsport venues in ${resolved}`,
-    description: `Sim racing, track day, and karting locations in ${resolved}.`,
-  };
+    description: `Karting tracks, track day circuits and sim racing centers in ${resolved}, on a map with upcoming race weekends.`,
+    path: `/country/${slugifyCountry(resolved)}`,
+    image: `/country/${slugifyCountry(resolved)}/opengraph-image`,
+  });
 }
 
 export default async function CountryPage({

@@ -3,12 +3,14 @@ import { getUpcomingEvents } from "@/lib/calendar";
 import CalendarView from "@/components/Calendar/CalendarView";
 import PageHeader from "@/components/UI/PageHeader";
 import { SERIES_LABEL } from "@/lib/seriesMeta";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Race Calendar",
-  description:
-    "Upcoming F1, F2, F3, F4, MotoGP, GT3, GT4, IMSA, and WEC races, linked to tracks in this directory where available.",
-};
+  description: "Upcoming F1, MotoGP, WEC, IMSA, GT, touring car and karting rounds, linked to the circuits in RaceFinder.",
+  path: "/calendar",
+  image: "/calendar/opengraph-image",
+});
 
 // "Upcoming" is computed from today's date at render time, so rebuild the
 // page hourly — otherwise finished rounds linger until the next deploy.

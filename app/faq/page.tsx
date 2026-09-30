@@ -1,6 +1,11 @@
 import PageHeader from "@/components/UI/PageHeader";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = { title: "FAQ" };
+export const metadata = pageMetadata({
+  title: "FAQ",
+  description: "What RaceFinder covers, how listings are checked, and how to add or correct a venue.",
+  path: "/faq",
+});
 
 const faqs = [
   {

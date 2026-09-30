@@ -12,11 +12,12 @@ import PageHeader from "@/components/UI/PageHeader";
 import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import Countdown from "@/components/Home/Countdown";
 import { CATEGORIES } from "@/lib/types";
-import { CATEGORY_COLOR, CATEGORY_LABEL } from "@/lib/categoryMeta";
+import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
 import { distanceKm, formatDistanceKm } from "@/lib/geo";
 import { slugifyCountry } from "@/lib/countrySlug";
 import { toSummary } from "@/lib/listingSummary";
+import { pageMetadata } from "@/lib/seo";
 
 // Served as a cached page, rebuilt at most every 5 minutes (ISR), so
 // visitors never wait on the database. Must be a literal number.
@@ -36,12 +37,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const listing = await getListingBySlug(slug);
   if (!listing) return {};
-  return {
+  const place = [listing.city, listing.country].filter(Boolean).join(", ");
+  const next = getNextEvent(listing);
+  return pageMetadata({
     title: listing.name,
     description:
       listing.description ??
-      `${listing.name} — ${listing.city ? `${listing.city}, ` : ""}${listing.country}`,
-  };
+      `${listing.name} is a ${CATEGORY_NOUN[listing.categories[0]]} in ${place}. Location, directions, contact details${
+        next ? ` and the next race weekend (${next.name}, ${formatEventDate(next.startDate)})` : ""
+      } on RaceFinder.`,
+    path: `/listings/${listing.slug}`,
+    image: `/listings/${listing.slug}/opengraph-image`,
+  });
 }
 
 export default async function ListingDetailPage({

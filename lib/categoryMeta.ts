@@ -8,6 +8,15 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   club_only: "Members Only",
 };
 
+// "<name> is a …" wording for descriptions and share text.
+export const CATEGORY_NOUN: Record<Category, string> = {
+  sim_racing: "sim racing center",
+  track_day: "track day circuit",
+  karting: "karting track",
+  f1: "Formula 1 circuit",
+  club_only: "members-only motorsport venue",
+};
+
 export const CATEGORY_COLOR: Record<Category, string> = {
   sim_racing: "#7c3aed", // violet
   track_day: "#dc2626", // red

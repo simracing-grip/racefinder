@@ -6,12 +6,17 @@ import CategoryIcon from "@/components/Home/CategoryIcon";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import { toSummaries } from "@/lib/listingSummary";
+import { pageMetadata } from "@/lib/seo";
 
 // Served as a cached page, rebuilt at most every 5 minutes (ISR), so
 // visitors never wait on the database. Must be a literal number.
 export const revalidate = 300;
 
-export const metadata = { title: "Map" };
+export const metadata = pageMetadata({
+  title: "World map",
+  description: "Every karting track, track day circuit, sim racing center and F1 circuit in RaceFinder on one interactive map.",
+  path: "/map",
+});
 
 export default async function MapPage() {
   const [listings, countries] = await Promise.all([getListings(), getCountries()]);
