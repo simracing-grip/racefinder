@@ -5,6 +5,7 @@ import { PHOTO_CREDITS } from "@/data/photo-credits";
 import { db } from "@/lib/db/client";
 import { listings as listingsTable } from "@/lib/db/schema";
 import { slugifyCountry } from "@/lib/countrySlug";
+import { normalizeCountry } from "@/lib/countryNames";
 
 export { slugifyCountry };
 
@@ -42,8 +43,9 @@ function rowToListing(row: typeof listingsTable.$inferSelect): Listing {
     name: row.name,
     categories: row.categories as Category[],
     status: row.status,
-    country: row.country,
-    countryCode: row.countryCode,
+    // Fixes rows imported with a local-language name and no code (see
+    // normalizeCountry); the database still holds the raw values.
+    ...normalizeCountry(row.country, row.countryCode),
     city: row.city,
     address: row.address,
     lat: parseFloat(row.lat),

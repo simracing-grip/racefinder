@@ -22,7 +22,7 @@ import { parse } from "csv-parse/sync";
 import "dotenv/config";
 import { listingSchema } from "../../lib/validation/listing";
 import type { Category, Listing } from "../../lib/types";
-import { countryNameEn } from "../../lib/countryNames";
+import { normalizeCountry } from "../../lib/countryNames";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
 const COVER_IMAGES_FILE = path.join(process.cwd(), "data", "import", "cover-images.csv");
@@ -78,8 +78,7 @@ function toListing(row: ReviewRow, id: string, coverImages: Map<string, string>)
     name: row.name,
     categories,
     status: "published" as const,
-    country: countryNameEn(row.countryCode, row.country),
-    countryCode: row.countryCode || "XX",
+    ...normalizeCountry(row.country, row.countryCode || "XX"),
     city: row.city,
     address: row.address,
     lat: parseFloat(row.lat),

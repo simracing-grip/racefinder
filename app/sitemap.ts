@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getListings, getCountries } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import { SITE_URL } from "@/lib/site";
+import { slugifyCountry } from "@/lib/countrySlug";
 
 // Crawlers don't need it fresher than hourly.
 export const revalidate = 3600;
@@ -25,7 +26,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const countryRoutes: MetadataRoute.Sitemap = countries.map((country) => ({
-    url: `${SITE_URL}/country/${country.toLowerCase().replace(/\s+/g, "-")}`,
+    // Same slug as the country pages; encodeURI keeps any non-ASCII country
+    // name a future import brings in valid in the XML.
+    url: encodeURI(`${SITE_URL}/country/${slugifyCountry(country)}`),
     changeFrequency: "weekly",
     priority: 0.5,
   }));
