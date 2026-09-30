@@ -8,9 +8,23 @@ import type { Listing } from "@/lib/types";
 type PhotoListing = Pick<Listing, "name" | "categories" | "coverImageUrl" | "coverImageCredit">;
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
 import CategoryIcon from "@/components/Home/CategoryIcon";
+import { responsiveSources, type CommonsWidth } from "@/lib/imageSizes";
 import PhotoCredit from "./PhotoCredit";
 
 type Variant = "thumb" | "cover" | "fill";
+
+// Resized Wikimedia widths each variant may pick from (the browser chooses
+// via srcSet + sizes). Thumbs are a 56px box, so 120px covers 2x screens.
+const WIDTHS: Record<Variant, readonly CommonsWidth[]> = {
+  thumb: [120],
+  fill: [330, 500, 960, 1280],
+  cover: [500, 960, 1280, 1920],
+};
+const DEFAULT_SIZES: Record<Variant, string> = {
+  thumb: "56px",
+  fill: "100vw",
+  cover: "(min-width: 896px) 864px, 100vw",
+};
 
 function CameraOffIcon({ className }: { className?: string }) {
   return (
@@ -85,6 +99,9 @@ function Placeholder({ listing, variant, cta }: { listing: PhotoListing; variant
 //  - thumb: small square for list rows; credit shown elsewhere (row details)
 //  - cover: detail-page banner; credit overlaid bottom-right
 //  - fill:  absolutely fills a positioned parent (photo cards); caller places the credit
+// Loads a resized copy when the host offers one; if that fails (e.g. the
+// original is narrower than the requested width) it retries the original,
+// and only then shows the placeholder.
 export default function VenuePhoto({
   listing,
   variant,
@@ -92,6 +109,7 @@ export default function VenuePhoto({
   imgClassName = "",
   cta = false,
   showCredit = variant === "cover",
+  sizes = DEFAULT_SIZES[variant],
 }: {
   listing: PhotoListing;
   variant: Variant;
@@ -99,22 +117,34 @@ export default function VenuePhoto({
   imgClassName?: string;
   cta?: boolean;
   showCredit?: boolean;
+  /** <img sizes> — how wide this photo renders, so the browser picks a fitting file. */
+  sizes?: string;
 }) {
-  const [failed, setFailed] = useState(false);
-  const src = failed ? undefined : listing.coverImageUrl;
+  const [stage, setStage] = useState<"resized" | "original" | "failed">("resized");
+  const url = listing.coverImageUrl;
   const credit = listing.coverImageCredit;
+  const resized = url ? responsiveSources(url, WIDTHS[variant]) : null;
+  const img =
+    !url || stage === "failed" ? null : stage === "resized" && resized ? resized : { src: url, srcSet: undefined };
 
   return (
     <div className={`relative overflow-hidden ${variant === "fill" ? "absolute inset-0" : ""} ${className}`}>
-      {src ? (
+      {img ? (
         <>
           {/* Remote images from many hosts — plain <img>, like the rest of the site. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={src}
+            // key: a fresh element per stage, so the browser drops the old srcSet
+            key={stage}
+            src={img.src}
+            srcSet={img.srcSet}
+            sizes={img.srcSet ? sizes : undefined}
             alt={listing.name}
-            loading="lazy"
-            onError={() => setFailed(true)}
+            // The venue-page banner is the main image above the fold.
+            loading={variant === "cover" ? "eager" : "lazy"}
+            fetchPriority={variant === "cover" ? "high" : undefined}
+            decoding="async"
+            onError={() => setStage(stage === "resized" && img.src !== url ? "original" : "failed")}
             className={`h-full w-full object-cover ${imgClassName}`}
           />
           {showCredit && credit && (

@@ -36,6 +36,12 @@ export default function IconicCircuits({ listings }: { listings: Listing[] }) {
             <VenuePhoto
               listing={l}
               variant="fill"
+              // Grid: 4 cols on lg (first card spans 2), 2 cols from sm.
+              sizes={
+                i === 0
+                  ? "(min-width: 1280px) 620px, (min-width: 640px) 50vw, 100vw"
+                  : "(min-width: 1280px) 310px, (min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+              }
               imgClassName="opacity-70 grayscale-[35%] transition duration-700 group-hover:scale-105 group-hover:opacity-90 group-hover:grayscale-0"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" aria-hidden />
