@@ -149,5 +149,17 @@ export interface Listing {
 // page ~3 MB.
 export type ListingSummary = Pick<
   Listing,
-  "slug" | "name" | "categories" | "country" | "countryCode" | "city" | "lat" | "lng" | "coverImageUrl" | "featured" | "events"
->;
+  | "slug"
+  | "name"
+  | "categories"
+  | "country"
+  | "countryCode"
+  | "city"
+  | "lat"
+  | "lng"
+  | "coverImageUrl"
+  | "featured"
+  | "events"
+  | "indoorOutdoor"
+  | "trackLengthM"
+> & { kartType?: KartingDetails["kart_type"] };

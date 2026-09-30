@@ -42,6 +42,12 @@ export default function ListingRow({
   const [loadState, setLoadState] = useState<"idle" | "loading" | "error">("idle");
   const rowRef = useRef<HTMLDivElement>(null);
   const nextEvent = getNextEvent(listing);
+  // Known track facts, e.g. "Indoor · Electric karts · 1,200 m".
+  const facts = [
+    listing.indoorOutdoor && { indoor: "Indoor", outdoor: "Outdoor", both: "Indoor & outdoor" }[listing.indoorOutdoor],
+    listing.kartType && { electric: "Electric karts", petrol: "Petrol karts", both: "Electric & petrol karts" }[listing.kartType],
+    listing.trackLengthM && `${Math.round(listing.trackLengthM).toLocaleString("en-GB")} m`,
+  ].filter(Boolean) as string[];
 
   function loadDetails() {
     if (details || loadState === "loading") return;
@@ -103,6 +109,7 @@ export default function ListingRow({
                 <span className="shrink-0 text-gray-500">&middot; {formatDistanceKm(distanceKm)} away</span>
               )}
             </p>
+            {facts.length > 0 && <p className="truncate text-xs text-gray-500">{facts.join(" · ")}</p>}
             {nextEvent && (
               <p className="mt-0.5 truncate text-xs font-medium text-timing">
                 Next: {nextEvent.name} &middot; {formatEventDate(nextEvent.startDate)}

@@ -21,6 +21,10 @@ export function toSummary(listing: Listing): ListingSummary {
   };
   if (listing.coverImageUrl) summary.coverImageUrl = listing.coverImageUrl;
   if (listing.featured) summary.featured = true;
+  // Shown as small tags on list rows ("Indoor · Electric · 1,200 m").
+  if (listing.indoorOutdoor) summary.indoorOutdoor = listing.indoorOutdoor;
+  if (listing.trackLengthM) summary.trackLengthM = listing.trackLengthM;
+  if (listing.details?.karting?.kart_type) summary.kartType = listing.details.karting.kart_type;
   const next = getNextEvent(listing);
   if (next) {
     // Rows only show name + date; sort needs the dates. Drop sourceUrl etc.
