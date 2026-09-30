@@ -1,13 +1,13 @@
 import type { Listing, TrackEvent } from "@/lib/types";
 import { CATEGORY_LABEL } from "@/lib/categoryMeta";
-import { SERIES_LABEL, SERIES_BADGE_CLASS } from "@/lib/seriesMeta";
+import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import { formatAddress, googleMapsUrl } from "@/lib/formatAddress";
 
 function DetailRow({ label, value }: { label: string; value: React.ReactNode }) {
   if (value === undefined || value === null || value === "") return null;
   return (
-    <div className="flex justify-between gap-4 border-b border-gray-800 py-1.5 text-sm last:border-0">
-      <span className="shrink-0 text-gray-400">{label}</span>
+    <div className="flex justify-between gap-4 border-b border-white/5 py-2 text-sm last:border-0">
+      <span className="shrink-0 text-gray-500">{label}</span>
       <span className="text-right font-medium text-gray-100">{value}</span>
     </div>
   );
@@ -71,7 +71,7 @@ function SocialLinks({ listing }: { listing: Listing }) {
           href={listing[s.key]}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 rounded-full border border-gray-700 bg-gray-800 px-2.5 py-1 text-xs font-medium text-gray-200 hover:border-gray-500 hover:text-white"
+          className="flex items-center gap-1.5 border border-white/10 bg-panel px-2.5 py-1.5 text-xs font-semibold text-gray-200 transition hover:border-white/30 hover:text-white"
         >
           {s.icon}
           {s.label}
@@ -82,21 +82,22 @@ function SocialLinks({ listing }: { listing: Listing }) {
 }
 
 function UpcomingEvents({ events }: { events: TrackEvent[] }) {
-  const sorted = [...events].sort((a, b) => a.startDate.localeCompare(b.startDate));
+  // A listing carries the whole season; only show rounds not yet finished.
+  const today = new Date().toISOString().slice(0, 10);
+  const sorted = events
+    .filter((e) => (e.endDate ?? e.startDate) >= today)
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
+  if (sorted.length === 0) return null;
   return (
     <>
-      <h3 className="mt-3 mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+      <h3 className="mt-4 mb-1.5 font-display text-sm font-bold uppercase tracking-[0.2em] text-signal">
         Upcoming Events
       </h3>
       <ul className="space-y-1.5">
         {sorted.map((event, i) => (
           <li key={i} className="flex items-center justify-between gap-3 text-sm">
             <span className="flex min-w-0 items-center gap-2">
-              <span
-                className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${SERIES_BADGE_CLASS[event.series]}`}
-              >
-                {SERIES_LABEL[event.series]}
-              </span>
+              <SeriesBadge series={event.series} />
               <span className="truncate text-gray-100">
                 {event.sourceUrl ? (
                   <a
@@ -112,7 +113,7 @@ function UpcomingEvents({ events }: { events: TrackEvent[] }) {
                 )}
               </span>
             </span>
-            <span className="shrink-0 text-gray-400">{formatEventDate(event)}</span>
+            <span className="shrink-0 font-mono text-xs text-gray-400">{formatEventDate(event)}</span>
           </li>
         ))}
       </ul>
@@ -133,7 +134,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
               href={listing.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 underline"
+              className="link-accent"
             >
               Visit site
             </a>
@@ -149,7 +150,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
               href={googleMapsUrl(listing)}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 underline"
+              className="link-accent"
             >
               {formatAddress(listing)}
             </a>
@@ -175,7 +176,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
 
       {listing.details?.sim_racing && (
         <>
-          <h3 className="mt-3 mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+          <h3 className="mt-4 mb-1.5 font-display text-sm font-bold uppercase tracking-[0.2em] text-signal">
             {CATEGORY_LABEL.sim_racing}
           </h3>
           <DetailRow label="Simulators" value={listing.details.sim_racing.simulator_count} />
@@ -190,7 +191,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
 
       {listing.details?.track_day && (
         <>
-          <h3 className="mt-3 mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+          <h3 className="mt-4 mb-1.5 font-display text-sm font-bold uppercase tracking-[0.2em] text-signal">
             {CATEGORY_LABEL.track_day}
           </h3>
           <DetailRow
@@ -211,7 +212,7 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
 
       {listing.details?.karting && (
         <>
-          <h3 className="mt-3 mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+          <h3 className="mt-4 mb-1.5 font-display text-sm font-bold uppercase tracking-[0.2em] text-signal">
             {CATEGORY_LABEL.karting}
           </h3>
           <DetailRow label="Kart type" value={listing.details.karting.kart_type} />

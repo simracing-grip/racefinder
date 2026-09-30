@@ -1,3 +1,5 @@
+import PageHeader from "@/components/UI/PageHeader";
+
 export const metadata = { title: "FAQ" };
 
 const faqs = [
@@ -40,18 +42,34 @@ const faqs = [
 
 export default function FaqPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="mb-6 text-2xl font-bold">Frequently asked questions</h1>
-      <dl className="divide-y divide-gray-800">
-        {faqs.map((faq) => (
-          <div key={faq.question} className="py-5">
-            <dt className="font-semibold text-gray-100">{faq.question}</dt>
-            <dd className="mt-2 text-sm leading-relaxed text-gray-400">
-              {faq.answer}
-            </dd>
-          </div>
-        ))}
-      </dl>
+    <div>
+      <PageHeader
+        kicker="FAQ"
+        title="Questions, answered"
+        crumbs={[
+          { href: "/", label: "Home" },
+          { href: "/faq", label: "FAQ" },
+        ]}
+      />
+      <div className="mx-auto max-w-3xl px-4 pt-10">
+        {/* Native <details> accordions: no JS, keyboard-accessible, first one open. */}
+        <div className="divide-y divide-white/10 border-y border-white/10">
+          {faqs.map((faq, i) => (
+            <details key={faq.question} open={i === 0} className="group py-1">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-4 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-baseline gap-3">
+                  <span className="font-mono text-xs text-signal">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-display text-xl font-bold uppercase italic text-white">{faq.question}</span>
+                </span>
+                <span className="text-2xl leading-none text-gray-500 transition group-open:rotate-45 group-open:text-signal" aria-hidden>
+                  +
+                </span>
+              </summary>
+              <p className="pb-5 pl-8 leading-relaxed text-gray-400">{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

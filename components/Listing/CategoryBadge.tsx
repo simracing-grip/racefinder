@@ -4,7 +4,7 @@ import { CATEGORY_LABEL, CATEGORY_BADGE_CLASS } from "@/lib/categoryMeta";
 export default function CategoryBadge({ category }: { category: Category }) {
   return (
     <span
-      className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${CATEGORY_BADGE_CLASS[category]}`}
+      className={`inline-block px-2 py-0.5 font-display text-xs font-bold uppercase italic tracking-wide ${CATEGORY_BADGE_CLASS[category]}`}
     >
       {CATEGORY_LABEL[category]}
     </span>

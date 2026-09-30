@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Link from "next/link";
 import {
   getListings,
   getCountries,
@@ -9,8 +8,11 @@ import {
   slugifyCountry,
 } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
-import ListingList from "@/components/Listing/ListingList";
-import MapView from "@/components/Map/MapView";
+import MapListPanel from "@/components/Listing/MapListPanel";
+import PageHeader from "@/components/UI/PageHeader";
+import { CATEGORIES } from "@/lib/types";
+import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { toSummaries } from "@/lib/listingSummary";
 import CountryFlag from "@/components/CountryFlag";
 
@@ -60,32 +62,51 @@ export default async function CountryPage({
     getCountryCode(resolved),
     getCountryCodeMap(),
   ]);
-  const summaries = toSummaries(listings); // map + list share one slim array
+  // map + list share one slim array; venues with a race coming up first
+  const summaries = sortByUpcomingEvent(toSummaries(listings));
+  const byCategory = CATEGORIES.map((c) => ({ ...c, count: listings.filter((l) => l.categories.includes(c.value)).length })).filter(
+    (c) => c.count > 0
+  );
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8">
-      <Link href="/" className="mb-3 inline-flex items-center gap-1 text-sm text-blue-400 hover:underline">
-        &larr; World map
-      </Link>
-      <h1 className="mb-1 flex items-center gap-2 text-2xl font-bold">
-        {countryCode && <CountryFlag countryCode={countryCode} className="text-xl" />}
-        Motorsport venues in {resolved}
-      </h1>
-      <p className="mb-6 text-gray-400">
-        {listings.length} location{listings.length === 1 ? "" : "s"}
-      </p>
+    <div>
+      <PageHeader
+        kicker="Country"
+        title={resolved}
+        crumbs={[
+          { href: "/", label: "Home" },
+          { href: "/map", label: "World map" },
+          { href: `/country/${slugifyCountry(resolved)}`, label: resolved },
+        ]}
+        aside={countryCode && <CountryFlag countryCode={countryCode} className="text-7xl shadow-2xl shadow-black/50" />}
+      >
+        <p>
+          <span className="font-mono text-white">{listings.length.toLocaleString("en-GB")}</span> places to race in{" "}
+          {resolved}.
+        </p>
+        {byCategory.length > 0 && (
+          <ul className="mt-4 flex flex-wrap gap-2">
+            {byCategory.map((c) => (
+              <li
+                key={c.value}
+                className="border border-white/10 bg-asphalt px-3 py-1.5 font-display text-sm font-bold uppercase italic"
+                style={{ color: CATEGORY_COLOR[c.value] }}
+              >
+                {c.label} <span className="font-mono text-xs not-italic text-gray-400">{c.count}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </PageHeader>
 
-      <section className="mb-6">
+      <div className="mx-auto max-w-7xl space-y-3 px-4 pt-6">
         <FilterBar countries={countries} countryCodes={countryCodes} />
-      </section>
-
-      <section className="mb-6">
-        <MapView listings={summaries} height="320px" />
-      </section>
-
-      <section className="mx-auto max-w-3xl">
-        <ListingList listings={summaries} />
-      </section>
+        <MapListPanel
+          listings={summaries}
+          title={`Venues in ${resolved}`}
+          summary={`location${summaries.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`}
+        />
+      </div>
     </div>
   );
 }

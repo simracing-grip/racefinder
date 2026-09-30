@@ -86,7 +86,7 @@ export default function ListingRow({
               <CategoryBadge key={c} category={c} />
             ))}
             {listing.featured && (
-              <span className="inline-block rounded-full bg-amber-500/15 px-2.5 py-0.5 text-xs font-medium text-amber-300">
+              <span className="inline-block bg-timing px-2 py-0.5 font-display text-xs font-bold uppercase italic text-ink">
                 Featured
               </span>
             )}

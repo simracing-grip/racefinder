@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CONTACT_EMAIL } from "@/lib/site";
+import PageHeader from "@/components/UI/PageHeader";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -15,31 +16,39 @@ const reasons = [
 
 export default function ContactPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="mb-2 text-2xl font-bold">Contact</h1>
-      <p className="mb-6 text-sm text-gray-400">
-        RaceFinder doesn&apos;t have a support form yet &mdash; email is the fastest way to reach
-        us.
-      </p>
-
-      <a
-        href={`mailto:${CONTACT_EMAIL}`}
-        className="mb-8 inline-flex items-center gap-1.5 rounded-full bg-red-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-500"
+    <div>
+      <PageHeader
+        kicker="Contact"
+        title="Talk to the pit wall"
+        crumbs={[
+          { href: "/", label: "Home" },
+          { href: "/contact", label: "Contact" },
+        ]}
       >
-        {CONTACT_EMAIL}
-      </a>
+        RaceFinder doesn&apos;t have a support form yet &mdash; email is the fastest way to reach us.
+      </PageHeader>
 
-      <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-400">
-        What to reach out about
-      </h2>
-      <ul className="divide-y divide-gray-800 rounded-xl border border-gray-800">
-        {reasons.map((r) => (
-          <li key={r.label} className="p-3.5">
-            <p className="font-medium text-gray-100">{r.label}</p>
-            <p className="text-sm text-gray-400">{r.hint}</p>
-          </li>
-        ))}
-      </ul>
+      <div className="mx-auto max-w-3xl px-4 pt-10">
+        <a
+          href={`mailto:${CONTACT_EMAIL}`}
+          className="btn-skew inline-flex items-center gap-2 bg-signal px-7 py-4 font-display text-2xl font-black italic text-white transition hover:bg-white hover:text-ink"
+        >
+          {CONTACT_EMAIL} <span aria-hidden>&rarr;</span>
+        </a>
+
+        <h2 className="mt-12 mb-4 font-display text-sm font-bold uppercase tracking-[0.25em] text-gray-500">
+          What to reach out about
+        </h2>
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {reasons.map((r, i) => (
+            <li key={r.label} className="border border-white/10 bg-asphalt p-4">
+              <p className="font-mono text-xs text-signal">{String(i + 1).padStart(2, "0")}</p>
+              <p className="mt-1 font-semibold text-white">{r.label}</p>
+              <p className="mt-0.5 text-sm text-gray-400">{r.hint}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

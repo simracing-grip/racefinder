@@ -138,7 +138,7 @@ export default function CountrySelect({
           tabIndex={-1}
           onKeyDown={onListKeyDown}
           ref={(el) => el?.focus()}
-          className={`absolute z-20 mt-1 max-h-72 w-max min-w-full overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 py-1 shadow-lg shadow-black/40 ${menuClassName}`}
+          className={`absolute z-30 mt-1 max-h-72 w-max min-w-full overflow-y-auto border border-white/10 bg-panel py-1 shadow-2xl shadow-black/60 ${menuClassName}`}
         >
           {options.map((o, i) => (
             <li key={o.value || "__placeholder__"}>
@@ -152,7 +152,7 @@ export default function CountrySelect({
                 onMouseEnter={() => setActiveIndex(i)}
                 onClick={() => choose(o.value)}
                 className={`flex w-full items-center gap-2 whitespace-nowrap px-3 py-1.5 text-left text-sm ${
-                  i === activeIndex ? "bg-gray-800" : ""
+                  i === activeIndex ? "bg-white/5" : ""
                 } ${o.value === value ? "text-white" : "text-gray-200"}`}
               >
                 {o.code && <CountryFlag countryCode={o.code} />}

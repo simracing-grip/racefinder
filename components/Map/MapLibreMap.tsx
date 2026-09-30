@@ -75,7 +75,7 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
   const badges = categories
     .map(
       (c) =>
-        `<span class="inline-block rounded-full px-2 py-0.5 text-[11px] font-semibold ${CATEGORY_BADGE_CLASS[c]}">${CATEGORY_LABEL[c]}</span>`
+        `<span class="inline-block px-1.5 py-0.5 font-display text-[11px] font-bold uppercase italic tracking-wide ${CATEGORY_BADGE_CLASS[c]}">${CATEGORY_LABEL[c]}</span>`
     )
     .join(" ");
   const buttonColor = CATEGORY_COLOR[categories[0]] ?? "#2563eb";
@@ -87,9 +87,9 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
   return `
     <div class="w-56">
       <div class="flex flex-wrap gap-1">${badges}</div>
-      <div class="mt-1.5 text-[15px] font-semibold leading-snug text-gray-100">${escapeHtml(String(props.name))}</div>
+      <div class="mt-1.5 font-display text-lg font-black uppercase italic leading-tight text-white">${escapeHtml(String(props.name))}</div>
       <div class="text-xs text-gray-400">${flag}${props.city ? `${escapeHtml(String(props.city))}, ` : ""}${escapeHtml(String(props.country))}</div>
-      <a class="mt-2.5 inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
+      <a class="mt-2.5 inline-flex items-center gap-1 px-3 py-1.5 font-display text-sm font-bold uppercase italic hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
         View details &rarr;
       </a>
     </div>`;
@@ -344,16 +344,16 @@ export default function MapLibreMap({
   return (
     <div
       style={{ height }}
-      className="relative w-full overflow-hidden rounded-2xl border border-gray-800 shadow-sm ring-1 ring-white/5"
+      className="relative w-full overflow-hidden bg-asphalt"
     >
       <div ref={containerRef} className="h-full w-full" />
 
-      <div className="absolute right-3 top-3 z-10 flex gap-1 rounded-full bg-gray-900/90 p-1 shadow-sm ring-1 ring-white/10 backdrop-blur">
+      <div className="absolute right-3 top-3 z-10 flex gap-1 border border-white/10 bg-ink/85 p-1 backdrop-blur">
         <button
           type="button"
           onClick={() => setMode("clusters")}
-          className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
-            mode === "clusters" ? "bg-red-600 text-white" : "text-gray-300 hover:bg-gray-700"
+          className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition ${
+            mode === "clusters" ? "bg-signal text-white" : "text-gray-300 hover:bg-white/10"
           }`}
         >
           Clustered
@@ -361,8 +361,8 @@ export default function MapLibreMap({
         <button
           type="button"
           onClick={() => setMode("all")}
-          className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
-            mode === "all" ? "bg-red-600 text-white" : "text-gray-300 hover:bg-gray-700"
+          className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition ${
+            mode === "all" ? "bg-signal text-white" : "text-gray-300 hover:bg-white/10"
           }`}
         >
           Show all
@@ -371,14 +371,15 @@ export default function MapLibreMap({
 
       <style jsx global>{`
         .maplibregl-popup-content {
-          border-radius: 0.75rem;
+          border-radius: 0;
           padding: 12px 14px;
-          background: #1f2937;
+          background: #12151c;
+          border: 1px solid rgb(255 255 255 / 0.1);
           box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
         }
         .maplibregl-popup-tip {
-          border-top-color: #1f2937 !important;
-          border-bottom-color: #1f2937 !important;
+          border-top-color: #12151c !important;
+          border-bottom-color: #12151c !important;
         }
         .maplibregl-popup-close-button {
           font-size: 18px;
@@ -386,16 +387,16 @@ export default function MapLibreMap({
           color: #9ca3af;
         }
         .maplibregl-ctrl-group {
-          border-radius: 0.75rem !important;
+          border-radius: 0 !important;
           overflow: hidden;
-          background: #1f2937 !important;
+          background: #12151c !important;
           box-shadow: 0 1px 3px rgb(0 0 0 / 0.4) !important;
         }
         .maplibregl-ctrl-group button {
           filter: invert(1) brightness(1.5);
         }
         .maplibregl-ctrl-attrib {
-          background: rgba(31, 41, 55, 0.7) !important;
+          background: rgba(7, 8, 11, 0.75) !important;
         }
         .maplibregl-ctrl-attrib a {
           color: #d1d5db !important;

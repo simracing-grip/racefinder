@@ -121,3 +121,21 @@ body {
     display: none;
   }
 }
+
+/* Inline text link: white with a signal-red underline. */
+@utility link-accent {
+  color: #fff;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-signal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: color 150ms;
+  &:hover {
+    color: var(--color-signal);
+  }
+}
+
+/* Parallelogram edge for primary buttons (the "livery" CTA shape). */
+@utility btn-skew {
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}

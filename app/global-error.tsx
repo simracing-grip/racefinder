@@ -19,14 +19,14 @@ export default function GlobalError({
 
   return (
     <html lang="en">
-      <body className="flex min-h-screen items-center justify-center bg-gray-950 text-gray-100">
+      <body className="flex min-h-screen items-center justify-center bg-[#07080b] text-gray-100">
         <div className="text-center">
           <p className="text-sm font-semibold text-red-500">Error</p>
           <h1 className="mt-2 text-2xl font-bold">Something went wrong</h1>
           {/* A plain reload-based link, not next/link — the root layout that
               provides routing context is what just failed. */}
           {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-          <a href="/" className="mt-4 inline-block text-blue-400 hover:underline">
+          <a href="/" className="mt-4 inline-block text-white underline decoration-[#ff2a2a] decoration-2 underline-offset-4">
             Go home
           </a>
         </div>

@@ -52,7 +52,7 @@ export default function NearMeControl({
             id="near-me-radius"
             value={radiusKm}
             onChange={(e) => onRadiusChange(Number(e.target.value))}
-            className="rounded-lg border border-gray-700 bg-gray-800 px-2 py-1.5 text-sm text-gray-100"
+            className="border border-white/10 bg-panel px-2 py-1.5 text-sm text-gray-100"
           >
             {RADIUS_OPTIONS.map((km) => (
               <option key={km} value={km}>

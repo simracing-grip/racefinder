@@ -1,13 +1,12 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Category, ListingSummary } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { distanceKm } from "@/lib/geo";
-import MapView from "@/components/Map/MapView";
-import ListingList from "@/components/Listing/ListingList";
+import MapListPanel from "@/components/Listing/MapListPanel";
 import NearMeControl, { type GeoStatus } from "@/components/Home/NearMeControl";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import SectionHeading from "@/components/Home/SectionHeading";
@@ -22,7 +21,6 @@ type CategoryFilter = Category | "all";
 export default function HomeExplorer({ listings }: { listings: ListingSummary[] }) {
   const [category, setCategory] = useState<CategoryFilter>("all");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
-  const listRef = useRef<HTMLDivElement>(null);
 
   const [nearMe, setNearMe] = useState(false);
   const [radiusKm, setRadiusKm] = useState(100);
@@ -91,7 +89,6 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
   function pickCategory(next: CategoryFilter) {
     setCategory(next);
     setSelectedSlug(null);
-    listRef.current?.scrollTo({ top: 0 });
   }
 
   const chips: { value: CategoryFilter; label: string; count: number; color: string }[] = [
@@ -140,41 +137,27 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
         />
       </div>
 
-      <div className="grid grid-cols-1 gap-3 lg:grid-cols-[minmax(0,1fr)_420px]">
-        <div className="overflow-hidden border border-white/10">
-          <MapView listings={filtered} height="640px" selectedSlug={selectedSlug} onSelect={setSelectedSlug} />
-        </div>
-
-        <div className="flex flex-col border border-white/10 bg-asphalt lg:h-[640px]">
-          <div className="border-b border-white/10 px-4 py-3">
-            <div className="flex items-baseline justify-between gap-3">
-              <h3 className="font-display text-2xl font-black uppercase italic text-white">
-                {nearMe ? "Near you" : activeMeta ? activeMeta.plural : "Coming up"}
-              </h3>
-              {activeMeta && !nearMe && (
-                <Link href={`/category/${activeMeta.value}`} className="shrink-0 text-xs font-semibold uppercase tracking-wide text-gray-400 hover:text-white">
-                  Full page &rarr;
-                </Link>
-              )}
-            </div>
-            <p className="mt-0.5 text-xs text-gray-500">
-              <span className="font-mono text-gray-300">{filtered.length.toLocaleString("en-GB")}</span>{" "}
-              {nearMe
-                ? `location${filtered.length === 1 ? "" : "s"} within ${radiusKm} km — closest first`
-                : `location${filtered.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`}
-            </p>
-          </div>
-          <div ref={listRef} className="flex-1 overflow-y-auto p-3">
-            <ListingList
-              listings={sorted}
-              initialCount={20}
-              selectedSlug={selectedSlug}
-              onSelect={setSelectedSlug}
-              distances={nearMe ? distances ?? undefined : undefined}
-            />
-          </div>
-        </div>
-      </div>
+      <MapListPanel
+        listings={sorted}
+        selectedSlug={selectedSlug}
+        onSelect={setSelectedSlug}
+        distances={nearMe ? distances ?? undefined : undefined}
+        resetKey={`${category}-${nearMe}`}
+        title={nearMe ? "Near you" : activeMeta ? activeMeta.plural : "Coming up"}
+        summary={
+          nearMe
+            ? `location${filtered.length === 1 ? "" : "s"} within ${radiusKm} km — closest first`
+            : `location${filtered.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`
+        }
+        action={
+          activeMeta &&
+          !nearMe && (
+            <Link href={`/category/${activeMeta.value}`} className="shrink-0 text-xs font-semibold uppercase tracking-wide text-gray-400 hover:text-white">
+              Full page &rarr;
+            </Link>
+          )
+        }
+      />
     </section>
   );
 }

@@ -4,8 +4,11 @@ import { getListings, getCountries, getCountryCodeMap } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
 import FilterBar from "@/components/Filters/FilterBar";
-import ListingList from "@/components/Listing/ListingList";
-import MapView from "@/components/Map/MapView";
+import MapListPanel from "@/components/Listing/MapListPanel";
+import PageHeader from "@/components/UI/PageHeader";
+import CategoryIcon from "@/components/Home/CategoryIcon";
+import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { toSummaries } from "@/lib/listingSummary";
 
 export function generateStaticParams() {
@@ -22,7 +25,7 @@ export async function generateMetadata({
   if (!meta) return {};
   return {
     title: meta.plural,
-    description: `Browse ${meta.plural.toLowerCase()}${meta.global ? " worldwide" : " across Europe"}.`,
+    description: `Browse ${meta.plural.toLowerCase()} worldwide, on a map and list with upcoming race weekends.`,
   };
 }
 
@@ -43,31 +46,36 @@ export default async function CategoryPage({
     getCountries(),
     getCountryCodeMap(),
   ]);
-  const summaries = toSummaries(listings); // map + list share one slim array
+  // map + list share one slim array; venues with a race coming up first
+  const summaries = sortByUpcomingEvent(toSummaries(listings));
+  const accent = CATEGORY_COLOR[meta.value];
+  const scope = country ? `in ${country}` : "worldwide";
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8">
-      <h1 className="mb-1 text-2xl font-bold">{meta.plural}</h1>
-      <p className="mb-6 text-gray-400">
-        {listings.length} location{listings.length === 1 ? "" : "s"}
-        {meta.global ? " worldwide" : " across Europe"}
-      </p>
+    <div>
+      <PageHeader
+        kicker="Discipline"
+        accent={accent}
+        title={meta.plural}
+        crumbs={[{ href: "/", label: "Home" }, { href: `/category/${meta.value}`, label: meta.plural }]}
+        aside={
+          <span className="flex h-20 w-20 items-center justify-center" style={{ background: `${accent}1f`, color: accent }}>
+            <CategoryIcon category={meta.value} className="h-11 w-11" />
+          </span>
+        }
+      >
+        <span className="font-mono text-white">{listings.length.toLocaleString("en-GB")}</span> location
+        {listings.length === 1 ? "" : "s"} {scope}.
+      </PageHeader>
 
-      <section className="mb-6">
-        <FilterBar
-          countries={countries}
-          countryCodes={countryCodes}
-          activeCategory={category as Category}
+      <div className="mx-auto max-w-7xl space-y-3 px-4 pt-6">
+        <FilterBar countries={countries} countryCodes={countryCodes} activeCategory={category as Category} />
+        <MapListPanel
+          listings={summaries}
+          title={country ?? "All venues"}
+          summary={`location${summaries.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`}
         />
-      </section>
-
-      <section className="mb-6">
-        <MapView listings={summaries} height="320px" />
-      </section>
-
-      <section className="mx-auto max-w-3xl">
-        <ListingList listings={summaries} initialCount={10} />
-      </section>
+      </div>
     </div>
   );
 }
