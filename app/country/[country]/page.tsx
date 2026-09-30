@@ -9,6 +9,8 @@ import {
 } from "@/lib/listings";
 import FilterBar from "@/components/Filters/FilterBar";
 import MapListPanel from "@/components/Listing/MapListPanel";
+import CityLinks from "@/components/Listing/CityLinks";
+import { getCityHubs } from "@/lib/cities";
 import PageHeader from "@/components/UI/PageHeader";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR } from "@/lib/categoryMeta";
@@ -67,6 +69,7 @@ export default async function CountryPage({
   ]);
   // map + list share one slim array; venues with a race coming up first
   const summaries = sortByUpcomingEvent(toSummaries(listings));
+  const cities = (await getCityHubs()).filter((h) => h.country === resolved);
   const byCategory = CATEGORIES.map((c) => ({ ...c, count: listings.filter((l) => l.categories.includes(c.value)).length })).filter(
     (c) => c.count > 0
   );
@@ -109,6 +112,15 @@ export default async function CountryPage({
           title={`Venues in ${resolved}`}
           summary={`location${summaries.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`}
         />
+
+        {cities.length > 0 && (
+          <section className="pt-10">
+            <h2 className="mb-4 font-display text-3xl font-black uppercase italic text-white">
+              Places to race by city
+            </h2>
+            <CityLinks hubs={cities} />
+          </section>
+        )}
       </div>
     </div>
   );

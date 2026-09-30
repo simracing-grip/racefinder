@@ -3,12 +3,13 @@ import { getListings, getCountries } from "@/lib/listings";
 import { CATEGORIES } from "@/lib/types";
 import { SITE_URL } from "@/lib/site";
 import { slugifyCountry } from "@/lib/countrySlug";
+import { getCityHubs } from "@/lib/cities";
 
 // Crawlers don't need it fresher than hourly.
 export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [listings, countries] = await Promise.all([getListings(), getCountries()]);
+  const [listings, countries, cities] = await Promise.all([getListings(), getCountries(), getCityHubs()]);
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, changeFrequency: "daily", priority: 1 },
@@ -33,11 +34,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
+  const cityRoutes: MetadataRoute.Sitemap = cities.map((h) => ({
+    url: encodeURI(`${SITE_URL}/country/${h.countrySlug}/${h.slug}`),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
   const listingRoutes: MetadataRoute.Sitemap = listings.map((listing) => ({
     url: `${SITE_URL}/listings/${listing.slug}`,
     changeFrequency: "weekly",
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...countryRoutes, ...listingRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...countryRoutes, ...cityRoutes, ...listingRoutes];
 }
