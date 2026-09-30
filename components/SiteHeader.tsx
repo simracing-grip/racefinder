@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "@/components/Brand/Logo";
+import SearchPalette from "@/components/Search/SearchPalette";
 
 const NAV = [
   { href: "/category/sim_racing", label: "Sim Racing" },
@@ -26,6 +27,7 @@ export default function SiteHeader() {
               </Link>
             ))}
           </nav>
+          <SearchPalette />
           <Link
             href="/map"
             className="inline-flex items-center gap-2 bg-signal px-4 py-2 font-display text-base font-bold italic uppercase tracking-wide text-white transition [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)] hover:bg-white hover:text-ink"

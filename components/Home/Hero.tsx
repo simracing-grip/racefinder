@@ -1,22 +1,21 @@
 import Link from "next/link";
-import type { ListingSummary } from "@/lib/types";
 import HeroTrack from "./HeroTrack";
 import HeroSearch from "./HeroSearch";
 import CountryPicker from "./CountryPicker";
 
 export default function Hero({
-  listings,
+  venueCount,
   countries,
   countryCodes,
   raceCount,
 }: {
-  listings: ListingSummary[];
+  venueCount: number;
   countries: string[];
   countryCodes: Record<string, string>;
   raceCount: number;
 }) {
   const stats = [
-    { value: listings.length.toLocaleString("en-GB"), label: "Venues" },
+    { value: venueCount.toLocaleString("en-GB"), label: "Venues" },
     { value: `${countries.length}`, label: "Countries" },
     { value: `${raceCount}`, label: "Races ahead" },
   ];
@@ -48,12 +47,12 @@ export default function Hero({
           </h1>
 
           <p className="mt-8 max-w-lg animate-rise text-lg leading-relaxed text-gray-300 [animation-delay:160ms]">
-            {listings.length.toLocaleString("en-GB")} places to drive, race and spectate &mdash; from your local kart
+            {venueCount.toLocaleString("en-GB")} places to drive, race and spectate &mdash; from your local kart
             track to Monza. Search it, map it, go drive it.
           </p>
 
           <div className="mt-8 animate-rise [animation-delay:240ms]">
-            <HeroSearch listings={listings} />
+            <HeroSearch />
             <div className="mt-4 flex flex-wrap items-center gap-3">
               <CountryPicker countries={countries} countryCodes={countryCodes} />
               <Link
