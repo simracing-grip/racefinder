@@ -6,6 +6,8 @@ import type { CalendarEvent, EventSeries } from "@/lib/types";
 import { SERIES_LABEL, SERIES_ORDER } from "@/lib/seriesMeta";
 import CountryFlag from "@/components/CountryFlag";
 import SeriesBadge from "./SeriesBadge";
+import AddToCalendar from "./AddToCalendar";
+import SubscribePanel from "./SubscribePanel";
 
 const utc = (iso: string) => new Date(`${iso}T00:00:00Z`);
 
@@ -22,7 +24,7 @@ function monthKey(iso: string): string {
 // Timing-sheet style race calendar: series filter chips, then rounds grouped
 // under month headings, each row linking to the circuit's venue page when we
 // list it (or the official source otherwise).
-export default function CalendarView({ events }: { events: CalendarEvent[] }) {
+export default function CalendarView({ events, siteUrl }: { events: CalendarEvent[]; siteUrl: string }) {
   const [activeSeries, setActiveSeries] = useState<EventSeries | "all">("all");
 
   const filtered = useMemo(
@@ -61,6 +63,11 @@ export default function CalendarView({ events }: { events: CalendarEvent[] }) {
         ))}
       </div>
 
+      {/* follows the series filter: pick F1 above, subscribe to F1 here */}
+      <div className="mb-10">
+        <SubscribePanel series={activeSeries} siteUrl={siteUrl} />
+      </div>
+
       {months.length === 0 ? (
         <p className="text-gray-400">No upcoming events in this series yet.</p>
       ) : (
@@ -77,7 +84,7 @@ export default function CalendarView({ events }: { events: CalendarEvent[] }) {
                 {monthEvents.map((event, i) => {
                   const start = utc(event.startDate);
                   const row = (
-                    <div className="group flex items-center gap-4 px-4 py-3.5 transition hover:bg-white/[0.03] sm:gap-5">
+                    <div className="group flex min-w-0 flex-1 items-center gap-4 py-3.5 pl-4 sm:gap-5">
                       <div className="w-12 shrink-0 text-center">
                         <p className="font-display text-3xl font-black italic leading-none text-white">
                           {start.getUTCDate()}
@@ -105,16 +112,22 @@ export default function CalendarView({ events }: { events: CalendarEvent[] }) {
                   );
 
                   return (
-                    <li key={`${event.series}-${event.name}-${event.startDate}-${i}`}>
+                    <li
+                      key={`${event.series}-${event.name}-${event.startDate}-${i}`}
+                      className="flex items-center gap-2 pr-3 transition hover:bg-white/[0.03]"
+                    >
                       {event.listingSlug ? (
-                        <Link href={`/listings/${event.listingSlug}`}>{row}</Link>
+                        <Link href={`/listings/${event.listingSlug}`} className="flex min-w-0 flex-1">
+                          {row}
+                        </Link>
                       ) : event.sourceUrl ? (
-                        <a href={event.sourceUrl} target="_blank" rel="noopener noreferrer">
+                        <a href={event.sourceUrl} target="_blank" rel="noopener noreferrer" className="flex min-w-0 flex-1">
                           {row}
                         </a>
                       ) : (
                         row
                       )}
+                      <AddToCalendar event={event} siteUrl={siteUrl} compact />
                     </li>
                   );
                 })}

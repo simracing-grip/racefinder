@@ -11,6 +11,8 @@ import VenuePhoto from "@/components/Listing/VenuePhoto";
 import PageHeader from "@/components/UI/PageHeader";
 import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import Countdown from "@/components/Home/Countdown";
+import AddToCalendar from "@/components/Calendar/AddToCalendar";
+import { SITE_URL } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
@@ -150,8 +152,9 @@ export default async function ListingDetailPage({
         <VenuePhoto listing={listing} variant="cover" cta className="h-64 border border-white/10 sm:h-[420px]" />
 
         {nextEvent && (
-          <section className="relative flex flex-wrap items-center justify-between gap-5 overflow-hidden border border-white/10 bg-panel p-5 sm:p-6">
-            <div className="speed-lines pointer-events-none absolute inset-0" aria-hidden />
+          <section className="relative flex flex-wrap items-center justify-between gap-5 border border-white/10 bg-panel p-5 sm:p-6">
+            {/* Only the texture is clipped, not the section: the Add to calendar menu hangs below it. */}
+            <div className="speed-lines pointer-events-none absolute inset-0 overflow-hidden" aria-hidden />
             <div className="relative">
               <p className="flex items-center gap-2 font-display text-sm font-bold uppercase tracking-[0.25em] text-timing">
                 <span className="h-2 w-2 animate-pulse-dot rounded-full bg-signal" aria-hidden />
@@ -166,8 +169,18 @@ export default async function ListingDetailPage({
                 {nextEvent.endDate && nextEvent.endDate !== nextEvent.startDate && ` – ${formatEventDate(nextEvent.endDate)}`}
               </p>
             </div>
-            <div className="relative w-full sm:w-auto">
+            <div className="relative flex w-full flex-wrap items-center gap-4 sm:w-auto">
               <Countdown startDate={nextEvent.startDate} endDate={nextEvent.endDate} />
+              <AddToCalendar
+                siteUrl={SITE_URL}
+                event={{
+                  ...nextEvent,
+                  circuitName: listing.name,
+                  city: listing.city,
+                  country: listing.country,
+                  listingSlug: listing.slug,
+                }}
+              />
             </div>
           </section>
         )}

@@ -3,6 +3,7 @@ import { getUpcomingEvents } from "@/lib/calendar";
 import CalendarView from "@/components/Calendar/CalendarView";
 import PageHeader from "@/components/UI/PageHeader";
 import { SERIES_LABEL } from "@/lib/seriesMeta";
+import { SITE_URL } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -57,7 +58,7 @@ export default async function CalendarPage() {
       </PageHeader>
 
       <div className="mx-auto max-w-5xl px-4 pt-8">
-        <CalendarView events={events} />
+        <CalendarView events={events} siteUrl={SITE_URL} />
       </div>
     </div>
   );
