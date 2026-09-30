@@ -294,8 +294,12 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     listingSlug: "baku-city-circuit",
   },
   {
+    // Not a data error: the Bahrain GP (cancelled in April, 2026 Iran war)
+    // was reinstated at Sepang under its Bahrain name — officially the
+    // "Gulf Air Bahrain Grand Prix in Malaysia". Named that way here so it
+    // doesn't read as a typo next to a Malaysian circuit.
     series: "f1",
-    name: "Bahrain Grand Prix",
+    name: "Bahrain Grand Prix in Malaysia",
     circuitName: "Sepang International Circuit",
     city: "Sepang",
     country: "Malaysia",
@@ -303,7 +307,9 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-10-02",
     endDate: "2026-10-04",
     season: 2026,
-    sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    sourceUrl:
+      "https://www.formula1.com/en/latest/article/formula-1-and-fia-confirm-malaysia-will-join-2026-calendar-as-host-venue-for-bahrain-grand-prix.6lL7vjFEM2VVynRHvg1TCf",
+    listingSlug: "sepang-international-circuit",
   },
   {
     series: "f1",
@@ -633,6 +639,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-01",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "sepang-international-circuit",
   },
   {
     series: "motogp",
