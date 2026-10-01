@@ -1,0 +1,33 @@
+autodromo-di-lombardore | Autodromo di Lombardore | Lombardore | Italy | https://www.autodromolombardore.it/
+autodromo-di-modena | Autodromo di Modena | Modena | Italy | https://www.autodromodimodena.it/
+autodromo-di-pergusa | Autodromo di Pergusa | Enna | Italy | https://www.autodromopergusa.it/
+autodromo-eduardo-prudencio-cabrera | Autódromo Eduardo Prudêncio Cabrera | Rivera | Uruguay | 
+autodromo-el-zonda-eduardo-copello | Autódromo El Zonda Eduardo Copello | Rivadavia | Argentina | 
+autodromo-enrique-freile | Autódromo Enrique Freile | El Calafate | Argentina | 
+autodromo-eusebio-marcilla | Autódromo Eusebio Marcilla | Balneario Laguna de Gómez | Argentina | 
+autodromo-fueltech-velopark | Autódromo FuelTech Velopark | Nova Santa Rita | Brazil | https://autodromofueltech.com.br
+autodromo-general-san-martin | Autódromo General San Martín | Comodoro Rivadavia | Argentina | 
+autodromo-internacional-ayrton-senna-caruaru | Autódromo Internacional Ayrton Senna (Caruaru) | Caruaru | Brazil | 
+autodromo-internacional-ayrton-senna-londrina | Autódromo Internacional Ayrton Senna Londrina | Londrina | Brazil | 
+autodromo-internacional-da-paraiba | Autódromo Internacional da Paraíba | São Miguel de Taipu | Brazil | 
+autodromo-internacional-de-codegua | Autódromo Internacional de Codegua | Codegua | Chile | 
+autodromo-internacional-de-guapore | Autódromo Internacional de Guaporé | Guaporé | Brazil | 
+autodromo-internacional-de-maputo | Autodromo Internacional de Maputo | Maputo | Mozambique | https://www.atcm.org.mz/
+autodromo-internacional-de-mato-grosso | Autódromo Internacional de Mato Grosso | Cuiabá | Brazil | 
+autodromo-internacional-de-santa-cruz-do-sul | Autódromo Internacional de Santa Cruz do Sul | Santa Cruz do Sul | Brazil | 
+autodromo-internacional-de-taruma | Autódromo Internacional de Tarumã | Viamão | Brazil | https://www.autodromodetaruma.com.br/
+autodromo-internacional-de-turagua-pancho-pepe-croquer | Autódromo Internacional de Turagua Pancho Pepe Cróquer | Turagua | Venezuela | 
+autodromo-internacional-de-yahuarcocha | Autódromo Internacional de Yahuarcocha | Ibarra | Ecuador | 
+autodromo-internacional-el-jabali | Autódromo Internacional El Jabalí | Quezaltepeque | El Salvador | 
+autodromo-internacional-miguel-e-abed | Autódromo Internacional Miguel E. Abed | Amozoc de Mota | Mexico | http://www.autodromomabed.com/
+autodromo-internacional-nelson-piquet | Autódromo Internacional Nelson Piquet | Brasília | Brazil | 
+autodromo-internacional-orlando-moura | Autódromo Internacional Orlando Moura | Campo Grande | Brazil | 
+autodromo-internacional-potenza | Autódromo Internacional Potenza | Lima Duarte | Brazil | 
+autodromo-internacional-termas-de-rio-hondo | Autódromo Internacional Termas de Río Hondo | Termas de Río Hondo | Argentina | https://autodromotermas.com/
+autodromo-internacional-virgilio-tavora | Autódromo Internacional Virgílio Távora | Eusébio | Brazil | https://www.esporte.ce.gov.br/autodromo/
+autodromo-internacional-zilmar-beux | Autódromo Internacional Zilmar Beux | Cascavel | Brazil | 
+autodromo-juan-maria-traverso | Autódromo Juan María Traverso | San Nicolás de los Arroyos | Argentina | 
+autodromo-la-chutana | Autódromo La Chutana | San Bartolo | Peru | 
+autodromo-la-guacima-parque-viva | Autódromo La Guácima (Parque Viva) | Guácima | Costa Rica | 
+autodromo-las-vizcachas | Autódromo Las Vizcachas | Puente Alto | Chile | 
+autodromo-mar-y-valle | Autódromo Mar y Valle | Trelew | Argentina | 

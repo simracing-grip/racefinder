@@ -1,0 +1,33 @@
+achna-speedway | Achna Speedway | Δασάκι Άχνας | Cyprus | https://www.achnaspeedway.com/
+adria-international-raceway | Adria International Raceway | Adria | Italy | https://www.adriaraceway.com/
+ahvenisto-race-circuit | Ahvenisto Race Circuit | Hämeenlinna | Finland | https://ahvenistoracecircuit.com/en/
+aintree-motor-racing-circuit | Aintree Motor Racing Circuit | Liverpool | United Kingdom | https://www.liverpoolmotorclub.com/
+aldo-scribante-race-circuit | Aldo Scribante Race Circuit | Gqeberha | South Africa | https://amsc.co.za/
+almeria-circuit | Almería Circuit | Almeria | Spain | https://almeriacircuit.com
+andalucia-circuit | Andalucía Circuit | Almeria | Spain | https://andaluciacircuit.com
+anneau-du-rhin | Anneau du Rhin | Biltzheim | France | http://www.anneau-du-rhin.com
+arctic-circle-raceway | Arctic Circle Raceway | Storforshei | Norway | https://www.acr.no/
+arizona-motorsports-park | Arizona Motorsports Park | Litchfield Park | United States | 
+arroyo-seco-raceway | Arroyo Seco Raceway | Deming | United States | https://www.arroyosecoraceway.com/
+atlantic-motorsport-park | Atlantic Motorsport Park | North Salem | Canada | https://atlanticmotorsportpark.ca/
+autobahn-country-club | Autobahn Country Club | Joliet | United States | 
+autodrom-bilgoraj | Autodrom Biłgoraj | Biłgoraj | Poland | https://www.autodrombilgoraj.eu/
+autodrom-chayka | Autodrom Chayka | Chaiky | Ukraine | http://chayka-ring.com.ua
+autodrom-jastrzab | Autodrom Jastrząb | Jastrząb | Poland | https://torjastrzab.pl/
+autodrom-pomorze-tor-pszczolki | Autodrom Pomorze (Tor Pszczółki) | Pszczółki | Poland | https://autodrompomorze.pl/
+autodrom-slomczyn | Autodrom Słomczyn | Słomczyn | Poland | https://autodromslomczyn.pl/
+autodrom-sosnova | Autodrom Sosnová | Sosnová | Czechia | https://www.autodrom.cz/
+autodrom-vysoke-myto | Autodrom Vysoké Mýto | Vysoké Mýto | Czechia | https://www.autodromvmyto.cz/
+autodrome-de-linas-montlhery | Autodrome de Linas-Montlhéry | Linas | France | 
+autodromo-ciudad-de-concordia | Autódromo Ciudad de Concordia | Concordia | Argentina | 
+autodromo-ciudad-de-obera | Autódromo Ciudad de Oberá | Oberá | Argentina | 
+autodromo-ciudad-de-parana | Autódromo Ciudad de Paraná | Paraná | Argentina | 
+autodromo-ciudad-de-rafaela | Autódromo Ciudad de Rafaela | Rafaela | Argentina | 
+autodromo-ciudad-de-san-martin-jorge-angel-pena | Autódromo Ciudad de San Martín (Jorge Ángel Pena) | Distrito Ciudad de San Martín | Argentina | 
+autodromo-ciudad-de-viedma | Autódromo Ciudad de Viedma | Municipio de Viedma | Argentina | 
+autodromo-de-concepcion-del-uruguay | Autódromo de Concepción del Uruguay | Concepción del Uruguay | Argentina | 
+autodromo-de-pucarani | Autódromo de Pucarani | Pucarani | Bolivia | 
+autodromo-de-queretaro | Autódromo de Querétaro | San Rafael | Mexico | 
+autodromo-de-tocancipa | Autódromo de Tocancipá | Tocancipá | Colombia | https://autodromodetocancipa.com/
+autodromo-dellumbria-magione | Autodromo dell'Umbria - Magione | Perugia | Italy | https://www.autodromomagione.com/
+autodromo-di-franciacorta-porsche-experience-center-franciacorta | Autodromo di Franciacorta (Porsche Experience Center Franciacorta) | Lavenone | Italy | https://www.autodromodifranciacorta.it/
