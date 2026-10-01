@@ -54136,5 +54136,38 @@
     "phone": "+359 89 668 9858",
     "description": "Outdoor track at Sunny Beach, open daily 10:00-19:00.",
     "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3458",
+    "slug": "drift-trail-cacak",
+    "name": "Drift Trail Čačak",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Čačak",
+    "address": "Konjevići, 32000 Čačak, Serbia",
+    "lat": 43.905113,
+    "lng": 20.398531,
+    "phone": "+381 64 8749222"
+  },
+  {
+    "id": "3459",
+    "slug": "racegasmic-drift-poligon-celje",
+    "name": "Racegasmic Drift Poligon - Celje",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "city": "Celje",
+    "address": "Cesta v Celje 14, 3202 Ljubečna, Slovenia",
+    "lat": 46.2585,
+    "lng": 15.313794,
+    "websiteUrl": "https://racegasmic.eu",
+    "phone": "+386 51 262 333"
   }
 ]
