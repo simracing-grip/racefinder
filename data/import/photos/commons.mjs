@@ -10,6 +10,7 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const UA = 'RaceFinderPhotoBot/1.0 (https://github.com/simracing-grip/racefinder; blazevic35@gmail.com) node';
 const API = 'https://commons.wikimedia.org/w/api.php';
@@ -148,7 +149,10 @@ if (cmd === 'search') {
   }
   const buf = await get(url, { gap: 1100, binary: true });
   const ext = s.mime === 'image/png' ? 'png' : s.mime === 'image/webp' ? 'webp' : 'jpg';
-  const base = title.replace(/^File:/, '').replace(/[^A-Za-z0-9]+/g, '_').slice(0, 60);
+  // Truncated names can collide (e.g. long geograph titles that differ only at
+  // the end), so a short hash of the full title keeps every thumbnail distinct.
+  const hash = crypto.createHash('sha1').update(title).digest('hex').slice(0, 8);
+  const base = title.replace(/^File:/, '').replace(/[^A-Za-z0-9]+/g, '_').slice(0, 60) + '_' + hash;
   const file = path.join(outDir, `${base}.${ext}`);
   fs.writeFileSync(file, buf);
   console.log(file);
