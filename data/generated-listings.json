@@ -108,7 +108,8 @@
     "city": "",
     "address": "Hilton Garden Inn Silverstone, Dadford Road, Lillingstone Dayrell with Luffield Abbey, Buckinghamshire, England, NN12 8TL, United Kingdom",
     "lat": 52.069617,
-    "lng": -1.022701
+    "lng": -1.022701,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Silverstone_Circuit%2C_July_2%2C_2018_SkySat_%28cropped%29.jpg"
   },
   {
     "id": "8",
@@ -302,7 +303,8 @@
     "lat": 43.840209,
     "lng": 18.323774,
     "websiteUrl": "https://racingarena.ba/",
-    "phone": "+387 61 264 008"
+    "phone": "+387 61 264 008",
+    "coverImageUrl": "https://racingarena.ba/wp-content/uploads/2025/02/WSD-27-scaled.jpg"
   },
   {
     "id": "20",
@@ -673,7 +675,8 @@
     "address": "Anglesey Circuit, Fire Lane, Aberffraw, Isle of Anglesey, Wales, LL63 5TF, United Kingdom",
     "lat": 53.190485,
     "lng": -4.498129,
-    "websiteUrl": "https://www.angleseycircuit.co.uk/"
+    "websiteUrl": "https://www.angleseycircuit.co.uk/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Motor_Rallying_at_Anglesey_Race_Circuit_%28Ty_Croes%29_-_geograph.org.uk_-_37835.jpg"
   },
   {
     "id": "41",
@@ -725,7 +728,8 @@
     "lat": 56.128301,
     "lng": -3.505785,
     "websiteUrl": "https://www.knockhill.com/",
-    "phone": "01383 723337"
+    "phone": "01383 723337",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Knockhill_Racing_Circuit_-_geograph.org.uk_-_7086422.jpg"
   },
   {
     "id": "44",
@@ -759,7 +763,8 @@
     "address": "68, Zitadellenweg, Haselhorst, Spandau, Berlin, 13599, Germany",
     "lat": 52.53989,
     "lng": 13.21849,
-    "websiteUrl": "https://race-factory.de/en/"
+    "websiteUrl": "https://race-factory.de/en/",
+    "coverImageUrl": "https://race-factory.de/media/2024/05/Race-Factory-72.png"
   },
   {
     "id": "46",
@@ -810,7 +815,8 @@
     "address": "Brands Hatch Circuit, Colin Chapman Way, West Kingsdown, Sevenoaks, Kent, England, DA3 8NG, United Kingdom",
     "lat": 51.357488,
     "lng": 0.260006,
-    "websiteUrl": "https://www.simmotorsport.co.uk/"
+    "websiteUrl": "https://www.simmotorsport.co.uk/",
+    "coverImageUrl": "https://static.wixstatic.com/media/e71b50_3691715328114ec69c61f6a435bf8ed7~mv2.jpg"
   },
   {
     "id": "49",
@@ -897,7 +903,8 @@
     "lat": 48.196199,
     "lng": 11.607312,
     "websiteUrl": "https://www.racing-unleashed.com/lounges/munich",
-    "phone": "+49 89 2000 340 70"
+    "phone": "+49 89 2000 340 70",
+    "coverImageUrl": "https://cdn.prod.website-files.com/6808a421e247d0b5439d92ea/69b03f659bf871df5a4a2564_IMG_0129.avif"
   },
   {
     "id": "54",
@@ -1000,7 +1007,8 @@
     "address": "110, Boulevard Saint-Germain, Quartier de la Monnaie, 6th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75006, France",
     "lat": 48.85188,
     "lng": 2.341752,
-    "websiteUrl": "https://simdrivers-paris.fr/"
+    "websiteUrl": "https://simdrivers-paris.fr/",
+    "coverImageUrl": "https://simdrivers-paris.fr/wp-content/uploads/2023/01/IMG_6297.jpeg"
   },
   {
     "id": "60",
@@ -1464,7 +1472,8 @@
     "address": "Fervença, Terrugem, Sintra, Lisbon, 2705-311, Portugal",
     "lat": 38.835545,
     "lng": -9.352237,
-    "websiteUrl": "https://www.estorilracinglab.com/en/"
+    "websiteUrl": "https://www.estorilracinglab.com/en/",
+    "coverImageUrl": "https://www.estorilracinglab.com/wp-content/uploads/2024/10/DM-033-scaled.jpg"
   },
   {
     "id": "87",
@@ -1758,7 +1767,8 @@
     "lat": 47.510445,
     "lng": 19.051742,
     "websiteUrl": "https://www.racecenter.hu",
-    "phone": "+36 70 633 7223"
+    "phone": "+36 70 633 7223",
+    "coverImageUrl": "https://racecenter.hu/wp-content/uploads/2019/10/szimulator-1-1500x630.jpg"
   },
   {
     "id": "104",
@@ -2265,7 +2275,8 @@
     "lat": 51.509114,
     "lng": -0.222012,
     "websiteUrl": "https://www.drivelounge.co.uk/locations/london/",
-    "phone": "0203 307 6003"
+    "phone": "0203 307 6003",
+    "coverImageUrl": "https://www.drivelounge.co.uk/wp-content/uploads/2025/08/london-formula-rig-400x400.jpg"
   },
   {
     "id": "134",
@@ -2315,7 +2326,8 @@
     "address": "Hollywood Café, 513, Cor Kieboomplein, De Veranda, Oud-IJsselmonde, IJsselmonde, Rotterdam, South Holland, Netherlands, 3077 MK, Netherlands",
     "lat": 51.896101,
     "lng": 4.525016,
-    "websiteUrl": "https://www.racesquare.com/vestiging/rotterdam/"
+    "websiteUrl": "https://www.racesquare.com/vestiging/rotterdam/",
+    "coverImageUrl": "https://www.racesquare.com/wp-content/uploads/2022/11/F1-Racing-Centre-Vertigo-6-foto-Pim-Geerts-PIM_8443-768x461.jpg"
   },
   {
     "id": "137",
@@ -2854,7 +2866,8 @@
     "address": "Västberga Grillen, 20, Vretensborgsvägen, Västberga industriområde, Västberga, Hägersten-Älvsjö stadsdelsområde, Stockholm, Stockholm Municipality, Stockholm County, 126 32, Sweden",
     "lat": 59.298778,
     "lng": 18.015889,
-    "websiteUrl": "https://www.v-racing.se"
+    "websiteUrl": "https://www.v-racing.se",
+    "coverImageUrl": "https://static.wixstatic.com/media/9851a0_6defb5ab82c9451b815c959163542e8c~mv2.jpg"
   },
   {
     "id": "169",
@@ -2870,7 +2883,8 @@
     "address": "Lush, 12-13, Commercial Street, Warehouse Hill, Arena Quarter, Lovell Park, Leeds, West Yorkshire, England, LS1 6AL, United Kingdom",
     "lat": 53.797418,
     "lng": -1.543794,
-    "websiteUrl": "https://simtrack.co.uk/"
+    "websiteUrl": "https://simtrack.co.uk/",
+    "coverImageUrl": "https://simtrack.co.uk/wp-content/uploads/2020/05/0009-sim-track-opening-day-2019_01_25-by-mcfade-1.jpg"
   },
   {
     "id": "170",
@@ -2887,7 +2901,8 @@
     "lat": 52.494899,
     "lng": -1.851844,
     "websiteUrl": "https://www.capitalkarts.com/star-city/the-race-lounge/",
-    "phone": "0121 3124 800"
+    "phone": "0121 3124 800",
+    "coverImageUrl": "https://www.capitalkarts.com/wp-content/uploads/Race-Lounge.jpg"
   },
   {
     "id": "171",
@@ -2953,7 +2968,8 @@
     "lat": 45.569037,
     "lng": 9.029451,
     "websiteUrl": "https://www.race-x.it/en",
-    "phone": "+39 3298864486"
+    "phone": "+39 3298864486",
+    "coverImageUrl": "https://static.wixstatic.com/media/011a50_9022855d1eb54384a199ed8dd1f677f6f000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/011a50_9022855d1eb54384a199ed8dd1f677f6f000.jpg"
   },
   {
     "id": "175",
@@ -2970,7 +2986,8 @@
     "lat": 45.697331,
     "lng": 9.68427,
     "websiteUrl": "https://www.fdrive.it/",
-    "phone": "0355908963"
+    "phone": "0355908963",
+    "coverImageUrl": "https://www.fdrive.it/wp-content/uploads/2019/04/Simulatore-Formula-1-Experience-Simulatore-F1-Top-Performer-Fdrive-Centro-di-Simulazione-Professionale-300x167.jpg"
   },
   {
     "id": "176",
@@ -3037,7 +3054,8 @@
     "lat": 52.517592,
     "lng": 6.119723,
     "websiteUrl": "https://www.racesquare.com/nl/vestiging/zwolle/",
-    "phone": "085 130 4336"
+    "phone": "085 130 4336",
+    "coverImageUrl": "https://www.racesquare.com/wp-content/uploads/2024/10/racesquare_zwolle_header-1918x962.jpg"
   },
   {
     "id": "180",
@@ -3054,7 +3072,8 @@
     "lat": 52.400779,
     "lng": 4.934848,
     "websiteUrl": "https://www.racesquare.com/vestiging/amsterdam/",
-    "phone": "020 891 47 51"
+    "phone": "020 891 47 51",
+    "coverImageUrl": "https://www.racesquare.com/wp-content/uploads/2025/08/Racesquare-vestiging-amsterdam.jpg"
   },
   {
     "id": "181",
@@ -3138,7 +3157,8 @@
     "lat": 42.569031,
     "lng": -2.192549,
     "websiteUrl": "https://www.circuitodenavarra.com/",
-    "phone": "+34 948 64 03 50"
+    "phone": "+34 948 64 03 50",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Circuito_de_Navarra_-_DSC_1800_W.JPG"
   },
   {
     "id": "186",
@@ -3155,7 +3175,8 @@
     "lat": 41.051449,
     "lng": -0.136018,
     "websiteUrl": "https://www.motorlandaragon.com/",
-    "phone": "+34 978 83 55 48"
+    "phone": "+34 978 83 55 48",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Panoramica_Motorland_Arag%C3%B3n.jpg"
   },
   {
     "id": "187",
@@ -3171,7 +3192,8 @@
     "address": "Mexilhoeira Grande, EN 125, Mexilhoeira Grande, Portimão, Faro, 8500-132, Portugal",
     "lat": 37.154179,
     "lng": -8.609674,
-    "websiteUrl": "https://autodromodoalgarve.com/"
+    "websiteUrl": "https://autodromodoalgarve.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Aut%C3%B3dromo_Internacional_do_Algarve_%282012-09-23%29%2C_by_Klugschnacker_in_Wikipedia_%2825%29.JPG"
   },
   {
     "id": "188",
@@ -3188,7 +3210,8 @@
     "lat": 49.328022,
     "lng": 8.564526,
     "websiteUrl": "https://www.hockenheimring.de/en/",
-    "phone": "+49 6205 950-0"
+    "phone": "+49 6205 950-0",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hockenheimring_Ostkurve_2008.JPG"
   },
   {
     "id": "189",
@@ -3204,7 +3227,8 @@
     "address": "Vahvalantie, Purola, Alastaro, Loimaa, Loimaa sub-region, Southwest Finland, Mainland Finland, 32440, Finland",
     "lat": 60.952564,
     "lng": 22.862908,
-    "websiteUrl": "https://www.alastarocircuit.fi/"
+    "websiteUrl": "https://www.alastarocircuit.fi/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alastaron_moottorirata_2.jpg"
   },
   {
     "id": "190",
@@ -3237,7 +3261,8 @@
     "lat": 56.176598,
     "lng": 9.660199,
     "websiteUrl": "https://fdmjyllandsringen.dk/",
-    "phone": "+45 86 85 33 22"
+    "phone": "+45 86 85 33 22",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Formula_Ford_Denmark_Jyllandsringen.jpg"
   },
   {
     "id": "192",
@@ -3254,7 +3279,8 @@
     "lat": 54.871081,
     "lng": 9.277374,
     "websiteUrl": "https://padborgpark.dk/",
-    "phone": "+45 74 60 80 93"
+    "phone": "+45 74 60 80 93",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Padborg_Park.jpg"
   },
   {
     "id": "193",
@@ -3271,7 +3297,8 @@
     "lat": 56.967025,
     "lng": 24.232702,
     "websiteUrl": "http://www.bksb.lv",
-    "phone": "+371 67 025 800"
+    "phone": "+371 67 025 800",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bi%C4%B7ernieku_trase%2C_R%C4%ABga%2C_Latvia_in_winter.jpg"
   },
   {
     "id": "194",
@@ -3304,7 +3331,8 @@
     "lat": 46.414509,
     "lng": 24.44602,
     "websiteUrl": "https://transilvaniamotorring.com/",
-    "phone": "+40 365 455 422"
+    "phone": "+40 365 455 422",
+    "coverImageUrl": "https://transilvaniamotorring.com/wp-content/uploads/2023/02/race-track-transilvania-motor-ring-circuit-enduranceseriesromania.png"
   },
   {
     "id": "196",
@@ -3386,7 +3414,8 @@
     "lat": 52.432015,
     "lng": 16.782357,
     "websiteUrl": "https://www.aw.poznan.pl/tor-poznan-1",
-    "phone": "+48 665 799 877"
+    "phone": "+48 665 799 877",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tor_Pozna%C5%84.jpg"
   },
   {
     "id": "201",
@@ -3435,7 +3464,8 @@
     "address": "Parisvägen, Mantorp, Mjölby kommun, Östergötland County, 590 17, Sweden",
     "lat": 58.372545,
     "lng": 15.291706,
-    "websiteUrl": "http://www.mantorppark.com/"
+    "websiteUrl": "http://www.mantorppark.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mantorp_stcc18_pr39.jpg"
   },
   {
     "id": "204",
@@ -3451,7 +3481,8 @@
     "address": "2, Knutstorpsvägen, Kågeröd, Svalövs kommun, Skåne County, 268 76, Sweden",
     "lat": 55.998724,
     "lng": 13.0896,
-    "websiteUrl": "https://ringknutstorp.com/"
+    "websiteUrl": "https://ringknutstorp.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/STCC_Ring_Knutstorp_2012_-_Rolling_start_%28Race_1%29.jpg"
   },
   {
     "id": "205",
@@ -4406,7 +4437,8 @@
     "address": "1398, Nostrand Avenue, Brooklyn Community District 17, Brooklyn, Kings County, New York, 11226, United States",
     "lat": 40.652601,
     "lng": -73.949721,
-    "websiteUrl": "https://www.shftclub.com/"
+    "websiteUrl": "https://www.shftclub.com/",
+    "coverImageUrl": "https://images.squarespace-cdn.com/content/v1/66b265ddae38852eca69eee8/ae661443-5569-4e0d-b20c-23f3532adabb/nbrng.jpg"
   },
   {
     "id": "263",
@@ -4424,7 +4456,8 @@
     "lat": 34.168,
     "lng": -118.599154,
     "websiteUrl": "https://circuitsimracing.com/",
-    "phone": "(818) 805-3355"
+    "phone": "(818) 805-3355",
+    "coverImageUrl": "https://circuitsimracing.com/wp-content/uploads/2024/04/20240418_195323-1-scaled.jpg"
   },
   {
     "id": "264",
@@ -4475,7 +4508,8 @@
     "lat": 42.148265,
     "lng": -88.343343,
     "websiteUrl": "https://www.mpsimracingchicago.com/",
-    "phone": "+1 224-389-5196"
+    "phone": "+1 224-389-5196",
+    "coverImageUrl": "https://www.mpsimracingchicago.com/cdn/shop/files/hf_20260419_190147_530d58ca-1d59-4777-b35f-dd9b6b4fb546_1.jpg?v=1776626749&width=3840"
   },
   {
     "id": "267",
@@ -4510,7 +4544,8 @@
     "lat": 32.776272,
     "lng": -96.796856,
     "websiteUrl": "https://velocitysimlounge.com/dallas/",
-    "phone": "972-209-5215"
+    "phone": "972-209-5215",
+    "coverImageUrl": "https://velocitysimlounge.com/wp-content/uploads/2025/10/Velocity__QUITNGUYEN_DSCF8939-Enhanced-NR.jpg"
   },
   {
     "id": "269",
@@ -4561,7 +4596,8 @@
     "lat": 33.941213,
     "lng": -84.213531,
     "websiteUrl": "https://www.torqueatlanta.com/",
-    "phone": "678-349-2124"
+    "phone": "678-349-2124",
+    "coverImageUrl": "https://static.wixstatic.com/media/ead44e_5ca5d29729f54162a09bd23c5f6626f4~mv2.png"
   },
   {
     "id": "272",
@@ -4578,7 +4614,8 @@
     "lat": 34.075596,
     "lng": -84.294596,
     "websiteUrl": "https://g2gsimracing.com/",
-    "phone": "770-676-0748"
+    "phone": "770-676-0748",
+    "coverImageUrl": "https://g2gsimracing.com/cdn/shop/files/IMG_5171.jpg?v=1732149509&width=1500"
   },
   {
     "id": "273",
@@ -4595,7 +4632,8 @@
     "lat": 25.774157,
     "lng": -80.193597,
     "websiteUrl": "https://miami.shiftarcade.com/",
-    "phone": "(786) 550-0022"
+    "phone": "(786) 550-0022",
+    "coverImageUrl": "https://images.squarespace-cdn.com/content/v1/68091a7a810c385c30c1cc4c/e82b2500-9f1f-4403-aff3-9af54c916461/shift-miami-top.jpg"
   },
   {
     "id": "274",
@@ -4677,7 +4715,8 @@
     "lat": 35.733331,
     "lng": -81.344291,
     "websiteUrl": "https://victorysimcenter.com/",
-    "phone": "(828) 815-0996"
+    "phone": "(828) 815-0996",
+    "coverImageUrl": "https://victorysimcentral.com/wp-content/uploads/2024/08/Victory-SIM.png"
   },
   {
     "id": "279",
@@ -4693,7 +4732,8 @@
     "address": "The Well, 1-1A, State Street, Government Center/Faneuil Hall, Downtown, Boston, Suffolk County, Massachusetts, 02102, United States",
     "lat": 42.358834,
     "lng": -71.05783,
-    "websiteUrl": "https://f1arcade.com/us/boston"
+    "websiteUrl": "https://f1arcade.com/us/boston",
+    "coverImageUrl": "https://cdn.builder.io/o/assets%2F234ced24a0a64c9bb61961d65542afcf%2Feb04960cbaa8458ea0771b37e4453b46?alt=media&token=65675499-b885-46cd-b535-d73119e57e28&apiKey=234ced24a0a64c9bb61961d65542afcf"
   },
   {
     "id": "280",
@@ -4710,7 +4750,8 @@
     "lat": 37.764802,
     "lng": -121.954439,
     "websiteUrl": "https://sanramon.shiftarcade.com/",
-    "phone": "925-329-6229"
+    "phone": "925-329-6229",
+    "coverImageUrl": "https://images.squarespace-cdn.com/content/v1/68526df0f3a19135202f9a4d/fd473712-9354-4f1b-b3b0-980d3d60f941/2025-11-14_ShiftArcade_6000BollingerCanyonRd-0097_MED.jpg"
   },
   {
     "id": "281",
@@ -4777,7 +4818,8 @@
     "lat": 1.293797,
     "lng": 103.842141,
     "websiteUrl": "https://fullfocus.racing/",
-    "phone": "+65 8899 2872"
+    "phone": "+65 8899 2872",
+    "coverImageUrl": "https://fullfocus.racing/wp-content/uploads/2025/06/FullFocus_SimLab_419-1024x834.jpg"
   },
   {
     "id": "285",
@@ -4794,7 +4836,8 @@
     "lat": 1.363681,
     "lng": 103.764999,
     "websiteUrl": "https://racestudios.sg/",
-    "phone": "+65 8010 5055"
+    "phone": "+65 8010 5055",
+    "coverImageUrl": "https://racestudios.sg/wp-content/uploads/2026/06/Web-3-scaled.jpg"
   },
   {
     "id": "286",
@@ -4811,7 +4854,8 @@
     "lat": 31.231271,
     "lng": 121.470015,
     "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
-    "phone": "133 7022 6323"
+    "phone": "133 7022 6323",
+    "coverImageUrl": "https://www.hipole.com/wp-content/uploads/2025/04/HiPole_Pit_SH_Reeb_2-1024x576.jpg"
   },
   {
     "id": "287",
@@ -4828,7 +4872,8 @@
     "lat": 31.231271,
     "lng": 121.470015,
     "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
-    "phone": "135 6435 1096"
+    "phone": "135 6435 1096",
+    "coverImageUrl": "https://www.hipole.com/wp-content/uploads/2026/06/HiPole_Venue_Shanghai_BuyNow-1024x768.jpg"
   },
   {
     "id": "288",
@@ -4862,7 +4907,8 @@
     "lat": 34.261004,
     "lng": 108.942336,
     "websiteUrl": "https://www.hipole.com/hipole-simracing-center/",
-    "phone": "177 9583 4815"
+    "phone": "177 9583 4815",
+    "coverImageUrl": "https://www.hipole.com/wp-content/uploads/2026/07/hipole-venue-xian-lizhili-1-1024x768.jpg"
   },
   {
     "id": "290",
@@ -4929,7 +4975,8 @@
     "lat": 24.467411,
     "lng": 54.606074,
     "websiteUrl": "https://racecraft.ae/",
-    "phone": "+971 2 556 7144"
+    "phone": "+971 2 556 7144",
+    "coverImageUrl": "https://racecraft.ae/assets/media/venue-driver.jpg"
   },
   {
     "id": "294",
@@ -4946,7 +4993,8 @@
     "lat": 12.976794,
     "lng": 77.590082,
     "websiteUrl": "https://racingrigs.in/",
-    "phone": "+91-9071097777"
+    "phone": "+91-9071097777",
+    "coverImageUrl": "https://racingrigs.in/wp-content/uploads/2025/12/racing-rigs-black-white-1-scaled-e1766093911200.png"
   },
   {
     "id": "295",
@@ -4979,7 +5027,8 @@
     "lat": 22.399162,
     "lng": 113.967826,
     "websiteUrl": "https://www.godzpeed.com/",
-    "phone": "(852) 6700 6093"
+    "phone": "(852) 6700 6093",
+    "coverImageUrl": "https://static.wixstatic.com/media/be8fb6_5856d35e93304f4e9620518a6bf37f4a~mv2.jpg/v1/fill/w_978,h_745,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/C004519F-484A-4B83-8A79-F31550A23D71%202_JPG.jpg"
   },
   {
     "id": "297",
@@ -4996,7 +5045,8 @@
     "lat": 22.33719,
     "lng": 114.153727,
     "websiteUrl": "https://www.ironcladracing.com/",
-    "phone": "+852 3100 0076"
+    "phone": "+852 3100 0076",
+    "coverImageUrl": "https://static.wixstatic.com/media/2beaca_86d8da38c6ff4275ba8f5f72d241535e~mv2.jpg"
   },
   {
     "id": "298",
@@ -7264,7 +7314,8 @@
     "lat": -27.472393,
     "lng": 153.092742,
     "websiteUrl": "https://www.vrmotorsports.com.au/",
-    "phone": "(07) 3667 7445"
+    "phone": "(07) 3667 7445",
+    "coverImageUrl": "https://static.wixstatic.com/media/0a9193_a51e6efa2d1d435c8da1579ff738b4f6f000.jpg"
   },
   {
     "id": "436",
@@ -7281,7 +7332,8 @@
     "lat": -34.940396,
     "lng": 138.567523,
     "websiteUrl": "https://simracingadelaide.com.au/",
-    "phone": "0455 355 366"
+    "phone": "0455 355 366",
+    "coverImageUrl": "https://simracingadelaide.com.au/wp-content/themes/sim-racing/assets/img/hero.webp"
   },
   {
     "id": "437",
@@ -9732,7 +9784,8 @@
     "address": "2927, Córdoba, Nuestra Señora de Lourdes, Distrito Centro, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, 2002, Argentina",
     "lat": -32.941997,
     "lng": -60.6633,
-    "websiteUrl": "https://aracingsimuladores.com.ar/rosario/"
+    "websiteUrl": "https://aracingsimuladores.com.ar/rosario/",
+    "coverImageUrl": "https://aracingsimuladores.com.ar/wp-content/uploads/2025/06/IMG_7332-scaled.webp"
   },
   {
     "id": "587",
@@ -9749,7 +9802,8 @@
     "lat": -38.953846,
     "lng": -68.066696,
     "websiteUrl": "https://aracingsimuladores.com.ar/neuquen/",
-    "phone": "+54 299 588-3020"
+    "phone": "+54 299 588-3020",
+    "coverImageUrl": "https://aracingsimuladores.com.ar/wp-content/uploads/2025/06/IMG_9752-scaled.webp"
   },
   {
     "id": "588",
@@ -42825,7 +42879,8 @@
     "city": "Sakhir",
     "address": "Bahrain International Circuit, Sakhir, Bahrain",
     "lat": 26.0325,
-    "lng": 50.5106
+    "lng": 50.5106,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bahrain-International-Circuit-curve-19-vip-tower.JPG"
   },
   {
     "id": "2788",
@@ -42840,7 +42895,8 @@
     "city": "Melbourne",
     "address": "Albert Park, Melbourne, Victoria, Australia",
     "lat": -37.8497,
-    "lng": 144.968
+    "lng": 144.968,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Albert_Park_%26_Australia_Grand_Prix_Circuit.jpg"
   },
   {
     "id": "2789",
@@ -42855,7 +42911,8 @@
     "city": "Suzuka",
     "address": "Suzuka Circuit, Suzuka, Mie, Japan",
     "lat": 34.8431,
-    "lng": 136.541
+    "lng": 136.541,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Suzuka_Circuit_2006.jpg"
   },
   {
     "id": "2790",
@@ -42870,7 +42927,8 @@
     "city": "Lusail",
     "address": "Losail International Circuit, Lusail, Qatar",
     "lat": 25.49,
-    "lng": 51.4542
+    "lng": 51.4542,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Grand_Stand.JPG"
   },
   {
     "id": "2791",
@@ -43185,7 +43243,8 @@
     "lat": -33.805288,
     "lng": 25.448669,
     "websiteUrl": "https://www.rumbleracingsim.com/",
-    "phone": "+27 60 965 9920"
+    "phone": "+27 60 965 9920",
+    "coverImageUrl": "https://static.wixstatic.com/media/0e6513_591abae425f14fcebf6c9a90e85d1fcd~mv2.png"
   },
   {
     "id": "2810",
@@ -43253,7 +43312,8 @@
     "lat": 35.712689,
     "lng": 139.70391,
     "websiteUrl": "https://jiqoo.jp/JiqooRacing/",
-    "phone": "03-5291-4323"
+    "phone": "03-5291-4323",
+    "coverImageUrl": "https://jiqoo.jp/JiqooRacing/images/detal_ph01.webp"
   },
   {
     "id": "2814",
@@ -43286,7 +43346,8 @@
     "address": "Osaka City Hall, 20, Nakanoshima 1, Kita Ward, Osaka, Osaka Prefecture, 530-8201, Japan",
     "lat": 34.693757,
     "lng": 135.501454,
-    "websiteUrl": "https://mid-base.jp/lp/"
+    "websiteUrl": "https://mid-base.jp/lp/",
+    "coverImageUrl": "https://mid-base.jp/lp/wp-content/themes/midbase/assets/img/slider/juzo_slider05.png"
   },
   {
     "id": "2816",
@@ -43302,7 +43363,8 @@
     "address": "Osaka City Hall, 20, Nakanoshima 1, Kita Ward, Osaka, Osaka Prefecture, 530-8201, Japan",
     "lat": 34.693757,
     "lng": 135.501454,
-    "websiteUrl": "https://www.kanji-sim.com/"
+    "websiteUrl": "https://www.kanji-sim.com/",
+    "coverImageUrl": "https://www.kanji-sim.com/cms/wp-content/uploads/2026/08/811a0182f488178279562a495f689570.jpeg"
   },
   {
     "id": "2817",
@@ -43369,7 +43431,8 @@
     "lat": 3.202627,
     "lng": 101.717616,
     "websiteUrl": "https://ctrlplay.my/",
-    "phone": "+60102068868"
+    "phone": "+60102068868",
+    "coverImageUrl": "https://storage.googleapis.com/ctrlplay_branches/Setapak.jpg"
   },
   {
     "id": "2821",
@@ -43386,7 +43449,8 @@
     "lat": 24.638916,
     "lng": 46.71601,
     "websiteUrl": "https://teleiosx.com/",
-    "phone": "+966 55 224 9297"
+    "phone": "+966 55 224 9297",
+    "coverImageUrl": "https://teleiosx.com/media/images/home/venue-teaser.jpg"
   },
   {
     "id": "2822",
@@ -43484,7 +43548,8 @@
     "lat": 50.915192,
     "lng": 6.855804,
     "websiteUrl": "https://www.purpleracingcenter.de/sim-racing/",
-    "phone": "0 22 34 60106-16"
+    "phone": "0 22 34 60106-16",
+    "coverImageUrl": "https://www.purpleracingcenter.de/wp-content/uploads/2026/08/260716_PRC_Soelpec_Pics_SMALL-54.jpg"
   },
   {
     "id": "2828",
@@ -43501,7 +43566,8 @@
     "lat": 50.733988,
     "lng": 7.133348,
     "websiteUrl": "https://www.racingcar-benz.com/",
-    "phone": "+49 228 43 35 49 49"
+    "phone": "+49 228 43 35 49 49",
+    "coverImageUrl": "https://www.racingcar-benz.com/wp-content/uploads/2021/02/racing-car-benz-rennsimulator-bonn-arena.jpg"
   },
   {
     "id": "2829",
@@ -43533,7 +43599,8 @@
     "address": "Forum Schwanthalerhöhe, 5, Theresienhöhe, Parkstraße, Schwanthalerhöhe, Munich, Bavaria, 80339, Germany",
     "lat": 48.136749,
     "lng": 11.546724,
-    "websiteUrl": "https://www.simrigclub.com/"
+    "websiteUrl": "https://www.simrigclub.com/",
+    "coverImageUrl": "https://static.wixstatic.com/media/ae340b_737ce1a5554e4d8e900d713e74c3ff9af000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ae340b_737ce1a5554e4d8e900d713e74c3ff9af000.jpg"
   },
   {
     "id": "2831",
@@ -43549,7 +43616,8 @@
     "address": "1, Ludwig-Bölkow-Allee, Taufkirchen, Landkreis München, Bavaria, 82024, Germany",
     "lat": 48.042232,
     "lng": 11.653507,
-    "websiteUrl": "https://www.jochen-schweizer-arena.de/en/rennsimulatoren/"
+    "websiteUrl": "https://www.jochen-schweizer-arena.de/en/rennsimulatoren/",
+    "coverImageUrl": "https://www.jochen-schweizer-arena.de/wp-content/uploads/2023/04/Beitragsbilder-Jochen-Schweizer-Arena-1080-%C3%97-1080-px-13-1024x1024.png"
   },
   {
     "id": "2832",
@@ -43566,7 +43634,8 @@
     "lat": 48.815562,
     "lng": 9.321034,
     "websiteUrl": "https://www.pits-simracing.de/",
-    "phone": "07151 1694001"
+    "phone": "07151 1694001",
+    "coverImageUrl": "https://www.pits-simracing.de/wp-content/uploads/2025/10/sim_racing-lounge.jpg"
   },
   {
     "id": "2833",
@@ -43583,7 +43652,8 @@
     "lat": 53.562915,
     "lng": 9.916735,
     "websiteUrl": "https://derbeflott.de/",
-    "phone": "+49 40 36848969"
+    "phone": "+49 40 36848969",
+    "coverImageUrl": "https://derbeflott.de/images/2022/11/16/sim-racing-multiplayer-high-end-simulatoren.webp"
   },
   {
     "id": "2834",
@@ -43600,7 +43670,8 @@
     "lat": 53.597276,
     "lng": 10.074375,
     "websiteUrl": "https://www.g4metime.de/",
-    "phone": "040 27808800"
+    "phone": "040 27808800",
+    "coverImageUrl": "https://g4metime.de/wp-content/uploads/2023/03/G4METIME_Sonic_Web4-557x400.webp"
   },
   {
     "id": "2835",
@@ -43618,7 +43689,8 @@
     "lat": 53.581308,
     "lng": 9.734821,
     "websiteUrl": "https://evokart-wedel.de/simracing/",
-    "phone": "04103 9283760"
+    "phone": "04103 9283760",
+    "coverImageUrl": "https://evokart-wedel.de/wp-content/uploads/2026/07/66-EVO_Wedel_Juli_2026_078_web_kopie-1024x683.jpg"
   },
   {
     "id": "2836",
@@ -43635,7 +43707,8 @@
     "lat": 47.825279,
     "lng": 8.802473,
     "websiteUrl": "https://lakeracing.de/",
-    "phone": "+49 7733 9969651"
+    "phone": "+49 7733 9969651",
+    "coverImageUrl": "https://onecdn.io/media/73cdbc7a-28a3-46a5-aa42-dce8c6025cb6/preview"
   },
   {
     "id": "2837",
@@ -43652,7 +43725,8 @@
     "lat": 48.043075,
     "lng": 7.76372,
     "websiteUrl": "https://www.mc-sim-racing.de/",
-    "phone": "0 7665-94 222 73"
+    "phone": "0 7665-94 222 73",
+    "coverImageUrl": "https://static.wixstatic.com/media/88e7e3_0cf142bfffb0471bab75b08cfcdd13a6f000.jpg"
   },
   {
     "id": "2838",
@@ -43669,7 +43743,8 @@
     "lat": 48.233148,
     "lng": 16.374467,
     "websiteUrl": "https://simudrom.at/",
-    "phone": "+43 1 7342397"
+    "phone": "+43 1 7342397",
+    "coverImageUrl": "https://images.ctfassets.net/32sfhwldq9j6/3QWv8xYoYDXAUVuSdZM0hl/40d98c4da821ba1183a218109abd85cc/Simudrom_Simulatoren.png?w=1000&q=60&fm=webp"
   },
   {
     "id": "2839",
@@ -43719,7 +43794,8 @@
     "address": "Dr. med dent Amer Al-Zaher, 30, Passauer Straße, Fisching, Mattsee, Bezirk Salzburg-Umgebung, Salzburg, 5163, Austria",
     "lat": 47.973528,
     "lng": 13.102271,
-    "websiteUrl": "https://www.fahrtraum.at/en/renn-simulation/"
+    "websiteUrl": "https://www.fahrtraum.at/en/renn-simulation/",
+    "coverImageUrl": "https://www.fahrtraum.at/wp-content/uploads/2023/11/fahrtraum-rennsimulator002.jpg"
   },
   {
     "id": "2842",
@@ -43768,7 +43844,8 @@
     "lat": 47.189206,
     "lng": 8.735443,
     "websiteUrl": "https://www.first-racing.ch/",
-    "phone": "043 844 44 55"
+    "phone": "043 844 44 55",
+    "coverImageUrl": "https://www.first-racing.ch/wp-content/uploads/2024/12/20241130_142301-scaled-e1741289708340.jpg"
   },
   {
     "id": "2845",
@@ -43785,7 +43862,8 @@
     "lat": 47.258669,
     "lng": 8.590003,
     "websiteUrl": "https://www.racingfuel-academy.ch/en",
-    "phone": "+41 78 227 21 56"
+    "phone": "+41 78 227 21 56",
+    "coverImageUrl": "https://cdn.prod.website-files.com/698c34ad5bead29bf301a887/698c3fff456b8dfa8337cea3_4235df9099053f6f975f99572c05ddfc_RacingFuel%20Hero%20Image.avif"
   },
   {
     "id": "2846",
@@ -43802,7 +43880,8 @@
     "lat": 47.415177,
     "lng": 8.622997,
     "websiteUrl": "https://www.racingcenterdietlikon.ch/",
-    "phone": "+41 76 564 83 05"
+    "phone": "+41 76 564 83 05",
+    "coverImageUrl": "https://static.wixstatic.com/media/f3c0b2_37891013984f4ae69a2c00a880634459f000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f3c0b2_37891013984f4ae69a2c00a880634459f000.jpg"
   },
   {
     "id": "2847",
@@ -43819,7 +43898,8 @@
     "lat": 47.470529,
     "lng": 7.779312,
     "websiteUrl": "https://www.racelounge.ch/",
-    "phone": "061 533 66 88"
+    "phone": "061 533 66 88",
+    "coverImageUrl": "https://static.wixstatic.com/media/95b1e1_b5f7d9601b5b424ead59bb43c2cce580f000.jpg/v1/fill/w_766,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/95b1e1_b5f7d9601b5b424ead59bb43c2cce580f000.jpg"
   },
   {
     "id": "2848",
@@ -43853,7 +43933,8 @@
     "lat": 47.691679,
     "lng": 8.645867,
     "websiteUrl": "https://simracing-lounge.ch/",
-    "phone": "055 240 44 20"
+    "phone": "055 240 44 20",
+    "coverImageUrl": "https://simracing-lounge.ch/wp-content/uploads/2026/04/p911gt3-interior-2.jpg"
   },
   {
     "id": "2850",
@@ -43870,7 +43951,8 @@
     "lat": 47.522192,
     "lng": 7.691383,
     "websiteUrl": "https://www.simracingworld.ch/en",
-    "phone": "+41 78 227 80 18"
+    "phone": "+41 78 227 80 18",
+    "coverImageUrl": "https://www.simracingworld.ch/cdn/shop/files/DSC01013-2.jpg"
   },
   {
     "id": "2851",
@@ -43903,7 +43985,8 @@
     "lat": 46.275203,
     "lng": 6.154311,
     "websiteUrl": "https://www.racexperience.ch/",
-    "phone": "+41 22 348 90 24"
+    "phone": "+41 22 348 90 24",
+    "coverImageUrl": "https://static.wixstatic.com/media/489b18_e5f8ff7a985346a49efbc4063d174537f000.jpg/v1/fill/w_903,h_508,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/489b18_e5f8ff7a985346a49efbc4063d174537f000.jpg"
   },
   {
     "id": "2853",
@@ -43951,7 +44034,8 @@
     "address": "102, Garbary, Chwaliszewo, Stare Miasto, Poznan, Greater Poland Voivodeship, 61-757, Poland",
     "lat": 52.413148,
     "lng": 16.939214,
-    "websiteUrl": "https://sim-center.pl/en/"
+    "websiteUrl": "https://sim-center.pl/en/",
+    "coverImageUrl": "https://sim-center.pl/wp-content/uploads/2025/11/20211221211033.png"
   },
   {
     "id": "2856",
@@ -43985,7 +44069,8 @@
     "lat": 50.239843,
     "lng": 14.303116,
     "websiteUrl": "https://www.myrace.cz/",
-    "phone": "+420 723 190 079"
+    "phone": "+420 723 190 079",
+    "coverImageUrl": "https://cdn.prod.website-files.com/6374f66cc55fcc35be6b9306/6374f66cc55fcc393f6b9379_5e1dbc35c6093625f1f8b28e_20191128_175056%20(1).webp"
   },
   {
     "id": "2858",
@@ -44002,7 +44087,8 @@
     "lat": 49.834525,
     "lng": 18.167163,
     "websiteUrl": "https://www.vr-ostrava.cz/zavodni-simulator",
-    "phone": "+420 776 637 134"
+    "phone": "+420 776 637 134",
+    "coverImageUrl": "https://vr-ostrava.s3.eu-central-1.amazonaws.com/prod/3d06d2ccbe288b0055bce40def3aa4cd.jpg_800_AUTO.jpg"
   },
   {
     "id": "2859",
@@ -50274,8 +50360,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "ประเทศไทย",
-    "countryCode": "XX",
+    "country": "Thailand",
+    "countryCode": "TH",
     "city": "ตำบลบ้านบัว",
     "address": "30/2 Moo 4, Tambon Isan, Amphoe Mueang, Buriram 31000, Thailand",
     "lat": 14.962002,
@@ -50304,8 +50390,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "小山町",
     "address": "694 Nakahinata, Oyama, Sunto District, Shizuoka 410-1307, Japan",
     "lat": 35.371475,
@@ -50319,8 +50405,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "茂木町",
     "address": "120-1 Hiyama, Motegi-machi, Haga-gun, Tochigi, Japan",
     "lat": 36.531362,
@@ -50334,8 +50420,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "村田町",
     "address": "6-1 Sugo, Murata, Shibata District, Miyagi 989-1301, Japan",
     "lat": 38.140933,
@@ -50351,8 +50437,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "多可町",
     "address": "521-1 Nakakusakamoto, Taka, Taka District, Hyogo 679-1132, Japan",
     "lat": 35.025772,
@@ -50382,8 +50468,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "更別村",
     "address": "Hirokawa, Sarabetsu, Kasai District, Hokkaido, Japan",
     "lat": 42.63006,
@@ -50415,8 +50501,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "臺灣",
-    "countryCode": "XX",
+    "country": "Taiwan",
+    "countryCode": "TW",
     "city": "東港鎮",
     "address": "Pengwan Road, Donggang, Pingtung County, Taiwan",
     "lat": 22.455286,
@@ -50431,8 +50517,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Deutschland",
-    "countryCode": "XX",
+    "country": "Germany",
+    "countryCode": "DE",
     "city": "Schleiz",
     "address": "Am Schleizer Dreieck 4, 07907 Schleiz, Thuringia, Germany",
     "lat": 50.567762,
@@ -50448,8 +50534,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Italia",
-    "countryCode": "XX",
+    "country": "Italy",
+    "countryCode": "IT",
     "city": "Lombardore",
     "address": "Località Valle Fisca, 10040 Lombardore, Torino, Piedmont, Italy",
     "lat": 45.236215,
@@ -50465,8 +50551,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Κύπρος - Kıbrıs",
-    "countryCode": "XX",
+    "country": "Cyprus",
+    "countryCode": "CY",
     "city": "Δασάκι Άχνας",
     "address": "Dasaki Achnas - Augorou, Achna, Famagusta District, Cyprus",
     "lat": 35.025622,
@@ -50482,8 +50568,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Norge",
-    "countryCode": "XX",
+    "country": "Norway",
+    "countryCode": "NO",
     "city": "Sokndal",
     "address": "Kroheia, 4380 Hauge i Dalane, Rogaland, Norway",
     "lat": 58.345579,
@@ -50499,8 +50585,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Magyarország",
-    "countryCode": "XX",
+    "country": "Hungary",
+    "countryCode": "HU",
     "city": "Balatonfőkajár",
     "address": "Balaton Park utca 1, 8164 Balatonfőkajár, Veszprém County, Hungary",
     "lat": 47.006748,
@@ -50515,8 +50601,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "ประเทศไทย",
-    "countryCode": "XX",
+    "country": "Thailand",
+    "countryCode": "TH",
     "city": "เขาไม้แก้ว",
     "address": "111 Moo 5, Tambon Pong, Amphoe Bang Lamung, Chonburi 20150, Thailand",
     "lat": 12.919287,
@@ -50531,8 +50617,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "大津町",
     "address": "Hirakawa, Ozu, Kikuchi District, Kumamoto, Japan",
     "lat": 32.898027,
@@ -50548,8 +50634,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "România",
-    "countryCode": "XX",
+    "country": "Romania",
+    "countryCode": "RO",
     "city": "Adâncata",
     "address": "DN 101B, Adâncata, Ialomița County, Romania",
     "lat": 44.778783,
@@ -51835,8 +51921,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "Magyarország",
-    "countryCode": "XX",
+    "country": "Hungary",
+    "countryCode": "HU",
     "city": "Kakucs",
     "address": "Dózsa György utca 1, 2366 Kakucs, Pest County, Hungary",
     "lat": 47.241618,
@@ -53072,8 +53158,8 @@
       "sim_racing"
     ],
     "status": "published",
-    "country": "تونس",
-    "countryCode": "XX",
+    "country": "Tunisia",
+    "countryCode": "TN",
     "city": "تونس",
     "address": "Rue Mohamed Laaribi, El Menzah, Tunis, Tunisia",
     "lat": 36.835613,
@@ -53089,8 +53175,8 @@
       "sim_racing"
     ],
     "status": "published",
-    "country": "臺灣",
-    "countryCode": "XX",
+    "country": "Taiwan",
+    "countryCode": "TW",
     "city": "新北市",
     "address": "忠孝東路六段374號, Taipei, Taiwan",
     "lat": 25.0666,
@@ -53140,8 +53226,8 @@
       "sim_racing"
     ],
     "status": "published",
-    "country": "Panamá",
-    "countryCode": "XX",
+    "country": "Panama",
+    "countryCode": "PA",
     "city": "Parque Lefevre",
     "address": "Calle 3era, Costa del Este, Panama City, Panama",
     "lat": 9.013146,
@@ -53156,8 +53242,8 @@
       "track_day"
     ],
     "status": "published",
-    "country": "日本",
-    "countryCode": "XX",
+    "country": "Japan",
+    "countryCode": "JP",
     "city": "美浜町",
     "address": "Noma, Mihama, Chita District, Aichi Prefecture, Japan",
     "lat": 34.778769,
@@ -53213,306 +53299,39 @@
   },
   {
     "id": "3413",
-    "slug": "silverstone-indoorkarting",
-    "name": "Silverstone Indoorkarting",
+    "slug": "sim-master-centar",
+    "name": "Sim Master Centar",
     "categories": [
-      "karting"
+      "sim_racing"
     ],
     "status": "published",
-    "country": "Netherlands",
-    "countryCode": "NL",
-    "city": "Zwanenburg",
-    "address": "22, Weerenweg, De Weeren, Zwanenburg, Haarlemmermeer, North Holland, Netherlands, 1161 AJ, Netherlands",
-    "lat": 52.383705,
-    "lng": 4.735569,
-    "websiteUrl": "http://www.silverstone.nl/",
-    "phone": "+31 20 497 3858",
-    "description": "552-metre indoor track with 200cc petrol karts reaching around 50 km/h; open Tuesday-Friday 14:00-23:00 and Saturday-Sunday 13:00-23:00.",
-    "indoorOutdoor": "indoor"
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Belgrade",
+    "address": "Dunavska 68, Beograd 11000, Serbia",
+    "lat": 44.821972,
+    "lng": 20.47137,
+    "websiteUrl": "https://simmaster.rs",
+    "phone": "+381 60 4946481"
   },
   {
     "id": "3414",
-    "slug": "de-vries-indoor-karting",
-    "name": "De Vries Indoor Karting",
+    "slug": "sim-race-kosova",
+    "name": "Sim Race Kosova",
     "categories": [
-      "karting"
+      "sim_racing"
     ],
     "status": "published",
-    "country": "Netherlands",
-    "countryCode": "NL",
-    "city": "Heerenveen",
-    "address": "De Vries indoor karting, 3, Griend, De Akkers, Heerenveen, Frisia, Netherlands, 8443 CG, Netherlands",
-    "lat": 52.94016,
-    "lng": 5.940491,
-    "websiteUrl": "http://www.indoorkartingheerenveen.nl/",
-    "phone": "+31 513 681 662",
-    "description": "500-metre indoor track; minimum age fifteen and height 1.60m; open Tuesday-Thursday 19:00-22:00, Friday 19:00-23:00, Saturday 14:00-23:00, Sunday 14:00-21:00.",
-    "indoorOutdoor": "indoor"
+    "country": "Kosovo",
+    "countryCode": "XK",
+    "city": "Pristina",
+    "address": "Federata e Autosporteve te Kosoves - FASK, Pristina 10000, Kosovo",
+    "lat": 42.665363,
+    "lng": 21.159719,
+    "phone": "+383 49 730 770"
   },
   {
     "id": "3415",
-    "slug": "racelandkart",
-    "name": "Racelandkart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Belgium",
-    "countryCode": "BE",
-    "city": "Meeuwen",
-    "address": "Racelandkart, 18C, Kerkhofstraat, Meeuwen, Oudsbergen, Maaseik, Limburg, Flanders, 3670, Belgium",
-    "lat": 51.095486,
-    "lng": 5.534968,
-    "websiteUrl": "http://www.racelandkart.be/",
-    "phone": "+32 11 79 45 99",
-    "description": "Part of a six-thousand-square-metre indoor leisure complex also offering children's karting, pit bikes, laser games and bubble football; open Tuesday-Sunday with hours varying by day.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3416",
-    "slug": "kart-2000-wasserburg",
-    "name": "Kart 2000 Wasserburg",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Alteiselfing",
-    "address": "Kart2000, 6, Hafenham, Alteiselfing, Eiselfing, Landkreis Rosenheim, Bavaria, 83549, Germany",
-    "lat": 48.035727,
-    "lng": 12.232936,
-    "websiteUrl": "http://www.kart2000-wasserburg.de/",
-    "phone": "+49 8071 40093",
-    "description": "620 m track; open Wed-Fri 16:00-23:00, Sat 13:00-23:00, Sun 11:00-23:00; minimum height 135 cm for ages 9-17, birthday packages from age 6.",
-    "indoorOutdoor": "both"
-  },
-  {
-    "id": "3417",
-    "slug": "indoor-kartbahn-sachsenring",
-    "name": "Indoor-Kartbahn Sachsenring",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Oberlungwitz",
-    "address": "2, Am Sachsenring, Gewerbegebiet Am Sachsenring, Oberlungwitz, Zwickau, Saxony, 09353, Germany",
-    "lat": 50.789835,
-    "lng": 12.695784,
-    "websiteUrl": "https://www.sachsenring.de/spass-action/selbst-fahren/sachsenring-indoor-kart/",
-    "phone": "+49 3723 653345",
-    "description": "Indoor kart track open Thu 17:00-21:00, Fri 17:00-22:00, Sat 15:00-22:00, Sun 15:00-20:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3418",
-    "slug": "evokart-kiel",
-    "name": "Evokart Kiel",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Kiel",
-    "address": "40, Braunstraße, Wellsee, Kiel, Schleswig-Holstein, 24145, Germany",
-    "lat": 54.283629,
-    "lng": 10.1477,
-    "websiteUrl": "https://evokart-kiel.de/",
-    "phone": "+49 431 65959800",
-    "description": "Electric karting (SodiKart fleet) open Tue-Thu 15:00-20:00, Fri 15:00-22:00, Sat 11:00-22:00, Sun 11:00-20:00; minimum age 7 for children's mode.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3419",
-    "slug": "indoor-superkart-hemsbach",
-    "name": "Indoor Superkart Hemsbach",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Hemsbach",
-    "address": "Indoor Superkart Hemsbach, 14, Seeweg, Hemsbach, VVG der Stadt Hemsbach, Rhein-Neckar-Kreis, Baden-Württemberg, 69502, Germany",
-    "lat": 49.595598,
-    "lng": 8.632168,
-    "websiteUrl": "http://www.indoor-superkart.de/",
-    "phone": "+49 6201 493073",
-    "description": "500 m petrol indoor track open Mon-Fri 16:00-21:00 (Fri until 22:00), Sat 13:00-22:00, Sun 10:00-21:00; minimum height 1.30 m for ages 6-15, adults from age 16.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3420",
-    "slug": "kart-o-mania-stuttgart",
-    "name": "Kart-o-Mania Stuttgart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Stuttgart",
-    "address": "30, Langwiesenweg, Wangen, Stuttgart, Baden-Württemberg, 70327, Germany",
-    "lat": 48.78159,
-    "lng": 9.233953,
-    "websiteUrl": "https://kart-stuttgart.de/",
-    "phone": "+49 711 484840",
-    "description": "400 m petrol indoor track (7 CV/9 CV karts) open Mon-Thu 14:30-22:00, Fri 14:30-23:00, Sat 11:00-23:00, Sun 11:00-22:00; Bambini category 1.30-1.50 m, standard minimum height 1.50 m.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3421",
-    "slug": "koidls-prater-grand-prix-monza-kartbahn",
-    "name": "Koidls Prater (Grand Prix Monza Kartbahn)",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Austria",
-    "countryCode": "AT",
-    "city": "Vienna",
-    "address": "Alladean, 39, Praterstraße, Czerninviertel, Leopoldstadt, Katastralgemeinde Leopoldstadt, Leopoldstadt, Vienna, 1020, Austria",
-    "lat": 48.21549,
-    "lng": 16.385298,
-    "websiteUrl": "https://www.koidls-prater.at/prater-wien-attraktionen/monza/",
-    "phone": "+43 676 3836753",
-    "description": "Indoor kart track inside Vienna's Wurstelprater amusement park, open Mon-Thu 12:00-23:00, Fri 12:00-23:30, Sat 11:00-00:00, Sun 11:00-23:00; minimum height 1.45 m from age 10.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3422",
-    "slug": "battlekart-wien",
-    "name": "BattleKart Wien",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Austria",
-    "countryCode": "AT",
-    "city": "Vienna",
-    "address": "5, Trabrennstraße, Leopoldstadt, Katastralgemeinde Leopoldstadt, Leopoldstadt, Vienna, 1020, Austria",
-    "lat": 48.213076,
-    "lng": 16.41214,
-    "websiteUrl": "https://www.battlekart.com/de/wien",
-    "description": "Indoor electric karting with augmented-reality game modes on a track without fixed markings; minimum height 1.45 m.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3423",
-    "slug": "kartbahn-kappelen",
-    "name": "Kartbahn Kappelen",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Switzerland",
-    "countryCode": "CH",
-    "city": "Lyss",
-    "address": "31, Lyssstrasse, Lyss, Seeland administrative district, Seeland administrative region, Bern, 3250, Switzerland",
-    "lat": 47.065884,
-    "lng": 7.287514,
-    "websiteUrl": "http://www.kartbahnlyss.ch/",
-    "phone": "+41 32 392 22 33",
-    "description": "750 m outdoor track with electric and petrol karts, including a tunnel passage said to be unique among Swiss karting tracks, open Mon 09:00-12:00 and 13:30-20:00, Tue-Wed 09:00-20:00, Thu-Sat 09:00-21:00, Sun 10:00-18:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3424",
-    "slug": "vmax-karting-brasov",
-    "name": "VMax Karting Brașov",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Brasov",
-    "address": "Strada Henri Coandă, Tractorul, Brasov, Zona Metropolitană Brașov, Brașov, 500167, Romania",
-    "lat": 45.674281,
-    "lng": 25.619172,
-    "websiteUrl": "https://vmaxbrasov.ro/",
-    "phone": "+40 774 959 913",
-    "description": "600m indoor electric track with Sodi RSX2 karts for adults from age eighteen and Sodi LRX junior karts from age eight and 1.4m tall; open Monday-Thursday 15:00-23:00, Friday 15:00-00:00, Saturday 11:00-00:00, Sunday 11:00-23:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3425",
-    "slug": "kiki-karting-constanta",
-    "name": "KiKi Karting Constanța",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Constanța",
-    "address": "Bulevardul Tomis, Boreal, Palazu Mare, Constanța, Constanta Metropolitan Area, Constanța, 900002, Romania",
-    "lat": 44.226786,
-    "lng": 28.589618,
-    "phone": "+40 769 822 097",
-    "description": "Outdoor leisure track by the Black Sea, open daily 12:00-20:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3426",
-    "slug": "kiki-karting-costinesti",
-    "name": "KiKi Karting Costinesti",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Costinești",
-    "address": "23, Strada Tineretului, Schitu, Costinești, Constanta Metropolitan Area, Constanța, 907091, Romania",
-    "lat": 43.95006,
-    "lng": 28.634932,
-    "phone": "+40 769 822 097",
-    "description": "Outdoor track open daily 12:00-02:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3427",
-    "slug": "karting-star",
-    "name": "Karting Star",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Bistrița",
-    "address": "Strada Industriei, Zona Industrială, Bistrița, Bistrița-Năsăud, 420220, Romania",
-    "lat": 47.131236,
-    "lng": 24.480788,
-    "phone": "+40 755 242 987",
-    "description": "Outdoor track reportedly open daily from 10:00 to 22:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3428",
-    "slug": "gokart-racing",
-    "name": "Gokart Racing",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Sângeorgiu de Mureș",
-    "address": "Strada Plutelor, Sângeorgiu de Mureș, Targu Mures Metropolitan Area, Mureș, 540314, Romania",
-    "lat": 46.564929,
-    "lng": 24.570964,
-    "websiteUrl": "http://www.gokart-racing.ro/",
-    "phone": "+40 749 343 333",
-    "description": "Indoor track open Monday-Thursday and Sunday 10:00-00:00, Friday-Saturday 10:00-01:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3429",
     "slug": "1st-step-karting",
     "name": "1st Step Karting",
     "categories": [
@@ -53531,401 +53350,7 @@
     "indoorOutdoor": "outdoor"
   },
   {
-    "id": "3430",
-    "slug": "izzi-karting",
-    "name": "Izzi Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Suceava",
-    "address": "Calea Unirii, Platforma Industrială Valea Sucevei, Centru, Suceava, 720019, Romania",
-    "lat": 47.660344,
-    "lng": 26.265568,
-    "websiteUrl": "https://izzikarting.ro/",
-    "phone": "+40 732 800 117",
-    "description": "300m indoor electric track with adult karts from age fifteen, children's karts from age six, and Crazy Karts; open Monday-Friday 13:00-20:00, Saturday 11:00-21:00, Sunday 11:00-20:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3431",
-    "slug": "complex-speed-park",
-    "name": "Complex Speed Park",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Bacău",
-    "address": "Strada Chimiei, Bacău, 600324, Romania",
-    "lat": 46.532945,
-    "lng": 26.926251,
-    "websiteUrl": "https://www.complexspeedpark.ro/",
-    "phone": "+40 741 409 008",
-    "description": "Outdoor track with 9-13hp petrol karts for adults and sized models for children aged four to twelve, plus two-seater karts, driving lessons and group rentals.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3432",
-    "slug": "circuitul-skat-kart",
-    "name": "Circuitul Skat Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Târgu Secuiesc",
-    "address": "Strada Papp Mihály, Fortyogó, Ruseni, Târgu Secuiesc, Covasna, 525400, Romania",
-    "lat": 45.991284,
-    "lng": 26.156129,
-    "websiteUrl": "https://m.facebook.com/circuitskatkart/",
-    "phone": "+40 744 306 181",
-    "description": "1,431m outdoor track, eight to ten metres wide, recognized by the Romanian Karting Federation, open daily 09:00-19:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3433",
-    "slug": "karting-centar-jagodina",
-    "name": "Karting centar Jagodina",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Serbia",
-    "countryCode": "RS",
-    "city": "Jagodina",
-    "address": "Youmart, 1, Кнегиње Милице, Jagodina, City of Jagodina, Pomoravlje Administrative District, Central Serbia, 35000, Serbia",
-    "lat": 43.979426,
-    "lng": 21.260769,
-    "websiteUrl": "http://www.kartingjagodina.com/",
-    "phone": "+381 69 665566",
-    "description": "745m outdoor track with kids' and petrol (thermal) karts, open Monday-Friday 09:00-00:00 and weekends 09:00-01:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3434",
-    "slug": "karting-zlatibor",
-    "name": "Karting Zlatibor",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Serbia",
-    "countryCode": "RS",
-    "city": "Cajetina Municipality",
-    "address": "Метеоролошка станица Златибор, Палисад, Zlatibor, Cajetina Municipality, Zlatibor Administrative District, Central Serbia, 31310, Serbia",
-    "lat": 43.737828,
-    "lng": 19.712954,
-    "websiteUrl": "http://www.zlatiboradventure.com/tour/karting-zlatibor/",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3435",
-    "slug": "sporta-komplekss-333",
-    "name": "Sporta komplekss 333",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Mucenieki",
-    "address": "Sila Priedes, Dāvidi — Zaķumuiža — Bajārkrogs, Mucenieki, Ropažu pagasts, Ropažu novads, LV-2133, Latvia",
-    "lat": 56.950687,
-    "lng": 24.412478,
-    "websiteUrl": "https://raceway.lv/",
-    "phone": "+371 29 555 333",
-    "description": "Indoor and outdoor karting facility open Monday-Wednesday 10:00-18:00, Thursday-Saturday 10:00-19:00, Sunday 10:00-18:00.",
-    "indoorOutdoor": "both"
-  },
-  {
-    "id": "3436",
-    "slug": "elektrokartings-high-voltage",
-    "name": "Elektrokartings High Voltage",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "Rimi Super, 25, Matīsa iela, Centre, Centra apkaime, Riga, LV-1001, Latvia",
-    "lat": 56.957148,
-    "lng": 24.134239,
-    "websiteUrl": "https://elektrokartings.lv/",
-    "phone": "+371 20 454 321",
-    "description": "Indoor electric karting, open Monday-Thursday 14:00-21:00, Friday 12:00-21:00, weekends 10:00-21:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3437",
-    "slug": "madonas-karting-track",
-    "name": "Madona's Karting Track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Madona",
-    "address": "41, Gaujas iela, Madona, Madona Municipality, LV-4801, Latvia",
-    "lat": 56.865499,
-    "lng": 26.224252,
-    "phone": "+371 26 699 403",
-    "description": "Outdoor track open Tuesday-Friday 12:00-19:00 and weekends 11:00-19:00 (closed Monday).",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3438",
-    "slug": "driftland",
-    "name": "Driftland",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "8, Dzērvju iela, Latgale neighborhood, Latgales apkaime, Riga, LV-1019, Latvia",
-    "lat": 56.930492,
-    "lng": 24.167752,
-    "websiteUrl": "https://driftland.lv/",
-    "phone": "+371 28 850 001",
-    "description": "Indoor karting hall open daily 10:00-23:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3439",
-    "slug": "kartingu-halle-jekabpils",
-    "name": "Kartingu Halle Jēkabpils",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Jēkabpils",
-    "address": "3A, Ausekļa iela, Trosītes, Jēkabpils, Jēkabpils novads, LV-5201, Latvia",
-    "lat": 56.489433,
-    "lng": 25.878805,
-    "phone": "+371 22 356 249",
-    "description": "Indoor track open Monday-Thursday 14:00-20:00, Friday 14:00-22:00, Saturday 12:00-22:00, Sunday 10:00-20:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3440",
-    "slug": "kartinga-sporta-centrs",
-    "name": "Kartinga sporta centrs",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Jelgava",
-    "address": "1, Aku ceļš, Ruļļi, Tērvetes iela, Jelgava, LV-3008, Latvia",
-    "lat": 56.598826,
-    "lng": 23.68992,
-    "websiteUrl": "http://rullitis.lv/",
-    "phone": "+371 29 589 595",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3441",
-    "slug": "drift-karting",
-    "name": "Drift Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "3, Kurzemes prospekts, Imanta-1, Imanta, Imantas apkaime, Riga, LV-1067, Latvia",
-    "lat": 56.957067,
-    "lng": 24.036515,
-    "websiteUrl": "https://driftkarting.lv/",
-    "phone": "+371 26 026 707",
-    "description": "Indoor karting venue offering sessions for children.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3442",
-    "slug": "kartingslv-kartinga-halle",
-    "name": "Kartings.lv Kartinga Halle",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "77, Gustava Zemgala gatve, Teika, Teikas apkaime, Riga, LV-1039, Latvia",
-    "lat": 56.976557,
-    "lng": 24.163606,
-    "websiteUrl": "https://kartings.lv/",
-    "phone": "+371 27 304 104",
-    "description": "360m indoor track, open Monday-Thursday 12:00-21:00 and Friday-Sunday 10:00-22:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3443",
-    "slug": "bikernieku-karting-hall",
-    "name": "Biķernieku Karting Hall",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "Biķernieku Kartinga halle, 20, Sergeja Eizenšteina iela, Mežciems, Teikas apkaime, Riga, LV-1079, Latvia",
-    "lat": 56.965305,
-    "lng": 24.232209,
-    "websiteUrl": "http://www.bikerniekuhalle.lv/",
-    "phone": "+371 26 630 333",
-    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3444",
-    "slug": "go-kart-burgas",
-    "name": "Go Kart Burgas",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Bulgaria",
-    "countryCode": "BG",
-    "city": "Kableshkovo",
-    "address": "Възраждане, Kableshkovo, Pomorie, Burgas, 8210, Bulgaria",
-    "lat": 42.659837,
-    "lng": 27.564876,
-    "websiteUrl": "https://www.facebook.com/p/Картинг-писта-Бургас-Go-Kart-Burgas-61559160924560/",
-    "phone": "+359 87 911 2232",
-    "description": "370m outdoor track, open Monday-Friday 10:00-18:00 and weekends 10:00-19:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3445",
-    "slug": "karting-slunchev-bryag",
-    "name": "Картинг Слънчев бряг",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Bulgaria",
-    "countryCode": "BG",
-    "city": "Ravda",
-    "address": "България, Ravda, Nesebar, Burgas, 8238, Bulgaria",
-    "lat": 42.64886,
-    "lng": 27.679999,
-    "websiteUrl": "http://www.sunnybeachkarting.com/",
-    "phone": "+359 89 668 9858",
-    "description": "Outdoor track at Sunny Beach, open daily 10:00-19:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3446",
-    "slug": "karting-arena-split",
-    "name": "Karting Arena Split",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Croatia",
-    "countryCode": "HR",
-    "city": "Grad Kaštela",
-    "address": "4. gardijske brigade, Kaštel Stari, Grad Kaštela, Split-Dalmatia County, 21216, Croatia",
-    "lat": 43.558444,
-    "lng": 16.342126,
-    "websiteUrl": "https://ludababa.com/",
-    "phone": "+385 91 122 1101",
-    "description": "Outdoor track open daily 09:00-23:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3447",
-    "slug": "pistapark-go-kart-chania",
-    "name": "PistaPark - Go kart Chania",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Greece",
-    "countryCode": "GR",
-    "city": "Varipetro",
-    "address": "Varipetro, Municipality of Chania, Chania Regional Unit, Region of Crete, 131 36, Greece",
-    "lat": 35.466505,
-    "lng": 23.961273,
-    "websiteUrl": "https://www.gokartchania.com/",
-    "phone": "+30 2821 031771",
-    "description": "FIA-approved 1,100m outdoor track near Chania with Junior 160cc karts from age seven and 120cm, Gold 270cc from age twelve and 145cm, and Platinum 400cc from age fourteen; open Monday-Friday 14:00-22:00 and weekends 11:00-23:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3448",
-    "slug": "kartodromo-athens-kart",
-    "name": "Kartodromo Athens Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Greece",
-    "countryCode": "GR",
-    "city": "Afidnes",
-    "address": "Αγίας Τριάδος, Afidnes, Municipality of Oropos, Regional Unit of East Attica, Attica, 190 14, Greece",
-    "lat": 38.20577,
-    "lng": 23.836721,
-    "websiteUrl": "http://www.kartodromo.gr/",
-    "phone": "+30 2295 023265",
-    "description": "Outdoor track with 390cc rental karts, open Monday-Friday 10:00-22:00 and weekends 10:00-23:30.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3449",
-    "slug": "carlos-sainz-karting-las-rozas",
-    "name": "Carlos Sainz Karting Las Rozas",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Las Rozas de Madrid",
-    "address": "Carlos Sainz Karting, 3, Calle de Bruselas, Parque Industrial Tecnológico Európolis, La Puentecilla y Los Majuelos, Las Rozas de Madrid, Community of Madrid, 28232, Spain",
-    "lat": 40.500649,
-    "lng": -3.894015,
-    "websiteUrl": "http://www.kartcsainz.com/",
-    "phone": "+34 916 40 74 74",
-    "description": "450m indoor track with raised bridges and a banked turn, 6 metres wide; sessions open to children from age 8.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3450",
-    "slug": "brentwood-karting",
-    "name": "Brentwood Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "city": "Brentwood",
-    "address": "Warley Gap, Warley, Great Warley, Brentwood, Essex, England, CM13 3DP, United Kingdom",
-    "lat": 51.598877,
-    "lng": 0.295269,
-    "websiteUrl": "https://www.brentwood-karting.co.uk/",
-    "phone": "+44 1277 260001",
-    "description": "Outdoor petrol karting venue with 270cc race karts, 200cc cadet karts, and bambino karts for younger drivers, open daily 09:00-20:00.",
-    "indoorOutdoor": "outdoor"
-  },
-  {
-    "id": "3451",
+    "id": "3416",
     "slug": "absolutely-karting-maidenhead",
     "name": "Absolutely Karting Maidenhead",
     "categories": [
@@ -53944,64 +53369,81 @@
     "indoorOutdoor": "indoor"
   },
   {
-    "id": "3452",
-    "slug": "daytona-sandown-park",
-    "name": "Daytona Sandown Park",
+    "id": "3417",
+    "slug": "alpha-karting-experience",
+    "name": "Alpha Karting Experience",
     "categories": [
       "karting"
     ],
     "status": "published",
     "country": "United Kingdom",
     "countryCode": "GB",
-    "city": "Elmbridge",
-    "address": "More Lane, Esher, Elmbridge, Surrey, England, KT10 8AW, United Kingdom",
-    "lat": 51.374685,
-    "lng": -0.368776,
-    "websiteUrl": "https://www.daytona.co.uk/",
-    "phone": "+44 330 332 7870",
-    "description": "Outdoor circuit at Sandown Park racecourse running SODI 4-stroke petrol karts (50mph) and DMAX 2-stroke Rotax 125cc karts (70mph), for Bambinos age 6-7 through Adults 14+ (DMAX from age 16), open Mon-Sat 09:00-21:00 and Sun 10:00-18:00.",
+    "city": "Chesham",
+    "address": "Gordon Road, Waterside, Chesham, Chesham and Villages Community Board, Botley, Buckinghamshire, England, HP5 1PN, United Kingdom",
+    "lat": 51.699823,
+    "lng": -0.60748,
+    "phone": "+44 7496 349829",
+    "description": "Indoor karting venue open daily 10:00-16:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3418",
+    "slug": "battlekart-wien",
+    "name": "BattleKart Wien",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Austria",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "5, Trabrennstraße, Leopoldstadt, Katastralgemeinde Leopoldstadt, Leopoldstadt, Vienna, 1020, Austria",
+    "lat": 48.213076,
+    "lng": 16.41214,
+    "websiteUrl": "https://www.battlekart.com/de/wien",
+    "description": "Indoor electric karting with augmented-reality game modes on a track without fixed markings; minimum height 1.45 m.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3419",
+    "slug": "bikernieku-karting-hall",
+    "name": "Biķernieku Karting Hall",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Riga",
+    "address": "Biķernieku Kartinga halle, 20, Sergeja Eizenšteina iela, Mežciems, Teikas apkaime, Riga, LV-1079, Latvia",
+    "lat": 56.965305,
+    "lng": 24.232209,
+    "websiteUrl": "http://www.bikerniekuhalle.lv/",
+    "phone": "+371 26 630 333",
+    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3420",
+    "slug": "brentwood-karting",
+    "name": "Brentwood Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Brentwood",
+    "address": "Warley Gap, Warley, Great Warley, Brentwood, Essex, England, CM13 3DP, United Kingdom",
+    "lat": 51.598877,
+    "lng": 0.295269,
+    "websiteUrl": "https://www.brentwood-karting.co.uk/",
+    "phone": "+44 1277 260001",
+    "description": "Outdoor petrol karting venue with 270cc race karts, 200cc cadet karts, and bambino karts for younger drivers, open daily 09:00-20:00.",
     "indoorOutdoor": "outdoor"
   },
   {
-    "id": "3453",
-    "slug": "teamsport-go-karting-high-wycombe",
-    "name": "TeamSport Go Karting High Wycombe",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "city": "High Wycombe",
-    "address": "TeamSport High Wycombe, 166, Desborough Road, Daws Hill, High Wycombe Community Board, High Wycombe, Buckinghamshire, England, HP11 2DQ, United Kingdom",
-    "lat": 51.630386,
-    "lng": -0.757826,
-    "websiteUrl": "https://www.team-sport.co.uk/go-kart-tracks/high-wycombe",
-    "phone": "+44 1252 732300",
-    "description": "Indoor 500m circuit with eco electric karts, minimum age 8, open daily 09:00-23:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3454",
-    "slug": "teamworks-letchworth",
-    "name": "Teamworks Letchworth",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "city": "Letchworth",
-    "address": "34, Pixmore Avenue, Phoenix Park Estate, Jubilee Industrial Centre, Norton, Letchworth, Hertfordshire, England, SG6 1JW, United Kingdom",
-    "lat": 51.979017,
-    "lng": -0.215946,
-    "websiteUrl": "http://www.teamworkskarting.com/letchworth",
-    "phone": "+44 1462 485959",
-    "description": "Indoor 500m electric karting circuit, minimum age 8 and minimum height 125cm, open daily 09:00-22:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3455",
+    "id": "3421",
     "slug": "buckmore-park-kart-circuit",
     "name": "Buckmore Park Kart Circuit",
     "categories": [
@@ -54020,25 +53462,45 @@
     "indoorOutdoor": "outdoor"
   },
   {
-    "id": "3456",
-    "slug": "alpha-karting-experience",
-    "name": "Alpha Karting Experience",
+    "id": "3422",
+    "slug": "circuitul-skat-kart",
+    "name": "Circuitul Skat Kart",
     "categories": [
       "karting"
     ],
     "status": "published",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "city": "Chesham",
-    "address": "Gordon Road, Waterside, Chesham, Chesham and Villages Community Board, Botley, Buckinghamshire, England, HP5 1PN, United Kingdom",
-    "lat": 51.699823,
-    "lng": -0.60748,
-    "phone": "+44 7496 349829",
-    "description": "Indoor karting venue open daily 10:00-16:00.",
-    "indoorOutdoor": "indoor"
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Târgu Secuiesc",
+    "address": "Strada Papp Mihály, Fortyogó, Ruseni, Târgu Secuiesc, Covasna, 525400, Romania",
+    "lat": 45.991284,
+    "lng": 26.156129,
+    "websiteUrl": "https://m.facebook.com/circuitskatkart/",
+    "phone": "+40 744 306 181",
+    "description": "1,431m outdoor track, eight to ten metres wide, recognized by the Romanian Karting Federation, open daily 09:00-19:00.",
+    "indoorOutdoor": "outdoor"
   },
   {
-    "id": "3457",
+    "id": "3423",
+    "slug": "complex-speed-park",
+    "name": "Complex Speed Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Bacău",
+    "address": "Strada Chimiei, Bacău, 600324, Romania",
+    "lat": 46.532945,
+    "lng": 26.926251,
+    "websiteUrl": "https://www.complexspeedpark.ro/",
+    "phone": "+40 741 409 008",
+    "description": "Outdoor track with 9-13hp petrol karts for adults and sized models for children aged four to twelve, plus two-seater karts, driving lessons and group rentals.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3424",
     "slug": "daytona-milton-keynes",
     "name": "Daytona Milton Keynes",
     "categories": [
@@ -54054,6 +53516,625 @@
     "websiteUrl": "http://www.daytona.co.uk/venues/miltonkeynes/",
     "phone": "+44 330 332 7870",
     "description": "Outdoor 1360m circuit running SODI 4-stroke petrol karts (50mph) and DMAX 2-stroke Rotax 125cc karts (70mph), for Bambinos age 6-7 through Adults 14+, open varying hours across the week (e.g. Fri 13:00-21:30, Sat 08:30-18:00, Sun 08:00-17:30).",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3425",
+    "slug": "daytona-sandown-park",
+    "name": "Daytona Sandown Park",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Elmbridge",
+    "address": "More Lane, Esher, Elmbridge, Surrey, England, KT10 8AW, United Kingdom",
+    "lat": 51.374685,
+    "lng": -0.368776,
+    "websiteUrl": "https://www.daytona.co.uk/",
+    "phone": "+44 330 332 7870",
+    "description": "Outdoor circuit at Sandown Park racecourse running SODI 4-stroke petrol karts (50mph) and DMAX 2-stroke Rotax 125cc karts (70mph), for Bambinos age 6-7 through Adults 14+ (DMAX from age 16), open Mon-Sat 09:00-21:00 and Sun 10:00-18:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3426",
+    "slug": "de-vries-indoor-karting",
+    "name": "De Vries Indoor Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Heerenveen",
+    "address": "De Vries indoor karting, 3, Griend, De Akkers, Heerenveen, Frisia, Netherlands, 8443 CG, Netherlands",
+    "lat": 52.94016,
+    "lng": 5.940491,
+    "websiteUrl": "http://www.indoorkartingheerenveen.nl/",
+    "phone": "+31 513 681 662",
+    "description": "500-metre indoor track; minimum age fifteen and height 1.60m; open Tuesday-Thursday 19:00-22:00, Friday 19:00-23:00, Saturday 14:00-23:00, Sunday 14:00-21:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3427",
+    "slug": "drift-karting",
+    "name": "Drift Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Riga",
+    "address": "3, Kurzemes prospekts, Imanta-1, Imanta, Imantas apkaime, Riga, LV-1067, Latvia",
+    "lat": 56.957067,
+    "lng": 24.036515,
+    "websiteUrl": "https://driftkarting.lv/",
+    "phone": "+371 26 026 707",
+    "description": "Indoor karting venue offering sessions for children.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3428",
+    "slug": "driftland",
+    "name": "Driftland",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Riga",
+    "address": "8, Dzērvju iela, Latgale neighborhood, Latgales apkaime, Riga, LV-1019, Latvia",
+    "lat": 56.930492,
+    "lng": 24.167752,
+    "websiteUrl": "https://driftland.lv/",
+    "phone": "+371 28 850 001",
+    "description": "Indoor karting hall open daily 10:00-23:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3429",
+    "slug": "elektrokartings-high-voltage",
+    "name": "Elektrokartings High Voltage",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Riga",
+    "address": "Rimi Super, 25, Matīsa iela, Centre, Centra apkaime, Riga, LV-1001, Latvia",
+    "lat": 56.957148,
+    "lng": 24.134239,
+    "websiteUrl": "https://elektrokartings.lv/",
+    "phone": "+371 20 454 321",
+    "description": "Indoor electric karting, open Monday-Thursday 14:00-21:00, Friday 12:00-21:00, weekends 10:00-21:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3430",
+    "slug": "evokart-kiel",
+    "name": "Evokart Kiel",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Kiel",
+    "address": "40, Braunstraße, Wellsee, Kiel, Schleswig-Holstein, 24145, Germany",
+    "lat": 54.283629,
+    "lng": 10.1477,
+    "websiteUrl": "https://evokart-kiel.de/",
+    "phone": "+49 431 65959800",
+    "description": "Electric karting (SodiKart fleet) open Tue-Thu 15:00-20:00, Fri 15:00-22:00, Sat 11:00-22:00, Sun 11:00-20:00; minimum age 7 for children's mode.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3431",
+    "slug": "go-kart-burgas",
+    "name": "Go Kart Burgas",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "city": "Kableshkovo",
+    "address": "Възраждане, Kableshkovo, Pomorie, Burgas, 8210, Bulgaria",
+    "lat": 42.659837,
+    "lng": 27.564876,
+    "websiteUrl": "https://www.facebook.com/p/Картинг-писта-Бургас-Go-Kart-Burgas-61559160924560/",
+    "phone": "+359 87 911 2232",
+    "description": "370m outdoor track, open Monday-Friday 10:00-18:00 and weekends 10:00-19:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3432",
+    "slug": "gokart-racing",
+    "name": "Gokart Racing",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Sângeorgiu de Mureș",
+    "address": "Strada Plutelor, Sângeorgiu de Mureș, Targu Mures Metropolitan Area, Mureș, 540314, Romania",
+    "lat": 46.564929,
+    "lng": 24.570964,
+    "websiteUrl": "http://www.gokart-racing.ro/",
+    "phone": "+40 749 343 333",
+    "description": "Indoor track open Monday-Thursday and Sunday 10:00-00:00, Friday-Saturday 10:00-01:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3433",
+    "slug": "indoor-superkart-hemsbach",
+    "name": "Indoor Superkart Hemsbach",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Hemsbach",
+    "address": "Indoor Superkart Hemsbach, 14, Seeweg, Hemsbach, VVG der Stadt Hemsbach, Rhein-Neckar-Kreis, Baden-Württemberg, 69502, Germany",
+    "lat": 49.595598,
+    "lng": 8.632168,
+    "websiteUrl": "http://www.indoor-superkart.de/",
+    "phone": "+49 6201 493073",
+    "description": "500 m petrol indoor track open Mon-Fri 16:00-21:00 (Fri until 22:00), Sat 13:00-22:00, Sun 10:00-21:00; minimum height 1.30 m for ages 6-15, adults from age 16.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3434",
+    "slug": "indoor-kartbahn-sachsenring",
+    "name": "Indoor-Kartbahn Sachsenring",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Oberlungwitz",
+    "address": "2, Am Sachsenring, Gewerbegebiet Am Sachsenring, Oberlungwitz, Zwickau, Saxony, 09353, Germany",
+    "lat": 50.789835,
+    "lng": 12.695784,
+    "websiteUrl": "https://www.sachsenring.de/spass-action/selbst-fahren/sachsenring-indoor-kart/",
+    "phone": "+49 3723 653345",
+    "description": "Indoor kart track open Thu 17:00-21:00, Fri 17:00-22:00, Sat 15:00-22:00, Sun 15:00-20:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3435",
+    "slug": "izzi-karting",
+    "name": "Izzi Karting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Suceava",
+    "address": "Calea Unirii, Platforma Industrială Valea Sucevei, Centru, Suceava, 720019, Romania",
+    "lat": 47.660344,
+    "lng": 26.265568,
+    "websiteUrl": "https://izzikarting.ro/",
+    "phone": "+40 732 800 117",
+    "description": "300m indoor electric track with adult karts from age fifteen, children's karts from age six, and Crazy Karts; open Monday-Friday 13:00-20:00, Saturday 11:00-21:00, Sunday 11:00-20:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3436",
+    "slug": "kart-2000-wasserburg",
+    "name": "Kart 2000 Wasserburg",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Alteiselfing",
+    "address": "Kart2000, 6, Hafenham, Alteiselfing, Eiselfing, Landkreis Rosenheim, Bavaria, 83549, Germany",
+    "lat": 48.035727,
+    "lng": 12.232936,
+    "websiteUrl": "http://www.kart2000-wasserburg.de/",
+    "phone": "+49 8071 40093",
+    "description": "620 m track; open Wed-Fri 16:00-23:00, Sat 13:00-23:00, Sun 11:00-23:00; minimum height 135 cm for ages 9-17, birthday packages from age 6.",
+    "indoorOutdoor": "both"
+  },
+  {
+    "id": "3437",
+    "slug": "kart-o-mania-stuttgart",
+    "name": "Kart-o-Mania Stuttgart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Stuttgart",
+    "address": "30, Langwiesenweg, Wangen, Stuttgart, Baden-Württemberg, 70327, Germany",
+    "lat": 48.78159,
+    "lng": 9.233953,
+    "websiteUrl": "https://kart-stuttgart.de/",
+    "phone": "+49 711 484840",
+    "description": "400 m petrol indoor track (7 CV/9 CV karts) open Mon-Thu 14:30-22:00, Fri 14:30-23:00, Sat 11:00-23:00, Sun 11:00-22:00; Bambini category 1.30-1.50 m, standard minimum height 1.50 m.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3438",
+    "slug": "kartbahn-kappelen",
+    "name": "Kartbahn Kappelen",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "city": "Lyss",
+    "address": "31, Lyssstrasse, Lyss, Seeland administrative district, Seeland administrative region, Bern, 3250, Switzerland",
+    "lat": 47.065884,
+    "lng": 7.287514,
+    "websiteUrl": "http://www.kartbahnlyss.ch/",
+    "phone": "+41 32 392 22 33",
+    "description": "750 m outdoor track with electric and petrol karts, including a tunnel passage said to be unique among Swiss karting tracks, open Mon 09:00-12:00 and 13:30-20:00, Tue-Wed 09:00-20:00, Thu-Sat 09:00-21:00, Sun 10:00-18:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3439",
+    "slug": "karting-centar-jagodina",
+    "name": "Karting centar Jagodina",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Jagodina",
+    "address": "Youmart, 1, Кнегиње Милице, Jagodina, City of Jagodina, Pomoravlje Administrative District, Central Serbia, 35000, Serbia",
+    "lat": 43.979426,
+    "lng": 21.260769,
+    "websiteUrl": "http://www.kartingjagodina.com/",
+    "phone": "+381 69 665566",
+    "description": "745m outdoor track with kids' and petrol (thermal) karts, open Monday-Friday 09:00-00:00 and weekends 09:00-01:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3440",
+    "slug": "karting-star",
+    "name": "Karting Star",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Bistrița",
+    "address": "Strada Industriei, Zona Industrială, Bistrița, Bistrița-Năsăud, 420220, Romania",
+    "lat": 47.131236,
+    "lng": 24.480788,
+    "phone": "+40 755 242 987",
+    "description": "Outdoor track reportedly open daily from 10:00 to 22:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3441",
+    "slug": "karting-zlatibor",
+    "name": "Karting Zlatibor",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "city": "Cajetina Municipality",
+    "address": "Метеоролошка станица Златибор, Палисад, Zlatibor, Cajetina Municipality, Zlatibor Administrative District, Central Serbia, 31310, Serbia",
+    "lat": 43.737828,
+    "lng": 19.712954,
+    "websiteUrl": "http://www.zlatiboradventure.com/tour/karting-zlatibor/",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3442",
+    "slug": "kartinga-sporta-centrs",
+    "name": "Kartinga sporta centrs",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Jelgava",
+    "address": "1, Aku ceļš, Ruļļi, Tērvetes iela, Jelgava, LV-3008, Latvia",
+    "lat": 56.598826,
+    "lng": 23.68992,
+    "websiteUrl": "http://rullitis.lv/",
+    "phone": "+371 29 589 595",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3443",
+    "slug": "kartingslv-kartinga-halle",
+    "name": "Kartings.lv Kartinga Halle",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Riga",
+    "address": "77, Gustava Zemgala gatve, Teika, Teikas apkaime, Riga, LV-1039, Latvia",
+    "lat": 56.976557,
+    "lng": 24.163606,
+    "websiteUrl": "https://kartings.lv/",
+    "phone": "+371 27 304 104",
+    "description": "360m indoor track, open Monday-Thursday 12:00-21:00 and Friday-Sunday 10:00-22:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3444",
+    "slug": "kartingu-halle-jekabpils",
+    "name": "Kartingu Halle Jēkabpils",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Jēkabpils",
+    "address": "3A, Ausekļa iela, Trosītes, Jēkabpils, Jēkabpils novads, LV-5201, Latvia",
+    "lat": 56.489433,
+    "lng": 25.878805,
+    "phone": "+371 22 356 249",
+    "description": "Indoor track open Monday-Thursday 14:00-20:00, Friday 14:00-22:00, Saturday 12:00-22:00, Sunday 10:00-20:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3445",
+    "slug": "kartodromo-athens-kart",
+    "name": "Kartodromo Athens Kart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Greece",
+    "countryCode": "GR",
+    "city": "Afidnes",
+    "address": "Αγίας Τριάδος, Afidnes, Municipality of Oropos, Regional Unit of East Attica, Attica, 190 14, Greece",
+    "lat": 38.20577,
+    "lng": 23.836721,
+    "websiteUrl": "http://www.kartodromo.gr/",
+    "phone": "+30 2295 023265",
+    "description": "Outdoor track with 390cc rental karts, open Monday-Friday 10:00-22:00 and weekends 10:00-23:30.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3446",
+    "slug": "kiki-karting-constanta",
+    "name": "KiKi Karting Constanța",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Constanța",
+    "address": "Bulevardul Tomis, Boreal, Palazu Mare, Constanța, Constanta Metropolitan Area, Constanța, 900002, Romania",
+    "lat": 44.226786,
+    "lng": 28.589618,
+    "phone": "+40 769 822 097",
+    "description": "Outdoor leisure track by the Black Sea, open daily 12:00-20:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3447",
+    "slug": "kiki-karting-costinesti",
+    "name": "KiKi Karting Costinesti",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Costinești",
+    "address": "23, Strada Tineretului, Schitu, Costinești, Constanta Metropolitan Area, Constanța, 907091, Romania",
+    "lat": 43.95006,
+    "lng": 28.634932,
+    "phone": "+40 769 822 097",
+    "description": "Outdoor track open daily 12:00-02:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3448",
+    "slug": "koidls-prater-grand-prix-monza-kartbahn",
+    "name": "Koidls Prater (Grand Prix Monza Kartbahn)",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Austria",
+    "countryCode": "AT",
+    "city": "Vienna",
+    "address": "Alladean, 39, Praterstraße, Czerninviertel, Leopoldstadt, Katastralgemeinde Leopoldstadt, Leopoldstadt, Vienna, 1020, Austria",
+    "lat": 48.21549,
+    "lng": 16.385298,
+    "websiteUrl": "https://www.koidls-prater.at/prater-wien-attraktionen/monza/",
+    "phone": "+43 676 3836753",
+    "description": "Indoor kart track inside Vienna's Wurstelprater amusement park, open Mon-Thu 12:00-23:00, Fri 12:00-23:30, Sat 11:00-00:00, Sun 11:00-23:00; minimum height 1.45 m from age 10.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3449",
+    "slug": "madonas-karting-track",
+    "name": "Madona's Karting Track",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Madona",
+    "address": "41, Gaujas iela, Madona, Madona Municipality, LV-4801, Latvia",
+    "lat": 56.865499,
+    "lng": 26.224252,
+    "phone": "+371 26 699 403",
+    "description": "Outdoor track open Tuesday-Friday 12:00-19:00 and weekends 11:00-19:00 (closed Monday).",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3450",
+    "slug": "pistapark-go-kart-chania",
+    "name": "PistaPark - Go kart Chania",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Greece",
+    "countryCode": "GR",
+    "city": "Varipetro",
+    "address": "Varipetro, Municipality of Chania, Chania Regional Unit, Region of Crete, 131 36, Greece",
+    "lat": 35.466505,
+    "lng": 23.961273,
+    "websiteUrl": "https://www.gokartchania.com/",
+    "phone": "+30 2821 031771",
+    "description": "FIA-approved 1,100m outdoor track near Chania with Junior 160cc karts from age seven and 120cm, Gold 270cc from age twelve and 145cm, and Platinum 400cc from age fourteen; open Monday-Friday 14:00-22:00 and weekends 11:00-23:00.",
+    "indoorOutdoor": "outdoor"
+  },
+  {
+    "id": "3451",
+    "slug": "racelandkart",
+    "name": "Racelandkart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "city": "Meeuwen",
+    "address": "Racelandkart, 18C, Kerkhofstraat, Meeuwen, Oudsbergen, Maaseik, Limburg, Flanders, 3670, Belgium",
+    "lat": 51.095486,
+    "lng": 5.534968,
+    "websiteUrl": "http://www.racelandkart.be/",
+    "phone": "+32 11 79 45 99",
+    "description": "Part of a six-thousand-square-metre indoor leisure complex also offering children's karting, pit bikes, laser games and bubble football; open Tuesday-Sunday with hours varying by day.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3452",
+    "slug": "silverstone-indoorkarting",
+    "name": "Silverstone Indoorkarting",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "city": "Zwanenburg",
+    "address": "22, Weerenweg, De Weeren, Zwanenburg, Haarlemmermeer, North Holland, Netherlands, 1161 AJ, Netherlands",
+    "lat": 52.383705,
+    "lng": 4.735569,
+    "websiteUrl": "http://www.silverstone.nl/",
+    "phone": "+31 20 497 3858",
+    "description": "552-metre indoor track with 200cc petrol karts reaching around 50 km/h; open Tuesday-Friday 14:00-23:00 and Saturday-Sunday 13:00-23:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3453",
+    "slug": "sporta-komplekss-333",
+    "name": "Sporta komplekss 333",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "city": "Mucenieki",
+    "address": "Sila Priedes, Dāvidi — Zaķumuiža — Bajārkrogs, Mucenieki, Ropažu pagasts, Ropažu novads, LV-2133, Latvia",
+    "lat": 56.950687,
+    "lng": 24.412478,
+    "websiteUrl": "https://raceway.lv/",
+    "phone": "+371 29 555 333",
+    "description": "Indoor and outdoor karting facility open Monday-Wednesday 10:00-18:00, Thursday-Saturday 10:00-19:00, Sunday 10:00-18:00.",
+    "indoorOutdoor": "both"
+  },
+  {
+    "id": "3454",
+    "slug": "teamsport-go-karting-high-wycombe",
+    "name": "TeamSport Go Karting High Wycombe",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "High Wycombe",
+    "address": "TeamSport High Wycombe, 166, Desborough Road, Daws Hill, High Wycombe Community Board, High Wycombe, Buckinghamshire, England, HP11 2DQ, United Kingdom",
+    "lat": 51.630386,
+    "lng": -0.757826,
+    "websiteUrl": "https://www.team-sport.co.uk/go-kart-tracks/high-wycombe",
+    "phone": "+44 1252 732300",
+    "description": "Indoor 500m circuit with eco electric karts, minimum age 8, open daily 09:00-23:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3455",
+    "slug": "teamworks-letchworth",
+    "name": "Teamworks Letchworth",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Letchworth",
+    "address": "34, Pixmore Avenue, Phoenix Park Estate, Jubilee Industrial Centre, Norton, Letchworth, Hertfordshire, England, SG6 1JW, United Kingdom",
+    "lat": 51.979017,
+    "lng": -0.215946,
+    "websiteUrl": "http://www.teamworkskarting.com/letchworth",
+    "phone": "+44 1462 485959",
+    "description": "Indoor 500m electric karting circuit, minimum age 8 and minimum height 125cm, open daily 09:00-22:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3456",
+    "slug": "vmax-karting-brasov",
+    "name": "VMax Karting Brașov",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Romania",
+    "countryCode": "RO",
+    "city": "Brasov",
+    "address": "Strada Henri Coandă, Tractorul, Brasov, Zona Metropolitană Brașov, Brașov, 500167, Romania",
+    "lat": 45.674281,
+    "lng": 25.619172,
+    "websiteUrl": "https://vmaxbrasov.ro/",
+    "phone": "+40 774 959 913",
+    "description": "600m indoor electric track with Sodi RSX2 karts for adults from age eighteen and Sodi LRX junior karts from age eight and 1.4m tall; open Monday-Thursday 15:00-23:00, Friday 15:00-00:00, Saturday 11:00-00:00, Sunday 11:00-23:00.",
+    "indoorOutdoor": "indoor"
+  },
+  {
+    "id": "3457",
+    "slug": "karting-slunchev-bryag",
+    "name": "Картинг Слънчев бряг",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "city": "Ravda",
+    "address": "България, Ravda, Nesebar, Burgas, 8238, Bulgaria",
+    "lat": 42.64886,
+    "lng": 27.679999,
+    "websiteUrl": "http://www.sunnybeachkarting.com/",
+    "phone": "+359 89 668 9858",
+    "description": "Outdoor track at Sunny Beach, open daily 10:00-19:00.",
     "indoorOutdoor": "outdoor"
   }
 ]
