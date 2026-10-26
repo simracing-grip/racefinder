@@ -2164,7 +2164,8 @@
     "lat": 53.257564,
     "lng": -6.748963,
     "websiteUrl": "https://mondellopark.ie/",
-    "phone": "+353 45 860200"
+    "phone": "+353 45 860200",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Striker_on_trackday.JPG"
   },
   {
     "id": "130",
@@ -3042,7 +3043,8 @@
     "lat": 39.496305,
     "lng": -0.681515,
     "websiteUrl": "https://www.circuitricardotormo.com/en/",
-    "phone": "+34 96 252 52 20"
+    "phone": "+34 96 252 52 20",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Salida_Copa_Saxo_2021_Circuit_Ricardo_Tormo.jpg"
   },
   {
     "id": "185",
@@ -3146,7 +3148,8 @@
     "address": "Ahveniston moottorirata, 47, Poltinahontie, Tiiriönmäki, Tiiriö, Pullerinmäki, Hämeenlinna, Hämeenlinna sub-region, Kanta-Häme, Mainland Finland, 13100, Finland",
     "lat": 61.002006,
     "lng": 24.418921,
-    "websiteUrl": "https://ahvenistoracecircuit.com/en/"
+    "websiteUrl": "https://ahvenistoracecircuit.com/en/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ahveniston_Moottorirata_29.7.2016.jpg"
   },
   {
     "id": "191",
@@ -3268,7 +3271,8 @@
     "lat": 42.65967,
     "lng": 26.46253,
     "websiteUrl": "https://dracon.bg",
-    "phone": "+359 87 834 9017"
+    "phone": "+359 87 834 9017",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dracon.jpg"
   },
   {
     "id": "198",
@@ -3350,7 +3354,8 @@
     "address": "200, Sosnová, okres Česká Lípa, Liberec Region, 470 01, Czechia",
     "lat": 50.658391,
     "lng": 14.540174,
-    "websiteUrl": "https://www.autodrom.cz/"
+    "websiteUrl": "https://www.autodrom.cz/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Autodrom_Sosnov%C3%A12.jpg"
   },
   {
     "id": "203",
@@ -4259,7 +4264,8 @@
     "address": "Tsukiji, Kisarazu, Chiba Prefecture, 292-0835, Japan",
     "lat": 35.359327,
     "lng": 139.901268,
-    "websiteUrl": "https://www.harbor-circuit.com/"
+    "websiteUrl": "https://www.harbor-circuit.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E6%9C%A8%E6%9B%B4%E6%B4%A5%E5%BA%97%E3%82%B3%E3%83%BC%E3%82%B9.jpg"
   },
   {
     "id": "260",
@@ -4827,7 +4833,8 @@
     "lat": 38.160919,
     "lng": -122.454835,
     "websiteUrl": "https://www.sonomaraceway.com/",
-    "phone": "+1 707-509-3813"
+    "phone": "+1 707-509-3813",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sonoma_Raceway_March_2024.jpg"
   },
   {
     "id": "300",
@@ -4859,7 +4866,8 @@
     "address": "Tesla Supercharger, 24551, Lerdo Highway, Blue Moon Ranch, Buttonwillow, Kern County, California, 93206, United States",
     "lat": 35.497952,
     "lng": -119.554256,
-    "websiteUrl": "https://buttonwillowraceway.com/"
+    "websiteUrl": "https://buttonwillowraceway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Buttonwillow-controltower.jpg"
   },
   {
     "id": "302",
@@ -4892,7 +4900,8 @@
     "address": "31001, 144th Avenue Southeast, Kent, King County, Washington, 98042, United States",
     "lat": 47.323247,
     "lng": -122.152312,
-    "websiteUrl": "https://pacificraceways.com/"
+    "websiteUrl": "https://pacificraceways.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pacific_Raceways_aerial_view.jpg"
   },
   {
     "id": "304",
@@ -4908,7 +4917,8 @@
     "address": "Delta Park/Vanport Park and Ride, 1940, North Victory Boulevard, Kenton, Portland, Multnomah County, Oregon, 97217, United States",
     "lat": 45.595931,
     "lng": -122.686172,
-    "websiteUrl": "https://portlandraceway.com/"
+    "websiteUrl": "https://portlandraceway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Portland_International_Raceway_entrance.jpg"
   },
   {
     "id": "305",
@@ -4956,7 +4966,8 @@
     "address": "Radford Racing School, 20000, South Maricopa Road, Chandler, Maricopa County, Arizona, 85226, United States",
     "lat": 33.264724,
     "lng": -111.968477,
-    "websiteUrl": "https://racefirebird.com/"
+    "websiteUrl": "https://racefirebird.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Firebird_International_Raceway_Chandler_Arizona.jpg"
   },
   {
     "id": "308",
@@ -4987,7 +4998,8 @@
     "city": "Cresson",
     "address": "MotorSport Ranch, 9012, Performance Court, Cresson, Johnson County, Texas, 76035, United States",
     "lat": 32.523983,
-    "lng": -97.615943
+    "lng": -97.615943,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/MotorSport_Ranch_orthophoto_20150115.jpg"
   },
   {
     "id": "310",
@@ -5004,7 +5016,8 @@
     "lat": 33.235068,
     "lng": -97.583049,
     "websiteUrl": "https://eaglescanyon.com/",
-    "phone": "+1 817-583-9476"
+    "phone": "+1 817-583-9476",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eagles_Canyon_Raceway_orthophoto_20150202.jpg"
   },
   {
     "id": "311",
@@ -5020,7 +5033,8 @@
     "address": "Briggs Lane, San Marcos, Hays County, Texas, 78656, United States",
     "lat": 29.918407,
     "lng": -97.877471,
-    "websiteUrl": "https://harrishillroad.com/"
+    "websiteUrl": "https://harrishillroad.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Harris_Hill_Raceway_USGS_TNRIS_20150120.jpg"
   },
   {
     "id": "312",
@@ -5084,7 +5098,8 @@
     "address": "Autobahn Parkway South, Joliet, Will County, Illinois, 60421, United States",
     "lat": 41.453776,
     "lng": -88.125703,
-    "phone": "+1 815-722-2223"
+    "phone": "+1 815-722-2223",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Autobahn_Country_Club_orthophoto_2010-04-01.jpg"
   },
   {
     "id": "316",
@@ -5099,7 +5114,8 @@
     "city": "South Beloit",
     "address": "Blackhawk Farms Raceway, 15538, Prairie Road, South Beloit, Rockton Township, Winnebago County, Illinois, 61080, United States",
     "lat": 42.487516,
-    "lng": -89.114653
+    "lng": -89.114653,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/BlackhawkFarmsFlagstand.jpg"
   },
   {
     "id": "317",
@@ -5116,7 +5132,8 @@
     "lat": 40.689008,
     "lng": -82.636355,
     "websiteUrl": "https://midohio.com/",
-    "phone": "+1 419-884-4000"
+    "phone": "+1 419-884-4000",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mid-Ohio_Sports_Car_Course_%2816168219601%29.jpg"
   },
   {
     "id": "318",
@@ -5131,7 +5148,8 @@
     "city": "Wampum",
     "address": "Pittsburgh International Race Complex, 201, Penndale Road, Hoytdale, Wampum, Beaver County, Pennsylvania, 16157, United States",
     "lat": 40.847973,
-    "lng": -80.347236
+    "lng": -80.347236,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pitt_Race_Ariel_Photo.jpg"
   },
   {
     "id": "319",
@@ -5147,7 +5165,8 @@
     "address": "251, Motorsports Park Circle, Summit Point, Jefferson County, West Virginia, 25446, United States",
     "lat": 39.242599,
     "lng": -77.974767,
-    "websiteUrl": "https://summitpointmp.com/"
+    "websiteUrl": "https://summitpointmp.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Summit_point_satellite.png"
   },
   {
     "id": "320",
@@ -5178,7 +5197,8 @@
     "address": "348;350, Main Street, Lakeville, Salisbury, Northwest Hills Planning Region, Connecticut, 06039, United States",
     "lat": 41.964537,
     "lng": -73.440121,
-    "websiteUrl": "https://limerock.com/"
+    "websiteUrl": "https://limerock.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Limerockfield2007.JPG"
   },
   {
     "id": "322",
@@ -5211,7 +5231,8 @@
     "address": "Palmer Motorsports Park Track Office, 58, West Ware Street, Palmer, Hampden County, Massachusetts, 01092, United States",
     "lat": 42.225991,
     "lng": -72.252753,
-    "websiteUrl": "https://palmermsp.com/"
+    "websiteUrl": "https://palmermsp.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Palmer_Motorsports_Park_aerial_orthophoto.jpg"
   },
   {
     "id": "324",
@@ -5227,7 +5248,8 @@
     "address": "Cardiovascular Clinic of North Georgia, 5670, Old Winder Highway, Braselton, Hall County, Georgia, 30517, United States",
     "lat": 34.1278,
     "lng": -83.830382,
-    "websiteUrl": "https://michelinracewayroadatlanta.com/"
+    "websiteUrl": "https://michelinracewayroadatlanta.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Road_Atlanta_Aerial_-_September_2016_%2844744697301%29.jpg"
   },
   {
     "id": "325",
@@ -5277,7 +5299,8 @@
     "lat": 37.001968,
     "lng": -86.368388,
     "websiteUrl": "https://www.motorsportspark.org/",
-    "phone": "+1 844-977-7333"
+    "phone": "+1 844-977-7333",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Solar_Car_on_the_Track_at_FSGP_2024.jpg"
   },
   {
     "id": "328",
@@ -5293,7 +5316,8 @@
     "address": "Barber Motorsports Parkway, Birmingham, Jefferson County, Alabama, 35094, United States",
     "lat": 33.535298,
     "lng": -86.607445,
-    "websiteUrl": "https://barberracingevents.com/"
+    "websiteUrl": "https://barberracingevents.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Barber_Motorsports_Park_Aerial_%2834804699780%29.jpg"
   },
   {
     "id": "329",
@@ -5309,7 +5333,8 @@
     "address": "101, Nicolle Boulevard, Avondale, Waggaman, Jefferson Parish, Louisiana, 70094, United States",
     "lat": 29.894544,
     "lng": -90.209125,
-    "websiteUrl": "https://nolamotor.com/"
+    "websiteUrl": "https://nolamotor.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/NOLA_Motorsports_Park_main_entrance.jpg"
   },
   {
     "id": "330",
@@ -5375,7 +5400,8 @@
     "address": "Rice Road, Desert Center, Riverside County, California, 92239, United States",
     "lat": 33.714956,
     "lng": -115.399479,
-    "websiteUrl": "https://chuckwalla.com/"
+    "websiteUrl": "https://chuckwalla.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chuckwalla_Valley_Raceway_aerial_photo_2022-05-02.jpg"
   },
   {
     "id": "334",
@@ -5392,7 +5418,8 @@
     "lat": 36.181349,
     "lng": -96.568879,
     "websiteUrl": "https://www.hallettracing.net/",
-    "phone": "+1 918-356-4814"
+    "phone": "+1 918-356-4814",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hallett_Motor_Racing_Circuit_aerial_photo_2023-10-16.jpg"
   },
   {
     "id": "335",
@@ -5409,7 +5436,8 @@
     "lat": 29.277743,
     "lng": -95.422079,
     "websiteUrl": "https://msrhouston.com/",
-    "phone": "+1 281-595-3305"
+    "phone": "+1 281-595-3305",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/MSR_Houston_orthophoto_20150210.jpg"
   },
   {
     "id": "336",
@@ -5441,7 +5469,8 @@
     "address": "Motorsports Hall of Fame of America, 1801, West International Speedway Boulevard, Daytona Beach, Volusia County, Florida, 32114, United States",
     "lat": 29.19183,
     "lng": -81.067868,
-    "websiteUrl": "https://www.daytonainternationalspeedway.com/"
+    "websiteUrl": "https://www.daytonainternationalspeedway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/2018_Coke_Zero_Sugar_400_beginning_from_frontstretch.jpg"
   },
   {
     "id": "338",
@@ -5472,7 +5501,8 @@
     "city": "Greater Noida",
     "address": "JP Greens Golf Course, Pari Chowk, Sector 20, Greater Noida, Gautam Buddha Nagar, Uttar Pradesh, 210310, India",
     "lat": 28.467073,
-    "lng": 77.513765
+    "lng": 77.513765,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Buddh_International_Circuit_aerial.jpg"
   },
   {
     "id": "340",
@@ -5487,7 +5517,8 @@
     "city": "Irungattukottai",
     "address": "Irungattukottai, Sriperumbudur, Kanchipuram, Tamil Nadu, 602117, India",
     "lat": 12.995361,
-    "lng": 79.99042
+    "lng": 79.99042,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/The_Paddock.JPG"
   },
   {
     "id": "341",
@@ -5502,7 +5533,8 @@
     "city": "Mimasaka",
     "address": "Okayama International Circuit, Takimiya, Mimasaka, Okayama Prefecture, 701-2612, Japan",
     "lat": 34.914215,
-    "lng": 134.220253
+    "lng": 134.220253,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/2009_1000km_of_Okayama_%28Race_1%29_opening_lap.jpg"
   },
   {
     "id": "342",
@@ -5517,7 +5549,8 @@
     "city": "Hita",
     "address": "日田玖珠線, Tanso 1-chome, Nakajomachi, Hita, Oita Prefecture, 877-0003, Japan",
     "lat": 33.321165,
-    "lng": 130.941132
+    "lng": 130.941132,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Autopolis_racing_circuit_%28Kamitsue%2C_Oita%2C_Japan%29.JPG"
   },
   {
     "id": "343",
@@ -5547,7 +5580,8 @@
     "city": "Nihonmatsu",
     "address": "二本松市役所, 二本松安達線, 本町二丁目, 金色久保, Nihonmatsu, Fukushima Prefecture, 964-8799, Japan",
     "lat": 37.58504,
-    "lng": 140.431389
+    "lng": 140.431389,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ebisu_Circuit_East_002.JPG"
   },
   {
     "id": "345",
@@ -5577,7 +5611,8 @@
     "city": "Eungok-ri",
     "address": "Yeongam, Muyeong-ro, Eungok-ri, Yeongam-gun, Jeonnam-Gwangju Special Metropolitan City, 58439, South Korea",
     "lat": 34.758742,
-    "lng": 126.530939
+    "lng": 126.530939,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/2012_Korean_GP_Lotus_Ferrari.jpg"
   },
   {
     "id": "347",
@@ -5592,7 +5627,8 @@
     "city": "Girin-myeon",
     "address": "Paddock, Sanghadap-ro, Buk-ri, Girin-myeon, Inje-gun, Gangwon State, 24654, South Korea",
     "lat": 38.0015,
-    "lng": 128.292613
+    "lng": 128.292613,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/%EC%9D%B8%EC%A0%9C%EC%8A%A4%ED%94%BC%EB%94%94%EC%9B%80_%EC%A0%84%EA%B2%BD%28%EC%95%BC%EA%B2%BD%29.jpg"
   },
   {
     "id": "348",
@@ -5652,7 +5688,8 @@
     "city": "Songjiang District",
     "address": "Shenzhuan Highway, Sheshan, Songjiang District, Shanghai, 201602, China",
     "lat": 31.085566,
-    "lng": 121.183403
+    "lng": 121.183403,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/HiPhi_X_at_the_Shanghai_Tianma_Circuit_20210102-3.jpg"
   },
   {
     "id": "352",
@@ -5668,7 +5705,8 @@
     "address": "Dubai Autodrome, Turin Boulevard Road, Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
     "lat": 25.050158,
     "lng": 55.236342,
-    "websiteUrl": "https://dubaiautodrome.ae/"
+    "websiteUrl": "https://dubaiautodrome.ae/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Finish_line_Dubai_Autodrome.jpg"
   },
   {
     "id": "353",
@@ -5685,7 +5723,8 @@
     "lat": -25.996081,
     "lng": 28.074441,
     "websiteUrl": "https://kyalamigrandprixcircuit.com/",
-    "phone": "+27 11 466 0204"
+    "phone": "+27 11 466 0204",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kyalami_air.jpg"
   },
   {
     "id": "354",
@@ -5719,7 +5758,8 @@
     "lat": -33.826225,
     "lng": 18.529515,
     "websiteUrl": "https://wpmc.co.za/",
-    "phone": "+27 21 557 1639"
+    "phone": "+27 21 557 1639",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vista_a%C3%A9rea_del_Killarney_Motor_Racing_Complex.jpg"
   },
   {
     "id": "356",
@@ -6747,7 +6787,8 @@
     "lat": -38.496687,
     "lng": 145.225084,
     "websiteUrl": "https://www.phillipislandcircuit.com.au/",
-    "phone": "+61 3 5952 2710"
+    "phone": "+61 3 5952 2710",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Phillip_Island_Aerial_View.jpg"
   },
   {
     "id": "419",
@@ -6780,7 +6821,8 @@
     "address": "One Raceway, 4770, Braidwood Road, Springfield, Tirrannaville, New South Wales, 2580, Australia",
     "lat": -34.841631,
     "lng": 149.687137,
-    "websiteUrl": "https://www.oneraceway.com.au/"
+    "websiteUrl": "https://www.oneraceway.com.au/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mixed_grid_%285440976074%29.jpg"
   },
   {
     "id": "421",
@@ -6796,7 +6838,8 @@
     "address": "Mountain Straight, Mount Panorama, Bathurst, New South Wales, 2795, Australia",
     "lat": -33.443926,
     "lng": 149.554692,
-    "websiteUrl": "https://www.bathurstregion.com.au/venue/mount-panorama-motor-racing-circuit/"
+    "websiteUrl": "https://www.bathurstregion.com.au/venue/mount-panorama-motor-racing-circuit/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mount_Panorama_Pit_Straight_and_Pit_Lane_2015.JPG"
   },
   {
     "id": "422",
@@ -6845,7 +6888,8 @@
     "lat": -27.695023,
     "lng": 152.655412,
     "websiteUrl": "https://www.qldraceways.com.au",
-    "phone": "07 5461 9100"
+    "phone": "07 5461 9100",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Australian_Formula_Ford_Ipswich_2011.jpg"
   },
   {
     "id": "425",
@@ -6861,7 +6905,8 @@
     "address": "Narangba Road, Kurwongbah, Brisbane, Queensland, 4503, Australia",
     "lat": -27.231738,
     "lng": 152.975765,
-    "websiteUrl": "https://lakesidepark.com.au/"
+    "websiteUrl": "https://lakesidepark.com.au/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lakeside_Raceway_Queensland_1970s.jpg"
   },
   {
     "id": "426",
@@ -6894,7 +6939,8 @@
     "address": "Wattle Avenue West, Nowergup, Western Australia, 6032, Australia",
     "lat": -31.665201,
     "lng": 115.740449,
-    "websiteUrl": "https://wannerooraceway.com.au"
+    "websiteUrl": "https://wannerooraceway.com.au",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wanneroo_Mar_1985_009.jpg"
   },
   {
     "id": "428",
@@ -6928,7 +6974,8 @@
     "lat": -34.415,
     "lng": 138.504722,
     "websiteUrl": "https://www.mallala.com/",
-    "phone": "08 8527 2541"
+    "phone": "08 8527 2541",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Race_Control_%26_PA_Centre_at_Mallala_Motor_Sport_Park.JPG"
   },
   {
     "id": "430",
@@ -6976,7 +7023,8 @@
     "address": "Darwin Motorcycle Riding School, 171, Hidden Valley Road, Hidden Valley, Darwin, Northern Territory, 0822, Australia",
     "lat": -12.444271,
     "lng": 130.907265,
-    "websiteUrl": "https://nt.gov.au/leisure/sport/facilities-and-contacts/find-a-sports-facility/hidden-valley-motor-sports-complex"
+    "websiteUrl": "https://nt.gov.au/leisure/sport/facilities-and-contacts/find-a-sports-facility/hidden-valley-motor-sports-complex",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Aerial_view_of_Hidden_Valley.jpg"
   },
   {
     "id": "433",
@@ -7318,7 +7366,8 @@
     "lat": -45.035944,
     "lng": 169.212776,
     "websiteUrl": "https://www.highlands.co.nz/",
-    "phone": "03 445 4052"
+    "phone": "03 445 4052",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Highlands_Motorsport_Park.jpg"
   },
   {
     "id": "454",
@@ -7564,7 +7613,8 @@
     "city": "Cascavel",
     "address": "Rua Três Poderes, Jardim Veneza, Cascavel, Paraná, South Region, 85818-560, Brazil",
     "lat": -24.973888,
-    "lng": -53.396038
+    "lng": -53.396038,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aut%C3%B3dromo_Zilmar_Beux_-_Cascavel_01.JPG"
   },
   {
     "id": "469",
@@ -7642,7 +7692,8 @@
     "city": "Codegua",
     "address": "Ruta 5 Sur, Santa Julia, Codegua, Provincia de Cachapoal, O'Higgins Region, 2120000, Chile",
     "lat": -34.02957,
-    "lng": -70.704963
+    "lng": -70.704963,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Aut%C3%B3dromo_Internacional_de_Codegua.jpg"
   },
   {
     "id": "474",
@@ -7708,7 +7759,8 @@
     "lat": 4.97371,
     "lng": -73.92118,
     "websiteUrl": "https://autodromodetocancipa.com/",
-    "phone": "+57 315 332 7192"
+    "phone": "+57 315 332 7192",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Aut%C3%B3dromo_de_Tocancip%C3%A1_-_panoramio.jpg"
   },
   {
     "id": "479",
@@ -7740,7 +7792,8 @@
     "city": "Ciudad de la Costa",
     "address": "157, Avenida Manuel Oribe, El Pinar, Ciudad de la Costa, Municipio de Salinas, Canelones, 15800, Uruguay",
     "lat": -34.796898,
-    "lng": -55.907669
+    "lng": -55.907669,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Aut%C3%B3dromo_V%C3%ADctor_Borrat_Fabini_%28175476699%29.jpeg"
   },
   {
     "id": "481",
@@ -8265,7 +8318,8 @@
     "lat": -30.048591,
     "lng": -51.016641,
     "websiteUrl": "https://www.autodromodetaruma.com.br/",
-    "phone": "+55 51 3485-1510"
+    "phone": "+55 51 3485-1510",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Aut%C3%B3dromo_Internacional_de_Tarum%C3%A3.JPG"
   },
   {
     "id": "513",
@@ -8282,7 +8336,8 @@
     "lat": -3.890426,
     "lng": -38.455945,
     "websiteUrl": "https://www.esporte.ce.gov.br/autodromo/",
-    "phone": "+55 85 3101-4410"
+    "phone": "+55 85 3101-4410",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Autodromo_do_Eusebio_torre_de_controle_e_boxes.jpg"
   },
   {
     "id": "514",
@@ -8313,7 +8368,8 @@
     "city": "Brasília",
     "address": "Autódromo Internacional de Brasília, SRPN Trecho 1, Quadra 1, Setor de Administração Municipal, Brasília, Plano Piloto, Federal District, Central-West Region, 71705-500, Brazil",
     "lat": -15.776538,
-    "lng": -47.902791
+    "lng": -47.902791,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Aut%C3%B3dromo_de_Bras%C3%ADlia.jpg"
   },
   {
     "id": "516",
@@ -8393,7 +8449,8 @@
     "address": "Rua Antônio Maria Coelho, Vivendas do Bosque, Santa Fé, Campo Grande, Mato Grosso do Sul, Central-West Region, 79021-160, Brazil",
     "lat": -20.451121,
     "lng": -54.580843,
-    "phone": "+55 67 3025-1910"
+    "phone": "+55 67 3025-1910",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Campo_Grande_Speedway_%285797861359%29.jpg"
   },
   {
     "id": "521",
@@ -8520,7 +8577,8 @@
     "city": "Rafaela",
     "address": "Ex FC Belgrano, Microcentro, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
     "lat": -31.252692,
-    "lng": -61.491676
+    "lng": -61.491676,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/TC_Rafaela_2007.png"
   },
   {
     "id": "530",
@@ -8551,7 +8609,8 @@
     "address": "Ruta Nacional 12, Paraná, Municipio de Paraná, Distrito Sauce, Departamento Paraná, Entre Ríos Province, E3106LEQ, Argentina",
     "lat": -31.787269,
     "lng": -60.456581,
-    "phone": "+54 343 497-9195"
+    "phone": "+54 343 497-9195",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Aut%C3%B3dromo_Ciudad_de_Paran%C3%A1_10.jpg"
   },
   {
     "id": "532",
@@ -8566,7 +8625,8 @@
     "city": "Municipio de Centenario",
     "address": "Julio Holzmann, Primeros Pobladores, Centenario, Municipio de Centenario, Departamento Confluencia, Neuquén, Q8309, Argentina",
     "lat": -38.844667,
-    "lng": -68.152684
+    "lng": -68.152684,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Autodromo_Centenario.jpg"
   },
   {
     "id": "533",
@@ -8596,7 +8656,8 @@
     "city": "Rivadavia",
     "address": "Avenida José Ignacio de la Roza, Comuna La Bebida, Rivadavia, San Juan, 5478, Argentina",
     "lat": -31.546595,
-    "lng": -68.650544
+    "lng": -68.650544,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Aut%C3%B3dromo_El_Zonda_%2811426838783%29.jpg"
   },
   {
     "id": "535",
@@ -8613,7 +8674,8 @@
     "lat": -27.495925,
     "lng": -64.864078,
     "websiteUrl": "https://autodromotermas.com/",
-    "phone": "+54 385 421-8606"
+    "phone": "+54 385 421-8606",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Marc_M%C3%A1rquez_and_the_pack_2016_Termas_de_R%C3%ADo_Hondo.jpg"
   },
   {
     "id": "536",
@@ -8629,7 +8691,8 @@
     "address": "Jorge Newbery, Rosario, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
     "lat": -31.236589,
     "lng": -61.465787,
-    "phone": "+54 341 451-9654"
+    "phone": "+54 341 451-9654",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/TC_Rafaela_2007.png"
   },
   {
     "id": "537",
@@ -9040,7 +9103,8 @@
     "lat": -32.209218,
     "lng": 115.786745,
     "websiteUrl": "https://www.motorplex.com.au/",
-    "phone": "(08) 9419 6622"
+    "phone": "(08) 9419 6622",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kwinana_Motorplex_SMC.jpg"
   },
   {
     "id": "564",
@@ -9514,7 +9578,8 @@
     "city": "Municipio de Desaguadero",
     "address": "Ruta Nacional 7, Municipio de Desaguadero, Juan Martín de Pueyrredón, San Luis, Argentina",
     "lat": -33.407477,
-    "lng": -67.143749
+    "lng": -67.143749,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/TC_San_Luis_2012_largada.jpg"
   },
   {
     "id": "593",
@@ -9529,7 +9594,8 @@
     "city": "Concepción del Uruguay",
     "address": "700, San Martín, Concepción del Uruguay, Distrito Molino, Departamento Uruguay, Entre Ríos Province, E3260FTD, Argentina",
     "lat": -32.485185,
-    "lng": -58.232023
+    "lng": -58.232023,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Aut%C3%B3dromo_de_Concepci%C3%B3n_del_Uruguay_2017_%281%29.jpg"
   },
   {
     "id": "594",
@@ -9560,7 +9626,8 @@
     "city": "San Nicolás de los Arroyos",
     "address": "69, Bartolomé Mitre, Centro, San Nicolás de los Arroyos, Partido de San Nicolás, Buenos Aires, 2900, Argentina",
     "lat": -33.327709,
-    "lng": -60.216591
+    "lng": -60.216591,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aut%C3%B3dromo_San_Nicol%C3%A1s_Ciudad%2C_Torre_de_Control.jpg"
   },
   {
     "id": "596",
@@ -9575,7 +9642,8 @@
     "city": "Balneario Laguna de Gómez",
     "address": "Autódromo Eusebio Marcilla, Camino al Parque Natural Laguna de Gómez, Balneario Laguna de Gómez, Partido de Junín, Buenos Aires, Argentina",
     "lat": -34.650449,
-    "lng": -61.019072
+    "lng": -61.019072,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Jun%C3%ADn_Aut%C3%B3dromo_20120430.jpg"
   },
   {
     "id": "597",
@@ -9605,7 +9673,8 @@
     "city": "Comodoro Rivadavia",
     "address": "Avenida Hipólito Yrigoyen, Centro, Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
     "lat": -45.864006,
-    "lng": -67.478397
+    "lng": -67.478397,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/General_san_martin_comodoro_%281%29.JPG"
   },
   {
     "id": "599",
@@ -38243,7 +38312,8 @@
     "lat": 39.790319,
     "lng": -86.233693,
     "websiteUrl": "https://www.indianapolismotorspeedway.com",
-    "phone": "(317) 492-8500"
+    "phone": "(317) 492-8500",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Indianapolis-motor-speedway-1848561.jpg"
   },
   {
     "id": "2724",
@@ -38260,7 +38330,8 @@
     "lat": 51.537068,
     "lng": 13.931526,
     "websiteUrl": "https://dekra-lausitzring.de/",
-    "phone": "+49 35754 33733"
+    "phone": "+49 35754 33733",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/ADAC_GT_Masters_-_EuroSpeedway_Lausitz_2012-_stands_and_flags_%281%29.jpg"
   },
   {
     "id": "2725",
@@ -38713,7 +38784,8 @@
     "lat": 49.211076,
     "lng": 16.409579,
     "websiteUrl": "https://automotodrombrno.cz",
-    "phone": "+420 546 123 300"
+    "phone": "+420 546 123 300",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Masaryk%C5%AFv_okruh05831.jpg"
   },
   {
     "id": "2757",
@@ -43305,7 +43377,8 @@
     "address": "Utsunomiya City hall, 5, 旭一丁目, 本丸町, Utsunomiya, Tochigi Prefecture, 320-8540, Japan",
     "lat": 36.554968,
     "lng": 139.882878,
-    "websiteUrl": "https://www.nikko-circuit.jp/"
+    "websiteUrl": "https://www.nikko-circuit.jp/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nikko_Circuit_2021.jpg"
   },
   {
     "id": "3049",
@@ -43407,7 +43480,8 @@
     "lat": 34.790086,
     "lng": 137.178723,
     "websiteUrl": "http://www.itoracing.co.jp/snmp/index.htm",
-    "phone": "+81 533-58-1111"
+    "phone": "+81 533-58-1111",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/SPA_Nishiura_Motor_Park_Straight.jpg"
   },
   {
     "id": "3055",
@@ -43522,7 +43596,8 @@
     "city": "Melbourne",
     "address": "Calder Park Raceway, 377, Calder Freeway, Calder Park, Melbourne, Victoria, 3037, Australia",
     "lat": -37.672627,
-    "lng": 144.756419
+    "lng": 144.756419,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Calder_Park_aerial.jpg"
   },
   {
     "id": "3062",
@@ -43584,7 +43659,8 @@
     "address": "Chettipalayam, Coimbatore South, Coimbatore, Tamil Nadu, 641201, India",
     "lat": 10.913828,
     "lng": 77.03747,
-    "websiteUrl": "https://lgsports.co.in/"
+    "websiteUrl": "https://lgsports.co.in/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Racing_action_in_Coimbatore.jpg"
   },
   {
     "id": "3066",
@@ -43629,7 +43705,8 @@
     "city": "Kangbashi District",
     "address": "Binhe Subdistrict, Kangbashi District, Ordos City, Inner Mongolia, 017010, China",
     "lat": 39.606782,
-    "lng": 109.854624
+    "lng": 109.854624,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ordos_Intl_Circuit_Main_Grandstand.jpg"
   },
   {
     "id": "3069",
@@ -43724,7 +43801,8 @@
     "lat": 50.994289,
     "lng": 5.262132,
     "websiteUrl": "https://www.circuit-zolder.be",
-    "phone": "+32 11 85 88 88"
+    "phone": "+32 11 85 88 88",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Circuit_Zolder_6-11-2008_16-29-22.jpg"
   },
   {
     "id": "3075",
@@ -43758,7 +43836,8 @@
     "lat": 50.301832,
     "lng": 4.652927,
     "websiteUrl": "https://mettet-xp.be",
-    "phone": "+32 71 71 00 80"
+    "phone": "+32 71 71 00 80",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/World_RX_-_2018_-_RD3_Belgium_%2841164642945%29.jpg"
   },
   {
     "id": "3077",
@@ -43774,7 +43853,8 @@
     "address": "Am Rögelberg, Hüntel, Meppen, Landkreis Emsland, Lower Saxony, 49716, Germany",
     "lat": 52.76439,
     "lng": 7.290812,
-    "websiteUrl": "https://circuitmeppen.driving-fun.com/de/"
+    "websiteUrl": "https://circuitmeppen.driving-fun.com/de/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Circuit_Meppen_Luftbild_10_2022.jpg"
   },
   {
     "id": "3078",
@@ -43791,7 +43871,8 @@
     "lat": 51.99879,
     "lng": 13.686337,
     "websiteUrl": "https://spreewaldring.de",
-    "phone": "+49 35477 65911"
+    "phone": "+49 35477 65911",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Spreewaldring01.jpg"
   },
   {
     "id": "3079",
@@ -43807,7 +43888,8 @@
     "address": "Fahrendorfer Weg, Düneberg, Geesthacht, Kreis Herzogtum Lauenburg, Schleswig-Holstein, 21502, Germany",
     "lat": 53.452818,
     "lng": 10.36048,
-    "websiteUrl": "https://www.msc-geesthacht.de"
+    "websiteUrl": "https://www.msc-geesthacht.de",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Heidbergring_Fahrerlager.jpg"
   },
   {
     "id": "3080",
@@ -43857,7 +43939,8 @@
     "lat": 48.978499,
     "lng": 2.555165,
     "websiteUrl": "https://www.circuit-carole.com",
-    "phone": "+33 1 48 63 73 54"
+    "phone": "+33 1 48 63 73 54",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Circuit-carole-vue-aerienne.jpg"
   },
   {
     "id": "3083",
@@ -43942,7 +44025,8 @@
     "lat": 43.358301,
     "lng": 6.324065,
     "websiteUrl": "http://www.circuitduvar.com",
-    "phone": "+33 4 94 50 37 00"
+    "phone": "+33 4 94 50 37 00",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Photo_passerelle_circuit_du_Luc.jpg"
   },
   {
     "id": "3088",
@@ -43959,7 +44043,8 @@
     "lat": 43.253579,
     "lng": 5.768986,
     "websiteUrl": "https://www.circuitpaulricard.com",
-    "phone": "+33 4 94 98 36 66"
+    "phone": "+33 4 94 98 36 66",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Paul_Ricard_entr%C3%A9e_stands.JPG"
   },
   {
     "id": "3089",
@@ -44010,7 +44095,8 @@
     "lat": 44.165593,
     "lng": 4.075258,
     "websiteUrl": "https://www.pole-mecanique.fr",
-    "phone": "+33 4 66 30 31 35"
+    "phone": "+33 4 66 30 31 35",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vue_a%C3%A9rienne_pole_m%C3%A9canique.jpg"
   },
   {
     "id": "3092",
@@ -44027,7 +44113,8 @@
     "lat": 43.923976,
     "lng": 4.505549,
     "websiteUrl": "http://www.ledenon.com",
-    "phone": "+33 4 66 37 11 37"
+    "phone": "+33 4 66 37 11 37",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Virage_gauche_l%C3%A9denon.JPG"
   },
   {
     "id": "3093",
@@ -44044,7 +44131,8 @@
     "lat": 43.769409,
     "lng": -0.039283,
     "websiteUrl": "https://www.circuit-nogaro.com",
-    "phone": "+33 5 62 09 02 49"
+    "phone": "+33 5 62 09 02 49",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/FFSA_GT_2017_Nogaro.jpg"
   },
   {
     "id": "3094",
@@ -44112,7 +44200,8 @@
     "lat": 47.945635,
     "lng": 7.429037,
     "websiteUrl": "http://www.anneau-du-rhin.com",
-    "phone": "+33 3 89 49 99 04"
+    "phone": "+33 3 89 49 99 04",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Anneau_du_Rhin_004.JPG"
   },
   {
     "id": "3098",
@@ -44213,7 +44302,8 @@
     "lat": 50.38142,
     "lng": 2.274689,
     "websiteUrl": "http://www.circuitdecroix.com",
-    "phone": "+33 3 21 03 30 13"
+    "phone": "+33 3 21 03 30 13",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Circuit_de_Croix_en_Ternois_-_Virage_de_l%27%C3%A9cole.jpg"
   },
   {
     "id": "3104",
@@ -44280,7 +44370,8 @@
     "lat": 47.483894,
     "lng": -0.346824,
     "websiteUrl": "https://www.lemans.org",
-    "phone": "+33 2 43 40 24 30"
+    "phone": "+33 2 43 40 24 30",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bugatti_Circuit1.jpg"
   },
   {
     "id": "3108",
@@ -44297,7 +44388,8 @@
     "lat": 47.860647,
     "lng": -1.896623,
     "websiteUrl": "https://www.manoir-automobile.fr",
-    "phone": "+33 2 99 34 02 32"
+    "phone": "+33 2 99 34 02 32",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/CircuitDeLoheac2001.jpg"
   },
   {
     "id": "3109",
@@ -44314,7 +44406,8 @@
     "lat": 46.863755,
     "lng": 3.166212,
     "websiteUrl": "https://www.circuitmagnycours.com",
-    "phone": "+33 3 86 21 80 00"
+    "phone": "+33 3 86 21 80 00",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Magnycourt1new.jpg"
   },
   {
     "id": "3110",
@@ -44331,7 +44424,8 @@
     "lat": 47.363075,
     "lng": 4.90016,
     "websiteUrl": "http://www.circuit-dijon-prenois.com",
-    "phone": "+33 3 80 35 32 22"
+    "phone": "+33 3 80 35 32 22",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dijon-Prenois1.jpg"
   },
   {
     "id": "3111",
@@ -44348,7 +44442,8 @@
     "lat": 45.725265,
     "lng": 3.009291,
     "websiteUrl": "https://www.charade.fr",
-    "phone": "+33 4 73 29 52 95"
+    "phone": "+33 4 73 29 52 95",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/GCK_Charade.png"
   },
   {
     "id": "3112",
@@ -44363,7 +44458,8 @@
     "city": "Linas",
     "address": "Avenue Georges Boillot, Saint-Eutrope, Linas, Palaiseau, Essonne, Ile-de-France, Metropolitan France, 91310, France",
     "lat": 48.62299,
-    "lng": 2.248298
+    "lng": 2.248298,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/L%27autodrome_de_Linas-Montlh%C3%A9ry_en_1924.jpg"
   },
   {
     "id": "3113",
@@ -44380,7 +44476,8 @@
     "lat": 38.995092,
     "lng": -1.855915,
     "websiteUrl": "http://www.circuitoalbacete.es",
-    "phone": "+34 967 24 25 10"
+    "phone": "+34 967 24 25 10",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Circuito_de_Albacete_durante_un_entrenamiento.jpg"
   },
   {
     "id": "3114",
@@ -44413,7 +44510,8 @@
     "address": "Carretera del Mediterráneo, Los Yesos, Tabernas, Almería, Andalusia, Spain",
     "lat": 37.0899,
     "lng": -2.2719,
-    "websiteUrl": "https://almeriacircuit.com"
+    "websiteUrl": "https://almeriacircuit.com",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Circuito_de_Almer%C3%ADa.jpg"
   },
   {
     "id": "3117",
@@ -44549,7 +44647,8 @@
     "lat": 45.044551,
     "lng": 12.151803,
     "websiteUrl": "https://www.adriaraceway.com/",
-    "phone": "+39 0426 941411"
+    "phone": "+39 0426 941411",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/-_ITALY_-_ITALIA_Adria_Raceway.JPG"
   },
   {
     "id": "3127",
@@ -44565,7 +44664,8 @@
     "address": "Montecalvo, Lavenone, Comunità montana della Valle Sabbia, Brescia, Lombardy, 25074, Italy",
     "lat": 45.779581,
     "lng": 10.425873,
-    "websiteUrl": "https://www.autodromodifranciacorta.it/"
+    "websiteUrl": "https://www.autodromodifranciacorta.it/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Autodromo_di_Franciacorta_05-08_-_panoramio.jpg"
   },
   {
     "id": "3128",
@@ -44582,7 +44682,8 @@
     "lat": 43.107032,
     "lng": 12.402996,
     "websiteUrl": "https://www.autodromomagione.com/",
-    "phone": "+39 075 840303"
+    "phone": "+39 075 840303",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Magione_Autodrome_-_January_1973.jpg"
   },
   {
     "id": "3129",
@@ -44616,7 +44717,8 @@
     "lat": 37.526921,
     "lng": 14.310458,
     "websiteUrl": "https://www.autodromopergusa.it/",
-    "phone": "+39 0935 543111"
+    "phone": "+39 0935 543111",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Autodromo_Pergusa.jpg"
   },
   {
     "id": "3131",
@@ -44649,7 +44751,8 @@
     "lat": 43.946543,
     "lng": 12.630749,
     "websiteUrl": "https://www.misanocircuit.com/",
-    "phone": "+39 0541 618511"
+    "phone": "+39 0541 618511",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Misano_World_Circuit_Panoramica_%28Misano_Adriatico%29.jpg"
   },
   {
     "id": "3133",
@@ -44666,7 +44769,8 @@
     "lat": 40.723475,
     "lng": 8.561267,
     "websiteUrl": "https://www.autodromosardegna.net/",
-    "phone": "+39 079 706665"
+    "phone": "+39 079 706665",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/AUTODROMO_DI_MORES_%28SARDINIAN_RACE_TRACK%29_-_panoramio.jpg"
   },
   {
     "id": "3134",
@@ -44767,7 +44871,8 @@
     "lat": 59.318177,
     "lng": 14.607574,
     "websiteUrl": "https://www.gellerasen.se",
-    "phone": "+46 586 150 10"
+    "phone": "+46 586 150 10",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Karlskoga_motorstadium_1.jpg"
   },
   {
     "id": "3140",
@@ -44801,7 +44906,8 @@
     "lat": 56.981941,
     "lng": 12.575156,
     "websiteUrl": "https://falkenbergsmk.se/falkenbergs-motorbana/",
-    "phone": "+46 346 190 33"
+    "phone": "+46 346 190 33",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Falkenbergs_Motorbana_-_Pits_and_control_tower.jpg"
   },
   {
     "id": "3142",
@@ -44818,7 +44924,8 @@
     "lat": 62.598268,
     "lng": 17.810295,
     "websiteUrl": "https://www.mittsverigebanan.se/",
-    "phone": "+46 611 50 50 08"
+    "phone": "+46 611 50 50 08",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/DJI_0052vv.jpg"
   },
   {
     "id": "3143",
@@ -44986,7 +45093,8 @@
     "lat": 62.301612,
     "lng": 27.163477,
     "websiteUrl": "https://www.motopark.fi/",
-    "phone": "+358 44 278 0088"
+    "phone": "+358 44 278 0088",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Motoparkraceway.jpg"
   },
   {
     "id": "3153",
@@ -45071,7 +45179,8 @@
     "lat": 50.519988,
     "lng": 22.720036,
     "websiteUrl": "https://www.autodrombilgoraj.eu/",
-    "phone": "+48 84 534 84 00"
+    "phone": "+48 84 534 84 00",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/BilgorajAutodrom.jpg"
   },
   {
     "id": "3158",
@@ -45173,7 +45282,8 @@
     "lat": 51.998033,
     "lng": -0.479151,
     "websiteUrl": "https://www.bedfordautodrome.co.uk/",
-    "phone": "01234 332400"
+    "phone": "01234 332400",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bedford_Autodrome_at_Thurleigh_Airfield_-_geograph.org.uk_-_1832081.jpg"
   },
   {
     "id": "3164",
@@ -45189,7 +45299,8 @@
     "address": "Hungarton Lane, Little Beeby, Beeby, Syston, Charnwood, Leicestershire, England, LE7 3BH, United Kingdom",
     "lat": 52.666667,
     "lng": -1,
-    "websiteUrl": "https://www.malloryparkcircuit.com/"
+    "websiteUrl": "https://www.malloryparkcircuit.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mallory_Park_Race_Control_Centre_-_geograph.org.uk_-_4099489.jpg"
   },
   {
     "id": "3165",
@@ -45205,7 +45316,8 @@
     "address": "Abergwili, Llanllawddog, Carmarthenshire, Wales, SA32 7HQ, United Kingdom",
     "lat": 51.89367,
     "lng": -4.217283,
-    "websiteUrl": "https://www.pembreycircuit.co.uk/"
+    "websiteUrl": "https://www.pembreycircuit.co.uk/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Pembrey_Circuit_-_geograph.org.uk_-_6170050.jpg"
   },
   {
     "id": "3166",
@@ -45221,7 +45333,8 @@
     "address": "Goodwood Motor Circuit, Claypit Lane, Maudlin, Westhampnett, Chichester, West Sussex, England, PO18 0PH, United Kingdom",
     "lat": 50.859135,
     "lng": -0.753312,
-    "websiteUrl": "https://www.goodwood.com/motorsport/motor-circuit/"
+    "websiteUrl": "https://www.goodwood.com/motorsport/motor-circuit/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Circuit_de_Goodwood.jpg"
   },
   {
     "id": "3167",
@@ -45238,7 +45351,8 @@
     "lat": 53.166667,
     "lng": -0.25,
     "websiteUrl": "https://www.blytonpark.co.uk/",
-    "phone": "07596 297700"
+    "phone": "07596 297700",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Blyton_Park_racing_circuit_clubhouse_-_geograph.org.uk_-_6269738.jpg"
   },
   {
     "id": "3168",
@@ -45255,7 +45369,8 @@
     "lat": 51.447065,
     "lng": -3.398883,
     "websiteUrl": "https://www.llandow.com/",
-    "phone": "01446 796460"
+    "phone": "01446 796460",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Llandow_Circuit.jpg"
   },
   {
     "id": "3169",
@@ -45289,7 +45404,8 @@
     "lat": 53.166693,
     "lng": -1.583322,
     "websiteUrl": "https://darleymoor.co.uk/",
-    "phone": "01335 343833"
+    "phone": "01335 343833",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Darley_Moor_Race_Track_-_geograph.org.uk_-_5047484.jpg"
   },
   {
     "id": "3171",
@@ -45320,7 +45436,8 @@
     "address": "Merseyside Maritime Museum, Hartley's Quay, Waterfront, Vauxhall, Liverpool, Liverpool City Region, England, L3 4AQ, United Kingdom",
     "lat": 53.401338,
     "lng": -2.99275,
-    "websiteUrl": "https://www.liverpoolmotorclub.com/"
+    "websiteUrl": "https://www.liverpoolmotorclub.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Anchor_Crossing%2C_British_Grand_Prix%2C_1961_geograph-2741605-by-John-Goldsmith.jpg"
   },
   {
     "id": "3173",
@@ -45337,7 +45454,8 @@
     "lat": 46.358022,
     "lng": -94.200829,
     "websiteUrl": "https://www.birmn.com/",
-    "phone": "+1 218-824-7223"
+    "phone": "+1 218-824-7223",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/BrainerdInternationalRacewayMay1997.jpg"
   },
   {
     "id": "3174",
@@ -45370,7 +45488,8 @@
     "address": "67, Cantrell Road, Village of Monticello, Town of Thompson, Sullivan County, New York, 12701, United States",
     "lat": 41.61764,
     "lng": -74.702993,
-    "websiteUrl": "https://www.monticellomotorclub.com/"
+    "websiteUrl": "https://www.monticellomotorclub.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Monticello_Motor_Club_aerial_photo_NAIP_2021.jpg"
   },
   {
     "id": "3176",
@@ -45404,7 +45523,8 @@
     "lat": 38.136744,
     "lng": -77.507213,
     "websiteUrl": "https://www.dominionraceway.com/",
-    "phone": "+1 703-361-7223"
+    "phone": "+1 703-361-7223",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Dominion_Raceway_%26_Entertainment.jpg"
   },
   {
     "id": "3178",
@@ -45420,7 +45540,8 @@
     "address": "8100, Center Street, Garrettsville, Portage County, Ohio, 44231, United States",
     "lat": 41.284222,
     "lng": -81.096486,
-    "websiteUrl": "http://www.nelsonledges.com/"
+    "websiteUrl": "http://www.nelsonledges.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nelson_Ledges_Road_Course_Aerial_View_2018.jpg"
   },
   {
     "id": "3179",
@@ -45437,7 +45558,8 @@
     "lat": 45.370163,
     "lng": -120.74347,
     "websiteUrl": "https://oregonraceway.com/",
-    "phone": "+1 541-333-2452"
+    "phone": "+1 541-333-2452",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Oregon_Raceway_Park_aerial_photo_2022-07-01.jpg"
   },
   {
     "id": "3180",
@@ -45454,7 +45576,8 @@
     "lat": 36.204178,
     "lng": -116.026026,
     "websiteUrl": "https://racespringmountain.com/",
-    "phone": "+1 800-391-6891"
+    "phone": "+1 800-391-6891",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spring_Mountain_Motorsports_Ranch_2022_aerial_photo.jpg"
   },
   {
     "id": "3181",
@@ -45470,7 +45593,8 @@
     "address": "Troutdale Road, Gravois Mills, Morgan County, Missouri, 65037, United States",
     "lat": 38.308361,
     "lng": -92.82547,
-    "websiteUrl": "https://ozarksinternationalraceway.com/"
+    "websiteUrl": "https://ozarksinternationalraceway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ozarks_International_Raceway_aerial_photo_2022-06-29.jpg"
   },
   {
     "id": "3182",
@@ -45536,7 +45660,8 @@
     "address": "East Main Street, Adrian, Bates County, Missouri, 64720, United States",
     "lat": 38.397518,
     "lng": -94.351616,
-    "websiteUrl": "https://www.hedgehollowraceway.com/"
+    "websiteUrl": "https://www.hedgehollowraceway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hedge_Hollow_Raceway_aerial_photo_20220630.jpg"
   },
   {
     "id": "3186",
@@ -45553,7 +45678,8 @@
     "lat": 29.843659,
     "lng": -82.05706,
     "websiteUrl": "https://gorally.com/",
-    "phone": "+1 352-473-2999"
+    "phone": "+1 352-473-2999",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Florida_International_Rally_%26_Motorsports_Park_gate.jpg"
   },
   {
     "id": "3187",
@@ -45586,7 +45712,8 @@
     "lat": 43.331684,
     "lng": -71.472394,
     "websiteUrl": "https://www.nhms.com/",
-    "phone": "+1 603-783-4931"
+    "phone": "+1 603-783-4931",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/New_Hampshire_International_Speedway_%282007%29.jpg"
   },
   {
     "id": "3189",
@@ -45603,7 +45730,8 @@
     "lat": 42.629562,
     "lng": -83.288885,
     "websiteUrl": "https://www.m1concourse.com/",
-    "phone": "+1 248-326-9999"
+    "phone": "+1 248-326-9999",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/M1_Image.jpg"
   },
   {
     "id": "3190",
@@ -45620,7 +45748,8 @@
     "lat": 41.060515,
     "lng": -75.511758,
     "websiteUrl": "https://www.poconoraceway.com/",
-    "phone": "+1 570-643-7118"
+    "phone": "+1 570-643-7118",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pocono_Raceway_aerial_2018.jpg"
   },
   {
     "id": "3191",
@@ -45652,7 +45781,8 @@
     "address": "North Las Vegas Boulevard, Downtown Las Vegas, Las Vegas, Clark County, Nevada, 89101, United States",
     "lat": 36.178035,
     "lng": -115.135201,
-    "websiteUrl": "https://www.lvms.com/"
+    "websiteUrl": "https://www.lvms.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/EM_LVMS_%283386215643%29.jpg"
   },
   {
     "id": "3193",
@@ -45801,7 +45931,8 @@
     "lat": 32.262742,
     "lng": -107.758198,
     "websiteUrl": "https://www.arroyosecoraceway.com/",
-    "phone": "+1 575-494-4794"
+    "phone": "+1 575-494-4794",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Arroyo_Seco_Raceway_aerial_photo_2022-05-20.jpg"
   },
   {
     "id": "3202",
@@ -45833,7 +45964,8 @@
     "address": "Canadian Tire Motorsport Park, Mosport Road, Clarington, Durham Region, Ontario, L0A 1K0, Canada",
     "lat": 44.054188,
     "lng": -78.675365,
-    "websiteUrl": "https://www.canadiantiremotorsportpark.com/"
+    "websiteUrl": "https://www.canadiantiremotorsportpark.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Moss_Corner_Turn_5a_and_5b_at_Canadian_Tire_Motorsport_Park.jpg"
   },
   {
     "id": "3204",
@@ -45850,7 +45982,8 @@
     "lat": 45.300088,
     "lng": -76.677077,
     "websiteUrl": "https://www.calabogiemotorsports.com/",
-    "phone": "(613) 752-1252"
+    "phone": "(613) 752-1252",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Areal_Track_Photo.jpg"
   },
   {
     "id": "3205",
@@ -45867,7 +46000,8 @@
     "lat": 44.222309,
     "lng": -77.157961,
     "websiteUrl": "https://www.shannonville.com/",
-    "phone": "613-969-1906"
+    "phone": "613-969-1906",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Shannonville_Motorsports_Park.jpg"
   },
   {
     "id": "3206",
@@ -45883,7 +46017,8 @@
     "address": "1281, Chemin du Village, Mont-Tremblant, Les Laurentides, Laurentides, Quebec, J8E 1G7, Canada",
     "lat": 46.181647,
     "lng": -74.614367,
-    "websiteUrl": "https://www.pistemonttremblant.com/"
+    "websiteUrl": "https://www.pistemonttremblant.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Mont-Tremblant_Control_Tower.JPG"
   },
   {
     "id": "3207",
@@ -45951,7 +46086,8 @@
     "lat": 43.312664,
     "lng": -81.757816,
     "websiteUrl": "https://grandbendmotorplex.com/",
-    "phone": "519-238-7223"
+    "phone": "519-238-7223",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/RCAF_Grand_Bend_Aerial_2018.jpg"
   },
   {
     "id": "3211",
@@ -46033,7 +46169,8 @@
     "lat": 25.82162,
     "lng": -100.264083,
     "websiteUrl": "http://www.autodromomonterrey.com.mx/",
-    "phone": "+52 81 8205 5775"
+    "phone": "+52 81 8205 5775",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Aut%C3%B3dromo_Monterrey_Bridge.jpg"
   },
   {
     "id": "3216",
@@ -46049,7 +46186,8 @@
     "address": "Carretera Federal Puebla-Tehuacán, Amozoc de Mota, Rinconada Amozoc 21, Ignacio Zaragoza, Amozoc de Mota, Amozoc, Puebla, 72980, Mexico",
     "lat": 19.042123,
     "lng": -98.046464,
-    "websiteUrl": "http://www.autodromomabed.com/"
+    "websiteUrl": "http://www.autodromomabed.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Autodromo_aerea_mail.jpg"
   },
   {
     "id": "3217",
@@ -46095,7 +46233,8 @@
     "city": "Quezaltepeque",
     "address": "1a Avenida Sur, Quezaltepeque, La Libertad Norte, La Libertad, El Salvador",
     "lat": 13.833727,
-    "lng": -89.270854
+    "lng": -89.270854,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/El_Jabali_P.jpg"
   },
   {
     "id": "3220",
@@ -46142,7 +46281,8 @@
     "city": "Guácima",
     "address": "Calle Nuestro Amo, Guácima Centro, Guácima, Alajuela, Alajuela Province, 20105, Costa Rica",
     "lat": 9.96127,
-    "lng": -84.259675
+    "lng": -84.259675,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Aut%C3%B3dromo_La_Gu%C3%A1cima%2C_Alajuela%2C_Costa_Rica._-_panoramio.jpg"
   },
   {
     "id": "3223",
@@ -46188,7 +46328,8 @@
     "city": "Arima",
     "address": "Hollis Avenue, Arima, 300831, Trinidad and Tobago",
     "lat": 10.637206,
-    "lng": -61.282976
+    "lng": -61.282976,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Wallerfield_International_Raceway.jpg"
   },
   {
     "id": "3226",
@@ -46234,7 +46375,8 @@
     "city": "Puente Alto",
     "address": "Caletera Camino a San José de Maipo, Condominio Las Vizcachas, Las Vizcachas, Puente Alto, Provincia de Cordillera, Santiago Metropolitan Region, 8207897, Chile",
     "lat": -33.597698,
-    "lng": -70.510841
+    "lng": -70.510841,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aut%C3%B3dromo_Las_Vizcachas_2.JPG"
   },
   {
     "id": "3229",
@@ -46296,7 +46438,8 @@
     "city": "La Plata",
     "address": "Calle 12, Microcentro, La Plata, Partido de La Plata, Buenos Aires, B1900AQJ, Argentina",
     "lat": -34.92068,
-    "lng": -57.953764
+    "lng": -57.953764,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Autodromo_Roberto_Mouras.jpg"
   },
   {
     "id": "3233",
@@ -46326,7 +46469,8 @@
     "city": "Trelew",
     "address": "Ruta Nacional 3, Chacra 74, Trelew, Municipio de Trelew, Departamento Rawson, Chubut, U9100, Argentina",
     "lat": -43.317038,
-    "lng": -65.292126
+    "lng": -65.292126,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aut%C3%B3dromo_Mar_y_Valle_aerial_view.jpg"
   },
   {
     "id": "3235",
@@ -46341,7 +46485,8 @@
     "city": "Buriram",
     "address": "30/2 Moo 4, Tambon Isan, Amphoe Mueang, Buriram 31000, Thailand",
     "lat": 14.962002,
-    "lng": 103.084716
+    "lng": 103.084716,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Isan%2C_Mueang_Buri_Ram_District%2C_Buri_Ram_31000%2C_Thailand_-_panoramio_%288%29.jpg"
   },
   {
     "id": "3236",
@@ -46371,7 +46516,8 @@
     "city": "Oyama",
     "address": "694 Nakahinata, Oyama, Sunto District, Shizuoka 410-1307, Japan",
     "lat": 35.371475,
-    "lng": 138.931638
+    "lng": 138.931638,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fuji_Speedway_20180422.jpg"
   },
   {
     "id": "3238",
@@ -46403,7 +46549,8 @@
     "lat": 38.140933,
     "lng": 140.781681,
     "websiteUrl": "http://www.sportsland-sugo.co.jp/",
-    "phone": "+81 224-83-3111"
+    "phone": "+81 224-83-3111",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sportsland_SUGO_%2827169582042%29.jpg"
   },
   {
     "id": "3240",
@@ -46467,7 +46614,8 @@
     "address": "Kuta, Pujut, Central Lombok Regency, West Nusa Tenggara, Indonesia",
     "lat": -8.898524,
     "lng": 116.305168,
-    "websiteUrl": "https://themandalikagp.com/"
+    "websiteUrl": "https://themandalikagp.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/DJI_0677_-_Lombok_Mandalika.jpg"
   },
   {
     "id": "3244",
@@ -46483,7 +46631,8 @@
     "address": "Pengwan Road, Donggang, Pingtung County, Taiwan",
     "lat": 22.455286,
     "lng": 120.480983,
-    "websiteUrl": "https://www.suntekmotor.com/brand/dapeng-bay-international-circuit"
+    "websiteUrl": "https://www.suntekmotor.com/brand/dapeng-bay-international-circuit",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Penbay_International_Circuit_01.jpg"
   },
   {
     "id": "3245",
@@ -46517,7 +46666,8 @@
     "lat": 45.236215,
     "lng": 7.724891,
     "websiteUrl": "https://www.autodromolombardore.it/",
-    "phone": "+39 333 750 5594"
+    "phone": "+39 333 750 5594",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Autodromo_di_Lombardore_01.JPG"
   },
   {
     "id": "3247",
@@ -46567,7 +46717,8 @@
     "address": "Balaton Park utca 1, 8164 Balatonfőkajár, Veszprém County, Hungary",
     "lat": 47.006748,
     "lng": 18.199841,
-    "websiteUrl": "https://www.balatonparkcircuit.com/"
+    "websiteUrl": "https://www.balatonparkcircuit.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Balaton_Park_Circuit_-_Pitlane.jpg"
   },
   {
     "id": "3250",
@@ -46600,7 +46751,8 @@
     "lat": 32.898027,
     "lng": 130.87544,
     "websiteUrl": "https://www.rms.co.jp/kumamoto/hsr/",
-    "phone": "+81 96-293-1370"
+    "phone": "+81 96-293-1370",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/HSR%E4%B9%9D%E5%B7%9E%E3%82%AA%E3%83%95%E3%83%AD%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%82%B9_HSR_Kyushu_Offroad_Circuit_-_panoramio.jpg"
   },
   {
     "id": "3252",
@@ -47595,7 +47747,8 @@
     "lat": 53.021859,
     "lng": 18.548046,
     "websiteUrl": "https://www.motoparktorun.pl/",
-    "phone": "+48 783 909 093"
+    "phone": "+48 783 909 093",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MotoPark_Toru%C5%84.jpg"
   },
   {
     "id": "3312",
@@ -47627,7 +47780,8 @@
     "lat": 54.178068,
     "lng": 18.71023,
     "websiteUrl": "https://autodrompomorze.pl/",
-    "phone": "+48 514 059 522"
+    "phone": "+48 514 059 522",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/ODTJ_Autodrom_Pomorze_zdj.2.jpg"
   },
   {
     "id": "3314",
@@ -47692,7 +47846,8 @@
     "address": "Heartland Park Topeka, 7530, Southwest Topeka Boulevard, Topeka, Shawnee County, Kansas, 66619, United States",
     "lat": 38.927323,
     "lng": -95.673396,
-    "websiteUrl": "https://www.facebook.com/p/Darana-Heartland-Motorsports-Park-61583038233531/"
+    "websiteUrl": "https://www.facebook.com/p/Darana-Heartland-Motorsports-Park-61583038233531/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Heartland_Park_-_Topeka_-_Kansas_%282849458619%29.jpg"
   },
   {
     "id": "3318",
@@ -47725,7 +47880,8 @@
     "address": "Canaan Motor Club, 18, Orange Road, Graceville, Canaan, Grafton County, New Hampshire, 03741, United States",
     "lat": 43.650261,
     "lng": -71.9995,
-    "websiteUrl": "http://www.canaanmotorclub.com/"
+    "websiteUrl": "http://www.canaanmotorclub.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Canaan_Motor_Club_aerial_photo_2023-06-22.jpg"
   },
   {
     "id": "3320",
@@ -47791,7 +47947,8 @@
     "lat": 35.360831,
     "lng": -80.687254,
     "websiteUrl": "https://www.charlottemotorspeedway.com/",
-    "phone": "+1 866-723-8849"
+    "phone": "+1 866-723-8849",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2022_Bank_of_America_Roval_400_029_%28start%29.jpg"
   },
   {
     "id": "3324",
@@ -47807,7 +47964,8 @@
     "address": "General Hatton, Public Square, Lebanon, Wilson County, Middle Tennessee, Tennessee, 37087, United States",
     "lat": 36.207978,
     "lng": -86.291094,
-    "websiteUrl": "https://www.nashvillesuperspeedway.com/"
+    "websiteUrl": "https://www.nashvillesuperspeedway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/EM_NASHVILLE_SUPERSPEEDWAY_%283283565118%29.jpg"
   },
   {
     "id": "3325",
@@ -47822,7 +47980,8 @@
     "city": "Fountain",
     "address": "16650, Midway Ranch Road, Fountain, El Paso County, Colorado, 80817, United States",
     "lat": 38.586486,
-    "lng": -104.672528
+    "lng": -104.672528,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pikes_Peak_International_Raceway.jpg"
   },
   {
     "id": "3326",
@@ -47838,7 +47997,8 @@
     "address": "Homestead-Miami Speedway, Southwest 137th Avenue, Homestead, Miami-Dade County, Florida, 33035, United States",
     "lat": 25.451752,
     "lng": -80.40943,
-    "websiteUrl": "https://www.homesteadmiamispeedway.com/"
+    "websiteUrl": "https://www.homesteadmiamispeedway.com/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Homestead-Miami_Stadium.JPG"
   },
   {
     "id": "3327",
@@ -47887,7 +48047,8 @@
     "lat": 47.241618,
     "lng": 19.366743,
     "websiteUrl": "https://www.kakucs-ring.hu/",
-    "phone": "+36 20 257 0947"
+    "phone": "+36 20 257 0947",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kakucs_Ring.jpg"
   },
   {
     "id": "3330",
@@ -48712,7 +48873,8 @@
     "address": "Miyakecho, Suzuka, Mie Prefecture, 510-0265, Japan",
     "lat": 34.805403,
     "lng": 136.496028,
-    "websiteUrl": "http://twincircuit.co.jp/"
+    "websiteUrl": "http://twincircuit.co.jp/",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Suzutwin_CIMG2205.JPG"
   },
   {
     "id": "3388",
@@ -48843,7 +49005,8 @@
     "address": "Liberty Centre, Mooi Street, Doorn, Matjhabeng Ward 32, Welkom, Matjhabeng Local Municipality, Lejweleputswa District Municipality, Free State, 9460, South Africa",
     "lat": -27.982298,
     "lng": 26.737969,
-    "phone": "+27 57 391 8000"
+    "phone": "+27 57 391 8000",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Phakisa_Raceway.jpg"
   },
   {
     "id": "3397",
@@ -48858,7 +49021,8 @@
     "city": "Rosario",
     "address": "Gualberto Avenue, Poblacion B, Rosario, Batangas, Calabarzon, 4225, Philippines",
     "lat": 13.845434,
-    "lng": 121.20635
+    "lng": 121.20635,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Batangas_Racing_CIrcuit_Starting_Line.jpg"
   },
   {
     "id": "3398",
