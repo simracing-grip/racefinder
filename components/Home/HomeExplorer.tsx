@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Category, ListingSummary } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
+import { useToday } from "@/components/Time/TodayProvider";
 import { distanceKm } from "@/lib/geo";
 import MapListPanel from "@/components/Listing/MapListPanel";
 import NearMeControl, { type GeoStatus } from "@/components/Home/NearMeControl";
@@ -26,6 +27,7 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
   const [radiusKm, setRadiusKm] = useState(100);
   const [geoStatus, setGeoStatus] = useState<GeoStatus>("idle");
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
+  const today = useToday();
 
   function toggleNearMe() {
     if (nearMe) {
@@ -73,8 +75,8 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
     if (nearMe && distances) {
       return [...filtered].sort((a, b) => (distances[a.slug] ?? Infinity) - (distances[b.slug] ?? Infinity));
     }
-    return sortByUpcomingEvent(filtered);
-  }, [filtered, nearMe, distances]);
+    return sortByUpcomingEvent(filtered, today);
+  }, [filtered, nearMe, distances, today]);
 
   const counts = useMemo(() => {
     const byCategory = {} as Record<Category, number>;

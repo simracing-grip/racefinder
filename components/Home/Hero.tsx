@@ -2,22 +2,24 @@ import Link from "next/link";
 import HeroTrack from "./HeroTrack";
 import HeroSearch from "./HeroSearch";
 import CountryPicker from "./CountryPicker";
+import RacesAhead from "./RacesAhead";
+import type { CalendarEvent } from "@/lib/types";
 
 export default function Hero({
   venueCount,
   countries,
   countryCodes,
-  raceCount,
+  events,
 }: {
   venueCount: number;
   countries: string[];
   countryCodes: Record<string, string>;
-  raceCount: number;
+  events: CalendarEvent[];
 }) {
   const stats = [
     { value: venueCount.toLocaleString("en-GB"), label: "Venues" },
     { value: `${countries.length}`, label: "Countries" },
-    { value: `${raceCount}`, label: "Races ahead" },
+    { value: <RacesAhead events={events} />, label: "Races ahead" },
   ];
 
   return (

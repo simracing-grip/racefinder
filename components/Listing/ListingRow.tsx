@@ -10,6 +10,7 @@ import ListingDetails from "./ListingDetails";
 import PhotoCredit from "./PhotoCredit";
 import VenuePhoto from "./VenuePhoto";
 import SaveButton from "@/components/Garage/SaveButton";
+import { useToday } from "@/components/Time/TodayProvider";
 import CountryFlag from "@/components/CountryFlag";
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -41,7 +42,7 @@ export default function ListingRow({
   const [details, setDetails] = useState<Listing | null>(null);
   const [loadState, setLoadState] = useState<"idle" | "loading" | "error">("idle");
   const rowRef = useRef<HTMLDivElement>(null);
-  const nextEvent = getNextEvent(listing);
+  const nextEvent = getNextEvent(listing, useToday());
   // Known track facts, e.g. "Indoor · Electric karts · 1,200 m".
   const facts = [
     listing.indoorOutdoor && { indoor: "Indoor", outdoor: "Outdoor", both: "Indoor & outdoor" }[listing.indoorOutdoor],
