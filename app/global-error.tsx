@@ -2,16 +2,13 @@
 
 import { useEffect } from "react";
 import * as Sentry from "@sentry/nextjs";
+import ServerErrorScreen from "@/components/Brand/ServerErrorScreen";
 
 // Only catches errors thrown by the root layout itself (rare) — errors
 // anywhere inside it are caught by app/error.tsx instead. Next.js requires
 // this file to render its own <html>/<body> since the real root layout
-// failed.
-export default function GlobalError({
-  error,
-}: {
-  error: Error & { digest?: string };
-}) {
+// failed, so it shares pages/500.tsx's self-styled screen.
+export default function GlobalError({ error }: { error: unknown }) {
   useEffect(() => {
     console.error(error);
     Sentry.captureException(error);
@@ -19,17 +16,9 @@ export default function GlobalError({
 
   return (
     <html lang="en">
-      <body className="flex min-h-screen items-center justify-center bg-[#07080b] text-gray-100">
-        <div className="text-center">
-          <p className="text-sm font-semibold text-red-500">Error</p>
-          <h1 className="mt-2 text-2xl font-bold">Something went wrong</h1>
-          {/* A plain reload-based link, not next/link — the root layout that
-              provides routing context is what just failed. */}
-          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-          <a href="/" className="mt-4 inline-block text-white underline decoration-[#ff2a2a] decoration-2 underline-offset-4">
-            Go home
-          </a>
-        </div>
+      <body style={{ margin: 0, background: "#07080b" }}>
+        <title>Something went wrong | RaceFinder</title>
+        <ServerErrorScreen />
       </body>
     </html>
   );

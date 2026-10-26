@@ -1,11 +1,15 @@
+"use client";
+
 import type { CalendarEvent } from "@/lib/types";
 import { SERIES_LABEL } from "@/lib/seriesMeta";
-import { formatEventDate } from "@/lib/listingSort";
+import { filterUpcoming, formatEventDate } from "@/lib/listingSort";
+import { useToday } from "@/components/Time/TodayProvider";
 
 // Scrolling timing-screen strip of upcoming rounds across every series. The
-// list is rendered twice so the -50% marquee loop is seamless.
+// list is rendered twice so the -50% marquee loop is seamless. Re-filtered
+// with the visitor's date, since the cached page may be days old.
 export default function RaceTicker({ events }: { events: CalendarEvent[] }) {
-  const items = events.slice(0, 16);
+  const items = filterUpcoming(events, useToday()).slice(0, 16);
   if (items.length === 0) return null;
 
   const row = (hidden: boolean) => (

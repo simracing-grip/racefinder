@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import type { CalendarEvent } from "@/lib/types";
 import { SERIES_LABEL, SERIES_FULL_NAME } from "@/lib/seriesMeta";
-import { formatEventDate } from "@/lib/listingSort";
+import { filterUpcoming, formatEventDate } from "@/lib/listingSort";
+import { useToday } from "@/components/Time/TodayProvider";
 import CountryFlag from "@/components/CountryFlag";
 import Countdown from "./Countdown";
 import SectionHeading from "./SectionHeading";
@@ -18,7 +21,9 @@ function eventHref(e: CalendarEvent): string {
 
 // "Lights out" block: the next F1 weekend gets the big countdown (it's what
 // most visitors follow); the soonest rounds from every other series sit beside it.
-export default function NextRace({ events }: { events: CalendarEvent[] }) {
+// Re-filtered with the visitor's date, since the cached page may be days old.
+export default function NextRace({ events: rendered }: { events: CalendarEvent[] }) {
+  const events = filterUpcoming(rendered, useToday());
   const headline = events.find((e) => e.series === "f1") ?? events[0];
   if (!headline) return null;
   const upNext = events.filter((e) => e !== headline).slice(0, 6);
