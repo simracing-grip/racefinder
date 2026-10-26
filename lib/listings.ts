@@ -2,13 +2,13 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { asc, eq } from "drizzle-orm";
 import * as Sentry from "@sentry/nextjs";
-import type { Category, Listing, ListingDetails, IndoorOutdoor } from "@/lib/types";
+import type { Category, Listing } from "@/lib/types";
 import { CALENDAR_EVENTS } from "@/data/calendar-events";
 import { PHOTO_CREDITS } from "@/data/photo-credits";
 import { db } from "@/lib/db/client";
 import { listings as listingsTable } from "@/lib/db/schema";
+import { rowToListing } from "@/lib/db/rowToListing";
 import { slugifyCountry } from "@/lib/countrySlug";
-import { normalizeCountry } from "@/lib/countryNames";
 
 export { slugifyCountry };
 
@@ -34,39 +34,6 @@ function withEvents(listing: Listing): Listing {
 function withPhotoCredit(listing: Listing): Listing {
   const credit = PHOTO_CREDITS[listing.slug];
   return credit && credit.imageUrl === listing.coverImageUrl ? { ...listing, coverImageCredit: credit } : listing;
-}
-
-// Postgres numeric/jsonb columns come back from postgres-js as strings (to
-// avoid float-precision loss) and possibly-null respectively — normalize
-// both to the shape lib/types.ts's Listing expects everywhere else.
-function rowToListing(row: typeof listingsTable.$inferSelect): Listing {
-  return {
-    id: row.id,
-    slug: row.slug,
-    name: row.name,
-    categories: row.categories as Category[],
-    status: row.status,
-    // Fixes rows imported with a local-language name and no code (see
-    // normalizeCountry); the database still holds the raw values.
-    ...normalizeCountry(row.country, row.countryCode),
-    city: row.city,
-    address: row.address,
-    lat: parseFloat(row.lat),
-    lng: parseFloat(row.lng),
-    websiteUrl: row.websiteUrl ?? undefined,
-    phone: row.phone ?? undefined,
-    email: row.email ?? undefined,
-    description: row.description ?? undefined,
-    coverImageUrl: row.coverImageUrl ?? undefined,
-    googleMapsUrl: row.googleMapsUrl ?? undefined,
-    instagramUrl: row.instagramUrl ?? undefined,
-    facebookUrl: row.facebookUrl ?? undefined,
-    tiktokUrl: row.tiktokUrl ?? undefined,
-    indoorOutdoor: (row.indoorOutdoor ?? undefined) as IndoorOutdoor | undefined,
-    trackLengthM: row.trackLengthM != null ? parseFloat(row.trackLengthM) : undefined,
-    details: (row.details ?? undefined) as ListingDetails | undefined,
-    featured: row.featured,
-  };
 }
 
 // ---------------------------------------------------------------------------
@@ -124,21 +91,21 @@ async function queryPublishedListings(): Promise<ListingCache> {
 
 // Last resort when Postgres is unreachable and this instance has no copy
 // yet (cold start, or a build) — e.g. Supabase's free tier pausing the
-// project. data/generated-listings.json is the import pipeline's output
-// (data/import/import-to-db.ts), so it's the directory as of the last
-// import: possibly a few edits behind the database, but far better than a
-// 500 on every venue page. It gets the same calendar/photo-credit merge, and
-// the short expiry means the database is retried every RETRY_AFTER_ERROR_MS.
-// Read at runtime (not imported) for the reason in data/generated-listings.ts;
-// next.config.ts's outputFileTracingIncludes ships the file with every route.
+// project. data/listings-snapshot.json is an export of the published rows
+// (`npm run db:snapshot`, data/import/export-listings-snapshot.ts), already
+// in Listing shape and name order. It's only as fresh as its last export, so
+// re-run that after imports or syncs that change published venues (it is
+// deliberately NOT data/generated-listings.json, the import pipeline's output,
+// which still lists venues archived since). It gets the same calendar/
+// photo-credit merge, and the short expiry means the database is retried
+// every RETRY_AFTER_ERROR_MS. Read at runtime rather than imported (a typed
+// JSON import this size breaks tsc, see data/generated-listings.ts);
+// next.config.ts's outputFileTracingIncludes ships it with every route.
+const SNAPSHOT_FILE = path.join("data", "listings-snapshot.json");
+
 async function loadSnapshotListings(): Promise<ListingCache> {
-  const raw = await readFile(path.join(process.cwd(), "data", "generated-listings.json"), "utf-8");
-  const listings = (JSON.parse(raw) as Listing[])
-    .filter((l) => l.status === "published")
-    .map((l) => ({ ...l, ...normalizeCountry(l.country, l.countryCode) }))
-    .sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) // approximates the query's ORDER BY name
-    .map(withEvents)
-    .map(withPhotoCredit);
+  const raw = await readFile(path.join(process.cwd(), SNAPSHOT_FILE), "utf-8");
+  const listings = (JSON.parse(raw) as Listing[]).map(withEvents).map(withPhotoCredit);
   return toCache(listings, RETRY_AFTER_ERROR_MS);
 }
 

@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   // when the database is unreachable, so file tracing can't see it — ship
   // it with every server route explicitly.
   outputFileTracingIncludes: {
-    "/**": ["./data/generated-listings.json"],
+    "/**": ["./data/listings-snapshot.json"],
   },
 };
 
