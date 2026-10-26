@@ -3,6 +3,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 import { useSearch } from "./useSearch";
 import SearchResultList from "./SearchResultList";
 
@@ -56,6 +57,7 @@ export default function SearchPalette() {
   }
 
   function go(href: string) {
+    track("Search select", { href, queryLength: query.trim().length });
     close();
     router.push(href);
   }
