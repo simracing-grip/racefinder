@@ -19,7 +19,7 @@ export default function ListVenueCta() {
             </p>
           </div>
           <Link
-            href="/contact"
+            href="/contact?kind=owner"
             data-track="Add your venue"
             className="shrink-0 bg-white px-7 py-3.5 font-display text-xl font-black uppercase italic text-ink transition [clip-path:polygon(10px_0,100%_0,calc(100%-10px)_100%,0_100%)] hover:bg-ink hover:text-white"
           >
