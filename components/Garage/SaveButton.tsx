@@ -28,6 +28,8 @@ export default function SaveButton({ venue, compact = false }: { venue: Saveable
       <button
         type="button"
         onClick={() => toggle(venue)}
+        data-track={saved ? "Unsave venue" : "Save venue"}
+        data-track-venue={venue.slug}
         aria-pressed={saved}
         aria-label={label}
         title={saved ? "Saved to your garage" : "Save to your garage"}
@@ -44,6 +46,8 @@ export default function SaveButton({ venue, compact = false }: { venue: Saveable
     <button
       type="button"
       onClick={() => toggle(venue)}
+      data-track={saved ? "Unsave venue" : "Save venue"}
+      data-track-venue={venue.slug}
       aria-pressed={saved}
       aria-label={label}
       className={`inline-flex items-center gap-2 border px-5 py-3 font-display text-lg font-bold uppercase italic transition ${

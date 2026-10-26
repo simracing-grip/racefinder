@@ -141,6 +141,8 @@ export default async function ListingDetailPage({
             {listing.websiteUrl && (
               <a
                 href={listing.websiteUrl}
+                data-track="Visit website"
+                data-track-venue={listing.slug}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-skew inline-flex items-center gap-2 bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
@@ -150,6 +152,8 @@ export default async function ListingDetailPage({
             )}
             <a
               href={googleMapsUrl(listing)}
+              data-track="Directions"
+              data-track-venue={listing.slug}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-white/20 px-5 py-3 font-display text-lg font-bold uppercase italic text-white transition hover:border-white"
@@ -236,6 +240,8 @@ export default async function ListingDetailPage({
             </div>
             <a
               href={reportHref}
+              data-track="Report problem"
+              data-track-venue={listing.slug}
               className="flex items-center justify-between gap-3 border border-white/10 bg-panel p-4 text-sm text-gray-400 transition hover:border-white/30 hover:text-white"
             >
               <span>
