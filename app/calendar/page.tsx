@@ -7,8 +7,8 @@ import { SITE_URL } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Race Calendar",
-  description: "Upcoming F1, MotoGP, WEC, IMSA, GT, touring car and karting rounds, linked to the circuits in RaceFinder.",
+  title: "Motorsport Race Calendar — F1, MotoGP, WEC & more",
+  description: "Every upcoming F1, MotoGP, WEC, IMSA, NASCAR, IndyCar, GT, touring car and karting round with dates and circuits. Subscribe in Google or Apple Calendar.",
   path: "/calendar",
   image: "/calendar/opengraph-image",
 });

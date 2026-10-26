@@ -13,7 +13,7 @@ import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import Countdown from "@/components/Home/Countdown";
 import AddToCalendar from "@/components/Calendar/AddToCalendar";
 import SaveButton from "@/components/Garage/SaveButton";
-import { SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
@@ -81,7 +81,29 @@ export default async function ListingDetailPage({
     },
     url: listing.websiteUrl,
     telephone: listing.phone,
+    image: listing.coverImageUrl,
+    sameAs: [listing.instagramUrl, listing.facebookUrl, listing.tiktokUrl].filter(Boolean),
+    // Upcoming race weekends as schema.org events, so search engines can show
+    // them as event results for the venue.
+    event: (listing.events ?? [])
+      .filter((e) => (e.endDate ?? e.startDate) >= new Date().toISOString().slice(0, 10))
+      .map((e) => ({
+        "@type": "SportsEvent",
+        name: e.name,
+        startDate: e.startDate,
+        endDate: e.endDate ?? e.startDate,
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: { "@type": "Place", name: listing.name, address: listing.address || listing.country },
+        ...(e.sourceUrl ? { url: e.sourceUrl } : {}),
+      })),
   };
+
+  // Pre-filled so the report always says which venue it's about.
+  const pageUrl = `${SITE_URL}/listings/${listing.slug}`;
+  const reportHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+    `Problem with listing: ${listing.name}`,
+  )}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong (closed, moved, wrong location, wrong details...):\n\n`)}`;
 
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
@@ -100,7 +122,8 @@ export default async function ListingDetailPage({
     <div className="pb-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        // Escape "<" so a venue name or description can't close the script tag.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
 
       <PageHeader
@@ -211,6 +234,16 @@ export default async function ListingDetailPage({
                 .
               </p>
             </div>
+            <a
+              href={reportHref}
+              className="flex items-center justify-between gap-3 border border-white/10 bg-panel p-4 text-sm text-gray-400 transition hover:border-white/30 hover:text-white"
+            >
+              <span>
+                <span className="block font-semibold text-white">Something wrong here?</span>
+                Closed, moved, wrong pin or details &mdash; report a problem
+              </span>
+              <span aria-hidden>&rarr;</span>
+            </a>
           </div>
         </div>
 
