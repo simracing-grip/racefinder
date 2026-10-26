@@ -32,6 +32,7 @@ export function rowToListing(row: typeof listingsTable.$inferSelect): Listing {
     tiktokUrl: row.tiktokUrl ?? undefined,
     indoorOutdoor: (row.indoorOutdoor ?? undefined) as IndoorOutdoor | undefined,
     trackLengthM: row.trackLengthM != null ? parseFloat(row.trackLengthM) : undefined,
+    openingHours: row.openingHours ?? undefined,
     details: (row.details ?? undefined) as ListingDetails | undefined,
     featured: row.featured,
   };

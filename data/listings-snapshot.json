@@ -445,6 +445,14 @@
     "address": "Issersheiliger Weg, Schlotheim, Nottertal-Heilinger Höhen, Unstrut-Hainich-Kreis, Thuringia, 99994, Germany",
     "lat": 51.23179,
     "lng": 10.653522,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 382,
+    "openingHours": "Fri-Sat 16:00-22:00, Sun 14:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "8yr children; 4yr+ two-seater with adult"
+      }
+    },
     "featured": false
   },
   {
@@ -734,6 +742,8 @@
     "address": "6, Burgstraße, Reuland, Burg-Reuland, Verviers, Liège, Wallonia, 4790, Belgium",
     "lat": 50.196747,
     "lng": 6.134256,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue closed, Wed 13:30-21:00, Thu 14:00-21:00, Fri 13:30-23:30, Sat 11:00-23:30, Sun 12:00-21:00",
     "featured": false
   },
   {
@@ -767,6 +777,15 @@
     "address": "12, Avenue de la Mairie, Saint-Laurent-de-Mure, Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, 69720, France",
     "lat": 45.687282,
     "lng": 5.046119,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Weekdays 09:00-12:00 & 14:00-18:30, weekends 09:00-18:30",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Kid Kart <14/1.30m; Racing Kart 14+/1.40m; Super Kart 18+/1.50m"
+      }
+    },
     "featured": false
   },
   {
@@ -785,6 +804,15 @@
     "lng": 5.076284,
     "websiteUrl": "https://www.actua-organisation.fr/karting/",
     "phone": "+33 4 37 25 90 08",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Weekdays 09:00-12:00 & 14:00-18:30, weekends 09:00-18:30",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Kid Kart <14/1.30m; Racing Kart 14+/1.40m; Super Kart 18+/1.50m"
+      }
+    },
     "featured": false
   },
   {
@@ -1092,6 +1120,15 @@
     "lng": 2.206294,
     "websiteUrl": "https://www.aerokart.com/karting",
     "phone": "+33 1 30 25 71 90",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 605,
+    "openingHours": "Fri 18:00-00:00, Sat 10:00-00:00, Sun 10:00-19:00, Mon-Thu closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Adults 14+/1.50m, children 7-14/1.30m"
+      }
+    },
     "featured": false
   },
   {
@@ -1551,6 +1588,15 @@
     "address": "Nørregade, Krum-om, Sebbelev, Augustenborg, Sønderborg Municipality, Region of Southern Denmark, 6440, Denmark",
     "lat": 54.950672,
     "lng": 9.87432,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 760,
+    "openingHours": "Fri 14:00-20:00, Sat 09:00-12:00, Sun 10:00-18:00, Mon-Thu closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "12 years minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -2163,6 +2209,13 @@
     "address": "Rakvere keskväljak, Südalinn, Rakvere, Rakvere linn, Lääne-Viru County, 44310, Estonia",
     "lat": 59.348223,
     "lng": 26.361717,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Thu 13:00-21:00; Fri 13:00-23:00; Sat-Sun 11:00-20:00 (closed Mon-Tue)",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -2179,6 +2232,14 @@
     "address": "Gatehouse Lane, Hurstpierpoint and Sayers Common, Goddards' Green, Mid Sussex, West Sussex, England, BN6 9LE, United Kingdom",
     "lat": 50.966034,
     "lng": -0.171459,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Fri 14:00-22:00, Sat 07:00-22:00, Sun 09:00-22:00, Mon-Thu closed",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Cadet 8yrs/125cm; Adult 14yrs/150cm (max 115kg)"
+      }
+    },
     "featured": false
   },
   {
@@ -2537,6 +2598,8 @@
     "lng": 19.446235,
     "phone": "+355 69 404 0062",
     "coverImageUrl": "https://www.pgkart.com/wp-content/uploads/2022/10/DJI_0001-2-1.jpg",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 09:00-00:00",
     "featured": false
   },
   {
@@ -2637,6 +2700,14 @@
     "address": "4, Bachstraße, Appenweier, Ortenaukreis, Baden-Württemberg, 77767, Germany",
     "lat": 48.538717,
     "lng": 7.980267,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 850,
+    "openingHours": "Fri 16:00-19:00, Sat 15:00-19:00, Sun 12:00-14:00 & 15:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -2717,6 +2788,14 @@
     "address": "Ajuntament, 43, Carrer Major, Guadassuar, la Ribera Alta, Valencia, Valencian Community, 46610, Spain",
     "lat": 39.185784,
     "lng": -0.477818,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 850,
+    "openingHours": "Mon closed; Tue-Sun 08:00-20:30",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -2835,6 +2914,8 @@
     "address": "Trakų r. Aukštadvario gimnazija, 1, Technikumo g., Aukštadvaris, Aukštadvario seniūnija, Trakų rajono savivaldybė, Vilnius County, 21253, Lithuania",
     "lat": 54.580419,
     "lng": 24.527923,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1130,
     "featured": false
   },
   {
@@ -4637,6 +4718,8 @@
     "address": "Avinguda de Santa Caterina, Teulada, la Marina Alta, Alacant / Alicante, Valencian Community, 03725, Spain",
     "lat": 38.728683,
     "lng": 0.104488,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 11:00-20:30",
     "featured": false
   },
   {
@@ -4685,6 +4768,14 @@
     "address": "160, Grampian Road, Aviemore, Highland, Scotland, PH22 1RN, United Kingdom",
     "lat": 57.193747,
     "lng": -3.828935,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-16:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Kiddie karts from age 3; Kadet 8-13yrs/1.32m; RT-200 from 13; RT-270 from 17; Tandem adult 17+ with child 4+"
+      }
+    },
     "featured": false
   },
   {
@@ -4785,6 +4876,15 @@
     "lng": 11.432979,
     "websiteUrl": "https://www.b1.at/locations/b1-kartbahn-innsbruck/",
     "phone": "+43 664 88594099",
+    "indoorOutdoor": "both",
+    "trackLengthM": 510,
+    "openingHours": "Mon closed, Tue-Thu 14:00-22:00, Fri-Sat 12:00-23:00, Sun 00:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years / 1.30m minimum for children's karts"
+      }
+    },
     "featured": false
   },
   {
@@ -5155,6 +5255,14 @@
     "address": "Boulevard, Gerberviertel, Mosaikviertel, Innenstadt, Bochum-Mitte, Bochum, North Rhine-Westphalia, 44787, Germany",
     "lat": 51.481811,
     "lng": 7.219664,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 14:00-21:00, Sat 10:00-21:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -5235,6 +5343,14 @@
     "address": "15, Kleine Heue, Dissen, Dissen am Teutoburger Wald, Landkreis Osnabrück, Lower Saxony, 49201, Germany",
     "lat": 52.112177,
     "lng": 8.208241,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Thu 16:00-20:00, Fri 16:00-22:00, Sat 10:00-22:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -5267,6 +5383,14 @@
     "address": "3, Bussardstraße, Kieselbühl, Unterfarrnbach, West, Fürth, Bavaria, 90766, Germany",
     "lat": 49.488571,
     "lng": 10.95872,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Thu 14:00-21:00, Fri 14:00-22:00, Sat 10:00-22:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -5299,6 +5423,14 @@
     "address": "132, Hauptstraße, Katastralgemeinde Gössendorf, Dörfla, Gössendorf, Bezirk Graz-Umgebung, Styria, 8077, Austria",
     "lat": 46.996943,
     "lng": 15.486968,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon closed, Tue-Thu 14:00-21:00, Fri 12:00-22:00, Sat 09:00-22:00, Sun 09:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m minimum height"
+      }
+    },
     "featured": false
   },
   {
@@ -5315,6 +5447,14 @@
     "address": "1, Marktplatz, Altstadt, Halle (Saale), Saxony-Anhalt, 06108, Germany",
     "lat": 51.482435,
     "lng": 11.971298,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Fri 14:00-20:30, Sat 10:00-20:30, Sun 10:00-19:30",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45-2m, max 120kg"
+      }
+    },
     "featured": false
   },
   {
@@ -5347,6 +5487,14 @@
     "address": "1, Ziegelhütte, Leutkirch, Adrazhofen, Leutkirch im Allgäu, VVG der Stadt Leutkirch im Allgäu, Landkreis Ravensburg, Baden-Württemberg, 88299, Germany",
     "lat": 47.810032,
     "lng": 10.035666,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Thu 14:00-21:00, Fri 14:00-22:00, Sat 10:00-22:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -5641,6 +5789,14 @@
     "address": "Place Toucrée, Marche-en-Famenne, Luxembourg, Wallonia, 6900, Belgium",
     "lat": 50.227094,
     "lng": 5.341957,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Wed 10:00-21:00, Thu-Fri closed, Sat 10:00-23:00, Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.45m minimum height"
+      }
+    },
     "featured": false
   },
   {
@@ -5708,6 +5864,14 @@
     "address": "21, Am Markt, Ansgari-Viertel, Altstadt, Mitte, Bremen-Mitte, Bremen, 28195, Germany",
     "lat": 53.07582,
     "lng": 8.807165,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 620,
+    "openingHours": "Mon-Thu 15:00-23:00, Fri 15:00-00:00, Sat 10:00-00:00, Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "8-12yr children"
+      }
+    },
     "featured": false
   },
   {
@@ -5742,6 +5906,7 @@
     "address": "Mayes Yard, Cauldwell, Bedford, England, MK40 1PG, United Kingdom",
     "lat": 52.136381,
     "lng": -0.467504,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -5776,7 +5941,13 @@
     "lng": 5.124076,
     "websiteUrl": "https://bergengokart.no/",
     "phone": "+47 40 60 20 13",
-    "coverImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/60/12/2c/caption.jpg",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 16:30-21:00, Sat 09:30-21:00, Sun 13:30-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -5811,6 +5982,15 @@
     "lng": 13.432768,
     "websiteUrl": "https://www.berlin-kart.de",
     "phone": "+49 151 400 300 91",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Mon-Fri 15:00-21:00, Sat 10:00-22:00, Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "12yr / 1.55m"
+      }
+    },
     "featured": false
   },
   {
@@ -5827,6 +6007,14 @@
     "address": "L 289, Westerbeck, Sassenburg, Landkreis Gifhorn, Lower Saxony, 38524, Germany",
     "lat": 52.521963,
     "lng": 10.646564,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 287,
+    "openingHours": "Tue-Fri 17:00-21:00, Sat 14:30-21:00, Sun 12:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -6480,6 +6668,15 @@
     "address": "Rathauswirt, 1a, Town square, Alharting, Enzenwinkl, Leonding, Bezirk Linz-Land, Upper Austria, 4060, Austria",
     "lat": 48.279331,
     "lng": 14.248746,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 600,
+    "openingHours": "Mon closed, Tue-Thu 15:00-22:00, Fri 14:00-22:00, Sat 10:00-22:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -7294,6 +7491,8 @@
     "address": "Carregado, Rua da Estação, Vala do Carregado, Castanheira do Ribatejo, Castanheira do Ribatejo e Cachoeiras, Vila Franca de Xira, Lisbon, 2600-725, Portugal",
     "lat": 39.005495,
     "lng": -8.953667,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 10:00-20:00; Sat-Sun 10:00-22:00",
     "featured": false
   },
   {
@@ -7346,6 +7545,15 @@
     "lng": 6.964955,
     "websiteUrl": "https://www.canneskarting.com/",
     "phone": "+33 4 93 47 12 97",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 430,
+    "openingHours": "Mon-Thu 16:30-00:00, Fri 16:30-01:00, Sat 10:30-01:00, Sun 10:30-00:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "7 years / 1.30m minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -7626,6 +7834,7 @@
     "address": "Vegitarian Health Store, Victoria Street, Aberaeron, Ceredigion, Wales, SA46 0DA, United Kingdom",
     "lat": 52.243177,
     "lng": -4.260015,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -7792,7 +8001,6 @@
     "lat": 50.432739,
     "lng": 30.285191,
     "phone": "097 012 3673",
-    "coverImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c0/52/89/getlstd-property-photo.jpg?w=600&h=400&s=1",
     "featured": false
   },
   {
@@ -9026,6 +9234,9 @@
     "address": "Püntkers Patt, Altstadt, Meppen, Landkreis Emsland, Lower Saxony, 49716, Germany",
     "lat": 52.694745,
     "lng": 7.290982,
+    "indoorOutdoor": "both",
+    "trackLengthM": 750,
+    "openingHours": "Wed-Thu 16:00-21:00, Fri 16:00-22:00, Sat-Sun 09:00-22:00",
     "featured": false
   },
   {
@@ -9483,6 +9694,8 @@
     "address": "Piazza del Duomo, Santa Maria la Scala, Acireale, Catania, Sicily, 95024, Italy",
     "lat": 37.612777,
     "lng": 15.16588,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Sun 07:30-13:00, 14:30-18:00",
     "featured": false
   },
   {
@@ -9635,6 +9848,14 @@
     "address": "Strada 85 Triscina, Triscina, Castelvetrano, Trapani, Sicily, 91022, Italy",
     "lat": 37.585123,
     "lng": 12.789718,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1250,
+    "openingHours": "Weekdays 16:00-00:30; Sat-Sun 08:00-23:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "Junior 6-14 years; Single-seater from 14 years"
+      }
+    },
     "featured": false
   },
   {
@@ -9667,6 +9888,9 @@
     "address": "Via San Martino, Vittoria, Ragusa, Sicily, 97019, Italy",
     "lat": 36.951496,
     "lng": 14.530487,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1400,
+    "openingHours": "Mon-Sat 08:00-12:30 & 14:30-20:00; Sun 14:30-20:00",
     "featured": false
   },
   {
@@ -9939,6 +10163,14 @@
     "address": "Municipio di Ispica, Corso Umberto Primo, Ispica, Ragusa, Sicily, 97014, Italy",
     "lat": 36.785867,
     "lng": 14.907636,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
+    "openingHours": "Daily 16:00-23:30 (summer season)",
+    "details": {
+      "karting": {
+        "min_age_or_height": "min 130cm for 7-13 years category"
+      }
+    },
     "featured": false
   },
   {
@@ -10190,6 +10422,15 @@
     "address": "Prague Meridian, Old Town Square, Josefov, obvod Praha 1, Prague, 110 00, Czechia",
     "lat": 50.087465,
     "lng": 14.421254,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 700,
+    "openingHours": "Mon-Fri 11:00-23:00; Sat 10:00-23:00; Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "from age 5"
+      }
+    },
     "featured": false
   },
   {
@@ -10392,7 +10633,6 @@
     "address": "Agios Georgios Avenue, Peyia, Δήμος Ακάμα, Paphos District, Cyprus, 8560, Cyprus",
     "lat": 34.880445,
     "lng": 32.349976,
-    "coverImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/bf/14/2a/caption.jpg",
     "featured": false
   },
   {
@@ -10593,6 +10833,9 @@
     "address": "Karting Cross Empuriabrava, C-260, Empuriabrava i entorn, Empuriabrava, Castelló d'Empúries, Upper Empordà, Girona, Catalonia, 17047, Spain",
     "lat": 42.264035,
     "lng": 3.11103,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Daily 10:30-21:00",
     "featured": false
   },
   {
@@ -10848,6 +11091,8 @@
     "address": "9, Maaveräjäntie, Junkkari, Toijala, Akaa, Southern Pirkanmaa, Pirkanmaa, Mainland Finland, 37800, Finland",
     "lat": 61.197483,
     "lng": 23.828044,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
     "featured": false
   },
   {
@@ -11061,6 +11306,8 @@
     "address": "Despar Paratore, Via Libertà, Basicò, Messina, Sicily, 98060, Italy",
     "lat": 38.061393,
     "lng": 15.062247,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 17:00-00:00; Sat-Sun 16:00-00:00",
     "featured": false
   },
   {
@@ -11198,6 +11445,15 @@
     "address": "Auf dem Hügel, Wietesch, Rheine, Kreis Steinfurt, North Rhine-Westphalia, 48431, Germany",
     "lat": 52.279771,
     "lng": 7.437361,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 350,
+    "openingHours": "Thu-Fri 17:00-21:00, Sat 13:00-21:00, Sun 12:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7yr/1.30m small karts; 12yr/1.55m large karts"
+      }
+    },
     "featured": false
   },
   {
@@ -11248,6 +11504,14 @@
     "address": "Lourinhã, Lisbon, 2530-161, Portugal",
     "lat": 39.243393,
     "lng": -9.311933,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 920,
+    "openingHours": "Mon 10:00-13:00 & 14:00-19:00; Tue closed; Wed-Sun 10:00-13:00 & 14:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -11296,6 +11560,14 @@
     "address": "3, Place des Sabots, Saint-Paulien, Le Puy-en-Velay, Haute-Loire, Auvergne-Rhône-Alpes, Metropolitan France, 43350, France",
     "lat": 45.13585,
     "lng": 3.813115,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "openingHours": "Mon-Fri 10:00-12:00 & 14:30-19:00, Sat 10:00-12:00 & 14:30-19:30, Sun 10:00-12:00 & 14:30-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -11646,7 +11918,6 @@
     "lat": 40.547622,
     "lng": 23.020012,
     "phone": "+30 231 046 5723",
-    "coverImageUrl": "https://media-cdn.tripadvisor.com/media/photo-f/14/fe/a8/a0/k-2-race-track-overview.jpg",
     "instagramUrl": "https://www.instagram.com/drivepark_/",
     "facebookUrl": "https://www.facebook.com/driveparkthessaloniki/",
     "featured": false
@@ -12118,6 +12389,15 @@
     "address": "E Kart Arena NITRA, Novozámocká, Dvorčany, Krškany, Nitra, District of Nitra, Region of Nitra, 949 05, Slovakia",
     "lat": 48.263759,
     "lng": 18.10343,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 550,
+    "openingHours": "Mon-Thu 14:00-22:00; Fri 14:00-23:00; Sat 10:00-23:00; Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "E-Kart Academy sessions open from 135cm"
+      }
+    },
     "featured": false
   },
   {
@@ -12150,6 +12430,16 @@
     "address": "Mammelokker, 17, Botermarkt, Sint-Jacobs, Ghent, Gent, East Flanders, Flanders, 9000, Belgium",
     "lat": 51.053829,
     "lng": 3.725012,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Mon closed, Tue-Thu 16:00-22:00, Fri 16:00-00:00, Sat 10:00-00:00, Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "6 years for children, 16 years for adults",
+        "max_kart_speed_kmh": 45
+      }
+    },
     "featured": false
   },
   {
@@ -12166,6 +12456,16 @@
     "address": "17, Marktplatz, Stiftsviertel, Sindelfingen (Stadt), Sindelfingen, Landkreis Böblingen, Baden-Württemberg, 71063, Germany",
     "lat": 48.708416,
     "lng": 9.003545,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 320,
+    "openingHours": "Wed-Thu 15:00-21:00, Fri 15:00-22:00, Sat 12:00-22:00, Sun 12:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "8yr / 1.45m",
+        "max_kart_speed_kmh": 50
+      }
+    },
     "featured": false
   },
   {
@@ -12368,6 +12668,9 @@
     "address": "Strömfors Bed & Bistro, 10A, Ruukintie, Ruotsinpyhtää, Loviisa, Loviisa sub-region, Uusimaa, Mainland Finland, 07970, Finland",
     "lat": 60.523968,
     "lng": 26.471272,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 300,
+    "openingHours": "Mon-Fri 10:00-18:00, Sat-Sun closed/unclear",
     "featured": false
   },
   {
@@ -12609,6 +12912,15 @@
     "address": "Rathausplatz, Stadtmitte, Neu-Ulm, Landkreis Neu-Ulm, Bavaria, 89231, Germany",
     "lat": 48.395349,
     "lng": 10.000521,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 430,
+    "openingHours": "Mon-Thu 14:00-22:00, Fri 16:00-00:00, Sat 11:00-00:00, Sun 12:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "8yr two-seater; 10yr junior licence; 1.45m min"
+      }
+    },
     "featured": false
   },
   {
@@ -12625,6 +12937,8 @@
     "address": "Tan-y-Fynwent, Upper Bangor, Bangor, Gwynedd, Wales, LL57 1DS, United Kingdom",
     "lat": 53.227716,
     "lng": -4.126882,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Sat 10:00-18:00, Sun 12:00-20:00, Mon-Fri closed",
     "featured": false
   },
   {
@@ -12737,6 +13051,8 @@
     "address": "Avinguda del País Valencià, Almenara, la Plana Baixa, Castelló / Castellón, Valencian Community, 12590, Spain",
     "lat": 39.752123,
     "lng": -0.225129,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Sun 10:00-20:00; Mon-Tue closed",
     "featured": false
   },
   {
@@ -12769,6 +13085,14 @@
     "address": "1, Plaça de Baix, el Salvador, Elx / Elche, el Baix Vinalopó, Alacant / Alicante, Valencian Community, 03201, Spain",
     "lat": 38.265331,
     "lng": -0.698839,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1160,
+    "openingHours": "Daily 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -12785,6 +13109,15 @@
     "address": "Largo Engenheiro Duarte Pacheco, Bairro dos Pescadores, Albufeira e Olhos de Água, Albufeira, Faro, 8200-142, Portugal",
     "lat": 37.088241,
     "lng": -8.252634,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Daily 11:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "From age 16 and approx. 1.50m height"
+      }
+    },
     "featured": false
   },
   {
@@ -12817,6 +13150,16 @@
     "address": "69, Hauptstraße, Bleicherode Ost, Bleicherode, Landkreis Nordhausen, Thuringia, 99752, Germany",
     "lat": 51.440057,
     "lng": 10.572746,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 250,
+    "openingHours": "Fri 14:00-18:00, Sat 10:00-20:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "7yr / 1.30m",
+        "max_kart_speed_kmh": 60
+      }
+    },
     "featured": false
   },
   {
@@ -12919,6 +13262,15 @@
     "address": "Am Flugplatz, Hümmelsberg, Altenberge, Haren (Ems), Landkreis Emsland, Lower Saxony, 49733, Germany",
     "lat": 52.802667,
     "lng": 7.164494,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
+    "openingHours": "Daily 10:00-18:00 (Easter-autumn holidays)",
+    "details": {
+      "karting": {
+        "min_age_or_height": "6yr",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -13102,6 +13454,14 @@
     "address": "Pontinha, Estrada Militar, Carnide, Lisbon, 1675, Portugal",
     "lat": 38.762249,
     "lng": -9.196865,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon closed; Tue-Sun 10:30-12:30 & 14:00-18:30 (Tue from 14:00)",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "From age 7"
+      }
+    },
     "featured": false
   },
   {
@@ -13271,6 +13631,14 @@
     "address": "Estrada de Fátima, Urbanização do Pinhal Manso, Arneiro, Batalha, Leiria, 2440-110, Portugal",
     "lat": 39.6579,
     "lng": -8.824371,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon closed; Tue-Sun 10:00-13:00 & 14:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Junior competitions for ages 9-14"
+      }
+    },
     "featured": false
   },
   {
@@ -13449,6 +13817,7 @@
     "websiteUrl": "https://www.experience-factory.com/eupen/",
     "phone": "+32 87 31 32 33",
     "coverImageUrl": "https://static.experience-factory.com/eupen/wp-content/uploads/thumb-scaled-1200x800.jpg",
+    "openingHours": "Mon-Fri 16:00-22:00 (Wed from 14:00), Sat-Sun 11:00-22:00",
     "featured": false
   },
   {
@@ -13533,6 +13902,15 @@
     "address": "2, Blaubergsesteenweg, Herselt, Laakdal, Turnhout, Antwerp, Flanders, 2230, Belgium",
     "lat": 51.053503,
     "lng": 4.883265,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Mon-Tue closed, Wed-Fri 18:00-23:00, Sat 14:00-00:00, Sun 14:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "from 12 years, must reach pedals"
+      }
+    },
     "featured": false
   },
   {
@@ -13868,6 +14246,9 @@
     "address": "Hasenheide, Faßberg, Landkreis Celle, Lower Saxony, 29328, Germany",
     "lat": 52.898932,
     "lng": 10.166776,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1020,
+    "openingHours": "Sat 10:00-16:00 (training sessions)",
     "featured": false
   },
   {
@@ -13884,6 +14265,14 @@
     "address": "Hôtel de Ville, 5, Place de l'Hôtel de Ville, Crêt de Roc, Saint-Étienne, Loire, Auvergne-Rhône-Alpes, Metropolitan France, 42000, France",
     "lat": 45.440147,
     "lng": 4.387306,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue closed, Wed 14:00-21:00, Thu 17:00-00:00, Fri 14:30-00:00, Sat 10:00-12:00 & 14:00-01:00, Sun 14:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Junior min 1.36m; adults from 14"
+      }
+    },
     "featured": false
   },
   {
@@ -14272,6 +14661,15 @@
     "address": "Bedrijvenzone Machelen Cargo, Diegem, Machelen, Halle-Vilvoorde, Flemish Brabant, Flanders, 1831, Belgium",
     "lat": 50.901522,
     "lng": 4.446785,
+    "indoorOutdoor": "both",
+    "trackLengthM": 700,
+    "openingHours": "Mon-Tue & Thu 17:00-22:00, Wed & Fri 17:00-23:00, Sat 12:00-23:00, Sun 14:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 50
+      }
+    },
     "featured": false
   },
   {
@@ -14359,6 +14757,15 @@
     "lng": 19.069938,
     "websiteUrl": "https://gokartbudapest.hu/en/",
     "coverImageUrl": "https://gokartbudapest.hu/wp-content/uploads/2025/03/PIC_elektromos_gokart_verseny_5b.jpg",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 210,
+    "openingHours": "Mon-Fri 15:00-22:00; Sat 10:00-22:00; Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "from age 6, min height 1.25m"
+      }
+    },
     "featured": false
   },
   {
@@ -14429,6 +14836,8 @@
     "address": "19, Hauptstraße, Peenemünde, Usedom-Nord, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17449, Germany",
     "lat": 54.135589,
     "lng": 13.77305,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-18:00",
     "featured": false
   },
   {
@@ -14445,6 +14854,15 @@
     "address": "Igreja Matriz de Poiares (Santo André), Praça Luís de Camões, Ferreira, Poiares (Santo André), Vila Nova de Poiares, Coimbra, 3350-157, Portugal",
     "lat": 40.210577,
     "lng": -8.258889,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1200,
+    "openingHours": "Mon-Fri 09:30-13:00 & 14:30-19:00 (Wed from 09:00); Sat-Sun 09:30-13:00 & 14:30-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Adult karts from age 16"
+      }
+    },
     "featured": false
   },
   {
@@ -14495,6 +14913,14 @@
     "address": "Mannerheimintie, Kaartinkaupunki, Southern major district, Helsinki, Helsinki sub-region, Uusimaa, Mainland Finland, 00014, Finland",
     "lat": 60.16662,
     "lng": 24.943541,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Tue-Fri 14:00-21:00, Sat 10:00-19:00, Sun 14:00-20:00, Mon closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "1.40m minimum height"
+      }
+    },
     "featured": false
   },
   {
@@ -14561,6 +14987,9 @@
     "address": "Fórmula Karting Granada, Calle Cartujilla, Granaita, Urbanización La Joya, Pulianas, Comarca de la Vega de Granada, Granada, Andalusia, 18197, Spain",
     "lat": 37.211368,
     "lng": -3.620799,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 420,
+    "openingHours": "Mon-Fri 16:00-22:00; Sat 11:00-14:00 & 16:00-22:00; Sun 16:00-21:00",
     "featured": false
   },
   {
@@ -14743,6 +15172,8 @@
     "address": "Rathausstraße, Auhof, Kammersdorf, Geiersthal, Landkreis Regen, Bavaria, 94244, Germany",
     "lat": 49.048884,
     "lng": 12.979218,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Thu 12:00-21:00, Fri-Sat 12:00-23:00, Sun 12:00-22:00",
     "featured": false
   },
   {
@@ -15068,6 +15499,8 @@
     "address": "Monumento aos Três Pastorinhos, Rotunda dos Pastorinhos, Lomba de Égua, Fátima, Ourém, Santarém, 2495-413, Portugal",
     "lat": 39.62555,
     "lng": -8.665908,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue closed; Wed-Sun 10:00-19:00",
     "featured": false
   },
   {
@@ -15237,6 +15670,14 @@
     "address": "Eyre Square, Galway, County Galway, Connacht, H91 FT22, Ireland",
     "lat": 53.274412,
     "lng": -9.04906,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 13:00-21:00, Sat-Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7 years minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -15798,6 +16239,8 @@
     "address": "Győrzámolyi Sportcsarnok, 32, Rákóczi út, Győrzámoly, Győri járás, Győr-Moson-Sopron, Western Transdanubia, Transdanubia, 9172, Hungary",
     "lat": 47.740432,
     "lng": 17.578842,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 16:00-22:00; Sat-Sun 14:00-22:00",
     "featured": false
   },
   {
@@ -15878,6 +16321,9 @@
     "address": "Ulica 1. svibnja, Moela, Umag, Grad Umag, Istria County, 52470, Croatia",
     "lat": 45.432359,
     "lng": 13.52241,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 380,
+    "openingHours": "Fri-Sun 12:00-18:00 (closed Mon-Thu)",
     "featured": false
   },
   {
@@ -15926,6 +16372,14 @@
     "address": "21, Carrer Sant Vicent, Finestrat, la Marina Baixa, Alacant / Alicante, Valencian Community, 03509, Spain",
     "lat": 38.567924,
     "lng": -0.212232,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1260,
+    "openingHours": "Daily 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -16074,6 +16528,8 @@
     "address": "5, Butscherweg, Gramkow, Hohenkirchen, Klützer Winkel, Nordwestmecklenburg, Mecklenburg-Vorpommern, 23968, Germany",
     "lat": 53.916545,
     "lng": 11.306623,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Fri 17:00-20:00, Sat 14:00-20:00, Sun 14:00-19:00",
     "featured": false
   },
   {
@@ -16090,6 +16546,13 @@
     "address": "Toftevænget, Them, Silkeborg Municipality, Central Denmark Region, 8653, Denmark",
     "lat": 56.090152,
     "lng": 9.546518,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Sat 10:30-21:00 Sun closed",
+    "details": {
+      "karting": {
+        "min_age_or_height": "recommended from about 10 years"
+      }
+    },
     "featured": false
   },
   {
@@ -16218,6 +16681,15 @@
     "address": "47, Dammstraße, Bergen Süd, Bergen auf Rügen, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18528, Germany",
     "lat": 54.417267,
     "lng": 13.430563,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 300,
+    "openingHours": "Daily 10:00-18:00 (low season Nov-Mar)",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "8yr karts; 6yr quads; 3yr e-mobiles"
+      }
+    },
     "featured": false
   },
   {
@@ -16234,6 +16706,8 @@
     "address": "Zahnarztpraxis Dr. med. dent. Thomas E. Berger, 8, Markt, Bad Frankenhausen/Kyffhäuser, Kyffhäuserland, Kyffhäuserkreis, Thuringia, 06567, Germany",
     "lat": 51.356014,
     "lng": 11.100523,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Fri 17:00-20:00, Sat 14:00-20:00, Sun 14:00-18:00",
     "featured": false
   },
   {
@@ -16282,6 +16756,13 @@
     "address": "4, Calle de Ereta, Rojales, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03178, Spain",
     "lat": 38.087175,
     "lng": -0.722821,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Thu & Sun 11:00-22:00; Fri-Sat 11:00-23:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -16298,6 +16779,13 @@
     "address": "Clínica Veterinaria Orihuela Costa, 6, Calle Reyes Católicos, Severo Ochoa, Orihuela, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03300, Spain",
     "lat": 38.079454,
     "lng": -0.945721,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -16314,6 +16802,14 @@
     "address": "Gölsdorf, Niedergörsdorf, Teltow-Fläming, Brandenburg, 14913, Germany",
     "lat": 51.950829,
     "lng": 12.987429,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1280,
+    "openingHours": "Tue-Sat 10:00-20:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "8yr/1.30m; 12yr/1.40m; 16yr/1.40m; two-seater 6yr+"
+      }
+    },
     "featured": false
   },
   {
@@ -16431,6 +16927,7 @@
     "address": "Radničné námestie, Sídlisko Za hradbami, Pezinok, District of Pezinok, Region of Bratislava, 902 01, Slovakia",
     "lat": 48.285454,
     "lng": 17.270194,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -16450,6 +16947,9 @@
     "websiteUrl": "https://gokartcentar.hr",
     "phone": "+385 99 162 6447",
     "coverImageUrl": "https://content.selectbox.hr/uploads/2024/07/449953776_122185699022019376_1326310712170900414_n-1024x683.jpg",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 1150,
+    "openingHours": "Tue-Thu 16:00-22:00; Fri 16:00-23:00; Sat 10:00-23:00; Sun 10:00-22:00 (closed Mon)",
     "featured": false
   },
   {
@@ -16482,6 +16982,15 @@
     "address": "Rondo Jana Pawła II, Śródmieście, Pila, Piła County, Greater Poland Voivodeship, 64-920, Poland",
     "lat": 53.151131,
     "lng": 16.738034,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 380,
+    "openingHours": "Mon-Fri 15:00-22:00; Sat-Sun 12:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "min height 1.40m to drive solo; passengers from age 3 in two-seater karts"
+      }
+    },
     "featured": false
   },
   {
@@ -16530,6 +17039,8 @@
     "address": "Ibrahim Rugova, Livadhet e Arapit, Dheu i Bardhë I, Gjilan, Municipality of Gjilan / Gnjilane, District of Gjilan, 60000, Kosovo",
     "lat": 42.463515,
     "lng": 21.46936,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 11:00-02:00",
     "featured": false
   },
   {
@@ -16614,6 +17125,14 @@
     "address": "18, Rozália út, Kőfaragó téri lakótelep, Kurucdomb, Sopron, Soproni járás, Győr-Moson-Sopron, Western Transdanubia, Transdanubia, 9400, Hungary",
     "lat": 47.680306,
     "lng": 16.598346,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon 14:00-18:00; Tue-Fri 15:00-18:00; Sat 12:00-19:00; Sun 12:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "min age 10"
+      }
+    },
     "featured": false
   },
   {
@@ -16630,6 +17149,13 @@
     "address": "Gokart Sportaréna, Hungária körút, Istvánmező, 14th district, Budapest, Central Hungary, 1143, Hungary",
     "lat": 47.50114,
     "lng": 19.106824,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 12:00-21:00; Sat 11:00-22:00; Sun 11:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -16678,6 +17204,9 @@
     "address": "61, Goorstorfer Straße, Neu-Hinrichsdorf, Hinrichsdorf, Ortsbeirat 18 : Gehlsdorf, Hinrichsdorf, Jürgenshof, Krummendorf, Nienhagen, Peez, Stuthof, Rostock, Mecklenburg-Vorpommern, 18146, Germany",
     "lat": 54.125026,
     "lng": 12.170691,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Tue-Thu 14:00-20:30, Fri-Sat 14:00-21:00, Sun 14:00-20:00",
     "featured": false
   },
   {
@@ -16710,6 +17239,15 @@
     "address": "Vytauto g., New Town, Centre, Klaipėda, Klaipėda City Municipality, Klaipėda County, 92133, Lithuania",
     "lat": 55.712753,
     "lng": 21.135047,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
+    "openingHours": "Daily 12:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "min 125cm to ride solo (under 125cm rides two-seater with an adult)"
+      }
+    },
     "featured": false
   },
   {
@@ -16780,6 +17318,8 @@
     "address": "1421, Trysilvegen, Skogen, Hernes, Elverum, Innlandet, 2410, Norway",
     "lat": 60.972803,
     "lng": 11.734442,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Tue-Sat 13:00-20:00, Sun 13:00-18:00, Mon closed",
     "featured": false
   },
   {
@@ -17335,6 +17875,13 @@
     "lat": 44.881426,
     "lng": 13.870048,
     "coverImageUrl": "https://www.karting.hr/images/objects/02.jpg",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 09:00-19:30",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -17367,6 +17914,14 @@
     "address": "Place Vauban, Ville-Basse, Charleroi, Hainaut, Wallonia, 6000, Belgium",
     "lat": 50.411623,
     "lng": 4.444528,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 1100,
+    "openingHours": "Mon-Tue 17:00-22:00, Wed 13:00-17:00 & 17:00-22:00, Thu 17:00-22:00, Fri 17:00-00:00, Sat 14:00-00:00, Sun 10:00-14:00 & 14:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -17480,6 +18035,8 @@
     "address": "Nessetran, Grong, Trøndelag, 7873, Norway",
     "lat": 64.530797,
     "lng": 12.637238,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 524,
     "featured": false
   },
   {
@@ -17871,7 +18428,14 @@
     "lng": 10.83619,
     "websiteUrl": "https://hhk.no/",
     "phone": "+47 23 05 13 00",
-    "coverImageUrl": "https://hhk.no/wp-content/uploads/2023/11/Huysman-karting_BAW_13-1024x683.jpg",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 12:00-21:00, Sat 10:00-22:00, Sun 12:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Kidkart 6yrs/1.20m; Junior 11-14yrs/1.40m; Adult 15+"
+      }
+    },
     "featured": false
   },
   {
@@ -18072,6 +18636,14 @@
     "address": "Pfarrkirche Regau, Friedensweg, Unterlixlau, Regau, Bezirk Vöcklabruck, Upper Austria, 4844, Austria",
     "lat": 47.991944,
     "lng": 13.688056,
+    "indoorOutdoor": "both",
+    "trackLengthM": 350,
+    "openingHours": "Mon-Thu 16:00-22:00, Fri-Sun 13:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -18366,6 +18938,12 @@
     "address": "10, Blegstræde, Holbæk, Holbæk Municipality, Region Zealand, 4300, Denmark",
     "lat": 55.718612,
     "lng": 11.713547,
+    "indoorOutdoor": "outdoor",
+    "details": {
+      "karting": {
+        "min_age_or_height": "welcomes children from 6 years"
+      }
+    },
     "featured": false
   },
   {
@@ -18382,6 +18960,14 @@
     "address": "Via Seconda Retta Levante, Borrello, Villaggio del Pino, Belpasso, Catania, Sicily, 95032, Italy",
     "lat": 37.589187,
     "lng": 14.978239,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 340,
+    "openingHours": "Mon-Thu 16:00-00:00; Fri 16:00-01:00; Sat-Sun 10:00-01:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -18957,6 +19543,14 @@
     "address": "Ancienne Chapelle Saint-Georges, 22, Grand-Place, Quartier Rachot, Faubourg du Parc, Mons, Hainaut, Wallonia, 7000, Belgium",
     "lat": 50.454957,
     "lng": 3.951958,
+    "indoorOutdoor": "both",
+    "trackLengthM": 600,
+    "openingHours": "Mon 13:00-20:00, Tue closed, Wed 13:30-21:00, Thu 16:00-00:00, Fri 17:00-01:00, Sat 13:00-01:00, Sun 13:00-23:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -19006,6 +19600,9 @@
     "address": "2, Piazza San Giovanni, Barbarano del Capo, Morciano di Leuca, Lecce, Apulia, 73053, Italy",
     "lat": 39.847986,
     "lng": 18.309818,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
+    "openingHours": "Thu-Fri 15:30-18:30; Sat 15:00-19:30; Sun 15:00-20:00 (Mon-Wed closed)",
     "featured": false
   },
   {
@@ -19162,6 +19759,16 @@
     "address": "5, Eichenring, Katastralgemeinde Spielberg, Pausendorf, Spielberg, Bezirk Murtal, Styria, 8724, Austria",
     "lat": 47.212274,
     "lng": 14.785741,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Mon-Thu 16:00-22:00, Fri-Sat 10:00-22:30, Sun 09:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years / 1.30m minimum for standard karts, 4+ for electric mini karts",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -19178,6 +19785,15 @@
     "address": "Saarbrücker Straße, Bous, Landkreis Saarlouis, Saarland, 66359, Germany",
     "lat": 49.275125,
     "lng": 6.795629,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 360,
+    "openingHours": "Mon-Thu 15:00-22:00, Fri-Sat 15:00-23:00, Sun 15:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8yr / 1.40m"
+      }
+    },
     "featured": false
   },
   {
@@ -19228,6 +19844,14 @@
     "address": "Rua 31 de Janeiro, Nossa Senhora do Pópulo, Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha, Leiria, 2500-253, Portugal",
     "lat": 39.407186,
     "lng": -9.1346,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 315,
+    "openingHours": "Mon-Tue & Thu-Sat 16:00-00:00; Wed closed; Sun 16:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -19260,6 +19884,16 @@
     "address": "4, Fackelstraße, Lämmchesberg, Kaiserslautern, Rhineland-Palatinate, 67655, Germany",
     "lat": 49.443217,
     "lng": 7.768995,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Mon-Thu 16:00-22:00, Fri 15:00-00:00, Sat 13:00-00:00, Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "8-13yr / 1.38m; two-seater from 3yr with adult",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -19383,6 +20017,14 @@
     "websiteUrl": "https://kartbahn-waldshut.de",
     "phone": "+49 7751 910132",
     "coverImageUrl": "https://www.kartbahn-waldshut.de/fileadmin/_processed_/1/f/csm_IMG_0119_4dafda2ef5.jpg",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Tue-Thu 16:00-22:00, Fri 16:00-22:30, Sat 13:00-22:30, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "under 14 needs junior licence"
+      }
+    },
     "featured": false
   },
   {
@@ -19417,6 +20059,15 @@
     "address": "32, Hauptstraße, Rottweil, VVG der Stadt Rottweil, Landkreis Rottweil, Baden-Württemberg, 78628, Germany",
     "lat": 48.167824,
     "lng": 8.626979,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 550,
+    "openingHours": "Tue-Fri 16:00-22:00, Sat 11:00-22:00, Sun 11:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8yr with licence; 14yr free practice"
+      }
+    },
     "featured": false
   },
   {
@@ -19534,6 +20185,14 @@
     "address": "Fortbaan, Liezele, Puurs-Sint-Amands, Mechelen, Antwerp, Flanders, 2870, Belgium",
     "lat": 51.066411,
     "lng": 4.281235,
+    "indoorOutdoor": "both",
+    "trackLengthM": 1000,
+    "openingHours": "Mon-Tue closed, Wed 14:00-23:00, Thu-Fri 18:00-23:00, Sat 10:00-23:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -19598,6 +20257,15 @@
     "address": "Vesuvio Pizza, Queensgate Arcade, Haugh, Crown and City Centre, Inverness, Highland, Scotland, IV1 1AN, United Kingdom",
     "lat": 57.479012,
     "lng": -4.225739,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 320,
+    "openingHours": "Mon-Fri 13:00-21:00, Sat 10:00-21:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Rookie 6yrs, Junior 8yrs (under-16 accompanied), Adult 16yrs (under-18 accompanied)"
+      }
+    },
     "featured": false
   },
   {
@@ -20086,6 +20754,14 @@
     "address": "Rue Jean-Hubert Tillmans, Cité du Fort, Fléron, Liège, Wallonia, 4620, Belgium",
     "lat": 50.616835,
     "lng": 5.683222,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 530,
+    "openingHours": "Mon-Tue & Thu 18:00-23:00, Wed 16:00-23:00, Fri 18:00-00:30, Sat 14:00-00:30, Sun 09:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -20102,6 +20778,13 @@
     "address": "Rue Romedenne, Floreffe, Namur, Wallonia, 5150, Belgium",
     "lat": 50.436687,
     "lng": 4.760039,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Thu 18:00-23:00, Fri 18:00-00:30, Sat 11:00-00:30, Sun 14:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -20328,6 +21011,8 @@
     "address": "Maghera Street, Kilrea, Causeway Coast and Glens District, County Londonderry, Northern Ireland, BT51 5QJ, United Kingdom",
     "lat": 54.950167,
     "lng": -6.556465,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 11:00-19:30, Sat 09:30-20:00, Sun closed",
     "featured": false
   },
   {
@@ -21697,6 +22382,8 @@
     "lat": 47.326429,
     "lng": 8.297128,
     "coverImageUrl": "https://www.kartbahnwohlen.ch/wp-content/uploads/2022/10/kartbahn-img1.jpg",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Sat 09:00-19:45, Sun 10:00-19:45",
     "featured": false
   },
   {
@@ -21959,6 +22646,7 @@
     "address": "Narva mnt, Südalinn, City center, Tallinn, Harju County, 15172, Estonia",
     "lat": 59.437242,
     "lng": 24.757269,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -22039,6 +22727,13 @@
     "address": "Altstädter Kirchplatz, Heilbad Heiligenstadt, Landkreis Eichsfeld, Thuringia, 37308, Germany",
     "lat": 51.37883,
     "lng": 10.136953,
+    "indoorOutdoor": "both",
+    "openingHours": "Wed-Fri 16:00-20:00, Sat 14:00-21:00, Sun 14:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "12yr"
+      }
+    },
     "featured": false
   },
   {
@@ -22072,6 +22767,14 @@
     "address": "Prinzregent Luitpold von Bayern, Rathausplatz, Mitte, Kernstadt, Landau in der Pfalz, Rhineland-Palatinate, 76829, Germany",
     "lat": 49.198282,
     "lng": 8.112344,
+    "indoorOutdoor": "both",
+    "trackLengthM": 450,
+    "openingHours": "Mon-Thu 16:00-22:00, Fri 15:00-01:00, Sat 10:00-01:00, Sun 10:00-23:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.30m children; 1.40m students"
+      }
+    },
     "featured": false
   },
   {
@@ -22088,6 +22791,14 @@
     "address": "Výpadová, Radotín, Praha 16, obvod Praha 5, Prague, 153 00, Czechia",
     "lat": 49.983374,
     "lng": 14.360424,
+    "indoorOutdoor": "both",
+    "trackLengthM": 1300,
+    "openingHours": "Daily 11:00-00:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -22201,6 +22912,14 @@
     "address": "King Kebab, 1, Kirkkojärventie, Vaakunatori, Kirkkojärvi, Espoo Centre, Vanha-Espoo, Espoo, Helsinki sub-region, Uusimaa, Mainland Finland, 02770, Finland",
     "lat": 60.204965,
     "lng": 24.655981,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 14:00-20:00, Sat 11:00-20:00, Sun 11:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.40m minimum to drive solo; tandem karts for under 1.40m with adult"
+      }
+    },
     "featured": false
   },
   {
@@ -22237,6 +22956,14 @@
     "lng": 23.719683,
     "websiteUrl": "https://kic.fi/tampere/",
     "phone": "+358 44 776 5090",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 12:00-20:00, Sat 10:00-20:00, Sun 11:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Children from 1.25m; adults from 1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -22334,7 +23061,6 @@
     "lat": 43.989924,
     "lng": 12.510051,
     "phone": "0549 909592",
-    "coverImageUrl": "https://media-cdn.tripadvisor.com/media/photo-f/04/78/43/27/kart-legend.jpg",
     "featured": false
   },
   {
@@ -22400,6 +23126,15 @@
     "address": "Hauptstraße, Gollhofen, Uffenheim (VGem), Landkreis Neustadt an der Aisch-Bad Windsheim, Bavaria, 97258, Germany",
     "lat": 49.568775,
     "lng": 10.193183,
+    "indoorOutdoor": "both",
+    "trackLengthM": 1500,
+    "openingHours": "Wed-Fri 15:00-21:00, Sat 10:00-23:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "6yr"
+      }
+    },
     "featured": false
   },
   {
@@ -22416,6 +23151,14 @@
     "address": "8199, Old Town, District of Bratislava I, Bratislava, Region of Bratislava, 811 06, Slovakia",
     "lat": 48.151699,
     "lng": 17.109306,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 14:00-22:00; Sat-Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "from age 7"
+      }
+    },
     "featured": false
   },
   {
@@ -22451,6 +23194,15 @@
     "websiteUrl": "https://teamsport-ekarting.de/standorte/muenchen-west-kart-palast",
     "phone": "08142-41 85 10",
     "coverImageUrl": "https://images.prismic.io/teamsport/ZlcMwKWtHYXtT467_DE-Karting-Kart-Palast-Normal-Karting-119.png",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 1600,
+    "openingHours": "Mon-Thu 10:00-23:30, Fri-Sat 10:00-01:00, Sun 09:00-23:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "3yr+ Nano; 8-11yr Mini Kids; 11-13yr Maxi Kids; 16yr+ adult"
+      }
+    },
     "featured": false
   },
   {
@@ -22565,6 +23317,14 @@
     "address": "Apotheke am Rathaus, 3, Rathausplatz, Leopoldshöhe, Friedlingen, Weil, Weil am Rhein, Landkreis Lörrach, Baden-Württemberg, 79576, Germany",
     "lat": 47.59328,
     "lng": 7.611613,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 700,
+    "openingHours": "Wed-Thu 16:00-22:00, Fri 15:00-23:00, Sat 14:00-23:00, Sun 10:30-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -22678,6 +23438,8 @@
     "address": "16, Skalmierzycka, Osiedle Marii Konopnickiej, Osiedle Adama Asnyka, Kalisz, Greater Poland Voivodeship, 62-800, Poland",
     "lat": 51.747287,
     "lng": 18.079532,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Fri 12:00-20:00; Sat-Sun 12:00-20:30 (closed Mon-Thu)",
     "featured": false
   },
   {
@@ -22790,6 +23552,14 @@
     "address": "Fellini, 3, Fischmarkt, Altstadt, Erfurt, Thuringia, 99084, Germany",
     "lat": 50.977797,
     "lng": 11.028736,
+    "indoorOutdoor": "both",
+    "trackLengthM": 800,
+    "openingHours": "Wed-Fri 16:00-22:00, Sat 11:00-22:00, Sun 11:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.30m children; 1.55m+ adult; 5yr/1.00m two-seater"
+      }
+    },
     "featured": false
   },
   {
@@ -22806,6 +23576,14 @@
     "address": "3a, Friedhofsweg, Kötterhörn, Rastede I, Hankhausen II, Rastede, Landkreis Ammerland, Lower Saxony, 26180, Germany",
     "lat": 53.246708,
     "lng": 8.201904,
+    "indoorOutdoor": "both",
+    "trackLengthM": 850,
+    "openingHours": "Thu-Fri 15:00-20:30, Sat-Sun 11:00-20:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "6yr/1.28m children; 12yr/1.50m adult"
+      }
+    },
     "featured": false
   },
   {
@@ -22838,6 +23616,15 @@
     "address": "2, Marktplatz, Laatzen-Mitte, Laatzen, Region Hannover, Lower Saxony, 30880, Germany",
     "lat": 52.307826,
     "lng": 9.814618,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Mon-Fri 17:00-23:00, Sat 09:00-00:00, Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "6-14yr / 1.30m junior"
+      }
+    },
     "featured": false
   },
   {
@@ -23004,6 +23791,13 @@
     "address": "Calle Mesurado, Barriada Islas Canarias, Estepona, Costa del Sol Occidental, Malaga, Andalusia, 29680, Spain",
     "lat": 36.426807,
     "lng": -5.146848,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 11:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -23214,6 +24008,14 @@
     "address": "7, Wölzower Weg, Wittenburg, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19243, Germany",
     "lat": 53.505962,
     "lng": 11.084783,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1100,
+    "openingHours": "Thu-Fri 14:00-20:00, Sat-Sun 12:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.35-1.55m children"
+      }
+    },
     "featured": false
   },
   {
@@ -23246,6 +24048,14 @@
     "address": "Freiheitstraße, Altes Dorf, Nordstadt, Singen (Hohentwiel), VVG der Stadt Singen (Hohentwiel), Landkreis Konstanz, Baden-Württemberg, 78224, Germany",
     "lat": 47.761752,
     "lng": 8.834871,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 280,
+    "openingHours": "Wed-Fri 17:00-22:00, Sat 13:00-22:00, Sun 13:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "under 13 needs junior licence; 1.30m JuniorTIME"
+      }
+    },
     "featured": false
   },
   {
@@ -23262,6 +24072,13 @@
     "address": "Sandstraße, Kümmersbruck, Landkreis Amberg-Sulzbach, Bavaria, 92245, Germany",
     "lat": 49.417552,
     "lng": 11.889433,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Fri 10:00-20:00, Sat-Sun 09:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.25m children; 1.45m rental"
+      }
+    },
     "featured": false
   },
   {
@@ -23278,6 +24095,14 @@
     "address": "14, Mühldorfer Straße, Neuhaus, Ampfing, Landkreis Mühldorf am Inn, Bavaria, 84539, Germany",
     "lat": 48.255023,
     "lng": 12.419056,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1063,
+    "openingHours": "Wed-Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -23294,6 +24119,13 @@
     "address": "6, Marktplatz, Altstadt, Weberdorf, Bad Mergentheim, VVG der Stadt Bad Mergentheim, Main-Tauber-Kreis, Baden-Württemberg, 97980, Germany",
     "lat": 49.490791,
     "lng": 9.77317,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 17:00-22:00, Sat 14:00-22:00, Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "8+yr children; 14yr track hire"
+      }
+    },
     "featured": false
   },
   {
@@ -23326,6 +24158,12 @@
     "address": "Marktplatz, Altstadt Grossbasel, Grossbasel, Basel, Basel-City, 4001, Switzerland",
     "lat": 47.558108,
     "lng": 7.587826,
+    "indoorOutdoor": "indoor",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -23358,6 +24196,14 @@
     "address": "Cramersweg, Upgant-Schott, Osterupgant, Upgant-Schott, Samtgemeinde Brookmerland, Landkreis Aurich, Lower Saxony, 26529, Germany",
     "lat": 53.516,
     "lng": 7.27572,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 750,
+    "openingHours": "Thu-Fri 15:00-19:00, Sat-Sun 11:00-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "6yr/1.20m children; 11yr junior; 14yr power karts"
+      }
+    },
     "featured": false
   },
   {
@@ -23390,6 +24236,9 @@
     "address": "26, Teichstraße, Dargelin Hof, Alt Negentin, Dargelin, Landhagen, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17498, Germany",
     "lat": 54.014856,
     "lng": 13.355444,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 620,
+    "openingHours": "Wed-Fri 14:00-18:00, Sat-Sun 11:00-18:00",
     "featured": false
   },
   {
@@ -23406,6 +24255,15 @@
     "address": "Frauenfelderstrasse, Junkholz, Kreuz, Bissegg, Amlikon-Bissegg, Bezirk Weinfelden, Thurgau, 8514, Switzerland",
     "lat": 47.561915,
     "lng": 9.040212,
+    "indoorOutdoor": "both",
+    "trackLengthM": 420,
+    "openingHours": "Wed-Fri 17:00-22:00, Sat 14:00-22:00, Sun 14:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 60
+      }
+    },
     "featured": false
   },
   {
@@ -23422,6 +24280,16 @@
     "address": "Helgoländer Straße, Boldixum, Wyk auf Föhr, Föhr-Amrum, Northern Friesland, Schleswig-Holstein, 25938, Germany",
     "lat": 54.689289,
     "lng": 8.556152,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 560,
+    "openingHours": "Mon-Sat 10:00-18:00, Sun 13:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "9yr / 1.45m",
+        "max_kart_speed_kmh": 50
+      }
+    },
     "featured": false
   },
   {
@@ -23438,6 +24306,16 @@
     "address": "Boule, Dreimühlenstraße, Gerolzhofen, Gerolzhofen (VGem), Landkreis Schweinfurt, Bavaria, 97447, Germany",
     "lat": 49.902328,
     "lng": 10.345068,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 701,
+    "openingHours": "Fri-Sun 09:30-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "14yr / 1.50m",
+        "max_kart_speed_kmh": 70
+      }
+    },
     "featured": false
   },
   {
@@ -23454,6 +24332,9 @@
     "address": "N13, 13, Lower Market Square, Historische Altstadt, Görlitz, Saxony, 02826, Germany",
     "lat": 51.156318,
     "lng": 14.991018,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Daily 10:00-13:00 & 13:30-19:30 (May-Sep)",
     "featured": false
   },
   {
@@ -23486,6 +24367,14 @@
     "address": "Del.Corazón, 2, Markt, Jena-Zentrum, Jena, Thuringia, 07743, Germany",
     "lat": 50.928172,
     "lng": 11.587936,
+    "indoorOutdoor": "both",
+    "trackLengthM": 470,
+    "openingHours": "Wed 15:00-18:00, Thu-Fri 15:00-20:00, Sat 12:00-20:00, Sun 12:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -23570,6 +24459,12 @@
     "address": "4, Axensteinstrasse, Morschach, Schwyz, 6443, Switzerland",
     "lat": 46.98212,
     "lng": 8.619152,
+    "indoorOutdoor": "outdoor",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -23586,6 +24481,9 @@
     "address": "19, Leninplatz, Könnern, Salzlandkreis, Saxony-Anhalt, 06420, Germany",
     "lat": 51.670651,
     "lng": 11.771366,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 980,
+    "openingHours": "Thu-Sat 10:00-18:00, Sun 10:00-17:30",
     "featured": false
   },
   {
@@ -23635,6 +24533,9 @@
     "address": "Tourist-Info, 1, Marktplatz, Innenstadt, Neubrandenburg, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17033, Germany",
     "lat": 53.557446,
     "lng": 13.260278,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1100,
+    "openingHours": "Wed-Fri 14:00-18:00, Sat-Sun 11:00-18:00",
     "featured": false
   },
   {
@@ -23651,6 +24552,9 @@
     "address": "Greizer Steig, Meinersdorf, Niederböhmersdorf, Zeulenroda-Triebes, Greiz, Thuringia, 07937, Germany",
     "lat": 50.65627,
     "lng": 12.00584,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 840,
+    "openingHours": "Wed-Fri 12:00-18:00, Sat-Sun 10:00-18:00",
     "featured": false
   },
   {
@@ -23699,6 +24603,14 @@
     "address": "12a, Bismarckstraße, Luther-Quartier, Altstadt, Schleswig, Kreis Schleswig-Flensburg, Schleswig-Holstein, 24837, Germany",
     "lat": 54.51851,
     "lng": 9.565328,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 620,
+    "openingHours": "Wed-Fri 14:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.40m kids karts; 1.60m adult karts"
+      }
+    },
     "featured": false
   },
   {
@@ -23715,6 +24627,14 @@
     "address": "5, Kirchstraße, Wandlitz, Barnim, Brandenburg, 16348, Germany",
     "lat": 52.753794,
     "lng": 13.451981,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1400,
+    "openingHours": "Wed-Fri 14:00-19:00, Sat-Sun 10:00-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.40-1.60m up to 14yr children; 1.50-2.20m 14yr+ adult"
+      }
+    },
     "featured": false
   },
   {
@@ -23731,6 +24651,14 @@
     "address": "A 73, Poppenwind, Auengrund, Landkreis Hildburghausen, Thuringia, 98673, Germany",
     "lat": 50.467534,
     "lng": 10.839186,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 436,
+    "openingHours": "Sat-Sun 11:00-18:00 (season Mar-Oct); Tue-Fri 14:00-18:00 also Jul-Sep",
+    "details": {
+      "karting": {
+        "min_age_or_height": "14yr"
+      }
+    },
     "featured": false
   },
   {
@@ -23747,6 +24675,16 @@
     "address": "Poststrasse, Althau, Spreitenbach, Bezirk Baden, Aargau, 8957, Switzerland",
     "lat": 47.418244,
     "lng": 8.364034,
+    "indoorOutdoor": "both",
+    "trackLengthM": 420,
+    "openingHours": "Mon-Thu 13:00-21:00, Fri 13:00-22:00, Sat 10:00-22:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.30m children; 14yr adults",
+        "max_kart_speed_kmh": 55
+      }
+    },
     "featured": false
   },
   {
@@ -23763,6 +24701,15 @@
     "address": "43, Lange Straße, Steißlingen, VVG der Stadt Singen (Hohentwiel), Landkreis Konstanz, Baden-Württemberg, 78256, Germany",
     "lat": 47.799512,
     "lng": 8.927831,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "openingHours": "Wed-Sun 15:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "12yr",
+        "max_kart_speed_kmh": 70
+      }
+    },
     "featured": false
   },
   {
@@ -23779,6 +24726,14 @@
     "address": "18, Kremser Straße, Katastralgemeinde Stetteldorf am Wagram, Starnwörth, Stetteldorf am Wagram, Bezirk Korneuburg, Lower Austria, 3463, Austria",
     "lat": 48.408781,
     "lng": 16.016589,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 980,
+    "openingHours": "Mon-Tue closed, Wed-Thu 15:00-20:00, Fri 14:00-20:00, Sat 10:00-20:00, Sun 14:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -23795,6 +24750,14 @@
     "address": "Tribseer Damm, Bastionengürtel, Altstadt, Stralsund, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18439, Germany",
     "lat": 54.309631,
     "lng": 13.082085,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 200,
+    "openingHours": "Wed-Fri 15:00-21:00, Sat 12:00-21:00, Sun 12:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -23811,6 +24774,15 @@
     "address": "Seniorenheim St. Nikola, 6, Pfauenstraße, Straubing-Ost, Straubing, Bavaria, 94315, Germany",
     "lat": 48.883916,
     "lng": 12.595577,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
+    "openingHours": "Wed-Fri 13:00-20:00, Sun 13:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 85
+      }
+    },
     "featured": false
   },
   {
@@ -23827,6 +24799,14 @@
     "address": "Riegeler Straße, Teningen (Kernort), Teningen, VVG der Stadt Emmendingen, Landkreis Emmendingen, Baden-Württemberg, 79331, Germany",
     "lat": 48.127012,
     "lng": 7.810165,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 780,
+    "openingHours": "Weekdays 12:00-21:00, Weekends 10:00-21:00 (Mar-Nov)",
+    "details": {
+      "karting": {
+        "min_age_or_height": "12yr rental karts"
+      }
+    },
     "featured": false
   },
   {
@@ -23843,6 +24823,14 @@
     "address": "Aarbergweg, Waldshut, Gurtweil, Waldshut-Tiengen, VVG der Stadt Waldshut-Tiengen, Landkreis Waldshut, Baden-Württemberg, 79761, Germany",
     "lat": 47.628175,
     "lng": 8.240858,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Tue-Thu 16:00-22:00, Fri 16:00-22:30, Sat 13:00-22:30, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "under 14 needs junior licence"
+      }
+    },
     "featured": false
   },
   {
@@ -23910,6 +24898,14 @@
     "address": "Lohsa - Łaz, Bautzen - Budyšin, Saxony, 02999, Germany",
     "lat": 51.378153,
     "lng": 14.383387,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 850,
+    "openingHours": "Fri 11:00-19:00, Sat 09:00-20:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.50m"
+      }
+    },
     "featured": false
   },
   {
@@ -23926,6 +24922,13 @@
     "address": "La Vita, 2, Kirchplatz, Kernstadt, Rheinfelden, Rheinfelden (Baden), VVG der Stadt Rheinfelden (Baden), Landkreis Lörrach, Baden-Württemberg, 79618, Germany",
     "lat": 47.560592,
     "lng": 7.786196,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Thu 15:00-22:00, Fri 15:00-23:00, Sat 13:00-23:00, Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -23975,6 +24978,14 @@
     "address": "K+K, 6-8, Richthofstraße, Oberberge, Emsbüren, Landkreis Emsland, Lower Saxony, 48488, Germany",
     "lat": 52.392767,
     "lng": 7.295912,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 870,
+    "openingHours": "Wed-Sun 10:00-17:00",
+    "details": {
+      "karting": {
+        "max_kart_speed_kmh": 120
+      }
+    },
     "featured": false
   },
   {
@@ -23991,6 +25002,9 @@
     "address": "Hohnstädt, Grimma, Landkreis Leipzig, Saxony, 04668, Germany",
     "lat": 51.236643,
     "lng": 12.728896,
+    "indoorOutdoor": "both",
+    "trackLengthM": 1200,
+    "openingHours": "Tue-Thu 15:00-21:00, Fri 15:00-22:00, Sat 11:00-22:00, Sun 11:00-20:00",
     "featured": false
   },
   {
@@ -24007,6 +25021,14 @@
     "address": "Ratskeller - Licht.n.Stein Lounge, 1, Markt, Jakobiviertel, Stadtmitte, Stadtmitte/Neustadt, Hildesheim, Landkreis Hildesheim, Lower Saxony, 31134, Germany",
     "lat": 52.152719,
     "lng": 9.951808,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 670,
+    "openingHours": "Mon-Thu 16:00-23:00, Fri 15:00-23:00, Sat 10:00-00:00, Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "up to 15yr / 1.45m junior"
+      }
+    },
     "featured": false
   },
   {
@@ -24151,6 +25173,14 @@
     "address": "Museum Coswig, 4, Karrasstraße, Coswig, Meissen, Saxony, 01640, Germany",
     "lat": 51.126731,
     "lng": 13.578398,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Wed-Fri 17:00-22:00, Sat 15:00-22:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.40m"
+      }
+    },
     "featured": false
   },
   {
@@ -24167,6 +25197,13 @@
     "address": "34, Hauptstraße, Trauneck, Ebensee, Bezirk Gmunden, Upper Austria, 4802, Austria",
     "lat": 47.812237,
     "lng": 13.774167,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue closed, Wed-Thu 17:00-21:00, Fri 14:00-22:00, Sat 13:00-22:00, Sun 13:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -24183,6 +25220,16 @@
     "address": "9, Markt, Lauterenviertel, Südliche Altstadt, Altstadt, Mainz, Rhineland-Palatinate, 55116, Germany",
     "lat": 49.999521,
     "lng": 8.273625,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 280,
+    "openingHours": "Tue-Thu 16:00-21:00, Fri 15:00-22:00, Sat 11:00-22:00, Sun 11:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "9yr / 1.20m",
+        "max_kart_speed_kmh": 60
+      }
+    },
     "featured": false
   },
   {
@@ -24199,6 +25246,15 @@
     "address": "2a, Poststraße, Bergham, Marktl, Marktl (VGem), Landkreis Altötting, Bavaria, 84533, Germany",
     "lat": 48.253761,
     "lng": 12.841733,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Thu 17:00-22:00, Fri-Sat 16:00-22:00, Sun 13:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7-13yr / 1.30m junior",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -24215,6 +25271,13 @@
     "address": "Restaurant Daus, 19-21, Karrstraße, Wittlich, Landkreis Bernkastel-Wittlich, Rhineland-Palatinate, 54516, Germany",
     "lat": 49.985035,
     "lng": 6.88844,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Thu 17:00-21:00, Fri 17:00-22:00, Sat 11:30-22:00, Sun 11:30-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "9-10yr with licence; 1.30m min"
+      }
+    },
     "featured": false
   },
   {
@@ -24393,6 +25456,9 @@
     "address": "Plaça de Calvo Sotelo, Centro, Alicante, l'Alacantí, Alacant / Alicante, Valencian Community, 03001, Spain",
     "lat": 38.343637,
     "lng": -0.488171,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 750,
+    "openingHours": "Mon-Sun 10:00-14:00 & 16:00-20:00",
     "featured": false
   },
   {
@@ -24441,6 +25507,15 @@
     "address": "Llibreria Bruna, 7, Plaça del Pou, Altafulla, Tarragonès, Tarragona, Catalonia, 43893, Spain",
     "lat": 41.142347,
     "lng": 1.37687,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 630,
+    "openingHours": "Mon-Fri closed; Sat 10:00-20:00; Sun 10:30-21:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "Adult Formula from age 14; Junior up to age 14; Mini Junior up to age 12; height from 1.20m",
+        "max_kart_speed_kmh": 70
+      }
+    },
     "featured": false
   },
   {
@@ -24491,6 +25566,8 @@
     "lat": 45.560039,
     "lng": 18.685915,
     "phone": "+385 99 407 3870",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Tue-Fri 15:00-21:00; Sat-Sun 13:00-22:00 (closed Mon)",
     "featured": false
   },
   {
@@ -24507,6 +25584,9 @@
     "address": "Biskupa Čule, Vatikan, Mostar, Local community Rondo, City of Mostar, Herzegovina-Neretva County, Federation of Bosnia and Herzegovina, 88000, Bosnia and Herzegovina",
     "lat": 43.341554,
     "lng": 17.798701,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Daily 10:00-23:00",
     "featured": false
   },
   {
@@ -24638,6 +25718,14 @@
     "address": "30, Rue Saint-Hubert, Cité Ruedin, Bassecourt, Haute-Sorne, District de Delémont, Jura, 2854, Switzerland",
     "lat": 47.338037,
     "lng": 7.239989,
+    "indoorOutdoor": "both",
+    "openingHours": "Wed 14:00-22:00, Thu 16:00-22:00, Fri 16:00-23:00, Sat 14:00-23:00, Sun 10:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "8-15yr"
+      }
+    },
     "featured": false
   },
   {
@@ -24654,6 +25742,8 @@
     "address": "Parc de l'Aigüera, el Calvari, Benidorm, la Marina Baixa, Alacant / Alicante, Valencian Community, 03500, Spain",
     "lat": 38.540625,
     "lng": -0.129093,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:30-20:30",
     "featured": false
   },
   {
@@ -24686,6 +25776,13 @@
     "address": "Santa Maria de Blanes, Camí dels Papus, Mas Terrats, Blanes, la Selva, Girona, Catalonia, 17300, Spain",
     "lat": 41.675618,
     "lng": 2.793239,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Thu 10:00-21:00; Fri-Sat 10:00-21:30; Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -24702,6 +25799,15 @@
     "address": "1, Esplanade Godefroid de Bouillon, Quartier de Bretagne, Bouillon, Neufchâteau, Luxembourg, Wallonia, 6830, Belgium",
     "lat": 49.794984,
     "lng": 5.067253,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 400,
+    "openingHours": "Jul-Aug Tue-Sun 10:00-17:00 (Mon closed); off-season by booking; winter mostly closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "junior category 1.25-1.40m"
+      }
+    },
     "featured": false
   },
   {
@@ -24782,6 +25888,16 @@
     "address": "7A, Avinguda de l'Ametlla de Mar, Calafat, l'Ametlla de Mar, Baix Ebre, Tarragona, Catalonia, 43860, Spain",
     "lat": 40.931817,
     "lng": 0.846763,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "openingHours": "Daily 09:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Sodi GT5: age 14 & min 1.60m; Junior: ages 6-13",
+        "max_kart_speed_kmh": 100
+      }
+    },
     "featured": false
   },
   {
@@ -24814,6 +25930,14 @@
     "address": "Cafè de la Plaça, 5, Plaça de l'Església, Cardedeu, Vallès Oriental, Barcelona, Catalonia, 08440, Spain",
     "lat": 41.638517,
     "lng": 2.355841,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 731,
+    "openingHours": "Apr-Oct: Mon-Fri 11:00-14:00 & 15:00-21:00; Sat-Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "LRS Junior ages 7-13 & min 1.30m; SR4 from age 14; Sport from age 16"
+      }
+    },
     "featured": false
   },
   {
@@ -24865,6 +25989,8 @@
     "address": "Jadranska, Lučići, Sutorina, Herceg Novi Municipality, 83547, Montenegro",
     "lat": 42.474186,
     "lng": 18.472838,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-20:00",
     "featured": false
   },
   {
@@ -24902,7 +26028,6 @@
     "lat": 45.600638,
     "lng": 19.558228,
     "phone": "+381 62 577 971",
-    "coverImageUrl": "https://media-cdn.tripadvisor.com/media/photo-f/10/e0/69/4e/karting-centar-motodrom.jpg",
     "featured": false
   },
   {
@@ -24922,6 +26047,8 @@
     "websiteUrl": "https://www.karting.me/",
     "phone": "+382 69 123 111",
     "coverImageUrl": "https://www.karting.me/files/slideshow/1432205983-KSP_606_0745.JPG",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-00:00",
     "featured": false
   },
   {
@@ -24938,6 +26065,8 @@
     "address": "Poštanski ured Belica, 91, Ulica kralja Tomislava, Belica, Općina Belica, Međimurje County, 40319, Croatia",
     "lat": 46.406549,
     "lng": 16.520863,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 09:00-21:00",
     "featured": false
   },
   {
@@ -25148,6 +26277,8 @@
     "address": "Piazza Antonello, Fondo Basicò, Torre Vittoria, IV Circoscrizione, Messina, Sicily, 98122, Italy",
     "lat": 38.193757,
     "lng": 15.554208,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue & Thu-Fri 17:00-23:30; Sat 17:00-23:30; Sun 11:00-13:00 & 16:30-23:30 (Wed closed)",
     "featured": false
   },
   {
@@ -25180,6 +26311,8 @@
     "address": "Museu Tabaris de Coma-ruga, 3, Carrer de Josep Pla, Coma-ruga, el Vendrell, Baix Penedès, Tarragona, Catalonia, 43880, Spain",
     "lat": 41.181593,
     "lng": 1.523038,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 10:00-14:00 & 16:00-20:00; Sat-Sun 10:00-20:30",
     "featured": false
   },
   {
@@ -25196,6 +26329,13 @@
     "address": "Strada Rusciori, Rusciori, Șura Mică, Sibiu, 557271, Romania",
     "lat": 45.814876,
     "lng": 24.028022,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 18:00-22:00; Sat-Sun 10:00-13:00 & 14:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -25212,6 +26352,14 @@
     "address": "Centro Laser EL Ejido, 8, Plaza Mayor, El Ejido, Almeria, Andalusia, 04700, Spain",
     "lat": 36.774386,
     "lng": -2.812489,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Mon-Thu 10:00-14:00 & 17:00-21:00; Fri 11:00-23:00; Sat 10:00-22:00; Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "Driving school for children ages 5-14"
+      }
+    },
     "featured": false
   },
   {
@@ -25276,6 +26424,8 @@
     "address": "Carrer Immaculada, Daimús, la Safor, Valencia, Valencian Community, 46710, Spain",
     "lat": 38.968781,
     "lng": -0.15343,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon 11:00-20:30; Tue-Fri 16:00-20:00; Sat 11:00-14:00 & 16:00-20:00; Sun 16:00-20:00",
     "featured": false
   },
   {
@@ -25660,6 +26810,14 @@
     "address": "Ruelle du Collège, Peney, Vuiteboeuf, District du Jura-Nord vaudois, Vaud, 1445, Switzerland",
     "lat": 46.807388,
     "lng": 6.549375,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1600,
+    "openingHours": "Tue-Fri 14:00-21:00, Sat 10:00-12:30 & 13:00-22:00, Sun 10:00-12:30 & 13:00-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "3-10yr two-seater; 8-13yr 200cc; 14+ 270cc+"
+      }
+    },
     "featured": false
   },
   {
@@ -25676,6 +26834,8 @@
     "address": "1, Calle Blanquizos, Urbanización Ermita Alta, El Hornillo, Almayate, Vélez-Málaga, La Axarquía, Malaga, Andalusia, 29749, Spain",
     "lat": 36.732414,
     "lng": -4.129651,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Thu 11:00-20:30; Fri 11:00-21:00; Sat 11:00-22:00; Sun 11:00-21:00",
     "featured": false
   },
   {
@@ -25871,6 +27031,15 @@
     "address": "Plaça Major, el Pla de Sant Tirs, Ribera d'Urgellet, Alt Urgell, Lleida, Catalonia, 25796, Spain",
     "lat": 42.31241,
     "lng": 1.383161,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1400,
+    "openingHours": "Daily 10:00-20:00; by appointment 19:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Junior ages 7-12; Super Kart 12+; Racing 16+"
+      }
+    },
     "featured": false
   },
   {
@@ -25887,6 +27056,13 @@
     "address": "Electric Karting Salou, Avinguda de l'Alcalde Pere Molas, Salou, Tarragonès, Tarragona, Catalonia, 43840, Spain",
     "lat": 41.093966,
     "lng": 1.151356,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue closed; Wed-Sun 10:00-14:00 & 16:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -25919,6 +27095,14 @@
     "address": "Karting Cross Empuriabrava, C-260, Empuriabrava i entorn, Empuriabrava, Castelló d'Empúries, Upper Empordà, Girona, Catalonia, 17047, Spain",
     "lat": 42.264035,
     "lng": 3.11103,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 850,
+    "openingHours": "Jul-Aug daily 10:00-21:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "SR4 age 14+; LR5 Junior ages 7-13 & min 1.30m; 2DR junior with adult 18+"
+      }
+    },
     "featured": false
   },
   {
@@ -25999,6 +27183,9 @@
     "address": "16, Calle de María Carbonell, Cheste, La Hoya de Buñol, Valencia, Valencian Community, 46380, Spain",
     "lat": 39.493937,
     "lng": -0.68421,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
+    "openingHours": "Daily 09:00-18:30",
     "featured": false
   },
   {
@@ -26015,6 +27202,8 @@
     "address": "Carrer d'Isidre Nonell, Can Coll d'Horta, Lloret de Mar, la Selva, Girona, Catalonia, 17310, Spain",
     "lat": 41.69735,
     "lng": 2.839239,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-21:00",
     "featured": false
   },
   {
@@ -26047,6 +27236,8 @@
     "address": "Carrer Moreral, Xeresa, la Safor, Valencia, Valencian Community, 46790, Spain",
     "lat": 39.010135,
     "lng": -0.216811,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon closed; Tue-Sun 10:00-14:00 & 17:00-22:00",
     "featured": false
   },
   {
@@ -26063,6 +27254,14 @@
     "address": "Peluquería Luisa Navarro, 5, Calle Mayor, Garrucha, Almeria, Andalusia, 04630, Spain",
     "lat": 37.185383,
     "lng": -1.820335,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 400,
+    "openingHours": "Daily 11:00-13:30 & 16:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -26129,6 +27328,8 @@
     "address": "Ayuntamiento de Vegas del Genil, 1, Glorieta del Fresno, Purchil, Vegas del Genil, Comarca de la Vega de Granada, Granada, Andalusia, 18102, Spain",
     "lat": 37.171758,
     "lng": -3.667424,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon closed; Tue-Fri 17:00-21:00; Sat-Sun 10:00-21:00",
     "featured": false
   },
   {
@@ -26273,6 +27474,15 @@
     "address": "Plaça de Celestino Pons, Xàbia / Jávea, la Marina Alta, Alacant / Alicante, Valencian Community, 03730, Spain",
     "lat": 38.78938,
     "lng": 0.163417,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 500,
+    "openingHours": "Daily 11:00-20:30",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "4+ with adult supervision (most categories); 8+ for LR5 category"
+      }
+    },
     "featured": false
   },
   {
@@ -26369,6 +27579,13 @@
     "address": "plaça de la Vila, Torroella de Montgrí, Lower Empordà, Girona, Catalonia, 17130, Spain",
     "lat": 42.040982,
     "lng": 3.126204,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Sat-Sun 10:00-13:00 & 15:00-19:00 (seasonal Easter-September)",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -26385,6 +27602,13 @@
     "address": "Carrer de Maria Micalea, la Rascanya, la Pobla de Vallbona, el Camp de Túria, Valencia, Valencian Community, 46185, Spain",
     "lat": 39.590734,
     "lng": -0.553218,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-14:00 & 17:00-21:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "Junior kart from 1.30m height; adult kart from age 15"
+      }
+    },
     "featured": false
   },
   {
@@ -26481,6 +27705,8 @@
     "address": "Travessa das Flores, Corredoura, Milagres, Leiria, 2415-020, Portugal",
     "lat": 39.791411,
     "lng": -8.795679,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1006,
     "featured": false
   },
   {
@@ -26497,6 +27723,15 @@
     "address": "Carrer de València, Sueca, la Ribera Baixa, Valencia, Valencian Community, 46410, Spain",
     "lat": 39.20256,
     "lng": -0.311165,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Daily 10:00-14:00 & 17:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Junior ages 6-8; Alevin ages 8-11; Cadete ages 12-17"
+      }
+    },
     "featured": false
   },
   {
@@ -26513,6 +27748,8 @@
     "address": "Ajuntament, 4, Carrer Sant Cristòfol, la Llosa de Ranes, la Costera, Valencia, Valencian Community, 46815, Spain",
     "lat": 39.018537,
     "lng": -0.533588,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 10:00-14:00 & 15:30-21:00",
     "featured": false
   },
   {
@@ -26728,6 +27965,9 @@
     "address": "Carrer de Joan Segura, Móra d'Ebre, Ribera d'Ebre, Tarragona, Catalonia, 43740, Spain",
     "lat": 41.089337,
     "lng": 0.641289,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1400,
+    "openingHours": "Mon-Tue closed; Wed-Sun 10:00-18:00",
     "featured": false
   },
   {
@@ -26760,6 +28000,8 @@
     "address": "Dialprix, 6, Carrer del Marí Villamil, Pinedo, Pobles del Sud, Valencia, Comarca de València, Valencia, Valencian Community, 46012, Spain",
     "lat": 39.421716,
     "lng": -0.338337,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue closed; Wed-Sun 10:00-14:00 & 16:00-20:00",
     "featured": false
   },
   {
@@ -26776,6 +28018,9 @@
     "address": "Poundland, 10-12, Market Place, Ashbrooke, Sunderland, Tyne and Wear, North East, England, SR1 3HW, United Kingdom",
     "lat": 54.905851,
     "lng": -1.382873,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1200,
+    "openingHours": "Mon-Fri 09:00-21:00, Sat-Sun 09:00-20:00",
     "featured": false
   },
   {
@@ -26875,6 +28120,9 @@
     "websiteUrl": "https://payerneland.ch",
     "phone": "+41 26 660 04 60",
     "coverImageUrl": "https://payerneland.ch/wp-content/uploads/2025/03/home-banner-indoor-mobile.jpg",
+    "indoorOutdoor": "both",
+    "trackLengthM": 1050,
+    "openingHours": "Mon-Fri 13:00-23:00, Sat 11:00-23:00, Sun 09:00-23:00",
     "featured": false
   },
   {
@@ -26891,6 +28139,15 @@
     "address": "Bayssac, Lavilledieu, Largentière, Ardèche, Auvergne-Rhône-Alpes, Metropolitan France, 07170, France",
     "lat": 44.57793,
     "lng": 4.45233,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1300,
+    "openingHours": "Wed-Sun 10:00-12:00 & 14:00-19:00, Mon-Tue closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7 years / 1.25m minimum for youngest category"
+      }
+    },
     "featured": false
   },
   {
@@ -27087,6 +28344,9 @@
     "address": "Plaza de Concha Espina, El Parador de las Hortichuelas, Roquetas de Mar, Almeria, Andalusia, 04721, Spain",
     "lat": 36.805457,
     "lng": -2.59783,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 860,
+    "openingHours": "Mon-Thu 10:00-14:00 & 17:00-21:00; Fri 11:00-23:00; Sat 10:00-22:00; Sun 10:00-21:00",
     "featured": false
   },
   {
@@ -27103,6 +28363,15 @@
     "address": "Carrer de Sant, la Muntanyeta, Roses, Upper Empordà, Girona, Catalonia, 17480, Spain",
     "lat": 42.263202,
     "lng": 3.175533,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Mon-Fri 09:00-12:50 & 15:00-17:50; Sat-Sun 11:00-12:50 & 15:00-18:50",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 95
+      }
+    },
     "featured": false
   },
   {
@@ -27151,6 +28420,16 @@
     "address": "Camí de Sant Pere de Serraïma, Sallent, Bages, Barcelona, Catalonia, 08650, Spain",
     "lat": 41.83904,
     "lng": 1.908161,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1450,
+    "openingHours": "Winter (Nov-Mar): Mon-Tue closed; Wed-Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Junior ages 10-12; Speed Sodikart from age 13; driving school from age 6",
+        "max_kart_speed_kmh": 85
+      }
+    },
     "featured": false
   },
   {
@@ -27167,6 +28446,15 @@
     "address": "Carretera de Salou a Reus, Salou, Tarragonès, Tarragona, Catalonia, 43840, Spain",
     "lat": 41.092436,
     "lng": 1.129016,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 950,
+    "openingHours": "Daily 10:00-00:30 (Jun-Sep)",
+    "details": {
+      "karting": {
+        "min_age_or_height": "Adult circuit from age 14 (ID required); junior circuit ages 5-7 and 8+; two-seater from 140cm with adult",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -27464,6 +28752,14 @@
     "address": "1, Plaça Vella, el Puig, el Vendrell, Baix Penedès, Tarragona, Catalonia, 43700, Spain",
     "lat": 41.219968,
     "lng": 1.534857,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1310,
+    "openingHours": "Mon-Fri 10:00-14:00 & 16:00-20:00; Sat-Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -27496,6 +28792,8 @@
     "address": "Travessia de Sant Vicent, Dones de la Mar, Vinaròs, el Baix Maestrat, Castelló / Castellón, Valencian Community, 12500, Spain",
     "lat": 40.470399,
     "lng": 0.474608,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
     "featured": false
   },
   {
@@ -27512,6 +28810,9 @@
     "address": "Plaça de l'Església, Oliva, la Safor, Valencia, Valencian Community, 46780, Spain",
     "lat": 38.920244,
     "lng": -0.120898,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
+    "openingHours": "Mon 10:30-14:00 & 16:30-20:30; Tue closed; Wed-Fri 10:30-14:00 & 16:30-20:30; Sat-Sun 10:00-14:00 & 16:30-20:30",
     "featured": false
   },
   {
@@ -27530,6 +28831,14 @@
     "lng": 6.553939,
     "websiteUrl": "https://kartingvuiteboeuf.ch",
     "phone": "+41 24 459 19 22",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1600,
+    "openingHours": "Tue-Fri 14:00-21:00, Sat 10:00-12:30 & 13:00-22:00, Sun 10:00-12:30 & 13:00-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "3-10yr two-seater; 8-13yr 200cc; 14+ 270cc+"
+      }
+    },
     "featured": false
   },
   {
@@ -27630,6 +28939,15 @@
     "address": "Rathaus Vilsbiburg, 26, Stadtplatz, Achldorf, Vilsbiburg, Landkreis Landshut, Bavaria, 84137, Germany",
     "lat": 48.448482,
     "lng": 12.355795,
+    "indoorOutdoor": "both",
+    "trackLengthM": 2000,
+    "openingHours": "Mon-Tue & Thu 16:00-22:00, Fri 16:00-23:00, Sat-Sun 12:00-23:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "10yr/1.35m children; 5yr+ two-seater passenger"
+      }
+    },
     "featured": false
   },
   {
@@ -27662,6 +28980,9 @@
     "address": "Riga Cathedral, 6, Herdera laukums, Old Riga, Latgales apkaime, Riga, LV-1050, Latvia",
     "lat": 56.949398,
     "lng": 24.105185,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 300,
+    "openingHours": "Mon-Fri 14:00-22:00; Sat-Sun 12:00-22:00",
     "featured": false
   },
   {
@@ -27699,7 +29020,6 @@
     "lng": 24.163002,
     "websiteUrl": "https://kartings.lv",
     "phone": "+371 27304104",
-    "coverImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d3/a0/1f/track-view-from-balcony.jpg?w=700&h=400&s=1",
     "featured": false
   },
   {
@@ -27803,6 +29123,9 @@
     "address": "Ушће, New Belgrade Urban Municipality, Belgrade, City of Belgrade, Central Serbia, 11000, Serbia",
     "lat": 44.815332,
     "lng": 20.445659,
+    "indoorOutdoor": "both",
+    "trackLengthM": 804,
+    "openingHours": "Daily 10:00-21:00",
     "featured": false
   },
   {
@@ -27821,6 +29144,9 @@
     "lng": 23.84192,
     "websiteUrl": "https://www.racefacer.com/en/karting-tracks/lithuania/kartlandaskaunas",
     "coverImageUrl": "https://assets.bookitnow.lt/files/uploaded/shops/7399cd0431b9456fa04e1ae13a5d9182.jpeg",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 300,
+    "openingHours": "Mon-Thu 14:00-22:00; Fri 14:00-23:00; Sat 10:00-23:00; Sun 10:00-22:00",
     "featured": false
   },
   {
@@ -27926,6 +29252,8 @@
     "lat": 45.258347,
     "lng": 14.605336,
     "coverImageUrl": "https://gokartcrocup.com/ieNews/media/7-staza-bura.jpg",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 14:00-19:00; Sat 09:00-19:00 (closed Mon, Sun)",
     "featured": false
   },
   {
@@ -27961,6 +29289,14 @@
     "address": "Gawrony, Gostyń, gmina Gostyń, Gostyń County, Greater Poland Voivodeship, 63-800, Poland",
     "lat": 51.877863,
     "lng": 17.016764,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 800,
+    "openingHours": "Tue-Fri 16:30-20:00; Sat-Sun 12:00-20:00 (closed Mon)",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -27995,6 +29331,7 @@
     "address": "Via Salvatore di Pasquale, Centro storico, Scalidda, Bagheria, Palermo, Sicily, 90011, Italy",
     "lat": 38.079351,
     "lng": 13.509349,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -28323,6 +29660,8 @@
     "address": "Baçal, Bragança, 5300-432, Portugal",
     "lat": 41.853841,
     "lng": -6.721075,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 810,
     "featured": false
   },
   {
@@ -28339,6 +29678,8 @@
     "address": "Nicosia, Enna, Sicily, 94014, Italy",
     "lat": 37.748123,
     "lng": 14.398298,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Sat-Sun 08:30-18:30",
     "featured": false
   },
   {
@@ -28419,6 +29760,9 @@
     "address": "Praça Raimundo José Soares Mendes, São João, Abrantes (São Vicente e São João) e Alferrarede, Abrantes, Santarém, 2200-434, Portugal",
     "lat": 39.463027,
     "lng": -8.197523,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 800,
+    "openingHours": "Daily 10:30-19:30",
     "featured": false
   },
   {
@@ -28435,6 +29779,15 @@
     "address": "Alcanede, Santarém, 2025-999, Portugal",
     "lat": 39.415132,
     "lng": -8.828123,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 800,
+    "openingHours": "Mon-Wed 10:00-17:00; Thu closed; Fri 10:00-17:00; Sat-Sun 09:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Minimum height 1.30m to reach pedals"
+      }
+    },
     "featured": false
   },
   {
@@ -28467,6 +29820,14 @@
     "address": "Rotunda da Familia, Rotunda da Família, Giesteira, Vila Nova, Baltar, Paredes, Porto, 4585-026, Portugal",
     "lat": 41.192731,
     "lng": -8.388552,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1203,
+    "openingHours": "Mon-Tue closed; Wed-Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -28483,6 +29844,8 @@
     "address": "EN 18-7, Lardosa, Castelo Branco, 6005-193, Portugal",
     "lat": 39.976758,
     "lng": -7.44606,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue closed; Wed-Sun 09:00-13:00 & 15:00-19:00",
     "featured": false
   },
   {
@@ -28499,6 +29862,8 @@
     "address": "Igreja do Divino Salvador, Rua da Igreja, Bairro da Pedreira, Sobreira, Vilar de Nantes, Chaves, Vila Real, 5400-580, Portugal",
     "lat": 41.708742,
     "lng": -7.451138,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 631,
     "featured": false
   },
   {
@@ -28515,6 +29880,8 @@
     "address": "Nazareth, 46, Praça de Giraldo, Évora (São Mamede, Sé, São Pedro e Santo Antão), Évora, 7000-508, Portugal",
     "lat": 38.570774,
     "lng": -7.909281,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon closed; Tue-Sun 09:00-19:00",
     "featured": false
   },
   {
@@ -28531,6 +29898,9 @@
     "address": "Devezinha, Cepães e Fareja, Fafe, Braga, 4820-025, Portugal",
     "lat": 41.436558,
     "lng": -8.203225,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 890,
+    "openingHours": "Daily 09:00-12:30 & 14:00-18:30",
     "featured": false
   },
   {
@@ -28757,6 +30127,8 @@
     "address": "Avola, Siracusa, Sicily, 96012, Italy",
     "lat": 36.909516,
     "lng": 15.135001,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 09:00-13:00 & 14:00-22:00; Sat-Sun 09:00-22:00",
     "featured": false
   },
   {
@@ -28789,6 +30161,7 @@
     "address": "Via Santa Caterina, Marsala, Trapani, Sicily, 91025, Italy",
     "lat": 37.797922,
     "lng": 12.434209,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -28903,6 +30276,14 @@
     "address": "GlobalChance, 4, Praça da República, Baixa do Montijo, Montijo e Afonsoeiro, Montijo, Setúbal, 2870-235, Portugal",
     "lat": 38.706085,
     "lng": -8.974637,
+    "indoorOutdoor": "both",
+    "openingHours": "Daily 10:00-18:30",
+    "details": {
+      "karting": {
+        "kart_type": "both",
+        "min_age_or_height": "Racing track from age 13; kids track from age 4"
+      }
+    },
     "featured": false
   },
   {
@@ -28951,6 +30332,8 @@
     "address": "Chiesa di San Giovanni Battista, Via Vittorio Emanuele, Campobello di Licata, Agrigento, Sicily, 92023, Italy",
     "lat": 37.25844,
     "lng": 13.918266,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Sat 15:00-18:30; Sun 09:00-13:00 & 15:00-18:30",
     "featured": false
   },
   {
@@ -29079,6 +30462,8 @@
     "address": "Valverde, Enna Bassa, Enna, Sicily, 94100, Italy",
     "lat": 37.566757,
     "lng": 14.280747,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 09:00-22:00; Sat-Sun 08:30-00:00",
     "featured": false
   },
   {
@@ -29426,6 +30811,9 @@
     "address": "Consum, Calle de Pascual Piquer, Chiva, La Hoya de Buñol, Valencia, Valencian Community, 46370, Spain",
     "lat": 39.47261,
     "lng": -0.717835,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1428,
+    "openingHours": "Daily 08:00-19:00",
     "featured": false
   },
   {
@@ -29492,6 +30880,9 @@
     "address": "Piazza Umberto I, Quartiere San Giovanni, Gela, Caltanissetta, Sicily, 93012, Italy",
     "lat": 37.066436,
     "lng": 14.250245,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1210,
+    "openingHours": "Mon-Fri 15:00-18:00; Sat-Sun 08:30-17:00",
     "featured": false
   },
   {
@@ -29704,6 +31095,9 @@
     "address": "Via Massimo D'Azeglio, Muro Leccese, Lecce, Apulia, 73036, Italy",
     "lat": 40.102323,
     "lng": 18.33813,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1250,
+    "openingHours": "Daily 18:30-01:00",
     "featured": false
   },
   {
@@ -29770,6 +31164,9 @@
     "address": "Via Indipendenza, Lascari, Palermo, Sicily, 90010, Italy",
     "lat": 38.000053,
     "lng": 13.941459,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
+    "openingHours": "Tue-Sun 16:00-23:00 (Mon closed)",
     "featured": false
   },
   {
@@ -29818,6 +31215,7 @@
     "address": "Umberto I, Via Duomo, Canalotto, Caltagirone, Catania, Sicily, 95041, Italy",
     "lat": 37.237201,
     "lng": 14.513202,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -29850,6 +31248,14 @@
     "address": "Eraclea Minoa, Strada Provinciale 30, Eraclea Minoa, Cattolica Eraclea, Agrigento, Sicily, 92011, Italy",
     "lat": 37.39486,
     "lng": 13.280147,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 800,
+    "openingHours": "Mon-Fri 16:30-20:00; Sat-Sun 09:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -30174,6 +31580,14 @@
     "lng": 14.356822,
     "websiteUrl": "https://www.kartodromonapoli.it/",
     "phone": "+39 081 278 6015",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 11:00-01:15; Sat 10:00-02:00; Sun 10:00-01:15",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "min height 130cm for standard karts; two-seater for 105-130cm"
+      }
+    },
     "featured": false
   },
   {
@@ -30498,6 +31912,9 @@
     "address": "Estádio de São Sebastião, Rua da República, Mirandela, Bragança, 5370-400, Portugal",
     "lat": 41.489615,
     "lng": -7.177479,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 600,
+    "openingHours": "Mon closed; Tue-Sun 09:00-12:00 & 14:00-18:00",
     "featured": false
   },
   {
@@ -30532,6 +31949,8 @@
     "address": "Via Vittorio Emanuele, Muscale, San Martino, Capo d'Orlando, Messina, Sicily, 98071, Italy",
     "lat": 38.159573,
     "lng": 14.745073,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 15:00-00:15; Sat 10:00-12:50 & 15:00-01:00; Sun 09:30-12:50 & 15:00-00:30 (Mon closed)",
     "featured": false
   },
   {
@@ -30677,6 +32096,9 @@
     "address": "Rua Dr. Gabriel Boavida Castelo Branco, Tortosendo, Covilhã, Castelo Branco, 6200-788, Portugal",
     "lat": 40.240096,
     "lng": -7.522746,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "openingHours": "Daily 09:30-00:00",
     "featured": false
   },
   {
@@ -30824,6 +32246,15 @@
     "address": "Nemocniční, Vysočany, Praha 9, obvod Praha 9, Prague, 190 07, Czechia",
     "lat": 50.108928,
     "lng": 14.50657,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 600,
+    "openingHours": "Mon-Fri 14:00-22:00; Sat-Sun 10:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 60
+      }
+    },
     "featured": false
   },
   {
@@ -30904,6 +32335,8 @@
     "address": "Fráguas, Vila Nova de Paiva, Alhais e Fráguas, Vila Nova de Paiva, Viseu, Portugal",
     "lat": 40.855992,
     "lng": -7.756,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Tue closed; Wed-Fri 14:00-19:00; Sat-Sun 09:30-19:00",
     "featured": false
   },
   {
@@ -30920,6 +32353,14 @@
     "address": "149, Benešova, Modřice, okres Brno-venkov, South Moravian Region, 664 42, Czechia",
     "lat": 49.128879,
     "lng": 16.613707,
+    "indoorOutdoor": "both",
+    "trackLengthM": 450,
+    "openingHours": "Mon-Thu 13:00-20:00; Fri 13:00-21:00; Sat 10:00-21:00; Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -31230,6 +32671,15 @@
     "address": "23, Marktplatz, Dobl, Rotthalmünster, Rotthalmünster (VGem), Landkreis Passau, Bavaria, 94094, Germany",
     "lat": 48.358846,
     "lng": 13.201599,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 851,
+    "openingHours": "Tue-Fri 13:00-21:00, Sat-Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "12yr"
+      }
+    },
     "featured": false
   },
   {
@@ -31295,6 +32745,8 @@
     "lat": 47.807683,
     "lng": 13.067523,
     "websiteUrl": "https://www.kartworld.at/",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Daily 14:00-22:00 (extended during school holidays)",
     "featured": false
   },
   {
@@ -31781,6 +33233,8 @@
     "address": "Trapani, Sicily, 91100, Italy",
     "lat": 37.900373,
     "lng": 12.711626,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
     "featured": false
   },
   {
@@ -31933,6 +33387,12 @@
     "address": "Söndraby, Vedby, Klippan, Klippans kommun, Skåne County, 264 21, Sweden",
     "lat": 56.15,
     "lng": 13.166667,
+    "indoorOutdoor": "outdoor",
+    "details": {
+      "karting": {
+        "min_age_or_height": "20 years solo; children min 120cm in two-seater with licensed adult"
+      }
+    },
     "featured": false
   },
   {
@@ -31983,6 +33443,7 @@
     "address": "1722, Snertingdalsvegen, Hov, Snertingdal, Gjøvik, Innlandet, 2838, Norway",
     "lat": 60.880601,
     "lng": 10.38892,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -32057,6 +33518,9 @@
     "address": "70, Kløvstadhagen, Heistadmoen, Kongsberg, Sandsværmoen, 3618, Norway",
     "lat": 59.59455,
     "lng": 9.67086,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1006,
+    "openingHours": "Wed-Fri 16:00-21:00, Sat-Sun 12:00-16:30, Mon-Tue closed",
     "featured": false
   },
   {
@@ -32091,6 +33555,7 @@
     "address": "Slagelse Musikhus, Søndre Stationsvej, Kirkegårdshuse, Slagelse, Slagelse Municipality, Region Zealand, 4200, Denmark",
     "lat": 55.40612,
     "lng": 11.352541,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -32176,6 +33641,13 @@
     "address": "Cardellsgatan, Kristianstad City, Kristianstad, Kristianstads kommun, Skåne County, 291 22, Sweden",
     "lat": 56.029378,
     "lng": 14.156686,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1234,
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -32240,6 +33712,9 @@
     "address": "Põltsamaa — Võhma, Kuningamäe, Kuningamäe küla, Põltsamaa vald, Jõgeva County, 48011, Estonia",
     "lat": 58.647498,
     "lng": 25.935908,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 850,
+    "openingHours": "Fri 15:00-20:00; Sat-Sun 11:00-20:00 (closed Mon-Thu)",
     "featured": false
   },
   {
@@ -32309,6 +33784,16 @@
     "address": "Coffee and Kale, Ballyfermot Road, Ballyfermot A ED, Dublin, County Dublin, Leinster, Ireland",
     "lat": 53.343247,
     "lng": -6.360902,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 360,
+    "openingHours": "Mon-Sat 10:00-21:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "9 years / 1.37m minimum",
+        "max_kart_speed_kmh": 65
+      }
+    },
     "featured": false
   },
   {
@@ -32557,6 +34042,14 @@
     "address": "The Diamond, Enniskillen, Fermanagh and Omagh District, Northern Ireland, BT74 7EH, United Kingdom",
     "lat": 54.344817,
     "lng": -7.638907,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 550,
+    "openingHours": "Mon-Sat closed Sunday",
+    "details": {
+      "karting": {
+        "min_age_or_height": "7 years / 115cm minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -32749,6 +34242,15 @@
     "address": "Farmfoods, 64, Union Street, Gallowhill, Fairholm, Larkhall, Lanarkshire, Scotland, ML9 1DR, United Kingdom",
     "lat": 55.740106,
     "lng": -3.974605,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1140,
+    "openingHours": "Wed-Fri 12:00-20:00, Sat-Sun 09:00-20:00, Mon-Tue closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7 years+ Junior/Family, 14 years+ adult 390cc karts"
+      }
+    },
     "featured": false
   },
   {
@@ -32934,6 +34436,14 @@
     "address": "6, Jaryszki, gmina Kórnik, Poznań County, Greater Poland Voivodeship, 62-023, Poland",
     "lat": 52.329509,
     "lng": 17.021832,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 550,
+    "openingHours": "Mon-Thu 14:00-22:00; Fri 12:00-22:00; Sat 10:00-22:00; Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "min height 135cm for children's LR5 karts"
+      }
+    },
     "featured": false
   },
   {
@@ -33050,6 +34560,8 @@
     "address": "Rautiontie, Sahalahti, Kangasala, Tampere sub-region, Pirkanmaa, Mainland Finland, 36420, Finland",
     "lat": 61.471504,
     "lng": 24.326179,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 09:00-20:00, Sat 10:00-18:00, Sun 12:00-18:00, Mon closed; closed Nov-Mar",
     "featured": false
   },
   {
@@ -33134,6 +34646,8 @@
     "address": "New Yorker, 27, Place Saint-Lambert, Îlot Saint-Michel, Centre, Liège, Wallonia, 4000, Belgium",
     "lat": 50.645094,
     "lng": 5.573611,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue closed, Wed 14:00-21:30, Thu-Fri 16:00-21:30, Sat 14:00-21:30, Sun 14:00-19:00",
     "featured": false
   },
   {
@@ -33403,6 +34917,7 @@
     "address": "Kungshögsskolan, Rågåkersstigen, Oxie kyrkby, Oxie Kyrkby, Söder, Oxie, Malmö kommun, Skåne County, 238 37, Sweden",
     "lat": 55.546157,
     "lng": 13.096787,
+    "indoorOutdoor": "indoor",
     "featured": false
   },
   {
@@ -33714,6 +35229,9 @@
     "address": "Premier, 5 - 7, Coronation Square, Lydd, Folkestone and Hythe District, Kent, England, TN29 9AT, United Kingdom",
     "lat": 50.950968,
     "lng": 0.906538,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1040,
+    "openingHours": "Daily 09:00-16:00",
     "featured": false
   },
   {
@@ -33781,6 +35299,15 @@
     "address": "Marie Laure Coiffure, 21, Rue des Écoles, Porte, Scientrier, Saint-Julien-en-Genevois, Upper Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 74930, France",
     "lat": 46.118878,
     "lng": 6.316323,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1014,
+    "openingHours": "Daily 14:00-20:00 except Tue closed; seasonal winter closure",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Children from 7/1.25m; adults from 14; experienced from 18"
+      }
+    },
     "featured": false
   },
   {
@@ -34003,6 +35530,13 @@
     "address": "Malmedalsvegen, Malmedalen, Hustadvika, Møre og Romsdal, 6445, Norway",
     "lat": 62.792795,
     "lng": 7.25624,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Thu-Fri 17:00-20:00, Sat 10:00-16:00, other days closed",
+    "details": {
+      "karting": {
+        "min_age_or_height": "12 years / 1.50m minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -34990,6 +36524,15 @@
     "address": "Plaza María Auxiliadora, Villena, l'Alt Vinalopó / El Alto Vinalopó, Alacant / Alicante, Valencian Community, 03400, Spain",
     "lat": 38.636097,
     "lng": -0.865974,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1500,
+    "openingHours": "Daily 09:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Kids karts from age 8; adult karts from age 14"
+      }
+    },
     "featured": false
   },
   {
@@ -35175,6 +36718,15 @@
     "lng": 13.497402,
     "websiteUrl": "https://www.mobi-kart.de",
     "phone": "+49 30 98638749",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 480,
+    "openingHours": "Wed-Thu 13:00-20:00, Fri 13:00-22:00, Sat 10:00-22:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.30m children; 1.55m adults"
+      }
+    },
     "featured": false
   },
   {
@@ -35478,6 +37030,14 @@
     "address": "Cafe & Bar Celona, 3, Friedrich-Ebert-Platz, Oberhagen, Mittelstadt, Hagen-Mitte, Hagen, North Rhine-Westphalia, 58095, Germany",
     "lat": 51.358294,
     "lng": 7.473296,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 865,
+    "openingHours": "Wed 15:00-19:30, Thu-Fri 13:00-19:30, Sat-Sun 10:00-19:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "12-15yr small; 16yr+ large"
+      }
+    },
     "featured": false
   },
   {
@@ -35510,6 +37070,14 @@
     "address": "25, Dolná Seč, District of Levice, Region of Nitra, 935 31, Slovakia",
     "lat": 48.17647,
     "lng": 18.562895,
+    "indoorOutdoor": "both",
+    "trackLengthM": 550,
+    "openingHours": "Tue-Thu 14:00-21:00; Fri-Sat 14:00-22:00; Sun 14:00-21:00 (closed Mon)",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -35712,6 +37280,14 @@
     "lng": 24.757483,
     "websiteUrl": "https://motorcity.ee/",
     "coverImageUrl": "https://visitestonia.com/images/750969/motorcity-karting-arena-010-visit-estonia.png",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 410,
+    "openingHours": "Mon-Fri 12:00-22:00; Sat 11:00-22:00; Sun 11:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -35787,6 +37363,14 @@
     "address": "Suupantie, Suuppa, Pirkkala, Tampere sub-region, Pirkanmaa, Mainland Finland, 33960, Finland",
     "lat": 61.466146,
     "lng": 23.646265,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 80
+      }
+    },
     "featured": false
   },
   {
@@ -35924,6 +37508,13 @@
     "address": "Obstgarten, Künersberg, Memmingerberg, Landkreis Unterallgäu, Bavaria, 87766, Germany",
     "lat": 47.989382,
     "lng": 10.211286,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Sat 17:45-19:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.40m"
+      }
+    },
     "featured": false
   },
   {
@@ -36027,6 +37618,15 @@
     "address": "41, Heggerstraße, Innenstadt, Haidchen, Baak, Hattingen, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 45525, Germany",
     "lat": 51.400717,
     "lng": 7.186249,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 450,
+    "openingHours": "Mon 16:00-22:00, Wed-Thu 16:00-22:00, Fri 15:00-22:00, Sat-Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "6yr"
+      }
+    },
     "featured": false
   },
   {
@@ -36210,6 +37810,8 @@
     "address": "5, Marktplatz, Rüsselsheim, Rüsselsheim am Main, Kreis Groß-Gerau, Hesse, 65428, Germany",
     "lat": 49.99485,
     "lng": 8.411719,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Daily 10:00-22:00",
     "featured": false
   },
   {
@@ -36277,6 +37879,8 @@
     "address": "Banegårdspladsen, Markkvarteret, Næstved, Naestved Municipality, Region Zealand, 4700, Denmark",
     "lat": 55.232825,
     "lng": 11.76741,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 09:00-15:30",
     "featured": false
   },
   {
@@ -36995,6 +38599,7 @@
     "address": "470, Merratråkket, Rennebu, Trøndelag, 7397, Norway",
     "lat": 62.766273,
     "lng": 9.88733,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -37116,6 +38721,14 @@
     "address": "Kleiner Biersalon, 2, Moltkestraße, Büsum, Büsum-Wesselburen, Kreis Dithmarschen, Schleswig-Holstein, 25761, Germany",
     "lat": 54.129849,
     "lng": 8.858699,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 700,
+    "openingHours": "Tue-Fri 13:00-18:00, Sat-Sun 11:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "14yr/1.60m adult; 10yr/1.50m junior; 3-10yr twin with adult"
+      }
+    },
     "featured": false
   },
   {
@@ -37346,6 +38959,14 @@
     "address": "Antic Camí de Marata, Llerona, Corró d'Avall, les Franqueses del Vallès, Vallès Oriental, Barcelona, Catalonia, 08520, Spain",
     "lat": 41.647559,
     "lng": 2.309178,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue 17:00-22:00; Wed-Fri 17:00-23:00; Sat 11:00-23:00; Sun 11:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "Speed Kart: age 14 & 1.50m; Drift Kart: age 10 & 1.30m; Crazy Car: age 8 & 1.20m"
+      }
+    },
     "featured": false
   },
   {
@@ -37530,6 +39151,8 @@
     "address": "Carnaghliss Road, Dundrod, Lisburn and Castlereagh District, County Antrim, Northern Ireland, BT29 4HX, United Kingdom",
     "lat": 54.614688,
     "lng": -6.119564,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Thu & Sat-Sun 09:00-18:00, Mon closed",
     "featured": false
   },
   {
@@ -37716,6 +39339,14 @@
     "address": "Odense Gokart Hal, Cikorievej, Korsløkke, Ejby, Odense, Odense Municipality, Region of Southern Denmark, 5240, Denmark",
     "lat": 55.392471,
     "lng": 10.442337,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Thu 16:30-20:00, Fri 14:00-20:00, Sat 09:00-20:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7 years minimum (children), 13 years minimum (adults)"
+      }
+    },
     "featured": false
   },
   {
@@ -38048,6 +39679,9 @@
     "address": "Orihuela, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03380, Spain",
     "lat": 38.027558,
     "lng": -0.913096,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1280,
+    "openingHours": "Wed-Sun 10:00-22:00; Mon-Tue closed",
     "featured": false
   },
   {
@@ -38080,6 +39714,13 @@
     "address": "1, Dankwartstraße, Altstadt, Wismar, Nordwestmecklenburg, Mecklenburg-Vorpommern, 23966, Germany",
     "lat": 53.890983,
     "lng": 11.464793,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Tue-Thu 16:00-20:00, Fri 16:00-21:00, Sat 14:00-22:00, Sun 14:00-20:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "1.45m"
+      }
+    },
     "featured": false
   },
   {
@@ -38166,6 +39807,16 @@
     "address": "1, Bahnhofstrasse, Tartar, Cazis, Region Viamala, Grisons, 7408, Switzerland",
     "lat": 46.721299,
     "lng": 9.430383,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 800,
+    "openingHours": "Mon-Fri 17:00-21:00, Wed & Sat 13:00-21:00, Sun 10:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.4m Sprint track; 16yr Super track",
+        "max_kart_speed_kmh": 60
+      }
+    },
     "featured": false
   },
   {
@@ -38478,7 +40129,15 @@
     "lng": -8.37435,
     "websiteUrl": "https://www.pallaskarting.com/",
     "phone": "+353 90 974 5914",
-    "coverImageUrl": "https://media-cdn.tripadvisor.com/media/photo-f/0f/29/c0/3d/beginners-track-tynagh.jpg",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1500,
+    "openingHours": "Mon-Sat 09:30-17:00, Sun 09:30-16:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "max_kart_speed_kmh": 90
+      }
+    },
     "featured": false
   },
   {
@@ -38583,6 +40242,9 @@
     "address": "Polgármesteri Hivatal, Kossuth Lajos utca, Ostffyasszonyfa, Celldömölki járás, Vas, Western Transdanubia, Transdanubia, 9512, Hungary",
     "lat": 47.327461,
     "lng": 17.042819,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1160,
+    "openingHours": "Tue-Sat 09:00-17:00 (closed Mon, Sun)",
     "featured": false
   },
   {
@@ -38665,6 +40327,15 @@
     "address": "Rue Jules Ferry, Les Minguettes, Vénissieux, Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, 69200, France",
     "lat": 45.697711,
     "lng": 4.885597,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 700,
+    "openingHours": "Mon closed, Tue-Thu 15:45-22:00, Fri 15:45-23:00, Sat 13:45-23:00, Sun 13:45-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "both",
+        "min_age_or_height": "Kids Racer from 3; children 120cc from 7/1.30m; adults 270cc from 14/1.50m"
+      }
+    },
     "featured": false
   },
   {
@@ -38953,6 +40624,14 @@
     "address": "Brandon Sorting Office, 14, High Street, Brandon, West Suffolk, Suffolk, England, IP27 0AJ, United Kingdom",
     "lat": 52.448231,
     "lng": 0.62408,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1382,
+    "openingHours": "Wed-Sun 09:00-17:00 Mon-Tue closed",
+    "details": {
+      "karting": {
+        "min_age_or_height": "17+ for rental karting"
+      }
+    },
     "featured": false
   },
   {
@@ -39321,6 +41000,8 @@
     "address": "2, Via Adige, Villasmundo 2000, Villasmundo, Melilli, Siracusa, Sicily, 96010, Italy",
     "lat": 37.251411,
     "lng": 15.092585,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Sun 08:30-20:00",
     "featured": false
   },
   {
@@ -39417,6 +41098,8 @@
     "address": "Via Eugenio Montale, Corigliano d'Otranto, Lecce, Apulia, 73022, Italy",
     "lat": 40.152217,
     "lng": 18.226063,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 15:30-19:30; Sat-Sun 15:30-20:00 (Mon closed)",
     "featured": false
   },
   {
@@ -39516,6 +41199,15 @@
     "websiteUrl": "https://karts.ch",
     "phone": "+41 91 745 44 55",
     "coverImageUrl": "https://www.karts.ch/wp-content/uploads/2022/10/FDA80F6E-BD15-42FF-A1D1-ECA663E5B7AE-1200x746.jpg",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "14:00-18:00 daily, May-Aug",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "14yr adults; 8-13yr/1.30m children",
+        "max_kart_speed_kmh": 70
+      }
+    },
     "featured": false
   },
   {
@@ -39532,6 +41224,8 @@
     "address": "Via Balì Caracciolo, Maruggio, Taranto, Apulia, Italy",
     "lat": 40.32226,
     "lng": 17.572366,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Sat 16:00-20:30; Sun 10:00-21:00",
     "featured": false
   },
   {
@@ -39596,6 +41290,14 @@
     "address": "Via Guglielmo Marconi, Mottola, Taranto, Apulia, 74017, Italy",
     "lat": 40.633225,
     "lng": 17.037195,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1050,
+    "openingHours": "Mon-Fri 15:00-19:00; Sat-Sun 09:00-13:00 & 15:00-19:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "mini karts (120cc): ages 5-12, min height 1.15m"
+      }
+    },
     "featured": false
   },
   {
@@ -39808,6 +41510,9 @@
     "lng": 8.353709,
     "websiteUrl": "https://www.pistawinner.it/en/",
     "coverImageUrl": "https://www.pistawinner.it/wp-content/uploads/2023/03/pista-winner-pista-da-kart-torino.jpg",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1000,
+    "openingHours": "Mon-Fri 09:00-17:00; Sat-Sun 12:00-13:00, 17:00-20:00 (Oct-Apr)",
     "featured": false
   },
   {
@@ -39931,6 +41636,13 @@
     "websiteUrl": "https://www.gokartywroclaw.pl/en/homepage/",
     "phone": "789 000 388",
     "coverImageUrl": "https://www.gokartywroclaw.pl/wp-content/uploads/2025/01/pitlane_wroclavia.jpg",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 11:00-21:00; Sat 10:00-22:00; Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -40129,6 +41841,9 @@
     "address": "Pylimėliai, Antakalnis Eldership, Vilnius, Vilnius city municipality, Vilnius County, 10228, Lithuania",
     "lat": 54.725491,
     "lng": 25.350193,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 710,
+    "openingHours": "Mon-Fri 13:00-21:00; Sat-Sun 11:00-21:00",
     "featured": false
   },
   {
@@ -40145,6 +41860,13 @@
     "address": "B, Saint Paul's Street, Birchills, Bloxwich, Walsall, West Midlands, England, WS1 1NR, United Kingdom",
     "lat": 52.584795,
     "lng": -1.982269,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 10:00-20:00, Sat 10:00-21:00, Sun 10:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -40278,6 +42000,9 @@
     "address": "Pęcicka, Sękocin Stary, gmina Raszyn, Pruszków County, Masovian Voivodeship, 05-825, Poland",
     "lat": 52.112441,
     "lng": 20.881442,
+    "indoorOutdoor": "both",
+    "trackLengthM": 350,
+    "openingHours": "Mon-Fri 15:00-22:00; Sat-Sun 11:00-22:00",
     "featured": false
   },
   {
@@ -40469,6 +42194,15 @@
     "address": "Kurpfalzstraße, G1, Innenstadt, Innenstadt/Jungbusch, Mannheim, Baden-Württemberg, 68161, Germany",
     "lat": 49.489291,
     "lng": 8.46731,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 528,
+    "openingHours": "Tue-Thu 16:00-23:00, Fri 16:00-00:00, Sat 11:00-00:00, Sun 10:30-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8-14yr 1.30m min"
+      }
+    },
     "featured": false
   },
   {
@@ -40897,6 +42631,14 @@
     "address": "SAD 9, Grafenricht, Wackersdorf, Wackersdorf (VGem), Landkreis Schwandorf, Bavaria, 92442, Germany",
     "lat": 49.312399,
     "lng": 12.19382,
+    "indoorOutdoor": "both",
+    "trackLengthM": 1200,
+    "openingHours": "Tue-Thu 15:00-22:00, Fri 15:00-22:30, Sat 09:30-22:30, Sun 09:30-21:30",
+    "details": {
+      "karting": {
+        "min_age_or_height": "6yr/125cm children indoor; 12yr/145cm junior; 14yr/145cm outdoor; 16yr Rotax"
+      }
+    },
     "featured": false
   },
   {
@@ -41141,6 +42883,9 @@
     "address": "Avenue Ferdinand Nicolay, Stavelot, Verviers, Liège, Wallonia, 4970, Belgium",
     "lat": 50.394241,
     "lng": 5.931033,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1092,
+    "openingHours": "Mon-Tue closed, Wed-Sun 08:30-17:30",
     "featured": false
   },
   {
@@ -41213,6 +42958,14 @@
     "address": "15b, Lauenhäger Straße, Probsthagen, Stadthagen, Landkreis Schaumburg, Lower Saxony, 31655, Germany",
     "lat": 52.328969,
     "lng": 9.20535,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 300,
+    "openingHours": "Tue-Thu 17:00-20:00, Fri 17:00-21:00, Sat 14:00-22:00, Sun 12:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "two-seater: driver 18yr+, passenger 6yr+/1.10m"
+      }
+    },
     "featured": false
   },
   {
@@ -41230,7 +42983,6 @@
     "lat": 52.53989,
     "lng": 13.21849,
     "websiteUrl": "https://race-factory.de/en/",
-    "coverImageUrl": "https://race-factory.de/media/2024/05/Race-Factory-72.png",
     "featured": false
   },
   {
@@ -41336,6 +43088,13 @@
     "lat": 47.247826,
     "lng": 7.807715,
     "coverImageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s9a6bbcc09155d36b/image/i1fb1e5588f502e6b/version/1551955501/image.jpg",
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Thu 09:00-17:00, Fri 09:00-12:00",
+    "details": {
+      "karting": {
+        "kart_type": "both"
+      }
+    },
     "featured": false
   },
   {
@@ -41856,6 +43615,8 @@
     "address": "Fredericia Rådhus, Jyllandsgade, Solbakken, Fredericia, Fredericia Municipality, Region of Southern Denmark, 7000, Denmark",
     "lat": 55.565268,
     "lng": 9.756217,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Sat 11:00-20:00, Sun 11:00-18:00",
     "featured": false
   },
   {
@@ -41908,6 +43669,13 @@
     "address": "Iceland, 35-43, High Street, Ballymena, Mid and East Antrim District, County Antrim, Northern Ireland, BT43 6DT, United Kingdom",
     "lat": 54.866297,
     "lng": -6.276016,
+    "indoorOutdoor": "both",
+    "openingHours": "Mon-Thu 10:00-20:00, Fri 12:00-22:00, Sat 10:00-20:00, Sun 12:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -42116,6 +43884,8 @@
     "address": "Ayuntamiento de San Fulgencio, 26, Plaza de la Constitución, San Fulgencio, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03177, Spain",
     "lat": 38.112007,
     "lng": -0.718882,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Thu 11:00-20:00; Fri-Sat 11:00-21:00; Sun 11:00-20:00",
     "featured": false
   },
   {
@@ -42181,6 +43951,7 @@
     "address": "Route d'Onnens, Lovens, La Brillaz, Sarine District, Fribourg, 1745, Switzerland",
     "lat": 46.765379,
     "lng": 7.016702,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -42366,6 +44137,8 @@
     "lat": 42.213015,
     "lng": 20.736334,
     "phone": "044 155 950",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 11:00-23:00",
     "featured": false
   },
   {
@@ -42824,6 +44597,15 @@
     "lng": 9.979696,
     "websiteUrl": "https://rs-kartcenter.de/en/",
     "phone": "+49 5194 982050",
+    "indoorOutdoor": "both",
+    "trackLengthM": 1000,
+    "openingHours": "Tue-Fri 15:00-21:00, Sat-Sun 10:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "both",
+        "min_age_or_height": "3-8yr toddlers/two-seater; 12yr adults"
+      }
+    },
     "featured": false
   },
   {
@@ -42872,6 +44654,8 @@
     "address": "Información al Peregrino del Camino Mozárabe de Santiago, Plaza de España, Casco Antiguo Sur, Atarfe, Comarca de la Vega de Granada, Granada, Andalusia, 18230, Spain",
     "lat": 37.222696,
     "lng": -3.686566,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon closed; Tue-Fri 16:00-20:00; Sat-Sun 10:00-20:00",
     "featured": false
   },
   {
@@ -43046,6 +44830,14 @@
     "address": "Altes Rathaus, 6, Alter Markt, Rathausviertel, Altstadt, Magdeburg, Saxony-Anhalt, 39104, Germany",
     "lat": 52.131478,
     "lng": 11.640079,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 500,
+    "openingHours": "Thu-Fri 15:00-20:00, Sat 13:00-20:00, Sun 13:00-18:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "8yr / 1.40m"
+      }
+    },
     "featured": false
   },
   {
@@ -43528,6 +45320,9 @@
     "address": "4, Herredsfogedvej, Rødby, Lolland Municipality, Region Zealand, 4970, Denmark",
     "lat": 54.694064,
     "lng": 11.39022,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1246,
+    "openingHours": "Wed 15:00-19:30, Fri 15:00-18:00, Sat 09:00-17:30, Mon/Tue/Thu/Sun closed",
     "featured": false
   },
   {
@@ -43611,6 +45406,14 @@
     "address": "6, Provstestræde, Sankt Agnes Huse, Roskilde, Roskilde Municipality, Region Zealand, 4000, Denmark",
     "lat": 55.643348,
     "lng": 12.081925,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1250,
+    "openingHours": "Mon-Fri 14:00-20:00, Sat-Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -43643,6 +45446,14 @@
     "address": "12, Main Square, Altstadtviertel, Innere Stadt, Linz, Upper Austria, 4020, Austria",
     "lat": 48.305908,
     "lng": 14.286198,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 500,
+    "openingHours": "Mon-Thu 17:00-22:00, Fri-Sat 13:00-22:00, Sun 11:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -43917,6 +45728,14 @@
     "address": "Via Filippi, Alcamo, Trapani, Sicily, 91011, Italy",
     "lat": 37.97665,
     "lng": 12.962673,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon,Wed-Sun 18:00-01:00 (Tue closed)",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "min height 1.35m for electric karts"
+      }
+    },
     "featured": false
   },
   {
@@ -44069,6 +45888,8 @@
     "address": "Piazzale Antonio \"Nino\" Pagliula, Nardò, Lecce, Apulia, 73048, Italy",
     "lat": 40.176261,
     "lng": 18.030637,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Daily 15:30-02:00",
     "featured": false
   },
   {
@@ -44331,6 +46152,8 @@
     "address": "Mohrenapotheke, 14, Markt, Altscherbitz, Schkeuditz, Nordsachsen, Saxony, 04435, Germany",
     "lat": 51.393862,
     "lng": 12.220854,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Fri 15:00-23:00, Sat 10:00-00:00, Sun 10:00-22:00",
     "featured": false
   },
   {
@@ -44445,6 +46268,14 @@
     "address": "22, Carrer de la Parellada, Centre Vila, Vilafranca del Penedès, Alt Penedès, Barcelona, Catalonia, 08720, Spain",
     "lat": 41.346382,
     "lng": 1.699521,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 600,
+    "openingHours": "Tue-Thu 16:00-22:00; Fri 16:00-01:00; Sat 11:00-01:00; Sun 11:00-22:00; Mon closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -44903,6 +46734,9 @@
     "address": "Via Strazzante, Villarosa, Enna, Sicily, 94028, Italy",
     "lat": 37.587017,
     "lng": 14.173589,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 950,
+    "openingHours": "Daily 09:00-00:00",
     "featured": false
   },
   {
@@ -44935,6 +46769,9 @@
     "address": "2314, Sigdalsveien, Ramstad, Prestfoss, Sigdal, Buskerud, 3350, Norway",
     "lat": 60.04339,
     "lng": 9.635342,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 630,
+    "openingHours": "Tue 16:00-19:00, Sat 12:00-18:00, other days closed",
     "featured": false
   },
   {
@@ -44986,6 +46823,8 @@
     "address": "Tornikatu, Tehtaanniemi, Town Centre, Hanko, Raseborg Sub-Region, Uusimaa, Mainland Finland, 10900, Finland",
     "lat": 59.824775,
     "lng": 22.967891,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Tue-Fri 10:00-20:00, Sat 10:00-18:00, Sun 12:00-18:00, Mon closed",
     "featured": false
   },
   {
@@ -46427,6 +48266,8 @@
     "address": "Historisches Rathaus, 1A, Am Markt, Wildeshausen, Dötlingen, Landkreis Oldenburg, Lower Saxony, 27793, Germany",
     "lat": 52.897103,
     "lng": 8.436434,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Fri 15:00-18:00, Sat-Sun 14:00-18:00",
     "featured": false
   },
   {
@@ -46701,7 +48542,6 @@
     "address": "Boryspilska, Kharkivska Square, Chervonyi Khutir, Darnytskyi district, Kyiv, 02088, Ukraine",
     "lat": 50.403273,
     "lng": 30.684265,
-    "coverImageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/08/70/06/photo0jpg.jpg?w=700&h=400&s=1",
     "featured": false
   },
   {
@@ -47011,6 +48851,15 @@
     "address": "Warndtstraße, Unterbarmen, Gemarkung Barmen, Barmen, Wuppertal, North Rhine-Westphalia, 42285, Germany",
     "lat": 51.264018,
     "lng": 7.178037,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 480,
+    "openingHours": "Mon-Thu 16:00-22:00, Fri 16:00-23:00, Sat 14:00-23:00, Sun 12:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "7yr"
+      }
+    },
     "featured": false
   },
   {
@@ -47322,6 +49171,9 @@
     "address": "Piotruś, 14, Rynek, Śródmieście, Leszno, Greater Poland Voivodeship, 64-100, Poland",
     "lat": 51.84365,
     "lng": 16.574414,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Tue-Thu 15:00-21:00; Fri 15:00-22:00; Sat-Sun 12:00-22:00 (closed Mon)",
     "featured": false
   },
   {
@@ -47719,6 +49571,7 @@
     "websiteUrl": "https://spirit-karting.com",
     "phone": "+41 76 435 83 55",
     "coverImageUrl": "https://spirit-karting.ch/wp-content/uploads/2023/08/SK_101-1920x1093.jpg",
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -47755,6 +49608,8 @@
     "address": "Rua de São Tomé, Amorim, Póvoa de Varzim, Porto, 4495-154, Portugal",
     "lat": 41.407951,
     "lng": -8.7493,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue closed; Wed-Thu 16:00-00:00; Fri 16:00-02:00; Sat 14:00-02:00; Sun 14:00-00:00",
     "featured": false
   },
   {
@@ -48213,6 +50068,7 @@
     "address": "10km/ 7km, Svedala kommun, Skåne County, 233 92, Sweden",
     "lat": 55.551343,
     "lng": 13.216676,
+    "indoorOutdoor": "outdoor",
     "featured": false
   },
   {
@@ -48749,6 +50605,8 @@
     "lat": 47.127711,
     "lng": 23.96211,
     "websiteUrl": "https://kartingtransilvania.com/",
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Mon-Fri 13:00-20:00; Sat-Sun 10:00-20:00",
     "featured": false
   },
   {
@@ -49049,6 +50907,15 @@
     "lat": 51.481655,
     "lng": -3.179193,
     "websiteUrl": "https://www.team-sport.co.uk/go-kart-tracks/cardiff",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 500,
+    "openingHours": "Daily 09:00-23:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -49582,6 +51449,14 @@
     "address": "Sherwood Street, Sutton in Ashfield, Kirkby in Ashfield Urban District;Sutton in Ashfield Urban District, Huthwaite, Ashfield, Nottinghamshire, East Midlands, England, NG17 2LX, United Kingdom",
     "lat": 53.129392,
     "lng": -1.301154,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Daily 09:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years / 125cm minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -49634,6 +51509,8 @@
     "address": "Middlesbrough Town Hall, Albert Road, Middlehaven, Middlesbrough, Tees Valley, England, TS1 2RU, United Kingdom",
     "lat": 54.576042,
     "lng": -1.234405,
+    "indoorOutdoor": "outdoor",
+    "openingHours": "Wed-Sat 09:00-20:00, Sun 08:00-20:00, Mon-Tue closed",
     "featured": false
   },
   {
@@ -49701,6 +51578,15 @@
     "address": "Buch am Platz, 2, Kirchplatz, Inneres Lind, Lind, Stadt, Winterthur, Bezirk Winterthur, Zurich, 8400, Switzerland",
     "lat": 47.499172,
     "lng": 8.72915,
+    "indoorOutdoor": "both",
+    "trackLengthM": 500,
+    "openingHours": "Mon-Thu 14:00-21:00, Fri 14:00-22:00, Sat 10:00-22:00, Sun 10:00-19:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "1.30m children; 14yr adults"
+      }
+    },
     "featured": false
   },
   {
@@ -50503,6 +52389,14 @@
     "address": "Tomelilla, Tomelilla kommun, Skåne County, 273 34, Sweden",
     "lat": 55.544748,
     "lng": 13.932929,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 400,
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "large karts ~1.40m; small karts 7yrs/1.20m"
+      }
+    },
     "featured": false
   },
   {
@@ -50638,6 +52532,9 @@
     "lng": 9.385692,
     "websiteUrl": "https://www.topfuelracing.it/",
     "phone": "+39 02 40707301",
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 485,
+    "openingHours": "Mon-Fri 17:30-23:30; Sat-Sun 13:30-23:30",
     "featured": false
   },
   {
@@ -50654,6 +52551,15 @@
     "address": "Sloshes Lane, Evenwood and Barony, Low Etherley, County Durham, North East, England, DL14 0LT, United Kingdom",
     "lat": 54.666667,
     "lng": -1.75,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 200,
+    "openingHours": "Mon-Fri 12:00-20:00, Sat 09:00-21:00, Sun 10:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years / 1.27m minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -51684,6 +53590,8 @@
     "address": "Carrer 566, Urbanització La Canyada, Paterna, l'Horta Nord, Valencia, Valencian Community, 46182, Spain",
     "lat": 39.525942,
     "lng": -0.473302,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 11:00-14:00 & 17:00-22:00; Sat-Sun 10:00-14:00 & 17:00-22:00",
     "featured": false
   },
   {
@@ -51719,6 +53627,8 @@
     "address": "435, Finslandsvegen, Finsland, Kristiansand, Agder, 4646, Norway",
     "lat": 58.317192,
     "lng": 7.59105,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1200,
     "featured": false
   },
   {
@@ -51772,6 +53682,15 @@
     "websiteUrl": "https://vandelgokart.dk/en/",
     "phone": "+45 88 63 88 53",
     "coverImageUrl": "https://files.guidedanmark.org/files/410/72020_Bane.jpg",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 900,
+    "openingHours": "Mon-Tue 09:00-16:00, Wed-Sat 09:00-20:00, Sun 09:00-18:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "1.40m minimum height"
+      }
+    },
     "featured": false
   },
   {
@@ -52053,7 +53972,6 @@
     "lng": -81.344291,
     "websiteUrl": "https://victorysimcenter.com/",
     "phone": "(828) 815-0996",
-    "coverImageUrl": "https://victorysimcentral.com/wp-content/uploads/2024/08/Victory-SIM.png",
     "instagramUrl": "https://www.instagram.com/victorysimllc/",
     "facebookUrl": "https://www.facebook.com/VictorySimLLC/",
     "featured": false
@@ -52072,6 +53990,9 @@
     "address": "Helsingintie, Pappilanpelto, Vihti, Helsinki sub-region, Uusimaa, Mainland Finland, 03400, Finland",
     "lat": 60.416996,
     "lng": 24.323664,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 1029,
+    "openingHours": "Seasonal (warm season only)",
     "featured": false
   },
   {
@@ -52228,6 +54149,8 @@
     "address": "Kilian, Teichstraße, Ufhabi, Stetten, Lörrach (Kernstadt), Untertüllingen, Lörrach, VVG der Stadt Lörrach, Landkreis Lörrach, Baden-Württemberg, 79539, Germany",
     "lat": 47.61209,
     "lng": 7.660722,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Wed-Thu 16:00-23:00, Fri 16:00-00:00, Sat 15:00-00:00, Sun 14:00-22:00",
     "featured": false
   },
   {
@@ -52244,6 +54167,13 @@
     "address": "Neova, 11, Ratatie, Kukkaketo, Tikkurila, Tikkurilan suuralue, Vantaa, Helsinki sub-region, Uusimaa, Mainland Finland, 01300, Finland",
     "lat": 60.292988,
     "lng": 25.043674,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 12:00-21:00, Sat 11:00-22:00, Sun 11:00-20:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
@@ -52689,6 +54619,15 @@
     "address": "Label Suisse, Place Cardinal Mercier, Aisémont, Wavre, Nivelles, Walloon Brabant, Wallonia, 1300, Belgium",
     "lat": 50.716969,
     "lng": 4.610416,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 530,
+    "openingHours": "Mon closed, Tue-Wed 10:00-22:00, Thu-Fri 10:00-23:00, Sat 09:00-23:00, Sun 09:00-22:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric",
+        "min_age_or_height": "children's sessions from age 3"
+      }
+    },
     "featured": false
   },
   {
@@ -52789,6 +54728,9 @@
     "address": "Friars Vaults, 5, Castle Square, Withybush, Haverfordwest, Pembrokeshire, Wales, SA61 2AB, United Kingdom",
     "lat": 51.802127,
     "lng": -4.968425,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 300,
+    "openingHours": "Tue-Thu 10:00-18:00, Fri-Sat 10:00-21:00, Sun 10:00-18:00, Mon closed",
     "featured": false
   },
   {
@@ -52905,6 +54847,15 @@
     "address": "5, Melville Street, Oakfield, Binstead, Ryde, Isle of Wight, England, PO33 2JQ, United Kingdom",
     "lat": 50.729987,
     "lng": -1.16037,
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 520,
+    "openingHours": "Mon-Sat 09:00-20:00, Sun 10:00-17:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "8 years minimum"
+      }
+    },
     "featured": false
   },
   {
@@ -53058,6 +55009,8 @@
     "address": "Crocodile, 5;6, Grote Markt, Kortrijk, West Flanders, Flanders, 8500, Belgium",
     "lat": 50.827643,
     "lng": 3.265988,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Tue & Thu 17:00-22:30, Wed 14:00-22:30, Fri 17:00-00:00, Sat 10:00-00:00, Sun 10:00-22:00",
     "featured": false
   },
   {
@@ -53215,6 +55168,13 @@
     "address": "WRT 2.0 Kapelanka, 54, Kapelanka, Zakrzówek, Dębniki, Krakow, Lesser Poland Voivodeship, 30-347, Poland",
     "lat": 50.032311,
     "lng": 19.925349,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 15:00-22:00; Sat 11:00-22:00; Sun 11:00-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "petrol"
+      }
+    },
     "featured": false
   },
   {
@@ -53263,6 +55223,14 @@
     "address": "18, Paltosken, Tjuviga, Holskogen, Kristiansand, Agder, 4624, Norway",
     "lat": 58.085628,
     "lng": 7.931858,
+    "indoorOutdoor": "indoor",
+    "trackLengthM": 400,
+    "openingHours": "Mon-Fri 16:30-21:00, Sat 09:30-21:00, Sun 13:30-21:00",
+    "details": {
+      "karting": {
+        "kart_type": "electric"
+      }
+    },
     "featured": false
   },
   {
