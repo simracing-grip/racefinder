@@ -39,7 +39,7 @@ export default function Hero({
             Sim &middot; Track days &middot; Karting &middot; F1
           </p>
 
-          <h1 className="mt-6 animate-rise font-display text-[4.25rem] font-black uppercase italic leading-[0.82] tracking-tight text-white [animation-delay:80ms] sm:text-8xl lg:text-[8.5rem]">
+          <h1 className="mt-6 animate-rise-solid font-display text-[4.25rem] font-black uppercase italic leading-[0.82] tracking-tight text-white [animation-delay:80ms] sm:text-8xl lg:text-[8.5rem]">
             Find your
             <br />
             <span className="relative inline-block text-signal">
@@ -48,7 +48,7 @@ export default function Hero({
             </span>
           </h1>
 
-          <p className="mt-8 max-w-lg animate-rise text-lg leading-relaxed text-gray-300 [animation-delay:160ms]">
+          <p className="mt-8 max-w-lg animate-rise-solid text-lg leading-relaxed text-gray-300 [animation-delay:160ms]">
             {venueCount.toLocaleString("en-GB")} places to drive, race and spectate &mdash; from your local kart
             track to Monza. Search it, map it, go drive it.
           </p>
