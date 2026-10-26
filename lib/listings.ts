@@ -1,4 +1,7 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { asc, eq } from "drizzle-orm";
+import * as Sentry from "@sentry/nextjs";
 import type { Category, Listing, ListingDetails, IndoorOutdoor } from "@/lib/types";
 import { CALENDAR_EVENTS } from "@/data/calendar-events";
 import { PHOTO_CREDITS } from "@/data/photo-credits";
@@ -78,6 +81,8 @@ function rowToListing(row: typeof listingsTable.$inferSelect): Listing {
 //  - once stale, callers get the old copy immediately while one background
 //    refresh runs (stale-while-revalidate)
 //  - if a refresh fails, the old copy keeps serving and it retries later
+//  - if there's no old copy either, the bundled snapshot serves instead
+//    (see loadSnapshotListings) — the database stays the primary source
 // Pages add their own `export const revalidate` on top (ISR), so in
 // production most requests don't even reach this code.
 //
@@ -99,25 +104,53 @@ interface ListingCache {
 const store = ((globalThis as { __raceFinderListings?: { cache: ListingCache | null; inFlight: Promise<ListingCache> | null } })
   .__raceFinderListings ??= { cache: null, inFlight: null });
 
+function toCache(listings: Listing[], ttlMs: number): ListingCache {
+  return {
+    listings,
+    bySlug: new Map(listings.map((l) => [l.slug, l])),
+    expiresAt: Date.now() + ttlMs,
+  };
+}
+
 async function queryPublishedListings(): Promise<ListingCache> {
+  if (!db) throw new Error("DATABASE_URL is not set");
   const rows = await db
     .select()
     .from(listingsTable)
     .where(eq(listingsTable.status, "published"))
     .orderBy(asc(listingsTable.name));
-  const listings = rows.map(rowToListing).map(withEvents).map(withPhotoCredit);
-  return {
-    listings,
-    bySlug: new Map(listings.map((l) => [l.slug, l])),
-    expiresAt: Date.now() + CACHE_TTL_MS,
-  };
+  return toCache(rows.map(rowToListing).map(withEvents).map(withPhotoCredit), CACHE_TTL_MS);
+}
+
+// Last resort when Postgres is unreachable and this instance has no copy
+// yet (cold start, or a build) — e.g. Supabase's free tier pausing the
+// project. data/generated-listings.json is the import pipeline's output
+// (data/import/import-to-db.ts), so it's the directory as of the last
+// import: possibly a few edits behind the database, but far better than a
+// 500 on every venue page. It gets the same calendar/photo-credit merge, and
+// the short expiry means the database is retried every RETRY_AFTER_ERROR_MS.
+// Read at runtime (not imported) for the reason in data/generated-listings.ts;
+// next.config.ts's outputFileTracingIncludes ships the file with every route.
+async function loadSnapshotListings(): Promise<ListingCache> {
+  const raw = await readFile(path.join(process.cwd(), "data", "generated-listings.json"), "utf-8");
+  const listings = (JSON.parse(raw) as Listing[])
+    .filter((l) => l.status === "published")
+    .map((l) => ({ ...l, ...normalizeCountry(l.country, l.countryCode) }))
+    .sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) // approximates the query's ORDER BY name
+    .map(withEvents)
+    .map(withPhotoCredit);
+  return toCache(listings, RETRY_AFTER_ERROR_MS);
 }
 
 function refresh(): Promise<ListingCache> {
   store.inFlight ??= queryPublishedListings()
     .then((fresh) => (store.cache = fresh))
-    .catch((err) => {
-      if (!store.cache) throw err; // nothing to fall back on
+    .catch(async (err) => {
+      Sentry.captureException(err, { tags: { area: "listings-cache" } });
+      if (!store.cache) {
+        console.error("Listings query failed with no cached copy; serving the bundled snapshot.", err);
+        return (store.cache = await loadSnapshotListings());
+      }
       console.error("Listings refresh failed; serving the previous copy.", err);
       store.cache.expiresAt = Date.now() + RETRY_AFTER_ERROR_MS;
       return store.cache;

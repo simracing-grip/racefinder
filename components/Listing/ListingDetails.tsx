@@ -14,7 +14,7 @@ function DetailRow({ label, value }: { label: string; value: React.ReactNode }) 
 }
 
 function formatEventDate(event: TrackEvent): string {
-  const fmt = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  const fmt = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
   const start = new Date(event.startDate);
   if (!event.endDate || event.endDate === event.startDate) {
     return `${fmt(start)} ${event.season}`;
