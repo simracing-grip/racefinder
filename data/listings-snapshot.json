@@ -560,22 +560,6 @@
     "featured": false
   },
   {
-    "id": "b746f9b6-3075-4805-9ac5-cfd24e91bbc5",
-    "slug": "ace-motorsport",
-    "name": "ACE Motorsport",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "city": "Maungakiekie-Tāmaki",
-    "address": "89-95, Station Road, Penrose, Maungakiekie-Tāmaki, Auckland, 1040, New Zealand",
-    "lat": -36.911144,
-    "lng": 174.814781,
-    "featured": false
-  },
-  {
     "id": "abf856bc-76c8-481c-b35e-04d6024cd0b6",
     "slug": "ace-motorsport-karting",
     "name": "Ace Motorsport Karting",
@@ -764,31 +748,6 @@
     "featured": false
   },
   {
-    "id": "f5d7f6f6-3a24-43d7-b322-2ca9e64fbc50",
-    "slug": "actua-karting-saint-laurent-de-mure",
-    "name": "Actua Karting – Saint-Laurent-de-Mure",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "France",
-    "countryCode": "FR",
-    "city": "Saint-Laurent-de-Mure",
-    "address": "12, Avenue de la Mairie, Saint-Laurent-de-Mure, Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, 69720, France",
-    "lat": 45.687282,
-    "lng": 5.046119,
-    "indoorOutdoor": "outdoor",
-    "trackLengthM": 900,
-    "openingHours": "Weekdays 09:00-12:00 & 14:00-18:30, weekends 09:00-18:30",
-    "details": {
-      "karting": {
-        "kart_type": "petrol",
-        "min_age_or_height": "Kid Kart <14/1.30m; Racing Kart 14+/1.40m; Super Kart 18+/1.50m"
-      }
-    },
-    "featured": false
-  },
-  {
     "id": "384479da-148a-420d-b0e3-89cb2465545b",
     "slug": "actua-karting-lyon",
     "name": "Actua Karting Lyon",
@@ -934,22 +893,6 @@
     "address": "Rotatória Córrego Bicano, Canelas II, Canelas, Montes Claros, Minas Gerais, Southeast Region, 39402-418, Brazil",
     "lat": -16.749573,
     "lng": -43.868727,
-    "featured": false
-  },
-  {
-    "id": "62429bf3-99d3-49ce-ab77-323ab7b7a28b",
-    "slug": "adrenalina-rio-kart-shopping-jardim-guadalupe",
-    "name": "Adrenalina Rio Kart — Shopping Jardim Guadalupe",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Rio de Janeiro",
-    "address": "Cine Araújo, Avenida Brasil, Guadalupe, Rio de Janeiro, Southeast Region, 21660-310, Brazil",
-    "lat": -22.841269,
-    "lng": -43.369146,
     "featured": false
   },
   {
@@ -6214,26 +6157,6 @@
     "featured": false
   },
   {
-    "id": "536240a4-72c2-474e-b330-fa395d0acab7",
-    "slug": "bikernieku-karting-hall",
-    "name": "Biķernieku Karting Hall",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "Biķernieku Kartinga halle, 20, Sergeja Eizenšteina iela, Mežciems, Teikas apkaime, Riga, LV-1079, Latvia",
-    "lat": 56.965305,
-    "lng": 24.232209,
-    "websiteUrl": "http://www.bikerniekuhalle.lv/",
-    "phone": "+371 26 630 333",
-    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
-    "indoorOutdoor": "indoor",
-    "featured": false
-  },
-  {
     "id": "a5bcb15e-aef9-4e8a-b64f-2462978da2e2",
     "slug": "bikernieku-kartinga-halle",
     "name": "Biķernieku Kartinga Halle",
@@ -6249,7 +6172,9 @@
     "lng": 24.232209,
     "websiteUrl": "https://www.bikerniekuhalle.lv/",
     "phone": "+371 26630333",
+    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
     "coverImageUrl": "https://cdn.davanuserviss.lv/storage/photos/products/116402/38152.jpg",
+    "indoorOutdoor": "indoor",
     "featured": false
   },
   {
@@ -10484,22 +10409,6 @@
     "featured": false
   },
   {
-    "id": "763638d5-12d6-454b-a724-004ae35ac42f",
-    "slug": "cockburn-international-kartway",
-    "name": "Cockburn International Kartway",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Henderson",
-    "address": "Stuart Drive, Henderson, Western Australia, 6166, Australia",
-    "lat": -32.162585,
-    "lng": 115.777934,
-    "featured": false
-  },
-  {
     "id": "952c7ce9-ec99-418f-85cb-8116074b882c",
     "slug": "cockburn-international-kartway-tiger-kart-club",
     "name": "Cockburn International Kartway (Tiger Kart Club)",
@@ -10836,6 +10745,11 @@
     "indoorOutdoor": "outdoor",
     "trackLengthM": 900,
     "openingHours": "Daily 10:30-21:00",
+    "details": {
+      "karting": {
+        "min_age_or_height": "SR4 age 14+; LR5 Junior ages 7-13 & min 1.30m; 2DR junior with adult 18+"
+      }
+    },
     "featured": false
   },
   {
@@ -18207,22 +18121,6 @@
     "lng": -8.376229,
     "websiteUrl": "https://gzsimlab.com/",
     "phone": "+34 679 334 117",
-    "featured": false
-  },
-  {
-    "id": "04ed30af-db32-48af-ad9f-a540ffe8d7ea",
-    "slug": "haddon-park-raceway",
-    "name": "Haddon Park Raceway",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Haddon",
-    "address": "79, Racecourse Road, Haddon, Victoria, 3351, Australia",
-    "lat": -37.589184,
-    "lng": 143.710908,
     "featured": false
   },
   {
@@ -26797,30 +26695,6 @@
     "featured": false
   },
   {
-    "id": "6ca25d35-5371-49c5-ae54-222c3ad00d7e",
-    "slug": "karting-de-vuiteboeuf",
-    "name": "Karting de Vuiteboeuf",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Switzerland",
-    "countryCode": "CH",
-    "city": "Peney",
-    "address": "Ruelle du Collège, Peney, Vuiteboeuf, District du Jura-Nord vaudois, Vaud, 1445, Switzerland",
-    "lat": 46.807388,
-    "lng": 6.549375,
-    "indoorOutdoor": "outdoor",
-    "trackLengthM": 1600,
-    "openingHours": "Tue-Fri 14:00-21:00, Sat 10:00-12:30 & 13:00-22:00, Sun 10:00-12:30 & 13:00-19:00",
-    "details": {
-      "karting": {
-        "min_age_or_height": "3-10yr two-seater; 8-13yr 200cc; 14+ 270cc+"
-      }
-    },
-    "featured": false
-  },
-  {
     "id": "3c99991c-0273-4231-b6ca-9e6bbf71eb05",
     "slug": "karting-del-sol",
     "name": "Karting Del Sol",
@@ -27079,30 +26953,6 @@
     "address": "Weerdingerkanaal Zuidzijde, Nieuw-Weerdinge, Emmen, Drenthe, Netherlands, 7831 AK, Netherlands",
     "lat": 52.857398,
     "lng": 6.987814,
-    "featured": false
-  },
-  {
-    "id": "a75c8234-5f06-4da4-aefb-f67ee12249bd",
-    "slug": "karting-empuriabrava",
-    "name": "Karting Empuriabrava",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Castelló d'Empúries",
-    "address": "Karting Cross Empuriabrava, C-260, Empuriabrava i entorn, Empuriabrava, Castelló d'Empúries, Upper Empordà, Girona, Catalonia, 17047, Spain",
-    "lat": 42.264035,
-    "lng": 3.11103,
-    "indoorOutdoor": "outdoor",
-    "trackLengthM": 850,
-    "openingHours": "Jul-Aug daily 10:00-21:00",
-    "details": {
-      "karting": {
-        "min_age_or_height": "SR4 age 14+; LR5 Junior ages 7-13 & min 1.30m; 2DR junior with adult 18+"
-      }
-    },
     "featured": false
   },
   {
@@ -29002,24 +28852,6 @@
     "websiteUrl": "http://rullitis.lv/",
     "phone": "+371 29 589 595",
     "indoorOutdoor": "outdoor",
-    "featured": false
-  },
-  {
-    "id": "78a6dd3c-4c64-472e-853e-ed93d09fc655",
-    "slug": "kartingslv",
-    "name": "Kartings.lv",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "City Padel, 77 k-1, Gustava Zemgala gatve, Teika, Teikas apkaime, Riga, LV-1039, Latvia",
-    "lat": 56.975945,
-    "lng": 24.163002,
-    "websiteUrl": "https://kartings.lv",
-    "phone": "+371 27304104",
     "featured": false
   },
   {
@@ -32572,22 +32404,6 @@
     "address": "24B, Matua Road, Otatara, Invercargill City, Southland, 9879, New Zealand",
     "lat": -46.43803,
     "lng": 168.28698,
-    "featured": false
-  },
-  {
-    "id": "8d26767e-2e1a-4885-a5c0-a1d6718e7c16",
-    "slug": "kartsport-taranaki",
-    "name": "KartSport Taranaki",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "city": "Waitara",
-    "address": "Waitara Police Station, Domett Street, Waitara, New Plymouth District, Taranaki, 4320, New Zealand",
-    "lat": -39.002824,
-    "lng": 174.236432,
     "featured": false
   },
   {
@@ -49353,22 +49169,6 @@
     "address": "23200, Roberts Road, New Caney, Montgomery County, Texas, 77357, United States",
     "lat": 30.155216,
     "lng": -95.211322,
-    "featured": false
-  },
-  {
-    "id": "49d0b424-473b-40da-8be2-9b485390b758",
-    "slug": "speedway-city-complex-dirt-kart-track",
-    "name": "Speedway City Complex dirt kart track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Adelaide",
-    "address": "Brady Street, Adelaide, South Australia, 5120, Australia",
-    "lat": -34.666952,
-    "lng": 138.560977,
     "featured": false
   },
   {
