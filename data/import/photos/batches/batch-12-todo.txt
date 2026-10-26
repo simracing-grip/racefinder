@@ -1,0 +1,31 @@
+tokachi-speedway | Tokachi Speedway | 更別村 | Japan | https://tokachi-sp.com/
+tony-rust-race-track | Tony Rust Race Track | Windhoek | Namibia | https://www.facebook.com/WindhoekMotorClub/
+tor-bialystok | Tor Białystok | Białystok | Poland | 
+tor-kielce | Tor Kielce | Miedziana Góra | Poland | https://automobilklub.kielce.pl/pl/tor_kielce/
+tor-lodz | Tor Łódź | Kiełmina | Poland | https://tor-lodz.pl/
+tor-modlin | Tor Modlin | Nowy Dwór Mazowiecki | Poland | https://tormodlin.pl
+toronto-motorsports-park | Toronto Motorsports Park | Cayuga | Canada | https://torontomotorsportspark.com/
+tosfed-istanbul-park | TOSFED Istanbul Park | Tuzla | Turkey | https://tosfedistanbulpark.com/en/home-page/
+tosfed-korfez-yaris-pisti-korfez-circuit | TOSFED Körfez Yarış Pisti (Körfez Circuit) | Körfez | Turkey | https://korfezyarispisti.org/
+tsukuba-circuit | Tsukuba Circuit | Shimotsuma | Japan | 
+tsukuruma-circuit-nasu | Tsukuruma Circuit Nasu | Nasushiobara | Japan | https://sunrise-circuit.jp/
+twin-ring-motegi-mobility-resort-motegi | Twin Ring Motegi (Mobility Resort Motegi) | 茂木町 | Japan | 
+utah-motorsports-campus | Utah Motorsports Campus | Tooele | United States | 
+valerbanen | Vålerbanen | Braskereidfoss | Norway | https://www.vaalerbanen.no/
+vancouver-island-motorsport-circuit | Vancouver Island Motorsport Circuit | Duncan | Canada | https://islandmotorsportcircuit.com/
+vantaa-circuit | Vantaa Circuit | Vantaa | Finland | https://vantaacircuit.fi/
+virginia-international-raceway | Virginia International Raceway |  | United States | https://virnow.com/
+wallrav-race-center-tor-stary-kisielin | WallraV Race Center (Tor Stary Kisielin) | Zielona Góra | Poland | https://siescigam.pl/tory-wyscigowe/tor-stary-kisielin
+waterford-hills-road-racing | Waterford Hills Road Racing | Clarkston | United States | http://www.waterfordhills.com/
+watkins-glen-international | Watkins Glen International | Town of Dix | United States | 
+weathertech-raceway-laguna-seca | WeatherTech Raceway Laguna Seca | Salinas | United States | https://weathertechraceway.com/
+willow-springs-international-raceway | Willow Springs International Raceway | Rosamond | United States | https://willowspringsraceway.com/
+winton-motor-raceway | Winton Motor Raceway |  | Australia | https://wintonraceway.com.au/
+world-wide-technology-raceway | World Wide Technology Raceway | Madison | United States | https://www.wwtraceway.com/
+wuhan-international-circuit | Wuhan International Circuit | Jianghan District | China | 
+xiamen-international-circuit | Xiamen International Circuit | Siming District | China | http://www.xiamencircuit.com/
+yz-circuit | YZ Circuit | Mizunami | Japan | http://www.yz-circuit.com/
+zaluzani-circuit-moto-staza-zaluzani | Zalužani Circuit (Moto Staza Zalužani) | Banja Luka | Bosnia and Herzegovina | 
+zhejiang-international-circuit | Zhejiang International Circuit | Yuecheng District | China | 
+zhuhai-international-circuit | Zhuhai International Circuit | Xiangzhou | China | 
+zwartkops-raceway | Zwartkops Raceway | Pretoria | South Africa | https://www.zwartkops.co.za/
