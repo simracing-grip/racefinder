@@ -720,5 +720,1621 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Stand.JPG"
+  },
+  "anglesey-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Motor_Rallying_at_Anglesey_Race_Circuit_%28Ty_Croes%29_-_geograph.org.uk_-_37835.jpg",
+    "author": "Colcon Flyer",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motor_Rallying_at_Anglesey_Race_Circuit_(Ty_Croes)_-_geograph.org.uk_-_37835.jpg"
+  },
+  "knockhill-racing-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Knockhill_Racing_Circuit_-_geograph.org.uk_-_7086422.jpg",
+    "author": "Mark Anderson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Knockhill_Racing_Circuit_-_geograph.org.uk_-_7086422.jpg"
+  },
+  "circuito-de-navarra": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Circuito_de_Navarra_-_DSC_1800_W.JPG",
+    "author": "Juanje 2712",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuito_de_Navarra_-_DSC_1800_W.JPG"
+  },
+  "motorland-aragon": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Panoramica_Motorland_Arag%C3%B3n.jpg",
+    "author": "Willtron",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panoramica_Motorland_Arag%C3%B3n.jpg"
+  },
+  "autodromo-internacional-do-algarve": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Aut%C3%B3dromo_Internacional_do_Algarve_%282012-09-23%29%2C_by_Klugschnacker_in_Wikipedia_%2825%29.JPG",
+    "author": "Klugschnacker",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_do_Algarve_(2012-09-23),_by_Klugschnacker_in_Wikipedia_(25).JPG"
+  },
+  "hockenheimring": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hockenheimring_Ostkurve_2008.JPG",
+    "author": "Zoe Kielstock",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hockenheimring_Ostkurve_2008.JPG"
+  },
+  "alastaro-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alastaron_moottorirata_2.jpg",
+    "author": "Kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alastaron_moottorirata_2.jpg"
+  },
+  "fdm-jyllandsringen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Formula_Ford_Denmark_Jyllandsringen.jpg",
+    "author": "Klaus Sparre from Denmark",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Formula_Ford_Denmark_Jyllandsringen.jpg"
+  },
+  "padborg-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Padborg_Park.jpg",
+    "author": "Mef.ellingen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padborg_Park.jpg"
+  },
+  "bikernieku-trase": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bi%C4%B7ernieku_trase%2C_R%C4%ABga%2C_Latvia_in_winter.jpg",
+    "author": "Hellknowz",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bi%C4%B7ernieku_trase,_R%C4%ABga,_Latvia_in_winter.jpg"
+  },
+  "transilvania-motor-ring": {
+    "imageUrl": "https://transilvaniamotorring.com/wp-content/uploads/2023/02/race-track-transilvania-motor-ring-circuit-enduranceseriesromania.png",
+    "author": "Transilvania Motor Ring",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://transilvaniamotorring.com/transilvania-motor-ring/"
+  },
+  "tor-poznan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tor_Pozna%C5%84.jpg",
+    "author": "Autoclassicservice",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor_Pozna%C5%84.jpg"
+  },
+  "mantorp-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mantorp_stcc18_pr39.jpg",
+    "author": "Micke Fransson/Teambild",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantorp_stcc18_pr39.jpg"
+  },
+  "ring-knutstorp": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/STCC_Ring_Knutstorp_2012_-_Rolling_start_%28Race_1%29.jpg",
+    "author": "Green Yoshi",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:STCC_Ring_Knutstorp_2012_-_Rolling_start_(Race_1).jpg"
+  },
+  "racing-arena": {
+    "imageUrl": "https://racingarena.ba/wp-content/uploads/2025/02/WSD-27-scaled.jpg",
+    "author": "Racing Arena",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://racingarena.ba/"
+  },
+  "race-factory-berlin": {
+    "imageUrl": "https://race-factory.de/media/2024/05/Race-Factory-72.png",
+    "author": "Race Factory Berlin",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://race-factory.de/en/"
+  },
+  "sim-motorsport-brands-hatch": {
+    "imageUrl": "https://static.wixstatic.com/media/e71b50_3691715328114ec69c61f6a435bf8ed7~mv2.jpg",
+    "author": "SIM Motorsport Brands Hatch",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.simmotorsport.co.uk/"
+  },
+  "racing-unleashed-munich": {
+    "imageUrl": "https://cdn.prod.website-files.com/6808a421e247d0b5439d92ea/69b03f659bf871df5a4a2564_IMG_0129.avif",
+    "author": "Racing Unleashed Munich",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racing-unleashed.com/lounges/munich"
+  },
+  "sim-drivers-paris": {
+    "imageUrl": "https://simdrivers-paris.fr/wp-content/uploads/2023/01/IMG_6297.jpeg",
+    "author": "Sim Drivers Paris",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://simdrivers-paris.fr/"
+  },
+  "estoril-racing-lab": {
+    "imageUrl": "https://www.estorilracinglab.com/wp-content/uploads/2024/10/DM-033-scaled.jpg",
+    "author": "Estoril Racing Lab",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.estorilracinglab.com/en/"
+  },
+  "race-center-budapest": {
+    "imageUrl": "https://racecenter.hu/wp-content/uploads/2019/10/szimulator-1-1500x630.jpg",
+    "author": "Race Center Budapest",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racecenter.hu"
+  },
+  "drive-lounge-london": {
+    "imageUrl": "https://www.drivelounge.co.uk/wp-content/uploads/2025/08/london-formula-rig-400x400.jpg",
+    "author": "Drive Lounge London",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.drivelounge.co.uk/locations/london/"
+  },
+  "racesquare-rotterdam": {
+    "imageUrl": "https://www.racesquare.com/wp-content/uploads/2022/11/F1-Racing-Centre-Vertigo-6-foto-Pim-Geerts-PIM_8443-768x461.jpg",
+    "author": "Racesquare Rotterdam",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racesquare.com/vestiging/rotterdam/"
+  },
+  "v-racing-stockholm": {
+    "imageUrl": "https://static.wixstatic.com/media/9851a0_6defb5ab82c9451b815c959163542e8c~mv2.jpg",
+    "author": "V-Racing Stockholm",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.v-racing.se"
+  },
+  "simtrack-driver-performance-centre": {
+    "imageUrl": "https://simtrack.co.uk/wp-content/uploads/2020/05/0009-sim-track-opening-day-2019_01_25-by-mcfade-1.jpg",
+    "author": "SIMTrack Driver Performance Centre",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://simtrack.co.uk/"
+  },
+  "the-race-lounge-star-city-birmingham": {
+    "imageUrl": "https://www.capitalkarts.com/wp-content/uploads/Race-Lounge.jpg",
+    "author": "The Race Lounge Star City Birmingham",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.capitalkarts.com/star-city/the-race-lounge/"
+  },
+  "racelab-racex": {
+    "imageUrl": "https://static.wixstatic.com/media/011a50_9022855d1eb54384a199ed8dd1f677f6f000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/011a50_9022855d1eb54384a199ed8dd1f677f6f000.jpg",
+    "author": "raceLAB / raceX",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.race-x.it/en"
+  },
+  "fdrive-experience-bergamo": {
+    "imageUrl": "https://www.fdrive.it/wp-content/uploads/2019/04/Simulatore-Formula-1-Experience-Simulatore-F1-Top-Performer-Fdrive-Centro-di-Simulazione-Professionale-300x167.jpg",
+    "author": "Fdrive Experience Bergamo",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.fdrive.it/"
+  },
+  "racesquare-zwolle": {
+    "imageUrl": "https://www.racesquare.com/wp-content/uploads/2024/10/racesquare_zwolle_header-1918x962.jpg",
+    "author": "Racesquare Zwolle",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racesquare.com/nl/vestiging/zwolle/"
+  },
+  "racesquare-amsterdam": {
+    "imageUrl": "https://www.racesquare.com/wp-content/uploads/2025/08/Racesquare-vestiging-amsterdam.jpg",
+    "author": "Racesquare Amsterdam",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racesquare.com/vestiging/amsterdam/"
+  },
+  "shftclub": {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/66b265ddae38852eca69eee8/ae661443-5569-4e0d-b20c-23f3532adabb/nbrng.jpg",
+    "author": "SHFTCLUB",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.shftclub.com/"
+  },
+  "circuit-sim-racing": {
+    "imageUrl": "https://circuitsimracing.com/wp-content/uploads/2024/04/20240418_195323-1-scaled.jpg",
+    "author": "Circuit Sim Racing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://circuitsimracing.com/"
+  },
+  "mp-sim-racing-chicago": {
+    "imageUrl": "https://www.mpsimracingchicago.com/cdn/shop/files/hf_20260419_190147_530d58ca-1d59-4777-b35f-dd9b6b4fb546_1.jpg?v=1776626749&width=3840",
+    "author": "MP Sim Racing Chicago",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.mpsimracingchicago.com/"
+  },
+  "velocity-sim-racing-dallas": {
+    "imageUrl": "https://velocitysimlounge.com/wp-content/uploads/2025/10/Velocity__QUITNGUYEN_DSCF8939-Enhanced-NR.jpg",
+    "author": "Velocity Sim Racing Dallas",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://velocitysimlounge.com/dallas/"
+  },
+  "torque-motorsports": {
+    "imageUrl": "https://static.wixstatic.com/media/ead44e_5ca5d29729f54162a09bd23c5f6626f4~mv2.png",
+    "author": "Torque Motorsports",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.torqueatlanta.com/"
+  },
+  "garage-2-grid-sim-racing": {
+    "imageUrl": "https://g2gsimracing.com/cdn/shop/files/IMG_5171.jpg?v=1732149509&width=1500",
+    "author": "Garage 2 Grid Sim Racing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://g2gsimracing.com/"
+  },
+  "shift-arcade-miami": {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/68091a7a810c385c30c1cc4c/e82b2500-9f1f-4403-aff3-9af54c916461/shift-miami-top.jpg",
+    "author": "Shift Arcade Miami",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://miami.shiftarcade.com/"
+  },
+  "victory-sim-center": {
+    "imageUrl": "https://victorysimcentral.com/wp-content/uploads/2024/08/Victory-SIM.png",
+    "author": "Victory Sim Center",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://victorysimcenter.com/"
+  },
+  "f1-arcade-boston": {
+    "imageUrl": "https://cdn.builder.io/o/assets%2F234ced24a0a64c9bb61961d65542afcf%2Feb04960cbaa8458ea0771b37e4453b46?alt=media&token=65675499-b885-46cd-b535-d73119e57e28&apiKey=234ced24a0a64c9bb61961d65542afcf",
+    "author": "F1 Arcade Boston",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://f1arcade.com/us/boston"
+  },
+  "shift-arcade-san-ramon": {
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/68526df0f3a19135202f9a4d/fd473712-9354-4f1b-b3b0-980d3d60f941/2025-11-14_ShiftArcade_6000BollingerCanyonRd-0097_MED.jpg",
+    "author": "Shift Arcade San Ramon",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://sanramon.shiftarcade.com/"
+  },
+  "full-focus-sim-lab": {
+    "imageUrl": "https://fullfocus.racing/wp-content/uploads/2025/06/FullFocus_SimLab_419-1024x834.jpg",
+    "author": "Full Focus Sim Lab",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://fullfocus.racing/"
+  },
+  "racestudios": {
+    "imageUrl": "https://racestudios.sg/wp-content/uploads/2026/06/Web-3-scaled.jpg",
+    "author": "RaceStudios",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://racestudios.sg/"
+  },
+  "hipole-sim-racing-minhang": {
+    "imageUrl": "https://www.hipole.com/wp-content/uploads/2025/04/HiPole_Pit_SH_Reeb_2-1024x576.jpg",
+    "author": "HiPole Sim Racing (Minhang)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.hipole.com/hipole-simracing-center/"
+  },
+  "hipole-sim-racing-xuhui": {
+    "imageUrl": "https://www.hipole.com/wp-content/uploads/2026/06/HiPole_Venue_Shanghai_BuyNow-1024x768.jpg",
+    "author": "HiPole Sim Racing (Xuhui)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.hipole.com/hipole-simracing-center/"
+  },
+  "hipole-sim-racing-xian": {
+    "imageUrl": "https://www.hipole.com/wp-content/uploads/2026/07/hipole-venue-xian-lizhili-1-1024x768.jpg",
+    "author": "HiPole Sim Racing (Xi'an)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.hipole.com/hipole-simracing-center/"
+  },
+  "racecraft": {
+    "imageUrl": "https://racecraft.ae/assets/media/venue-driver.jpg",
+    "author": "Racecraft",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://racecraft.ae/"
+  },
+  "godzpeed-autosport-racing-simulation": {
+    "imageUrl": "https://static.wixstatic.com/media/be8fb6_5856d35e93304f4e9620518a6bf37f4a~mv2.jpg/v1/fill/w_978,h_745,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/C004519F-484A-4B83-8A79-F31550A23D71%202_JPG.jpg",
+    "author": "Godzpeed Autosport Racing Simulation",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.godzpeed.com/"
+  },
+  "ironclad-racing-experience-center": {
+    "imageUrl": "https://static.wixstatic.com/media/2beaca_86d8da38c6ff4275ba8f5f72d241535e~mv2.jpg",
+    "author": "IronClad Racing Experience Center",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.ironcladracing.com/"
+  },
+  "racing-rigs": {
+    "imageUrl": "https://racingrigs.in/wp-content/uploads/2025/12/racing-rigs-black-white-1-scaled-e1766093911200.png",
+    "author": "Racing Rigs",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://racingrigs.in/"
+  },
+  "vr-motorsports": {
+    "imageUrl": "https://static.wixstatic.com/media/0a9193_a51e6efa2d1d435c8da1579ff738b4f6f000.jpg",
+    "author": "VR Motorsports",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.vrmotorsports.com.au/"
+  },
+  "sim-racing-adelaide": {
+    "imageUrl": "https://simracingadelaide.com.au/wp-content/themes/sim-racing/assets/img/hero.webp",
+    "author": "Sim Racing Adelaide",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://simracingadelaide.com.au/"
+  },
+  "a-racing-simuladores-rosario": {
+    "imageUrl": "https://aracingsimuladores.com.ar/wp-content/uploads/2025/06/IMG_7332-scaled.webp",
+    "author": "A Racing Simuladores Rosario",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://aracingsimuladores.com.ar/rosario/"
+  },
+  "a-racing-simuladores-neuquen": {
+    "imageUrl": "https://aracingsimuladores.com.ar/wp-content/uploads/2025/06/IMG_9752-scaled.webp",
+    "author": "A Racing Simuladores Neuquén",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://aracingsimuladores.com.ar/neuquen/"
+  },
+  "jiqoo-racing": {
+    "imageUrl": "https://jiqoo.jp/JiqooRacing/images/detal_ph01.webp",
+    "author": "JIQOO RACING",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://jiqoo.jp/JiqooRacing/"
+  },
+  "mid-base-juso": {
+    "imageUrl": "https://mid-base.jp/lp/wp-content/themes/midbase/assets/img/slider/juzo_slider05.png",
+    "author": "MID BASE (Juso)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://mid-base.jp/lp/"
+  },
+  "kanji-racing-simulator-gym": {
+    "imageUrl": "https://www.kanji-sim.com/cms/wp-content/uploads/2026/08/811a0182f488178279562a495f689570.jpeg",
+    "author": "Kanji Racing Simulator Gym",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.kanji-sim.com/"
+  },
+  "rumble-racing-simulators": {
+    "imageUrl": "https://static.wixstatic.com/media/0e6513_591abae425f14fcebf6c9a90e85d1fcd~mv2.png",
+    "author": "Rumble Racing Simulators",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.rumbleracingsim.com/"
+  },
+  "ctrlplay-setapak": {
+    "imageUrl": "https://storage.googleapis.com/ctrlplay_branches/Setapak.jpg",
+    "author": "CTRL+PLAY (Setapak)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://ctrlplay.my/"
+  },
+  "teleiosx": {
+    "imageUrl": "https://teleiosx.com/media/images/home/venue-teaser.jpg",
+    "author": "TeleiosX",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://teleiosx.com/"
+  },
+  "purple-racing-center-by-kubina-racing": {
+    "imageUrl": "https://www.purpleracingcenter.de/wp-content/uploads/2026/08/260716_PRC_Soelpec_Pics_SMALL-54.jpg",
+    "author": "Purple Racing Center by Kubina Racing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.purpleracingcenter.de/sim-racing/"
+  },
+  "racing-car-benz-bonn": {
+    "imageUrl": "https://www.racingcar-benz.com/wp-content/uploads/2021/02/racing-car-benz-rennsimulator-bonn-arena.jpg",
+    "author": "Racing Car Benz Bonn",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racingcar-benz.com/"
+  },
+  "simrigclub-munchen": {
+    "imageUrl": "https://static.wixstatic.com/media/ae340b_737ce1a5554e4d8e900d713e74c3ff9af000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ae340b_737ce1a5554e4d8e900d713e74c3ff9af000.jpg",
+    "author": "SimRigClub München",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.simrigclub.com/"
+  },
+  "jochen-schweizer-arena-rennsimulator": {
+    "imageUrl": "https://www.jochen-schweizer-arena.de/wp-content/uploads/2023/04/Beitragsbilder-Jochen-Schweizer-Arena-1080-%C3%97-1080-px-13-1024x1024.png",
+    "author": "Jochen Schweizer Arena Rennsimulator",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.jochen-schweizer-arena.de/en/rennsimulatoren/"
+  },
+  "pits-simracing-lounge": {
+    "imageUrl": "https://www.pits-simracing.de/wp-content/uploads/2025/10/sim_racing-lounge.jpg",
+    "author": "Pit's Simracing Lounge",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.pits-simracing.de/"
+  },
+  "derbe-flott-simracing": {
+    "imageUrl": "https://derbeflott.de/images/2022/11/16/sim-racing-multiplayer-high-end-simulatoren.webp",
+    "author": "Derbe Flott Simracing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://derbeflott.de/"
+  },
+  "g4metime-sonic-raum-sim-racing": {
+    "imageUrl": "https://g4metime.de/wp-content/uploads/2023/03/G4METIME_Sonic_Web4-557x400.webp",
+    "author": "G4METIME Sonic-Raum Sim Racing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.g4metime.de/"
+  },
+  "evokart-wedel-sim-racing": {
+    "imageUrl": "https://evokart-wedel.de/wp-content/uploads/2026/07/66-EVO_Wedel_Juli_2026_078_web_kopie-1024x683.jpg",
+    "author": "EVOKART Wedel Sim Racing",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://evokart-wedel.de/simracing/"
+  },
+  "lakeracing-simcenter-hegau": {
+    "imageUrl": "https://onecdn.io/media/73cdbc7a-28a3-46a5-aa42-dce8c6025cb6/preview",
+    "author": "LakeRacing SimCenter Hegau",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://lakeracing.de/"
+  },
+  "mc-sim-racing-umkirch": {
+    "imageUrl": "https://static.wixstatic.com/media/88e7e3_0cf142bfffb0471bab75b08cfcdd13a6f000.jpg",
+    "author": "MC Sim Racing Umkirch",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.mc-sim-racing.de/"
+  },
+  "simudrom-simracing-wien": {
+    "imageUrl": "https://images.ctfassets.net/32sfhwldq9j6/3QWv8xYoYDXAUVuSdZM0hl/40d98c4da821ba1183a218109abd85cc/Simudrom_Simulatoren.png?w=1000&q=60&fm=webp",
+    "author": "SIMUDROM Simracing Wien",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://simudrom.at/"
+  },
+  "ferdinand-porsche-erlebniswelt-fahrtraum-race-simulator": {
+    "imageUrl": "https://www.fahrtraum.at/wp-content/uploads/2023/11/fahrtraum-rennsimulator002.jpg",
+    "author": "Ferdinand Porsche Erlebniswelt fahr(T)raum Race-Simulator",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.fahrtraum.at/en/renn-simulation/"
+  },
+  "first-racing-lounge": {
+    "imageUrl": "https://www.first-racing.ch/wp-content/uploads/2024/12/20241130_142301-scaled-e1741289708340.jpg",
+    "author": "First Racing Lounge",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.first-racing.ch/"
+  },
+  "racingfuel-academy-horgen": {
+    "imageUrl": "https://cdn.prod.website-files.com/698c34ad5bead29bf301a887/698c3fff456b8dfa8337cea3_4235df9099053f6f975f99572c05ddfc_RacingFuel%20Hero%20Image.avif",
+    "author": "RacingFuel Academy Horgen",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racingfuel-academy.ch/en"
+  },
+  "racing-center-dietlikon": {
+    "imageUrl": "https://static.wixstatic.com/media/f3c0b2_37891013984f4ae69a2c00a880634459f000.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f3c0b2_37891013984f4ae69a2c00a880634459f000.jpg",
+    "author": "Racing Center Dietlikon",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racingcenterdietlikon.ch/"
+  },
+  "raceloungech-itingen": {
+    "imageUrl": "https://static.wixstatic.com/media/95b1e1_b5f7d9601b5b424ead59bb43c2cce580f000.jpg/v1/fill/w_766,h_431,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/95b1e1_b5f7d9601b5b424ead59bb43c2cce580f000.jpg",
+    "author": "RaceLounge.ch Itingen",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "http://www.race-lounge.ch/"
+  },
+  "simultimate-feuerthalen": {
+    "imageUrl": "https://simracing-lounge.ch/wp-content/uploads/2026/04/p911gt3-interior-2.jpg",
+    "author": "SimUltimate Feuerthalen",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://simracing-lounge.ch/"
+  },
+  "simracingworld-racing-lounge-pratteln": {
+    "imageUrl": "https://www.simracingworld.ch/cdn/shop/files/DSC01013-2.jpg",
+    "author": "SimRacingWorld Racing Lounge Pratteln",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.simracingworld.ch/en"
+  },
+  "racexperience-geneve": {
+    "imageUrl": "https://static.wixstatic.com/media/489b18_e5f8ff7a985346a49efbc4063d174537f000.jpg/v1/fill/w_903,h_508,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/489b18_e5f8ff7a985346a49efbc4063d174537f000.jpg",
+    "author": "RaceXperience Genève",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.racexperience.ch/"
+  },
+  "sim-center-poznan": {
+    "imageUrl": "https://sim-center.pl/wp-content/uploads/2025/11/20211221211033.png",
+    "author": "SIM-CENTER Poznań",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://sim-center.pl/en/"
+  },
+  "myrace": {
+    "imageUrl": "https://cdn.prod.website-files.com/6374f66cc55fcc35be6b9306/6374f66cc55fcc393f6b9379_5e1dbc35c6093625f1f8b28e_20191128_175056%20(1).webp",
+    "author": "MyRace",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.myrace.cz/"
+  },
+  "vr-ostrava-zavodni-simulator": {
+    "imageUrl": "https://vr-ostrava.s3.eu-central-1.amazonaws.com/prod/3d06d2ccbe288b0055bce40def3aa4cd.jpg_800_AUTO.jpg",
+    "author": "VR Ostrava (Závodní simulátor)",
+    "license": "All rights reserved (venue promotional photo)",
+    "sourceUrl": "https://www.vr-ostrava.cz/zavodni-simulator"
+  },
+  "adria-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/-_ITALY_-_ITALIA_Adria_Raceway.JPG",
+    "author": "Pava",
+    "license": "CC BY-SA 3.0 it",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:-_ITALY_-_ITALIA_Adria_Raceway.JPG"
+  },
+  "ahvenisto-race-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ahveniston_Moottorirata_29.7.2016.jpg",
+    "author": "Jaakko Virtanen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahveniston_Moottorirata_29.7.2016.jpg"
+  },
+  "aintree-motor-racing-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Anchor_Crossing%2C_British_Grand_Prix%2C_1961_geograph-2741605-by-John-Goldsmith.jpg",
+    "author": "John Goldsmith",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchor_Crossing,_British_Grand_Prix,_1961_geograph-2741605-by-John-Goldsmith.jpg"
+  },
+  "almeria-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Circuito_de_Almer%C3%ADa.jpg",
+    "author": "Underwear69",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuito_de_Almer%C3%ADa.jpg"
+  },
+  "anneau-du-rhin": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Anneau_du_Rhin_004.JPG",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anneau_du_Rhin_004.JPG"
+  },
+  "arroyo-seco-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Arroyo_Seco_Raceway_aerial_photo_2022-05-20.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroyo_Seco_Raceway_aerial_photo_2022-05-20.jpg"
+  },
+  "autobahn-country-club": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Autobahn_Country_Club_orthophoto_2010-04-01.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autobahn_Country_Club_orthophoto_2010-04-01.jpg"
+  },
+  "autodrom-bilgoraj": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/BilgorajAutodrom.jpg",
+    "author": "Rafał Pawłowski",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BilgorajAutodrom.jpg"
+  },
+  "autodrom-pomorze-tor-pszczolki": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/ODTJ_Autodrom_Pomorze_zdj.2.jpg",
+    "author": "Autodrom1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ODTJ_Autodrom_Pomorze_zdj.2.jpg"
+  },
+  "autodrom-sosnova": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Autodrom_Sosnov%C3%A12.jpg",
+    "author": "Zákupák",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodrom_Sosnov%C3%A12.jpg"
+  },
+  "autodrome-de-linas-montlhery": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/L%27autodrome_de_Linas-Montlh%C3%A9ry_en_1924.jpg",
+    "author": "Le Miroir des sports",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%27autodrome_de_Linas-Montlh%C3%A9ry_en_1924.jpg"
+  },
+  "autodromo-ciudad-de-parana": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Aut%C3%B3dromo_Ciudad_de_Paran%C3%A1_10.jpg",
+    "author": "Adriel anv00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Ciudad_de_Paran%C3%A1_10.jpg"
+  },
+  "autodromo-ciudad-de-rafaela": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/TC_Rafaela_2007.png",
+    "author": "Adriel anv00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TC_Rafaela_2007.png"
+  },
+  "autodromo-de-concepcion-del-uruguay": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Aut%C3%B3dromo_de_Concepci%C3%B3n_del_Uruguay_2017_%281%29.jpg",
+    "author": "Adriel anv00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_de_Concepci%C3%B3n_del_Uruguay_2017_(1).jpg"
+  },
+  "autodromo-de-tocancipa": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Aut%C3%B3dromo_de_Tocancip%C3%A1_-_panoramio.jpg",
+    "author": "Javier Lopez",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_de_Tocancip%C3%A1_-_panoramio.jpg"
+  },
+  "autodromo-dellumbria-magione": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Magione_Autodrome_-_January_1973.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magione_Autodrome_-_January_1973.jpg"
+  },
+  "autodromo-di-franciacorta-porsche-experience-center-franciacorta": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Autodromo_di_Franciacorta_05-08_-_panoramio.jpg",
+    "author": "adirricor",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_di_Franciacorta_05-08_-_panoramio.jpg"
+  },
+  "autodromo-di-lombardore": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Autodromo_di_Lombardore_01.JPG",
+    "author": "AlessioMela",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_di_Lombardore_01.JPG"
+  },
+  "autodromo-di-pergusa": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Autodromo_Pergusa.jpg",
+    "author": "Giuseppe Arangio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_Pergusa.jpg"
+  },
+  "autodromo-el-zonda-eduardo-copello": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Aut%C3%B3dromo_El_Zonda_%2811426838783%29.jpg",
+    "author": "Miguel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_El_Zonda_(11426838783).jpg"
+  },
+  "autodromo-eusebio-marcilla": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Jun%C3%ADn_Aut%C3%B3dromo_20120430.jpg",
+    "author": "Germanramos",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jun%C3%ADn_Aut%C3%B3dromo_20120430.jpg"
+  },
+  "autodromo-general-san-martin": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/General_san_martin_comodoro_%281%29.JPG",
+    "author": "Gonce",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_san_martin_comodoro_(1).JPG"
+  },
+  "autodromo-internacional-de-codegua": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Aut%C3%B3dromo_Internacional_de_Codegua.jpg",
+    "author": "Marco Antonio Correa Flores",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_de_Codegua.jpg"
+  },
+  "autodromo-internacional-de-taruma": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Aut%C3%B3dromo_Internacional_de_Tarum%C3%A3.JPG",
+    "author": "Paulo rsmenezes",
+    "license": "CC BY-SA 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/br/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_de_Tarum%C3%A3.JPG"
+  },
+  "autodromo-internacional-el-jabali": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/El_Jabali_P.jpg",
+    "author": "JMRAFFi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Jabali_P.jpg"
+  },
+  "autodromo-internacional-miguel-e-abed": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Autodromo_aerea_mail.jpg",
+    "author": "Autódromo Internacional Miguel E. Abed",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_aerea_mail.jpg"
+  },
+  "autodromo-internacional-nelson-piquet": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Aut%C3%B3dromo_de_Bras%C3%ADlia.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_de_Bras%C3%ADlia.jpg"
+  },
+  "autodromo-internacional-orlando-moura": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Campo_Grande_Speedway_%285797861359%29.jpg",
+    "author": "Leandro Neumann Ciuffo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campo_Grande_Speedway_(5797861359).jpg"
+  },
+  "autodromo-internacional-termas-de-rio-hondo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Marc_M%C3%A1rquez_and_the_pack_2016_Termas_de_R%C3%ADo_Hondo.jpg",
+    "author": "Box Repsol",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marc_M%C3%A1rquez_and_the_pack_2016_Termas_de_R%C3%ADo_Hondo.jpg"
+  },
+  "autodromo-internacional-virgilio-tavora": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Autodromo_do_Eusebio_torre_de_controle_e_boxes.jpg",
+    "author": "David Moraes de Andrade",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_do_Eusebio_torre_de_controle_e_boxes.jpg"
+  },
+  "autodromo-internacional-zilmar-beux": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aut%C3%B3dromo_Zilmar_Beux_-_Cascavel_01.JPG",
+    "author": "JCMA",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Zilmar_Beux_-_Cascavel_01.JPG"
+  },
+  "autodromo-juan-maria-traverso": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aut%C3%B3dromo_San_Nicol%C3%A1s_Ciudad%2C_Torre_de_Control.jpg",
+    "author": "Just a Man",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_San_Nicol%C3%A1s_Ciudad,_Torre_de_Control.jpg"
+  },
+  "autodromo-la-guacima-parque-viva": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Aut%C3%B3dromo_La_Gu%C3%A1cima%2C_Alajuela%2C_Costa_Rica._-_panoramio.jpg",
+    "author": "Peloy (Allan H.M.)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_La_Gu%C3%A1cima,_Alajuela,_Costa_Rica._-_panoramio.jpg"
+  },
+  "autodromo-las-vizcachas": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aut%C3%B3dromo_Las_Vizcachas_2.JPG",
+    "author": "Ahmedd",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Las_Vizcachas_2.JPG"
+  },
+  "autodromo-mar-y-valle": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aut%C3%B3dromo_Mar_y_Valle_aerial_view.jpg",
+    "author": "ActualizandoDA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Mar_y_Valle_aerial_view.jpg"
+  },
+  "autodromo-monterrey": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Aut%C3%B3dromo_Monterrey_Bridge.jpg",
+    "author": "Gabriel Saldaña Phósphoros at en.wikipedia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Monterrey_Bridge.jpg"
+  },
+  "autodromo-municipal-juan-manuel-fangio": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/TC_Rafaela_2007.png",
+    "author": "Adriel anv00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TC_Rafaela_2007.png"
+  },
+  "autodromo-nazionale-franco-di-suni-mores": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/AUTODROMO_DI_MORES_%28SARDINIAN_RACE_TRACK%29_-_panoramio.jpg",
+    "author": "┌─┼─┬┴──┘",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AUTODROMO_DI_MORES_(SARDINIAN_RACE_TRACK)_-_panoramio.jpg"
+  },
+  "autodromo-parque-provincia-del-neuquen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Autodromo_Centenario.jpg",
+    "author": "FalsarioBrothers Inc.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_Centenario.jpg"
+  },
+  "autodromo-roberto-jose-mouras": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Autodromo_Roberto_Mouras.jpg",
+    "author": "Falsario para brothers-inc.com.ar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodromo_Roberto_Mouras.jpg"
+  },
+  "autodromo-rosendo-hernandez": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/TC_San_Luis_2012_largada.jpg",
+    "author": "Luciano Grangetto",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TC_San_Luis_2012_largada.jpg"
+  },
+  "autodromo-victor-borrat-fabini": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Aut%C3%B3dromo_V%C3%ADctor_Borrat_Fabini_%28175476699%29.jpeg",
+    "author": "Marcelo Campi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_V%C3%ADctor_Borrat_Fabini_(175476699).jpeg"
+  },
+  "autopolis-international-racing-course": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Autopolis_racing_circuit_%28Kamitsue%2C_Oita%2C_Japan%29.JPG",
+    "author": "Bobo12345 (talk) (Uploads)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autopolis_racing_circuit_(Kamitsue,_Oita,_Japan).JPG"
+  },
+  "balaton-park-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Balaton_Park_Circuit_-_Pitlane.jpg",
+    "author": "Laszlo Szilagyi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balaton_Park_Circuit_-_Pitlane.jpg"
+  },
+  "barber-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Barber_Motorsports_Park_Aerial_%2834804699780%29.jpg",
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barber_Motorsports_Park_Aerial_(34804699780).jpg"
+  },
+  "batangas-racing-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Batangas_Racing_CIrcuit_Starting_Line.jpg",
+    "author": "Yakitaki26",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batangas_Racing_CIrcuit_Starting_Line.jpg"
+  },
+  "bedford-autodrome": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bedford_Autodrome_at_Thurleigh_Airfield_-_geograph.org.uk_-_1832081.jpg",
+    "author": "M J Richardson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedford_Autodrome_at_Thurleigh_Airfield_-_geograph.org.uk_-_1832081.jpg"
+  },
+  "blackhawk-farms-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/BlackhawkFarmsFlagstand.jpg",
+    "author": "jim simonson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BlackhawkFarmsFlagstand.jpg"
+  },
+  "blyton-park-driving-centre": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Blyton_Park_racing_circuit_clubhouse_-_geograph.org.uk_-_6269738.jpg",
+    "author": "Adrian S Pye",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blyton_Park_racing_circuit_clubhouse_-_geograph.org.uk_-_6269738.jpg"
+  },
+  "brainerd-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/BrainerdInternationalRacewayMay1997.jpg",
+    "author": "Royalbroil",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrainerdInternationalRacewayMay1997.jpg"
+  },
+  "brno-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Masaryk%C5%AFv_okruh05831.jpg",
+    "author": "dendrofil",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masaryk%C5%AFv_okruh05831.jpg"
+  },
+  "buddh-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Buddh_International_Circuit_aerial.jpg",
+    "author": "Swapnil1101",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buddh_International_Circuit_aerial.jpg"
+  },
+  "buttonwillow-raceway-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Buttonwillow-controltower.jpg",
+    "author": "Joshmaul at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buttonwillow-controltower.jpg"
+  },
+  "calabogie-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Areal_Track_Photo.jpg",
+    "author": "TheColKlink",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Areal_Track_Photo.jpg"
+  },
+  "calder-park-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Calder_Park_aerial.jpg",
+    "author": "Graeme Bartlett",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calder_Park_aerial.jpg"
+  },
+  "canaan-motor-club": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Canaan_Motor_Club_aerial_photo_2023-06-22.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canaan_Motor_Club_aerial_photo_2023-06-22.jpg"
+  },
+  "canadian-tire-motorsport-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Moss_Corner_Turn_5a_and_5b_at_Canadian_Tire_Motorsport_Park.jpg",
+    "author": "TorontoGuy79",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moss_Corner_Turn_5a_and_5b_at_Canadian_Tire_Motorsport_Park.jpg"
+  },
+  "chang-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Isan%2C_Mueang_Buri_Ram_District%2C_Buri_Ram_31000%2C_Thailand_-_panoramio_%288%29.jpg",
+    "author": "::::=UT=::::",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isan,_Mueang_Buri_Ram_District,_Buri_Ram_31000,_Thailand_-_panoramio_(8).jpg"
+  },
+  "charlotte-motor-speedway-roval": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2022_Bank_of_America_Roval_400_029_%28start%29.jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Bank_of_America_Roval_400_029_(start).jpg"
+  },
+  "chuckwalla-valley-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chuckwalla_Valley_Raceway_aerial_photo_2022-05-02.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chuckwalla_Valley_Raceway_aerial_photo_2022-05-02.jpg"
+  },
+  "circuit-bugatti-le-mans": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bugatti_Circuit1.jpg",
+    "author": "duky.duke",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bugatti_Circuit1.jpg"
+  },
+  "circuit-carole": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Circuit-carole-vue-aerienne.jpg",
+    "author": "Nitot",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit-carole-vue-aerienne.jpg"
+  },
+  "circuit-de-charade": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/GCK_Charade.png",
+    "author": "GCK Communication",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GCK_Charade.png"
+  },
+  "circuit-de-croix-en-ternois": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Circuit_de_Croix_en_Ternois_-_Virage_de_l%27%C3%A9cole.jpg",
+    "author": "Circuit de Croix en Ternois",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit_de_Croix_en_Ternois_-_Virage_de_l%27%C3%A9cole.jpg"
+  },
+  "circuit-de-loheac": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/CircuitDeLoheac2001.jpg",
+    "author": "Eddi Laumanns aka RX-Guru",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CircuitDeLoheac2001.jpg"
+  },
+  "circuit-de-nevers-magny-cours": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Magnycourt1new.jpg",
+    "author": "V.Charpiat",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnycourt1new.jpg"
+  },
+  "circuit-de-nimes-ledenon": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Virage_gauche_l%C3%A9denon.JPG",
+    "author": "Baptiste vialatte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virage_gauche_l%C3%A9denon.JPG"
+  },
+  "circuit-dijon-prenois": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Dijon-Prenois1.jpg",
+    "author": "No machine-readable author provided. NSX-Racer assumed (based on copyright claims).",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dijon-Prenois1.jpg"
+  },
+  "circuit-du-var-le-luc": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Photo_passerelle_circuit_du_Luc.jpg",
+    "author": "Denwo1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_passerelle_circuit_du_Luc.jpg"
+  },
+  "circuit-mont-tremblant": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Mont-Tremblant_Control_Tower.JPG",
+    "author": "John Chapman User:Pyrope",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mont-Tremblant_Control_Tower.JPG"
+  },
+  "circuit-meppen-racepark-meppen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Circuit_Meppen_Luftbild_10_2022.jpg",
+    "author": "Harald Gallinnis",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit_Meppen_Luftbild_10_2022.jpg"
+  },
+  "circuit-mettet-mettet-xp": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/World_RX_-_2018_-_RD3_Belgium_%2841164642945%29.jpg",
+    "author": "EKSRX",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_RX_-_2018_-_RD3_Belgium_(41164642945).jpg"
+  },
+  "circuit-paul-armagnac-de-nogaro": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/FFSA_GT_2017_Nogaro.jpg",
+    "author": "F.123",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FFSA_GT_2017_Nogaro.jpg"
+  },
+  "circuit-paul-ricard": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Paul_Ricard_entr%C3%A9e_stands.JPG",
+    "author": "Baptiste vialatte",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Ricard_entr%C3%A9e_stands.JPG"
+  },
+  "circuit-ricardo-tormo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Salida_Copa_Saxo_2021_Circuit_Ricardo_Tormo.jpg",
+    "author": "Sentoan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salida_Copa_Saxo_2021_Circuit_Ricardo_Tormo.jpg"
+  },
+  "circuit-zolder": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Circuit_Zolder_6-11-2008_16-29-22.jpg",
+    "author": "Paul Hermans",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit_Zolder_6-11-2008_16-29-22.jpg"
+  },
+  "circuito-de-albacete": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Circuito_de_Albacete_durante_un_entrenamiento.jpg",
+    "author": "escapadarural.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuito_de_Albacete_durante_un_entrenamiento.jpg"
+  },
+  "darley-moor-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Darley_Moor_Race_Track_-_geograph.org.uk_-_5047484.jpg",
+    "author": "Brian Deegan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Darley_Moor_Race_Track_-_geograph.org.uk_-_5047484.jpg"
+  },
+  "darana-heartland-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Heartland_Park_-_Topeka_-_Kansas_%282849458619%29.jpg",
+    "author": "Marion Doss from Scranton, Kansas, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heartland_Park_-_Topeka_-_Kansas_(2849458619).jpg"
+  },
+  "dominion-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Dominion_Raceway_%26_Entertainment.jpg",
+    "author": "JDwright",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dominion_Raceway_%26_Entertainment.jpg"
+  },
+  "daytona-international-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/2018_Coke_Zero_Sugar_400_beginning_from_frontstretch.jpg",
+    "author": "Dough4872",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_Coke_Zero_Sugar_400_beginning_from_frontstretch.jpg"
+  },
+  "dubai-autodrome": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Finish_line_Dubai_Autodrome.jpg",
+    "author": "Curtis Palmer from Vestavia Hills (Birmingham), Alabama, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finish_line_Dubai_Autodrome.jpg"
+  },
+  "eagles-canyon-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eagles_Canyon_Raceway_orthophoto_20150202.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eagles_Canyon_Raceway_orthophoto_20150202.jpg"
+  },
+  "dragon-race-track-pista-drakon": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dracon.jpg",
+    "author": "Анонимен изпълнител",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dracon.jpg"
+  },
+  "ebisu-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ebisu_Circuit_East_002.JPG",
+    "author": "Yones",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ebisu_Circuit_East_002.JPG"
+  },
+  "eurospeedway-lausitz-lausitzring": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/ADAC_GT_Masters_-_EuroSpeedway_Lausitz_2012-_stands_and_flags_%281%29.jpg",
+    "author": "Dennis Gerike from Berlin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ADAC_GT_Masters_-_EuroSpeedway_Lausitz_2012-_stands_and_flags_(1).jpg"
+  },
+  "falkenbergs-motorbana": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Falkenbergs_Motorbana_-_Pits_and_control_tower.jpg",
+    "author": "Green Yoshi",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falkenbergs_Motorbana_-_Pits_and_control_tower.jpg"
+  },
+  "firebird-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Firebird_International_Raceway_Chandler_Arizona.jpg",
+    "author": "Peter Bronski",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firebird_International_Raceway_Chandler_Arizona.jpg"
+  },
+  "florida-international-rally-and-motorsport-park-the-firm": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Florida_International_Rally_%26_Motorsports_Park_gate.jpg",
+    "author": "The Bushranger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florida_International_Rally_%26_Motorsports_Park_gate.jpg"
+  },
+  "frankie-boodram-wallerfield-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Wallerfield_International_Raceway.jpg",
+    "author": "LittleT889",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wallerfield_International_Raceway.jpg"
+  },
+  "fuji-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Fuji_Speedway_20180422.jpg",
+    "author": "Hiroki_Hieda",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuji_Speedway_20180422.jpg"
+  },
+  "gellerasen-arena": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Karlskoga_motorstadium_1.jpg",
+    "author": "Adville",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karlskoga_motorstadium_1.jpg"
+  },
+  "goodwood-motor-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Circuit_de_Goodwood.jpg",
+    "author": "Y.Leclercq©",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit_de_Goodwood.jpg"
+  },
+  "grand-bend-motorplex": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/RCAF_Grand_Bend_Aerial_2018.jpg",
+    "author": "Duncan Almond",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RCAF_Grand_Bend_Aerial_2018.jpg"
+  },
+  "hallett-motor-racing-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hallett_Motor_Racing_Circuit_aerial_photo_2023-10-16.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallett_Motor_Racing_Circuit_aerial_photo_2023-10-16.jpg"
+  },
+  "harbor-circuit-kisarazu": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E6%9C%A8%E6%9B%B4%E6%B4%A5%E5%BA%97%E3%82%B3%E3%83%BC%E3%82%B9.jpg",
+    "author": "Gonzales-Fettuccine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E6%9C%A8%E6%9B%B4%E6%B4%A5%E5%BA%97%E3%82%B3%E3%83%BC%E3%82%B9.jpg"
+  },
+  "harris-hill-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Harris_Hill_Raceway_USGS_TNRIS_20150120.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harris_Hill_Raceway_USGS_TNRIS_20150120.jpg"
+  },
+  "hedge-hollow-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hedge_Hollow_Raceway_aerial_photo_20220630.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hedge_Hollow_Raceway_aerial_photo_20220630.jpg"
+  },
+  "heidbergring": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Heidbergring_Fahrerlager.jpg",
+    "author": "Harald Gallinnis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidbergring_Fahrerlager.jpg"
+  },
+  "hidden-valley-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Aerial_view_of_Hidden_Valley.jpg",
+    "author": "Giselleai",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Hidden_Valley.jpg"
+  },
+  "highlands-motorsport-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Highlands_Motorsport_Park.jpg",
+    "author": "Pedeyk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Highlands_Motorsport_Park.jpg"
+  },
+  "homestead-miami-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Homestead-Miami_Stadium.JPG",
+    "author": "Chris Green",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homestead-Miami_Stadium.JPG"
+  },
+  "hsr-kyushu-honda-safety-and-riding-plaza-kyushu": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/HSR%E4%B9%9D%E5%B7%9E%E3%82%AA%E3%83%95%E3%83%AD%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%82%B9_HSR_Kyushu_Offroad_Circuit_-_panoramio.jpg",
+    "author": "shunsaku hara (r265)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HSR%E4%B9%9D%E5%B7%9E%E3%82%AA%E3%83%95%E3%83%AD%E3%83%BC%E3%83%89%E3%82%B3%E3%83%BC%E3%82%B9_HSR_Kyushu_Offroad_Circuit_-_panoramio.jpg"
+  },
+  "indianapolis-motor-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Indianapolis-motor-speedway-1848561.jpg",
+    "author": "tpsdave",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indianapolis-motor-speedway-1848561.jpg"
+  },
+  "inje-speedium": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/%EC%9D%B8%EC%A0%9C%EC%8A%A4%ED%94%BC%EB%94%94%EC%9B%80_%EC%A0%84%EA%B2%BD%28%EC%95%BC%EA%B2%BD%29.jpg",
+    "author": "Godrnehd",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%9D%B8%EC%A0%9C%EC%8A%A4%ED%94%BC%EB%94%94%EC%9B%80_%EC%A0%84%EA%B2%BD(%EC%95%BC%EA%B2%BD).jpg"
+  },
+  "kakucs-ring": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kakucs_Ring.jpg",
+    "author": "Andrashann",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakucs_Ring.jpg"
+  },
+  "kari-motor-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Racing_action_in_Coimbatore.jpg",
+    "author": "Fort5000 at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Racing_action_in_Coimbatore.jpg"
+  },
+  "killarney-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vista_a%C3%A9rea_del_Killarney_Motor_Racing_Complex.jpg",
+    "author": "ProtoplasmaKid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Killarney_Motor_Racing_Complex.jpg"
+  },
+  "korea-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/2012_Korean_GP_Lotus_Ferrari.jpg",
+    "author": "LG전자",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2012_Korean_GP_Lotus_Ferrari.jpg"
+  },
+  "kyalami-grand-prix-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kyalami_air.jpg",
+    "author": "Ossewa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyalami_air.jpg"
+  },
+  "lakeside-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lakeside_Raceway_Queensland_1970s.jpg",
+    "author": "Shiftchange",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lakeside_Raceway_Queensland_1970s.jpg"
+  },
+  "las-vegas-motor-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/EM_LVMS_%283386215643%29.jpg",
+    "author": "Eddie Maloney from North Las Vegas, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EM_LVMS_(3386215643).jpg"
+  },
+  "lime-rock-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Limerockfield2007.JPG",
+    "author": "Mjj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limerockfield2007.JPG"
+  },
+  "llandow-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Llandow_Circuit.jpg",
+    "author": "Louisemitchell81",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llandow_Circuit.jpg"
+  },
+  "madras-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/The_Paddock.JPG",
+    "author": "Ajaiberwal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Paddock.JPG"
+  },
+  "m1-concourse": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/M1_Image.jpg",
+    "author": "Dogger343",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M1_Image.jpg"
+  },
+  "mallala-motorsport-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Race_Control_%26_PA_Centre_at_Mallala_Motor_Sport_Park.JPG",
+    "author": "GTHO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Race_Control_%26_PA_Centre_at_Mallala_Motor_Sport_Park.JPG"
+  },
+  "mallory-park-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mallory_Park_Race_Control_Centre_-_geograph.org.uk_-_4099489.jpg",
+    "author": "John Carver",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mallory_Park_Race_Control_Centre_-_geograph.org.uk_-_4099489.jpg"
+  },
+  "mid-ohio-sports-car-course": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mid-Ohio_Sports_Car_Course_%2816168219601%29.jpg",
+    "author": "redlegsfan21",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mid-Ohio_Sports_Car_Course_(16168219601).jpg"
+  },
+  "michelin-raceway-road-atlanta": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Road_Atlanta_Aerial_-_September_2016_%2844744697301%29.jpg",
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_Atlanta_Aerial_-_September_2016_(44744697301).jpg"
+  },
+  "mittsverigebanan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/DJI_0052vv.jpg",
+    "author": "PerraNorback",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DJI_0052vv.jpg"
+  },
+  "misano-world-circuit-marco-simoncelli": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Misano_World_Circuit_Panoramica_%28Misano_Adriatico%29.jpg",
+    "author": "Enrico Siboni",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misano_World_Circuit_Panoramica_(Misano_Adriatico).jpg"
+  },
+  "monticello-motor-club": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Monticello_Motor_Club_aerial_photo_NAIP_2021.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monticello_Motor_Club_aerial_photo_NAIP_2021.jpg"
+  },
+  "motopark-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Motoparkraceway.jpg",
+    "author": "Motopark",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motoparkraceway.jpg"
+  },
+  "motormall-wanneroo-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wanneroo_Mar_1985_009.jpg",
+    "author": "User:Gnangarra",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wanneroo_Mar_1985_009.jpg"
+  },
+  "motopark-torun": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MotoPark_Toru%C5%84.jpg",
+    "author": "Mateuszgdynia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MotoPark_Toru%C5%84.jpg"
+  },
+  "mondello-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Striker_on_trackday.JPG",
+    "author": "Nasty at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Striker_on_trackday.JPG"
+  },
+  "motorsport-ranch-cresson": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/MotorSport_Ranch_orthophoto_20150115.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MotorSport_Ranch_orthophoto_20150115.jpg"
+  },
+  "mount-panorama-motor-racing-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mount_Panorama_Pit_Straight_and_Pit_Lane_2015.JPG",
+    "author": "Kytabu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Panorama_Pit_Straight_and_Pit_Lane_2015.JPG"
+  },
+  "msr-houston": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/MSR_Houston_orthophoto_20150210.jpg",
+    "author": "United States Geological Survey",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MSR_Houston_orthophoto_20150210.jpg"
+  },
+  "nashville-superspeedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/EM_NASHVILLE_SUPERSPEEDWAY_%283283565118%29.jpg",
+    "author": "Eddie Maloney from North Las Vegas, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EM_NASHVILLE_SUPERSPEEDWAY_(3283565118).jpg"
+  },
+  "ncm-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Solar_Car_on_the_Track_at_FSGP_2024.jpg",
+    "author": "Jmul-11",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_Car_on_the_Track_at_FSGP_2024.jpg"
+  },
+  "nelson-ledges-road-course": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nelson_Ledges_Road_Course_Aerial_View_2018.jpg",
+    "author": "Michael Garriga",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Ledges_Road_Course_Aerial_View_2018.jpg"
+  },
+  "new-hampshire-motor-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/New_Hampshire_International_Speedway_%282007%29.jpg",
+    "author": "SayCheeeeeese",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Hampshire_International_Speedway_(2007).jpg"
+  },
+  "nikko-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nikko_Circuit_2021.jpg",
+    "author": "Miyuki Meinaka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikko_Circuit_2021.jpg"
+  },
+  "nola-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/NOLA_Motorsports_Park_main_entrance.jpg",
+    "author": "Spatms",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NOLA_Motorsports_Park_main_entrance.jpg"
+  },
+  "okayama-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/2009_1000km_of_Okayama_%28Race_1%29_opening_lap.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009_1000km_of_Okayama_(Race_1)_opening_lap.jpg"
+  },
+  "one-raceway-wakefield-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mixed_grid_%285440976074%29.jpg",
+    "author": "jason goulding from Muswellbrook, Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixed_grid_(5440976074).jpg"
+  },
+  "ordos-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ordos_Intl_Circuit_Main_Grandstand.jpg",
+    "author": "Ngchikit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ordos_Intl_Circuit_Main_Grandstand.jpg"
+  },
+  "oregon-raceway-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Oregon_Raceway_Park_aerial_photo_2022-07-01.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oregon_Raceway_Park_aerial_photo_2022-07-01.jpg"
+  },
+  "ozarks-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ozarks_International_Raceway_aerial_photo_2022-06-29.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ozarks_International_Raceway_aerial_photo_2022-06-29.jpg"
+  },
+  "pacific-raceways": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pacific_Raceways_aerial_view.jpg",
+    "author": "Tedder",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pacific_Raceways_aerial_view.jpg"
+  },
+  "palmer-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Palmer_Motorsports_Park_aerial_orthophoto.jpg",
+    "author": "NAIP imagery provided by USDA Farm Service Agency",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palmer_Motorsports_Park_aerial_orthophoto.jpg"
+  },
+  "pembrey-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Pembrey_Circuit_-_geograph.org.uk_-_6170050.jpg",
+    "author": "Alan Hughes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pembrey_Circuit_-_geograph.org.uk_-_6170050.jpg"
+  },
+  "penbay-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Penbay_International_Circuit_01.jpg",
+    "author": "Kamakura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penbay_International_Circuit_01.jpg"
+  },
+  "pertamina-mandalika-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/DJI_0677_-_Lombok_Mandalika.jpg",
+    "author": "IndoDroneMan",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DJI_0677_-_Lombok_Mandalika.jpg"
+  },
+  "perth-motorplex": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kwinana_Motorplex_SMC.jpg",
+    "author": "SeanMack",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kwinana_Motorplex_SMC.jpg"
+  },
+  "phakisa-freeway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Phakisa_Raceway.jpg",
+    "author": "Bruce Paulmac",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phakisa_Raceway.jpg"
+  },
+  "phillip-island-grand-prix-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Phillip_Island_Aerial_View.jpg",
+    "author": "Tom Reynolds from Melbourne, Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phillip_Island_Aerial_View.jpg"
+  },
+  "pikes-peak-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pikes_Peak_International_Raceway.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pikes_Peak_International_Raceway.jpg"
+  },
+  "pocono-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pocono_Raceway_aerial_2018.jpg",
+    "author": "ZappaOMati",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pocono_Raceway_aerial_2018.jpg"
+  },
+  "pittsburgh-international-race-complex": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pitt_Race_Ariel_Photo.jpg",
+    "author": "Trainkid4449",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pitt_Race_Ariel_Photo.jpg"
+  },
+  "pole-mecanique-ales-cevennes": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vue_a%C3%A9rienne_pole_m%C3%A9canique.jpg",
+    "author": "Jérémy Marcuz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_pole_m%C3%A9canique.jpg"
+  },
+  "portland-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Portland_International_Raceway_entrance.jpg",
+    "author": "Tedder",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portland_International_Raceway_entrance.jpg"
+  },
+  "queensland-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Australian_Formula_Ford_Ipswich_2011.jpg",
+    "author": "NJM2010",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_Formula_Ford_Ipswich_2011.jpg"
+  },
+  "shanghai-tianma-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/HiPhi_X_at_the_Shanghai_Tianma_Circuit_20210102-3.jpg",
+    "author": "Kofiaustin00",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HiPhi_X_at_the_Shanghai_Tianma_Circuit_20210102-3.jpg"
+  },
+  "shannonville-motorsport-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Shannonville_Motorsports_Park.jpg",
+    "author": "User:P199",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shannonville_Motorsports_Park.jpg"
+  },
+  "sonoma-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sonoma_Raceway_March_2024.jpg",
+    "author": "LumensPixelsFrames",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonoma_Raceway_March_2024.jpg"
+  },
+  "spa-nishiura-motor-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/SPA_Nishiura_Motor_Park_Straight.jpg",
+    "author": "HORURUN@SRV250",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SPA_Nishiura_Motor_Park_Straight.jpg"
+  },
+  "sportsland-sugo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sportsland_SUGO_%2827169582042%29.jpg",
+    "author": "redlegsfan21 from Vandalia, OH, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sportsland_SUGO_(27169582042).jpg"
+  },
+  "spreewaldring-training-center": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Spreewaldring01.jpg",
+    "author": "StefanWiegand",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spreewaldring01.jpg"
+  },
+  "spring-mountain-motor-resort": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spring_Mountain_Motorsports_Ranch_2022_aerial_photo.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_Mountain_Motorsports_Ranch_2022_aerial_photo.jpg"
+  },
+  "summit-point-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Summit_point_satellite.png",
+    "author": "Photograph: NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summit_point_satellite.png"
+  },
+  "suzuka-twin-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Suzutwin_CIMG2205.JPG",
+    "author": "Sakisakisaki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suzutwin_CIMG2205.JPG"
   }
 };
