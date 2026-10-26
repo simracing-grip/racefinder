@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs/config";
+import { MERGED_VENUES } from "./data/merged-venues";
 
 const nextConfig: NextConfig = {
   // lib/listings.ts reads this at runtime (fs, not import) as its fallback
@@ -7,6 +8,14 @@ const nextConfig: NextConfig = {
   // it with every server route explicitly.
   outputFileTracingIncludes: {
     "/**": ["./data/listings-snapshot.json"],
+  },
+  // Duplicate venues merged into one: send the removed page to the kept one.
+  async redirects() {
+    return MERGED_VENUES.map(([keep, drop]) => ({
+      source: `/listings/${drop}`,
+      destination: `/listings/${keep}`,
+      permanent: true,
+    }));
   },
 };
 

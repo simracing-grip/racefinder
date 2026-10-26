@@ -358,23 +358,6 @@
     "coverImageUrl": "https://laitserallypark.ee/wp-content/uploads/2023/05/foto-036-1770x994-copy.jpg"
   },
   {
-    "id": "22",
-    "slug": "kartingslv",
-    "name": "Kartings.lv",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "City Padel, 77 k-1, Gustava Zemgala gatve, Teika, Teikas apkaime, Riga, LV-1039, Latvia",
-    "lat": 56.975945,
-    "lng": 24.163002,
-    "websiteUrl": "https://kartings.lv",
-    "phone": "+371 27304104"
-  },
-  {
     "id": "23",
     "slug": "bikernieku-kartinga-halle",
     "name": "Biķernieku Kartinga Halle",
@@ -390,7 +373,9 @@
     "lng": 24.232209,
     "websiteUrl": "https://www.bikerniekuhalle.lv/",
     "phone": "+371 26630333",
-    "coverImageUrl": "https://cdn.davanuserviss.lv/storage/photos/products/116402/38152.jpg"
+    "coverImageUrl": "https://cdn.davanuserviss.lv/storage/photos/products/116402/38152.jpg",
+    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
+    "indoorOutdoor": "indoor"
   },
   {
     "id": "24",
@@ -11595,21 +11580,6 @@
     "lng": -45.090354
   },
   {
-    "id": "753",
-    "slug": "adrenalina-rio-kart-shopping-jardim-guadalupe",
-    "name": "Adrenalina Rio Kart — Shopping Jardim Guadalupe",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Rio de Janeiro",
-    "address": "Cine Araújo, Avenida Brasil, Guadalupe, Rio de Janeiro, Southeast Region, 21660-310, Brazil",
-    "lat": -22.841269,
-    "lng": -43.369146
-  },
-  {
     "id": "754",
     "slug": "center-kart",
     "name": "Center Kart",
@@ -13115,21 +13085,6 @@
     "lng": 144.358648
   },
   {
-    "id": "873",
-    "slug": "haddon-park-raceway",
-    "name": "Haddon Park Raceway",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Haddon",
-    "address": "79, Racecourse Road, Haddon, Victoria, 3351, Australia",
-    "lat": -37.589184,
-    "lng": 143.710908
-  },
-  {
     "id": "874",
     "slug": "hume-international-raceway",
     "name": "Hume International Raceway",
@@ -13353,21 +13308,6 @@
     "address": "Kalgup Road, Busselton, Western Australia, Australia",
     "lat": -33.72492,
     "lng": 115.3715
-  },
-  {
-    "id": "890",
-    "slug": "cockburn-international-kartway",
-    "name": "Cockburn International Kartway",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Henderson",
-    "address": "Stuart Drive, Henderson, Western Australia, 6166, Australia",
-    "lat": -32.162585,
-    "lng": 115.777934
   },
   {
     "id": "891",
@@ -13865,21 +13805,6 @@
     "lng": 140.746886
   },
   {
-    "id": "924",
-    "slug": "speedway-city-complex-dirt-kart-track",
-    "name": "Speedway City Complex dirt kart track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Adelaide",
-    "address": "Brady Street, Adelaide, South Australia, 5120, Australia",
-    "lat": -34.666952,
-    "lng": 138.560977
-  },
-  {
     "id": "925",
     "slug": "tatiara-karting-dirt-track",
     "name": "Tatiara Karting Dirt Track",
@@ -14045,21 +13970,6 @@
     "lng": 176.765375
   },
   {
-    "id": "940",
-    "slug": "ace-motorsport",
-    "name": "ACE Motorsport",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "city": "Maungakiekie-Tāmaki",
-    "address": "89-95, Station Road, Penrose, Maungakiekie-Tāmaki, Auckland, 1040, New Zealand",
-    "lat": -36.911144,
-    "lng": 174.814781
-  },
-  {
     "id": "941",
     "slug": "blastacars-drift-karts",
     "name": "Blastacars Drift Karts",
@@ -14134,21 +14044,6 @@
     "address": "100A, Great South Road, Ōhaupō, Waipā District, Waikato, 3881, New Zealand",
     "lat": -37.919078,
     "lng": 175.307047
-  },
-  {
-    "id": "947",
-    "slug": "kartsport-taranaki",
-    "name": "KartSport Taranaki",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "city": "Waitara",
-    "address": "Waitara Police Station, Domett Street, Waitara, New Plymouth District, Taranaki, 4320, New Zealand",
-    "lat": -39.002824,
-    "lng": 174.236432
   },
   {
     "id": "948",
@@ -22192,21 +22087,6 @@
     "lng": 7.437497
   },
   {
-    "id": "1564",
-    "slug": "karting-de-vuiteboeuf",
-    "name": "Karting de Vuiteboeuf",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Switzerland",
-    "countryCode": "CH",
-    "city": "Peney",
-    "address": "Ruelle du Collège, Peney, Vuiteboeuf, District du Jura-Nord vaudois, Vaud, 1445, Switzerland",
-    "lat": 46.807388,
-    "lng": 6.549375
-  },
-  {
     "id": "1565",
     "slug": "kartbahn-basel",
     "name": "Kartbahn Basel",
@@ -22640,21 +22520,6 @@
     "address": "Route du Souvenir, La Gare, Grospierres, Largentière, Ardèche, Auvergne-Rhône-Alpes, Metropolitan France, 07120, France",
     "lat": 44.400202,
     "lng": 4.289532
-  },
-  {
-    "id": "1597",
-    "slug": "actua-karting-saint-laurent-de-mure",
-    "name": "Actua Karting – Saint-Laurent-de-Mure",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "France",
-    "countryCode": "FR",
-    "city": "Saint-Laurent-de-Mure",
-    "address": "12, Avenue de la Mairie, Saint-Laurent-de-Mure, Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, 69720, France",
-    "lat": 45.687282,
-    "lng": 5.046119
   },
   {
     "id": "1598",
@@ -27935,21 +27800,6 @@
     "address": "Dialprix, 6, Carrer del Marí Villamil, Pinedo, Pobles del Sud, Valencia, Comarca de València, Valencia, Valencian Community, 46012, Spain",
     "lat": 39.421716,
     "lng": -0.338337
-  },
-  {
-    "id": "1972",
-    "slug": "karting-empuriabrava",
-    "name": "Karting Empuriabrava",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Castelló d'Empúries",
-    "address": "Karting Cross Empuriabrava, C-260, Empuriabrava i entorn, Empuriabrava, Castelló d'Empúries, Upper Empordà, Girona, Catalonia, 17047, Spain",
-    "lat": 42.264035,
-    "lng": 3.11103
   },
   {
     "id": "1973",
@@ -49341,25 +49191,6 @@
     "lng": 16.41214,
     "websiteUrl": "https://www.battlekart.com/de/wien",
     "description": "Indoor electric karting with augmented-reality game modes on a track without fixed markings; minimum height 1.45 m.",
-    "indoorOutdoor": "indoor"
-  },
-  {
-    "id": "3419",
-    "slug": "bikernieku-karting-hall",
-    "name": "Biķernieku Karting Hall",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "Biķernieku Kartinga halle, 20, Sergeja Eizenšteina iela, Mežciems, Teikas apkaime, Riga, LV-1079, Latvia",
-    "lat": 56.965305,
-    "lng": 24.232209,
-    "websiteUrl": "http://www.bikerniekuhalle.lv/",
-    "phone": "+371 26 630 333",
-    "description": "Indoor petrol (thermal) karting hall, open Monday-Friday 14:00-20:00, Saturday 11:00-21:00, Sunday 11:00-19:00.",
     "indoorOutdoor": "indoor"
   },
   {
