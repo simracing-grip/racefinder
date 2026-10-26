@@ -4,13 +4,10 @@ import { useEffect } from "react";
 import Link from "next/link";
 import * as Sentry from "@sentry/nextjs";
 
-export default function Error({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
+// In-layout error boundary for client-side render errors. Server render
+// failures on the cached (ISR) routes never reach it — those get the static
+// 500 page (pages/500.tsx) instead.
+export default function Error({ error, retry }: { error: unknown; retry: () => void }) {
   useEffect(() => {
     console.error(error);
     Sentry.captureException(error);
@@ -24,7 +21,7 @@ export default function Error({
       <p className="mt-3 max-w-md text-gray-400">That&apos;s on us, not you. Try again, or head back to the homepage.</p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         <button
-          onClick={reset}
+          onClick={retry}
           className="btn-skew bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
         >
           Try again

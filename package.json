@@ -12,7 +12,8 @@
     "import:sync-social": "tsx data/import/sync-social-links.ts",
     "import:sync-credits": "tsx data/import/sync-photo-credits.ts",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "db:snapshot": "tsx data/import/export-listings-snapshot.ts"
   },
   "dependencies": {
     "@sentry/nextjs": "^11.0.0",

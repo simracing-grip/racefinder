@@ -2,7 +2,12 @@ import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs/config";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // lib/listings.ts reads this at runtime (fs, not import) as its fallback
+  // when the database is unreachable, so file tracing can't see it — ship
+  // it with every server route explicitly.
+  outputFileTracingIncludes: {
+    "/**": ["./data/listings-snapshot.json"],
+  },
 };
 
 export default withSentryConfig(nextConfig, {
