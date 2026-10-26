@@ -204,6 +204,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-08",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    listingSlug: "albert-park-circuit",
   },
   {
     series: "f1",
@@ -229,6 +230,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-29",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    listingSlug: "suzuka-international-racing-course",
   },
   {
     series: "f1",
@@ -267,6 +269,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-05",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "f1",
@@ -387,6 +390,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-29",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    listingSlug: "losail-international-circuit",
   },
   {
     series: "f1",
@@ -399,6 +403,324 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-12-06",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+    listingSlug: "yas-marina-circuit",
+  },
+
+  // ---------------------------------------------------------------------
+  // F1 2027 — full 24-round calendar (announced 2026-09-16) added 2026-10-26
+  // from https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/
+  // Turkish GP is subject to FIA homologation of Istanbul Park. Barcelona
+  // and Zandvoort drop off; Portugal and Turkey return.
+  // ---------------------------------------------------------------------
+  {
+    series: "f1",
+    name: "Bahrain Grand Prix",
+    circuitName: "Bahrain International Circuit",
+    city: "Sakhir",
+    country: "Bahrain",
+    countryCode: "BH",
+    startDate: "2027-03-12",
+    endDate: "2027-03-14",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "bahrain-international-circuit",
+  },
+  {
+    series: "f1",
+    name: "Saudi Arabian Grand Prix",
+    circuitName: "Jeddah Corniche Circuit",
+    city: "Jeddah",
+    country: "Saudi Arabia",
+    countryCode: "SA",
+    startDate: "2027-03-19",
+    endDate: "2027-03-21",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "jeddah-corniche-circuit",
+  },
+  {
+    series: "f1",
+    name: "Australian Grand Prix",
+    circuitName: "Albert Park Circuit",
+    city: "Melbourne",
+    country: "Australia",
+    countryCode: "AU",
+    startDate: "2027-04-02",
+    endDate: "2027-04-04",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "albert-park-circuit",
+  },
+  {
+    series: "f1",
+    name: "Japanese Grand Prix",
+    circuitName: "Suzuka Circuit",
+    city: "Suzuka",
+    country: "Japan",
+    countryCode: "JP",
+    startDate: "2027-04-09",
+    endDate: "2027-04-11",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "suzuka-international-racing-course",
+  },
+  {
+    series: "f1",
+    name: "Chinese Grand Prix",
+    circuitName: "Shanghai International Circuit",
+    city: "Shanghai",
+    country: "China",
+    countryCode: "CN",
+    startDate: "2027-04-16",
+    endDate: "2027-04-18",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "shanghai-international-circuit",
+  },
+  {
+    series: "f1",
+    name: "Miami Grand Prix",
+    circuitName: "Miami International Autodrome",
+    city: "Miami Gardens",
+    country: "United States",
+    countryCode: "US",
+    startDate: "2027-04-30",
+    endDate: "2027-05-02",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "miami-international-autodrome",
+  },
+  {
+    series: "f1",
+    name: "Canadian Grand Prix",
+    circuitName: "Circuit Gilles Villeneuve",
+    city: "Montreal",
+    country: "Canada",
+    countryCode: "CA",
+    startDate: "2027-05-21",
+    endDate: "2027-05-23",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "circuit-gilles-villeneuve",
+  },
+  {
+    series: "f1",
+    name: "Monaco Grand Prix",
+    circuitName: "Circuit de Monaco",
+    city: "Monaco",
+    country: "Monaco",
+    countryCode: "MC",
+    startDate: "2027-06-04",
+    endDate: "2027-06-06",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "circuit-de-monaco",
+  },
+  {
+    series: "f1",
+    name: "Portuguese Grand Prix",
+    circuitName: "Autódromo Internacional do Algarve",
+    city: "Portimão",
+    country: "Portugal",
+    countryCode: "PT",
+    startDate: "2027-06-18",
+    endDate: "2027-06-20",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "autodromo-internacional-do-algarve",
+  },
+  {
+    series: "f1",
+    name: "British Grand Prix",
+    circuitName: "Silverstone Circuit",
+    city: "Silverstone",
+    country: "United Kingdom",
+    countryCode: "GB",
+    startDate: "2027-07-02",
+    endDate: "2027-07-04",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "silverstone-circuit",
+  },
+  {
+    series: "f1",
+    name: "Austrian Grand Prix",
+    circuitName: "Red Bull Ring",
+    city: "Spielberg",
+    country: "Austria",
+    countryCode: "AT",
+    startDate: "2027-07-09",
+    endDate: "2027-07-11",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "red-bull-ring",
+  },
+  {
+    series: "f1",
+    name: "Belgian Grand Prix",
+    circuitName: "Circuit de Spa-Francorchamps",
+    city: "Stavelot",
+    country: "Belgium",
+    countryCode: "BE",
+    startDate: "2027-07-23",
+    endDate: "2027-07-25",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "circuit-de-spa-francorchamps",
+  },
+  {
+    series: "f1",
+    name: "Hungarian Grand Prix",
+    circuitName: "Hungaroring",
+    city: "Mogyoród",
+    country: "Hungary",
+    countryCode: "HU",
+    startDate: "2027-07-30",
+    endDate: "2027-08-01",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "hungaroring",
+  },
+  {
+    series: "f1",
+    name: "Italian Grand Prix",
+    circuitName: "Autodromo Nazionale Monza",
+    city: "Monza",
+    country: "Italy",
+    countryCode: "IT",
+    startDate: "2027-09-03",
+    endDate: "2027-09-05",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "autodromo-nazionale-monza",
+  },
+  {
+    series: "f1",
+    name: "Spanish Grand Prix",
+    circuitName: "Madring",
+    city: "Madrid",
+    country: "Spain",
+    countryCode: "ES",
+    startDate: "2027-09-10",
+    endDate: "2027-09-12",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+  },
+  {
+    series: "f1",
+    name: "Azerbaijan Grand Prix",
+    circuitName: "Baku City Circuit",
+    city: "Baku",
+    country: "Azerbaijan",
+    countryCode: "AZ",
+    startDate: "2027-09-24",
+    endDate: "2027-09-26",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "baku-city-circuit",
+  },
+  {
+    series: "f1",
+    name: "Turkish Grand Prix",
+    circuitName: "Istanbul Park",
+    city: "Istanbul",
+    country: "Turkey",
+    countryCode: "TR",
+    startDate: "2027-10-01",
+    endDate: "2027-10-03",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "tosfed-istanbul-park",
+  },
+  {
+    series: "f1",
+    name: "Singapore Grand Prix",
+    circuitName: "Marina Bay Street Circuit",
+    city: "Singapore",
+    country: "Singapore",
+    countryCode: "SG",
+    startDate: "2027-10-08",
+    endDate: "2027-10-10",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "marina-bay-street-circuit",
+  },
+  {
+    series: "f1",
+    name: "United States Grand Prix",
+    circuitName: "Circuit of the Americas",
+    city: "Austin",
+    country: "United States",
+    countryCode: "US",
+    startDate: "2027-10-22",
+    endDate: "2027-10-24",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "circuit-of-the-americas",
+  },
+  {
+    series: "f1",
+    name: "Mexico City Grand Prix",
+    circuitName: "Autódromo Hermanos Rodríguez",
+    city: "Mexico City",
+    country: "Mexico",
+    countryCode: "MX",
+    startDate: "2027-10-29",
+    endDate: "2027-10-31",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "autodromo-hermanos-rodriguez",
+  },
+  {
+    series: "f1",
+    name: "São Paulo Grand Prix",
+    circuitName: "Autódromo José Carlos Pace",
+    city: "São Paulo",
+    country: "Brazil",
+    countryCode: "BR",
+    startDate: "2027-11-05",
+    endDate: "2027-11-07",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "autodromo-jose-carlos-pace",
+  },
+  {
+    series: "f1",
+    name: "Las Vegas Grand Prix",
+    circuitName: "Las Vegas Strip Circuit",
+    city: "Paradise",
+    country: "United States",
+    countryCode: "US",
+    startDate: "2027-11-18",
+    endDate: "2027-11-20",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "las-vegas-strip-circuit",
+  },
+  {
+    series: "f1",
+    name: "Qatar Grand Prix",
+    circuitName: "Lusail International Circuit",
+    city: "Lusail",
+    country: "Qatar",
+    countryCode: "QA",
+    startDate: "2027-12-03",
+    endDate: "2027-12-05",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
+    listingSlug: "losail-international-circuit",
+  },
+  {
+    series: "f1",
+    name: "Abu Dhabi Grand Prix",
+    circuitName: "Yas Marina Circuit",
+    city: "Abu Dhabi",
+    country: "United Arab Emirates",
+    countryCode: "AE",
+    startDate: "2027-12-10",
+    endDate: "2027-12-12",
+    season: 2027,
+    sourceUrl: "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
     listingSlug: "yas-marina-circuit",
   },
 
@@ -417,6 +739,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-01",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "chang-international-circuit",
   },
   {
     series: "motogp",
@@ -429,6 +752,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-22",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "autodromo-internacional-ayrton-senna-goiania",
   },
   {
     series: "motogp",
@@ -466,6 +790,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-05-10",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "circuit-bugatti-le-mans",
   },
   {
     series: "motogp",
@@ -504,6 +829,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-07",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "balaton-park-circuit",
   },
   {
     series: "motogp",
@@ -516,6 +842,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-21",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "brno-circuit",
   },
   {
     series: "motogp",
@@ -554,6 +881,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-09",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "motogp",
@@ -566,6 +894,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-30",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "motorland-aragon",
   },
   {
     series: "motogp",
@@ -578,6 +907,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-09-13",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "misano-world-circuit-marco-simoncelli",
   },
   {
     series: "motogp",
@@ -603,6 +933,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-04",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "twin-ring-motegi-mobility-resort-motegi",
   },
   {
     series: "motogp",
@@ -615,6 +946,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-11",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "pertamina-mandalika-international-circuit",
   },
   {
     series: "motogp",
@@ -627,6 +959,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-25",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "phillip-island-grand-prix-circuit",
   },
   {
     series: "motogp",
@@ -652,6 +985,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-08",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "losail-international-circuit",
   },
   {
     series: "motogp",
@@ -664,6 +998,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-22",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "autodromo-internacional-do-algarve",
   },
   {
     series: "motogp",
@@ -676,6 +1011,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-29",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+    listingSlug: "circuit-ricardo-tormo",
   },
 
   // ---------------------------------------------------------------------
@@ -694,6 +1030,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-04-12",
     season: 2026,
     sourceUrl: "https://www.gt-world-challenge-europe.com/calendar",
+    listingSlug: "circuit-paul-ricard",
   },
   {
     series: "gt3",
@@ -706,6 +1043,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-19",
     season: 2026,
     sourceUrl: "https://www.gt-world-challenge-europe.com/calendar",
+    listingSlug: "misano-world-circuit-marco-simoncelli",
   },
   {
     series: "gt3",
@@ -718,6 +1056,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-02",
     season: 2026,
     sourceUrl: "https://www.gt-world-challenge-europe.com/calendar",
+    listingSlug: "circuit-de-nevers-magny-cours",
   },
   {
     series: "gt3",
@@ -730,6 +1069,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-18",
     season: 2026,
     sourceUrl: "https://www.gt-world-challenge-europe.com/calendar",
+    listingSlug: "autodromo-internacional-do-algarve",
   },
 
   // ---------------------------------------------------------------------
@@ -747,6 +1087,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-04-12",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_GT4_European_Series",
+    listingSlug: "circuit-paul-ricard",
   },
   {
     series: "gt4",
@@ -785,6 +1126,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-19",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_GT4_European_Series",
+    listingSlug: "misano-world-circuit-marco-simoncelli",
   },
   {
     series: "gt4",
@@ -810,6 +1152,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-18",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_GT4_European_Series",
+    listingSlug: "autodromo-internacional-do-algarve",
   },
 
   // ---------------------------------------------------------------------
@@ -830,6 +1173,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-01-25",
     season: 2026,
     sourceUrl: "https://www.imsa.com/news/2025/03/13/imsa-reveals-2026-weathertech-championship-michelin-pilot-challenge-schedules/",
+    listingSlug: "daytona-international-speedway",
   },
   {
     series: "imsa",
@@ -842,6 +1186,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-21",
     season: 2026,
     sourceUrl: "https://www.imsa.com/news/2025/03/13/imsa-reveals-2026-weathertech-championship-michelin-pilot-challenge-schedules/",
+    listingSlug: "sebring-international-raceway",
   },
   {
     series: "imsa",
@@ -866,6 +1211,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-05-03",
     season: 2026,
     sourceUrl: "https://www.imsa.com/news/2025/03/13/imsa-reveals-2026-weathertech-championship-michelin-pilot-challenge-schedules/",
+    listingSlug: "weathertech-raceway-laguna-seca",
   },
   {
     series: "imsa",
@@ -890,6 +1236,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-28",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/03/13/2026-imsa-calendar-revealed-road-america-becomes-endurance-round.html",
+    listingSlug: "watkins-glen-international",
   },
   {
     series: "imsa",
@@ -902,6 +1249,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-12",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/03/13/2026-imsa-calendar-revealed-road-america-becomes-endurance-round.html",
+    listingSlug: "canadian-tire-motorsport-park",
   },
   {
     series: "imsa",
@@ -914,6 +1262,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-02",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/03/13/2026-imsa-calendar-revealed-road-america-becomes-endurance-round.html",
+    listingSlug: "road-america",
   },
   {
     series: "imsa",
@@ -926,6 +1275,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-23",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/03/13/2026-imsa-calendar-revealed-road-america-becomes-endurance-round.html",
+    listingSlug: "virginia-international-raceway",
   },
   {
     series: "imsa",
@@ -951,6 +1301,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-03",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/03/13/2026-imsa-calendar-revealed-road-america-becomes-endurance-round.html",
+    listingSlug: "michelin-raceway-road-atlanta",
   },
 
   // ---------------------------------------------------------------------
@@ -998,6 +1349,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-14",
     season: 2026,
     sourceUrl: "https://www.fiawec.com/en/news/2026-fia-wec-calendar-builds-on-stability-of-recent-seasons/8356",
+    listingSlug: "circuit-bugatti-le-mans",
   },
   {
     series: "wec",
@@ -1036,6 +1388,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-09-27",
     season: 2026,
     sourceUrl: "https://www.fiawec.com/en/news/2026-fia-wec-calendar-builds-on-stability-of-recent-seasons/8356",
+    listingSlug: "fuji-speedway",
   },
   {
     series: "wec",
@@ -1081,6 +1434,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-08",
     season: 2026,
     sourceUrl: "https://www.fiaformula2.com/Calendar",
+    listingSlug: "albert-park-circuit",
   },
   {
     series: "f2",
@@ -1158,6 +1512,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-05",
     season: 2026,
     sourceUrl: "https://www.fiaformula2.com/Calendar",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "f2",
@@ -1234,6 +1589,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-29",
     season: 2026,
     sourceUrl: "https://www.fiaformula2.com/Calendar",
+    listingSlug: "losail-international-circuit",
   },
   {
     series: "f2",
@@ -1267,6 +1623,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-08",
     season: 2026,
     sourceUrl: "https://www.fiaformula3.com/en/racing/2026",
+    listingSlug: "albert-park-circuit",
   },
   {
     series: "f3",
@@ -1318,6 +1675,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-05",
     season: 2026,
     sourceUrl: "https://www.fiaformula3.com/en/racing/2026",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "f3",
@@ -1430,6 +1788,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-05-31",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_F4_British_Championship",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "f4",
@@ -1494,6 +1853,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-09-27",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_F4_British_Championship",
+    listingSlug: "silverstone-circuit",
   },
   {
     series: "f4",
@@ -1988,6 +2348,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-03-15",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "las-vegas-motor-speedway",
   },
   {
     series: "nascar",
@@ -2077,6 +2438,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-05-24",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "charlotte-motor-speedway-roval",
   },
   {
     series: "nascar",
@@ -2088,6 +2450,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-05-31",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "nashville-superspeedway",
   },
   {
     series: "nascar",
@@ -2110,6 +2473,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-06-14",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "pocono-raceway",
   },
   {
     series: "nascar",
@@ -2132,6 +2496,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-06-28",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "sonoma-raceway",
   },
   {
     series: "nascar",
@@ -2210,6 +2575,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-08-23",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "new-hampshire-motor-speedway",
   },
   {
     series: "nascar",
@@ -2244,6 +2610,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-09-13",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "world-wide-technology-raceway",
   },
   {
     series: "nascar",
@@ -2277,6 +2644,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-10-04",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "las-vegas-motor-speedway",
   },
   {
     series: "nascar",
@@ -2288,6 +2656,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-10-11",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "charlotte-motor-speedway-roval",
   },
   {
     series: "nascar",
@@ -2332,6 +2701,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-11-08",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+    listingSlug: "homestead-miami-speedway",
   },
 
   // ---------------------------------------------------------------------
@@ -2405,6 +2775,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-05-09",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_IndyCar_Series",
+    listingSlug: "indianapolis-motor-speedway",
   },
   {
     series: "indycar",
@@ -2439,6 +2810,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-06-07",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_IndyCar_Series",
+    listingSlug: "world-wide-technology-raceway",
   },
   {
     series: "indycar",
@@ -2474,6 +2846,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-07-20",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_IndyCar_Series",
+    listingSlug: "nashville-superspeedway",
   },
   {
     series: "indycar",
@@ -2541,6 +2914,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-09-06",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_IndyCar_Series",
+    listingSlug: "weathertech-raceway-laguna-seca",
   },
 
   // ---------------------------------------------------------------------
@@ -2574,6 +2948,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-01-31",
     season: 2026,
     sourceUrl: "https://racingnews365.com/2026-formula-e-calendar-season-12",
+    listingSlug: "miami-international-autodrome",
   },
   {
     series: "formula_e",
@@ -2609,6 +2984,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-03-21",
     season: 2026,
     sourceUrl: "https://en.wikipedia.org/wiki/2026_Madrid_ePrix",
+    listingSlug: "circuito-de-madrid-jarama-race",
   },
   {
     series: "formula_e",
@@ -2760,6 +3136,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-05-03",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/08/28/elms-confirms-almost-unchanged-2026-calendar.html",
+    listingSlug: "circuit-paul-ricard",
   },
   {
     series: "elms",
@@ -2771,6 +3148,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-07-05",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/08/28/elms-confirms-almost-unchanged-2026-calendar.html",
+    listingSlug: "autodromo-enzo-e-dino-ferrari",
   },
   {
     series: "elms",
@@ -2824,6 +3202,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-02-22",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "sydney-motorsport-park",
   },
   {
     series: "supercars",
@@ -2836,6 +3215,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-03-08",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "albert-park-circuit",
   },
   {
     series: "supercars",
@@ -2848,6 +3228,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-04-12",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "taupo-motorsport-park",
   },
   {
     series: "supercars",
@@ -2860,6 +3241,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-04-19",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "euromarque-motorsport-park-ruapuna",
   },
   {
     series: "supercars",
@@ -2885,6 +3267,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-21",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "hidden-valley-raceway",
   },
   {
     series: "supercars",
@@ -2909,6 +3292,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-02",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "motormall-wanneroo-raceway",
   },
   {
     series: "supercars",
@@ -2921,6 +3305,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-23",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "queensland-raceway",
   },
   {
     series: "supercars",
@@ -2933,6 +3318,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-09-13",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/10/29/expanded-2026-supercars-championship-calendar-confirmed/",
+    listingSlug: "shell-v-power-motorsport-park-the-bend",
   },
   {
     series: "supercars",
@@ -3051,6 +3437,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-26",
     season: 2026,
     sourceUrl: "https://www.motorsport.com/dtm/news/dtm-unveils-2026-calendar-with-red-bull-ring-hosting-season-opener/10752268/",
+    listingSlug: "motorsport-arena-oschersleben",
   },
   {
     series: "dtm",
@@ -3270,6 +3657,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-06-07",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/09/22/tcr-europe-confirms-2026-schedule/",
+    listingSlug: "circuit-paul-ricard",
   },
   {
     series: "tcr_europe",
@@ -3352,6 +3740,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-07-05",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/12/10/2026-fia-tcr-world-tour-calendar-unveiled/",
+    listingSlug: "circuit-paul-ricard",
   },
   {
     series: "tcr_world_tour",
@@ -3376,6 +3765,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-04",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/12/10/2026-fia-tcr-world-tour-calendar-unveiled/",
+    listingSlug: "inje-speedium",
   },
   {
     series: "tcr_world_tour",
@@ -3388,6 +3778,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-18",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/12/10/2026-fia-tcr-world-tour-calendar-unveiled/",
+    listingSlug: "chengdu-tianfu-international-circuit",
   },
   {
     series: "tcr_world_tour",
@@ -3400,6 +3791,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-10-25",
     season: 2026,
     sourceUrl: "https://www.touringcartimes.com/2025/12/10/2026-fia-tcr-world-tour-calendar-unveiled/",
+    listingSlug: "hunan-international-circuit",
   },
   {
     series: "tcr_world_tour",
@@ -3468,6 +3860,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-08-23",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/08/05/2026-super-gt-calendar-revealed.html",
+    listingSlug: "suzuka-international-racing-course",
   },
   {
     series: "super_gt",
@@ -3479,6 +3872,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     startDate: "2026-09-20",
     season: 2026,
     sourceUrl: "https://www.dailysportscar.com/2025/08/05/2026-super-gt-calendar-revealed.html",
+    listingSlug: "sportsland-sugo",
   },
   {
     series: "super_gt",
@@ -3558,6 +3952,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-05-24",
     season: 2026,
     sourceUrl: "https://www.motorsport.com/super-formula/news/super-formula-reveals-2026-season-calendar-with-new-opener/10748649/",
+    listingSlug: "suzuka-international-racing-course",
   },
   {
     series: "super_formula",
@@ -3583,6 +3978,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-08-09",
     season: 2026,
     sourceUrl: "https://www.motorsport.com/super-formula/news/super-formula-reveals-2026-season-calendar-with-new-opener/10748649/",
+    listingSlug: "sportsland-sugo",
   },
   {
     series: "super_formula",
@@ -3608,6 +4004,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-11-22",
     season: 2026,
     sourceUrl: "https://www.motorsport.com/super-formula/news/super-formula-reveals-2026-season-calendar-with-new-opener/10748649/",
+    listingSlug: "suzuka-international-racing-course",
   },
 
   // ---------------------------------------------------------------------
