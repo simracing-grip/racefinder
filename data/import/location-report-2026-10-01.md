@@ -1,0 +1,445 @@
+# Approximate venue locations — 2026-10-01
+
+Scope: every published venue whose coordinates (rounded to 4 decimals) were shared with another venue — **414 venues on 167 points** out of 3,452 published. Most were geocoding fallbacks: a city's "centre" landmark (Charing Cross in London, Praça da Bandeira in Rio, People's Square in Shanghai) or a whole country's geographic centre (Russia, India, Japan). Even pairs that shared one address usually got it by reverse-geocoding the same fallback pin, so every one of the 414 was re-checked.
+
+Method (`data/import/relocate-approximate-venues.ts`): a pin was kept or moved only on independent evidence —
+- an OpenStreetMap feature (Nominatim search, 1 req/s) that is a venue-type place (not a town, street, lake, school, shop…), whose name carries the venue's distinctive name words, within 50 km of the listed city — or, where the listed city itself came from a country/region centroid, the only such match in the country; or the named host mall for "Brand — Shopping X" venues
+- or a single set of map coordinates on the venue's own website (chain pages shared by several venues excluded)
+
+Venues with no such evidence, or with several candidate matches, were dropped (archived, not deleted) per the ~99% accuracy rule. Every move was then audited by hand; 12 automatic matches that passed the checks but were still the wrong place are recorded in `data/import/location-overrides.csv`.
+
+## Result
+
+| | Before | After |
+|---|---|---|
+| Published venues | 3,452 (3,456 at apply time) | 3,186 |
+| Venues sharing a point with another | 414 on 167 points | 18 on 9 points (all genuine same-site pairs, e.g. Fuji Speedway + its kart circuit, Brands Hatch + SIM Motorsport Brands Hatch) |
+
+- **Moved: 137**
+- **Pin verified in place: 7**
+- **Dropped (archived): 270**
+
+Applied with `npx tsx data/import/sync-location-fixes.ts` (lat/lng/address/city and status only, 250 rows per statement). `import-to-db.ts` reads the same `location-fixes.csv`, so a re-import from review.csv won't restore the old pins.
+
+## Dropped (270)
+
+- DZ Racing Simulator (dz-racing-simulator, Algiers, Algeria) — no OSM match; social-only website
+- HNcom VR (hncom-vr, Algiers, Algeria) — no OSM match; social-only website
+- Kartódromo Ciudad de San Martín (kartodromo-ciudad-de-san-martin, Distrito Ciudad de San Martín, Argentina) — no OSM match
+- Canberra Kart Racing Club (Circuit Mark Webber) (canberra-kart-racing-club-circuit-mark-webber, Canberra, Australia) — no OSM match; no coordinates on website
+- CEX Raceway (cex-raceway, Coffs Harbour, Australia) — no OSM match
+- Circuit Mark Webber (circuit-mark-webber, Canberra, Australia) — no OSM match
+- Coffs Harbour Kart Racing Club (coffs-harbour-kart-racing-club, Coffs Harbour, Australia) — no OSM match; no coordinates on website
+- Greer Park Raceway (greer-park-raceway, Helidon, Australia) — no OSM match
+- Hidden Valley Dirt Kart Track (hidden-valley-dirt-kart-track, Darwin, Australia) — no OSM match
+- Hidden Valley Go Kart Track (hidden-valley-go-kart-track, Darwin, Australia) — no OSM match
+- Ipswich Motorsport Precinct dirt kart track (ipswich-motorsport-precinct-dirt-kart-track, Brisbane, Australia) — no OSM match
+- Mallala Kartdrome (mallala-kartdrome, Mallala, Australia) — no OSM match; no coordinates on website
+- Mallala Motorsport Park (mallala-motorsport-park, Mallala, Australia) — no OSM match; no coordinates on website
+- Mildura Kart Raceway (mildura-kart-raceway, Mildura, Australia) — no OSM match
+- Olympic Park Speedway River Track (olympic-park-speedway-river-track, Mildura, Australia) — no OSM match
+- Shell V-Power Motorsport Park (The Bend) (shell-v-power-motorsport-park-the-bend, Tailem Bend, Australia) — no OSM match; website shared by several venues
+- The Bend Kartdrome (the-bend-kartdrome, Tailem Bend, Australia) — no OSM match; website shared by several venues
+- Toowoomba & Lockyer Valley Kart Club (toowoomba-and-lockyer-valley-kart-club, Helidon, Australia) — no OSM match
+- Adrenalina Kart — Várzea Grande Shopping (adrenalina-kart-varzea-grande-shopping, Várzea Grande, Brazil) — no OSM match
+- Arena Eco Kart Fortaleza (arena-eco-kart-fortaleza, Fortaleza, Brazil) — no OSM match
+- Arena Kart Indoor Sumaúma (arena-kart-indoor-sumauma, Manaus, Brazil) — no OSM match
+- Arena Kart Point (arena-kart-point, Brasília, Brazil) — no OSM match
+- Arena Parque Kart (arena-parque-kart, São José, Brazil) — no OSM match
+- Brasília Kart (brasilia-kart, Brasília, Brazil) — no OSM match; no coordinates on website
+- Brasília Kart — Kartódromo Internacional de Brasília (brasilia-kart-kartodromo-internacional-de-brasilia, Brasília, Brazil) — no OSM match
+- Carrera Kart Parque da Cidade (carrera-kart-parque-da-cidade, Brasília, Brazil) — no OSM match
+- Crocoville Kartódromo — Assaí Tijuca (crocoville-kartodromo-assai-tijuca, Rio de Janeiro, Brazil) — audit — matched a supermarket chain branch; track location not confirmed
+- Flash Lap Kart Indoor Sorocaba (flash-lap-kart-indoor-sorocaba, Sorocaba, Brazil) — no OSM match
+- Kart Premium ABC (kart-premium-abc, Santo André, Brazil) — no OSM match
+- Kartclube Grand — Grand Shopping Messejana (kartclube-grand-grand-shopping-messejana, Fortaleza, Brazil) — no OSM match
+- KartIndoor Pro Atrium Shopping (kartindoor-pro-atrium-shopping, Santo André, Brazil) — no OSM match
+- KartIndoor Pro Boa Vista (kartindoor-pro-boa-vista, São Paulo, Brazil) — no OSM match
+- KartIndoor Pro Interlagos (kartindoor-pro-interlagos, São Paulo, Brazil) — no OSM match
+- KartIndoor Pro Parque da Cidade (kartindoor-pro-parque-da-cidade, São Paulo, Brazil) — no OSM match
+- KartIndoor Pro Raposo Shopping (kartindoor-pro-raposo-shopping, São Paulo, Brazil) — no OSM match
+- Kartódromo Benny Giannetti — ECPA (kartodromo-benny-giannetti-ecpa, Piracicaba, Brazil) — no OSM match
+- Kartódromo Waltinho Ferrari (kartodromo-waltinho-ferrari, Brasília, Brazil) — no OSM match
+- Meta Kart Barra (meta-kart-barra, Rio de Janeiro, Brazil) — no OSM match
+- Meta Kart Campo Grande (meta-kart-campo-grande, Rio de Janeiro, Brazil) — no OSM match
+- Meta Kart NorteShopping (meta-kart-norteshopping, Rio de Janeiro, Brazil) — no OSM match
+- Mônaco Kart Indoor (monaco-kart-indoor, Curitiba, Brazil) — no OSM match
+- Original Experience Racing Room (original-experience-racing-room, São Paulo, Brazil) — no OSM match; no coordinates on website
+- Piquet Kart Porto Alegre (piquet-kart-porto-alegre, Porto Alegre, Brazil) — no OSM match
+- R11 Kart Indoor Market Place (r11-kart-indoor-market-place, São Paulo, Brazil) — no OSM match
+- RA Kart Indoor (ra-kart-indoor, Curitiba, Brazil) — no OSM match
+- Ryso Adventure Park (ryso-adventure-park, Curitiba, Brazil) — no OSM match
+- SpaceKart — BH Outlet Plus (spacekart-bh-outlet-plus, Belo Horizonte, Brazil) — no OSM match
+- Speed Kart Indoor Campo Grande (speed-kart-indoor-campo-grande, Campo Grande, Brazil) — no OSM match
+- Super Kart Santa Cruz (super-kart-santa-cruz, São Paulo, Brazil) — no OSM match
+- Top Speed Kart Indoor Florianópolis (top-speed-kart-indoor-florianopolis, São José, Brazil) — no OSM match
+- Top Speed Kart Porto Alegre (top-speed-kart-porto-alegre, Porto Alegre, Brazil) — no OSM match
+- Top Speed Kart Sorocaba (top-speed-kart-sorocaba, Sorocaba, Brazil) — no OSM match
+- DRIVE Edmonton (drive-edmonton, Edmonton, Canada) — no OSM match
+- Hamilton Karting Complex (hamilton-karting-complex, Hamilton, Canada) — no OSM match
+- K1 Speed Mississauga (k1-speed-mississauga, Mississauga, Canada) — audit — only match is a K1 Speed in Toronto, 22 km away
+- SPEEDERS Calgary Chinook (speeders-calgary-chinook, Calgary, Canada) — no OSM match
+- SPEEDERS Edmonton (speeders-edmonton, Edmonton, Canada) — audit — matched a restaurant by name only
+- The Race Room (the-race-room, Calgary, Canada) — no OSM match; website unreachable
+- Go Karts Chile (go-karts-chile, Santiago, Chile) — no OSM match; no coordinates on website
+- Chengdu Tianfu International Circuit (chengdu-tianfu-international-circuit, Qingyang District, China) — no OSM match
+- HiPole Sim Racing (Chengdu) (hipole-sim-racing-chengdu, Qingyang District, China) — no OSM match; website shared by several venues
+- HiPole Sim Racing (Minhang) (hipole-sim-racing-minhang, Shanghai, China) — no OSM match; website shared by several venues
+- HiPole Sim Racing (Xi'an Lianhu) (hipole-sim-racing-xian-lianhu, Beilin District, China) — no OSM match; website shared by several venues
+- HiPole Sim Racing (Xi'an) (hipole-sim-racing-xian, Lianhu District, China) — no OSM match; website shared by several venues
+- HiPole Sim Racing (Xuhui) (hipole-sim-racing-xuhui, Shanghai, China) — no OSM match; website shared by several venues
+- Indy Go-Karting Center, Xiamen (indy-go-karting-center-xiamen, Siming District, China) — no OSM match
+- JC RACING Sim Racing (Pudong) (jc-racing-sim-racing-pudong, Shanghai, China) — no OSM match; no coordinates on website
+- nooxion模拟赛车 (nooxion, Chaoyang District, China) — no OSM match; no coordinates on website
+- Shanghai F1 Kart World (shanghai-f1-kart-world, Shanghai, China) — no OSM match
+- U-SPEED Indoor Go-Karting (u-speed-indoor-go-karting, Chaoyang District, China) — no OSM match
+- Xiamen International Circuit (xiamen-international-circuit, Siming District, China) — no OSM match; no coordinates on website
+- Xian Kart Track (xian-kart-track, Lianhu District, China) — no OSM match
+- Asfaltsport Fyn (asfaltsport-fyn, Odense, Denmark) — no OSM match
+- Racingroom (racingroom, Silkeborg, Denmark) — no OSM match; no coordinates on website
+- Kart in Club Lahti (kart-in-club-lahti, Lahti, Finland) — no OSM match
+- Lahden FK Ry (lahden-fk-ry, Lahti, Finland) — no OSM match
+- Palace Areena Sisäkarting (palace-areena-sisakarting, Alahärmä, Finland) — no OSM match
+- A.S. Karting Club de Sens (as-karting-club-de-sens, Soucy, France) — no OSM match
+- ASK Champ'Kart (ask-champkart, Cormontreuil, France) — no OSM match
+- BattleKart Paris Ouest Dreux (battlekart-paris-ouest-dreux, Dreux, France) — no OSM match
+- BattleKart Rennes (battlekart-rennes, La Mézière, France) — no OSM match
+- BattleKart Saint-Étienne (battlekart-saint-etienne, Andrézieux-Bouthéon, France) — no OSM match
+- Cap Form Loisirs (cap-form-loisirs, Laval, France) — no OSM match
+- Circuit International Anthoine Hubert (circuit-international-anthoine-hubert, Angerville, France) — no OSM match
+- Circuits de Soucy (circuits-de-soucy, Soucy, France) — no OSM match
+- Défi-Kart Toulouse (defi-kart-toulouse, Toulouse, France) — no OSM match
+- E-Kart'in Park (e-kartin-park, Andrézieux-Bouthéon, France) — no OSM match
+- Free Kart 88 (free-kart-88, Juvaincourt, France) — no OSM match
+- Idéal Kart France (ideal-kart-france, Juvaincourt, France) — no OSM match
+- K1 Speed - Karting Indoor Électrique Le Mans (k1-speed-karting-indoor-electrique-le-mans, Le Mans, France) — no OSM match
+- Karting 51 (karting-51, Cormontreuil, France) — no OSM match
+- Karting Arena 45 – La Roche-de-Glun (karting-arena-45-la-roche-de-glun, La Roche-de-Glun, France) — no OSM match
+- Karting de Laval – Circuit Beausoleil (karting-de-laval-circuit-beausoleil, Laval, France) — audit — matched an industrial zone, not the track
+- Karting de Nevers Magny-Cours (karting-de-nevers-magny-cours, Magny-Cours, France) — no OSM match
+- Karting des 24 Heures du Mans (karting-des-24-heures-du-mans, Le Mans, France) — audit — matched the circuit museum, not the kart track
+- Karting la Roche de Glun (karting-la-roche-de-glun, La Roche-de-Glun, France) — no OSM match
+- Karting Toulouse Montaudran (karting-toulouse-montaudran, Toulouse, France) — no OSM match
+- Kids Motor Park Karting Electrique Enfant (kids-motor-park-karting-electrique-enfant, Aubagne, France) — no OSM match
+- Le Mans Karting International (le-mans-karting-international, Le Mans, France) — no OSM match; no coordinates on website
+- Pro'Karting - Circuit Kart (prokarting-circuit-kart, Dreux, France) — no OSM match
+- Race System Nancy (race-system-nancy, Nancy, France) — no OSM match; no coordinates on website
+- Racing Kart Organisation (racing-kart-organisation, Angerville, France) — no OSM match
+- ZOGA (zoga, Hénin-Beaumont, France) — no OSM match
+- BattleKart Dankern (battlekart-dankern, Haren (Ems), Germany) — no OSM match
+- Kart-Club Kerpen (kart-club-kerpen, Kerpen (Eifel), Germany) — no OSM match
+- Raceworld Kerpen (raceworld-kerpen, Kerpen (Eifel), Germany) — no OSM match
+- Aktív Park (aktiv-park, Budapest, Hungary) — no OSM match
+- CsepelRing Gokart (csepelring-gokart, Budapest, Hungary) — no OSM match
+- G1 Gokart - Budaring (g1-gokart-budaring, Budapest, Hungary) — no OSM match
+- G1 Gokart - World Mall (g1-gokart-world-mall, Budapest, Hungary) — audit — matched a G1 Gokart site without telling the World Mall and Budaring branches apart
+- Gokart Pécs Vásártér (gokart-pecs-vasarter, Pécs, Hungary) — no OSM match
+- Kart Aréna (kart-arena, Pécs, Hungary) — no OSM match
+- Bangalore (bangalore, Bengaluru, India) — no OSM match
+- Bangalore Torq03 E-Zone (bangalore-torq03-e-zone, Bengaluru, India) — audit — matched an unrelated sports centre (Ezone sporting)
+- Hakone Kart (hakone-kart, Tamia, India) — no OSM match
+- Kart Cave (kart-cave, Tamia, India) — no OSM match
+- Kartainment Go Kart Track (kartainment-go-kart-track, Tamia, India) — no OSM match
+- Race Pace Karting Patels Inn (race-pace-karting-patels-inn, Tamia, India) — no OSM match
+- Racing Rigs (racing-rigs, Bengaluru, India) — no OSM match; no coordinates on website
+- Azumino F1 Park (azumino-f1-park, Azumino, Japan) — no OSM match
+- Biwako Sports Land (biwako-sports-land, Kiryu, Japan) — no OSM match
+- Capital Sports Land (capital-sports-land, Kiryu, Japan) — no OSM match
+- Circuit Azumino (circuit-azumino, Azumino, Japan) — no OSM match
+- Haruna Motor Sports Land (haruna-motor-sports-land, Kiryu, Japan) — no OSM match
+- Igashira Motor Park (igashira-motor-park, Kiryu, Japan) — no OSM match
+- Kanji Racing Simulator Gym (kanji-racing-simulator-gym, Osaka, Japan) — no OSM match; no coordinates on website
+- Kart Land Hiro Paradise (kart-land-hiro-paradise, Kiryu, Japan) — no OSM match
+- Kart Land ORC (kart-land-orc, Kiryu, Japan) — no OSM match
+- Kota Circuit YRP Kiriyama (kota-circuit-yrp-kiriyama, Kiryu, Japan) — no OSM match
+- MID BASE (Juso) (mid-base-juso, Osaka, Japan) — no OSM match; several locations on website
+- Mobara Motor Sports Land (mobara-motor-sports-land, Mobara, Japan) — no OSM match
+- MSL Hobby (msl-hobby, Kiryu, Japan) — no OSM match
+- Nakayama Circuit Kart Course (nakayama-circuit-kart-course, Kiryu, Japan) — audit — matched Nakayama Race Course, a horse racecourse
+- Natura Circuit (natura-circuit, Kiryu, Japan) — no OSM match
+- New Kyowa Kart Land (new-kyowa-kart-land, Kiryu, Japan) — no OSM match
+- Seto inland sea circuit (seto-inland-sea-circuit, Kiryu, Japan) — no OSM match
+- Sports Land Tamada (sports-land-tamada, Kiryu, Japan) — no OSM match
+- Suzuka Kart Track (suzuka-kart-track, Suzuka, Japan) — no OSM match
+- Suzuka Twin Circuit (suzuka-twin-circuit, Suzuka, Japan) — no OSM match; no coordinates on website
+- Simrush (simrush, Amman, Jordan) — no OSM match; social-only website
+- The Royal Automobile Club of Jordan (the-royal-automobile-club-of-jordan, Amman, Jordan) — no OSM match
+- Kartlandas Max (kartlandas-max, Vilnius, Lithuania) — no OSM match
+- Sepang International Kart Circuit (sepang-international-kart-circuit, Sepang, Malaysia) — no OSM match; website shared by several venues
+- Universiti Utara Malaysia Kart Track (universiti-utara-malaysia-kart-track, no city, Malaysia) — no OSM match
+- Autodromo Internacional de Maputo (autodromo-internacional-de-maputo, Maputo, Mozambique) — no OSM match; no coordinates on website
+- Kartodromo ATCM Maputo (kartodromo-atcm-maputo, Maputo, Mozambique) — audit — website coordinates point to an in-town shopping area (likely the club office), not the track
+- Daytona Indoor Raceway (daytona-indoor-raceway, Palmerston North, New Zealand) — no OSM match
+- Daytona Raceway Palmerston North (daytona-raceway-palmerston-north, Palmerston North, New Zealand) — no OSM match; no coordinates on website
+- Taupo Go Karts (taupo-go-karts, Taupō, New Zealand) — matched the same spot as unrelated venue Taupo Motorsport Park
+- Taupo Motorsport Park (taupo-motorsport-park, Taupō, New Zealand) — matched the same spot as unrelated venue Taupo Go Karts
+- X Karts (x-karts, Palmerston North, New Zealand) — no OSM match
+- RevZone Karting Circuit (revzone-karting-circuit, Chowk Sarwar Shaheed Tehsil, Pakistan) — no OSM match
+- Boomland Kart Circuit (boomland-kart-circuit, no city, Philippines) — no OSM match
+- ASY Arena Karting Kraków (asy-arena-karting-krakow, Krakow, Poland) — no OSM match
+- Biłgokart (bilgokart, Biłgoraj, Poland) — no OSM match
+- Cartmax Lublin (cartmax-lublin, Lublin, Poland) — no OSM match
+- E1GoKart Lublin (e1gokart-lublin, Lublin, Poland) — no OSM match
+- Emotion Karting - Gokarty (emotion-karting-gokarty, Bytom, Poland) — no OSM match
+- GO Karting Center (go-karting-center, Krakow, Poland) — no OSM match
+- Gokart Arena Łódź (gokart-arena-lodz, Łódź, Poland) — no OSM match
+- Gokarty PitStop-Gdańsk (gokarty-pitstop-gdansk, Gdańsk, Poland) — no OSM match
+- Le Mans Wrocław Tor Kartingowy (le-mans-wroclaw-tor-kartingowy, Wrocław, Poland) — no OSM match
+- M1 Karting - Gokarty Łódź (m1-karting-gokarty-lodz, Łódź, Poland) — no OSM match
+- Racing Center Łódź - tor gokartowy (racing-center-lodz-tor-gokartowy, Łódź, Poland) — no OSM match
+- Reskart Racing - Gokarty Rzeszów (reskart-racing-gokarty-rzeszow, Rzeszów, Poland) — no OSM match
+- S-Kart Bytom (s-kart-bytom, Bytom, Poland) — no OSM match
+- WRT karting Nowa Huta (wrt-karting-nowa-huta, Krakow, Poland) — no OSM match
+- Kartódromo Indoor de Palmela - KartXperience (kartodromo-indoor-de-palmela-kartxperience, Palmela, Portugal) — no OSM match
+- KIP - Kartódromo Internacional de Palmela (kip-kartodromo-internacional-de-palmela, Palmela, Portugal) — no OSM match
+- Cluj RacingPoint (cluj-racingpoint, Cluj-Napoca, Romania) — no OSM match; no coordinates on website
+- Karting Sibiu RoadRunner Racing (karting-sibiu-roadrunner-racing, Sibiu, Romania) — no OSM match
+- Venom Karting (venom-karting, Sibiu, Romania) — no OSM match
+- VMax Karting (vmax-karting, Cluj-Napoca, Romania) — no OSM match
+- 100% Karting (100percent-karting, no city, Russia) — no OSM match
+- Dixxodrom (dixxodrom, no city, Russia) — no OSM match
+- Karting Center (karting-center, no city, Russia) — no OSM match
+- Karting Serebryaby Dozhd (karting-serebryaby-dozhd, no city, Russia) — no OSM match
+- Lider Kart Circuit (lider-kart-circuit, no city, Russia) — no OSM match
+- Pilot (pilot, no city, Russia) — ambiguous OSM matches
+- Go-Kart Nitra (go-kart-nitra, Nitra, Slovakia) — no OSM match
+- Karting Koper / Kartodromo Capodistria (karting-koper-kartodromo-capodistria, Koper / Capodistria, Slovenia) — no OSM match
+- Pro karting Koper (pro-karting-koper, Koper / Capodistria, Slovenia) — no OSM match; no coordinates on website
+- Kyalami Indoor Karting (kyalami-indoor-karting, Midrand, South Africa) — audit — matched a feature named only "Kyalami"; indoor track not confirmed
+- Almería Circuit (almeria-circuit, Almeria, Spain) — no OSM match; no coordinates on website
+- Alquiler de Karts, y Cuatriciclos Parque Grande (alquiler-de-karts-y-cuatriciclos-parque-grande, Zaragoza, Spain) — no OSM match
+- Andalucía Circuit (andalucia-circuit, Almeria, Spain) — no OSM match; no coordinates on website
+- Circuito Mike G Guadix (circuito-mike-g-guadix, Granada, Spain) — no OSM match; no coordinates on website
+- Fast Kart Condomina (fast-kart-condomina, Murcia, Spain) — no OSM match
+- Gené karting (gene-karting, Viladecans, Spain) — no OSM match
+- Indoor Karting Logroño (indoor-karting-logrono, Logroño, Spain) — no OSM match
+- Karting Indoor Plaza Motor S L (karting-indoor-plaza-motor-s-l, Zaragoza, Spain) — no OSM match
+- Karting Marineda (karting-marineda, Seville, Spain) — no OSM match
+- Karting Minilandia - Parc Recreatiu (karting-minilandia-parc-recreatiu, Viladecans, Spain) — no OSM match
+- Karting Rioja (karting-rioja, Logroño, Spain) — no OSM match
+- Sevilla Circuit (sevilla-circuit, Seville, Spain) — no OSM match; no coordinates on website
+- Gokart By JumpYard Örebro (gokart-by-jumpyard-orebro, Örebro, Sweden) — no OSM match
+- Gokart Helsingborg (gokart-helsingborg, Helsingborg, Sweden) — no OSM match
+- Gokartcentret på Rörken (gokartcentret-pa-rorken, Uppsala, Sweden) — no OSM match
+- GoKartCity i Skåne (gokartcity-i-skane, Helsingborg, Sweden) — no OSM match
+- Hyr Go-Kart Örebro Motorstadion (hyr-go-kart-orebro-motorstadion, Örebro, Sweden) — no OSM match
+- Race4all – Fullerö (race4all-fullero, Uppsala, Sweden) — no OSM match
+- Indoor Racing Aadorf (indoor-racing-aadorf, Wittenwil, Switzerland) — no OSM match; no coordinates on website
+- Kartbahn Kappelen AG (kartbahn-kappelen-ag, Lyss, Switzerland) — no OSM match; no coordinates on website
+- Rocket Karting Speedway Taichung (rocket-karting-speedway-taichung, Taichung, Taiwan) — no OSM match
+- SVR Esports (極速境界) (svr-esports, Taichung, Taiwan) — no OSM match; social-only website
+- Ankara Karting (ankara-karting, Ankara, Turkey) — no OSM match
+- Arceus Park (arceus-park, Kepez, Turkey) — no OSM match; no coordinates on website
+- Arena Karting (arena-karting, Yoğunhisar, Turkey) — no OSM match
+- Autodrom STS Karting (autodrom-sts-karting, Yoğunhisar, Turkey) — no OSM match
+- Go-kart (go-kart, Kocaeli, Turkey) — no OSM match
+- Gokart Burda Karting (gokart-burda-karting, Kocaeli, Turkey) — audit — matched a mall by one word; venue inside it not confirmed
+- Karting Club PRO Antalya (karting-club-pro-antalya, Kepez, Turkey) — no OSM match
+- Royal Bowling Gokart Balçova (royal-bowling-gokart-balcova, Balçova, Turkey) — no OSM match
+- Al Ain Raceway (al-ain-raceway, Al Ain, United Arab Emirates) — no OSM match
+- Al Ain Sportplex (al-ain-sportplex, Al Ain, United Arab Emirates) — no OSM match
+- Altitude Arena Go-Karting (altitude-arena-go-karting, Kalba, United Arab Emirates) — no OSM match
+- BattleKart Dubai (battlekart-dubai, no city, United Arab Emirates) — no OSM match
+- Black Bunny Dubai Karting (black-bunny-dubai-karting, Dubai, United Arab Emirates) — no OSM match
+- Chaos Karts Dubai (chaos-karts-dubai, no city, United Arab Emirates) — no OSM match
+- EKart Zabeel (ekart-zabeel, no city, United Arab Emirates) — no OSM match
+- Emirates Karting Centre Jebel Ali (emirates-karting-centre-jebel-ali, no city, United Arab Emirates) — no OSM match
+- Ferrari World Karting Academy (ferrari-world-karting-academy, Abu Dhabi, United Arab Emirates) — no OSM match
+- Karting Town (karting-town, Kalba, United Arab Emirates) — no OSM match
+- No Grip DXB (no-grip-dxb, Dubai, United Arab Emirates) — no OSM match
+- Sharjah Kart Track (sharjah-kart-track, Kalba, United Arab Emirates) — no OSM match
+- Volta Racing (volta-racing, no city, United Arab Emirates) — no OSM match
+- Yas Marina North Circuit (yas-marina-north-circuit, Abu Dhabi, United Arab Emirates) — no OSM match
+- BattleKart Sheffield (battlekart-sheffield, Sheffield, United Kingdom) — no OSM match
+- Big Kidz Karting (big-kidz-karting, East Lindsey, United Kingdom) — no OSM match
+- Capital Karts (capital-karts, Birmingham, United Kingdom) — no OSM match
+- Drive Lounge London (drive-lounge-london, Greater London, United Kingdom) — no OSM match; website shared by several venues
+- Drive Lounge Westfield London (drive-lounge-westfield-london, Greater London, United Kingdom) — no OSM match; website shared by several venues
+- Exeter Karting Centre (exeter-karting-centre, Exeter, United Kingdom) — no OSM match
+- Fast Lane Karting (fast-lane-karting, Stoke-on-Trent, United Kingdom) — no OSM match
+- Full Send Racing Lounge (full-send-racing-lounge, Winchester, United Kingdom) — no OSM match; no coordinates on website
+- Go Karting Leeds - GT Karting (go-karting-leeds-gt-karting, Leeds, United Kingdom) — no OSM match
+- GP Racing Simulators (gp-racing-simulators, Glasgow, United Kingdom) — no OSM match; no coordinates on website
+- Karting Nation (karting-nation, Leicester, United Kingdom) — no OSM match
+- Kartworld Extreme Leisure (kartworld-extreme-leisure, East Lindsey, United Kingdom) — no OSM match
+- SIMTrack Driver Performance Centre (simtrack-driver-performance-centre, Leeds, United Kingdom) — no OSM match; no coordinates on website
+- Teamworks Birmingham City (teamworks-birmingham-city, Birmingham, United Kingdom) — no OSM match
+- The Race Centre Chandlers Ford (the-race-centre-chandlers-ford, Winchester, United Kingdom) — no OSM match; no coordinates on website
+- The Race Lounge Star City Birmingham (the-race-lounge-star-city-birmingham, Birmingham, United Kingdom) — no OSM match; no coordinates on website
+- Academy Sim Racing (academy-sim-racing, Tampa, United States) — no OSM match; no coordinates on website
+- AMR Homestead-Miami Motorplex (amr-homestead-miami-motorplex, Homestead, United States) — no OSM match
+- Andretti Indoor Karting & Games Katy (andretti-indoor-karting-and-games-katy, Katy, United States) — no OSM match
+- Brooklyn Go Karts & Miniature Golf (brooklyn-go-karts-and-miniature-golf, New York, United States) — no OSM match
+- Crazy Pinz – Surfside Speedway (crazy-pinz-surfside-speedway, Fort Wayne, United States) — no OSM match
+- F1 Drive at Grand Prix Plaza (f1-drive-at-grand-prix-plaza, Las Vegas, United States) — no OSM match
+- Fast Track Racing (fast-track-racing, Fort Wayne, United States) — no OSM match
+- Flightdeck1 Rogue Racing (flightdeck1-rogue-racing, Anaheim, United States) — no OSM match; no coordinates on website
+- Fort Wayne Speedway (fort-wayne-speedway, Fort Wayne, United States) — no OSM match
+- Gulf Coast Karters, Inc. (gulf-coast-karters-inc, Katy, United States) — no OSM match
+- i-SimRace (i-simrace, Las Vegas, United States) — no OSM match; website unreachable
+- K1 Circuit Whiteland (k1-circuit-whiteland, Whiteland, United States) — no OSM match
+- K1 Speed Jacksonville (k1-speed-jacksonville, Jacksonville, United States) — no OSM match
+- K1 Speed Karting Arlington (k1-speed-karting-arlington, Arlington, United States) — no OSM match
+- K1 Speed Karting Tampa Bay (k1-speed-karting-tampa-bay, Tampa, United States) — no OSM match
+- K1 Speed Las Vegas (k1-speed-las-vegas, Las Vegas, United States) — no OSM match
+- Kartona Electric Speedway (kartona-electric-speedway, Panama City Beach, United States) — no OSM match
+- Katy Go Karts at Inflatable Katy (katy-go-karts-at-inflatable-katy, Katy, United States) — no OSM match
+- LaFayette Motorsports Park (lafayette-motorsports-park, Town of LaFayette, United States) — no OSM match
+- North Florida Kart Club (north-florida-kart-club, Jacksonville, United States) — audit — matched the University of North Florida Arena
+- Putt-Putt Fun Center Fort Wayne (putt-putt-fun-center-fort-wayne, Fort Wayne, United States) — no OSM match
+- Rascal's Fun Zone (rascals-fun-zone, Whiteland, United States) — no OSM match
+- Rex Center (rex-center, Las Vegas, United States) — no OSM match
+- Rockwood Go-Karts & Mini Golf (rockwood-go-karts-and-mini-golf, Fort Worth, United States) — no OSM match
+- RPM Rush (rpm-rush, Manassas, United States) — no OSM match; no coordinates on website
+- SHFTCLUB (shftclub, New York, United States) — no OSM match; no coordinates on website
+- VIR Kart Track (vir-kart-track, no city, United States) — no OSM match
+
+## Moved (137)
+
+- Autódromo Ciudad de San Martín (Jorge Ángel Pena) (autodromo-ciudad-de-san-martin-jorge-angel-pena, Argentina) — 3.4 km; OSM leisure/sports_centre "Autódromo Jorge Ángel Pena" (query "Autódromo Jorge Ángel Pena, Distrito Ciudad de San Martín")
+- Ipswich Kart Club Circuit (ipswich-kart-club-circuit, Australia) — 1.5 km; OSM leisure/sports_centre "Willowbank Kart Track" (query "Ipswich Kart Club")
+- Mega Fast Karts Wanneroo (mega-fast-karts-wanneroo, Australia) — 2.1 km; coordinates on https://megafastkarts.com.au/
+- Wanneroo International Raceway (wanneroo-international-raceway, Australia) — 2.2 km; OSM leisure/sports_centre "Wanneroo International Kartway" (query "Wanneroo International")
+- Adrenalina Rio Kart — Shopping Jardim Guadalupe (adrenalina-rio-kart-shopping-jardim-guadalupe, Brazil) — 18.1 km; OSM shop/mall "Shopping Jardim Guadalupe" (query "Shopping Jardim Guadalupe, Rio de Janeiro")
+- Autódromo Internacional Nelson Piquet (autodromo-internacional-nelson-piquet, Brazil) — 2.9 km; OSM highway/raceway "Autódromo Nelson Piquet" (query "Nelson Piquet")
+- eKarts — Shopping Paragem (ekarts-shopping-paragem, Brazil) — 5.5 km; OSM building/yes "Shopping Paragem" (query "Shopping Paragem, Belo Horizonte")
+- Esporte Clube Piracicabano de Automobilismo (ECPA) (esporte-clube-piracicabano-de-automobilismo-ecpa, Brazil) — 12.0 km; OSM leisure/sports_centre "Esporte Clube Piracicabano de Automobilismo" (query "Esporte Clube Piracicabano de Automobilismo, Piracicaba")
+- Kart Mônaco (kart-monaco, Brazil) — 3.8 km; OSM leisure/sports_centre "Kart Mônaco" (query "Kart Mônaco, Fortaleza")
+- Kartódromo Ayrton Senna de Campo Grande (kartodromo-ayrton-senna-de-campo-grande, Brazil) — 9.6 km; OSM leisure/sports_centre "Kartódromo Ayrton Senna" (query "Kartódromo Ayrton Senna de Campo Grande, Campo Grande")
+- Kartódromo Ayrton Senna de Interlagos (kartodromo-ayrton-senna-de-interlagos, Brazil) — 18.1 km; OSM leisure/sports_centre "Kartódromo Internacional Ayrton Senna" (query "Kartódromo Ayrton Senna de Interlagos, São Paulo")
+- Kartódromo da Vila Olímpica de Manaus (kartodromo-da-vila-olimpica-de-manaus, Brazil) — 7.8 km; OSM leisure/sports_centre "Vila Olímpica de Manaus" (query "Vila Olímpica, Manaus")
+- Kartódromo José Carlos Pace — Competikar (kartodromo-jose-carlos-pace-competikar, Brazil) — 7.4 km; OSM leisure/sports_centre "Kartódromo José Carlos Pace" (query "Kartódromo José Carlos Pace, Uberlândia")
+- Kartódromo Municipal de Várzea Grande (kartodromo-municipal-de-varzea-grande, Brazil) — 3.9 km; OSM leisure/sports_centre "Kartódromo Municipal de Várzea Grande" (query "Kartódromo Municipal de Várzea Grande, Várzea Grande")
+- Kartódromo Udikart (kartodromo-udikart, Brazil) — 19.5 km; OSM leisure/track "Udikart" (query "Udikart, Uberlândia")
+- R11 Speed Way Indoor — Iguatemi Bosque (r11-speed-way-indoor-iguatemi-bosque, Brazil) — 6.1 km; OSM shop/mall "Iguatemi Bosque" (query "Iguatemi Bosque, Fortaleza")
+- S2 Kart Racing — Jockey Plaza (s2-kart-racing-jockey-plaza, Brazil) — 5.6 km; OSM shop/mall "Jockey Plaza Shopping Center" (query "Jockey Plaza, Curitiba")
+- Speed Kart Pro — Shopping Manaus ViaNorte (speed-kart-pro-shopping-manaus-vianorte, Brazil) — 14.9 km; OSM shop/mall "Shopping Manaus ViaNorte" (query "Shopping Manaus ViaNorte, Manaus")
+- Amigo Karting (amigo-karting, Canada) — 15.5 km; OSM highway/raceway "Amigo Karting" (query "Amigo Karting, Gatineau")
+- Cameron Speedway & Amusements (cameron-speedway-and-amusements, Canada) — 1.9 km; OSM tourism/theme_park "Cameron Speedway & Amusements" (query "Cameron Speedway & Amusements, Hamilton")
+- Canadian Tire Motorsport Park (canadian-tire-motorsport-park, Canada) — 15.8 km; coordinates on https://www.canadiantiremotorsportpark.com/
+- Mississauga Mini Indy (mississauga-mini-indy, Canada) — 0.9 km; OSM leisure/sports_centre "Mississauga Mini-Indy" (query "Mississauga Mini Indy, Mississauga")
+- Niagara Go-Karts (niagara-go-karts, Canada) — 6.0 km; OSM leisure/sports_centre "Niagara Go-Karts" (query "Niagara Go-Karts, Niagara Falls")
+- Niagara Speedway (niagara-speedway, Canada) — 2.0 km; OSM tourism/attraction "Niagara Speedway" (query "Niagara Speedway, Niagara Falls")
+- Top Karting (top-karting, Canada) — 3.9 km; OSM leisure/amusement_arcade "Top Karting" (query "Top Karting, Gatineau")
+- Volt Raceway (volt-raceway, Canada) — 1.6 km; OSM building/retail "Volt Raceway" (query "Volt Raceway, Clarington")
+- SimRacing Chile (simracing-chile, Chile) — 6.2 km; coordinates on https://www.simracingchile.cl/
+- Zhuhai International Circuit (zhuhai-international-circuit, China) — 10.6 km; OSM leisure/sports_centre "Zhuhai International Circuit" (query "Zhuhai International Circuit, Xiangzhou")
+- Zhuhai International Karting Circuit (zhuhai-international-karting-circuit, China) — 10.6 km; OSM leisure/sports_centre "Zhuhai International Circuit" (query "Zhuhai International, Xiangzhou")
+- FDM Jyllandsringen (fdm-jyllandsringen, Denmark) — 0.2 km; OSM leisure/sports_centre "Jyllandsringen" (query "FDM Jyllandsringen, Silkeborg")
+- Odense Gokart Hal (odense-gokart-hal, Denmark) — 3.7 km; OSM leisure/sports_centre "Odense Gokart Hal" (query "Odense Gokart Hal, Odense")
+- Mika Salo Circuit (mika-salo-circuit, Finland) — 1.2 km; OSM leisure/sports_centre "Mika Salo Circuit" (query "Mika Salo Circuit, Alahärmä")
+- Circuit de Nevers Magny-Cours (circuit-de-nevers-magny-cours, France) — 2.6 km; OSM leisure/sports_centre "Circuit de Nevers Magny-Cours" (query "Circuit de Nevers Magny-Cours, Magny-Cours")
+- Circuit Léopard (circuit-leopard, France) — 3.5 km; OSM leisure/sports_centre "Circuit Léopard" (query "Circuit Léopard, Andrézieux-Bouthéon")
+- Circuits de l'Ouest Parisien (circuits-de-louest-parisien, France) — 2.4 km; OSM leisure/sports_centre "Circuits de l’Ouest Parisien" (query "Circuits de l'Ouest Parisien, Dreux")
+- Kart'IN Oberlin – Nancy (kartin-oberlin-nancy, France) — 1.0 km; OSM leisure/sports_centre "Kart'In" (query "Kart'IN Oberlin – Nancy, Nancy")
+- Karting Indoor Provence Aubagne - KIP Loisirs (karting-indoor-provence-aubagne-kip-loisirs, France) — 4.0 km; OSM building/commercial "KIP Centre de Loisirs" (query "Provence KIP Loisirs")
+- Roazhon Kart - Karting indoor à Rennes (roazhon-kart-karting-indoor-a-rennes, France) — 2.6 km; OSM leisure/sports_centre "Roazhon Kart" (query "Roazhon Kart, La Mézière")
+- SpeedPark Hénin-Beaumont (speedpark-henin-beaumont, France) — 2.5 km; OSM leisure/bowling_alley "Speedpark" (query "SpeedPark Hénin-Beaumont, Hénin-Beaumont")
+- Emslandring Dankern - KartBahn am Dankernsee (emslandring-dankern-kartbahn-am-dankernsee, Germany) — 5.3 km; OSM leisure/sports_centre "Emslandring Dankern" (query "Emslandring Dankern, Haren (Ems)")
+- GoKart-Hanse Racing (gokart-hanse-racing, Germany) — 4.5 km; OSM leisure/sports_centre "Hanse Gokart Racing" (query "GoKart-Hanse Racing, Rostock")
+- Kartbahn Winterberg - Niedersfeld (kartbahn-winterberg-niedersfeld, Germany) — 6.1 km; OSM highway/raceway "Kartbahn Winterberg Niedersfeld" (query "Kartbahn Winterberg - Niedersfeld, Winterberg")
+- Kartcenter Rostock (kartcenter-rostock, Germany) — 6.1 km; OSM leisure/sports_centre "Kartcenter Rostock" (query "Kartcenter Rostock, Rostock")
+- Kartfun Neuastenberg (kartfun-neuastenberg, Germany) — 4.2 km; OSM building/retail "Kartfun Astenberg" (query "Kartfun Neuastenberg, Winterberg")
+- Gokart Aréna (gokart-arena, Hungary) — 10.0 km; OSM leisure/track "Gokart Aréna" (query "Gokart Aréna, Budapest")
+- Gokart Sportaréna (gokart-sportarena, Hungary) — 3.6 km; OSM leisure/pitch "Gokart Sportaréna" (query "Gokart Sportaréna, Budapest")
+- Silverkart Budapest (silverkart-budapest, Hungary) — 2.5 km; OSM leisure/sports_centre "SilverKart" (query "Silverkart Budapest, Budapest")
+- Kart Attack Sports Centre (kart-attack-sports-centre, India) — 1064.5 km, city Tamia → Chennai; OSM tourism/attraction "Kart Attack Go Karting" (query "Attack")
+- Meco Kartopia (meco-kartopia, India) — 17.8 km; OSM leisure/sports_centre "Meco Kartopia" (query "Meco Kartopia, Bengaluru")
+- Happy Valley Kart (happy-valley-kart, Italy) — 2.6 km; OSM leisure/racetrack "Kartodromo Happy Valley" (query "Happy Valley, Cervia")
+- Pista Go Kart Parco 5 Pini (pista-go-kart-parco-5-pini, Italy) — 2.5 km; OSM leisure/sports_centre "Parco 5 Pini" (query "Parco 5 Pini, Cervia")
+- Fuji Speedway Kart Circuit (fuji-speedway-kart-circuit, Japan) — 136.6 km, city Kiryu → Oyama; OSM leisure/sports_centre "Fuji Speedway" (query "Fuji Speedway")
+- Ishino Circuit (ishino-circuit, Japan) — 242.6 km, city Kiryu → Toyota; OSM tourism/attraction "Ishino circuit" (query "Ishino Circuit")
+- Mobara Twin Circuit (mobara-twin-circuit, Japan) — 5.2 km; OSM tourism/attraction "Mobara Twin Circuit" (query "Mobara Twin Circuit, Mobara")
+- Jordan Speed Center (jordan-speed-center, Jordan) — 12.7 km; OSM leisure/adult_gaming_centre "Jordan Speed Center" (query "Jordan Speed Center, Amman")
+- Plytinės Kart track (plytines-kart-track, Lithuania) — 6.1 km; OSM highway/raceway "Plytinės kartodromas" (query "Plytinės, Vilnius")
+- LYL International Karting Circuit (lyl-international-karting-circuit, Malaysia) — 175.1 km, city (none) → Kajang; OSM leisure/sports_centre "LYL International Karting Circuit" (query "LYL International Karting Circuit")
+- Sepang International Circuit (sepang-international-circuit, Malaysia) — 2.4 km; OSM leisure/sports_centre "Sepang International Circuit" (query "Sepang International Circuit, Sepang")
+- Speedway Plus (speedway-plus, Malaysia) — 188.0 km, city (none) → Subang Jaya; OSM leisure/sports_centre "PLUS Speedway Go-Kart Circuit" (query "Speedway Plus")
+- Kartfabrique (kartfabrique, Netherlands) — 6.5 km; OSM amenity/events_venue "Kartfabrique" (query "Kartfabrique, Utrecht")
+- Teamsport E-Karting The Wall Utrecht (teamsport-e-karting-the-wall-utrecht, Netherlands) — 4.9 km; OSM club/sport "TeamSport Karten Utrecht The Wall" (query "Teamsport Wall, Utrecht")
+- Hampton Downs Go Karts (hampton-downs-go-karts, New Zealand) — 7.9 km; coordinates on https://www.hamptondowns.com/experience/go-karts
+- Hampton Downs Motorsport Park (hampton-downs-motorsport-park, New Zealand) — 7.9 km; coordinates on https://www.hamptondowns.com/
+- First Karting Centre (first-karting-centre, Pakistan) — 714.3 km, city Chowk Sarwar Shaheed Tehsil → Karachi; OSM leisure/track "First Karting Centre" (query "First Karting Centre")
+- Enchanted Kingdom (enchanted-kingdom, Philippines) — 245.3 km, city (none) → Santa Rosa; OSM tourism/theme_park "Enchanted Kingdom" (query "Enchanted Kingdom")
+- Autodrom Biłgoraj (autodrom-bilgoraj, Poland) — 2.5 km; OSM leisure/sports_centre "Autodrom Biłgoraj" (query "Autodrom Biłgoraj, Biłgoraj")
+- E1GoKart Gdańsk (e1gokart-gdansk, Poland) — 12.0 km; OSM leisure/sports_centre "E1gokart" (query "E1GoKart Gdańsk, Gdańsk")
+- ICF Karting (icf-karting, Poland) — 4.2 km; OSM building/commercial "ICF karting" (query "ICF Karting, Rzeszów")
+- Top1 Karting Wrocław (top1-karting-wroclaw, Poland) — 4.7 km; OSM building/yes "Top1 Karting" (query "Top1 Karting Wrocław, Wrocław")
+- WRT karting Kapelanka (wrt-karting-kapelanka, Poland) — 5.4 km; OSM leisure/pitch "WRT 2.0 Kapelanka" (query "WRT Kapelanka, Krakow")
+- Circuito Vasco Sameiro (Braga) (circuito-vasco-sameiro-braga, Portugal) — 1.5 km; OSM highway/raceway "Circuito Vasco Sameiro" (query "Circuito Vasco Sameiro Braga, Braga")
+- Kartódromo de Viana (kartodromo-de-viana, Portugal) — 8.1 km; OSM leisure/sports_centre "Kartódromo de Viana do Castelo" (query "Kartódromo de Viana")
+- Kartódromo internacional de Braga (kartodromo-internacional-de-braga, Portugal) — 1.3 km; coordinates on https://kib.pt
+- Kivi Indoor Karting Viana (kivi-indoor-karting-viana, Portugal) — 5.6 km; OSM leisure/sports_centre "Kivi Kart" (query "Kivi Viana")
+- E Kart Arena Nitra (e-kart-arena-nitra, Slovakia) — 5.6 km; OSM leisure/sports_centre "E Kart Arena NITRA" (query "E Kart Arena Nitra, Nitra")
+- Kartzone (kartzone, South Africa) — 7.7 km; coordinates on https://kartzone.co.za/
+- Kyalami Grand Prix Circuit (kyalami-grand-prix-circuit, South Africa) — 5.2 km; coordinates on https://kyalamigrandprixcircuit.com/
+- Zwartkops Raceway (zwartkops-raceway, South Africa) — 8.0 km; OSM leisure/sports_centre "Zwartkops Raceway" (query "Zwartkops Raceway, Pretoria")
+- Cartagena Karting Club (cartagena-karting-club, Spain) — 2.8 km; OSM highway/raceway "Cartagena Karting Club" (query "Cartagena Karting Club, Cartagena")
+- Circuito de Cartagena (circuito-de-cartagena, Spain) — 5.3 km; OSM leisure/sports_centre "Circuito de Cartagena" (query "Circuito de Cartagena, Cartagena")
+- Cross Park Empuriabrava (cross-park-empuriabrava, Spain) — 2.1 km; OSM leisure/track "Karting Cross Empuriabrava" (query "Cross Empuriabrava, Castelló d'Empúries")
+- Formula Karting Granada (formula-karting-granada, Spain) — 4.6 km; OSM leisure/sports_centre "Fórmula Karting Granada" (query "Formula Karting Granada, Granada")
+- Karting Electric Salou (karting-electric-salou, Spain) — 2.0 km; OSM leisure/sports_centre "Electric Karting Salou" (query "Karting Electric Salou, Salou")
+- Karting Empuriabrava (karting-empuriabrava, Spain) — 2.1 km; OSM leisure/track "Karting Cross Empuriabrava" (query "Karting Empuriabrava, Castelló d'Empúries")
+- Karting Espuña (karting-espuna, Spain) — 28.4 km; OSM leisure/sports_centre "Karting Espuña" (query "Karting Espuña, Murcia")
+- Karting la Torre (karting-la-torre, Spain) — 9.1 km; OSM leisure/sports_centre "Karting la Torre" (query "Karting la Torre, Zaragoza")
+- Karting Pinomontano (karting-pinomontano, Spain) — 5.3 km; OSM leisure/sports_centre "Karting Pinomontano" (query "Karting Pinomontano, Seville")
+- Karting Salou (karting-salou, Spain) — 2.1 km; OSM leisure/sports_centre "Karting Salou" (query "Karting Salou, Salou")
+- London Pilots Club SimRacing Zaragoza (london-pilots-club-simracing-zaragoza, Spain) — 4.7 km; coordinates on https://autoescuelalondon.com/centro-simracing-zaragoza/
+- Kartbahn Kappelen (kartbahn-kappelen, Switzerland) — 0.6 km; OSM highway/raceway "Kartbahn Kappelen" (query "Kartbahn Kappelen, Lyss")
+- Balçova Karting (balcova-karting, Turkey) — 1.0 km; OSM leisure/sports_centre "Balçova Karting" (query "Balçova Karting, Balçova")
+- Bilkent Go Kart- Bilkent Karting (bilkent-go-kart-bilkent-karting, Turkey) — 9.7 km; OSM highway/raceway "Bilkent Go Kart" (query "Bilkent Go Kart- Bilkent, Ankara")
+- Go kart marmaris (go-kart-marmaris, Turkey) — 10.5 km; OSM highway/raceway "Go Kart Marmaris" (query "Go kart marmaris, Marmaris")
+- Marmaris Go Kart (marmaris-go-kart, Turkey) — 9.0 km; OSM leisure/sports_centre "Marmaris Go Kart" (query "Marmaris Go Kart, Marmaris")
+- Yas Kartzone (yas-kartzone, United Arab Emirates) — 1.0 km; OSM leisure/sports_centre "Yas KartZone" (query "Yas Kartzone, Abu Dhabi")
+- Absolutely Karting Bristol (absolutely-karting-bristol, United Kingdom) — 4.0 km; OSM leisure/sports_centre "Absolutely Karting" (query "Absolutely Karting Bristol, Bristol")
+- Parkwood Karting (parkwood-karting, United Kingdom) — 2.4 km; OSM leisure/sports_centre "Parkwood Karting" (query "Parkwood Karting, Sheffield")
+- Raceworld Indoor Karting (raceworld-indoor-karting, United Kingdom) — 10.1 km; OSM tourism/attraction "Raceworld" (query "Raceworld, Exeter")
+- Revolution Karting (revolution-karting, United Kingdom) — 6.8 km; OSM leisure/sports_centre "Revolution Karting" (query "Revolution Karting")
+- TeamSport Glasgow Clydebank (teamsport-glasgow-clydebank, United Kingdom) — 9.8 km; OSM club/sport "TeamSport Glasgow Clydebank" (query "TeamSport Glasgow Clydebank")
+- TeamSport Go Karting Bristol (teamsport-go-karting-bristol, United Kingdom) — 10.0 km; OSM club/sport "TeamSport Bristol" (query "TeamSport Go Karting Bristol, Bristol")
+- TeamSport Go Karting Docklands (teamsport-go-karting-docklands, United Kingdom) — 11.4 km; OSM leisure/sports_centre "Teamsport London Docklands" (query "TeamSport Go Karting Docklands")
+- TeamSport Go Karting Leicester (teamsport-go-karting-leicester, United Kingdom) — 4.4 km; OSM leisure/sports_centre "TeamSport Leicester" (query "TeamSport Go Karting Leicester, Leicester")
+- TeamSport Go Karting North London (teamsport-go-karting-north-london, United Kingdom) — 13.6 km; OSM leisure/sports_centre "TeamSport Edmonton" (query "TeamSport North London")
+- TeamSport Go Karting Sheffield (teamsport-go-karting-sheffield, United Kingdom) — 4.6 km; OSM leisure/sports_centre "TeamSport Karting Sheffield" (query "TeamSport Go Karting Sheffield, Sheffield")
+- TeamSport Go Karting Stoke (teamsport-go-karting-stoke, United Kingdom) — 3.1 km; OSM club/sport "TeamSport Go Karting Stoke" (query "TeamSport Go Karting Stoke, Stoke-on-Trent")
+- Andretti Indoor Karting & Games Fort Worth (andretti-indoor-karting-and-games-fort-worth, United States) — 15.6 km; OSM leisure/amusement_arcade "Andretti Indoor Karting & Games" (query "Andretti Indoor Karting & Games Fort Worth, Fort Worth")
+- Andretti Indoor Karting & Games Orlando (andretti-indoor-karting-and-games-orlando, United States) — 14.6 km; OSM leisure/sports_centre "Andretti Indoor Karting & Games" (query "Andretti Indoor Karting & Games Orlando, Orlando")
+- Andretti Indoor Karting & Games San Antonio (andretti-indoor-karting-and-games-san-antonio, United States) — 21.1 km; OSM tourism/attraction "Andretti Indoor Karting and Games" (query "Andretti Indoor Karting & Games San Antonio, San Antonio")
+- COTA Karting (cota-karting, United States) — 18.4 km; OSM highway/raceway "COTA Karting" (query "COTA Karting")
+- Desert Park Raceway (desert-park-raceway, United States) — 17.9 km; OSM leisure/sports_centre "Desert Park Raceway" (query "Desert Park Raceway, Reno")
+- Gene Woods Racing Experience (gene-woods-racing-experience, United States) — 10.9 km; OSM highway/raceway "Gene Woods Racing Experience" (query "Gene Woods Racing Experience, Las Vegas")
+- Go-Kart Raceway (go-kart-raceway, United States) — 17.7 km; OSM leisure/sports_centre "Go Kart Raceway" (query "Go-Kart Raceway")
+- GripWerx Simulation Racing (gripwerx-simulation-racing, United States) — 0.3 km; OSM leisure/amusement_arcade "Gripwerx Simulation Racing" (query "GripWerx Simulation Racing, Redmond")
+- Hidden Lagoon Super Race Track and Golf (hidden-lagoon-super-race-track-and-golf, United States) — 5.7 km; OSM leisure/miniature_golf "Hidden Lagoon Super Golf" (query "Hidden Lagoon Super Golf, Panama City Beach")
+- Homestead-Miami Speedway (homestead-miami-speedway, United States) — 7.0 km; OSM leisure/sports_centre "Homestead-Miami Speedway" (query "Homestead-Miami Speedway, Homestead")
+- Houston Grand Prix (houston-grand-prix, United States) — 18.8 km; OSM tourism/theme_park "Houston Grand Prix" (query "Houston Grand Prix")
+- K1 Speed Anaheim (k1-speed-anaheim, United States) — 4.6 km; OSM building/yes "K1 Speed Indoor Karting" (query "K1 Speed Anaheim, Anaheim")
+- K1 Speed Austin (k1-speed-austin, United States) — 12.8 km; coordinates on https://www.k1speed.com/austin-location.html
+- K1 Speed Houston (k1-speed-houston, United States) — 21.1 km; OSM leisure/sports_centre "K1 Speed" (query "K1 Speed Houston, Houston")
+- K1 Speed Karting San Antonio (k1-speed-karting-san-antonio, United States) — 13.3 km; OSM leisure/sports_centre "K1 Speed" (query "K1, San Antonio")
+- K1 Speed Manassas (k1-speed-manassas, United States) — 3.5 km; OSM leisure/sports_centre "K1 Speed" (query "K1 Speed Manassas, Manassas")
+- K1 Speed Seattle (Redmond) (k1-speed-seattle-redmond, United States) — 4.5 km; coordinates on https://www.k1speed.com/seattle-location.html
+- Karting Orlando at Dezerland Park (karting-orlando-at-dezerland-park, United States) — 10.5 km; OSM shop/mall "Dezerland Park Orlando" (query "Dezerland Park, Orlando")
+- Las Vegas Mini Grand Prix (las-vegas-mini-grand-prix, United States) — 8.8 km; OSM tourism/theme_park "Las Vegas Mini Grand Prix Family Fun Center" (query "Las Vegas Mini Grand Prix")
+- Lone Star Kartpark (lone-star-kartpark, United States) — 31.2 km; OSM highway/raceway "Lone Star Kartpark" (query "Lone Star Kartpark, Fort Worth")
+- MSR Houston (msr-houston, United States) — 12.1 km; OSM landuse/recreation_ground "Motor Speedway Resort Houston" (query "MSR Houston, Angleton")
+- MSR Houston Karting (msr-houston-karting, United States) — 12.1 km; OSM landuse/recreation_ground "Motor Speedway Resort Houston" (query "MSR Houston, Angleton")
+- NCM Kartplex at NCM Motorsports Park (ncm-kartplex-at-ncm-motorsports-park, United States) — 6.7 km; OSM leisure/sports_centre "NCM Motorsports Park" (query "NCM Motorsports Park, Bowling Green")
+- NCM Motorsports Park (ncm-motorsports-park, United States) — 6.7 km; OSM leisure/sports_centre "NCM Motorsports Park" (query "NCM Motorsports Park, Bowling Green")
+- Need 2 Speed (need-2-speed, United States) — 7.5 km; OSM leisure/sports_centre "Need 2 Speed" (query "Need 2 Speed, Reno")
+- Orlando Kart Center (orlando-kart-center, United States) — 14.6 km; OSM leisure/track "Orlando Kart Center" (query "Orlando Kart Center")
+- Pineview Run (pineview-run, United States) — 6.4 km; OSM highway/raceway "Pineview Run" (query "Pineview Run")
+- Six Flags Speedway Go Karts (six-flags-speedway-go-karts, United States) — 4.3 km; OSM tourism/attraction "Six Flags Speedway Go Karts" (query "Six Flags Speedway Go Karts, Arlington")
+- Speedy's Fast Track (speedys-fast-track, United States) — 12.2 km; OSM tourism/theme_park "Speedy's Fast Track" (query "Speedy's Fast Track, Houston")
+- Vegas Superkarts at SPEEDVEGAS (vegas-superkarts-at-speedvegas, United States) — 26.6 km; OSM leisure/sports_centre "SpeedVegas" (query "SPEEDVEGAS")
+- Virginia International Raceway (virginia-international-raceway, United States) — 18.2 km, city (none) → Halifax County; OSM leisure/sports_centre "Virginia International Raceway" (query "Virginia International Raceway")
+
+## Pin verified in place (7)
+
+- Indoor-Kartbahn Sachsenring (indoor-kartbahn-sachsenring, Germany) — coordinates on https://www.sachsenring.de/spass-action/selbst-fahren/sachsenring-indoor-kart/
+- Verkehrssicherheitszentrum & Sachsenring GmbH & Co. KG (verkehrssicherheitszentrum-and-sachsenring-gmbh-and-co-kg, Germany) — coordinates on https://sachsenring.de
+- Biķernieku Karting Hall (bikernieku-karting-hall, Latvia) — shares the verified site of Biķernieku Kartinga Halle
+- Biķernieku Kartinga Halle (bikernieku-kartinga-halle, Latvia) — leisure/sports_centre "Biķernieku Kartinga halle" (query "Biķernieku Kartinga Halle, Riga")
+- AP Café INDOOR-RACING (ap-cafe-indoor-racing, Switzerland) — amenity/restaurant "AP Café Indoor-Racing" (query "AP Café INDOOR-RACING, Wittenwil")
+- Brands Hatch Circuit (brands-hatch-circuit, United Kingdom) — coordinates on https://www.brandshatch.co.uk/
+- SIM Motorsport Brands Hatch (sim-motorsport-brands-hatch, United Kingdom) — leisure/sports_centre "Brands Hatch Circuit" (query "Brands Hatch, Sevenoaks")

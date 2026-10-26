@@ -14,6 +14,10 @@
  * anything hand-added there would get wiped, so cover photos live in their
  * own persistent file instead.
  *
+ * Also applies data/import/location-fixes.csv (see sync-location-fixes.ts)
+ * the same way: re-located pins override the review.csv coordinates, and
+ * venues that couldn't be located confidently are left out.
+ *
  * Run: npm run import:load
  */
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -23,6 +27,7 @@ import "dotenv/config";
 import { listingSchema } from "../../lib/validation/listing";
 import type { Category, Listing } from "../../lib/types";
 import { normalizeCountry } from "../../lib/countryNames";
+import { loadLocationFixes, type LocationFixRow } from "./sync-location-fixes";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
 const COVER_IMAGES_FILE = path.join(process.cwd(), "data", "import", "cover-images.csv");
@@ -67,7 +72,18 @@ function loadCoverImages(): Map<string, string> {
   return bySlug;
 }
 
-function toListing(row: ReviewRow, id: string, coverImages: Map<string, string>): Listing | null {
+function toListing(
+  row: ReviewRow,
+  id: string,
+  coverImages: Map<string, string>,
+  locationFixes: Map<string, LocationFixRow>
+): Listing | null {
+  const fix = locationFixes.get(row.slug);
+  if (fix?.action === "drop") return null;
+  if (fix?.action === "fix") {
+    row = { ...row, lat: fix.lat, lng: fix.lng, address: fix.address || row.address, city: fix.city || row.city };
+  }
+
   const categories = row.categories
     .split("|")
     .map((c) => c.trim())
@@ -120,10 +136,11 @@ async function main() {
   const content = readFileSync(REVIEW_FILE, "utf-8");
   const rows = parse(content, { columns: true, skip_empty_lines: true }) as ReviewRow[];
   const coverImages = loadCoverImages();
+  const locationFixes = loadLocationFixes();
 
   const listings: Listing[] = [];
   rows.forEach((row, index) => {
-    const listing = toListing(row, String(index + 1), coverImages);
+    const listing = toListing(row, String(index + 1), coverImages, locationFixes);
     if (listing) listings.push(listing);
   });
 
