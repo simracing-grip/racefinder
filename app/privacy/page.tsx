@@ -47,6 +47,12 @@ export default function PrivacyPage() {
             use cookies and doesn&apos;t track you individually across sites.
           </p>
           <p>
+            If you use the form on our contact page, we store what you send (including your email
+            address) so we can review it and reply, and delete it once it&apos;s been dealt with. To
+            limit spam we also keep a one-way hash of your IP address that changes every day; the IP
+            address itself isn&apos;t stored.
+          </p>
+          <p>
             If you email us directly, we keep that email thread to respond to you and don&apos;t use
             it for anything else.
           </p>

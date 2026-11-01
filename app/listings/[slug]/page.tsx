@@ -13,7 +13,7 @@ import SeriesBadge from "@/components/Calendar/SeriesBadge";
 import Countdown from "@/components/Home/Countdown";
 import AddToCalendar from "@/components/Calendar/AddToCalendar";
 import SaveButton from "@/components/Garage/SaveButton";
-import { CONTACT_EMAIL, SITE_URL } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
 import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
@@ -99,11 +99,8 @@ export default async function ListingDetailPage({
       })),
   };
 
-  // Pre-filled so the report always says which venue it's about.
-  const pageUrl = `${SITE_URL}/listings/${listing.slug}`;
-  const reportHref = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
-    `Problem with listing: ${listing.name}`,
-  )}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong (closed, moved, wrong location, wrong details...):\n\n`)}`;
+  // Opens the contact form pre-filled for this venue.
+  const reportHref = `/contact?kind=correction&venue=${encodeURIComponent(listing.slug)}`;
 
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
@@ -232,7 +229,7 @@ export default async function ListingDetailPage({
               <p className="font-display text-lg font-bold uppercase italic text-white">Run this venue?</p>
               <p className="mt-1">
                 Claiming listings is coming soon. Until then,{" "}
-                <Link href="/contact" className="link-accent">
+                <Link href={`/contact?kind=owner&venue=${encodeURIComponent(listing.slug)}`} className="link-accent">
                   send us corrections, photos or events
                 </Link>
                 .

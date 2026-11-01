@@ -1,22 +1,29 @@
 import type { Metadata } from "next";
 import { CONTACT_EMAIL } from "@/lib/site";
 import PageHeader from "@/components/UI/PageHeader";
+import SubmissionForm from "@/components/Contact/SubmissionForm";
+import { getListingBySlug } from "@/lib/listings";
+import { SUBMISSION_KINDS, type SubmissionKind } from "@/lib/validation/submission";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Contact",
-  description: "Get in touch about a listing correction, a new venue, or anything else.",
+  description: "Add a missing karting track, circuit or sim venue, fix a listing, or update the venue you run.",
   path: "/contact",
 });
 
-const reasons = [
-  { label: "Report incorrect listing details", hint: "wrong address, hours, contact info, etc." },
-  { label: "Suggest a venue that's missing", hint: "include the name, city, and category" },
-  { label: "Claim or update your venue's listing", hint: "let us know you're the operator" },
-  { label: "Anything else", hint: "feedback, bugs, questions" },
-];
+// /contact?kind=correction&venue=<slug> (from a venue page) pre-fills the form.
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const sp = await searchParams;
+  const kindParam = typeof sp.kind === "string" ? sp.kind : undefined;
+  const kind = SUBMISSION_KINDS.find((k) => k === kindParam) as SubmissionKind | undefined;
+  const listing = typeof sp.venue === "string" ? await getListingBySlug(sp.venue) : undefined;
+  const venue = listing && { slug: listing.slug, name: listing.name, city: listing.city, country: listing.country };
 
-export default function ContactPage() {
   return (
     <div>
       <PageHeader
@@ -27,29 +34,20 @@ export default function ContactPage() {
           { href: "/contact", label: "Contact" },
         ]}
       >
-        RaceFinder doesn&apos;t have a support form yet &mdash; email is the fastest way to reach us.
+        Add a venue we&apos;re missing, fix a listing, or update the venue you run. Every message is checked by
+        hand before anything changes on the site.
       </PageHeader>
 
       <div className="mx-auto max-w-3xl px-4 pt-10">
-        <a
-          href={`mailto:${CONTACT_EMAIL}`}
-          className="btn-skew inline-flex items-center gap-2 bg-signal px-7 py-4 font-display text-2xl font-black italic text-white transition hover:bg-white hover:text-ink"
-        >
-          {CONTACT_EMAIL} <span aria-hidden>&rarr;</span>
-        </a>
+        <SubmissionForm initialKind={kind} venue={venue} />
 
-        <h2 className="mt-12 mb-4 font-display text-sm font-bold uppercase tracking-[0.25em] text-gray-500">
-          What to reach out about
-        </h2>
-        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {reasons.map((r, i) => (
-            <li key={r.label} className="border border-white/10 bg-asphalt p-4">
-              <p className="font-mono text-xs text-signal">{String(i + 1).padStart(2, "0")}</p>
-              <p className="mt-1 font-semibold text-white">{r.label}</p>
-              <p className="mt-0.5 text-sm text-gray-400">{r.hint}</p>
-            </li>
-          ))}
-        </ul>
+        <p className="mt-6 text-sm text-gray-400">
+          Something else &mdash; feedback, a bug, a question? Email{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="link-accent">
+            {CONTACT_EMAIL}
+          </a>
+          .
+        </p>
       </div>
     </div>
   );
