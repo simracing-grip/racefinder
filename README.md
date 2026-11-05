@@ -4,8 +4,8 @@ A directory + map of sim racing centers, track day circuits, and karting tracks,
 starting with Europe. Next.js + Tailwind now, with Supabase (Postgres + Auth)
 and Drizzle scaffolded in for when accounts/payments/moderation get added.
 
-Full plan: see the project plan doc from the planning session (roadmap, data
-model rationale, and phased monetization approach).
+Full plan and live status: see [PLAN.md](PLAN.md), kept current by the
+`team-lead` agent (`.claude/agents/team-lead.md`).
 
 ## Running locally
 
