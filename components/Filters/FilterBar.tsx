@@ -43,11 +43,13 @@ export default function FilterBar({
   onCountryChange?: (country: string) => void;
 }) {
   const router = useRouter();
-  const pathname = usePathname();
+  // Typed nullable because pages/500.tsx puts a Pages Router in the build;
+  // always set here (App Router).
+  const pathname = usePathname() ?? "/";
   const searchParams = useSearchParams();
   const controlled = !!onCategoryChange;
 
-  const activeCountry = controlled ? country ?? "" : searchParams.get("country") ?? "";
+  const activeCountry = controlled ? country ?? "" : searchParams?.get("country") ?? "";
   const countryQuery = !controlled && activeCountry ? `?country=${encodeURIComponent(activeCountry)}` : "";
 
   function updateCountry(value: string) {
@@ -55,7 +57,7 @@ export default function FilterBar({
       onCountryChange?.(value);
       return;
     }
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(searchParams?.toString());
     if (value) {
       params.set("country", value);
     } else {

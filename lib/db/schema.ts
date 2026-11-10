@@ -103,6 +103,36 @@ export const leads = pgTable("leads", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
+export const submissionKindEnum = pgEnum("submission_kind", ["new_venue", "correction", "owner"]);
+
+export const submissionStatusEnum = pgEnum("submission_status", ["new", "accepted", "rejected", "spam"]);
+
+// What visitors send through the /contact form: a missing venue, a
+// correction to a listing, or an operator wanting their listing updated.
+// Kept out of `listings` on purpose — nothing here is ever shown on the site
+// until someone reviews it (Supabase table editor, status column) and adds
+// it through the normal import, and sync-to-supabase.ts archives any
+// non-archived listings row the import doesn't know about.
+export const submissions = pgTable("submissions", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  kind: submissionKindEnum("kind").notNull(),
+  status: submissionStatusEnum("status").notNull().default("new"),
+  // Set for corrections/owner requests that started from a venue page.
+  venueSlug: text("venue_slug"),
+  venueName: text("venue_name").notNull(),
+  categories: text("categories").array(),
+  city: text("city"),
+  country: text("country"),
+  websiteUrl: text("website_url"),
+  message: text("message").notNull(),
+  contactName: text("contact_name"),
+  contactEmail: text("contact_email").notNull(),
+  // Daily-rotating hash of the sender's IP, only for rate limiting — the IP
+  // itself is never stored.
+  ipHash: text("ip_hash"),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
 // Reserved for Phase 3 (paid featured listings via Stripe).
 export const subscriptions = pgTable("subscriptions", {
   id: uuid("id").defaultRandom().primaryKey(),

@@ -66,6 +66,9 @@ export default function AddToCalendar({
           <a
             role="menuitem"
             href={googleCalendarUrl(event, siteUrl)}
+            data-track="Add to calendar"
+            data-track-method="google"
+            data-track-series={event.series}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
@@ -73,7 +76,16 @@ export default function AddToCalendar({
           >
             Google Calendar <span className="ml-auto text-gray-500" aria-hidden>&#8599;</span>
           </a>
-          <a role="menuitem" href={`/calendar/event/${eventId(event)}.ics`} download onClick={() => setOpen(false)} className={item}>
+          <a
+            role="menuitem"
+            href={`/calendar/event/${eventId(event)}.ics`}
+            download
+            data-track="Add to calendar"
+            data-track-method="ics"
+            data-track-series={event.series}
+            onClick={() => setOpen(false)}
+            className={item}
+          >
             Apple / Outlook (.ics) <span className="ml-auto text-gray-500" aria-hidden>&darr;</span>
           </a>
         </div>

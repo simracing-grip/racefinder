@@ -18,9 +18,19 @@
   --color-signal-deep: #c40d0d;
   --color-timing: #ffd400;
 
+  /* Lifted from Tailwind's defaults: these are only used for secondary text,
+     and the stock shades fell below WCAG AA contrast (4.5:1) on the
+     asphalt/panel backgrounds (gray-500 ~4:1, gray-600 ~2.5:1). */
+  --color-gray-500: #848c9b;
+  --color-gray-600: #7a8292;
+
   --animate-marquee: marquee 60s linear infinite;
   --animate-pulse-dot: pulse-dot 1.6s ease-out infinite;
   --animate-rise: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  /* Same motion without the fade, for the hero headline/intro: browsers skip
+     opacity:0 elements when timing Largest Contentful Paint, so fading the
+     page's biggest text in delayed LCP on slow phones. */
+  --animate-rise-solid: rise-solid 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 
   @keyframes marquee {
     from {
@@ -36,6 +46,14 @@
     }
     100% {
       box-shadow: 0 0 0 10px rgb(255 42 42 / 0);
+    }
+  }
+  @keyframes rise-solid {
+    from {
+      transform: translateY(18px);
+    }
+    to {
+      transform: translateY(0);
     }
   }
   @keyframes rise {

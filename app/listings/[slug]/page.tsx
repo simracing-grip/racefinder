@@ -81,7 +81,26 @@ export default async function ListingDetailPage({
     },
     url: listing.websiteUrl,
     telephone: listing.phone,
+    image: listing.coverImageUrl,
+    sameAs: [listing.instagramUrl, listing.facebookUrl, listing.tiktokUrl].filter(Boolean),
+    // Upcoming race weekends as schema.org events, so search engines can show
+    // them as event results for the venue.
+    event: (listing.events ?? [])
+      .filter((e) => (e.endDate ?? e.startDate) >= new Date().toISOString().slice(0, 10))
+      .map((e) => ({
+        "@type": "SportsEvent",
+        name: e.name,
+        startDate: e.startDate,
+        endDate: e.endDate ?? e.startDate,
+        eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+        location: { "@type": "Place", name: listing.name, address: listing.address || listing.country },
+        ...(e.sourceUrl ? { url: e.sourceUrl } : {}),
+      })),
   };
+
+  // Opens the contact form pre-filled for this venue.
+  const reportHref = `/contact?kind=correction&venue=${encodeURIComponent(listing.slug)}`;
 
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
@@ -100,7 +119,8 @@ export default async function ListingDetailPage({
     <div className="pb-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        // Escape "<" so a venue name or description can't close the script tag.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
 
       <PageHeader
@@ -118,6 +138,8 @@ export default async function ListingDetailPage({
             {listing.websiteUrl && (
               <a
                 href={listing.websiteUrl}
+                data-track="Visit website"
+                data-track-venue={listing.slug}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-skew inline-flex items-center gap-2 bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
@@ -127,6 +149,8 @@ export default async function ListingDetailPage({
             )}
             <a
               href={googleMapsUrl(listing)}
+              data-track="Directions"
+              data-track-venue={listing.slug}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-white/20 px-5 py-3 font-display text-lg font-bold uppercase italic text-white transition hover:border-white"
@@ -205,12 +229,24 @@ export default async function ListingDetailPage({
               <p className="font-display text-lg font-bold uppercase italic text-white">Run this venue?</p>
               <p className="mt-1">
                 Claiming listings is coming soon. Until then,{" "}
-                <Link href="/contact" className="link-accent">
+                <Link href={`/contact?kind=owner&venue=${encodeURIComponent(listing.slug)}`} className="link-accent">
                   send us corrections, photos or events
                 </Link>
                 .
               </p>
             </div>
+            <a
+              href={reportHref}
+              data-track="Report problem"
+              data-track-venue={listing.slug}
+              className="flex items-center justify-between gap-3 border border-white/10 bg-panel p-4 text-sm text-gray-400 transition hover:border-white/30 hover:text-white"
+            >
+              <span>
+                <span className="block font-semibold text-white">Something wrong here?</span>
+                Closed, moved, wrong pin or details &mdash; report a problem
+              </span>
+              <span aria-hidden>&rarr;</span>
+            </a>
           </div>
         </div>
 

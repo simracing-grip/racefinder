@@ -89,9 +89,13 @@ async function main() {
           description: sql`excluded.description`,
           coverImageUrl: sql`excluded.cover_image_url`,
           googleMapsUrl: sql`excluded.google_maps_url`,
-          indoorOutdoor: sql`excluded.indoor_outdoor`,
-          trackLengthM: sql`excluded.track_length_m`,
-          details: sql`excluded.details`,
+          // These three are filled in Postgres by sync-track-details.ts, not
+          // by the import, so the JSON usually has nothing for them. Keep the
+          // database's value unless the JSON actually sets one — overwriting
+          // with null here is what kept wiping every track length.
+          indoorOutdoor: sql`coalesce(excluded.indoor_outdoor, ${listingsTable.indoorOutdoor})`,
+          trackLengthM: sql`coalesce(excluded.track_length_m, ${listingsTable.trackLengthM})`,
+          details: sql`coalesce(excluded.details, ${listingsTable.details})`,
           featured: sql`excluded.featured`,
         },
       });

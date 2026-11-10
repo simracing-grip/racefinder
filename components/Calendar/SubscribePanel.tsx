@@ -41,13 +41,13 @@ export default function SubscribePanel({ series, siteUrl }: { series: EventSerie
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <a href={links.google} target="_blank" rel="noopener noreferrer" className={btn}>
+          <a href={links.google} target="_blank" rel="noopener noreferrer" className={btn} data-track="Calendar subscribe" data-track-method="google" data-track-series={series}>
             Google Calendar
           </a>
-          <a href={links.webcal} className={btn}>
+          <a href={links.webcal} className={btn} data-track="Calendar subscribe" data-track-method="webcal" data-track-series={series}>
             Apple / Outlook
           </a>
-          <button type="button" onClick={copy} className={btn}>
+          <button type="button" onClick={copy} className={btn} data-track="Calendar subscribe" data-track-method="copy" data-track-series={series}>
             {copied ? "Link copied ✓" : "Copy link"}
           </button>
         </div>

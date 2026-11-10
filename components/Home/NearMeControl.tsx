@@ -26,6 +26,7 @@ export default function NearMeControl({
       <button
         type="button"
         onClick={onToggle}
+        data-track={active ? undefined : "Near me"}
         aria-pressed={active}
         className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-semibold transition ${
           active ? "bg-signal text-white" : "bg-white/5 text-gray-300 hover:bg-white/10"

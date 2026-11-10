@@ -13,8 +13,8 @@ import { pageMetadata } from "@/lib/seo";
 export const revalidate = 300;
 
 export const metadata = pageMetadata({
-  title: "World map",
-  description: "Every karting track, track day circuit, sim racing center and F1 circuit in RaceFinder on one interactive map.",
+  title: "Map of Karting Tracks, Race Circuits & Sim Centers",
+  description: "Find karting tracks, track day circuits, sim racing centers and F1 circuits near you — thousands of venues worldwide on one interactive map.",
   path: "/map",
 });
 

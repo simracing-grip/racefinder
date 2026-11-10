@@ -39,7 +39,7 @@ export default async function HomePage() {
 
   return (
     <div className="pb-4">
-      <Hero venueCount={listings.length} countries={countries} countryCodes={countryCodes} raceCount={events.length} />
+      <Hero venueCount={listings.length} countries={countries} countryCodes={countryCodes} events={events} />
       <RaceTicker events={events} />
 
       <div className="mt-20 space-y-24">

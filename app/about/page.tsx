@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "About",
-  description: "Why RaceFinder exists and how the directory is put together.",
+  description: "Why RaceFinder exists, where the venue data comes from, and how listings are checked and kept up to date.",
   path: "/about",
 });
 
