@@ -6,7 +6,7 @@ reads this before any work, reconciles it against git, PRs and agent output,
 and keeps it current. Edit it freely. The team lead edits in place and keeps
 your changes.
 
-Last reviewed: 2026-11-06
+Last reviewed: 2026-11-10
 
 ## Goal
 
@@ -18,9 +18,11 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **Rescue 34 dropped venues**: branch `claude/rescue-dropped-venues` (1
-  commit, 2026-11-02, **no PR**). Next: open the PR, merge it (needs the
-  user's yes), sync, then `db:snapshot`.
+- **Rescue 34 dropped venues**: PR #14 (`claude/rescue-dropped-venues`).
+  It merges cleanly into master: 3,183 → 3,217 venues, no duplicates, photos
+  kept. Next: merge (needs the user's yes), run
+  `npx tsx data/import/sync-to-supabase.ts`, then `db:snapshot` and a PR for
+  the snapshot.
 - **Licensed photo run, remaining batches**: batches 05, 10 and 11 are
   partial and 12 is not started (`data/import/photos/batches/`). After it
   finishes: `apply-photo-run.ts`, then sync, then `db:snapshot`.
@@ -65,7 +67,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| `claude/rescue-dropped-venues` (no PR) | Restore 34 venues with confirmed locations | PR → merge → sync → snapshot | 4 days |
+| PR #14 `claude/rescue-dropped-venues` | Restore 34 venues with confirmed locations | merge → sync → snapshot | opened 2026-11-10 |
 
 ## Agent roster
 
@@ -100,3 +102,8 @@ error and analytics monitoring that actually receives data.
 - **2026-11-06**: Plan created. It is seeded from git (PRs #2–#12 merged,
   master at `a197bdd`), the photo batch files, and the launch notes. One
   unmerged branch has no PR: `claude/rescue-dropped-venues`.
+- **2026-11-10**: PR #13 (team-lead agent and PLAN.md) merged as `de8cf75`.
+  PR #14 opened for the 34 rescued venues; a test merge with master gives
+  3,217 venues, no duplicate slugs or ids, and all 368 photos kept. One
+  rescued venue (`the-race-lounge-star-city-birmingham`) brings back a photo
+  from the venue's own site, which is in the licensing-risk group.
