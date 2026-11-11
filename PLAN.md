@@ -18,14 +18,10 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **Second round of pre-launch fixes in review (2026-11-11).** #18–#27 and
-  #29 are merged and live. Open, none merged:
-  - #28 113 misplaced pins moved (**live in Postgres**), Wikidata + OSM.
-  - #32 37 more licensed circuit photos (**live**), stacked on #28.
-  - #30 full Content-Security-Policy, CI (lint + build on every PR), and a
-    fix for link-preview images failing when Google Fonts is unreachable.
-  - #31 "Website checked <date>" on 1,043 listing pages.
-  Merge order: #28 → #32; #30 and #31 any order (#31 gets CI once #30 is in).
+- **#34 in review**: second pin pass (36 more pins fixed, Arizona Motorsports
+  Park archived, Albany duplicate merged; all **live in Postgres**) and
+  `npm test` (helper + data-integrity tests) in CI. #28 and #30–#33 are
+  merged and live.
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -34,11 +30,14 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 81 circuits, 254 karting/sim**
-  (`data/import/pin-check-2026-11-11.md`). Many circuit rows have an OSM
-  lead ("OSM <name> N km away") that a short manual pass can settle; the
-  karting/sim rows need Nominatim (`relocate-approximate-venues.ts
-  --suspects`) spread over days (rule 8), or a paid geocoder (user's call).
+- **Pins still to review: 48 circuits, 254 karting/sim**
+  (`data/import/pin-check-2026-11-11.md`). The circuits got three checks
+  (Wikidata+OSM, OSM name, Nominatim) and need a manual look. The
+  karting/sim rows can go through Nominatim (`relocate-approximate-venues.ts
+  --suspects data/import/pin-fixes-osm-other.csv` rows with action=review)
+  spread over days (rule 8), or a paid geocoder (user's call).
+- Look at the 90 hits of `find-name-town-mismatches.ts`: most are suburbs,
+  but the first pass found 6 pins 6–200 km off this way.
 - Set `NEXT_PUBLIC_SITE_URL` and the real domain and contact email (code falls
   back to the Vercel URL).
 - Photo upload on the Add-your-venue form. The form itself is live (PR #12);
@@ -49,13 +48,14 @@ error and analytics monitoring that actually receives data.
 ### Before launch (should fix)
 - Self-host the 263 Wikimedia cover photos (they load from
   upload.wikimedia.org, which rate-limits generic clients).
-- Look over the 10 new cover photos that weren't checked by eye (listed in #32).
 - Main checkout: local `master` is behind origin, with uncommitted
   dependency upgrades (Next unpinned to `^16.4.2`). Discard them rather than
   upgrade Next before launch.
 - Manual accessibility pass for what axe can't check: screen-reader flow on
   the map, focus order in the search palette.
-- Tests: CI only lints and builds (#30); no unit or end-to-end tests yet.
+- Tests: unit + data-integrity tests run in CI (#34); no end-to-end tests yet.
+- Add Le Mans Karting International (Circuit Alain Prost) as a venue, then
+  relink the 2026 FIA Karting World Championship KZ round to it.
 
 ### Blocked / needs the user
 - Supabase free tier auto-pauses after inactivity (it took the site down on
@@ -94,11 +94,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #28 `claude/fix-misplaced-pins` | 113 pins moved (live) | merge | 2026-11-11 |
-| PR #32 `claude/photo-run-finish` | 37 circuit photos (live), stacked on #28 | merge after #28 | 2026-11-11 |
-| PR #30 `claude/csp-and-ci` | Full CSP, CI, OG font fallback | merge | 2026-11-11 |
-| PR #31 `claude/website-checked-date` | "Website checked" date on listings | merge | 2026-11-11 |
-| this PR `claude/plan-update-2026-11-11b` | This plan update | merge | 2026-11-11 |
+| PR #34 `claude/circuit-pin-review` | Second pin pass (live), data tests in CI, this plan update | merge | 2026-11-11 |
 
 ## Agent roster
 
@@ -195,3 +191,12 @@ error and analytics monitoring that actually receives data.
   - "Website checked" date (#31) from the website check, no DB change.
   - Wikimedia also rate-limits generic clients (429 on thumbnails); keep
     bulk image fetches slow, like rule 8.
+- **2026-11-11 (evening)**: #28, #30–#33 merged; production checked (CSP
+  header, Sebring's new address, Salzburgring photo, OG images, CI green).
+  Then #34: 13 circuits by OSM name match, 17 by Nominatim (its limit had
+  cleared), 6 by hand from the new `find-name-town-mismatches.ts` (pins
+  in a same-named place elsewhere: Circuit Bugatti, Speed Park Le Mans,
+  Mores, Abruzzo, Varano, Cairns). Arizona Motorsports Park archived
+  (sold, last event March 2025). Albany duplicate merged. All 37 new cover
+  photos now checked by eye. `npm test` added; it caught a calendar event
+  linking a venue that doesn't exist. Published: 3,173.

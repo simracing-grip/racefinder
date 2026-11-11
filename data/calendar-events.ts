@@ -4121,7 +4121,7 @@ export const CALENDAR_EVENTS: CalendarEvent[] = [
     endDate: "2026-09-20",
     season: 2026,
     sourceUrl: "https://www.kartcom.com/en/news/2025/10/20/2026-fia-karting-calendar-approved-by-the-world-motor-sport-council/",
-    listingSlug: "le-mans-karting-international",
+    // No listing for this circuit yet (Circuit Alain Prost, Le Mans), so no link.
   },
   {
     series: "wkc",

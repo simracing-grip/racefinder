@@ -13,7 +13,8 @@
     "import:sync-credits": "tsx data/import/sync-photo-credits.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:snapshot": "tsx data/import/export-listings-snapshot.ts"
+    "db:snapshot": "tsx data/import/export-listings-snapshot.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@sentry/nextjs": "^11.0.0",
