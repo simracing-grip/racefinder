@@ -31,6 +31,7 @@ checkout.
 | Parse raw lists (Google Takeout, manual address lists, scout CSVs) into `review.csv` | `npm run import:parse` |
 | Load `review.csv` into `data/generated-listings.json` and Postgres | `npm run import:load` |
 | Corrections that survive a re-import | `location-fixes.csv`, `address-fixes.csv` and `cover-images.csv`, read by `import-to-db.ts` and applied with the matching `sync-*.ts` script |
+| "Website checked" dates on listing pages, after `check-venue-websites.ts` or new website fixes | `npx tsx data/import/sync-website-checked.ts` (writes `data/website-checked.ts`) |
 | Social links, photo credits, track details | `npm run import:sync-social`, `npm run import:sync-credits`, `sync-track-details.ts` |
 | Refresh the outage fallback after any sync | `npm run db:snapshot`, then commit `data/listings-snapshot.json` |
 
