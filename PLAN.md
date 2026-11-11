@@ -21,6 +21,13 @@ error and analytics monitoring that actually receives data.
 - **Licensed photo run, remaining batches**: batches 05, 10 and 11 are
   partial and 12 is not started (`data/import/photos/batches/`). After it
   finishes: `apply-photo-run.ts`, then sync, then `db:snapshot`.
+- **Race calendar 2027**: PR #23 adds 174 official rounds across 14 series,
+  including Formula E 2026–27, which starts 18 Dec 2026. Step left: merge
+  (needs the user's yes).
+  F2, F3, F4, Porsche Supercup, WKC, WRC2, TCR Europe, TCR World Tour,
+  Super GT and Super Formula have not published exact 2027 dates yet.
+  12 WRC rounds and 3 Junior WRC rounds have dates but no host city yet,
+  and BTCC Oulton Park has conflicting dates. These are held back.
 
 ### Next (launch blockers)
 - **Wrong venue addresses.** Many addresses start with the nearest unrelated
@@ -28,9 +35,7 @@ error and analytics monitoring that actually receives data.
   "Hotel Motodrom", Sebring "Gavaghan's Irish Pub", Kartplex "Subway"). At
   least 74 are obvious and about 1,000 more need a look. They show on the
   page and in the JSON-LD. Pins are fine; Directions uses lat/lng.
-- **Race calendar empties in December.** Only F1 has 2027 dates. 24 of 25
-  series have no races after early December, and Formula E 2026–27 is
-  missing. Run calendar-scout for 2027.
+- **Race calendar empties in December.** In review as PR #23 (see *Now*).
 - **Form submissions notify nobody.** They go to the `submissions` table
   with no email or alert. Add a notification and a review routine.
 - **Privacy policy gaps (GDPR).** Doesn't mention Sentry, Supabase,
@@ -104,6 +109,7 @@ error and analytics monitoring that actually receives data.
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
 | `claude/pre-launch-review-3a9d12` | Pre-launch review findings added to this plan | merge | opened 2026-11-11 |
+| PR #23 `claude/quizzical-lumiere-30aede` | 2027 race calendars and Formula E 2026–27 (174 events) | merge | opened 2026-11-11 |
 
 ## Agent roster
 
@@ -115,7 +121,7 @@ error and analytics monitoring that actually receives data.
 | venue-verifier | Checking listings still operate | 2026-09-15 | `verification-report-2026-09-15.md` | Re-verify before launch (report is 7+ weeks old) |
 | venue-photo-finder | Licensed cover photos | 2026-10 | `photos/batches/batch-11*` | Finish batches 05, 10, 11 and 12 |
 | venue-social-finder | Instagram, Facebook and TikTok links | 2026-09-27 | `social-links.csv` | None planned |
-| calendar-scout | Race calendars → `data/calendar-events.ts` | 2026-10-26 | `calendar-events.ts` (2027 F1) | **Before launch:** add the 2027 calendars of the other series, and Formula E 2026–27 |
+| calendar-scout | Race calendars → `data/calendar-events.ts` | 2026-11-11 | `calendar-events.ts` (2027 for 14 series and Formula E 2026–27, PR #23) | Merge PR #23. Around Jan 2027, re-run for the unpublished series, the 12 WRC and 3 Junior WRC host cities, and BTCC Oulton Park |
 
 ## Standing rules
 
@@ -156,3 +162,15 @@ error and analytics monitoring that actually receives data.
   submissions that notify nobody, privacy policy gaps, and thin listings. It
   also added a "Before launch (should fix)" list. The report-a-problem link
   was already live, so only "last verified" is left from that item.
+- **2026-11-11**: calendar-scout ran in four batches for the 2027 calendars.
+  PR #23 adds 174 events to `data/calendar-events.ts` (316 → 490). Each
+  series was checked against its official page.
+  - Series added: Formula E 2026–27 (21), MotoGP (22), WEC (9), ELMS (6),
+    IMSA (11), GT World Challenge Europe (10), GT4 European Series (6),
+    DTM (8), BTCC (9), WRC (3), Junior WRC (2), NASCAR (36), IndyCar (17),
+    Supercars (14).
+  - Ten series have no published 2027 dates yet; they are listed in the PR.
+  - Checks: no duplicate event ids, every `listingSlug` exists, and
+    `next build` passes locally.
+  - Pre-existing: the 2026 WKC Le Mans entry links a slug that isn't a
+    listing (`le-mans-karting-international`).
