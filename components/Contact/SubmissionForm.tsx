@@ -229,7 +229,7 @@ export default function SubmissionForm({
         <button
           type="submit"
           disabled={pending}
-          className="btn-skew inline-flex items-center gap-2 bg-signal px-7 py-3 font-display text-xl font-black uppercase italic text-white transition hover:bg-white hover:text-ink disabled:opacity-60"
+          className="btn-skew inline-flex items-center gap-2 bg-signal-solid px-7 py-3 font-display text-xl font-black uppercase italic text-white transition hover:bg-white hover:text-ink disabled:opacity-60"
         >
           {pending ? "Sending…" : "Send"} <span aria-hidden>&rarr;</span>
         </button>

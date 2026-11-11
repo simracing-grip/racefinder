@@ -22,7 +22,7 @@ export default function Error({ error, retry }: { error: unknown; retry: () => v
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         <button
           onClick={retry}
-          className="btn-skew bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
+          className="btn-skew bg-signal-solid px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
         >
           Try again
         </button>

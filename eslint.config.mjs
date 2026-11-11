@@ -16,6 +16,8 @@ const eslintConfig = defineConfig([
     // components/Map/MapLibreMap.tsx for why), not source to lint.
     "public/maplibre-gl-worker.mjs",
     "public/maplibre-gl-shared.mjs",
+    // Other Claude Code worktrees and their build output.
+    ".claude/**",
   ]),
 ]);
 

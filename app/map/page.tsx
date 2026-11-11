@@ -4,7 +4,7 @@ import MapView from "@/components/Map/MapView";
 import PageHeader from "@/components/UI/PageHeader";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import { CATEGORIES } from "@/lib/types";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import { toSummaries } from "@/lib/listingSummary";
 import { pageMetadata } from "@/lib/seo";
 
@@ -41,7 +41,7 @@ export default async function MapPage() {
               href={`/category/${c.value}`}
               className="inline-flex items-center gap-2 border border-white/10 bg-asphalt px-3 py-1.5 text-sm font-semibold text-gray-300 transition hover:border-white/30 hover:text-white"
             >
-              <span style={{ color: CATEGORY_COLOR[c.value] }}>
+              <span style={{ color: CATEGORY_TEXT_COLOR[c.value] }}>
                 <CategoryIcon category={c.value} className="h-4 w-4" />
               </span>
               {c.label}

@@ -71,21 +71,23 @@ export default function Hero({
           <HeroTrack className="w-full drop-shadow-[0_30px_60px_rgba(255,42,42,0.15)]" />
 
           {/* timing-tower readout over the circuit */}
-          <dl className="absolute bottom-0 right-0 hidden w-56 border border-white/10 bg-ink/85 font-mono text-sm backdrop-blur sm:block">
-            <div className="flex items-center justify-between border-b border-white/10 bg-signal px-3 py-1.5 font-display text-sm font-extrabold uppercase italic tracking-wide text-white">
+          <div className="absolute bottom-0 right-0 hidden w-56 border border-white/10 bg-ink/85 font-mono text-sm backdrop-blur sm:block">
+            <div className="flex items-center justify-between border-b border-white/10 bg-signal-solid px-3 py-1.5 font-display text-sm font-extrabold uppercase italic tracking-wide text-white">
               <span>RaceFinder</span>
-              <span className="text-white/80">Live</span>
+              <span>Live</span>
             </div>
-            {stats.map((s, i) => (
-              <div key={s.label} className="flex items-center justify-between border-b border-white/5 px-3 py-2 last:border-0">
-                <dt className="flex items-center gap-3 text-gray-500">
-                  <span className="text-gray-600">{i + 1}</span>
-                  {s.label.toUpperCase()}
-                </dt>
-                <dd className="font-semibold tabular-nums text-timing">{s.value}</dd>
-              </div>
-            ))}
-          </dl>
+            <dl>
+              {stats.map((s, i) => (
+                <div key={s.label} className="flex items-center justify-between border-b border-white/5 px-3 py-2 last:border-0">
+                  <dt className="flex items-center gap-3 text-gray-500">
+                    <span className="text-gray-600">{i + 1}</span>
+                    {s.label.toUpperCase()}
+                  </dt>
+                  <dd className="font-semibold tabular-nums text-timing">{s.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </div>
 
         {/* compact stats on phones, where the tower is hidden */}

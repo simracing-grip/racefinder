@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Category } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_COLOR, CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import CategoryIcon from "./CategoryIcon";
 import SectionHeading from "./SectionHeading";
 
@@ -26,6 +26,7 @@ export default function DisciplineGrid({ counts }: { counts: Record<Category, nu
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {tiles.map((c, i) => {
           const color = CATEGORY_COLOR[c.value];
+          const textColor = CATEGORY_TEXT_COLOR[c.value];
           return (
             <Link
               key={c.value}
@@ -38,21 +39,22 @@ export default function DisciplineGrid({ counts }: { counts: Record<Category, nu
                 style={{ background: `radial-gradient(120% 80% at 100% 0%, ${color}33, transparent 60%)` }}
                 aria-hidden
               />
+              {/* Decorative: drawn with CSS content, so it isn't page text
+                  that contrast checkers (or screen readers) pick up. */}
               <span
-                className="pointer-events-none absolute -bottom-6 -right-2 font-display text-[9rem] font-black italic leading-none text-white/[0.035]"
+                data-n={String(i + 1).padStart(2, "0")}
+                className="pointer-events-none absolute -bottom-6 -right-2 font-display text-[9rem] font-black italic leading-none text-white/[0.035] before:content-[attr(data-n)]"
                 aria-hidden
-              >
-                {String(i + 1).padStart(2, "0")}
-              </span>
+              />
               <span className="absolute inset-x-0 top-0 h-1 origin-left scale-x-25 transition duration-500 group-hover:scale-x-100" style={{ background: color }} aria-hidden />
 
               <span
                 className="relative flex h-14 w-14 items-center justify-center"
-                style={{ background: `${color}1f`, color }}
+                style={{ background: `${color}1f`, color: textColor }}
               >
                 <CategoryIcon category={c.value} className="h-8 w-8" />
               </span>
-              <p className="relative mt-auto pt-8 font-mono text-sm tabular-nums" style={{ color }}>
+              <p className="relative mt-auto pt-8 font-mono text-sm tabular-nums" style={{ color: textColor }}>
                 {counts[c.value].toLocaleString("en-GB")} venues
               </p>
               <h3 className="relative mt-1 font-display text-4xl font-black uppercase italic leading-none text-white">

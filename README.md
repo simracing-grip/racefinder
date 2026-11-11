@@ -1,8 +1,8 @@
-# RaceFinder — European Motorsport Directory
+# RaceFinder
 
-A directory + map of sim racing centers, track day circuits, and karting tracks,
-starting with Europe. Next.js + Tailwind now, with Supabase (Postgres + Auth)
-and Drizzle scaffolded in for when accounts/payments/moderation get added.
+A directory and map of karting tracks, track-day circuits and sim racing
+centres worldwide, with a race calendar for F1, MotoGP, WEC and more. Built
+with Next.js, Tailwind, Supabase Postgres and Drizzle, hosted on Vercel.
 
 Full plan and live status: see [PLAN.md](PLAN.md), kept current by the
 `team-lead` agent (`.claude/agents/team-lead.md`).
@@ -11,19 +11,40 @@ Full plan and live status: see [PLAN.md](PLAN.md), kept current by the
 
 ```bash
 npm install
+cp .env.example .env.local   # then fill in DATABASE_URL (see below)
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The site currently reads
-from `data/placeholder-listings.ts` — 9 example venues — until your real data
-is imported (below).
+Open [http://localhost:3000](http://localhost:3000). The site reads the
+published venues (about 3,200) from Supabase Postgres. Without
+`DATABASE_URL`, or while the database is unreachable, it serves the bundled
+snapshot in `data/listings-snapshot.json` instead.
 
-## Getting your real listings in
+## Data pipeline
 
-The 62 saved locations live in Google Maps and need to be exported and
-categorized. Two steps:
+Venue data lives in Postgres. The scripts in `data/import/` build and
+correct it. The CSVs there are git-ignored and only exist in the main
+checkout.
 
-### 1. Export from Google Takeout
+| Step | Command / script |
+|---|---|
+| Parse raw lists (Google Takeout, manual address lists, scout CSVs) into `review.csv` | `npm run import:parse` |
+| Load `review.csv` into `data/generated-listings.json` and Postgres | `npm run import:load` |
+| Corrections that survive a re-import | `location-fixes.csv`, `address-fixes.csv` and `cover-images.csv`, read by `import-to-db.ts` and applied with the matching `sync-*.ts` script |
+| Social links, photo credits, track details | `npm run import:sync-social`, `npm run import:sync-credits`, `sync-track-details.ts` |
+| Refresh the outage fallback after any sync | `npm run db:snapshot`, then commit `data/listings-snapshot.json` |
+
+Never hand-edit `data/generated-listings.json`: change the source CSV and
+re-run the import. Race calendars are in `data/calendar-events.ts`, kept up
+to date by the `calendar-scout` agent. [PLAN.md](PLAN.md) has the standing
+rules and the agents that maintain the data.
+
+### Importing from Google Takeout
+
+The original 62 venues came from a Google Maps export. The steps are kept
+here for reference.
+
+#### 1. Export from Google Takeout
 
 1. Go to [takeout.google.com](https://takeout.google.com) signed into the
    Google account with the saved places.
@@ -49,7 +70,7 @@ categorized. Two steps:
 > manually. Because this list isn't curated the way a named list is, expect
 > to weed out non-motorsport pins in `review.csv` before loading.
 
-### Alternative: importing from a shared Google Maps list
+#### Alternative: importing from a shared Google Maps list
 
 If your places live in a public/shared Google Maps list (Save → a list →
 Share) rather than your private Takeout export, there's no clean API to pull
@@ -77,7 +98,7 @@ named venues, worth double-checking for generic ones (a bare "Monza" could in
 principle resolve to the town rather than the kart track), so review the
 resulting `lat`/`lng`/`address` columns too.
 
-### 2. Parse, enrich, and review
+#### 2. Parse, enrich, and review
 
 ```bash
 npm run import:parse
@@ -104,18 +125,12 @@ Then load it:
 npm run import:load
 ```
 
-This writes `data/generated-listings.ts` with your real data. Point
-`lib/listings.ts` at it (swap the import from `@/data/placeholder-listings`
-to `@/data/generated-listings`) to go live with real listings.
+This writes `data/generated-listings.json`.
 
 If `DATABASE_URL` is set (see below), this also upserts the same data straight
 into Postgres.
 
-## Connecting Supabase (Postgres + Auth) — optional until you need accounts
-
-Not required to browse the site with placeholder or generated-file data. Set
-it up when you're ready for business-owner accounts, an admin moderation
-queue, or paid featured listings:
+## Setting up Supabase from scratch
 
 1. Create a free project at [supabase.com](https://supabase.com).
 2. Project Settings → API: copy the URL and anon key into `.env.local`
@@ -125,7 +140,7 @@ queue, or paid featured listings:
    copy into `.env.local` as `DATABASE_URL`.
 4. `npm run db:generate` then `npm run db:migrate` to create the schema
    (`lib/db/schema.ts`) in your Supabase Postgres instance.
-5. Re-run `npm run import:load` to upsert your real listings into the DB.
+5. Run `npm run import:load` to load the venues.
 
 ## Deploying
 

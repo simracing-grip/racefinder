@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Category, ListingSummary } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
@@ -11,7 +11,7 @@ import MapListPanel from "@/components/Listing/MapListPanel";
 import NearMeControl, { type GeoStatus } from "@/components/Home/NearMeControl";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import SectionHeading from "@/components/Home/SectionHeading";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 
 type CategoryFilter = Category | "all";
 
@@ -19,7 +19,44 @@ type CategoryFilter = Category | "all";
 // page), so this only filters by category and distance. Map and list sit
 // side by side on desktop so picking a pin and reading the venue are one
 // glance apart.
-export default function HomeExplorer({ listings }: { listings: ListingSummary[] }) {
+const NO_LISTINGS: ListingSummary[] = [];
+
+// The venue list comes from /api/summaries, fetched when this section is
+// about to scroll into view, rather than embedded in the page: at ~3,200
+// venues it was most of the home page's weight. The counts on the filter
+// chips come from the server so they show straight away.
+export default function HomeExplorer({ counts, total }: { counts: Record<Category, number>; total: number }) {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [loaded, setLoaded] = useState<ListingSummary[] | null>(null);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const listings = loaded ?? NO_LISTINGS;
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    let cancelled = false;
+    const load = () => {
+      fetch("/api/summaries")
+        .then((res) => (res.ok ? res.json() : Promise.reject(new Error(String(res.status)))))
+        .then((data: ListingSummary[]) => !cancelled && setLoaded(data))
+        .catch(() => !cancelled && setLoadFailed(true));
+    };
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          observer.disconnect();
+          load();
+        }
+      },
+      { rootMargin: "800px 0px" }
+    );
+    observer.observe(el);
+    return () => {
+      cancelled = true;
+      observer.disconnect();
+    };
+  }, []);
+
   const [category, setCategory] = useState<CategoryFilter>("all");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
 
@@ -78,14 +115,6 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
     return sortByUpcomingEvent(filtered, today);
   }, [filtered, nearMe, distances, today]);
 
-  const counts = useMemo(() => {
-    const byCategory = {} as Record<Category, number>;
-    for (const c of CATEGORIES) {
-      byCategory[c.value] = listings.filter((l) => l.categories.includes(c.value)).length;
-    }
-    return byCategory;
-  }, [listings]);
-
   const activeMeta = CATEGORIES.find((c) => c.value === category);
 
   function pickCategory(next: CategoryFilter) {
@@ -94,17 +123,17 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
   }
 
   const chips: { value: CategoryFilter; label: string; count: number; color: string }[] = [
-    { value: "all", label: "All", count: listings.length, color: "#f4f4f5" },
+    { value: "all", label: "All", count: total, color: "#f4f4f5" },
     ...CATEGORIES.filter((c) => counts[c.value] > 0).map((c) => ({
       value: c.value,
       label: c.label,
       count: counts[c.value],
-      color: CATEGORY_COLOR[c.value],
+      color: CATEGORY_TEXT_COLOR[c.value],
     })),
   ];
 
   return (
-    <section id="explore" className="mx-auto max-w-7xl scroll-mt-24 px-4">
+    <section ref={sectionRef} id="explore" className="mx-auto max-w-7xl scroll-mt-24 px-4">
       <SectionHeading kicker="The paddock" title="Explore every venue" href="/map" hrefLabel="Full-screen map" />
 
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
@@ -139,27 +168,45 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
         />
       </div>
 
-      <MapListPanel
-        listings={sorted}
-        selectedSlug={selectedSlug}
-        onSelect={setSelectedSlug}
-        distances={nearMe ? distances ?? undefined : undefined}
-        resetKey={`${category}-${nearMe}`}
-        title={nearMe ? "Near you" : activeMeta ? activeMeta.plural : "Coming up"}
-        summary={
-          nearMe
-            ? `location${filtered.length === 1 ? "" : "s"} within ${radiusKm} km — closest first`
-            : `location${filtered.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`
-        }
-        action={
-          activeMeta &&
-          !nearMe && (
-            <Link href={`/category/${activeMeta.value}`} className="shrink-0 text-xs font-semibold uppercase tracking-wide text-gray-400 hover:text-white">
-              Full page &rarr;
-            </Link>
-          )
-        }
-      />
+      {!loaded ? (
+        <div
+          className="flex h-[640px] items-center justify-center border border-white/10 bg-asphalt text-sm text-gray-400"
+          role="status"
+        >
+          {loadFailed ? (
+            <span>
+              The map didn&apos;t load.{" "}
+              <Link href="/map" className="link-accent">
+                Open the full map
+              </Link>
+            </span>
+          ) : (
+            "Loading the map…"
+          )}
+        </div>
+      ) : (
+        <MapListPanel
+          listings={sorted}
+          selectedSlug={selectedSlug}
+          onSelect={setSelectedSlug}
+          distances={nearMe ? distances ?? undefined : undefined}
+          resetKey={`${category}-${nearMe}`}
+          title={nearMe ? "Near you" : activeMeta ? activeMeta.plural : "Coming up"}
+          summary={
+            nearMe
+              ? `location${filtered.length === 1 ? "" : "s"} within ${radiusKm} km — closest first`
+              : `location${filtered.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`
+          }
+          action={
+            activeMeta &&
+            !nearMe && (
+              <Link href={`/category/${activeMeta.value}`} className="shrink-0 text-xs font-semibold uppercase tracking-wide text-gray-400 hover:text-white">
+                Full page &rarr;
+              </Link>
+            )
+          }
+        />
+      )}
     </section>
   );
 }

@@ -34,7 +34,7 @@ export default function CountryPicker({
         value=""
         onChange={handleChange}
         placeholder="Select…"
-        buttonClassName="flex items-center gap-1.5 rounded-md bg-transparent text-gray-100 focus:outline-none"
+        buttonClassName="flex items-center gap-1.5 rounded-md bg-transparent text-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
       />
     </div>
   );

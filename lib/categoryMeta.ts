@@ -25,6 +25,17 @@ export const CATEGORY_COLOR: Record<Category, string> = {
   club_only: "#64748b", // slate
 };
 
+// The same hues, light enough for text on the site's dark backgrounds
+// (at least 4.5:1, WCAG AA). CATEGORY_COLOR stays for map pins, bars and
+// fills, where the darker shade reads better.
+export const CATEGORY_TEXT_COLOR: Record<Category, string> = {
+  sim_racing: "#a78bfa", // violet-400
+  track_day: "#f87171", // red-400
+  karting: "#22c55e", // green-500
+  f1: "#eab308", // gold
+  club_only: "#94a3b8", // slate-400
+};
+
 export const CATEGORY_BADGE_CLASS: Record<Category, string> = {
   sim_racing: "bg-violet-500/15 text-violet-300",
   track_day: "bg-red-500/15 text-red-300",

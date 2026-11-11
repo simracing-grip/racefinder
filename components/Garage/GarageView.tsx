@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import type { Listing, TrackEvent } from "@/lib/types";
 import { useGarage } from "@/lib/garage";
-import { CATEGORY_LABEL, CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_LABEL, CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
 import VenuePhoto from "@/components/Listing/VenuePhoto";
 import CountryFlag from "@/components/CountryFlag";
@@ -62,7 +62,7 @@ export default function GarageView({ siteUrl }: { siteUrl: string }) {
           Tap the star on any venue to save it here. Your garage lives in this browser — no account needed.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
-          <Link href="/map" className="btn-skew bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink">
+          <Link href="/map" className="btn-skew bg-signal-solid px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink">
             Find venues
           </Link>
           <Link href="/calendar" className="border border-white/20 px-5 py-3 font-display text-lg font-bold uppercase italic text-white transition hover:border-white">
@@ -141,7 +141,7 @@ export default function GarageView({ siteUrl }: { siteUrl: string }) {
                   )}
                   <p className="flex items-center gap-1.5 truncate text-xs text-gray-500">
                     <CountryFlag countryCode={venue.countryCode} />
-                    <span style={{ color: CATEGORY_COLOR[category] }}>{CATEGORY_LABEL[category]}</span>
+                    <span style={{ color: CATEGORY_TEXT_COLOR[category] }}>{CATEGORY_LABEL[category]}</span>
                     &middot; {venue.city || venue.country}
                   </p>
                   {gone ? (
