@@ -101,7 +101,9 @@ export async function renderOgCard({
   badge?: string;
 }) {
   const fonts = await loadDisplayFonts();
-  const display = fonts.length > 0 ? "Barlow Condensed" : undefined;
+  // Without the display face, leave fontFamily out: an undefined style value
+  // fails the render ("Cannot read properties of undefined (reading 'split')").
+  const display = fonts.length > 0 ? { fontFamily: "Barlow Condensed" } : {};
 
   const png = new ImageResponse(
     (
@@ -144,13 +146,13 @@ export async function renderOgCard({
               <div style={{ width: 16, height: 34, background: SIGNAL, transform: "skewX(-24deg)" }} />
               <div style={{ width: 16, height: 34, background: "white", transform: "skewX(-24deg)" }} />
             </div>
-            <div style={{ display: "flex", fontFamily: display, fontWeight: 900, fontStyle: "italic", fontSize: 40, letterSpacing: -1 }}>
+            <div style={{ display: "flex", ...display, fontWeight: 900, fontStyle: "italic", fontSize: 40, letterSpacing: -1 }}>
               RACE<span style={{ color: SIGNAL }}>FINDER</span>
             </div>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", maxWidth: 900 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 14, fontFamily: display, fontWeight: 700, fontStyle: "italic", fontSize: 30, letterSpacing: 4, color: accent, textTransform: "uppercase" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 14, ...display, fontWeight: 700, fontStyle: "italic", fontSize: 30, letterSpacing: 4, color: accent, textTransform: "uppercase" }}>
               <div style={{ width: 40, height: 5, background: accent }} />
               {kicker}
             </div>
@@ -158,7 +160,7 @@ export async function renderOgCard({
               style={{
                 display: "flex",
                 marginTop: 10,
-                fontFamily: display,
+                ...display,
                 fontWeight: 900,
                 fontStyle: "italic",
                 fontSize: titleSize(title),
@@ -178,7 +180,7 @@ export async function renderOgCard({
                   padding: "8px 16px",
                   background: TIMING,
                   color: INK,
-                  fontFamily: display,
+                  ...display,
                   fontWeight: 900,
                   fontStyle: "italic",
                   fontSize: 30,
