@@ -4,6 +4,7 @@ import { CATEGORIES } from "@/lib/types";
 import { SITE_URL } from "@/lib/site";
 import { slugifyCountry } from "@/lib/countrySlug";
 import { getCityHubs } from "@/lib/cities";
+import { hasEnoughDetail } from "@/lib/listingQuality";
 
 // Crawlers don't need it fresher than hourly.
 export const revalidate = 3600;
@@ -40,7 +41,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  const listingRoutes: MetadataRoute.Sitemap = listings.map((listing) => ({
+  // Only venues search engines may index (see lib/listingQuality.ts).
+  const listingRoutes: MetadataRoute.Sitemap = listings.filter(hasEnoughDetail).map((listing) => ({
     url: `${SITE_URL}/listings/${listing.slug}`,
     changeFrequency: "weekly",
     priority: 0.6,
