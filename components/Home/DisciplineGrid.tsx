@@ -39,12 +39,13 @@ export default function DisciplineGrid({ counts }: { counts: Record<Category, nu
                 style={{ background: `radial-gradient(120% 80% at 100% 0%, ${color}33, transparent 60%)` }}
                 aria-hidden
               />
+              {/* Decorative: drawn with CSS content, so it isn't page text
+                  that contrast checkers (or screen readers) pick up. */}
               <span
-                className="pointer-events-none absolute -bottom-6 -right-2 font-display text-[9rem] font-black italic leading-none text-white/[0.035]"
+                data-n={String(i + 1).padStart(2, "0")}
+                className="pointer-events-none absolute -bottom-6 -right-2 font-display text-[9rem] font-black italic leading-none text-white/[0.035] before:content-[attr(data-n)]"
                 aria-hidden
-              >
-                {String(i + 1).padStart(2, "0")}
-              </span>
+              />
               <span className="absolute inset-x-0 top-0 h-1 origin-left scale-x-25 transition duration-500 group-hover:scale-x-100" style={{ background: color }} aria-hidden />
 
               <span
