@@ -17,7 +17,7 @@
  * which relocate-approximate-venues.ts --suspects reads.
  *
  * Nominatim: at most 1 request per second, cached in the same file as
- * relocate-approximate-venues.ts. Overpass: one query per 25 venues.
+ * relocate-approximate-venues.ts. Overpass: one query per 15 venues.
  *
  * Run: npx tsx data/import/find-misplaced-pins.ts
  */
