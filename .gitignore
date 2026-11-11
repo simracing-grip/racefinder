@@ -49,4 +49,3 @@ next-env.d.ts
 
 .vercel
 /data/import/.poi-address-cache.json
-data/import/.wikidata-pin-cache.json
