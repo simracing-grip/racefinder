@@ -31,10 +31,20 @@ import os from "node:os";
 import path from "node:path";
 import { parse } from "csv-parse/sync";
 import { stringify } from "csv-stringify/sync";
-import { GENERIC, distinctive, findSharedPointGroups, norm, tokens } from "./find-approximate-locations";
+import { GENERIC, distinctive, findSharedPointGroups, norm, tokens, type ApproxGroup } from "./find-approximate-locations";
+import { addressFromReverse } from "./nominatim-address";
 import type { Listing } from "../../lib/types";
 
-const OUT_FILE = path.join(process.cwd(), "data", "import", "location-fixes.csv");
+function argValue(flag: string): string | undefined {
+  const i = process.argv.indexOf(flag);
+  return i > -1 ? process.argv[i + 1] : undefined;
+}
+// --suspects <csv>: relocate the venues listed there (see main). Unlocated
+// ones are marked "review" rather than dropped: these are single venues whose
+// pin looks off, and a real circuit with a bad pin needs fixing, not removing.
+const SUSPECTS_FILE = argValue("--suspects");
+const UNLOCATED = SUSPECTS_FILE ? ("review" as const) : ("drop" as const);
+const OUT_FILE = argValue("--out") ?? path.join(process.cwd(), "data", "import", "location-fixes.csv");
 // Manual audit verdicts that override the automatic ones (slug,action,reason)
 // — for OSM matches that pass every check but are still the wrong place.
 const OVERRIDES_FILE = path.join(process.cwd(), "data", "import", "location-overrides.csv");
@@ -324,7 +334,7 @@ async function websiteEvidence(v: Listing, sharedUrls: Set<string>): Promise<{ e
 interface Verdict {
   venue: Listing;
   point: string;
-  action: "keep" | "fix" | "drop";
+  action: "keep" | "fix" | "drop" | "review";
   lat?: number;
   lng?: number;
   address?: string;
@@ -340,9 +350,21 @@ async function geocodeCentroid(q: string, countryCode: string): Promise<Point | 
 }
 
 async function main() {
-  const { all, groups } = await findSharedPointGroups();
+  const { all, groups: sharedGroups } = await findSharedPointGroups();
+  // --suspects: check the venues listed there (find-misplaced-pins.ts), each
+  // on its own pin, instead of the shared-pin groups.
+  const groups: ApproxGroup[] = SUSPECTS_FILE
+    ? (parse(readFileSync(SUSPECTS_FILE, "utf-8"), { columns: true, skip_empty_lines: true }) as { slug: string }[])
+        .map((s) => all.find((l) => l.slug === s.slug))
+        .filter((v): v is Listing => v !== undefined)
+        .map((v) => ({ key: `${v.lat.toFixed(4)},${v.lng.toFixed(4)}:${v.slug}`, lat: v.lat, lng: v.lng, venues: [v], reasons: [] }))
+    : sharedGroups;
   const suspects = groups.flatMap((g) => g.venues.map((venue) => ({ venue, group: g })));
-  console.log(`${suspects.length} venues share a point with another venue (${groups.length} points).`);
+  console.log(
+    SUSPECTS_FILE
+      ? `${suspects.length} suspect pins from ${path.basename(SUSPECTS_FILE)}.`
+      : `${suspects.length} venues share a point with another venue (${groups.length} points).`
+  );
 
   const urlCounts = new Map<string, number>();
   for (const l of all) if (l.websiteUrl) urlCounts.set(l.websiteUrl, (urlCounts.get(l.websiteUrl) ?? 0) + 1);
@@ -391,10 +413,10 @@ async function main() {
     if (ev && ev.source === "website" && anchor.city && km(ev, anchor.city) > CITY_RADIUS_KM) ev = null;
 
     if (conflict) {
-      verdicts.push({ venue: v, point: group.key, action: "drop", source: "", evidence: `OSM and website disagree by ${km(osm.ev!, web.ev!).toFixed(1)} km` });
+      verdicts.push({ venue: v, point: group.key, action: UNLOCATED, source: "", evidence: `OSM and website disagree by ${km(osm.ev!, web.ev!).toFixed(1)} km` });
       console.log("conflict -> drop");
     } else if (!ev) {
-      verdicts.push({ venue: v, point: group.key, action: "drop", source: "", evidence: notes || "no evidence" });
+      verdicts.push({ venue: v, point: group.key, action: UNLOCATED, source: "", evidence: notes || "no evidence" });
       console.log(`unlocated (${notes || "no evidence"})`);
     } else if (km(ev, group) <= SAME_PIN_KM) {
       verdicts.push({ venue: v, point: group.key, action: "keep", lat: v.lat, lng: v.lng, source: ev.source, evidence: ev.detail });
@@ -427,14 +449,14 @@ async function main() {
   const moved = verdicts.filter((x) => x.action === "fix" || x.action === "keep");
   for (const a of moved) {
     for (const b of moved) {
-      if (a === b || a.action === "drop" || km(a as Point, b as Point) > 0.05) continue;
+      if (a === b || a.action === "drop" || a.action === "review" || km(a as Point, b as Point) > 0.05) continue;
       const ex = new Set([...tokens(a.venue.city), ...tokens(a.venue.country)]);
       const ta = new Set(distinctive(a.venue.name, ex));
       if (distinctive(b.venue.name, ex).some((t) => ta.has(t))) continue;
       if (a.source === "same-site" || b.source === "same-site") continue;
       for (const x of [a, b]) {
         if (x.action !== "fix") continue;
-        Object.assign(x, { action: "drop", evidence: `matched the same spot as unrelated venue ${x === a ? b.venue.name : a.venue.name}` });
+        Object.assign(x, { action: UNLOCATED, evidence: `matched the same spot as unrelated venue ${x === a ? b.venue.name : a.venue.name}` });
       }
     }
   }
@@ -455,15 +477,17 @@ async function main() {
   for (const f of verdicts.filter((x) => x.action === "fix")) {
     const rev = (await nominatim("reverse", { lat: String(f.lat), lon: String(f.lng) })) as {
       display_name?: string;
+      name?: string;
+      category?: string;
       address?: Record<string, string>;
     };
     const a = rev.address ?? {};
     const cc = (a.country_code ?? "").toUpperCase();
     if (cc && f.venue.countryCode !== "XX" && cc !== f.venue.countryCode) {
-      Object.assign(f, { action: "drop", evidence: `${f.evidence}; new point is in ${cc}, not ${f.venue.countryCode}` });
+      Object.assign(f, { action: UNLOCATED, evidence: `${f.evidence}; new point is in ${cc}, not ${f.venue.countryCode}` });
       continue;
     }
-    f.address = rev.display_name ?? "";
+    f.address = addressFromReverse(rev);
     // Keep the listed city (it's what city pages and search use) unless the
     // pin moved so far that the city itself came from the bad centroid.
     const movedKm = km(f as Point, f.venue);
@@ -479,8 +503,8 @@ async function main() {
   const rows = verdicts.map((x) => ({
     slug: x.venue.slug,
     action: x.action,
-    lat: x.action === "drop" ? "" : x.lat!.toFixed(6),
-    lng: x.action === "drop" ? "" : x.lng!.toFixed(6),
+    lat: x.action === "drop" || x.action === "review" ? "" : x.lat!.toFixed(6),
+    lng: x.action === "drop" || x.action === "review" ? "" : x.lng!.toFixed(6),
     address: x.action === "fix" ? x.address : "",
     city: x.action === "fix" ? x.city : "",
     source: x.source,
@@ -497,6 +521,7 @@ async function main() {
   console.log(`\nKept (pin verified): ${count("keep")}`);
   console.log(`Fixed (moved):       ${count("fix")}`);
   console.log(`Dropped (unlocated): ${count("drop")}`);
+  if (SUSPECTS_FILE) console.log(`Needs review:        ${count("review")}`);
   console.log(`Wrote ${rows.length} rows to ${OUT_FILE}`);
 }
 
