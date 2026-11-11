@@ -15,4 +15,6 @@ export const MERGED_VENUES: [keep: string, drop: string][] = [
   ["adrenalina-rio-kart-guadalupe", "adrenalina-rio-kart-shopping-jardim-guadalupe"],
   ["adelaide-dirt-kart-club-speedway-city", "speedway-city-complex-dirt-kart-track"],
   ["albany-city-kart-club", "albany-city-kart-club-circuit"],
+  ["le-mans-karting-international", "karting-des-24-heures-du-mans"],
+  ["esperance-kart-klub", "esperance-kart-klub-circuit"],
 ];

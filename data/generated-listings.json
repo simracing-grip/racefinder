@@ -1779,9 +1779,9 @@
     "country": "Montenegro",
     "countryCode": "ME",
     "city": "Podgorica",
-    "address": "Trg Nezavisnosti, Stara varoš, Podgorica, Podgorica Capital City, 81110, Montenegro",
-    "lat": 42.441524,
-    "lng": 19.262108,
+    "address": "Bigor, Podgorica Capital City, 81252, Montenegro",
+    "lat": 42.393298,
+    "lng": 19.134825,
     "websiteUrl": "https://www.karting.me/",
     "phone": "+382 69 123 111"
   },
@@ -3969,21 +3969,6 @@
     "phone": "+66 2 833 4888"
   },
   {
-    "id": "248",
-    "slug": "nanocircuit",
-    "name": "NanoCircuit",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "Thailand",
-    "countryCode": "TH",
-    "city": "Bang Phli Yai Subdistrict",
-    "address": "Ban Khlong Samrong, Bang Phli Yai Subdistrict, Bang Phli Yai Subdistrict Administrative Organization, Bang Phli District, Samut Prakan Province, 10550, Thailand",
-    "lat": 13.61474,
-    "lng": 100.722565
-  },
-  {
     "id": "250",
     "slug": "lalaspeed-e-kart-raceway",
     "name": "LalaSpeed E Kart Raceway",
@@ -4158,9 +4143,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Osaka",
-    "address": "ナインモール商店街, Kujo 1-chome, Nishi Ward, Osaka, Osaka Prefecture, 550-0027, Japan",
-    "lat": 34.674598,
-    "lng": 135.476774,
+    "address": "1-14-19, Minamihorie 1-chōme, Nishi Ward, Osaka, Osaka Prefecture, 550-0015, Japan",
+    "lat": 34.671718,
+    "lng": 135.494329,
     "websiteUrl": "https://streetkart.com/"
   },
   {
@@ -11998,22 +11983,6 @@
     "lng": -53.053353
   },
   {
-    "id": "795",
-    "slug": "kartodromo-afonso-petschow",
-    "name": "Kartódromo Afonso Petschow",
-    "categories": [
-      "karting",
-      "club_only"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Rio Negro",
-    "address": "Rua Doutor Vicente Machado, Centro, Rio Negro, Paraná, South Region, 83880-039, Brazil",
-    "lat": -26.104767,
-    "lng": -49.798277
-  },
-  {
     "id": "796",
     "slug": "kartodromo-aristides-bertuol",
     "name": "Kartódromo Aristides Bertuol",
@@ -12175,9 +12144,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "São José dos Pinhais",
-    "address": "Rua Passos de Oliveira, Centro, São José dos Pinhais, Paraná, South Region, 83030-480, Brazil",
-    "lat": -25.533816,
-    "lng": -49.207216
+    "address": "Alameda Arpo, Cruzeiro, São José dos Pinhais, Paraná, 83020-070, Brazil",
+    "lat": -25.550859,
+    "lng": -49.185736
   },
   {
     "id": "808",
@@ -13350,21 +13319,6 @@
     "address": "Hannan Street, Kalgoorlie, Western Australia, 6430, Australia",
     "lat": -30.746414,
     "lng": 121.473223
-  },
-  {
-    "id": "898",
-    "slug": "esperance-kart-klub-circuit",
-    "name": "Esperance Kart Klub circuit",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Australia",
-    "countryCode": "AU",
-    "city": "Esperance",
-    "address": "Fisheries Road, Windabout, Western Australia, 6450, Australia",
-    "lat": -33.803874,
-    "lng": 121.936867
   },
   {
     "id": "899",
@@ -15571,9 +15525,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Edison",
-    "address": "2079, Woodbridge Avenue, Martins Landing, Edison, Middlesex County, New Jersey, 08817, United States",
-    "lat": 40.500535,
-    "lng": -74.398394
+    "address": "987, US Route 1 South, Nixon, Edison, Middlesex, New Jersey, 08817, United States",
+    "lat": 40.520465,
+    "lng": -74.371077
   },
   {
     "id": "1072",
@@ -17281,9 +17235,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Draper",
-    "address": "Draper City Hall, 1020, Pioneer Road, Somerville in Draper, Draper, Salt Lake County, Utah, 84020, United States",
-    "lat": 40.524778,
-    "lng": -111.862799
+    "address": "75, Southfork Drive, Draper, Salt Lake, Utah, 84020, United States",
+    "lat": 40.494434,
+    "lng": -111.889126
   },
   {
     "id": "1196",
@@ -17791,9 +17745,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Gardena",
-    "address": "1103, West Gardena Boulevard, Hermosillo, Gardena, Los Angeles County, California, 90247, United States",
-    "lat": 33.88156,
-    "lng": -118.293588
+    "address": "19038, South Vermont Avenue, Harbor Gateway, Los Angeles, California, 90248, United States",
+    "lat": 33.857359,
+    "lng": -118.289742
   },
   {
     "id": "1231",
@@ -21424,9 +21378,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Grimma",
-    "address": "Hohnstädt, Grimma, Landkreis Leipzig, Saxony, 04668, Germany",
-    "lat": 51.236643,
-    "lng": 12.728896
+    "address": "Waldbardauer Straße, GGI Gewerbepark in Grimma, Grimma, Landkreis Leipzig, Saxony, 04668, Germany",
+    "lat": 51.219702,
+    "lng": 12.717075
   },
   {
     "id": "1517",
@@ -22370,9 +22324,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Thônes",
-    "address": "Place de l'Hôtel de Ville, Le Turban, Thônes, Annecy, Upper Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 74230, France",
-    "lat": 45.881988,
-    "lng": 6.324184
+    "address": "4bis, Route des Aravis, Le Collège, Thônes, Upper Savoy, Auvergne-Rhône-Alpes, 74230, France",
+    "lat": 45.896278,
+    "lng": 6.342911
   },
   {
     "id": "1581",
@@ -39406,25 +39360,9 @@
     "country": "Argentina",
     "countryCode": "AR",
     "city": "Sunchales",
-    "address": "Florentino Ameghino, Centro, Sunchales, Departamento Castellanos, Santa Fe, S2322ATA, Argentina",
-    "lat": -30.945089,
-    "lng": -61.560807
-  },
-  {
-    "id": "2803",
-    "slug": "kartodromo-juan-c-ferrer",
-    "name": "Kartódromo Juan C. Ferrer",
-    "categories": [
-      "karting",
-      "club_only"
-    ],
-    "status": "published",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "city": "Charata",
-    "address": "Rivadavia, Norte, Charata, Municipio de Charata, Departamento Chacabuco, Chaco, H3730AVI, Argentina",
-    "lat": -27.217811,
-    "lng": -61.187371
+    "address": "Anita Sánchez de Panero, Ciudad Verde, Sunchales, Departamento Castellanos, Santa Fe, 2322, Argentina",
+    "lat": -30.959551,
+    "lng": -61.524423
   },
   {
     "id": "2804",
@@ -43293,9 +43231,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Fukushima",
-    "address": "1, Fukushima, Fukushima Prefecture, 960-0251, Japan",
-    "lat": 37.799783,
-    "lng": 140.403405,
+    "address": "折戸笹谷線, Ozaso, Fukushima, Fukushima Prefecture, 960-0251, Japan",
+    "lat": 37.802602,
+    "lng": 140.390123,
     "websiteUrl": "http://www.link-circuit.com/",
     "phone": "+81 24-559-4460"
   },
@@ -43526,9 +43464,9 @@
     "country": "Zimbabwe",
     "countryCode": "ZW",
     "city": "Harare",
-    "address": "Seke Road, Sunningdale, Harare, Zimbabwe",
-    "lat": -17.856703,
-    "lng": 31.060158
+    "address": "Chizhanje, Harare, Zimbabwe",
+    "lat": -17.825917,
+    "lng": 31.18263
   },
   {
     "id": "3064",
@@ -48706,9 +48644,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Ichihara",
-    "address": "1, Kokubunjidai-Chūō 1-Chōme, Kokubunjidai-Chūō, Ichihara, Chiba Prefecture, 290-8501, Japan",
-    "lat": 35.497775,
-    "lng": 140.1157,
+    "address": "五井本納線, 板倉, Ichihara, Chiba Prefecture, 299-4123, Japan",
+    "lat": 35.488218,
+    "lng": 140.251226,
     "websiteUrl": "https://reserve.minami-chiba-circuit.com/",
     "phone": "+81 436-52-4400"
   },
@@ -49866,5 +49804,32 @@
     "lat": 36.708333,
     "lng": -6.034167,
     "websiteUrl": "https://circuitodejerez.com/"
+  },
+  {
+    "id": "3462",
+    "slug": "le-mans-karting-international",
+    "name": "Le Mans Karting International",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Le Mans",
+    "address": "Route du Chemin aux Boeufs, Le Mans, Sarthe, Pays de la Loire, 72100, France",
+    "lat": 47.939358,
+    "lng": 0.212138,
+    "websiteUrl": "https://www.lemans-karting.com/karting/nos-circuits/circuit-international-de-karting/",
+    "phone": "+33 2 43 40 80 01",
+    "description": "The Karting des 24 Heures complex beside the Le Mans 24 Hours circuit. Three outdoor tracks: the 1,400 m international (CIK) circuit, the 980 m Circuit Alain Prost and the 805 m Indy-Kart circuit. Rental sessions are open to the public.",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 980,
+    "openingHours": "Sat-Sun 14:00-19:00, Mon-Fri closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Children 7-12/1.30m, teens 13+/1.55m"
+      }
+    }
   }
 ]
