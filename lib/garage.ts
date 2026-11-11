@@ -5,7 +5,7 @@ import type { Category } from "@/lib/types";
 
 // "My garage": venues a visitor has saved, kept in their browser's
 // localStorage — no account. Each entry is a small snapshot so lists can
-// render instantly; the /garage page refreshes them from /api/listings.
+// render instantly; the /garage page refreshes them from /api/listings/[slug].
 export interface SavedVenue {
   slug: string;
   name: string;
