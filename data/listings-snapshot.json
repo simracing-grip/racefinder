@@ -2119,29 +2119,6 @@
     "featured": false
   },
   {
-    "id": "532ca007-351a-4fd1-b30c-5f6bb427e5ac",
-    "slug": "aqva-kart",
-    "name": "AQVA Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Estonia",
-    "countryCode": "EE",
-    "city": "Rakvere",
-    "address": "Rakvere keskväljak, Südalinn, Rakvere, Rakvere linn, Lääne-Viru County, 44310, Estonia",
-    "lat": 59.348223,
-    "lng": 26.361717,
-    "indoorOutdoor": "outdoor",
-    "openingHours": "Wed-Thu 13:00-21:00; Fri 13:00-23:00; Sat-Sun 11:00-20:00 (closed Mon-Tue)",
-    "details": {
-      "karting": {
-        "kart_type": "electric"
-      }
-    },
-    "featured": false
-  },
-  {
     "id": "21455004-9a42-4040-b7d3-797fe7de8d1e",
     "slug": "ar-kartz",
     "name": "AR Kartz",
@@ -7701,9 +7678,9 @@
     "country": "Philippines",
     "countryCode": "PH",
     "city": "Carmona",
-    "address": "Mauricio M. Laurito Street, Barangay 4, Carmona, Cavite, Calabarzon, 4116, Philippines",
-    "lat": 14.313459,
-    "lng": 121.057434,
+    "address": "Abubot Street, Bancal, Carmona, Cavite, 4116, Philippines",
+    "lat": 14.282006,
+    "lng": 121.008128,
     "featured": false
   },
   {
@@ -12500,9 +12477,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Quinssaines",
-    "address": "Rue de l'Église, La Prade, Quinssaines, Montluçon, Allier, Auvergne-Rhône-Alpes, Metropolitan France, 03380, France",
-    "lat": 46.327616,
-    "lng": 2.510574,
+    "address": "La Prade, Quinssaines, Allier, Auvergne-Rhône-Alpes, 03380, France",
+    "lat": 46.340416,
+    "lng": 2.519432,
     "featured": false
   },
   {
@@ -20483,9 +20460,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Champniers",
-    "address": "1, Rue des Grives Musiciennes, Puits Laroche, Champniers, Angoulême, Charente, Nouvelle-Aquitaine, Metropolitan France, 16430, France",
-    "lat": 45.714573,
-    "lng": 0.205054,
+    "address": "Espace des Montagnes, 200 Impasse de la Volute, 16430 Champniers, France",
+    "lat": 45.690774,
+    "lng": 0.189672,
     "featured": false
   },
   {
@@ -23990,9 +23967,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Ingolstadt",
-    "address": "2, Rathausplatz, Altstadt Südost, Mitte, Ingolstadt, Bavaria, 85049, Germany",
-    "lat": 48.763016,
-    "lng": 11.42504,
+    "address": "Manchinger Straße 128, 85053 Ingolstadt, Germany",
+    "lat": 48.744742,
+    "lng": 11.468668,
     "featured": false
   },
   {
@@ -26138,10 +26115,10 @@
     "status": "published",
     "country": "Croatia",
     "countryCode": "HR",
-    "city": "Općina Belica",
-    "address": "91, Ulica kralja Tomislava, Belica, Općina Belica, Međimurje County, 40319, Croatia",
-    "lat": 46.406549,
-    "lng": 16.520863,
+    "city": "Belica",
+    "address": "Ulica Nikole Šubića Zrinskog, Belica, Međimurje County, 40139, Croatia",
+    "lat": 46.397174,
+    "lng": 16.50226,
     "indoorOutdoor": "outdoor",
     "openingHours": "Daily 09:00-21:00",
     "featured": false
@@ -28984,9 +28961,9 @@
     "country": "Latvia",
     "countryCode": "LV",
     "city": "Riga",
-    "address": "Riga Cathedral, 6, Herdera laukums, Old Riga, Latgales apkaime, Riga, LV-1050, Latvia",
-    "lat": 56.949398,
-    "lng": 24.105185,
+    "address": "Ūdens iela 23, Rīga, LV-1007, Latvia",
+    "lat": 56.957337,
+    "lng": 24.073614,
     "indoorOutdoor": "indoor",
     "trackLengthM": 300,
     "openingHours": "Mon-Fri 14:00-22:00; Sat-Sun 12:00-22:00",
@@ -32642,22 +32619,6 @@
     "websiteUrl": "https://www.kartworld.at/",
     "indoorOutdoor": "indoor",
     "openingHours": "Daily 14:00-22:00 (extended during school holidays)",
-    "featured": false
-  },
-  {
-    "id": "f3a73a57-c4c2-453d-a1da-e80cd97161eb",
-    "slug": "kartxxl-ug",
-    "name": "Kartxxl UG",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Fellbach",
-    "address": "Cannstatter Straße, Fellbach, Rems-Murr-Kreis, Baden-Württemberg, 70736, Germany",
-    "lat": 48.814499,
-    "lng": 9.274523,
     "featured": false
   },
   {
@@ -40697,22 +40658,6 @@
     "featured": false
   },
   {
-    "id": "4a30be44-e754-432a-bdf1-55d0d2272824",
-    "slug": "pinarbasi-kart-track-izmir",
-    "name": "Pinarbasi Kart Track Izmir",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "İzmir",
-    "address": "Mucibur Rahman Caddesi, Kemeraltı, Konak Mahallesi, İzmir, Konak, Izmir, Aegean Region, 35250, Turkey",
-    "lat": 38.419254,
-    "lng": 27.128469,
-    "featured": false
-  },
-  {
     "id": "fdbde111-09ed-473e-b2df-7e059ee26bb4",
     "slug": "pineview-run",
     "name": "Pineview Run",
@@ -43657,9 +43602,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Chauray",
-    "address": "12, Rue de l'Église, Chauray, Niort, Deux-Sèvres, Nouvelle-Aquitaine, Metropolitan France, 79180, France",
-    "lat": 46.360688,
-    "lng": -0.374596,
+    "address": "141 Rue des Guillées, 79180 Chauray, France",
+    "lat": 46.34409,
+    "lng": -0.367643,
     "featured": false
   },
   {
@@ -45818,9 +45763,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Landsberg am Lech",
-    "address": "Hauptplatz, Klösterl, Landsberg am Lech, Landkreis Landsberg am Lech, Bavaria, 86899, Germany",
-    "lat": 48.049747,
-    "lng": 10.876873,
+    "address": "Graf-Zeppelin-Straße 20, 86899 Landsberg am Lech, Germany",
+    "lat": 48.070755,
+    "lng": 10.862872,
     "featured": false
   },
   {
@@ -54060,9 +54005,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Walldorf",
-    "address": "2, Heidelberger Straße, Walldorf, Rhein-Neckar-Kreis, Baden-Württemberg, 69190, Germany",
-    "lat": 49.303267,
-    "lng": 8.643206,
+    "address": "Alte Speyerer Straße 1, 69190 Walldorf, Germany",
+    "lat": 49.296924,
+    "lng": 8.601648,
     "featured": false
   },
   {

@@ -18,7 +18,7 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **#37 in review**: sixth pin pass (25 more karting/sim pins fixed, PowerPlay KC archived as closed), all **live in Postgres**. #18–#36 are merged and live.
+- **#38 in review**: seventh pin pass (9 more karting pins fixed, 3 archived), all **live in Postgres**. #18–#37 are merged and live.
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -27,7 +27,7 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 3 circuits, 62 karting/sim, plus batch B (128 karting/sim not run yet)**
+- **Pins still to review: 3 circuits, 49 karting/sim, plus batch B (128 karting/sim not run yet)**
   (`data/import/pin-check-2026-11-11.md`). Run batch B through Nominatim on
   another day (rule 8) and read its matches by hand (the name matching is
   loose: batch A matched a playground and a music school).
@@ -87,7 +87,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #37 `claude/pin-review-5` | Sixth pin pass (live), this plan update | merge | 2026-11-11 |
+| PR #38 `claude/pin-review-6` | Seventh pin pass (live), this plan update | merge | 2026-11-11 |
 
 ## Agent roster
 
@@ -217,3 +217,9 @@ error and analytics monitoring that actually receives data.
   them are district-level where the track isn't mapped (noted in the
   evidence). PowerPlay Kansas City archived: closed 30 Aug 2026. Published:
   3,169.
+- **2026-11-11 (late night, 3)**: #37 merged. Seventh pass (#38): 9 more
+  karting pins fixed by their own addresses (Ingolstadt, Walldorf,
+  Landsberg, Riga, Chauray, Champniers, Belica, Quinssaines, Carmona).
+  Archived: Pınarbaşı İzmir (closed 2022, demolished), Kartxxl UG and AQVA
+  Kart (no sign either is a kart track). Karting-Belval checked and kept.
+  Published: 3,166.
