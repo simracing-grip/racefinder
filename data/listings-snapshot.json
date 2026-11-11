@@ -1698,6 +1698,22 @@
     "featured": false
   },
   {
+    "id": "2ca802db-b617-4f53-8b85-e329c2f90805",
+    "slug": "andretti-indoor-karting-and-games-katy",
+    "name": "Andretti Indoor Karting & Games Katy",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Katy",
+    "address": "1230 Grand West Blvd, Katy, TX 77449, United States",
+    "lat": 29.787513,
+    "lng": -95.772246,
+    "featured": false
+  },
+  {
     "id": "a88bc3d2-330a-4988-84e3-a4189cf6ad02",
     "slug": "andretti-indoor-karting-and-games-marietta",
     "name": "Andretti Indoor Karting & Games Marietta",
@@ -3737,6 +3753,25 @@
     "featured": false
   },
   {
+    "id": "dcca45c7-fef7-4707-b6d1-57ec385d1184",
+    "slug": "autodromo-internacional-de-maputo",
+    "name": "Autodromo Internacional de Maputo",
+    "categories": [
+      "track_day",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Mozambique",
+    "countryCode": "MZ",
+    "city": "Maputo",
+    "address": "Avenida da Marginal, Polana Caniço B, KaMaxaquene, Maputo, Mozambique",
+    "lat": -25.940547,
+    "lng": 32.620239,
+    "websiteUrl": "https://www.atcm.org.mz/",
+    "phone": "+258 84 328 4790",
+    "featured": false
+  },
+  {
     "id": "ae6511c7-8826-4868-8204-b756f88dfbc3",
     "slug": "autodromo-internacional-de-mato-grosso",
     "name": "Autódromo Internacional de Mato Grosso",
@@ -5303,6 +5338,22 @@
     "featured": false
   },
   {
+    "id": "e8650fd0-6ae7-40bc-b92a-ffac8247466a",
+    "slug": "battlekart-dankern",
+    "name": "BattleKart Dankern",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Haren (Ems)",
+    "address": "Am Flugplatz 1, 49733 Haren (Ems), Germany",
+    "lat": 52.803493,
+    "lng": 7.163298,
+    "featured": false
+  },
+  {
     "id": "8db90791-c1d3-4160-a494-b09137108276",
     "slug": "battlekart-dijon",
     "name": "BattleKart Dijon",
@@ -5340,6 +5391,22 @@
         "min_age_or_height": "1.45m"
       }
     },
+    "featured": false
+  },
+  {
+    "id": "0a8dec1a-d1de-4442-9c82-c7722af5adaf",
+    "slug": "battlekart-dubai",
+    "name": "BattleKart Dubai",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "city": "Dubai",
+    "address": "Street 74, Plot 597-1178, Dubai Investment Park 2, Dubai, United Arab Emirates",
+    "lat": 24.980837,
+    "lng": 55.190311,
     "featured": false
   },
   {
@@ -5649,6 +5716,22 @@
     "featured": false
   },
   {
+    "id": "ef80fd5a-e899-468b-9568-27dd0f615340",
+    "slug": "battlekart-paris-ouest-dreux",
+    "name": "BattleKart Paris Ouest Dreux",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Dreux",
+    "address": "22 bis rue des Livraindières, 28100 Dreux, France",
+    "lat": 48.746807,
+    "lng": 1.36116,
+    "featured": false
+  },
+  {
     "id": "2f5bb30c-2207-4dd1-8747-1bdf24e8b4a6",
     "slug": "battlekart-paris-dammartin",
     "name": "BattleKart Paris-Dammartin",
@@ -5696,6 +5779,54 @@
     "lng": 115.877541,
     "websiteUrl": "https://www.battlekart.com/en/perth",
     "phone": "+61 415 411 608",
+    "featured": false
+  },
+  {
+    "id": "fc05c9e9-b61e-4ac4-a2c2-093c58137e11",
+    "slug": "battlekart-rennes",
+    "name": "BattleKart Rennes",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "La Mézière",
+    "address": "1 rue de la Tordelière, 35520 La Mézière, France",
+    "lat": 48.191696,
+    "lng": -1.727305,
+    "featured": false
+  },
+  {
+    "id": "febb6fa4-e878-4ad8-92c8-56d6ea98ff11",
+    "slug": "battlekart-saint-etienne",
+    "name": "BattleKart Saint-Étienne",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Andrézieux-Bouthéon",
+    "address": "6 impasse Saint-Exupéry, 42160 Andrézieux-Bouthéon, France",
+    "lat": 45.523769,
+    "lng": 4.29152,
+    "featured": false
+  },
+  {
+    "id": "3ede2499-4b3f-4480-8aa7-7e7b07a433d7",
+    "slug": "battlekart-sheffield",
+    "name": "BattleKart Sheffield",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Sheffield",
+    "address": "1 Downgate Drive, Sheffield, United Kingdom",
+    "lat": 53.405136,
+    "lng": -1.432469,
     "featured": false
   },
   {
@@ -6794,6 +6925,24 @@
     "featured": false
   },
   {
+    "id": "bc8ed890-0a9a-4137-94c3-b34f3ebb326c",
+    "slug": "brasilia-kart",
+    "name": "Brasília Kart",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Brasília",
+    "address": "DF-250 km 8, near Paranoá, Brasília, DF, Brazil",
+    "lat": -15.75103,
+    "lng": -47.713876,
+    "websiteUrl": "https://www.brasiliakart.com.br/",
+    "phone": "(61) 99866-9200",
+    "featured": false
+  },
+  {
     "id": "57d658be-f531-4495-bedf-83d7ce6f938b",
     "slug": "brass-city-raceway",
     "name": "Brass City Raceway",
@@ -7512,6 +7661,25 @@
     "featured": false
   },
   {
+    "id": "983a5764-6f99-4363-b156-f759c9f730be",
+    "slug": "canberra-kart-racing-club-circuit-mark-webber",
+    "name": "Canberra Kart Racing Club (Circuit Mark Webber)",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Australia",
+    "countryCode": "AU",
+    "city": "Canberra",
+    "address": "Fairbairn Park, Pialligo Avenue, Pialligo ACT 2609, Australia",
+    "lat": -35.327553,
+    "lng": 149.232603,
+    "websiteUrl": "https://canberrakarts.com.au/",
+    "phone": "0417 816 237",
+    "featured": false
+  },
+  {
     "id": "691b6789-cdbb-4bda-a8c6-3f5cd1b73687",
     "slug": "cannes-karting",
     "name": "Cannes Karting",
@@ -7568,6 +7736,22 @@
     "address": "8, Rue Gustave Eiffel, Parc Industriel et Logistique des Portes de Chambord I, La Cité des Rosiers, Mer, Blois, Loir-et-Cher, Centre-Val de Loire, Metropolitan France, 41500, France",
     "lat": 47.708364,
     "lng": 1.506271,
+    "featured": false
+  },
+  {
+    "id": "ec26ef75-cf1d-43ed-8446-7f451ddae99e",
+    "slug": "capital-karts",
+    "name": "Capital Karts",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Birmingham",
+    "address": "Unit 12 Star City, Watson Road, Birmingham B7 5SA, United Kingdom",
+    "lat": 52.505436,
+    "lng": -1.855627,
     "featured": false
   },
   {
@@ -7652,6 +7836,22 @@
     "phone": "+1 803-475-2448",
     "instagramUrl": "http://www.instagram.com/carolinamotorsportspark",
     "facebookUrl": "http://www.facebook.com/carolinamotorsportspark",
+    "featured": false
+  },
+  {
+    "id": "ffa92c0c-d167-4f55-bbdd-276398734d18",
+    "slug": "carrera-kart-parque-da-cidade",
+    "name": "Carrera Kart Parque da Cidade",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "city": "Brasília",
+    "address": "Parque da Cidade, estacionamento 11, SRPS, Asa Sul, Brasília, DF, Brazil",
+    "lat": -15.79578,
+    "lng": -47.900163,
     "featured": false
   },
   {
@@ -9039,6 +9239,22 @@
     "featured": false
   },
   {
+    "id": "4c09da96-beff-4554-8f41-d9131ed33460",
+    "slug": "circuit-international-anthoine-hubert",
+    "name": "Circuit International Anthoine Hubert",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Angerville",
+    "address": "Circuit International Anthoine Hubert, 91670 Angerville, Essonne, France",
+    "lat": 48.290125,
+    "lng": 2.006158,
+    "featured": false
+  },
+  {
     "id": "c5836de3-eab5-44d7-a638-f3a3b6a6c800",
     "slug": "circuit-international-daunay-les-bois",
     "name": "Circuit International d'Aunay-les-Bois",
@@ -10026,6 +10242,24 @@
     "featured": false
   },
   {
+    "id": "5ad2bc44-567f-4cc9-bdd0-b0e5fb2437eb",
+    "slug": "circuito-mike-g-guadix",
+    "name": "Circuito Mike G Guadix",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Guadix",
+    "address": "Carretera A-92N exit 11, 18500 Guadix, Granada, Spain",
+    "lat": 37.401,
+    "lng": -3.073776,
+    "websiteUrl": "https://www.guadixcircuit.com",
+    "phone": "+34 660 329 070",
+    "featured": false
+  },
+  {
     "id": "bb63af0a-1b38-4947-8052-dc3b3dfef69d",
     "slug": "circuito-monteblanco",
     "name": "Circuito Monteblanco",
@@ -10786,6 +11020,22 @@
     "featured": false
   },
   {
+    "id": "7e4fef91-cf7e-4845-9189-faa693f591f8",
+    "slug": "crazy-pinz-surfside-speedway",
+    "name": "Crazy Pinz – Surfside Speedway",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Fort Wayne",
+    "address": "Crazy Pinz Entertainment Center, Polo Run, Fort Wayne, IN 46825, United States",
+    "lat": 41.156432,
+    "lng": -85.162045,
+    "featured": false
+  },
+  {
     "id": "e6c169a6-7b43-47c1-a38b-4c3f43c1fa61",
     "slug": "croft-circuit",
     "name": "Croft Circuit",
@@ -11145,6 +11395,24 @@
     "websiteUrl": "https://www.daytona.com.cy/",
     "phone": "+357 22461220",
     "coverImageUrl": "https://static.wixstatic.com/media/2cff17_54381f983ca24f41a4121295ab4fbba6~mv2.jpg/v1/fill/w_980,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2cff17_54381f983ca24f41a4121295ab4fbba6~mv2.jpg",
+    "featured": false
+  },
+  {
+    "id": "a262409d-352a-4c12-a99d-d87d6f61e035",
+    "slug": "daytona-raceway-palmerston-north",
+    "name": "Daytona Raceway Palmerston North",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "city": "Palmerston North",
+    "address": "23D Bennett Street, Palmerston North 4412, New Zealand",
+    "lat": -40.342582,
+    "lng": 175.595966,
+    "websiteUrl": "https://www.daytona.co.nz/",
+    "phone": "(06) 353 5082",
     "featured": false
   },
   {
@@ -11897,6 +12165,24 @@
     "lat": 52.628558,
     "lng": 1.292395,
     "websiteUrl": "https://www.drivelounge.co.uk/locations/norwich/",
+    "featured": false
+  },
+  {
+    "id": "a730c5f0-6193-46b7-867e-d4a8e683e0d5",
+    "slug": "drive-lounge-westfield-london",
+    "name": "Drive Lounge Westfield London",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Westfield London, Ariel Way, Shepherd's Bush, London W12 7SL, United Kingdom",
+    "lat": 51.507848,
+    "lng": -0.221808,
+    "websiteUrl": "https://www.drivelounge.co.uk/locations/london/",
+    "phone": "0203 307 6003",
     "featured": false
   },
   {
@@ -14807,6 +15093,24 @@
     "featured": false
   },
   {
+    "id": "c1e98fff-2d56-47a6-b0c3-ff7d8ae926e8",
+    "slug": "flightdeck1-rogue-racing",
+    "name": "Flightdeck1 Rogue Racing",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Anaheim",
+    "address": "400 West Disney Way, Suite 196, Anaheim, CA 92802, United States",
+    "lat": 33.805048,
+    "lng": -117.911393,
+    "websiteUrl": "https://flightdeck1.com/",
+    "phone": "657-539-0606",
+    "featured": false
+  },
+  {
     "id": "5568f19c-852b-4fac-912e-a27462e465d3",
     "slug": "florida-international-rally-and-motorsport-park-the-firm",
     "name": "Florida International Rally & Motorsport Park (The FIRM)",
@@ -15347,6 +15651,24 @@
     "featured": false
   },
   {
+    "id": "cbb6270f-8d11-41cc-9952-f069a6b50f97",
+    "slug": "full-send-racing-lounge",
+    "name": "Full Send Racing Lounge",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Portsmouth",
+    "address": "Gunwharf Quays, Portsmouth PO1 3FA, United Kingdom",
+    "lat": 50.795462,
+    "lng": -1.1062,
+    "websiteUrl": "https://fullsendracinglounge.co.uk/",
+    "phone": "023 9200 9183",
+    "featured": false
+  },
+  {
     "id": "e9c416d7-3c07-4629-9e0c-35202a5dd94e",
     "slug": "full-throttle-adrenaline-park-cincinnati",
     "name": "Full Throttle Adrenaline Park Cincinnati",
@@ -15606,6 +15928,24 @@
     "lat": 47.957841,
     "lng": 1.894113,
     "websiteUrl": "https://www.gracesimulator.fr/",
+    "featured": false
+  },
+  {
+    "id": "9d4a0d05-e26c-4b55-adfb-7beeee4179b4",
+    "slug": "g1-gokart-world-mall",
+    "name": "G1 Gokart - World Mall",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "city": "Budapest",
+    "address": "Szentmihályi út 167-169, World Mall, 1152 Budapest, Hungary",
+    "lat": 47.549331,
+    "lng": 19.147534,
+    "indoorOutdoor": "indoor",
+    "openingHours": "Mon-Fri 14:00-22:00; Sat-Sun 10:00-22:00",
     "featured": false
   },
   {
@@ -21051,6 +21391,22 @@
     "featured": false
   },
   {
+    "id": "31b399b8-8ac8-4aa8-a2a5-896c89dbe48b",
+    "slug": "k1-speed-karting-indoor-electrique-le-mans",
+    "name": "K1 Speed - Karting Indoor Électrique Le Mans",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Le Mans",
+    "address": "26 Avenue du Panorama, 72100 Le Mans, France",
+    "lat": 47.962904,
+    "lng": 0.218584,
+    "featured": false
+  },
+  {
     "id": "1fdd1412-5719-4a00-b3ef-8e0b56d4b1ce",
     "slug": "k1-speed-addison",
     "name": "K1 Speed Addison",
@@ -21455,6 +21811,22 @@
     "featured": false
   },
   {
+    "id": "62caeaea-c172-46c2-823a-dcde3e13175d",
+    "slug": "k1-speed-jacksonville",
+    "name": "K1 Speed Jacksonville",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Jacksonville",
+    "address": "6601 Executive Park Court N, Jacksonville, FL, United States",
+    "lat": 30.255128,
+    "lng": -81.602337,
+    "featured": false
+  },
+  {
     "id": "90c10683-f878-4ff9-8275-acb2a056bce0",
     "slug": "k1-speed-jessup-baltimore",
     "name": "K1 Speed Jessup (Baltimore)",
@@ -21487,6 +21859,22 @@
     "lat": 39.117157,
     "lng": -94.80623,
     "websiteUrl": "https://www.k1speed.com/kansas-city-location.html",
+    "featured": false
+  },
+  {
+    "id": "0c21fe25-87c5-415e-b9b0-9360a69c3378",
+    "slug": "k1-speed-karting-arlington",
+    "name": "K1 Speed Karting Arlington",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Arlington",
+    "address": "1801 E Lamar Boulevard, Arlington, TX, United States",
+    "lat": 32.763587,
+    "lng": -97.080585,
     "featured": false
   },
   {
@@ -21682,6 +22070,22 @@
     "featured": false
   },
   {
+    "id": "5187779c-e7d4-483d-9e3b-9be1d2084a4b",
+    "slug": "k1-speed-karting-tampa-bay",
+    "name": "K1 Speed Karting Tampa Bay",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Tampa",
+    "address": "3404 Cragmont Drive, Tampa, FL, United States",
+    "lat": 27.976186,
+    "lng": -82.341328,
+    "featured": false
+  },
+  {
     "id": "9ab21032-c157-4bb7-b306-076674298c5e",
     "slug": "k1-speed-karting-thousand-oaks",
     "name": "K1 Speed Karting Thousand Oaks",
@@ -21759,6 +22163,22 @@
     "address": "Henley Street, Knoxville Central Business District, South Waterfront, Fort Sanders, Knoxville, Knox County, East Tennessee, Tennessee, 37902, United States",
     "lat": 35.960395,
     "lng": -83.921026,
+    "featured": false
+  },
+  {
+    "id": "711b42e5-fd72-4d90-ab37-5b3dbbe8fdd8",
+    "slug": "k1-speed-las-vegas",
+    "name": "K1 Speed Las Vegas",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United States",
+    "countryCode": "US",
+    "city": "Las Vegas",
+    "address": "4175 S Arville Street, Las Vegas, NV, United States",
+    "lat": 36.114248,
+    "lng": -115.202386,
     "featured": false
   },
   {
@@ -21843,6 +22263,22 @@
     "lng": -88.206017,
     "websiteUrl": "https://www.k1speed.com/milwaukee-location.html",
     "phone": "262-232-6700",
+    "featured": false
+  },
+  {
+    "id": "e06d8989-cacb-4e95-9dc2-30cc24f7ab30",
+    "slug": "k1-speed-mississauga",
+    "name": "K1 Speed Mississauga",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Canada",
+    "countryCode": "CA",
+    "city": "Mississauga",
+    "address": "1330 Eglinton Avenue East, Mississauga, ON, Canada",
+    "lat": 43.635236,
+    "lng": -79.621061,
     "featured": false
   },
   {
@@ -23565,6 +24001,22 @@
         "min_age_or_height": "1.30m children; 1.55m+ adult; 5yr/1.00m two-seater"
       }
     },
+    "featured": false
+  },
+  {
+    "id": "71c0df16-359a-4a12-8f3a-1de5746cc786",
+    "slug": "kart-club-kerpen",
+    "name": "Kart-Club Kerpen",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Germany",
+    "countryCode": "DE",
+    "city": "Kerpen",
+    "address": "Steinheide 3, 50170 Kerpen, Germany",
+    "lat": 50.88861,
+    "lng": 6.6138,
     "featured": false
   },
   {
@@ -29384,6 +29836,25 @@
     "address": "Engenharia do Corpo, 667, Avenida Osvaldo Aranha, Juventude da Enologia, Bento Gonçalves, Rio Grande do Sul, South Region, 95700-200, Brazil",
     "lat": -29.165673,
     "lng": -51.520117,
+    "featured": false
+  },
+  {
+    "id": "6a47a47e-73e9-446c-8b7c-de962c218601",
+    "slug": "kartodromo-atcm-maputo",
+    "name": "Kartodromo ATCM Maputo",
+    "categories": [
+      "karting",
+      "club_only"
+    ],
+    "status": "published",
+    "country": "Mozambique",
+    "countryCode": "MZ",
+    "city": "Maputo",
+    "address": "Avenida da Marginal, Entrada 2, Maputo, Mozambique",
+    "lat": -25.943092,
+    "lng": 32.620322,
+    "websiteUrl": "https://karting.atcm.org.mz/",
+    "phone": "+258 84 328 4790",
     "featured": false
   },
   {
@@ -46469,6 +46940,24 @@
     "featured": false
   },
   {
+    "id": "4965c0ed-0917-4056-b82a-c6da3a1979c0",
+    "slug": "sevilla-circuit",
+    "name": "Sevilla Circuit",
+    "categories": [
+      "track_day"
+    ],
+    "status": "published",
+    "country": "Spain",
+    "countryCode": "ES",
+    "city": "Carmona",
+    "address": "Carretera SE-3201 km 9, 41520 Carmona, Sevilla, Spain",
+    "lat": 37.460305,
+    "lng": -5.72084,
+    "websiteUrl": "http://www.sevillacircuit.com",
+    "phone": "+34 647 682 561",
+    "featured": false
+  },
+  {
     "id": "d092a749-3fec-4878-971c-8ca8e5dada99",
     "slug": "sh-karting",
     "name": "SH Karting",
@@ -49117,6 +49606,38 @@
     "featured": false
   },
   {
+    "id": "37b6547e-2b23-49b3-a910-a0ea7c410c90",
+    "slug": "speeders-calgary-chinook",
+    "name": "SPEEDERS Calgary Chinook",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Canada",
+    "countryCode": "CA",
+    "city": "Calgary",
+    "address": "324 58 Avenue SE #4000, Calgary, AB T2H 1K1, Canada",
+    "lat": 51.002694,
+    "lng": -114.058371,
+    "featured": false
+  },
+  {
+    "id": "5658d3c9-4a34-44a8-a6c0-7b623b927942",
+    "slug": "speeders-edmonton",
+    "name": "SPEEDERS Edmonton",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "Canada",
+    "countryCode": "CA",
+    "city": "Edmonton",
+    "address": "12808 170 Street NW Unit 16, Edmonton, AB T5V 0A6, Canada",
+    "lat": 53.585349,
+    "lng": -113.616165,
+    "featured": false
+  },
+  {
     "id": "b4fee8fe-6d55-4ae2-bde5-9e9d7bff79c9",
     "slug": "speeders-richmond",
     "name": "SPEEDERS Richmond",
@@ -51384,6 +51905,22 @@
     "featured": false
   },
   {
+    "id": "54fc6a2d-be62-48c6-b66f-c5bf94724a3f",
+    "slug": "teamworks-birmingham-city",
+    "name": "Teamworks Birmingham City",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Birmingham",
+    "address": "202 Fazeley Street, Birmingham B5 5SE, United Kingdom",
+    "lat": 52.478064,
+    "lng": -1.880959,
+    "featured": false
+  },
+  {
     "id": "c5d08c12-cd5f-4ef9-ac22-80b9c2cf4e3e",
     "slug": "teamworks-birmingham-west",
     "name": "Teamworks Birmingham West",
@@ -51910,6 +52447,24 @@
     "featured": false
   },
   {
+    "id": "86560f8e-efda-4861-a0ca-ccb0d45540d6",
+    "slug": "the-race-centre-chandlers-ford",
+    "name": "The Race Centre Chandlers Ford",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Chandlers Ford",
+    "address": "Unit 17, The Central Precinct, Winchester Road, Chandlers Ford SO53 2GB, United Kingdom",
+    "lat": 50.982322,
+    "lng": -1.382072,
+    "websiteUrl": "https://www.theracecentre.co.uk/",
+    "phone": "023 8026 9927",
+    "featured": false
+  },
+  {
     "id": "6a192410-d129-4a10-bf85-b83ecd6e25e4",
     "slug": "the-race-haus",
     "name": "The Race Haus",
@@ -51925,6 +52480,25 @@
     "lng": -90.360229,
     "websiteUrl": "https://theracehaus.com/",
     "phone": "(314) 877-8848",
+    "featured": false
+  },
+  {
+    "id": "4e849254-0540-4d1d-8696-ae5144a3804e",
+    "slug": "the-race-lounge-star-city-birmingham",
+    "name": "The Race Lounge Star City Birmingham",
+    "categories": [
+      "sim_racing"
+    ],
+    "status": "published",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "city": "Birmingham",
+    "address": "Capital Karts, Unit 12 Star City, Watson Road, Birmingham B7 5SA, United Kingdom",
+    "lat": 52.505436,
+    "lng": -1.855627,
+    "websiteUrl": "https://www.capitalkarts.com/star-city/the-race-lounge/",
+    "phone": "0121 3124 800",
+    "coverImageUrl": "https://www.capitalkarts.com/wp-content/uploads/Race-Lounge.jpg",
     "featured": false
   },
   {

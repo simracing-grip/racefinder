@@ -6,7 +6,7 @@ reads this before any work, reconciles it against git, PRs and agent output,
 and keeps it current. Edit it freely. The team lead edits in place and keeps
 your changes.
 
-Last reviewed: 2026-11-10
+Last reviewed: 2026-11-11
 
 ## Goal
 
@@ -18,11 +18,6 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **Rescue 34 dropped venues**: PR #14 (`claude/rescue-dropped-venues`).
-  It merges cleanly into master: 3,183 → 3,217 venues, no duplicates, photos
-  kept. Next: merge (needs the user's yes), run
-  `npx tsx data/import/sync-to-supabase.ts`, then `db:snapshot` and a PR for
-  the snapshot.
 - **Licensed photo run, remaining batches**: batches 05, 10 and 11 are
   partial and 12 is not started (`data/import/photos/batches/`). After it
   finishes: `apply-photo-run.ts`, then sync, then `db:snapshot`.
@@ -53,6 +48,9 @@ error and analytics monitoring that actually receives data.
 - Keep photoIndex-2 rows for a future gallery.
 
 ### Done (recent)
+- PR #14: 34 dropped venues rescued, synced on 2026-11-11 (3,217 published),
+  snapshot refreshed.
+- PR #13 and #15: team-lead agent and this plan.
 - PR #12: venue submission form on /contact, plus migration 0003
   (`submissions` table and RLS). Live test passed on 2026-11-02.
 - PR #10 and #11: 164 licensed circuit photos (368 venues have photos);
@@ -67,7 +65,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #14 `claude/rescue-dropped-venues` | Restore 34 venues with confirmed locations | merge → sync → snapshot | opened 2026-11-10 |
+| `claude/snapshot-after-rescue` | Snapshot refresh after the rescue sync (3,217 rows) | merge | opened 2026-11-11 |
 
 ## Agent roster
 
@@ -107,3 +105,10 @@ error and analytics monitoring that actually receives data.
   3,217 venues, no duplicate slugs or ids, and all 368 photos kept. One
   rescued venue (`the-race-lounge-star-city-birmingham`) brings back a photo
   from the venue's own site, which is in the licensing-risk group.
+- **2026-11-11**: PR #14 merged as `2e7986b`, after merging master into the
+  branch: its Vercel preview had failed because the branch predated the
+  outage fallback. PR #15 merged as `b76830c`. A dry run against the database
+  found 0 rows to archive and 34 archived rows to revive. The sync then
+  upserted 3,217 rows, archived 0, and left 3,217 published. The snapshot was
+  re-exported (3,217 rows). Tip: run DB scripts from a worktree with
+  `DOTENV_CONFIG_PATH=<main checkout>/.env`.
