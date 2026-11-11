@@ -2,6 +2,8 @@
 
 import { createHash } from "node:crypto";
 import { headers } from "next/headers";
+import { after } from "next/server";
+import { notifySubmission } from "@/lib/notify";
 import { and, count, eq, gte } from "drizzle-orm";
 import * as Sentry from "@sentry/nextjs";
 import { db } from "@/lib/db/client";
@@ -127,5 +129,8 @@ export async function submitVenueForm(_prev: SubmissionState, formData: FormData
     return unavailable;
   }
 
+  // Emailed after the visitor has their answer, so a slow mail API never
+  // delays the form.
+  after(() => notifySubmission(parsed.data));
   return { status: "ok" };
 }
