@@ -32,7 +32,7 @@ export default function SiteHeader() {
           <GarageLink />
           <Link
             href="/map"
-            className="inline-flex items-center gap-1.5 bg-signal px-3.5 py-2 font-display sm:gap-2 sm:px-4 text-base font-bold italic uppercase tracking-wide text-white transition [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)] hover:bg-white hover:text-ink"
+            className="inline-flex items-center gap-1.5 bg-signal-solid px-3.5 py-2 font-display sm:gap-2 sm:px-4 text-base font-bold italic uppercase tracking-wide text-white transition [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)] hover:bg-white hover:text-ink"
           >
             {/* "Map" alone on phones, where search + garage share the row */}
             <span className="hidden sm:inline">Open</span> map

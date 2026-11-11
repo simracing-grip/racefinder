@@ -14,7 +14,7 @@ export default function NotFound() {
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link
             href="/"
-            className="btn-skew bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
+            className="btn-skew bg-signal-solid px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
           >
             Back to the pits
           </Link>

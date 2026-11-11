@@ -6,7 +6,7 @@ import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
 import CountrySelect from "@/components/CountrySelect";
 import CategoryIcon from "@/components/Home/CategoryIcon";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 
 type CategoryFilter = Category | "all";
 
@@ -88,7 +88,7 @@ export default function FilterBar({
             </button>
           ) : (
             <Link key={c.value} href={`/category/${c.value}${countryQuery}`} className={pillClass(activeCategory === c.value)}>
-              <span style={{ color: activeCategory === c.value ? undefined : CATEGORY_COLOR[c.value] }}>
+              <span style={{ color: activeCategory === c.value ? undefined : CATEGORY_TEXT_COLOR[c.value] }}>
                 <CategoryIcon category={c.value} className="h-4 w-4" />
               </span>
               {c.label}

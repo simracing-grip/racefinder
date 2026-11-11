@@ -1,7 +1,7 @@
 "use client";
 
 import type { SearchResult } from "@/lib/search";
-import { CATEGORY_COLOR, CATEGORY_LABEL } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR, CATEGORY_LABEL } from "@/lib/categoryMeta";
 import CountryFlag from "@/components/CountryFlag";
 
 function PinIcon() {
@@ -66,7 +66,7 @@ export default function SearchResultList({
               </div>
               <span
                 className="shrink-0 font-display text-xs font-bold uppercase italic tracking-wide"
-                style={{ color: CATEGORY_COLOR[r.category] }}
+                style={{ color: CATEGORY_TEXT_COLOR[r.category] }}
               >
                 {CATEGORY_LABEL[r.category]}
               </span>

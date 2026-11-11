@@ -15,7 +15,7 @@ import AddToCalendar from "@/components/Calendar/AddToCalendar";
 import SaveButton from "@/components/Garage/SaveButton";
 import { SITE_URL } from "@/lib/site";
 import { CATEGORIES } from "@/lib/types";
-import { CATEGORY_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR, CATEGORY_LABEL, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
 import { distanceKm, formatDistanceKm } from "@/lib/geo";
 import { slugifyCountry } from "@/lib/countrySlug";
@@ -104,7 +104,7 @@ export default async function ListingDetailPage({
 
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
-  const accent = CATEGORY_COLOR[primary] ?? "#ff2a2a";
+  const accent = CATEGORY_TEXT_COLOR[primary] ?? "#ff2a2a";
   const nextEvent = getNextEvent(listing);
 
   // Closest other venues in the same country — served from the in-memory
@@ -142,7 +142,7 @@ export default async function ListingDetailPage({
                 data-track-venue={listing.slug}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-skew inline-flex items-center gap-2 bg-signal px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
+                className="btn-skew inline-flex items-center gap-2 bg-signal-solid px-6 py-3 font-display text-lg font-black uppercase italic text-white transition hover:bg-white hover:text-ink"
               >
                 Visit website <span aria-hidden>&#8599;</span>
               </a>

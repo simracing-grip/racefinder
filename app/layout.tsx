@@ -59,7 +59,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* Lets keyboard and screen-reader users jump past the header nav. */}
         <a
           href="#main"
-          className="sr-only z-50 bg-signal px-4 py-2 font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+          className="sr-only z-50 bg-signal-solid px-4 py-2 font-semibold text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
         >
           Skip to content
         </a>
