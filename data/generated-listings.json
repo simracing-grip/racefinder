@@ -453,7 +453,7 @@
     "address": "Улица 93, Volkovo, Municipality of Gjorche Petrov, City of Skopje, 1065, North Macedonia",
     "lat": 42.044201,
     "lng": 21.348461,
-    "websiteUrl": "https://skajkart.mk/en/",
+    "websiteUrl": "https://skajkart.mk/",
     "phone": "+389 75 206 236"
   },
   {
@@ -1345,7 +1345,7 @@
     "address": "Plaza Teniente Arce, Ronda, Serranía de Ronda, Malaga, Andalusia, 29400, Spain",
     "lat": 36.742134,
     "lng": -5.166592,
-    "websiteUrl": "https://www.ascari.net",
+    "websiteUrl": "https://ascari.es/",
     "phone": "+34 952 187 171",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vista_a%C3%A9rea_del_Circuito_Ascari_en_Ronda.jpg"
   },
@@ -2272,25 +2272,8 @@
     "address": "25A, Șoseaua de Centură, Tunari, Ilfov, 077190, Romania",
     "lat": 44.530396,
     "lng": 26.156488,
-    "websiteUrl": "http://www.amckart.ro/tunari/",
+    "websiteUrl": "https://www.amckart.ro/",
     "phone": "+40 741 100 700"
-  },
-  {
-    "id": "141",
-    "slug": "escuderia-madrid",
-    "name": "Escudería Madrid",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Las Rozas de Madrid",
-    "address": "32, Avenida de Lazarejo, El Cantizal, Las Rozas de Madrid, Community of Madrid, 28232, Spain",
-    "lat": 40.526288,
-    "lng": -3.929606,
-    "websiteUrl": "https://www.escuderiamadrid.com/",
-    "phone": "+34 910 591 582"
   },
   {
     "id": "142",
@@ -2408,7 +2391,7 @@
     "address": "6, Boulevard Arago, Wissous, Palaiseau, Essonne, Ile-de-France, Metropolitan France, 91320, France",
     "lat": 48.730943,
     "lng": 2.318126,
-    "websiteUrl": "http://pariskart.fr/",
+    "websiteUrl": "https://pariskart.com/",
     "phone": "+33 1 60 11 13 13"
   },
   {
@@ -2677,23 +2660,6 @@
     "websiteUrl": "https://racehall.com/en/booking-copenhagen/"
   },
   {
-    "id": "165",
-    "slug": "lazerx-and-gokart-fossegrenda",
-    "name": "LaZerX & Gokart Fossegrenda",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Norway",
-    "countryCode": "NO",
-    "city": "Trondheim",
-    "address": "1, Okstadbrinken, Leirøya, Kroppanmarka, Fossegrenda, Lerkendal, Trondheim, Trøndelag, 7075, Norway",
-    "lat": 63.382146,
-    "lng": 10.389794,
-    "websiteUrl": "https://lazerx.no",
-    "phone": "+47 92 86 43 02"
-  },
-  {
     "id": "166",
     "slug": "nurburgring-esports-sim-racing-lounge-koln",
     "name": "Nürburgring eSports Sim Racing Lounge Köln",
@@ -2772,7 +2738,7 @@
     "address": "L2545, Carrigaline ED, Municipal District of Carrigaline, County Cork, Munster, Ireland",
     "lat": 51.832833,
     "lng": -8.305286,
-    "websiteUrl": "https://nationalesportscentre.ie/sim-racing/",
+    "websiteUrl": "https://nationalesportscentre.ie",
     "phone": "021 245 5420"
   },
   {
@@ -2941,39 +2907,6 @@
     "lng": 2.197295,
     "websiteUrl": "https://hispeedsim.com/",
     "phone": "93 131 66 17"
-  },
-  {
-    "id": "182",
-    "slug": "simrace-cafe-bratislava",
-    "name": "SimRace Café Bratislava",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Slovakia",
-    "countryCode": "SK",
-    "city": "Bratislava",
-    "address": "5300/21A, Ružová dolina, Nivy, Bratislava-Ružinov, District of Bratislava II, Bratislava, Region of Bratislava, 821 09, Slovakia",
-    "lat": 48.153459,
-    "lng": 17.139695,
-    "websiteUrl": "https://simracecafe.sk/",
-    "phone": "+421 910 135 330"
-  },
-  {
-    "id": "183",
-    "slug": "racing-performance-center-vestby",
-    "name": "Racing Performance Center Vestby",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Norway",
-    "countryCode": "NO",
-    "city": "Verpet",
-    "address": "6, Nordlysveien, Randem, Randem skog, Verpet, Vestby, Akershus, 1543, Norway",
-    "lat": 59.61886,
-    "lng": 10.744548,
-    "websiteUrl": "https://racingpc.no/"
   },
   {
     "id": "184",
@@ -4050,23 +3983,6 @@
     "lng": 100.722565
   },
   {
-    "id": "249",
-    "slug": "kf1-karting-circuit",
-    "name": "KF1 Karting Circuit",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Singapore",
-    "countryCode": "SG",
-    "city": "Singapore",
-    "address": "Woodlands Road, Turf Club, Sungei Kadut, North Region, Singapore, 738702, Singapore",
-    "lat": 1.422055,
-    "lng": 103.764182,
-    "websiteUrl": "https://kf1karting.com/",
-    "phone": "+65 6891 1191"
-  },
-  {
     "id": "250",
     "slug": "lalaspeed-e-kart-raceway",
     "name": "LalaSpeed E Kart Raceway",
@@ -4144,7 +4060,7 @@
     "address": "Al Forsan International Sports Resort, Al Watani, Khalifa City, Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
     "lat": 24.412303,
     "lng": 54.548628,
-    "websiteUrl": "https://www.alforsan.com/",
+    "websiteUrl": "https://www.alforsan.ae/",
     "phone": "+971 2 656 5656"
   },
   {
@@ -4161,7 +4077,7 @@
     "address": "Honsho Road, Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
     "lat": 25.042371,
     "lng": 55.241661,
-    "websiteUrl": "https://www.dubaiautodrome.com/"
+    "websiteUrl": "https://dubaiautodrome.ae/"
   },
   {
     "id": "257",
@@ -4452,22 +4368,6 @@
     "phone": "305-998-2080"
   },
   {
-    "id": "275",
-    "slug": "gripwerx-simulation-racing",
-    "name": "GripWerx Simulation Racing",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Redmond",
-    "address": "Gripwerx Simulation Racing, 7330, 164th Avenue Northeast, Downtown Redmond, Redmond, King County, Washington, 98052, United States",
-    "lat": 47.670285,
-    "lng": -122.120613,
-    "websiteUrl": "https://www.gripwerxracing.com/"
-  },
-  {
     "id": "277",
     "slug": "f1-arcade-las-vegas",
     "name": "F1 Arcade Las Vegas",
@@ -4532,22 +4432,6 @@
     "lng": -121.954439,
     "websiteUrl": "https://sanramon.shiftarcade.com/",
     "phone": "925-329-6229"
-  },
-  {
-    "id": "281",
-    "slug": "the-paddock-sim-racing",
-    "name": "The Paddock Sim Racing",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Indianapolis",
-    "address": "150, East Market Street, Indianapolis, Center Township, Marion, Indiana, 46204, United States",
-    "lat": 39.768848,
-    "lng": -86.154859,
-    "websiteUrl": "https://www.paddockclubracing.com"
   },
   {
     "id": "282",
@@ -5514,7 +5398,8 @@
     "address": "二本松安達線, 本町二丁目, 金色久保, Nihonmatsu, Fukushima Prefecture, 964-8799, Japan",
     "lat": 37.58504,
     "lng": 140.431389,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ebisu_Circuit_East_002.JPG"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ebisu_Circuit_East_002.JPG",
+    "websiteUrl": "https://www.ebisu-circuit.com"
   },
   {
     "id": "345",
@@ -5810,7 +5695,7 @@
     "address": "Busiika Adventure park, Zirobwe - Gayaza Road, Gayaza, Luweero, Central Region, Uganda",
     "lat": 0.581931,
     "lng": 32.663396,
-    "websiteUrl": "https://www.extremeadventures.co.ug/product/go-karting/",
+    "websiteUrl": "https://www.extremeadventures.co.ug/",
     "phone": "+256 755 933 006"
   },
   {
@@ -8039,7 +7924,7 @@
     "address": "Todd Road, Port Melbourne, Melbourne, Victoria, 3207, Australia",
     "lat": -37.833793,
     "lng": 144.913063,
-    "websiteUrl": "https://www.gkcv.com.au/",
+    "websiteUrl": "https://gkcv.com.au",
     "phone": "0448 000 417"
   },
   {
@@ -9482,23 +9367,6 @@
     "phone": "+54 223 531-9038"
   },
   {
-    "id": "589",
-    "slug": "iron-driver-experience-villa-devoto",
-    "name": "Iron Driver Experience Villa Devoto",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "city": "Buenos Aires",
-    "address": "2909, Asunción, Agronomía, Buenos Aires, Comuna 15, Autonomous City of Buenos Aires, C1419HTH, Argentina",
-    "lat": -34.592148,
-    "lng": -58.497197,
-    "websiteUrl": "https://irondriverexperience.com/",
-    "phone": "+54 9 11 2294 2520"
-  },
-  {
     "id": "590",
     "slug": "autodromo-enrique-freile",
     "name": "Autódromo Enrique Freile",
@@ -9974,7 +9842,8 @@
     "city": "Toronto",
     "address": "Cocksfield Avenue, Bathurst Manor, York Centre, North York, Toronto, Golden Horseshoe, Ontario, M3H 2T1, Canada",
     "lat": 43.754322,
-    "lng": -79.449106
+    "lng": -79.449106,
+    "websiteUrl": "https://www.k1speed.ca"
   },
   {
     "id": "622",
@@ -10094,7 +9963,8 @@
     "city": "Clarington",
     "address": "2391, Darlington-Clarke Townline, Clarington, Durham Region, Golden Horseshoe, Ontario, L0B 1M0, Canada",
     "lat": 43.968669,
-    "lng": -78.651354
+    "lng": -78.651354,
+    "websiteUrl": "https://canadiantiremotorsportpark.com/pages/karting-track"
   },
   {
     "id": "630",
@@ -12154,21 +12024,6 @@
     "lng": -51.520117
   },
   {
-    "id": "797",
-    "slug": "kartodromo-ayrton-senna-de-bage",
-    "name": "Kartódromo Ayrton Senna de Bagé",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Bagé",
-    "address": "Rua General Neto, Bagé, Rio Grande do Sul, South Region, 96400-201, Brazil",
-    "lat": -31.331426,
-    "lng": -54.106281
-  },
-  {
     "id": "798",
     "slug": "kartodromo-ayrton-senna-de-pato-branco",
     "name": "Kartódromo Ayrton Senna de Pato Branco",
@@ -14059,7 +13914,8 @@
     "city": "Omahu",
     "address": "Korokipo Road, Fernhill, Omahu, Hastings District, Hawke's Bay, 4175, New Zealand",
     "lat": -39.595651,
-    "lng": 176.765375
+    "lng": 176.765375,
+    "websiteUrl": "https://www.sporty.co.nz/kartsporthawkesbay"
   },
   {
     "id": "941",
@@ -15261,7 +15117,8 @@
     "city": "Speedway",
     "address": "Old Speedway, Speedway, Wayne Township, Marion County, Indiana, 36224, United States",
     "lat": 39.788123,
-    "lng": -86.240714
+    "lng": -86.240714,
+    "websiteUrl": "https://www.sikindy.com/"
   },
   {
     "id": "1039",
@@ -17991,7 +17848,8 @@
     "city": "South San Francisco",
     "address": "498, Railroad Avenue, South San Francisco, San Mateo County, California, 94080, United States",
     "lat": 37.65354,
-    "lng": -122.416866
+    "lng": -122.416866,
+    "websiteUrl": "https://k1speed.com/san-francisco-location"
   },
   {
     "id": "1234",
@@ -19569,21 +19427,6 @@
     "lng": 127.696119
   },
   {
-    "id": "1375",
-    "slug": "speedrome-sri-lanka",
-    "name": "Speedrome Sri Lanka",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Sri Lanka",
-    "countryCode": "LK",
-    "city": "Polwattakanda",
-    "address": "Sirangahawatta, Polwattakanda, Matale District, Central Province, 21400, Sri Lanka",
-    "lat": 7.555494,
-    "lng": 80.713785
-  },
-  {
     "id": "1377",
     "slug": "pinarbasi-kart-track-izmir",
     "name": "Pinarbasi Kart Track Izmir",
@@ -20841,7 +20684,8 @@
     "city": "Straubing",
     "address": "6, Pfauenstraße, Straubing-Ost, Straubing, Bavaria, 94315, Germany",
     "lat": 48.883916,
-    "lng": 12.595577
+    "lng": 12.595577,
+    "websiteUrl": "https://www.kartbahn-straubing.de"
   },
   {
     "id": "1466",
@@ -21339,21 +21183,6 @@
     "lng": 12.080463
   },
   {
-    "id": "1499",
-    "slug": "kartbahn-dargelin",
-    "name": "Kartbahn Dargelin",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Alt Negentin",
-    "address": "26, Teichstraße, Dargelin Hof, Alt Negentin, Dargelin, Landhagen, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17498, Germany",
-    "lat": 54.014856,
-    "lng": 13.355444
-  },
-  {
     "id": "1500",
     "slug": "go-kart-bahn-gramkow",
     "name": "Go-Kart Bahn Gramkow",
@@ -21501,7 +21330,8 @@
     "city": "Auengrund",
     "address": "A 73, Poppenwind, Auengrund, Landkreis Hildburghausen, Thuringia, 98673, Germany",
     "lat": 50.467534,
-    "lng": 10.839186
+    "lng": 10.839186,
+    "websiteUrl": "https://kartbahn-schwarzbach.de"
   },
   {
     "id": "1510",
@@ -21696,7 +21526,8 @@
     "city": "Wörth am Rhein",
     "address": "13, Hartmannstraße, Wörth am Rhein, Landkreis Germersheim, Rhineland-Palatinate, 76744, Germany",
     "lat": 49.054323,
-    "lng": 8.26674
+    "lng": 8.26674,
+    "websiteUrl": "https://www.kartcenter-karlsruhe.de/"
   },
   {
     "id": "1523",
@@ -22869,21 +22700,6 @@
     "lng": 2.234386
   },
   {
-    "id": "1605",
-    "slug": "kart-sensation-auvergne",
-    "name": "Kart Sensation Auvergne",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "France",
-    "countryCode": "FR",
-    "city": "Bourg-Lastic",
-    "address": "14, Route de Clermont, Bourg-Lastic, Riom, Puy-de-Dôme, Auvergne-Rhône-Alpes, Metropolitan France, 63760, France",
-    "lat": 45.647949,
-    "lng": 2.55863
-  },
-  {
     "id": "1606",
     "slug": "gtr-performance",
     "name": "GTR Performance",
@@ -23586,7 +23402,8 @@
     "city": "Cernay",
     "address": "Cour des Pauvres, Cernay, Lisieux, Calvados, Normandy, Metropolitan France, 14290, France",
     "lat": 49.021111,
-    "lng": 0.325
+    "lng": 0.325,
+    "websiteUrl": "https://www.wakalase.com"
   },
   {
     "id": "1654",
@@ -25551,7 +25368,8 @@
     "city": "Levet",
     "address": "Place du 8 Mai 1945, Levet, Bourges, Cher, Centre-Val de Loire, Metropolitan France, 18340, France",
     "lat": 46.925456,
-    "lng": 2.406989
+    "lng": 2.406989,
+    "websiteUrl": "https://ledoux-karting.fr"
   },
   {
     "id": "1798",
@@ -27021,7 +26839,8 @@
     "city": "Floreffe",
     "address": "Rue Romedenne, Floreffe, Namur, Wallonia, 5150, Belgium",
     "lat": 50.436687,
-    "lng": 4.760039
+    "lng": 4.760039,
+    "websiteUrl": "https://jmkarting.com"
   },
   {
     "id": "1899",
@@ -27202,21 +27021,6 @@
     "address": "27, Place Saint-Lambert, Îlot Saint-Michel, Centre, Liège, Wallonia, 4000, Belgium",
     "lat": 50.645094,
     "lng": 5.573611
-  },
-  {
-    "id": "1911",
-    "slug": "battlekart-liege-verlaine",
-    "name": "BattleKart Liège Verlaine",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Belgium",
-    "countryCode": "BE",
-    "city": "Verlaine",
-    "address": "4, Rue de l'Église, Verlaine, Huy, Liège, Wallonia, 4537, Belgium",
-    "lat": 50.607511,
-    "lng": 5.318444
   },
   {
     "id": "1912",
@@ -28612,21 +28416,6 @@
     "address": "Calle Hermanos Corpas, Cartaya, Costa Occidental, Huelva, Andalusia, 21450, Spain",
     "lat": 37.282911,
     "lng": -7.154575
-  },
-  {
-    "id": "2009",
-    "slug": "karting-kr24",
-    "name": "Karting KR24",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Conil de la Frontera",
-    "address": "Calle Granado, Casa de Postas, Conil de la Frontera, La Janda, Cádiz, Andalusia, 11140, Spain",
-    "lat": 36.277054,
-    "lng": -6.088187
   },
   {
     "id": "2010",
@@ -32874,21 +32663,6 @@
     "lng": 16.574414
   },
   {
-    "id": "2300",
-    "slug": "kartodrom-gostyn",
-    "name": "Kartodrom Gostyń",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Poland",
-    "countryCode": "PL",
-    "city": "Gostyń",
-    "address": "Gawrony, Gostyń, gmina Gostyń, Gostyń County, Greater Poland Voivodeship, 63-800, Poland",
-    "lat": 51.877863,
-    "lng": 17.016764
-  },
-  {
     "id": "2301",
     "slug": "e1gokart-poznan-skorzewo",
     "name": "E1GoKart Poznań Skórzewo",
@@ -33666,7 +33440,8 @@
     "city": "Obilná",
     "address": "Obilná, Odrava, Cheb District, Karlovy Vary Region, 357 51, Czechia",
     "lat": 50.103057,
-    "lng": 12.484132
+    "lng": 12.484132,
+    "websiteUrl": "https://www.funarenacheb.cz/"
   },
   {
     "id": "2367",
@@ -34014,21 +33789,6 @@
     "lng": 18.410811
   },
   {
-    "id": "2393",
-    "slug": "gokart-siofok",
-    "name": "Gokart Siófok",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "city": "Siófok",
-    "address": "Kálmán udvar, Belváros, Siófok, Siófoki járás, Somogy, Southern Transdanubia, Transdanubia, 8600, Hungary",
-    "lat": 46.907169,
-    "lng": 18.05416
-  },
-  {
     "id": "2394",
     "slug": "veszprem-karting",
     "name": "Veszprém Karting",
@@ -34087,21 +33847,6 @@
     "address": "3, Liszt Ferenc utca, Kiáltóhegy, Győrújbarát, Győri járás, Győr-Moson-Sopron, Western Transdanubia, Transdanubia, 9081, Hungary",
     "lat": 47.613384,
     "lng": 17.636573
-  },
-  {
-    "id": "2398",
-    "slug": "gokart-arena-csepreg",
-    "name": "Gokart Aréna Csepreg",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "city": "Csepreg",
-    "address": "1, Széchenyi köz, Csepreg, Kőszegi járás, Vas, Western Transdanubia, Transdanubia, 9735, Hungary",
-    "lat": 47.401594,
-    "lng": 16.707842
   },
   {
     "id": "2399",
@@ -36126,7 +35871,8 @@
     "city": "Kilrea",
     "address": "Maghera Street, Kilrea, Causeway Coast and Glens District, County Londonderry, Northern Ireland, BT51 5QJ, United Kingdom",
     "lat": 54.950167,
-    "lng": -6.556465
+    "lng": -6.556465,
+    "websiteUrl": "https://www.k-teamkarting.com"
   },
   {
     "id": "2543",
@@ -36276,7 +36022,8 @@
     "city": "Dublin",
     "address": "Ballyfermot Road, Ballyfermot A ED, Dublin, County Dublin, Leinster, Ireland",
     "lat": 53.343247,
-    "lng": -6.360902
+    "lng": -6.360902,
+    "websiteUrl": "https://kylemorekarting.ie"
   },
   {
     "id": "2553",
@@ -36491,21 +36238,6 @@
     "lng": 28.721669
   },
   {
-    "id": "2569",
-    "slug": "beylikduzu-gokart",
-    "name": "Beylikdüzü GoKart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Beylikdüzü",
-    "address": "Atatürk Bulvarı, Cumhuriyet Mahallesi, Beylikdüzü, Istanbul, Marmara Region, 34520, Turkey",
-    "lat": 41.003815,
-    "lng": 28.637288
-  },
-  {
     "id": "2570",
     "slug": "fevpark-dragos-go-kart",
     "name": "Fevpark Dragos Go-Kart",
@@ -36641,21 +36373,6 @@
     "lng": 28.807093
   },
   {
-    "id": "2579",
-    "slug": "gebze-karting-ve-drift-karting",
-    "name": "Gebze Karting ve Drift Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Gebze",
-    "address": "Pelitli Yolu, Balçık Mahallesi, Gebze, Kocaeli, Marmara Region, 41400, Turkey",
-    "lat": 40.858018,
-    "lng": 29.436491
-  },
-  {
     "id": "2580",
     "slug": "istanbul-karting-park",
     "name": "İstanbul Karting Park",
@@ -36684,21 +36401,6 @@
     "address": "35, Kısıklı Caddesi, Altunizade Mahallesi, Üsküdar, Istanbul, Marmara Region, 34662, Turkey",
     "lat": 41.023427,
     "lng": 29.043852
-  },
-  {
-    "id": "2582",
-    "slug": "furkan-go-kart",
-    "name": "Furkan Go-Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Yalvaç",
-    "address": "Kaşyukarı, Yalvaç, Isparta, Mediterranean Region, 32400, Turkey",
-    "lat": 38.300287,
-    "lng": 31.174346
   },
   {
     "id": "2584",
@@ -36954,21 +36656,6 @@
     "address": "3385 Sokak, İncilipınar Mahallesi, Denizli, Pamukkale, Denizli, Aegean Region, 20150, Turkey",
     "lat": 37.758575,
     "lng": 29.094933
-  },
-  {
-    "id": "2604",
-    "slug": "marmaris-go-kart",
-    "name": "Marmaris Go Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Marmaris",
-    "address": "Marmaris Go Kart, Marmaris Datça Yolu, Marmaris, Muğla, Aegean Region, 48700, Turkey",
-    "lat": 36.833122,
-    "lng": 28.16013
   },
   {
     "id": "2605",
@@ -38644,23 +38331,6 @@
     "phone": "0676 3217990"
   },
   {
-    "id": "2726",
-    "slug": "koszegi-karting-track",
-    "name": "Kőszegi Karting Track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "city": "Sé",
-    "address": "Észak-déli főút, Nitzkymajor, Sé, Szombathelyi járás, Vas, Western Transdanubia, Transdanubia, 9789, Hungary",
-    "lat": 47.230725,
-    "lng": 16.561223,
-    "websiteUrl": "https://gokartkoszeg.hu",
-    "phone": "+36 70 315 4741"
-  },
-  {
     "id": "2727",
     "slug": "radring-karting",
     "name": "Radring Karting",
@@ -38807,7 +38477,7 @@
     "address": "8, Sonnengutstrasse, Bremgarten, Bezirk Bremgarten, Aargau, 5620, Switzerland",
     "lat": 47.351062,
     "lng": 8.349244,
-    "websiteUrl": "https://spirit-karting.com",
+    "websiteUrl": "https://spirit-karting.ch/",
     "phone": "+41 76 435 83 55"
   },
   {
@@ -38879,23 +38549,6 @@
     "phone": "+41 24 459 19 22"
   },
   {
-    "id": "2744",
-    "slug": "karting-centar-bijeljina",
-    "name": "Karting Centar Bijeljina",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Bosnia and Herzegovina",
-    "countryCode": "BA",
-    "city": "Bijeljina",
-    "address": "79a, Pantelinska, Bijeljina, City of Bijeljina, Republika Srpska, 76300, Bosnia and Herzegovina",
-    "lat": 44.74189,
-    "lng": 19.191614,
-    "websiteUrl": "https://karting-centar.com",
-    "phone": "+387 65 636-111"
-  },
-  {
     "id": "2745",
     "slug": "karting-arena-speedxtreme-tuzla",
     "name": "Karting Arena SpeedXtreme Tuzla",
@@ -38943,7 +38596,7 @@
     "address": "175, An der Bundesstraße, Katastralgemeinde Großmeiseldorf, Gettsdorf, Ziersdorf, Bezirk Hollabrunn, Lower Austria, 3711, Austria",
     "lat": 48.537168,
     "lng": 15.904446,
-    "websiteUrl": "https://kartbahn.cc",
+    "websiteUrl": "https://www.kartbahn-ziersdorf.at/",
     "phone": "0664 4328005"
   },
   {
@@ -39896,25 +39549,8 @@
     "address": "Oulfa, Boulevard Oued Sebou شارع وادي سبو, El Oulfa, Préfecture d'arrondissement de Hay Hassani عمالة مقاطعة الحي الحسني, Casablanca, Pachalik de Casablanca باشوية الدار البيضاء, Prefecture of Casablanca, Casablanca-Settat, 20202, Morocco",
     "lat": 33.55123,
     "lng": -7.684563,
-    "websiteUrl": "https://www.spiritgaming.ma/simracing/",
+    "websiteUrl": "https://www.spiritgaming.ma/",
     "phone": "+212 707 660 601"
-  },
-  {
-    "id": "2811",
-    "slug": "simrace-reunion",
-    "name": "SIMRACE Reunion",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "France",
-    "countryCode": "FR",
-    "city": "Saint-André",
-    "address": "Avenue Île-de-France, Cambuston, Saint-André, Saint-Benoît, Réunion, 97440, France",
-    "lat": -20.945133,
-    "lng": 55.647566,
-    "websiteUrl": "https://www.simrace.re/",
-    "phone": "+262 692 74 89 88"
   },
   {
     "id": "2812",
@@ -40464,7 +40100,7 @@
     "address": "3, Zelgliweg, Itingen, Bezirk Sissach, Basel-Landschaft, 4452, Switzerland",
     "lat": 47.470529,
     "lng": 7.779312,
-    "websiteUrl": "https://www.racelounge.ch/",
+    "websiteUrl": "https://www.race-lounge.ch/",
     "phone": "061 533 66 88"
   },
   {
@@ -41169,24 +40805,7 @@
     "address": "Travessa da Loja, Mouriz, Paredes, Porto, 4580-038, Portugal",
     "lat": 41.207742,
     "lng": -8.343143,
-    "websiteUrl": "https://www.gtc-rc.com/pt"
-  },
-  {
-    "id": "2891",
-    "slug": "driving-simulation-center-roma-98-ottani",
-    "name": "Driving Simulation Center Roma (98 Ottani)",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Rome",
-    "address": "107, Via Casilina, Pigneto, Municipio Roma VII, Rome, Roma Capitale, Lazio, 00182, Italy",
-    "lat": 41.888432,
-    "lng": 12.522062,
-    "websiteUrl": "https://www.98ottani.it/",
-    "phone": "+39 333 921 1871"
+    "websiteUrl": "https://www.gtc-rc.com/"
   },
   {
     "id": "2892",
@@ -41221,23 +40840,6 @@
     "lng": 7.651273,
     "websiteUrl": "https://www.drivingsimulationcenter.it/",
     "phone": "+39 347 928 4512"
-  },
-  {
-    "id": "2894",
-    "slug": "academy-formula",
-    "name": "Academy Formula",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Turin",
-    "address": "86, Strada della Cebrosa, Famolenta, Circoscrizione 6, Turin, Piedmont, 10156, Italy",
-    "lat": 45.118813,
-    "lng": 7.733433,
-    "websiteUrl": "http://www.academyformula.com/",
-    "phone": "011 2231785"
   },
   {
     "id": "2895",
@@ -41469,22 +41071,6 @@
     "lng": -0.759409,
     "websiteUrl": "https://www.simplyrace.co.uk/",
     "phone": "+44 1908 713483"
-  },
-  {
-    "id": "2909",
-    "slug": "trax-social-manchester",
-    "name": "Trax Social Manchester",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "United Kingdom",
-    "countryCode": "GB",
-    "city": "Manchester",
-    "address": "27, Withy Grove, Medieval Quarter, City Centre, Manchester, Greater Manchester, England, M4 2BS, United Kingdom",
-    "lat": 53.485066,
-    "lng": -2.240217,
-    "websiteUrl": "https://traxsocial.com/sim-racing/"
   },
   {
     "id": "2910",
@@ -42056,23 +41642,6 @@
     "lng": 27.916665,
     "websiteUrl": "https://simgarage.bg/en/home-2/",
     "phone": "0700 911 35"
-  },
-  {
-    "id": "2946",
-    "slug": "rcadia-gamingzone-simracing-lounge-hamburg",
-    "name": "RCADIA GamingZone Simracing Lounge Hamburg",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Hamburg",
-    "address": "16, Nobistor, St. Pauli, Hamburg-Mitte, Hamburg, 22767, Germany",
-    "lat": 53.550246,
-    "lng": 9.956333,
-    "websiteUrl": "https://www.rcadia.de/gamingzone",
-    "phone": "+49 40 573089888"
   },
   {
     "id": "2947",
@@ -43822,7 +43391,6 @@
     "address": "Nishiura, 西浦停車場線, Nishiuracho, Gamagori, Aichi Prefecture, 443-0105, Japan",
     "lat": 34.790086,
     "lng": 137.178723,
-    "websiteUrl": "http://www.itoracing.co.jp/snmp/index.htm",
     "phone": "+81 533-58-1111",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/SPA_Nishiura_Motor_Park_Straight.jpg"
   },
@@ -43890,7 +43458,6 @@
     "address": "84, 公安路, Dunxi Village, Houli District, Taichung, 421, Taiwan",
     "lat": 24.30491,
     "lng": 120.71071,
-    "websiteUrl": "https://lihpaoracing.com.tw/",
     "phone": "+886 4 2558 6086"
   },
   {
@@ -44593,8 +44160,7 @@
     "city": "Juvaincourt",
     "address": "88, Rue de la Fontaine aux Saules, Le Village, Juvaincourt, Neufchâteau, Vosges, Grand Est, Metropolitan France, 88500, France",
     "lat": 48.331826,
-    "lng": 6.055474,
-    "websiteUrl": "https://www.circuit-mirecourt.fr"
+    "lng": 6.055474
   },
   {
     "id": "3101",
@@ -44627,7 +44193,6 @@
     "address": "Rue de la Clef des Champs, Clastres, Saint-Quentin, Aisne, Hauts-de-France, Metropolitan France, 02440, France",
     "lat": 49.755964,
     "lng": 3.226948,
-    "websiteUrl": "http://www.circuitclastres.com",
     "phone": "+33 6 45 74 20 34"
   },
   {
@@ -45385,7 +44950,7 @@
     "address": "Thulinvägen, Hästhagen, Ljungbyhed, Klippans kommun, Skåne County, 264 52, Sweden",
     "lat": 56.077413,
     "lng": 13.232442,
-    "websiteUrl": "https://www.ljungbyhedsmotorbana.se/",
+    "websiteUrl": "https://ljungbyhedsmotorbana.com/",
     "phone": "+46 435 761 142"
   },
   {
@@ -45952,7 +45517,7 @@
     "address": "Aspen Street, Pahrump, Nye County, Nevada, 89048, United States",
     "lat": 36.204178,
     "lng": -116.026026,
-    "websiteUrl": "https://racespringmountain.com/",
+    "websiteUrl": "https://www.springmountainmotorsports.com/",
     "phone": "+1 800-391-6891",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spring_Mountain_Motorsports_Ranch_2022_aerial_photo.jpg"
   },
@@ -46513,7 +46078,7 @@
     "address": "8409, Rue de l'Érablière, Saint-Augustin, Mirabel, Laurentides, Quebec, J7N 1Z9, Canada",
     "lat": 45.632315,
     "lng": -73.983845,
-    "websiteUrl": "https://www.circuiticar.com/"
+    "websiteUrl": "https://icarexperience.ca"
   },
   {
     "id": "3214",
@@ -47450,7 +47015,7 @@
     "address": "Avenue Léon Bérenger, Saint-Laurent-du-Var, Grasse, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, 06700, France",
     "lat": 43.659802,
     "lng": 7.193265,
-    "websiteUrl": "https://www.racingzone.fr/simulateurs/",
+    "websiteUrl": "https://www.racingzone.fr/",
     "phone": "+33 4 93 19 02 49"
   },
   {
@@ -47471,22 +47036,6 @@
     "phone": "+33 6 51 46 24 54"
   },
   {
-    "id": "3272",
-    "slug": "grace-simulator",
-    "name": "G.Race Simulator",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "France",
-    "countryCode": "FR",
-    "city": "Saran",
-    "address": "Allée de l'Orée de la Forêt, Le Colombier, Saran, Orléans, Loiret, Centre-Val de Loire, Metropolitan France, 45770, France",
-    "lat": 47.957841,
-    "lng": 1.894113,
-    "websiteUrl": "https://www.gracesimulator.fr/"
-  },
-  {
     "id": "3273",
     "slug": "uni-xp-simracing-brest",
     "name": "UNI-XP Simracing Brest",
@@ -47502,23 +47051,6 @@
     "lng": -4.468938,
     "websiteUrl": "https://uni-xp.fr/activite/simulateur/",
     "phone": "+33 2 30 99 95 37"
-  },
-  {
-    "id": "3274",
-    "slug": "racesquare-almere",
-    "name": "Racesquare Almere",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Netherlands",
-    "countryCode": "NL",
-    "city": "Almere",
-    "address": "Bowling Almere, 31, Trekweg, Almere Buiten, Almere, Flevoland, Netherlands, 1338 GA, Netherlands",
-    "lat": 52.37982,
-    "lng": 5.282563,
-    "websiteUrl": "https://www.racesquare.com/vestiging/almere/",
-    "phone": "+31 85 130 6331"
   },
   {
     "id": "3275",
@@ -47771,7 +47303,6 @@
     "address": "2, Piazza Ayrton Senna da Silva, Tre Monti - Zello, Imola, Nuovo Circondario Imolese, Bologna, Emilia-Romagna, 40026, Italy",
     "lat": 44.344561,
     "lng": 11.715165,
-    "websiteUrl": "https://sim.carmansrl.com/",
     "phone": "+39 0542 25413"
   },
   {
@@ -47994,38 +47525,6 @@
     "phone": "+40 734 982 151"
   },
   {
-    "id": "3303",
-    "slug": "playdrive",
-    "name": "PlayDrive",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Bucharest",
-    "address": "1C, Șoseaua Virtuții, Militari, Sector 6, Bucharest, 060781, Romania",
-    "lat": 44.43581,
-    "lng": 26.034784,
-    "websiteUrl": "https://playdrive.ro/"
-  },
-  {
-    "id": "3304",
-    "slug": "sim-racing-experience-iasi",
-    "name": "Sim Racing Experience Iași",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Romania",
-    "countryCode": "RO",
-    "city": "Iași",
-    "address": "Argeș 25, Strada Argeș, Alexandru cel Bun, Iași, Iași Metropolitan Area, Iași, 700571, Romania",
-    "lat": 47.163921,
-    "lng": 27.564602,
-    "websiteUrl": "https://simracingexperience.ro/"
-  },
-  {
     "id": "3305",
     "slug": "nspeed-sim-racing-novi-sad",
     "name": "NSpeed Sim Racing Novi Sad",
@@ -48143,21 +47642,6 @@
     "websiteUrl": "https://www.motoparktorun.pl/",
     "phone": "+48 783 909 093",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MotoPark_Toru%C5%84.jpg"
-  },
-  {
-    "id": "3312",
-    "slug": "tor-bialystok",
-    "name": "Tor Białystok",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "Poland",
-    "countryCode": "PL",
-    "city": "Białystok",
-    "address": "1/2, Konstantego Ciołkowskiego, Mickiewicza, Białystok, Podlachia Voivodeship, 15-245, Poland",
-    "lat": 53.112865,
-    "lng": 23.17335
   },
   {
     "id": "3313",
@@ -48529,22 +48013,6 @@
     "phone": "+20 35 416409"
   },
   {
-    "id": "3335",
-    "slug": "trackstar",
-    "name": "TrackStar",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Morocco",
-    "countryCode": "MA",
-    "city": "Temara",
-    "address": "Wifaq ⵡⵉⴼⴰⵇ الوفاق, Temara, Pachalik de Témara باشوية تمارة, Skhirat-Témara Prefecture, Rabat-Salé-Kénitra, 12000, Morocco",
-    "lat": 33.917166,
-    "lng": -6.923804,
-    "websiteUrl": "https://www.trackstar.ma/"
-  },
-  {
     "id": "3339",
     "slug": "simhaze-racing",
     "name": "SimHaze Racing",
@@ -48594,72 +48062,6 @@
     "lng": 18.367019,
     "websiteUrl": "https://www.instagram.com/simracing.ba/",
     "phone": "066 35 36 64"
-  },
-  {
-    "id": "3342",
-    "slug": "cyber-racing-center",
-    "name": "Cyber Racing Center",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Cyprus",
-    "countryCode": "CY",
-    "city": "Limassol",
-    "address": "Alexandrou Moraitidi, Katholiki, Limassol, Limassol Municipality, Limassol District, Cyprus, 3085, Cyprus",
-    "lat": 34.68529,
-    "lng": 33.033266,
-    "websiteUrl": "https://www.cyberautoracing.com/"
-  },
-  {
-    "id": "3343",
-    "slug": "lap-racing-simulator",
-    "name": "LAP Racing Simulator",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Cyprus",
-    "countryCode": "CY",
-    "city": "Ayia Napa",
-    "address": "Leoforos Kryou Nerou, Ayia Napa, Agia Napa Municipality, Famagusta District, Cyprus, 5330, Cyprus",
-    "lat": 34.976776,
-    "lng": 34.038617,
-    "websiteUrl": "https://www.lapracingcyprus.com/",
-    "phone": "7000 3883"
-  },
-  {
-    "id": "3345",
-    "slug": "sim-race-ankara",
-    "name": "Sim Race Ankara",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Yenimahalle",
-    "address": "Şehit Kaymakam Muhammed Fatih Safitürk Bulvarı, Çakırlar Mahallesi, Yenimahalle, Ankara, Central Anatolia Region, 06370, Turkey",
-    "lat": 39.991772,
-    "lng": 32.696529,
-    "websiteUrl": "https://simraceankara.com/",
-    "phone": "+90 312 999 90 04"
-  },
-  {
-    "id": "3346",
-    "slug": "wasiu-sim-racing-simulasyon-merkezi",
-    "name": "Wasiu Sim Racing Simülasyon Merkezi",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "Esenyurt",
-    "address": "2131. Sokak, Güzelyurt Mahallesi, Esenyurt, Istanbul, Marmara Region, 34515, Turkey",
-    "lat": 41.0129,
-    "lng": 28.663814,
-    "phone": "+90 553 196 15 65"
   },
   {
     "id": "3348",
@@ -49009,23 +48411,6 @@
     "lng": -98.290335,
     "websiteUrl": "https://www.689rigs.com/",
     "phone": "+52 221 841 6891"
-  },
-  {
-    "id": "3372",
-    "slug": "performance-simulators",
-    "name": "Performance Simulators",
-    "categories": [
-      "sim_racing"
-    ],
-    "status": "published",
-    "country": "Mexico",
-    "countryCode": "MX",
-    "city": "Querétaro",
-    "address": "Boulevard Bernardo Quintana, Delegación Centro Histórico, Querétaro, Municipio de Querétaro, Querétaro, 76050, Mexico",
-    "lat": 20.596283,
-    "lng": -100.372223,
-    "websiteUrl": "https://www.performance-simulators.com/",
-    "phone": "+52 442 195 4049"
   },
   {
     "id": "3373",
@@ -49923,25 +49308,6 @@
     "indoorOutdoor": "indoor"
   },
   {
-    "id": "3429",
-    "slug": "elektrokartings-high-voltage",
-    "name": "Elektrokartings High Voltage",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Riga",
-    "address": "25, Matīsa iela, Centre, Centra apkaime, Riga, LV-1001, Latvia",
-    "lat": 56.957148,
-    "lng": 24.134239,
-    "websiteUrl": "https://elektrokartings.lv/",
-    "phone": "+371 20 454 321",
-    "description": "Indoor electric karting, open Monday-Thursday 14:00-21:00, Friday 12:00-21:00, weekends 10:00-21:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
     "id": "3430",
     "slug": "evokart-kiel",
     "name": "Evokart Kiel",
@@ -50204,24 +49570,6 @@
     "indoorOutdoor": "indoor"
   },
   {
-    "id": "3444",
-    "slug": "kartingu-halle-jekabpils",
-    "name": "Kartingu Halle Jēkabpils",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Latvia",
-    "countryCode": "LV",
-    "city": "Jēkabpils",
-    "address": "3A, Ausekļa iela, Trosītes, Jēkabpils, Jēkabpils novads, LV-5201, Latvia",
-    "lat": 56.489433,
-    "lng": 25.878805,
-    "phone": "+371 22 356 249",
-    "description": "Indoor track open Monday-Thursday 14:00-20:00, Friday 14:00-22:00, Saturday 12:00-22:00, Sunday 10:00-20:00.",
-    "indoorOutdoor": "indoor"
-  },
-  {
     "id": "3445",
     "slug": "kartodromo-athens-kart",
     "name": "Kartodromo Athens Kart",
@@ -50480,23 +49828,6 @@
     "lat": 43.905113,
     "lng": 20.398531,
     "phone": "+381 64 8749222"
-  },
-  {
-    "id": "3459",
-    "slug": "racegasmic-drift-poligon-celje",
-    "name": "Racegasmic Drift Poligon - Celje",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "Slovenia",
-    "countryCode": "SI",
-    "city": "Celje",
-    "address": "Cesta v Celje 14, 3202 Ljubečna, Slovenia",
-    "lat": 46.2585,
-    "lng": 15.313794,
-    "websiteUrl": "https://racegasmic.eu",
-    "phone": "+386 51 262 333"
   },
   {
     "id": "3460",

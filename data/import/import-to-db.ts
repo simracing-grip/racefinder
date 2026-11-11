@@ -18,7 +18,8 @@
  * the same way: re-located pins override the review.csv coordinates, and
  * venues that couldn't be located confidently are left out. Then
  * data/import/address-fixes.csv (see sync-address-fixes.ts) removes the name
- * of an unrelated nearby place from the front of an address.
+ * of an unrelated nearby place from the front of an address, and
+ * data/import/website-fixes.csv (see sync-website-fixes.ts) corrects websites.
  *
  * Run: npm run import:load
  */
@@ -31,6 +32,7 @@ import type { Category, Listing } from "../../lib/types";
 import { normalizeCountry } from "../../lib/countryNames";
 import { loadLocationFixes, type LocationFixRow } from "./sync-location-fixes";
 import { loadAddressFixes, fixedAddress, type AddressFixRow } from "./sync-address-fixes";
+import { loadWebsiteFixes, fixedWebsite, type WebsiteFixRow } from "./sync-website-fixes";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
 const COVER_IMAGES_FILE = path.join(process.cwd(), "data", "import", "cover-images.csv");
@@ -80,7 +82,8 @@ function toListing(
   id: string,
   coverImages: Map<string, string>,
   locationFixes: Map<string, LocationFixRow>,
-  addressFixes: Map<string, AddressFixRow>
+  addressFixes: Map<string, AddressFixRow>,
+  websiteFixes: Map<string, WebsiteFixRow>
 ): Listing | null {
   const fix = locationFixes.get(row.slug);
   if (fix?.action === "drop") return null;
@@ -90,6 +93,9 @@ function toListing(
   // After the location fix: an address fix only applies to the pin it was made for.
   const cleanAddress = fixedAddress(addressFixes.get(row.slug), row);
   if (cleanAddress) row = { ...row, address: cleanAddress };
+  // Corrected or removed websites (website-fixes.csv).
+  const website = fixedWebsite(websiteFixes.get(row.slug), row.websiteUrl);
+  if (website !== undefined) row = { ...row, websiteUrl: website };
 
   const categories = row.categories
     .split("|")
@@ -145,10 +151,11 @@ async function main() {
   const coverImages = loadCoverImages();
   const locationFixes = loadLocationFixes();
   const addressFixes = loadAddressFixes();
+  const websiteFixes = loadWebsiteFixes();
 
   const listings: Listing[] = [];
   rows.forEach((row, index) => {
-    const listing = toListing(row, String(index + 1), coverImages, locationFixes, addressFixes);
+    const listing = toListing(row, String(index + 1), coverImages, locationFixes, addressFixes, websiteFixes);
     if (listing) listings.push(listing);
   });
 
