@@ -21,6 +21,7 @@ import { distanceKm, formatDistanceKm } from "@/lib/geo";
 import { slugifyCountry } from "@/lib/countrySlug";
 import { toSummary } from "@/lib/listingSummary";
 import { pageMetadata } from "@/lib/seo";
+import { hasEnoughDetail } from "@/lib/listingQuality";
 
 // Served as a cached page, rebuilt at most every 5 minutes (ISR), so
 // visitors never wait on the database. Must be a literal number.
@@ -42,7 +43,7 @@ export async function generateMetadata({
   if (!listing) return {};
   const place = [listing.city, listing.country].filter(Boolean).join(", ");
   const next = getNextEvent(listing);
-  return pageMetadata({
+  const metadata = pageMetadata({
     title: listing.name,
     description:
       listing.description ??
@@ -52,6 +53,9 @@ export async function generateMetadata({
     path: `/listings/${listing.slug}`,
     image: `/listings/${listing.slug}/opengraph-image`,
   });
+  // Near-empty venue pages stay out of search results until filled in
+  // (see lib/listingQuality.ts); links on them are still followed.
+  return hasEnoughDetail(listing) ? metadata : { ...metadata, robots: { index: false, follow: true } };
 }
 
 export default async function ListingDetailPage({
