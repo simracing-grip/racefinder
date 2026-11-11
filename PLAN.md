@@ -23,14 +23,51 @@ error and analytics monitoring that actually receives data.
   finishes: `apply-photo-run.ts`, then sync, then `db:snapshot`.
 
 ### Next (launch blockers)
+- **Wrong venue addresses.** Many addresses start with the nearest unrelated
+  place, picked up when addresses were looked up from map pins (Hockenheimring
+  "Hotel Motodrom", Sebring "Gavaghan's Irish Pub", Kartplex "Subway"). At
+  least 74 are obvious and about 1,000 more need a look. They show on the
+  page and in the JSON-LD. Pins are fine; Directions uses lat/lng.
+- **Race calendar empties in December.** Only F1 has 2027 dates. 24 of 25
+  series have no races after early December, and Formula E 2026–27 is
+  missing. Run calendar-scout for 2027.
+- **Form submissions notify nobody.** They go to the `submissions` table
+  with no email or alert. Add a notification and a review routine.
+- **Privacy policy gaps (GDPR).** Doesn't mention Sentry, Supabase,
+  photos loaded from about 140 venue sites and Wikimedia, or the Garage
+  (localStorage). No operator, retention period or user rights. Consider an
+  imprint page for DE/AT visitors.
+- **Thin listings.** 2,006 of 3,217 have no website, phone, photo or
+  description. Noindex them and leave them out of the sitemap until enriched,
+  or run an enrichment pass.
 - Set `NEXT_PUBLIC_SITE_URL` and the real domain and contact email (code falls
   back to the Vercel URL).
-- Report-a-problem link and a "last verified" date on listings.
+- "Last verified" date on listings. The report-a-problem link is already
+  live. `verified` is false for all 3,217 rows, so a verification date has
+  to be stored first.
 - Photo upload on the Add-your-venue form. The form itself is live (PR #12);
   for now people send links in the message.
 - Accessibility check (WCAG 2.1 AA pass).
 - Confirm Sentry receives errors. A test event got 429 "quota or rate
   limit", so the user needs to check Sentry usage.
+
+### Before launch (should fix)
+- Self-host cover photos. About 144 load straight from venue websites and can
+  break or be blocked at any time.
+- `/api/listings` returns all 3,217 venues (1.6 MB, about 3.5 s, uncached)
+  to anyone, and the site doesn't use it (only `/api/listings/[slug]`).
+  Remove it or cache it.
+- Security headers: only HSTS is sent. Add `X-Content-Type-Options`,
+  `Referrer-Policy`, `X-Frame-Options` and `Permissions-Policy` in
+  `next.config.ts`.
+- Home page HTML is 960 KB (185 KB gzipped). On a phone the lower half of
+  the first screen loaded empty; check that search shows above the fold.
+- Cleanup: create-next-app SVGs in `public/`, outdated README ("9
+  placeholder venues", "62 saved locations"), no CI or tests.
+- Main checkout: local `master` is behind origin, with uncommitted
+  dependency upgrades (Next unpinned to `^16.4.2`). Discard them rather than
+  upgrade Next before launch. ESLint there also scans other worktrees'
+  `.next` output; add `.claude/**` to its ignores.
 
 ### Blocked / needs the user
 - Supabase free tier auto-pauses after inactivity (it took the site down on
@@ -48,6 +85,7 @@ error and analytics monitoring that actually receives data.
 - Keep photoIndex-2 rows for a future gallery.
 
 ### Done (recent)
+- PR #16: snapshot refreshed after the rescue sync (3,217 rows).
 - PR #14: 34 dropped venues rescued, synced on 2026-11-11 (3,217 published),
   snapshot refreshed.
 - PR #13 and #15: team-lead agent and this plan.
@@ -65,7 +103,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| `claude/snapshot-after-rescue` | Snapshot refresh after the rescue sync (3,217 rows) | merge | opened 2026-11-11 |
+| `claude/pre-launch-review-3a9d12` | Pre-launch review findings added to this plan | merge | opened 2026-11-11 |
 
 ## Agent roster
 
@@ -77,7 +115,7 @@ error and analytics monitoring that actually receives data.
 | venue-verifier | Checking listings still operate | 2026-09-15 | `verification-report-2026-09-15.md` | Re-verify before launch (report is 7+ weeks old) |
 | venue-photo-finder | Licensed cover photos | 2026-10 | `photos/batches/batch-11*` | Finish batches 05, 10, 11 and 12 |
 | venue-social-finder | Instagram, Facebook and TikTok links | 2026-09-27 | `social-links.csv` | None planned |
-| calendar-scout | Race calendars → `data/calendar-events.ts` | 2026-10-26 | `calendar-events.ts` (2027 F1) | Refresh when the 2027 calendars of other series are published |
+| calendar-scout | Race calendars → `data/calendar-events.ts` | 2026-10-26 | `calendar-events.ts` (2027 F1) | **Before launch:** add the 2027 calendars of the other series, and Formula E 2026–27 |
 
 ## Standing rules
 
@@ -112,3 +150,9 @@ error and analytics monitoring that actually receives data.
   upserted 3,217 rows, archived 0, and left 3,217 published. The snapshot was
   re-exported (3,217 rows). Tip: run DB scripts from a worktree with
   `DOTENV_CONFIG_PATH=<main checkout>/.env`.
+- **2026-11-11**: PR #16 (snapshot refresh) merged as `9c03a55`. A
+  pre-launch review of the code, data and live site added five launch
+  blockers: wrong addresses, a calendar that empties in December, form
+  submissions that notify nobody, privacy policy gaps, and thin listings. It
+  also added a "Before launch (should fix)" list. The report-a-problem link
+  was already live, so only "last verified" is left from that item.
