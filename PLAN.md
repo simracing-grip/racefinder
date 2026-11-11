@@ -49,8 +49,6 @@ error and analytics monitoring that actually receives data.
 - Manual accessibility pass for what axe can't check: screen-reader flow on
   the map, focus order in the search palette.
 - Tests: unit + data-integrity tests run in CI (#34); no end-to-end tests yet.
-- Add Le Mans Karting International (Circuit Alain Prost) as a venue, then
-  relink the 2026 FIA Karting World Championship KZ round to it.
 
 ### Blocked / needs the user
 - Supabase free tier auto-pauses after inactivity (it took the site down on

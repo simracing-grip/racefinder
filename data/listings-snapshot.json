@@ -34297,6 +34297,34 @@
     "featured": false
   },
   {
+    "id": "5be7a98c-bc27-4c0d-a18b-85c64166359f",
+    "slug": "le-mans-karting-international",
+    "name": "Le Mans Karting International",
+    "categories": [
+      "karting"
+    ],
+    "status": "published",
+    "country": "France",
+    "countryCode": "FR",
+    "city": "Le Mans",
+    "address": "Route du Chemin aux Boeufs, Le Mans, Sarthe, Pays de la Loire, 72100, France",
+    "lat": 47.939358,
+    "lng": 0.212138,
+    "websiteUrl": "https://www.lemans-karting.com/karting/nos-circuits/circuit-international-de-karting/",
+    "phone": "+33 2 43 40 80 01",
+    "description": "The Karting des 24 Heures complex beside the Le Mans 24 Hours circuit. Three outdoor tracks: the 1,400 m international (CIK) circuit, the 980 m Circuit Alain Prost and the 805 m Indy-Kart circuit. Rental sessions are open to the public.",
+    "indoorOutdoor": "outdoor",
+    "trackLengthM": 980,
+    "openingHours": "Sat-Sun 14:00-19:00, Mon-Fri closed",
+    "details": {
+      "karting": {
+        "kart_type": "petrol",
+        "min_age_or_height": "Children 7-12/1.30m, teens 13+/1.55m"
+      }
+    },
+    "featured": false
+  },
+  {
     "id": "ed389700-cd9f-4050-96e2-2e2f5c4e7617",
     "slug": "le-mans-poznan-tor-kartingowy",
     "name": "Le Mans Poznań Tor Kartingowy",
