@@ -2883,10 +2883,10 @@
     "status": "published",
     "country": "Japan",
     "countryCode": "JP",
-    "city": "Gotemba",
-    "address": "gotenba bypass, 二枚橋, Gotemba, Shizuoka Prefecture, 412-0026, Japan",
-    "lat": 35.308753,
-    "lng": 138.934913,
+    "city": "Oyama",
+    "address": "霊園参道, 用沢, Oyama, Sunto County, Shizuoka Prefecture, 410-1326, Japan",
+    "lat": 35.357694,
+    "lng": 138.925662,
     "featured": false
   },
   {
@@ -5029,9 +5029,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Tiny",
-    "address": "Tiny, Simcoe County, Central Ontario, Ontario, Canada",
-    "lat": 44.738289,
-    "lng": -80.127099,
+    "address": "239 Balm Beach Road West, Tiny, ON L0L 2J0, Canada",
+    "lat": 44.699008,
+    "lng": -79.988887,
     "featured": false
   },
   {
@@ -6857,9 +6857,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Waterbury",
-    "address": "Waterbury City Hall, 235, Grand Street, Cass Gilbert National Register District, Waterbury, Naugatuck Valley Planning Region, Connecticut, 06702, United States",
-    "lat": 41.554114,
-    "lng": -73.043561,
+    "address": "130 Scott Road, Waterbury, CT 06705, United States",
+    "lat": 41.538751,
+    "lng": -72.993503,
     "featured": false
   },
   {
@@ -11726,9 +11726,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Salina",
-    "address": "118, South 8th Street, Salina, Saline County, Kansas, 67401, United States",
-    "lat": 38.84028,
-    "lng": -97.611424,
+    "address": "2259 South 9th Street, Central Mall, Salina, KS 67401, United States",
+    "lat": 38.801077,
+    "lng": -97.610248,
     "featured": false
   },
   {
@@ -14412,9 +14412,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Parksville",
-    "address": "100, Jensen Avenue East, Parksville, Regional District of Nanaimo, British Columbia, V9P 1K3, Canada",
-    "lat": 49.317951,
-    "lng": -124.311739,
+    "address": "1460 Springhill Road, Parksville, BC V9P 2T2, Canada",
+    "lat": 49.311947,
+    "lng": -124.364552,
     "featured": false
   },
   {
@@ -14427,10 +14427,10 @@
     "status": "published",
     "country": "Canada",
     "countryCode": "CA",
-    "city": "City of Langley",
-    "address": "20399, Douglas Crescent, City of Langley, Metro Vancouver Regional District, British Columbia, V3A 4B3, Canada",
-    "lat": 49.103929,
-    "lng": -122.657047,
+    "city": "Langley",
+    "address": "5760 Production Way, Langley, BC V3A 4N4, Canada",
+    "lat": 49.106876,
+    "lng": -122.676007,
     "featured": false
   },
   {
@@ -15163,9 +15163,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Hanno",
-    "address": "Hannō City Office, 1-1, Umahikizawa-Hanno Line, 新町, 双柳, Hanno, Saitama Prefecture, 357-8501, Japan",
-    "lat": 35.85569,
-    "lng": 139.327644,
+    "address": "林道鹿戸入線, 赤沢, Hanno, Saitama Prefecture, 357-0214, Japan",
+    "lat": 35.85375,
+    "lng": 139.206914,
     "featured": false
   },
   {
@@ -18348,9 +18348,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Hamilton",
-    "address": "Durand, Hamilton, Golden Horseshoe, Ontario, L8P 1H4, Canada",
-    "lat": 43.25608,
-    "lng": -79.872858,
+    "address": "193 Cavell Avenue, Hamilton, ON L8L, Canada",
+    "lat": 43.254118,
+    "lng": -79.823769,
     "featured": false
   },
   {
@@ -21479,9 +21479,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Irvine",
-    "address": "Irvine City Hall, 1, Civic Center Plaza, Westpark, Irvine, Orange County, California, 92606, United States",
-    "lat": 33.685697,
-    "lng": -117.825981,
+    "address": "17221 Von Karman Avenue, Irvine, CA 92614, United States",
+    "lat": 33.6915,
+    "lng": -117.842269,
     "featured": false
   },
   {
@@ -21673,10 +21673,10 @@
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "New York",
-    "address": "260, Broadway, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
-    "lat": 40.712728,
-    "lng": -74.006015,
+    "city": "Mount Kisco",
+    "address": "333 North Bedford Road, Mount Kisco, NY 10549, United States",
+    "lat": 41.219896,
+    "lng": -73.719923,
     "featured": false
   },
   {
@@ -21900,9 +21900,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Memphis",
-    "address": "North Court Avenue, Court Square Historic District, Downtown, Memphis, Shelby County, West Tennessee, Tennessee, 38103, United States",
-    "lat": 35.146026,
-    "lng": -90.051779,
+    "address": "6399 Shelby View Drive, Memphis, TN 38134, United States",
+    "lat": 35.176117,
+    "lng": -89.851645,
     "featured": false
   },
   {
@@ -21966,9 +21966,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Mokena",
-    "address": "19934, Wolf Road, Mokena, Will County, Illinois, 60448, United States",
-    "lat": 41.526144,
-    "lng": -87.889219,
+    "address": "8580 Spring Lake Drive, Mokena, IL 60448, United States",
+    "lat": 41.550879,
+    "lng": -87.827291,
     "featured": false
   },
   {
@@ -30322,9 +30322,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Vitória",
-    "address": "Rua José Marcelino, Centro, Região Administrativa I - Centro, Vitória, Espírito Santo, Southeast Region, 29010-906, Brazil",
-    "lat": -20.320092,
-    "lng": -40.337668,
+    "address": "Avenida José Maria Vivácqua Santos, Jardim Camburi, Vitória, Espírito Santo, 29092-080, Brazil",
+    "lat": -20.247114,
+    "lng": -40.273394,
     "featured": false
   },
   {
@@ -30687,9 +30687,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Florianópolis",
-    "address": "Praça XV de Novembro, Centro, Sede, Florianópolis, Santa Catarina, South Region, 88010-100, Brazil",
-    "lat": -27.5973,
-    "lng": -48.54961,
+    "address": "Vargem do Bom Jesus, Florianópolis, Santa Catarina, 88056-590, Brazil",
+    "lat": -27.439735,
+    "lng": -48.423064,
     "featured": false
   },
   {
@@ -31874,9 +31874,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Palmas",
-    "address": "Tocantins, 103 Norte, Palmas, Tocantins, North Region, 77001-002, Brazil",
-    "lat": -10.183785,
-    "lng": -48.333642,
+    "address": "Quadra 1506 Sul (ARSE 152), Plano Diretor Sul, Palmas, Tocantins, Brazil",
+    "lat": -10.272819,
+    "lng": -48.318286,
     "featured": false
   },
   {
@@ -32753,10 +32753,10 @@
     "status": "published",
     "country": "Canada",
     "countryCode": "CA",
-    "city": "Lac-Jacques-Cartier",
-    "address": "Lac-Jacques-Cartier, La Côte-de-Beaupré, Capitale-Nationale, Quebec, Canada",
-    "lat": 47.493453,
-    "lng": -71.276379,
+    "city": "Château-Richer",
+    "address": "164 Route de Saint-Achillée, Château-Richer, QC G0A 3P0, Canada",
+    "lat": 46.985623,
+    "lng": -71.025087,
     "featured": false
   },
   {
@@ -33212,9 +33212,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Kitakyushu",
-    "address": "長行田町線, Daimon 1-chome, Jonai, Kokura-Kita Ward, Kitakyushu, Fukuoka Prefecture, 802-0007, Japan",
-    "lat": 33.883,
-    "lng": 130.874901,
+    "address": "2296 Arige, Wakamatsu Ward, Kitakyushu, Fukuoka Prefecture, 808-0123, Japan",
+    "lat": 33.921663,
+    "lng": 130.694333,
     "featured": false
   },
   {
@@ -35013,9 +35013,9 @@
     "country": "Australia",
     "countryCode": "AU",
     "city": "Loxton",
-    "address": "Drabsch Street, Loxton, South Australia, 5333, Australia",
-    "lat": -34.451135,
-    "lng": 140.569664,
+    "address": "Karoonda Highway, Loxton, South Australia, 5333, Australia",
+    "lat": -34.502988,
+    "lng": 140.53198,
     "featured": false
   },
   {
@@ -39192,10 +39192,10 @@
     "status": "published",
     "country": "Japan",
     "countryCode": "JP",
-    "city": "Matsuda",
-    "address": "松田惣領, Matsuda, Ashigarakami County, Kanagawa Prefecture, 258-8585, Japan",
-    "lat": 35.348165,
-    "lng": 139.139382,
+    "city": "Nakai",
+    "address": "平塚松田線, 松本, Nakai, Ashigarakami County, Kanagawa Prefecture, 259-0147, Japan",
+    "lat": 35.336854,
+    "lng": 139.192897,
     "featured": false
   },
   {
@@ -39243,10 +39243,10 @@
     "status": "published",
     "country": "Japan",
     "countryCode": "JP",
-    "city": "Okegawa",
-    "address": "Kawagoe-Kurihashi Line, 西一丁目, Okegawa, Saitama Prefecture, 363-0017, Japan",
-    "lat": 36.002894,
-    "lng": 139.558342,
+    "city": "Kawajima",
+    "address": "荒川自転車道, Kamioyashiki, Kawajima, Hiki County, Saitama Prefecture, 362-0066, Japan",
+    "lat": 35.973556,
+    "lng": 139.52505,
     "featured": false
   },
   {
@@ -42102,22 +42102,6 @@
     "featured": false
   },
   {
-    "id": "035f0235-e07b-47e5-a4a5-46ee2131d524",
-    "slug": "powerplay-entertainment-center",
-    "name": "PowerPlay Entertainment Center",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Kansas City",
-    "address": "701, North 7th Street Trafficway, Strawberry Hill, Riverview, Kansas City, Wyandotte County, Kansas, 66101, United States",
-    "lat": 39.113456,
-    "lng": -94.626497,
-    "featured": false
-  },
-  {
     "id": "f93892bc-a9e4-430f-a088-968f94242ddf",
     "slug": "powerplay-joondalup",
     "name": "PowerPlay Joondalup",
@@ -43788,9 +43772,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Omura",
-    "address": "Omura, Nagasaki Prefecture, 856-0834, Japan",
-    "lat": 32.900228,
-    "lng": 129.958506,
+    "address": "650 Shigeida-machi, Omura, Nagasaki Prefecture, 856-0011, Japan",
+    "lat": 32.980024,
+    "lng": 130.006116,
     "featured": false
   },
   {
@@ -44497,9 +44481,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Orem",
-    "address": "State Street, Snow, Orem, Utah County, Utah, 84097, United States",
-    "lat": 40.29816,
-    "lng": -111.694431,
+    "address": "1439 North 1380 West, Orem, UT 84057, United States",
+    "lat": 40.323296,
+    "lng": -111.730962,
     "featured": false
   },
   {
@@ -45303,9 +45287,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Stamford",
-    "address": "Stamford Town Center, Glenbrook, Stamford, Western Connecticut Planning Region, Connecticut, 06902, United States",
-    "lat": 41.05343,
-    "lng": -73.538734,
+    "address": "600 West Avenue, Stamford, CT 06902, United States",
+    "lat": 41.036515,
+    "lng": -73.559219,
     "featured": false
   },
   {
@@ -51448,9 +51432,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Belleville",
-    "address": "Illinois Street, Belleville, Saint Clair County, Illinois, 62220, United States",
-    "lat": 38.513581,
-    "lng": -89.984163,
+    "address": "701 South Belt West, Belleville, IL 62220, United States",
+    "lat": 38.503961,
+    "lng": -89.994805,
     "featured": false
   },
   {
@@ -53450,9 +53434,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Dallas",
-    "address": "Dallas City Hall, 1500, Marilla Street, Downtown PID, Dallas, Dallas County, Texas, 75242, United States",
-    "lat": 32.776272,
-    "lng": -96.796856,
+    "address": "9830 North Central Expressway, Dallas, TX 75231, United States",
+    "lat": 32.881866,
+    "lng": -96.76847,
     "websiteUrl": "https://velocitysimlounge.com/dallas/",
     "phone": "972-209-5215",
     "instagramUrl": "https://www.instagram.com/velocitysimlounge/",
