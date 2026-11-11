@@ -18,68 +18,54 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **Pre-launch fixes in review (2026-11-11), all open, none merged.** Merge
-  order for the stacked ones: #22 → #24 → #27 (→ #28 draft), #25 → #26,
-  #23 → this plan PR. The rest in any order.
-  - #18 quick wins: security headers, `/api/listings` removed, cleanup, README.
-  - #19 near-empty venue pages noindexed and out of the sitemap (~1,500 left in it).
-  - #20 email alert per contact-form submission (needs `RESEND_API_KEY`).
-  - #21 privacy policy rewritten for GDPR (needs `OPERATOR` filled in).
-  - #22 144 unlicensed cover photos removed (**already live in Postgres**).
-  - #24 630 addresses without an unrelated nearby place name (**live**).
-  - #25 accessibility: axe finds 0 WCAG 2.1 AA violations on every page type.
-  - #26 home page 922 KB → ~190 KB (map data loads on scroll).
-  - #27 venue re-check: 42 archived, 38 websites fixed, 3,175 published (**live**).
-  - #23 2027 race calendars (calendar-scout session).
-- **Wrong map pins (#28, draft).** 458 suspects: pins on a town hall,
-  church, post office or town square, or circuits with no mapped track
-  nearby (e.g. Sebring, Cadwell Park, Kartplex Area 27). Tooling is ready;
-  relocation stopped when OSM rate-limited this machine (Nominatim 429).
-  Next: rerun `relocate-approximate-venues.ts --suspects
-  data/import/pin-suspects-circuits.csv` once the limit clears (spread over
-  days, at 1 request/s), or use a paid geocoder (user's call).
-- **Licensed photo run, remaining batches**: batches 05, 10 and 11 are
-  partial and 12 is not started (`data/import/photos/batches/`). After it
-  finishes: `apply-photo-run.ts`, then sync, then `db:snapshot`.
+- **Second round of pre-launch fixes in review (2026-11-11).** #18–#27 and
+  #29 are merged and live. Open, none merged:
+  - #28 113 misplaced pins moved (**live in Postgres**), Wikidata + OSM.
+  - #32 37 more licensed circuit photos (**live**), stacked on #28.
+  - #30 full Content-Security-Policy, CI (lint + build on every PR), and a
+    fix for link-preview images failing when Google Fonts is unreachable.
+  - #31 "Website checked <date>" on 1,043 listing pages.
+  Merge order: #28 → #32; #30 and #31 any order (#31 gets CI once #30 is in).
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
-- Fix the 458 suspect pins (#28). Circuits first: 132.
 - **Venues without a website.** In a random sample of 40, 60% were
   confirmed, 0 were wrong, and 40% couldn't be confirmed either way. That
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- 6 venues with the wrong city (e.g. Vamoen is in Evje, not Kristiansand),
-  listed in `verification-report-2026-11-11-sample.md`.
+- **Pins still to review: 81 circuits, 254 karting/sim**
+  (`data/import/pin-check-2026-11-11.md`). Many circuit rows have an OSM
+  lead ("OSM <name> N km away") that a short manual pass can settle; the
+  karting/sim rows need Nominatim (`relocate-approximate-venues.ts
+  --suspects`) spread over days (rule 8), or a paid geocoder (user's call).
 - Set `NEXT_PUBLIC_SITE_URL` and the real domain and contact email (code falls
   back to the Vercel URL).
-- "Last verified" date on listings. `verified` is false for all rows, so a
-  verification date has to be stored first.
 - Photo upload on the Add-your-venue form. The form itself is live (PR #12);
   for now people send links in the message.
 - Confirm Sentry receives errors. A test event got 429 "quota or rate
   limit", so the user needs to check Sentry usage.
 
 ### Before launch (should fix)
-- Self-host the 225 Wikimedia cover photos (they load from
-  upload.wikimedia.org). Low risk now that venue-site photos are gone.
-- A full Content-Security-Policy (only `frame-ancestors` is set).
-- No CI or tests beyond the Vercel build.
+- Self-host the 263 Wikimedia cover photos (they load from
+  upload.wikimedia.org, which rate-limits generic clients).
+- Look over the 10 new cover photos that weren't checked by eye (listed in #32).
 - Main checkout: local `master` is behind origin, with uncommitted
   dependency upgrades (Next unpinned to `^16.4.2`). Discard them rather than
   upgrade Next before launch.
 - Manual accessibility pass for what axe can't check: screen-reader flow on
   the map, focus order in the search palette.
+- Tests: CI only lints and builds (#30); no unit or end-to-end tests yet.
 
 ### Blocked / needs the user
 - Supabase free tier auto-pauses after inactivity (it took the site down on
   2026-10-16). Decide on Pro before launch.
 - Analytics custom events (PR #7) are only recorded on Vercel Pro.
 - Fill in `OPERATOR` (name and postal address) in `lib/site.ts` for the
-  privacy policy (#21); probably an imprint page for DE/AT too.
-- Create a Resend account and set `RESEND_API_KEY` in Vercel (#20).
-- Pins: wait for the OSM limit or approve a paid geocoder.
+  privacy policy; probably an imprint page for DE/AT too.
+- Create a Resend account and set `RESEND_API_KEY` in Vercel (contact-form
+  emails are off until then).
+- Venues without a website: verify, drop or accept (see Next).
 
 ### Data debt (after launch is fine)
 - Opening hours and regional `track-details-*.csv` coverage (regional files
@@ -108,18 +94,11 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #18 `claude/launch-quick-wins` | Security headers, bulk API removed, cleanup | merge | 2026-11-11 |
-| PR #19 `claude/noindex-thin-listings` | Near-empty venue pages noindexed | merge | 2026-11-11 |
-| PR #20 `claude/submission-alerts` | Email per form submission | merge, then set RESEND_API_KEY | 2026-11-11 |
-| PR #21 `claude/privacy-policy` | GDPR privacy policy | fill OPERATOR, merge | 2026-11-11 |
-| PR #22 `claude/remove-unlicensed-photos` | 144 unlicensed photos removed (live) | merge | 2026-11-11 |
-| PR #24 `claude/fix-venue-addresses` | 630 address fixes (live), stacked on #22 | merge after #22 | 2026-11-11 |
-| PR #25 `claude/a11y-contrast` | WCAG contrast fixes | merge | 2026-11-11 |
-| PR #26 `claude/lighter-home-page` | Home page data loads on scroll, stacked on #25 | merge after #25 | 2026-11-11 |
-| PR #27 `claude/verification-fixes` | 42 archived, 38 websites fixed (live), stacked on #24 | merge after #24 | 2026-11-11 |
-| PR #28 `claude/fix-misplaced-pins` (draft) | Pin check and relocation tooling, stacked on #27 | run relocation, then ready | 2026-11-11 |
-| this PR `claude/plan-update-2026-11-11` | This plan update, stacked on #23 | merge after #23 | 2026-11-11 |
-| PR #23 `claude/quizzical-lumiere-30aede` | 2027 race calendars and Formula E 2026–27 (174 events) | merge | opened 2026-11-11 |
+| PR #28 `claude/fix-misplaced-pins` | 113 pins moved (live) | merge | 2026-11-11 |
+| PR #32 `claude/photo-run-finish` | 37 circuit photos (live), stacked on #28 | merge after #28 | 2026-11-11 |
+| PR #30 `claude/csp-and-ci` | Full CSP, CI, OG font fallback | merge | 2026-11-11 |
+| PR #31 `claude/website-checked-date` | "Website checked" date on listings | merge | 2026-11-11 |
+| this PR `claude/plan-update-2026-11-11b` | This plan update | merge | 2026-11-11 |
 
 ## Agent roster
 
@@ -129,7 +108,7 @@ error and analytics monitoring that actually receives data.
 | venue-scout (+ -africa, -australia, -south-america) | Finding new venues | 2026-09-25 | `data/import/raw/scouted-2026-09-25-*.csv` | Hold until launch blockers are done |
 | kart-map-scout | Karting venues and track details from kart-map.com | 2026-09-29 | `raw/kartmap-*-2026-09-29.csv`, `track-details.csv` | None planned |
 | venue-verifier | Checking listings still operate | 2026-11-11 | `verification-report-2026-11-11-flagged.md`, `-sample.md` | Venues without a website (~2,100): batches, if the user wants them verified |
-| venue-photo-finder | Licensed cover photos | 2026-10 | `photos/batches/batch-11*` | Finish batches 05, 10, 11 and 12 |
+| venue-photo-finder | Licensed cover photos | 2026-11-11 | `photos/batches/batch-12*` | Circuit run done (batches 01–12); karting/sim photos not started |
 | venue-social-finder | Instagram, Facebook and TikTok links | 2026-09-27 | `social-links.csv` | None planned |
 | calendar-scout | Race calendars → `data/calendar-events.ts` | 2026-11-11 | `calendar-events.ts` (2027 for 14 series and Formula E 2026–27, PR #23) | Merge PR #23. Around Jan 2027, re-run for the unpublished series, the 12 WRC and 3 Junior WRC host cities, and BTCC Oulton Park |
 
@@ -201,3 +180,18 @@ error and analytics monitoring that actually receives data.
     OSM rate limit (see rule 8).
   - All PRs merged together locally: build OK, axe 0 violations on every
     page type, noindex/sitemap/headers/privacy checked on `next dev`.
+- **2026-11-11 (later)**: #18–#27 and #29 merged by the user; production
+  deploy checked (headers, 404 on `/api/listings`, sitemap 1,488 venues,
+  privacy page, 2027 calendar). Then, in the same session:
+  - Pins: Nominatim still 429, so `wikidata-circuit-pins.ts` checks with
+    Wikidata + Photon (komoot's OSM search). 49 circuits + 63 karting/sim
+    + Kartarena Cheb moved (live, merged into `location-fixes.csv`), every
+    move read by hand. The 6 "wrong city" venues are settled (Cheb fixed,
+    2 already archived, Vamoen, Hawke's Bay and Zhejiang see #28).
+  - Photos: batches 05, 10, 11, 12 finished by two venue-photo-finder
+    agents; 37 new covers live; 27 checked by eye on a contact sheet.
+  - CSP + CI (#30). The first CI run found that link-preview images crash
+    the build when Google Fonts times out; fixed in the same PR.
+  - "Website checked" date (#31) from the website check, no DB change.
+  - Wikimedia also rate-limits generic clients (429 on thumbnails); keep
+    bulk image fetches slow, like rule 8.
