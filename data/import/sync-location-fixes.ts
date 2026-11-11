@@ -15,7 +15,9 @@
  * import-to-db.ts reads the same CSV, so a later re-import from review.csv
  * doesn't bring the old centroid pins back.
  *
- * Run: npx tsx data/import/sync-location-fixes.ts [--dry-run]
+ * Run: npx tsx data/import/sync-location-fixes.ts [--dry-run] [--file <csv>]
+ *   --file applies another fixes file (e.g. pin-fixes.csv) instead; merge
+ *   its rows into location-fixes.csv too, so re-imports keep them.
  */
 import "dotenv/config";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -25,6 +27,8 @@ import { and, inArray, ne, sql } from "drizzle-orm";
 import type { Listing } from "../../lib/types";
 
 const LOCATION_FIXES_FILE = path.join(process.cwd(), "data", "import", "location-fixes.csv");
+const fileArg = process.argv.indexOf("--file");
+const SYNC_FILE = fileArg > -1 ? path.resolve(process.argv[fileArg + 1]) : LOCATION_FIXES_FILE;
 const GENERATED_FILE = path.join(process.cwd(), "data", "generated-listings.json");
 const BATCH_SIZE = 250;
 const DRY_RUN = process.argv.includes("--dry-run");
@@ -41,10 +45,10 @@ export interface LocationFixRow {
   name?: string;
 }
 
-export function loadLocationFixes(): Map<string, LocationFixRow> {
+export function loadLocationFixes(file: string = LOCATION_FIXES_FILE): Map<string, LocationFixRow> {
   const bySlug = new Map<string, LocationFixRow>();
-  if (!existsSync(LOCATION_FIXES_FILE)) return bySlug;
-  const rows = parse(readFileSync(LOCATION_FIXES_FILE, "utf-8"), { columns: true, skip_empty_lines: true }) as LocationFixRow[];
+  if (!existsSync(file)) return bySlug;
+  const rows = parse(readFileSync(file, "utf-8"), { columns: true, skip_empty_lines: true }) as LocationFixRow[];
   for (const row of rows) {
     if (!row.slug) continue;
     if (row.action === "fix" && !(Number.isFinite(parseFloat(row.lat)) && Number.isFinite(parseFloat(row.lng)))) {
@@ -63,9 +67,9 @@ function chunk<T>(items: T[], size: number): T[][] {
 }
 
 async function main() {
-  const fixes = loadLocationFixes();
+  const fixes = loadLocationFixes(SYNC_FILE);
   if (fixes.size === 0) {
-    console.log(`${LOCATION_FIXES_FILE} not found or empty.`);
+    console.log(`${SYNC_FILE} not found or empty.`);
     return;
   }
   const toFix = [...fixes.values()].filter((r) => r.action === "fix");
