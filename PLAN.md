@@ -18,7 +18,7 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **#38 in review**: seventh pin pass (9 more karting pins fixed, 3 archived), all **live in Postgres**. #18–#37 are merged and live.
+- **#40 in review**: track layout drawings on circuit venue pages (from OSM raceways in the map tiles). #18–#39 are merged and live, including the map restyle (#39: brand colours, red track outlines on the map).
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -69,6 +69,7 @@ error and analytics monitoring that actually receives data.
 - Keep photoIndex-2 rows for a future gallery.
 
 ### Done (recent)
+- PR #39: map restyled (blue-black palette, OSM raceways drawn in red, venue maps open at zoom 13).
 - PR #16: snapshot refreshed after the rescue sync (3,217 rows).
 - PR #14: 34 dropped venues rescued, synced on 2026-11-11 (3,217 published),
   snapshot refreshed.
@@ -87,7 +88,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #38 `claude/pin-review-6` | Seventh pin pass (live), this plan update | merge | 2026-11-11 |
+| PR #40 `claude/track-outlines` | Track layout card on venue pages, outline builder, this plan update | merge | 2026-11-12 |
 
 ## Agent roster
 
@@ -223,3 +224,14 @@ error and analytics monitoring that actually receives data.
   Archived: Pınarbaşı İzmir (closed 2022, demolished), Kartxxl UG and AQVA
   Kart (no sign either is a kart track). Karting-Belval checked and kept.
   Published: 3,166.
+- **2026-11-12**: #38 and #39 merged (map restyle: brand palette, red
+  raceway outlines, venue maps at zoom 13). Track layouts (#40): new
+  `build-track-outlines.ts` reads OSM raceways from the OpenFreeMap z14
+  tiles around each pin, joins touching lines into tracks, picks the
+  circuit (longest within 1.5 km for f1/track_day), simplifies it into an
+  SVG path in `data/track-outlines.json`; the venue page shows it as a
+  "Track layout" card with OSM credit. 373 of 476 f1/track_day venues
+  have one; all were checked by eye on contact sheets, and 13 were left out
+  (street circuits such as Monaco and Baku, fragments; listed in EXCLUDE).
+  Karting outlines are a possible next run. Batch B (128 karting/sim) run
+  through Nominatim.

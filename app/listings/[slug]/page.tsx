@@ -23,6 +23,8 @@ import { toSummary } from "@/lib/listingSummary";
 import { pageMetadata } from "@/lib/seo";
 import { hasEnoughDetail } from "@/lib/listingQuality";
 import { WEBSITE_CHECKED } from "@/data/website-checked";
+import { trackOutline } from "@/data/track-outlines";
+import TrackLayout from "@/components/Listing/TrackLayout";
 
 function formatCheckedDate(iso: string): string {
   return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
@@ -115,6 +117,7 @@ export default async function ListingDetailPage({
 
   // Opens the contact form pre-filled for this venue.
   const reportHref = `/contact?kind=correction&venue=${encodeURIComponent(listing.slug)}`;
+  const outline = trackOutline(listing.slug);
 
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
@@ -232,14 +235,17 @@ export default async function ListingDetailPage({
         )}
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_420px]">
-          <section className="border border-white/10 bg-asphalt p-5 sm:p-6">
-            <h2 className="font-display text-2xl font-black uppercase italic text-white">Venue details</h2>
-            {listing.description && <p className="mt-3 max-w-2xl leading-relaxed text-gray-300">{listing.description}</p>}
-            <div className="mt-4">
-              {/* description is shown above, so leave it out of the shared details block */}
-              <ListingDetails listing={{ ...listing, description: undefined }} />
-            </div>
-          </section>
+          <div className="space-y-6">
+            <section className="border border-white/10 bg-asphalt p-5 sm:p-6">
+              <h2 className="font-display text-2xl font-black uppercase italic text-white">Venue details</h2>
+              {listing.description && <p className="mt-3 max-w-2xl leading-relaxed text-gray-300">{listing.description}</p>}
+              <div className="mt-4">
+                {/* description is shown above, so leave it out of the shared details block */}
+                <ListingDetails listing={{ ...listing, description: undefined }} />
+              </div>
+            </section>
+            {outline && <TrackLayout outline={outline} name={listing.name} />}
+          </div>
 
           <div className="space-y-4">
             <div className="overflow-hidden border border-white/10">
