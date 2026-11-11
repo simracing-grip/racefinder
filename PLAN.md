@@ -18,7 +18,7 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **#35 in review**: third and fourth pin passes (67 more pins fixed, all **live in Postgres**). #18–#34 are merged and live.
+- **#35 in review**: third and fourth pin passes (63 more pins fixed, all **live in Postgres**). #18–#34 are merged and live.
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -197,7 +197,7 @@ error and analytics monitoring that actually receives data.
   linking a venue that doesn't exist. Published: 3,173.
 - **2026-11-11 (night)**: #34 merged. Third and fourth pin passes (#35):
   12 circuits by Wikidata + any mapped track near its point (many are
-  mapped only under local-script names), 20 circuits by hand (Autopolis
+  mapped only under local-script names), 19 circuits by hand (Autopolis
   31 km, Hunan/Zhuzhou ~100 km, Franciacorta 44 km, Dragon Race Track in the
   wrong Kaloyanovo ~150 km, Fangio autodrome in Rafaela instead of Rosario),
   32 karting/sim from Nominatim batch A after reading every match (4
