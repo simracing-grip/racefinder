@@ -18,7 +18,7 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **#35 in review**: third and fourth pin passes (63 more pins fixed, all **live in Postgres**). #18–#34 are merged and live.
+- **#36 in review**: fifth pin pass (12 more pins fixed, 3 venues dropped, 1 duplicate merged) and Le Mans Karting International restored, all **live in Postgres**. #18–#35 are merged and live.
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -27,7 +27,7 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 11 circuits, 96 karting/sim, plus batch B (128 karting/sim not run yet)**
+- **Pins still to review: 3 circuits, 88 karting/sim, plus batch B (128 karting/sim not run yet)**
   (`data/import/pin-check-2026-11-11.md`). Run batch B through Nominatim on
   another day (rule 8) and read its matches by hand (the name matching is
   loose: batch A matched a playground and a music school).
@@ -87,7 +87,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #35 `claude/pin-review-3` | Third/fourth pin pass (live), this plan update | merge | 2026-11-11 |
+| PR #36 `claude/pin-review-4` | Fifth pin pass and Le Mans restore (live), this plan update | merge | 2026-11-11 |
 
 ## Agent roster
 
@@ -200,3 +200,13 @@ error and analytics monitoring that actually receives data.
   wrong Kaloyanovo ~150 km, Fangio autodrome in Rafaela instead of Rosario),
   32 karting/sim from Nominatim batch A after reading every match (4
   rejected). Batch B (128) left for another day.
+- **2026-11-11 (late night)**: #35 merged. Fifth pass (#36): Le Mans
+  Karting International restored (archived on 2026-10-01 with a creperie
+  pin; now on Circuit Alain Prost) and the WKC KZ round relinked; new
+  `add-manual-venues.ts` adds or restores venues, since a full re-import no
+  longer reproduces generated-listings.json. Circuits: Donnybrook (13 km),
+  South Chiba (12 km, was Ichihara City Hall), Link Circuit, Sudamericano
+  moved; NanoCircuit, Juan C. Ferrer and Afonso Petschow dropped (nothing
+  confirms them); Esperance listed twice, merged. Karting/sim batch A: 8
+  more moved by Photon name match, each checked against the venue's own
+  address. Overpass was down (502) all evening. Published: 3,170.

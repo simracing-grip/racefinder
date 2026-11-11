@@ -1779,9 +1779,9 @@
     "country": "Montenegro",
     "countryCode": "ME",
     "city": "Podgorica",
-    "address": "Trg Nezavisnosti, Stara varoš, Podgorica, Podgorica Capital City, 81110, Montenegro",
-    "lat": 42.441524,
-    "lng": 19.262108,
+    "address": "Bigor, Podgorica Capital City, 81252, Montenegro",
+    "lat": 42.393298,
+    "lng": 19.134825,
     "websiteUrl": "https://www.karting.me/",
     "phone": "+382 69 123 111"
   },
@@ -4143,9 +4143,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Osaka",
-    "address": "ナインモール商店街, Kujo 1-chome, Nishi Ward, Osaka, Osaka Prefecture, 550-0027, Japan",
-    "lat": 34.674598,
-    "lng": 135.476774,
+    "address": "1-14-19, Minamihorie 1-chōme, Nishi Ward, Osaka, Osaka Prefecture, 550-0015, Japan",
+    "lat": 34.671718,
+    "lng": 135.494329,
     "websiteUrl": "https://streetkart.com/"
   },
   {
@@ -12144,9 +12144,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "São José dos Pinhais",
-    "address": "Rua Passos de Oliveira, Centro, São José dos Pinhais, Paraná, South Region, 83030-480, Brazil",
-    "lat": -25.533816,
-    "lng": -49.207216
+    "address": "Alameda Arpo, Cruzeiro, São José dos Pinhais, Paraná, 83020-070, Brazil",
+    "lat": -25.550859,
+    "lng": -49.185736
   },
   {
     "id": "808",
@@ -15525,9 +15525,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Edison",
-    "address": "2079, Woodbridge Avenue, Martins Landing, Edison, Middlesex County, New Jersey, 08817, United States",
-    "lat": 40.500535,
-    "lng": -74.398394
+    "address": "987, US Route 1 South, Nixon, Edison, Middlesex, New Jersey, 08817, United States",
+    "lat": 40.520465,
+    "lng": -74.371077
   },
   {
     "id": "1072",
@@ -17235,9 +17235,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Draper",
-    "address": "Draper City Hall, 1020, Pioneer Road, Somerville in Draper, Draper, Salt Lake County, Utah, 84020, United States",
-    "lat": 40.524778,
-    "lng": -111.862799
+    "address": "75, Southfork Drive, Draper, Salt Lake, Utah, 84020, United States",
+    "lat": 40.494434,
+    "lng": -111.889126
   },
   {
     "id": "1196",
@@ -17745,9 +17745,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Gardena",
-    "address": "1103, West Gardena Boulevard, Hermosillo, Gardena, Los Angeles County, California, 90247, United States",
-    "lat": 33.88156,
-    "lng": -118.293588
+    "address": "19038, South Vermont Avenue, Harbor Gateway, Los Angeles, California, 90248, United States",
+    "lat": 33.857359,
+    "lng": -118.289742
   },
   {
     "id": "1231",
@@ -21378,9 +21378,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Grimma",
-    "address": "Hohnstädt, Grimma, Landkreis Leipzig, Saxony, 04668, Germany",
-    "lat": 51.236643,
-    "lng": 12.728896
+    "address": "Waldbardauer Straße, GGI Gewerbepark in Grimma, Grimma, Landkreis Leipzig, Saxony, 04668, Germany",
+    "lat": 51.219702,
+    "lng": 12.717075
   },
   {
     "id": "1517",
@@ -22324,9 +22324,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Thônes",
-    "address": "Place de l'Hôtel de Ville, Le Turban, Thônes, Annecy, Upper Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 74230, France",
-    "lat": 45.881988,
-    "lng": 6.324184
+    "address": "4bis, Route des Aravis, Le Collège, Thônes, Upper Savoy, Auvergne-Rhône-Alpes, 74230, France",
+    "lat": 45.896278,
+    "lng": 6.342911
   },
   {
     "id": "1581",
