@@ -140,32 +140,39 @@ async function main() {
   const reasons = new Map<string, string[]>();
   const flag = (slug: string, reason: string) => reasons.set(slug, [...(reasons.get(slug) ?? []), reason]);
 
+  // The two checks use different services (Overpass, Nominatim), so they run
+  // side by side.
   // 1. Circuits with no mapped track nearby.
   const circuits = listings.filter((l) => l.categories.includes("track_day") || l.categories.includes("club_only"));
-  console.log(`Checking ${circuits.length} circuits against OpenStreetMap tracks…`);
-  const tracks = await tracksNear(circuits);
-  for (const c of circuits) if ((tracks.get(c.slug) ?? []).length === 0) flag(c.slug, "no-track");
-  console.log();
+  const trackCheck = (async () => {
+    console.log(`Checking ${circuits.length} circuits against OpenStreetMap tracks…`);
+    const tracks = await tracksNear(circuits);
+    for (const c of circuits) if ((tracks.get(c.slug) ?? []).length === 0) flag(c.slug, "no-track");
+    console.log("\nTrack check done.");
+  })();
 
   // 2. Pins on their town's centre point.
-  const cities = new Map<string, Listing[]>();
-  for (const l of listings) {
-    if (!l.city) continue;
-    const key = `${l.city}|${l.country}|${l.countryCode}`;
-    cities.set(key, [...(cities.get(key) ?? []), l]);
-  }
-  console.log(`Geocoding ${cities.size} towns…`);
-  let n = 0;
-  for (const [key, venues] of cities) {
-    const [city, country, cc] = key.split("|");
-    const centre = await cityCentre(city, country, cc);
-    if (centre) for (const v of venues) if (km(centre, v) <= TOWN_CENTRE_KM) flag(v.slug, "town-centre");
-    if (++n % 50 === 0) {
-      writeFileSync(CACHE_FILE, JSON.stringify(cache));
-      process.stdout.write(`\r${n}/${cities.size}`);
+  const townCheck = (async () => {
+    const cities = new Map<string, Listing[]>();
+    for (const l of listings) {
+      if (!l.city) continue;
+      const key = `${l.city}|${l.country}|${l.countryCode}`;
+      cities.set(key, [...(cities.get(key) ?? []), l]);
     }
-  }
-  writeFileSync(CACHE_FILE, JSON.stringify(cache));
+    console.log(`Geocoding ${cities.size} towns…`);
+    let n = 0;
+    for (const [key, venues] of cities) {
+      const [city, country, cc] = key.split("|");
+      const centre = await cityCentre(city, country, cc);
+      if (centre) for (const v of venues) if (km(centre, v) <= TOWN_CENTRE_KM) flag(v.slug, "town-centre");
+      if (++n % 50 === 0) {
+        writeFileSync(CACHE_FILE, JSON.stringify(cache));
+        console.log(`Towns: ${n}/${cities.size}`);
+      }
+    }
+    writeFileSync(CACHE_FILE, JSON.stringify(cache));
+  })();
+  await Promise.all([trackCheck, townCheck]);
 
   const rows = listings
     .filter((l) => reasons.has(l.slug))
