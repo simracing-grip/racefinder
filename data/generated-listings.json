@@ -1813,9 +1813,9 @@
     "country": "Albania",
     "countryCode": "AL",
     "city": "Bashkia Durrës",
-    "address": "Illyria Square, Durrës, Bashkia Durrës, Durrës County, 2001, Albania",
-    "lat": 41.313255,
-    "lng": 19.446235,
+    "address": "Pejzë, Xhafzotaj, Bashkia Shijak, Durrës County, 2019, Albania",
+    "lat": 41.311903,
+    "lng": 19.55547,
     "phone": "+355 69 404 0062"
   },
   {
@@ -3146,9 +3146,9 @@
     "country": "Bulgaria",
     "countryCode": "BG",
     "city": "Kaloyanovo",
-    "address": "Kaloyanovo, Sliven, Bulgaria",
-    "lat": 42.65967,
-    "lng": 26.46253,
+    "address": "Kaloyanovo, Kaloianovo, Plovdiv, 4172, Bulgaria",
+    "lat": 42.34124,
+    "lng": 24.7356,
     "websiteUrl": "https://dracon.bg",
     "phone": "+359 87 834 9017",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dracon.jpg"
@@ -3383,9 +3383,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Grimes",
-    "address": "110, Southeast Main Street, Grimes, Polk County, Iowa, 50111, United States",
-    "lat": 41.688321,
-    "lng": -93.791057,
+    "address": "1350, Southeast Gateway Drive, Thomas Square Condominiums, Grimes, Webster Township, Polk County, Iowa, 50111, United States",
+    "lat": 41.678078,
+    "lng": -93.780342,
     "websiteUrl": "https://www.k1speed.com/des-moines-location.html",
     "phone": "515-986-2442"
   },
@@ -3932,9 +3932,9 @@
     "country": "China",
     "countryCode": "CN",
     "city": "Putuo District",
-    "address": "Lane 400 of Beishi Road, 真西新村, Zhenru, Zhenruzhen, Putuo District, Shanghai, 200062, China",
-    "lat": 31.251326,
-    "lng": 121.391229
+    "address": "809, Zaoyang Road, Xindukou, Changfeng Xincun, Putuo District, Shanghai, 200062, China",
+    "lat": 31.22436,
+    "lng": 121.397843
   },
   {
     "id": "246",
@@ -4192,9 +4192,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Pasadena",
-    "address": "Pasadena Robinson Memorial, East Holly Street, Old Pasadena, Pasadena Council District 3, Pasadena, Los Angeles County, California, 91129, United States",
-    "lat": 34.147651,
-    "lng": -118.144155,
+    "address": "East Colorado Boulevard, Pasadena Council District 2, Pasadena, Los Angeles County, California, 91107, United States",
+    "lat": 34.1462,
+    "lng": -118.1039,
     "websiteUrl": "https://www.worldofracing.com/booking-pasadena",
     "phone": "(310) 461-1055"
   },
@@ -4244,9 +4244,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "South Barrington",
-    "address": "Paul Douglas Trail Black Paved, South Barrington, Barrington Township, Cook County, Illinois, 60192, United States",
-    "lat": 42.093889,
-    "lng": -88.134235,
+    "address": "100 West Higgins Road, Suite E-5, South Barrington, Illinois, 60010, United States",
+    "lat": 42.07482,
+    "lng": -88.18483,
     "websiteUrl": "https://simracingsouthbarrington.com/",
     "phone": "(224) 630-3076"
   },
@@ -5360,9 +5360,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Hita",
-    "address": "日田玖珠線, Tanso 1-chome, Nakajomachi, Hita, Oita Prefecture, 877-0003, Japan",
-    "lat": 33.321165,
-    "lng": 130.941132,
+    "address": "天瀬阿蘇線, Hita, Oita Prefecture, Japan",
+    "lat": 33.03894,
+    "lng": 130.97438,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Autopolis_racing_circuit_%28Kamitsue%2C_Oita%2C_Japan%29.JPG"
   },
   {
@@ -5376,9 +5376,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Shimotsuma",
-    "address": "Yawara-Chikusei Line, 1 Chome Motoshirocho, 本城町, Shimotsuma, Ibaraki Prefecture, 304-8501, Japan",
-    "lat": 36.183934,
-    "lng": 139.96845,
+    "address": "Tsukuba-Koga Line, 大字仁江戸, Yachiyo, Yuki County, Ibaraki Prefecture, 304-0821, Japan",
+    "lat": 36.150911,
+    "lng": 139.922492,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/TsukubaCircuitPitandControlTower.jpg"
   },
   {
@@ -5409,9 +5409,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Sodegaura",
-    "address": "1, 坂戸市場, Sodegaura, Chiba Prefecture, 299-0262, Japan",
-    "lat": 35.429669,
-    "lng": 139.954466
+    "address": "房総横断道路, 林, Sodegaura, Chiba Prefecture, 299-0202, Japan",
+    "lat": 35.394185,
+    "lng": 140.088247
   },
   {
     "id": "346",
@@ -5502,9 +5502,9 @@
     "country": "China",
     "countryCode": "CN",
     "city": "Songjiang District",
-    "address": "Shenzhuan Highway, Sheshan, Songjiang District, Shanghai, 201602, China",
-    "lat": 31.085566,
-    "lng": 121.183403,
+    "address": "昆港公路, Sheshan, Songjiang, Shanghai, China",
+    "lat": 31.077516,
+    "lng": 121.115845,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/HiPhi_X_at_the_Shanghai_Tianma_Circuit_20210102-3.jpg"
   },
   {
@@ -5657,9 +5657,9 @@
     "country": "Morocco",
     "countryCode": "MA",
     "city": "Ouahat Sidi Brahim",
-    "address": "Ouahat Sidi Brahim, caïdat d’Ouahat Sidi Brahim, cercle d'Al Ouidane, Marrakesh Prefecture, Marrakech-Safi, 40063, Morocco",
-    "lat": 31.726827,
-    "lng": -7.959864,
+    "address": "P2008, Caid Jilali, Harbil حربيل, caïdat d'Harbil, cercle de Bour, Marrakesh Prefecture, Marrakech-Safi, 40036, Morocco",
+    "lat": 31.704027,
+    "lng": -8.053291,
     "websiteUrl": "https://www.s1speedway.com",
     "phone": "+212 665 130 010"
   },
@@ -6755,9 +6755,9 @@
     "country": "Australia",
     "countryCode": "AU",
     "city": "Wanneroo",
-    "address": "Wattle Avenue West, Nowergup, Western Australia, 6032, Australia",
-    "lat": -31.665201,
-    "lng": 115.740449,
+    "address": "Orchid Road, Nowergup, Western Australia, 6032, Australia",
+    "lat": -31.66431,
+    "lng": 115.79072,
     "websiteUrl": "https://wannerooraceway.com.au",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wanneroo_Mar_1985_009.jpg"
   },
@@ -7463,9 +7463,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Nova Santa Rita",
-    "address": "Rua Juvenal Machado, Nova Santa Rita, Rio Grande do Sul, South Region, 92480-000, Brazil",
-    "lat": -29.857048,
-    "lng": -51.275495,
+    "address": "Estrada Porto da Figueira, Nova Santa Rita, Rio Grande do Sul, Brazil",
+    "lat": -29.82449,
+    "lng": -51.32256,
     "websiteUrl": "https://autodromofueltech.com.br",
     "phone": "+55 51 3479-4700"
   },
@@ -7495,9 +7495,9 @@
     "country": "Argentina",
     "countryCode": "AR",
     "city": "Villa General San Martín",
-    "address": "5419, Ruta Nacional 40 \"Libertador General Don José de San Martín\", Barrio Albardon 1º, Villa General San Martín, Albardón, San Juan, J5419, Argentina",
-    "lat": -31.444041,
-    "lng": -68.521182
+    "address": "Ruta Nacional 40 \"Libertador General Don José de San Martín\", Campo Afuera, Albardón, San Juan, Argentina",
+    "lat": -31.396749,
+    "lng": -68.567909
   },
   {
     "id": "472",
@@ -7692,9 +7692,9 @@
     "country": "South Africa",
     "countryCode": "ZA",
     "city": "Midvaal Local Municipality",
-    "address": "Boet Kruger Street, Midvaal Ward 9, Meyerton, Midvaal Local Municipality, Sedibeng District Municipality, Gauteng, 1960, South Africa",
-    "lat": -26.558333,
-    "lng": 28.019722,
+    "address": "Buchan Street, Vorsterpark AH, Midvaal Ward 13, Midvaal Local Municipality, Sedibeng District Municipality, Gauteng, South Africa",
+    "lat": -26.61315,
+    "lng": 28.061315,
     "websiteUrl": "https://midvaalraceway.co.za/",
     "phone": "+27 16 100 1572"
   },
@@ -8120,9 +8120,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Mogi Guaçu",
-    "address": "Rodovia Governador Doutor Adhemar Pereira de Barros, Jardim Ype II, Parque Cidade Nova, Mogi Guaçu, São Paulo, Southeast Region, 13845-440, Brazil",
-    "lat": -22.346202,
-    "lng": -46.951127,
+    "address": "Rodovia Governador Doutor Adhemar Pereira de Barros, Mogi Guaçu, São Paulo, Brazil",
+    "lat": -22.28945,
+    "lng": -46.84613,
     "websiteUrl": "https://www.autodromovelocitta.com.br/"
   },
   {
@@ -8234,9 +8234,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Curvelo",
-    "address": "Praça Central do Brasil, Centro, Curvelo, Minas Gerais, Southeast Region, 35790-246, Brazil",
-    "lat": -18.757193,
-    "lng": -44.430599,
+    "address": "Rodovia dos Cristais, Curvelo, Minas Gerais, 35796-489, Brazil",
+    "lat": -18.805508,
+    "lng": -44.410253,
     "websiteUrl": "https://www.circuitodoscristais.com.br/",
     "phone": "+55 38 99737-0879",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/20260105_123836.jpg"
@@ -8284,9 +8284,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Campo Grande",
-    "address": "Rua Antônio Maria Coelho, Vivendas do Bosque, Santa Fé, Campo Grande, Mato Grosso do Sul, Central-West Region, 79021-160, Brazil",
-    "lat": -20.451121,
-    "lng": -54.580843,
+    "address": "BR-262, Terras do Golfe, Campo Grande, Mato Grosso do Sul, Brazil",
+    "lat": -20.475876,
+    "lng": -54.464816,
     "phone": "+55 67 3025-1910",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Campo_Grande_Speedway_%285797861359%29.jpg"
   },
@@ -8413,9 +8413,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Curitiba",
-    "address": "292, Rua Itacolomi, Portão, Curitiba, Paraná, South Region, 81050-040, Brazil",
-    "lat": -25.478822,
-    "lng": -49.294562,
+    "address": "Rua Itacolomi, Portão, Curitiba, Paraná, South Region, 81050-040, Brazil",
+    "lat": -25.478512,
+    "lng": -49.296789,
     "websiteUrl": "https://monacokartindoor.com.br/",
     "phone": "+55 41 99205-3840"
   },
@@ -8542,10 +8542,10 @@
     "status": "published",
     "country": "Argentina",
     "countryCode": "AR",
-    "city": "Rafaela",
-    "address": "Jorge Newbery, Rosario, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
-    "lat": -31.236589,
-    "lng": -61.465787,
+    "city": "Rosario",
+    "address": "Calle 1 (Sur), Palos Verdes, Distrito Norte, Rosario, Gran Rosario, Santa Fe, S2000, Argentina",
+    "lat": -32.9038,
+    "lng": -60.74483,
     "phone": "+54 341 451-9654",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/TC_Rafaela_2007.png"
   },
@@ -8606,9 +8606,9 @@
     "country": "Ecuador",
     "countryCode": "EC",
     "city": "Ibarra",
-    "address": "Avenida José Tobar y Tobar, El Sagrario, Ibarra, Imbabura, 100159, Ecuador",
-    "lat": 0.345215,
-    "lng": -78.12777
+    "address": "Autopista Yahuarcocha, Priorato, Ibarra, Imbabura, 100110, Ecuador",
+    "lat": 0.38088,
+    "lng": -78.09099
   },
   {
     "id": "543",
@@ -9411,10 +9411,10 @@
     "status": "published",
     "country": "Argentina",
     "countryCode": "AR",
-    "city": "Municipio de Desaguadero",
-    "address": "Ruta Nacional 7, Municipio de Desaguadero, Juan Martín de Pueyrredón, San Luis, Argentina",
-    "lat": -33.407477,
-    "lng": -67.143749,
+    "city": "San Luis",
+    "address": "Autopista de las Serranías Puntanas, San Luis, Juan Martín de Pueyrredón, Argentina",
+    "lat": -33.33612,
+    "lng": -66.39464,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/TC_San_Luis_2012_largada.jpg"
   },
   {
@@ -9460,9 +9460,9 @@
     "country": "Argentina",
     "countryCode": "AR",
     "city": "San Nicolás de los Arroyos",
-    "address": "69, Bartolomé Mitre, Centro, San Nicolás de los Arroyos, Partido de San Nicolás, Buenos Aires, 2900, Argentina",
-    "lat": -33.327709,
-    "lng": -60.216591,
+    "address": "Calle 11B, San Nicolás de los Arroyos, Partido de San Nicolás, Buenos Aires, B2903, Argentina",
+    "lat": -33.397946,
+    "lng": -60.201981,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aut%C3%B3dromo_San_Nicol%C3%A1s_Ciudad%2C_Torre_de_Control.jpg"
   },
   {
@@ -10057,9 +10057,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Rideau Lakes",
-    "address": "Rideau Ferry Road, Lombardy, Rideau Lakes, Leeds and Grenville Counties, Eastern Ontario, Ontario, K0G 1L0, Canada",
-    "lat": 44.824092,
-    "lng": -76.092299
+    "address": "6, Kelly's Road, Lombardy, Rideau Lakes, Leeds and Grenville Counties, Eastern Ontario, Ontario, K0G 1L0, Canada",
+    "lat": 44.835403,
+    "lng": -76.070847
   },
   {
     "id": "636",
@@ -10192,9 +10192,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Brossard",
-    "address": "2001, Boulevard de Rome, Brossard, Urban agglomeration of Longueuil, Montérégie, Quebec, J4W 3K5, Canada",
-    "lat": 45.455458,
-    "lng": -73.46787
+    "address": "8505, Boulevard Taschereau, Secteur O, Brossard, Urban agglomeration of Longueuil, Montérégie, Quebec, J4Y 1A4, Canada",
+    "lat": 45.443402,
+    "lng": -73.471485
   },
   {
     "id": "645",
@@ -10582,9 +10582,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Richmond",
-    "address": "Richmond City Hall, 6911, Number 3 Road, Brighouse Village, City Centre, Richmond, Metro Vancouver Regional District, British Columbia, V6Y 2C1, Canada",
-    "lat": 49.163168,
-    "lng": -123.137414
+    "address": "13471, Crestwood Place, Crestwood, East Cambie, Richmond, Metro Vancouver Regional District, British Columbia, V6V 2G4, Canada",
+    "lat": 49.188593,
+    "lng": -123.076323
   },
   {
     "id": "673",
@@ -10942,9 +10942,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Conde",
-    "address": "Rua General Perouse, Conde, Paraíba, Northeast Region, 58322-000, Brazil",
-    "lat": -7.260036,
-    "lng": -34.905352
+    "address": "Acesso garagem, Pousada, Conde, Paraíba, Northeast Region, 58082-000, Brazil",
+    "lat": -7.254555,
+    "lng": -34.92722
   },
   {
     "id": "704",
@@ -11242,9 +11242,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Patrocínio",
-    "address": "Avenida Rui Barbosa, Nossa Senhora de Fátima, Patrocínio, Minas Gerais, Southeast Region, 38740-050, Brazil",
-    "lat": -18.940829,
-    "lng": -46.992662
+    "address": "BR-365, São Benedito, Patrocínio, Minas Gerais, Southeast Region, 38744-574, Brazil",
+    "lat": -18.924629,
+    "lng": -46.991107
   },
   {
     "id": "725",
@@ -11557,9 +11557,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Carmo de Minas",
-    "address": "18, Rua Ana Umbelina, Portão da Chácara, Carmo de Minas, Minas Gerais, Southeast Region, 37472-000, Brazil",
-    "lat": -22.121665,
-    "lng": -45.132384
+    "address": "BR-460, Palmela, Carmo de Minas, Minas Gerais, Southeast Region, 37470-000, Brazil",
+    "lat": -22.122541,
+    "lng": -45.08214
   },
   {
     "id": "755",
@@ -12040,9 +12040,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Pato Branco",
-    "address": "2687, Avenida Tupi, Centro, Pato Branco, Paraná, South Region, 85501-250, Brazil",
-    "lat": -26.229598,
-    "lng": -52.671247
+    "address": "Rua Veríssimo Rizzi, Fraron, Pato Branco, Paraná, 85503-320, Brazil",
+    "lat": -26.20478,
+    "lng": -52.68625
   },
   {
     "id": "799",
@@ -12221,9 +12221,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Cascavel",
-    "address": "Avenida Brasil, Independência, Centro, Cascavel, Paraná, South Region, 85814-370, Brazil",
-    "lat": -24.9555,
-    "lng": -53.456054
+    "address": "Avenida Rocha Pombo, Vila Militar, Região do lago, Cascavel, Paraná, 85803-650, Brazil",
+    "lat": -24.96601,
+    "lng": -53.43157
   },
   {
     "id": "811",
@@ -14565,9 +14565,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Mishawaka",
-    "address": "100, Lincoln Way West, Mishawaka, Saint Joseph County, Indiana, 46544, United States",
-    "lat": 41.661164,
-    "lng": -86.180703
+    "address": "Douglas Road, Mishawaka, Saint Joseph County, Indiana, 46545, United States",
+    "lat": 41.709922,
+    "lng": -86.189765
   },
   {
     "id": "1001",
@@ -15376,9 +15376,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "City of Rochester",
-    "address": "30, Church Street, Convention District, City of Rochester, Monroe County, New York, 14614, United States",
-    "lat": 43.157285,
-    "lng": -77.615214
+    "address": "17, Miracle Mile Drive, City of Rochester, Monroe County, New York, 14623, United States",
+    "lat": 43.083607,
+    "lng": -77.635948
   },
   {
     "id": "1058",
@@ -15436,9 +15436,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Allentown",
-    "address": "West Hamilton Street, Center City, Allentown, Lehigh County, Pennsylvania, 18102, United States",
-    "lat": 40.602255,
-    "lng": -75.471611
+    "address": "649, South 10th Street, South Side, Allentown, Lehigh County, Pennsylvania, 18103, United States",
+    "lat": 40.594847,
+    "lng": -75.473293
   },
   {
     "id": "1063",
@@ -16996,9 +16996,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Dacono",
-    "address": "512, Cherry Street, Dacono, Weld County, Colorado, 80514, United States",
-    "lat": 40.085681,
-    "lng": -104.937171
+    "address": "Summit Boulevard, Sweetgrass, Dacono, Weld County, Colorado, 80514, United States",
+    "lat": 40.040158,
+    "lng": -104.948257
   },
   {
     "id": "1174",
@@ -17821,9 +17821,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Ontario",
-    "address": "Ontario Senior Center, 225, East B Street, Ontario, San Bernardino County, California, 91764, United States",
-    "lat": 34.065846,
-    "lng": -117.64843
+    "address": "5350, Ontario Mills Parkway, Ontario, San Bernardino County, California, 91764, United States",
+    "lat": 34.068771,
+    "lng": -117.535511
   },
   {
     "id": "1233",
@@ -17882,9 +17882,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Santa Clarita",
-    "address": "Santa Clarita City Hall, 23920, Valencia Boulevard, The Bungalows, Valencia, Santa Clarita, Los Angeles County, California, 91355, United States",
-    "lat": 34.412796,
-    "lng": -118.553809
+    "address": "Golden Triangle Road, Santa Clarita, Los Angeles County, California, 91321, United States",
+    "lat": 34.41584,
+    "lng": -118.511147
   },
   {
     "id": "1237",
@@ -18482,9 +18482,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Motegi",
-    "address": "Mito-kaido Ave., 大字茂木, Motegi, Haga County, Tochigi Prefecture, 321-3531, Japan",
-    "lat": 36.532164,
-    "lng": 140.187406
+    "address": "Mito-Motegi Line, 大字青梅, Motegi, Haga County, Tochigi Prefecture, Japan",
+    "lat": 36.531362,
+    "lng": 140.229449
   },
   {
     "id": "1290",
@@ -18602,9 +18602,9 @@
     "country": "Malaysia",
     "countryCode": "MY",
     "city": "Port Dickson",
-    "address": "Port Dickson Municipal Council, Jalan Shell, Shell Refinery Port Dickson, Gelam Village, Port Dickson, Negeri Sembilan, 71000, Malaysia",
-    "lat": 2.526249,
-    "lng": 101.810616
+    "address": "Jalan Pantai, Pasir Panjang, Port Dickson, Negeri Sembilan, 71250, Malaysia",
+    "lat": 2.427101,
+    "lng": 101.914386
   },
   {
     "id": "1298",
@@ -19037,9 +19037,9 @@
     "country": "Philippines",
     "countryCode": "PH",
     "city": "Sunog",
-    "address": "Mauyog, Sunog, Cebu, Central Visayas, Philippines",
-    "lat": 10.47,
-    "lng": 123.83
+    "address": "F. Cabahug Street, Panagdait, Kasambagan, Cebu City, Central Visayas, 6000, Philippines",
+    "lat": 10.324238,
+    "lng": 123.918977
   },
   {
     "id": "1333",
@@ -19052,9 +19052,9 @@
     "country": "Philippines",
     "countryCode": "PH",
     "city": "Olongapo",
-    "address": "Apo Rotonda, West Bajac-bajac, Olongapo, Central Luzon, 2200, Philippines",
-    "lat": 14.838885,
-    "lng": 120.284359
+    "address": "Security Road, Subic Bay Freeport Zone, Olongapo, Central Luzon, 2200, Philippines",
+    "lat": 14.824691,
+    "lng": 120.288038
   },
   {
     "id": "1336",
@@ -19172,9 +19172,9 @@
     "country": "India",
     "countryCode": "IN",
     "city": "Hyderabad",
-    "address": "New Ladbazar Road, Ghansi Bazaar, Khilwat, Ward 49 Ghansi Bazar, Greater Hyderabad Municipal Corporation South Zone, Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, 500065, India",
-    "lat": 17.360589,
-    "lng": 78.474061
+    "address": "Nizamabad Road, Dundigal mandal, Medchal–Malkajgiri, Telangana, 500100, India",
+    "lat": 17.534916,
+    "lng": 78.488993
   },
   {
     "id": "1354",
@@ -19817,9 +19817,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Weil am Rhein",
-    "address": "3, Rathausplatz, Leopoldshöhe, Friedlingen, Weil, Weil am Rhein, Landkreis Lörrach, Baden-Württemberg, 79576, Germany",
-    "lat": 47.59328,
-    "lng": 7.611613
+    "address": "Hegenheimer Straße, Haltingen, Weil am Rhein, Landkreis Lörrach, Baden-Württemberg, 79576, Germany",
+    "lat": 47.607796,
+    "lng": 7.596124
   },
   {
     "id": "1408",
@@ -20057,9 +20057,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Bopfingen",
-    "address": "1, Marktplatz, Nagelmühle, Bopfingen, VVG der Stadt Bopfingen, Ostalbkreis, Baden-Württemberg, 73441, Germany",
-    "lat": 48.857763,
-    "lng": 10.35231
+    "address": "8, Sandberg, Bopfingen, VVG der Stadt Bopfingen, Ostalbkreis, Baden-Württemberg, 73441, Germany",
+    "lat": 48.851224,
+    "lng": 10.334049
   },
   {
     "id": "1424",
@@ -20718,9 +20718,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Vilsbiburg",
-    "address": "Rathaus Vilsbiburg, 26, Stadtplatz, Achldorf, Vilsbiburg, Landkreis Landshut, Bavaria, 84137, Germany",
-    "lat": 48.448482,
-    "lng": 12.355795
+    "address": "3, Hertzstraße, Vilsbiburg, Landkreis Landshut, Bavaria, 84137, Germany",
+    "lat": 48.450447,
+    "lng": 12.336619
   },
   {
     "id": "1469",
@@ -21349,9 +21349,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Jena",
-    "address": "2, Markt, Jena-Zentrum, Jena, Thuringia, 07743, Germany",
-    "lat": 50.928172,
-    "lng": 11.587936
+    "address": "104, Wiesenstraße, Zwätzen, Jena, Thuringia, 07743, Germany",
+    "lat": 50.953562,
+    "lng": 11.621424
   },
   {
     "id": "1512",
@@ -21545,9 +21545,9 @@
     "country": "Germany",
     "countryCode": "DE",
     "city": "Zweibrücken",
-    "address": "Pfälzisches Oberlandesgericht Zweibrücken, 7, Schlossplatz, Stadtmitte, Zweibrücken, Rhineland-Palatinate, 66482, Germany",
-    "lat": 49.248655,
-    "lng": 7.364198
+    "address": "5, Barriestraße, Gewerbegebiet Flugplatz Zweibrücken, Heidelbingerhof, Rimschweiler, Zweibrücken, Rhineland-Palatinate, 66482, Germany",
+    "lat": 49.228857,
+    "lng": 7.40848
   },
   {
     "id": "1525",
@@ -22010,9 +22010,9 @@
     "country": "Austria",
     "countryCode": "AT",
     "city": "Unterlixlau",
-    "address": "Pfarrkirche Regau, Friedensweg, Unterlixlau, Regau, Bezirk Vöcklabruck, Upper Austria, 4844, Austria",
-    "lat": 47.991944,
-    "lng": 13.688056
+    "address": "18, Betriebsstraße, Unterlixlau, Regau, Bezirk Vöcklabruck, Upper Austria, 4844, Austria",
+    "lat": 47.98902,
+    "lng": 13.682842
   },
   {
     "id": "1556",
@@ -22145,9 +22145,9 @@
     "country": "Switzerland",
     "countryCode": "CH",
     "city": "Basel",
-    "address": "Marktplatz, Altstadt Grossbasel, Grossbasel, Basel, Basel-City, 4001, Switzerland",
-    "lat": 47.558108,
-    "lng": 7.587826
+    "address": "Riehenring, Rosental, Kleinbasel, Basel, Basel-City, 4005, Switzerland",
+    "lat": 47.565942,
+    "lng": 7.598158
   },
   {
     "id": "1566",
@@ -22355,9 +22355,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Saint-Étienne",
-    "address": "5, Place de l'Hôtel de Ville, Crêt de Roc, Saint-Étienne, Loire, Auvergne-Rhône-Alpes, Metropolitan France, 42000, France",
-    "lat": 45.440147,
-    "lng": 4.387306
+    "address": "Allée Jean Lauer, Montreynaud, Saint-Étienne, Loire, Auvergne-Rhône-Alpes, Metropolitan France, 42000, France",
+    "lat": 45.461494,
+    "lng": 4.39275
   },
   {
     "id": "1580",
@@ -23556,9 +23556,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Verdun",
-    "address": "Rue du Président Poincaré, Verdun, Meuse, Grand Est, Metropolitan France, 55100, France",
-    "lat": 49.158928,
-    "lng": 5.386728
+    "address": "Boulevard Stratégique, Verdun, Meuse, Great East, Metropolitan France, 55100, France",
+    "lat": 49.148081,
+    "lng": 5.376998
   },
   {
     "id": "1666",
@@ -39438,9 +39438,9 @@
     "country": "Argentina",
     "countryCode": "AR",
     "city": "Trelew",
-    "address": "San Martín, Presidente Dr. Raúl Ricardo Alfonsín, Trelew, Municipio de Trelew, Departamento Rawson, Chubut, U9100, Argentina",
-    "lat": -43.253124,
-    "lng": -65.309441
+    "address": "Chacra 75, Los Paraísos, Trelew, Departamento Rawson, Chubut, U9100, Argentina",
+    "lat": -43.2996,
+    "lng": -65.27278
   },
   {
     "id": "2805",
@@ -43344,9 +43344,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Nirasaki",
-    "address": "Koshu-kaido, Suijin 1-chome, Chuocho, Nirasaki, Yamanashi Prefecture, 407-0023, Japan",
-    "lat": 35.708942,
-    "lng": 138.446119,
+    "address": "Shosenkyo-line, Hosakamachi-Yanagidaira, Nirasaki, Yamanashi Prefecture, Japan",
+    "lat": 35.76261,
+    "lng": 138.5076,
     "websiteUrl": "https://www.sly-rc.com/",
     "phone": "+81 551-22-8226"
   },
@@ -43395,9 +43395,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Shinshiro",
-    "address": "National Highway Route 301, 作手清岳, Shinshiro, Aichi Prefecture, 441-1499, Japan",
-    "lat": 34.962503,
-    "lng": 137.421091,
+    "address": "岡崎設楽線, 作手菅沼, Shinshiro, Aichi Prefecture, Japan",
+    "lat": 35.03286,
+    "lng": 137.46895,
     "websiteUrl": "http://www.autoland-tsukude.net/alt_frame.html",
     "phone": "+81 536-39-3611"
   },
@@ -43412,9 +43412,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Niigata",
-    "address": "Maze, Nishikan Ward, Niigata, Niigata Prefecture, 953-8666, Japan",
-    "lat": 37.728237,
-    "lng": 138.805019,
+    "address": "echigo-nanaura seaside line, Nishikan Ward, Niigata, Niigata Prefecture, 953-8666, Japan",
+    "lat": 37.745524,
+    "lng": 138.803895,
     "websiteUrl": "http://www.mazecircuit.jp/",
     "phone": "+81 256-85-2201"
   },
@@ -43429,9 +43429,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Nasushiobara",
-    "address": "Otawara-Takabayashi Line, 大原間西二丁目, 大原間, Nasushiobara, Tochigi Prefecture, 329-3133, Japan",
-    "lat": 36.927473,
-    "lng": 140.018154,
+    "address": "折戸西那須野線, 横林, Nasushiobara, Tochigi Prefecture, Japan",
+    "lat": 36.97497,
+    "lng": 139.93895,
     "websiteUrl": "https://sunrise-circuit.jp/"
   },
   {
@@ -43587,10 +43587,10 @@
     "status": "published",
     "country": "China",
     "countryCode": "CN",
-    "city": "Yuecheng District",
-    "address": "解放北路, Tashan, Yuecheng District, Shaoxing, Zhejiang, 312000, China",
-    "lat": 29.999243,
-    "lng": 120.576854
+    "city": "Keqiao District",
+    "address": "湖山路, Kingcang Shanshui Culture & travel Park, Keyan, Shaoxing, Zhejiang, China",
+    "lat": 30.034789,
+    "lng": 120.466048
   },
   {
     "id": "3068",
@@ -43603,9 +43603,9 @@
     "country": "China",
     "countryCode": "CN",
     "city": "Kangbashi District",
-    "address": "Binhe Subdistrict, Kangbashi District, Ordos City, Inner Mongolia, 017010, China",
-    "lat": 39.606782,
-    "lng": 109.854624,
+    "address": "腾飞路, 水岸华府, Habagexi, Kangbashi District, Ordos, Inner Mongolia, 017010, China",
+    "lat": 39.620093,
+    "lng": 109.866551,
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ordos_Intl_Circuit_Main_Grandstand.jpg"
   },
   {
@@ -43619,9 +43619,9 @@
     "country": "South Korea",
     "countryCode": "KR",
     "city": "Taebaek-si",
-    "address": "Dongjeom-dong, Gumunso-dong, Taebaek-si, Gangwon State, 26049, South Korea",
-    "lat": 37.092424,
-    "lng": 129.038993
+    "address": "240, Sagundeuri-gil, Gumunso-dong, Taebaek, Gangwon State, 26049, South Korea",
+    "lat": 37.083426,
+    "lng": 129.019124
   },
   {
     "id": "3070",
@@ -43682,9 +43682,9 @@
     "country": "China",
     "countryCode": "CN",
     "city": "Zhuzhou",
-    "address": "You County, Zhuzhou, Hunan, China",
-    "lat": 27.049812,
-    "lng": 113.55087
+    "address": "隆兴路, 月塘社区, Liyu, Tianyuan, Hunan Province, 412007, China",
+    "lat": 27.82976,
+    "lng": 113.05517
   },
   {
     "id": "3074",
@@ -43853,10 +43853,10 @@
     "status": "published",
     "country": "France",
     "countryCode": "FR",
-    "city": "La Ferté-Gaucher",
-    "address": "Avenue du Général Leclerc, La Bégonnerie, La Ferté-Gaucher, Provins, Seine-et-Marne, Ile-de-France, Metropolitan France, 77320, France",
-    "lat": 48.785422,
-    "lng": 3.308151,
+    "city": "Saint-Mars-Vieux-Maisons",
+    "address": "Saint-Mars-en-Brie, Saint-Mars-Vieux-Maisons, Seine-et-Marne, Île-de-France, 77320, France",
+    "lat": 48.75794,
+    "lng": 3.28168,
     "websiteUrl": "http://www.circuitslfg.fr",
     "phone": "+33 1 64 65 92 12"
   },
@@ -44596,10 +44596,10 @@
     "status": "published",
     "country": "Italy",
     "countryCode": "IT",
-    "city": "Lavenone",
-    "address": "Montecalvo, Lavenone, Comunità montana della Valle Sabbia, Brescia, Lombardy, 25074, Italy",
-    "lat": 45.779581,
-    "lng": 10.425873,
+    "city": "Castrezzato",
+    "address": "Via Bargnana, Bargnana, Castrezzato, Brescia, Lombardy, 25030, Italy",
+    "lat": 45.51267,
+    "lng": 10.0055,
     "websiteUrl": "https://www.autodromodifranciacorta.it/",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Autodromo_di_Franciacorta_05-08_-_panoramio.jpg"
   },
@@ -48983,9 +48983,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Mihama",
-    "address": "Noma, Mihama, Chita District, Aichi Prefecture, Japan",
-    "lat": 34.778769,
-    "lng": 136.908246,
+    "address": "Mihama, Chita County, Aichi Prefecture, 470-3235, Japan",
+    "lat": 34.76306,
+    "lng": 136.87225,
     "websiteUrl": "https://mihama-circuit.com/",
     "phone": "+81 569-87-3003"
   },

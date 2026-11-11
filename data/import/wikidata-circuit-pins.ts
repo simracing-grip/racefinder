@@ -160,6 +160,21 @@ async function photonTracks(s: Suspect, near: Point, altName?: string): Promise<
   return [];
 }
 
+// The nearest mapped track feature within 1.5 km of a point, whatever its name.
+// A sports centre outline is preferred over a raceway segment (it covers the
+// whole venue); a raceway is the fallback.
+async function photonTrackNear(p: Point): Promise<PhotonFeature | null> {
+  for (const tag of ["leisure:sports_centre", "highway:raceway", "leisure:track", "landuse:raceway"]) {
+    const data = (await getJson(
+      `https://photon.komoot.io/reverse?lang=en&radius=1.5&limit=1&lat=${p.lat}&lon=${p.lng}&osm_tag=${tag}`,
+      1100,
+    )) as { features?: PhotonFeature[] } | null;
+    const f = data?.features?.[0];
+    if (f && km(pointOf(f), p) <= 1.5) return f;
+  }
+  return null;
+}
+
 async function photonReverse(p: Point): Promise<Record<string, string | undefined>> {
   const data = (await getJson(`https://photon.komoot.io/reverse?lang=en&lat=${p.lat}&lon=${p.lng}`, 1100)) as {
     features?: PhotonFeature[];
@@ -221,7 +236,17 @@ async function main() {
         source = "wikidata";
         evidence = `Wikidata ${wdSite.id} "${wdSite.label}" (official website matches), OSM track within 5 km`;
       } else {
-        evidence = `Wikidata ${best.id} "${best.label}" ${km(best.point, pin).toFixed(1)} km away; no OSM track agrees`;
+        // Many tracks are mapped under a local-script name ("筑波サーキット"),
+        // so the name search misses them. Second source instead: a mapped
+        // raceway/track/sports centre within 1.5 km of Wikidata's point.
+        const near = await photonTrackNear(best.point);
+        if (near) {
+          target = pointOf(near);
+          source = "wikidata+osm";
+          evidence = `Wikidata ${best.id} "${best.label}"; OSM ${near.properties.osm_value} "${near.properties.name ?? "unnamed"}" ${km(pointOf(near), best.point).toFixed(1)} km from it`;
+        } else {
+          evidence = `Wikidata ${best.id} "${best.label}" ${km(best.point, pin).toFixed(1)} km away; no OSM track agrees`;
+        }
       }
     } else {
       evidence = tracks.length
