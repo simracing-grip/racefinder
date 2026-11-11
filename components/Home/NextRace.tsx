@@ -41,7 +41,7 @@ export default function NextRace({ events: rendered }: { events: CalendarEvent[]
           <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-signal/20 blur-3xl" aria-hidden />
           <div className="relative">
             <div className="flex items-center gap-3">
-              <span className="bg-signal px-2.5 py-1 font-display text-sm font-extrabold italic uppercase tracking-wide text-white">
+              <span className="bg-signal-solid px-2.5 py-1 font-display text-sm font-extrabold italic uppercase tracking-wide text-white">
                 {SERIES_LABEL[headline.series]}
               </span>
               <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-400">

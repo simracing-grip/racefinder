@@ -11,7 +11,7 @@ import MapListPanel from "@/components/Listing/MapListPanel";
 import NearMeControl, { type GeoStatus } from "@/components/Home/NearMeControl";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import SectionHeading from "@/components/Home/SectionHeading";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 
 type CategoryFilter = Category | "all";
 
@@ -99,7 +99,7 @@ export default function HomeExplorer({ listings }: { listings: ListingSummary[] 
       value: c.value,
       label: c.label,
       count: counts[c.value],
-      color: CATEGORY_COLOR[c.value],
+      color: CATEGORY_TEXT_COLOR[c.value],
     })),
   ];
 

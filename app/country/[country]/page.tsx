@@ -13,7 +13,7 @@ import CityLinks from "@/components/Listing/CityLinks";
 import { getCityHubs } from "@/lib/cities";
 import PageHeader from "@/components/UI/PageHeader";
 import { CATEGORIES } from "@/lib/types";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { toSummaries } from "@/lib/listingSummary";
 import CountryFlag from "@/components/CountryFlag";
@@ -96,7 +96,7 @@ export default async function CountryPage({
               <li
                 key={c.value}
                 className="border border-white/10 bg-asphalt px-3 py-1.5 font-display text-sm font-bold uppercase italic"
-                style={{ color: CATEGORY_COLOR[c.value] }}
+                style={{ color: CATEGORY_TEXT_COLOR[c.value] }}
               >
                 {c.label} <span className="font-mono text-xs not-italic text-gray-400">{c.count}</span>
               </li>

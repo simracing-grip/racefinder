@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getCityHub, getCityHubs, getVenuesNear, categoryBreakdown, CITY_RADIUS_KM } from "@/lib/cities";
-import { CATEGORY_COLOR, CATEGORY_NOUN } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR, CATEGORY_NOUN } from "@/lib/categoryMeta";
 import { getNextEvent, formatEventDate } from "@/lib/listingSort";
 import { formatDistanceKm, distanceKm } from "@/lib/geo";
 import { toSummary } from "@/lib/listingSummary";
@@ -136,7 +136,7 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
               <Link
                 href={`/category/${c.value}?country=${encodeURIComponent(hub.country)}`}
                 className="inline-block border border-white/10 bg-asphalt px-3 py-1.5 font-display text-sm font-bold uppercase italic transition hover:border-white/30"
-                style={{ color: CATEGORY_COLOR[c.value] }}
+                style={{ color: CATEGORY_TEXT_COLOR[c.value] }}
               >
                 {c.label} <span className="font-mono text-xs not-italic text-gray-400">{c.count}</span>
               </Link>

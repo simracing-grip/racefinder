@@ -353,7 +353,7 @@ export default function MapLibreMap({
           type="button"
           onClick={() => setMode("clusters")}
           className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition ${
-            mode === "clusters" ? "bg-signal text-white" : "text-gray-300 hover:bg-white/10"
+            mode === "clusters" ? "bg-signal-solid text-white" : "text-gray-300 hover:bg-white/10"
           }`}
         >
           Clustered
@@ -362,7 +362,7 @@ export default function MapLibreMap({
           type="button"
           onClick={() => setMode("all")}
           className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition ${
-            mode === "all" ? "bg-signal text-white" : "text-gray-300 hover:bg-white/10"
+            mode === "all" ? "bg-signal-solid text-white" : "text-gray-300 hover:bg-white/10"
           }`}
         >
           Show all

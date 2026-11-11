@@ -29,7 +29,7 @@ export default function NearMeControl({
         data-track={active ? undefined : "Near me"}
         aria-pressed={active}
         className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-semibold transition ${
-          active ? "bg-signal text-white" : "bg-white/5 text-gray-300 hover:bg-white/10"
+          active ? "bg-signal-solid text-white" : "bg-white/5 text-gray-300 hover:bg-white/10"
         }`}
       >
         <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4">

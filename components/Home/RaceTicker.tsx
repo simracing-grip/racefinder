@@ -29,7 +29,7 @@ export default function RaceTicker({ events }: { events: CalendarEvent[] }) {
 
   return (
     <div className="group relative overflow-hidden border-y border-white/5 bg-asphalt">
-      <div className="absolute inset-y-0 left-0 z-10 flex items-center gap-2 bg-signal px-4 font-display text-sm font-black uppercase italic tracking-wide text-white [clip-path:polygon(0_0,100%_0,calc(100%-10px)_100%,0_100%)] pr-6">
+      <div className="absolute inset-y-0 left-0 z-10 flex items-center gap-2 bg-signal-solid px-4 font-display text-sm font-black uppercase italic tracking-wide text-white [clip-path:polygon(0_0,100%_0,calc(100%-10px)_100%,0_100%)] pr-6">
         <span className="h-2 w-2 animate-pulse-dot rounded-full bg-white" aria-hidden />
         Up next
       </div>

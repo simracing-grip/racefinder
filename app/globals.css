@@ -16,6 +16,10 @@
   --color-line: #1f2430;
   --color-signal: #ff2a2a;
   --color-signal-deep: #c40d0d;
+  /* Filled buttons and badges with white text: the brightest red that still
+     gives white text 4.5:1 contrast (WCAG AA). Plain --color-signal is for
+     red text, lines and dots on the dark background. */
+  --color-signal-solid: #e5161c;
   --color-timing: #ffd400;
 
   /* Lifted from Tailwind's defaults: these are only used for secondary text,
@@ -79,7 +83,7 @@ body {
 }
 
 ::selection {
-  background: var(--color-signal);
+  background: var(--color-signal-solid);
   color: #fff;
 }
 

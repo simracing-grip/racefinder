@@ -31,7 +31,7 @@ export default function Countdown({ startDate, endDate }: { startDate: string; e
 
   if (now != null && now >= start && now <= end) {
     return (
-      <div className="inline-flex items-center gap-3 bg-signal px-4 py-2 font-display text-2xl font-extrabold italic uppercase text-white">
+      <div className="inline-flex items-center gap-3 bg-signal-solid px-4 py-2 font-display text-2xl font-extrabold italic uppercase text-white">
         <span className="h-2.5 w-2.5 animate-pulse-dot rounded-full bg-white" aria-hidden />
         Race weekend live now
       </div>

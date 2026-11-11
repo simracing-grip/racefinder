@@ -7,7 +7,7 @@ import FilterBar from "@/components/Filters/FilterBar";
 import MapListPanel from "@/components/Listing/MapListPanel";
 import PageHeader from "@/components/UI/PageHeader";
 import CategoryIcon from "@/components/Home/CategoryIcon";
-import { CATEGORY_COLOR } from "@/lib/categoryMeta";
+import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
 import { parseKartFilters, applyKartFilters, kartFilterCounts, hasKartFilters } from "@/lib/kartingFilters";
 import KartingFilters from "@/components/Filters/KartingFilters";
@@ -65,7 +65,7 @@ export default async function CategoryPage({
 
   // map + list share one slim array; venues with a race coming up first
   const summaries = sortByUpcomingEvent(toSummaries(listings));
-  const accent = CATEGORY_COLOR[meta.value];
+  const accent = CATEGORY_TEXT_COLOR[meta.value];
   const scope = country ? `in ${country}` : "worldwide";
 
   return (
