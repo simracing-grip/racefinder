@@ -35,7 +35,13 @@ const NOMINATIM_USER_AGENT = "motorsport-directory-import-script/0.1 (one-time p
 const MIN_REQUEST_GAP_MS = 1100;
 const TOWN_CENTRE_KM = 0.3;
 const TRACK_RADIUS_KM = 1.5;
-const OVERPASS_BATCH = 25;
+const OVERPASS_BATCH = 15;
+// Public Overpass servers, tried in turn when one is busy or rate-limits.
+const OVERPASS_ENDPOINTS = [
+  "https://overpass-api.de/api/interpreter",
+  "https://overpass.kumi.systems/api/interpreter",
+  "https://overpass.private.coffee/api/interpreter",
+];
 
 interface Point {
   lat: number;
@@ -103,17 +109,17 @@ async function tracksNear(venues: Listing[]): Promise<Map<string, Point[]>> {
       .join("");
     const query = `[out:json][timeout:180];(${clauses});out center;`;
     let elements: { lat?: number; lon?: number; center?: { lat: number; lon: number } }[] | null = null;
-    for (let attempt = 0; attempt < 4 && !elements; attempt++) {
+    for (let attempt = 0; attempt < 9 && !elements; attempt++) {
       try {
-        const res = await fetch("https://overpass-api.de/api/interpreter", {
+        const res = await fetch(OVERPASS_ENDPOINTS[attempt % OVERPASS_ENDPOINTS.length], {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded", "User-Agent": NOMINATIM_USER_AGENT },
           body: `data=${encodeURIComponent(query)}`,
         });
         if (res.ok) elements = (await res.json()).elements;
-        else await sleep(15000 * (attempt + 1));
+        else await sleep(20000 * (Math.floor(attempt / OVERPASS_ENDPOINTS.length) + 1));
       } catch {
-        await sleep(10000 * (attempt + 1));
+        await sleep(20000 * (Math.floor(attempt / OVERPASS_ENDPOINTS.length) + 1));
       }
     }
     if (!elements) throw new Error("Overpass failed repeatedly");
@@ -123,7 +129,7 @@ async function tracksNear(venues: Listing[]): Promise<Map<string, Point[]>> {
     for (const v of batch) overpassCache[v.slug] = points.filter((p) => km(p, v) <= TRACK_RADIUS_KM + 0.5);
     writeFileSync(OVERPASS_CACHE_FILE, JSON.stringify(overpassCache));
     process.stdout.write(`\rOverpass: ${Math.min(i + OVERPASS_BATCH, todo.length)}/${todo.length}`);
-    await sleep(2000);
+    await sleep(5000);
   }
   for (const v of venues) out.set(v.slug, overpassCache[v.slug] ?? []);
   return out;
