@@ -27,6 +27,92 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 // https://openfreemap.org
 const STYLE_URL = "https://tiles.openfreemap.org/styles/dark";
 
+// The stock "dark" style is a neutral grey. These overrides retint it to the
+// site's blue-black palette (ink/asphalt in globals.css) so the map reads as
+// part of the page, and quieten labels a little. Layer ids are the style's
+// own; any that a future style version drops are skipped.
+const PAINT_OVERRIDES: [layer: string, property: string, color: string][] = [
+  ["background", "background-color", "#0b0d12"],
+  ["water", "fill-color", "#141a24"],
+  ["waterway", "line-color", "#141a24"],
+  // Greenland and Antarctica: otherwise pure black, darker than the land.
+  ["landcover_glacier", "fill-color", "#0d1015"],
+  ["landcover_ice_shelf", "fill-color", "#0d1015"],
+  ["landuse_residential", "fill-color", "#0f1218"],
+  ["landcover_wood", "fill-color", "#11151b"],
+  ["landuse_park", "fill-color", "#11161a"],
+  ["building", "fill-color", "#0d1016"],
+  ["highway_minor", "line-color", "#171b23"],
+  ["highway_major_subtle", "line-color", "#1d222c"],
+  ["highway_motorway_subtle", "line-color", "#1d222c"],
+  ["highway_major_inner", "line-color", "#13171e"],
+  ["boundary_country_z0-4", "line-color", "#2b313d"],
+  ["boundary_country_z5-", "line-color", "#2b313d"],
+  ["boundary_state", "line-color", "#202530"],
+  ["place_country_major", "text-color", "#7d8594"],
+  ["place_country_minor", "text-color", "#7d8594"],
+  ["place_country_other", "text-color", "#7d8594"],
+  ["place_city_large", "text-color", "#8a91a0"],
+  ["place_city", "text-color", "#7d8594"],
+  ["place_town", "text-color", "#6b7280"],
+];
+
+// Race tracks: OpenMapTiles puts OSM highway=raceway (circuits, kart tracks)
+// in the transportation layer as class "raceway". Drawn in the site's signal
+// red with a soft glow once zoomed in far enough to see a venue, so the
+// actual circuit shape shows under each pin.
+const SIGNAL = "#ff2a2a";
+
+function applyBrandStyle(map: maplibregl.Map) {
+  for (const [layer, property, value] of PAINT_OVERRIDES) {
+    // setPaintProperty is typed per property name; these are all colour
+    // properties set from a plain table, hence the casts.
+    if (map.getLayer(layer)) map.setPaintProperty(layer, property as never, value as never);
+  }
+  if (!map.getSource("openmaptiles") || map.getLayer("raceway")) return;
+  // Above roads, buildings and runways (several circuits, Silverstone among
+  // them, sit on old airfields), below the road and place names.
+  const firstSymbol = map
+    .getStyle()
+    .layers.find((l) => l.type === "symbol" && "source-layer" in l && ["transportation_name", "place"].includes(l["source-layer"] ?? ""))?.id;
+  const raceway: maplibregl.FilterSpecification = ["==", ["get", "class"], "raceway"];
+  map.addLayer(
+    {
+      id: "raceway-glow",
+      type: "line",
+      source: "openmaptiles",
+      "source-layer": "transportation",
+      filter: raceway,
+      minzoom: 11,
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: {
+        "line-color": SIGNAL,
+        "line-opacity": 0.18,
+        "line-blur": 4,
+        "line-width": ["interpolate", ["exponential", 1.6], ["zoom"], 11, 4, 14, 10, 17, 28],
+      },
+    },
+    firstSymbol
+  );
+  map.addLayer(
+    {
+      id: "raceway",
+      type: "line",
+      source: "openmaptiles",
+      "source-layer": "transportation",
+      filter: raceway,
+      minzoom: 11,
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: {
+        "line-color": SIGNAL,
+        "line-opacity": ["interpolate", ["linear"], ["zoom"], 11, 0.6, 13, 0.95],
+        "line-width": ["interpolate", ["exponential", 1.6], ["zoom"], 11, 1, 14, 2.5, 17, 9],
+      },
+    },
+    firstSymbol
+  );
+}
+
 const CATEGORY_ORDER: Category[] = ["sim_racing", "track_day", "karting", "f1", "club_only"];
 
 function pinSvg(color: string): string {
@@ -105,6 +191,12 @@ function escapeHtml(value: string): string {
 
 function fitToListings(map: maplibregl.Map, listings: ListingSummary[], duration: number) {
   if (listings.length === 0) return;
+  // One venue (its own page): close enough that the track outline is drawn
+  // (the tiles carry raceways from about zoom 13) with the nearby streets.
+  if (listings.length === 1) {
+    map.easeTo({ center: [listings[0].lng, listings[0].lat], zoom: 13, duration });
+    return;
+  }
   const bounds = new maplibregl.LngLatBounds();
   for (const l of listings) bounds.extend([l.lng, l.lat]);
   map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration });
@@ -163,6 +255,7 @@ export default function MapLibreMap({
     map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
     map.on("load", async () => {
+      applyBrandStyle(map);
       await Promise.all(CATEGORY_ORDER.map((c) => loadPinImage(map, `pin-${c}`, CATEGORY_COLOR[c])));
 
       const clusteredVisibility = modeRef.current === "clusters" ? "visible" : "none";
