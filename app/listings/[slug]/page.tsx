@@ -22,6 +22,16 @@ import { slugifyCountry } from "@/lib/countrySlug";
 import { toSummary } from "@/lib/listingSummary";
 import { pageMetadata } from "@/lib/seo";
 import { hasEnoughDetail } from "@/lib/listingQuality";
+import { WEBSITE_CHECKED } from "@/data/website-checked";
+
+function formatCheckedDate(iso: string): string {
+  return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
 
 // Served as a cached page, rebuilt at most every 5 minutes (ISR), so
 // visitors never wait on the database. Must be a literal number.
@@ -109,6 +119,7 @@ export default async function ListingDetailPage({
   const primary = listing.categories[0];
   const categoryMeta = CATEGORIES.find((c) => c.value === primary);
   const accent = CATEGORY_TEXT_COLOR[primary] ?? "#ff2a2a";
+  const websiteChecked = listing.websiteUrl ? WEBSITE_CHECKED[listing.slug] : undefined;
   const nextEvent = getNextEvent(listing);
 
   // Closest other venues in the same country — served from the in-memory
@@ -176,6 +187,11 @@ export default async function ListingDetailPage({
           <CountryFlag countryCode={listing.countryCode} />
           {listing.address ? formatAddress(listing) : `${listing.city}, ${listing.country}`}
         </p>
+        {websiteChecked && (
+          <p className="mt-1 text-sm text-gray-400">
+            Website checked <time dateTime={websiteChecked}>{formatCheckedDate(websiteChecked)}</time>
+          </p>
+        )}
       </PageHeader>
 
       <div className="mx-auto max-w-7xl space-y-6 px-4 pt-6">
