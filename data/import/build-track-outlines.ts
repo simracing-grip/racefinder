@@ -232,9 +232,13 @@ function simplify(points: [number, number][], tol: number): [number, number][] {
   let idx = 0;
   const dx = b[0] - a[0];
   const dy = b[1] - a[1];
-  const len = Math.hypot(dx, dy) || 1;
+  const len2 = dx * dx + dy * dy;
   for (let i = 1; i < points.length - 1; i++) {
-    const d = Math.abs(dy * points[i][0] - dx * points[i][1] + b[0] * a[1] - b[1] * a[0]) / len;
+    // Distance to the segment a–b, not the infinite line through it: a line
+    // that runs out along a straight and comes back (a hairpin at the end)
+    // has its far end on that line, and would lose the whole straight.
+    const t = Math.max(0, Math.min(1, ((points[i][0] - a[0]) * dx + (points[i][1] - a[1]) * dy) / len2));
+    const d = Math.hypot(points[i][0] - (a[0] + t * dx), points[i][1] - (a[1] + t * dy));
     if (d > maxD) {
       maxD = d;
       idx = i;
