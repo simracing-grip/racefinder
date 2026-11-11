@@ -31,13 +31,13 @@ function loadDisplayFonts() {
   displayFonts ??= (async () => {
     const css = await fetch(
       "https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,900",
-      { cache: "force-cache" }
+      { cache: "force-cache", signal: AbortSignal.timeout(8000) }
     ).then((r) => r.text());
     const faces = [...css.matchAll(/font-weight: (\d+);[\s\S]*?src: url\((.+?\.ttf)\)/g)];
     return Promise.all(
       faces.map(async ([, weight, url]) => ({
         name: "Barlow Condensed",
-        data: await fetch(url, { cache: "force-cache" }).then((r) => r.arrayBuffer()),
+        data: await fetch(url, { cache: "force-cache", signal: AbortSignal.timeout(8000) }).then((r) => r.arrayBuffer()),
         weight: Number(weight) as 700 | 900,
         style: "italic" as const,
       }))
@@ -199,7 +199,9 @@ export async function renderOgCard({
         </div>
       </div>
     ),
-    { ...OG_SIZE, fonts, emoji: "twemoji" }
+    // An empty fonts array replaces ImageResponse's bundled default font and
+    // fails the render ("No fonts are loaded") — pass none instead.
+    { ...OG_SIZE, ...(fonts.length > 0 ? { fonts } : {}), emoji: "twemoji" }
   );
   const jpeg = await sharp(Buffer.from(await png.arrayBuffer())).jpeg({ quality: 82, mozjpeg: true }).toBuffer();
   return new Response(new Uint8Array(jpeg), { headers: { "Content-Type": OG_CONTENT_TYPE } });
