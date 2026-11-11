@@ -16,7 +16,9 @@
  *
  * Also applies data/import/location-fixes.csv (see sync-location-fixes.ts)
  * the same way: re-located pins override the review.csv coordinates, and
- * venues that couldn't be located confidently are left out.
+ * venues that couldn't be located confidently are left out. Then
+ * data/import/address-fixes.csv (see sync-address-fixes.ts) removes the name
+ * of an unrelated nearby place from the front of an address.
  *
  * Run: npm run import:load
  */
@@ -28,6 +30,7 @@ import { listingSchema } from "../../lib/validation/listing";
 import type { Category, Listing } from "../../lib/types";
 import { normalizeCountry } from "../../lib/countryNames";
 import { loadLocationFixes, type LocationFixRow } from "./sync-location-fixes";
+import { loadAddressFixes, fixedAddress, type AddressFixRow } from "./sync-address-fixes";
 
 const REVIEW_FILE = path.join(process.cwd(), "data", "import", "review.csv");
 const COVER_IMAGES_FILE = path.join(process.cwd(), "data", "import", "cover-images.csv");
@@ -76,13 +79,17 @@ function toListing(
   row: ReviewRow,
   id: string,
   coverImages: Map<string, string>,
-  locationFixes: Map<string, LocationFixRow>
+  locationFixes: Map<string, LocationFixRow>,
+  addressFixes: Map<string, AddressFixRow>
 ): Listing | null {
   const fix = locationFixes.get(row.slug);
   if (fix?.action === "drop") return null;
   if (fix?.action === "fix") {
     row = { ...row, lat: fix.lat, lng: fix.lng, address: fix.address || row.address, city: fix.city || row.city };
   }
+  // After the location fix: an address fix only applies to the pin it was made for.
+  const cleanAddress = fixedAddress(addressFixes.get(row.slug), row);
+  if (cleanAddress) row = { ...row, address: cleanAddress };
 
   const categories = row.categories
     .split("|")
@@ -137,10 +144,11 @@ async function main() {
   const rows = parse(content, { columns: true, skip_empty_lines: true }) as ReviewRow[];
   const coverImages = loadCoverImages();
   const locationFixes = loadLocationFixes();
+  const addressFixes = loadAddressFixes();
 
   const listings: Listing[] = [];
   rows.forEach((row, index) => {
-    const listing = toListing(row, String(index + 1), coverImages, locationFixes);
+    const listing = toListing(row, String(index + 1), coverImages, locationFixes, addressFixes);
     if (listing) listings.push(listing);
   });
 

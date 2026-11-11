@@ -295,6 +295,26 @@ function countryMatches(address: string, resultCountry: string): boolean {
   return expected === actual || actual.includes(expected) || expected.includes(actual);
 }
 
+// display_name starts with the name of whatever OSM object is nearest the
+// pin. For a road or a town that is part of the address, but for a shop,
+// pub or school next door it is someone else's name (the Hockenheimring
+// was once listed at "Hotel Motodrom, …"). Drop it in that case.
+// find-poi-addresses.ts did the same cleanup for venues imported before this.
+function withoutNearbyPlaceName(data: {
+  display_name?: string;
+  name?: string;
+  category?: string;
+  address?: Record<string, string>;
+}): string {
+  const display = data.display_name ?? "";
+  const name = data.name?.trim();
+  if (!name || ["highway", "place", "boundary", "railway"].includes(data.category ?? "")) return display;
+  const parts = display.split(",").map((s) => s.trim());
+  const addr = data.address ?? {};
+  if (parts[0] !== name || [addr.road, addr.city, addr.town, addr.village].includes(name)) return display;
+  return parts.length > 2 ? parts.slice(1).join(", ") : display;
+}
+
 async function reverseGeocode(lat: number, lng: number) {
   // Nominatim usage policy: max 1 req/sec, requires an identifying User-Agent.
   // accept-language=en: Nominatim otherwise returns country/city/address in
@@ -307,7 +327,7 @@ async function reverseGeocode(lat: number, lng: number) {
     const data = await res.json();
     const addr = data.address ?? {};
     return {
-      address: data.display_name ?? "",
+      address: withoutNearbyPlaceName(data),
       city: addr.city ?? addr.town ?? addr.village ?? addr.municipality ?? "",
       country: addr.country ?? "",
       countryCode: (addr.country_code ?? "").toUpperCase(),
