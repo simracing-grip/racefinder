@@ -1547,5 +1547,259 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suzutwin_CIMG2205.JPG"
+  },
+  "circuito-de-madrid-jarama-race": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tribuna_recta_Circuito_del_Jarama.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tribuna_recta_Circuito_del_Jarama.jpg"
+  },
+  "circuito-dos-cristais": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/20260105_123836.jpg",
+    "author": "Joalpe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260105_123836.jpg"
+  },
+  "circuito-monteblanco": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Circuito_Monteblanco_1.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuito_Monteblanco_1.jpg"
+  },
+  "circuito-vasco-sameiro-braga": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Aut%C3%B3dromo_de_Braga.jpg",
+    "author": "Joseolgon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_de_Braga.jpg"
+  },
+  "city-circuit-tokyo-bay": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/City_Circuit_Tokyo_Bay_%2842986%29.jpg",
+    "author": "Syced",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_Circuit_Tokyo_Bay_(42986).jpg"
+  },
+  "clark-international-speedway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Clark_Speedway_%2826671560787%29.jpg",
+    "author": "Rodel Bontes from Quezon City, Philippines",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clark_Speedway_(26671560787).jpg"
+  },
+  "road-america": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/10.27.07_Road_America_-_frontstretch%2C_pit_lane.jpg",
+    "author": "Royal Broil",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:10.27.07_Road_America_-_frontstretch,_pit_lane.jpg"
+  },
+  "roebling-road-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Roebling_Road_Raceway_aerial_photo_20231009.jpg",
+    "author": "National Agriculture Imagery Program",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roebling_Road_Raceway_aerial_photo_20231009.jpg"
+  },
+  "salzburgring": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Salzburgring_2014-09-17-8120.jpg",
+    "author": "Salzburgringofficial",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salzburgring_2014-09-17-8120.jpg"
+  },
+  "schleizer-dreieck": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Schleizer_Dreieck.jpg",
+    "author": "Dirk Unger (de.wikipedia)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schleizer_Dreieck.jpg"
+  },
+  "sebring-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2022_1_000_Miles_of_Sebring_Pit_lane.jpg",
+    "author": "United Autosports",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_1_000_Miles_of_Sebring_Pit_lane.jpg"
+  },
+  "sentul-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sentul_International_Circuit_2009.jpg",
+    "author": "Agus Wiyandoko",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentul_International_Circuit_2009.jpg"
+  },
+  "sepang-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sepang_International_Circuit_Grandstand_Tower_distance_2016_Malaysian_GP.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sepang_International_Circuit_Grandstand_Tower_distance_2016_Malaysian_GP.jpg"
+  },
+  "sydney-motorsport-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sydney_Motorsport_Park_Pitlane_and_Race_Control.JPG",
+    "author": "Kytabu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Motorsport_Park_Pitlane_and_Race_Control.JPG"
+  },
+  "symmons-plains-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Symmons_plains_1.jpg",
+    "author": "Aaroncrick",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Symmons_plains_1.jpg"
+  },
+  "takasu-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/TAKASU_CIRCUIT_Course.jpg",
+    "author": "藤谷良秀",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TAKASU_CIRCUIT_Course.jpg"
+  },
+  "teretonga-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Teretonga_park.jpg",
+    "author": "MyName (Evil Monkey)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teretonga_park.jpg"
+  },
+  "the-ridge-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Ridge_Motorsports_Park_-_Shelton_Washington_-_aerial.jpg",
+    "author": "Tedder",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ridge_Motorsports_Park_-_Shelton_Washington_-_aerial.jpg"
+  },
+  "thompson-speedway-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Thompson_speedway.jpg",
+    "author": "Veilleux79",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thompson_speedway.jpg"
+  },
+  "tony-rust-race-track": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Namibia_Tony_Rust_race_track_bird%27s_eye_view.jpg",
+    "author": "Hp.Baumeler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Namibia_Tony_Rust_race_track_bird%27s_eye_view.jpg"
+  },
+  "tor-lodz": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Tor_%C5%81%C3%B3d%C5%BA.jpg",
+    "author": "Mafo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor_%C5%81%C3%B3d%C5%BA.jpg"
+  },
+  "toronto-motorsports-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Friday_Night_Drag_Racing_at_Cayuga.jpg",
+    "author": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friday_Night_Drag_Racing_at_Cayuga.jpg"
+  },
+  "tosfed-istanbul-park": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Istanbul_park_front_straight_and_main_grandstand.JPG",
+    "author": "Homonihilis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_park_front_straight_and_main_grandstand.JPG"
+  },
+  "tosfed-korfez-yaris-pisti-korfez-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Korfez-Yaris-Pisti-Tam-Gorunum-havalandir.png",
+    "author": "https://korfezyarispisti.org",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korfez-Yaris-Pisti-Tam-Gorunum-havalandir.png"
+  },
+  "tsukuba-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/TsukubaCircuitPitandControlTower.jpg",
+    "author": "なおっつ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TsukubaCircuitPitandControlTower.jpg"
+  },
+  "twin-ring-motegi-mobility-resort-motegi": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Super_Speedway_%28Twin_Ring_Motegi%29_01.JPG",
+    "author": "Abasaa",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Super_Speedway_(Twin_Ring_Motegi)_01.JPG"
+  },
+  "utah-motorsports-campus": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Utah_Motorsports_Campus_aerial_2.jpg",
+    "author": "Tedder",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utah_Motorsports_Campus_aerial_2.jpg"
+  },
+  "valerbanen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Zero_Rally_2011_%285817270319%29.jpg",
+    "author": "Zero Emission Resource Organisation",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zero_Rally_2011_(5817270319).jpg"
+  },
+  "vancouver-island-motorsport-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vancouver_Island_Motorsport_Circuit_Aerial_View.png",
+    "author": "Vancouver Island Motorsport Circuit, forgeandsmith.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vancouver_Island_Motorsport_Circuit_Aerial_View.png"
+  },
+  "virginia-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/PT2_7373.jpg",
+    "author": "Vanderlay1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PT2_7373.jpg"
+  },
+  "watkins-glen-international": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Action_Shot_-_2026_Go_Bowling_at_The_Glen.jpg",
+    "author": "Caleb Spicer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Action_Shot_-_2026_Go_Bowling_at_The_Glen.jpg"
+  },
+  "weathertech-raceway-laguna-seca": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Turn_5_Laguna_Seca_Raceway_during_Race_2_of_MotoAmerica_Junior_Cup_2022.jpg",
+    "author": "VagrantInquisitor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_5_Laguna_Seca_Raceway_during_Race_2_of_MotoAmerica_Junior_Cup_2022.jpg"
+  },
+  "willow-springs-international-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/WillowSprings2018.jpg",
+    "author": "Mrsacabral",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WillowSprings2018.jpg"
+  },
+  "winton-motor-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Aerial_view_of_Winton_Motor_Raceway.jpg",
+    "author": "Bidgee",
+    "license": "CC BY-SA 3.0 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Winton_Motor_Raceway.jpg"
+  },
+  "world-wide-technology-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alex_Bowman_Gateway_2024.jpg",
+    "author": "Airman 1st Class Tyler A. P. Moody",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alex_Bowman_Gateway_2024.jpg"
+  },
+  "zhuhai-international-circuit": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Zhuhai_Racetrack.JPG",
+    "author": "User: (WT-shared) Uvacavmatt at wts wikivoyage",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhuhai_Racetrack.JPG"
+  },
+  "zwartkops-raceway": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Engen-Volkswagen-Cup.jpg",
+    "author": "Gerald Ferreira",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engen-Volkswagen-Cup.jpg"
   }
 };
