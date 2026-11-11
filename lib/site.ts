@@ -14,3 +14,10 @@ export const SITE_TAGLINE = `${SITE_NAME} — Sim Racing, Track Days, Karting & 
 export const SITE_DESCRIPTION =
   "Find karting tracks, track day circuits, sim racing centers and every F1 circuit worldwide — on one map, with a race calendar for F1, MotoGP, WEC and more.";
 export const CONTACT_EMAIL = "simracingbl@gmail.com";
+// Who runs the site, named as the data controller in the privacy policy.
+// Fill in before launch: a person's full name or a company name, and a postal
+// address. While empty, the policy says "the operator of RaceFinder".
+export const OPERATOR = {
+  name: "",
+  address: "",
+};
