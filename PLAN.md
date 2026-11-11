@@ -18,10 +18,7 @@ error and analytics monitoring that actually receives data.
 ## Status board
 
 ### Now (in flight)
-- **#34 in review**: second pin pass (36 more pins fixed, Arizona Motorsports
-  Park archived, Albany duplicate merged; all **live in Postgres**) and
-  `npm test` (helper + data-integrity tests) in CI. #28 and #30–#33 are
-  merged and live.
+- **#35 in review**: third and fourth pin passes (67 more pins fixed, all **live in Postgres**). #18–#34 are merged and live.
 
 ### Next (launch blockers)
 - Merge the PRs above (user).
@@ -30,12 +27,10 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 48 circuits, 254 karting/sim**
-  (`data/import/pin-check-2026-11-11.md`). The circuits got three checks
-  (Wikidata+OSM, OSM name, Nominatim) and need a manual look. The
-  karting/sim rows can go through Nominatim (`relocate-approximate-venues.ts
-  --suspects data/import/pin-fixes-osm-other.csv` rows with action=review)
-  spread over days (rule 8), or a paid geocoder (user's call).
+- **Pins still to review: 11 circuits, 96 karting/sim, plus batch B (128 karting/sim not run yet)**
+  (`data/import/pin-check-2026-11-11.md`). Run batch B through Nominatim on
+  another day (rule 8) and read its matches by hand (the name matching is
+  loose: batch A matched a playground and a music school).
 - Look at the 90 hits of `find-name-town-mismatches.ts`: most are suburbs,
   but the first pass found 6 pins 6–200 km off this way.
 - Set `NEXT_PUBLIC_SITE_URL` and the real domain and contact email (code falls
@@ -94,7 +89,7 @@ error and analytics monitoring that actually receives data.
 
 | Branch / PR | What | Step left | Age |
 |---|---|---|---|
-| PR #34 `claude/circuit-pin-review` | Second pin pass (live), data tests in CI, this plan update | merge | 2026-11-11 |
+| PR #35 `claude/pin-review-3` | Third/fourth pin pass (live), this plan update | merge | 2026-11-11 |
 
 ## Agent roster
 
@@ -200,3 +195,10 @@ error and analytics monitoring that actually receives data.
   (sold, last event March 2025). Albany duplicate merged. All 37 new cover
   photos now checked by eye. `npm test` added; it caught a calendar event
   linking a venue that doesn't exist. Published: 3,173.
+- **2026-11-11 (night)**: #34 merged. Third and fourth pin passes (#35):
+  12 circuits by Wikidata + any mapped track near its point (many are
+  mapped only under local-script names), 20 circuits by hand (Autopolis
+  31 km, Hunan/Zhuzhou ~100 km, Franciacorta 44 km, Dragon Race Track in the
+  wrong Kaloyanovo ~150 km, Fangio autodrome in Rafaela instead of Rosario),
+  32 karting/sim from Nominatim batch A after reading every match (4
+  rejected). Batch B (128) left for another day.
