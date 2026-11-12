@@ -79,3 +79,15 @@ test("calendar events link to existing venues and have valid dates", () => {
     if (e.listingSlug) assert.ok(slugs.has(e.listingSlug), `${e.name}: unknown listingSlug ${e.listingSlug}`);
   }
 });
+
+test("track outlines belong to published venues and are valid drawings", () => {
+  const outlines: Record<string, { d: string; w: number; h: number; lengthM: number }> = JSON.parse(
+    readFileSync("data/track-outlines.json", "utf-8"),
+  );
+  for (const [slug, o] of Object.entries(outlines)) {
+    assert.ok(slugs.has(slug), `outline for unknown venue ${slug}; rerun build-track-outlines.ts`);
+    assert.match(o.d, /^M\d/, `${slug}: path`);
+    assert.ok(o.w > 0 && o.h > 0 && Math.max(o.w, o.h) <= 1000, `${slug}: size ${o.w}x${o.h}`);
+    assert.ok(o.lengthM > 0, `${slug}: length`);
+  }
+});
