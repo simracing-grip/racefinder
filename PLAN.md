@@ -250,3 +250,10 @@ error and analytics monitoring that actually receives data.
   website or phone, and no kart track mapped near the pin. 25 new kart
   layouts (615 → 640; 3 bad drawings excluded). 3,148 published. 56
   karting/sim and 3 circuits still in review.
+- **2026-11-12 (late night)**: #48 merged. New check: circuits without a
+  track layout (no raceway within 1.5 km of the pin) were searched by name in
+  OSM. 60 well-known circuits were 2–44 km from their track, among them
+  Jarama, Misano, Las Vegas Motor Speedway, Pembrey, Mallory Park and
+  Monteblanco. A postcode comparison against the scouted addresses found 9
+  pins in a same-named town elsewhere, such as BattleKart Paris Nord in the
+  Aude, 634 km off. 70 pins moved; 58 new layouts (698 in total).

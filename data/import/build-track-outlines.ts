@@ -62,8 +62,6 @@ const EXCLUDE: Record<string, string> = {
   "east-london-grand-prix-circuit": "street circuit, only a fragment",
   "schleizer-dreieck": "public-road circuit, only a fragment",
   "circuit-bugatti-le-mans": "drew part of the 24 Hours road course, not the Bugatti circuit",
-  "aldo-scribante-race-circuit": "only one curve of the circuit is mapped",
-  "atlantic-motorsport-park": "picked a 0.5 km loop, not the road course",
   "perth-motorplex": "only the drag strip is mapped",
   "tor-kielce": "small loop with a long road attached",
   "transilvania-motor-ring": "only part of the circuit is mapped",
@@ -71,6 +69,14 @@ const EXCLUDE: Record<string, string> = {
   "kartcentrum-lelystad": "picks up a tangle of practice lanes, not one kart track",
   "karting-roussillon": "draws the car circuit next door with stubs, not the kart track",
   "teesside-karting": "draws the autodrome and its side loops, not one kart track",
+  "bedford-autodrome": "many overlapping airfield layouts, unreadable",
+  "circuit-icar": "road course, drag strip and kart track drawn on top of each other",
+  "frankie-boodram-wallerfield-international-raceway": "draws the drag strip",
+  "kart3-siauliai": "autodrome and kart tracks drawn on top of each other",
+  "las-vegas-motor-speedway": "draws an infield piece, not the oval",
+  "mission-raceway-park": "draws the drag strip and motocross area",
+  "salinas-speedway": "draws the drag strip",
+  "spring-mountain-motor-resort": "many overlapping club layouts, unreadable",
 };
 
 function argValue(name: string): string | undefined {
