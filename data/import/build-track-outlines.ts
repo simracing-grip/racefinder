@@ -58,6 +58,7 @@ const EXCLUDE: Record<string, string> = {
   "perth-motorplex": "only the drag strip is mapped",
   "tor-kielce": "small loop with a long road attached",
   "transilvania-motor-ring": "only part of the circuit is mapped",
+  "kartcenter-grimma": "only 0.5 km of the 1.2 km kart track is mapped",
 };
 
 function argValue(name: string): string | undefined {
@@ -273,10 +274,16 @@ function toOutline(c: Line[]): TrackOutline {
 
 // ---------- per venue ----------
 
-async function outlineFor(v: Listing): Promise<{ outline: TrackOutline; tiles: number; distM: number } | null> {
+type Result = { outline: TrackOutline; tiles: number; distM: number } | { skip: string } | null;
+
+// null: no track near the pin. { skip }: a track, but the drawing would be
+// incomplete (a tile failed to download, or the track runs past MAX_TILES),
+// so better none than a chopped one.
+async function outlineFor(v: Listing): Promise<Result> {
   const pin: LngLat = [v.lng, v.lat];
   const [cx, cy] = tileOf(pin);
   const fetched = new Map<string, Line[]>();
+  let failed = 0;
   const want = new Set<string>();
   for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) want.add(`${cx + dx},${cy + dy}`);
   const circuit = v.categories.includes("f1") || v.categories.includes("track_day");
@@ -288,6 +295,7 @@ async function outlineFor(v: Listing): Promise<{ outline: TrackOutline; tiles: n
         todo.slice(i, i + 4).map(async (k) => {
           const [x, y] = k.split(",").map(Number);
           const buf = await getTile(x, y);
+          if (!buf) failed++;
           fetched.set(k, buf ? raceways(buf, x, y) : []);
         })
       );
@@ -311,12 +319,12 @@ async function outlineFor(v: Listing): Promise<{ outline: TrackOutline; tiles: n
             if (!fetched.has(k)) edge.add(k);
           }
       }
-    if (edge.size === 0 || fetched.size + edge.size > MAX_TILES) {
-      return { outline: toOutline(best.c), tiles: fetched.size, distM: Math.round(best.dist) };
-    }
+    if (failed > 0) return { skip: `${failed} tile(s) failed to download` };
+    if (edge.size === 0) return { outline: toOutline(best.c), tiles: fetched.size, distM: Math.round(best.dist) };
+    if (fetched.size + edge.size > MAX_TILES) return { skip: `track runs past ${MAX_TILES} tiles` };
     for (const k of edge) want.add(k);
   }
-  return null;
+  return { skip: "track still growing after 12 rounds" };
 }
 
 async function main() {
@@ -335,13 +343,16 @@ async function main() {
   let found = 0;
   for (const [i, v] of targets.entries()) {
     const r = await outlineFor(v);
-    if (r) {
+    let note: string;
+    if (r && "outline" in r) {
       out[v.slug] = r.outline;
       found++;
-    } else delete out[v.slug];
-    console.log(
-      `[${i + 1}/${targets.length}] ${v.slug}: ${r ? `${(r.outline.lengthM / 1000).toFixed(1)} km of lines, ${r.distM} m from pin, ${r.tiles} tiles, ${r.outline.d.length} chars` : "no raceway near the pin"}`
-    );
+      note = `${(r.outline.lengthM / 1000).toFixed(1)} km of lines, ${r.distM} m from pin, ${r.tiles} tiles, ${r.outline.d.length} chars`;
+    } else {
+      delete out[v.slug];
+      note = r ? `skipped: ${r.skip}` : "no raceway near the pin";
+    }
+    console.log(`[${i + 1}/${targets.length}] ${v.slug}: ${note}`);
   }
   const sorted = Object.fromEntries(Object.entries(out).sort(([a], [b]) => a.localeCompare(b)));
   writeFileSync(OUT_FILE, JSON.stringify(sorted) + "\n");
