@@ -27,7 +27,7 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 3 circuits, 49 karting/sim, plus batch B (128 karting/sim not run yet)**
+- **Pins still to review: 3 circuits, 49 karting/sim from batch A, 96 from batch B** (batch B ran on 2026-11-12: 32 moved, 3 matches rejected; all OSM-matchable ones are done, the rest need their own address)
   (`data/import/pin-check-2026-11-11.md`). Run batch B through Nominatim on
   another day (rule 8) and read its matches by hand (the name matching is
   loose: batch A matched a playground and a music school).
