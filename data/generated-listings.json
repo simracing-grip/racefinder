@@ -23915,9 +23915,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "L'Île-d'Olonne",
-    "address": "Place de l'Église, La Burelière, L'Île-d'Olonne, Les Sables-d'Olonne, Vendée, Pays de la Loire, Metropolitan France, 85340, France",
-    "lat": 46.561432,
-    "lng": -1.782259
+    "address": "Route de Challans (D32), Les Gaches, 85340 L'Île-d'Olonne, France",
+    "lat": 46.576944,
+    "lng": -1.775
   },
   {
     "id": "1701",
@@ -24800,9 +24800,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Caudry",
-    "address": "Place du Général de Gaulle, Caudry, Cambrai, Nord, Hauts-de-France, Metropolitan France, 59540, France",
-    "lat": 50.124391,
-    "lng": 3.410362
+    "address": "King Bowling, 33 ter Route Départementale 643, 59540 Caudry, France",
+    "lat": 50.132165,
+    "lng": 3.424211
   },
   {
     "id": "1767",
@@ -25731,9 +25731,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Montauroux",
-    "address": "Mairie de Montauroux, 6, Place du Clos, Le Château, Montauroux, Draguignan, Var, Provence-Alpes-Côte d'Azur, Metropolitan France, 83440, France",
-    "lat": 43.617944,
-    "lng": 6.765164
+    "address": "144 Boulevard du Belvédère, 83440 Montauroux, France",
+    "lat": 43.618416,
+    "lng": 6.772124
   },
   {
     "id": "1832",
@@ -25761,9 +25761,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Le Havre",
-    "address": "Les Gobelins, Le Havre, Seine-Maritime, Normandy, Metropolitan France, 76620, France",
-    "lat": 49.493898,
-    "lng": 0.107973
+    "address": "45 Boulevard de Leningrad, 76600 Le Havre, France",
+    "lat": 49.496808,
+    "lng": 0.14823
   },
   {
     "id": "1834",
@@ -26181,9 +26181,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Aulnay-sous-Bois",
-    "address": "16, Place de l'Hôtel de Ville, Mairie - Vieux-Pays, Aulnay-sous-Bois, Le Raincy, Seine-Saint-Denis, Ile-de-France, Metropolitan France, 93600, France",
-    "lat": 48.934231,
-    "lng": 2.499789
+    "address": "27 Boulevard André Citroën, 93600 Aulnay-sous-Bois, France",
+    "lat": 48.961209,
+    "lng": 2.48817
   },
   {
     "id": "1862",
@@ -26241,9 +26241,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Serris",
-    "address": "Place Antoine Mauny, Serris, Torcy, Seine-et-Marne, Ile-de-France, Metropolitan France, 77700, France",
-    "lat": 48.8567,
-    "lng": 2.785562
+    "address": "1 Rue de l'Hymne à la Joie, Val d'Europe, 77700 Serris, France",
+    "lat": 48.854474,
+    "lng": 2.775047
   },
   {
     "id": "1867",
@@ -26661,9 +26661,9 @@
     "country": "Belgium",
     "countryCode": "BE",
     "city": "Sint-Niklaas",
-    "address": "Grote Markt, Kroonmolenwijk, Sint-Niklaas, East Flanders, Flanders, 9100, Belgium",
-    "lat": 51.164668,
-    "lng": 4.139512
+    "address": "Europark-Noord 29, 9100 Sint-Niklaas, Belgium",
+    "lat": 51.166863,
+    "lng": 4.166817
   },
   {
     "id": "1895",
