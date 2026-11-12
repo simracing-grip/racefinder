@@ -115,6 +115,10 @@ function applyBrandStyle(map: maplibregl.Map) {
 
 const CATEGORY_ORDER: Category[] = ["sim_racing", "track_day", "karting", "f1", "club_only"];
 
+// In "show all" mode, below this zoom venues draw as small dots; at and
+// above it, as full pins.
+const DOT_MAX_ZOOM = 5;
+
 function pinSvg(color: string): string {
   return `<svg width="30" height="38" viewBox="0 0 30 38" xmlns="http://www.w3.org/2000/svg">
     <path d="M15 0C6.7 0 0 6.7 0 15c0 10.5 13 21.7 13.5 22.2.4.4 1 .6 1.5.6s1.1-.2 1.5-.6C17 36.7 30 25.5 30 15 30 6.7 23.3 0 15 0z"
@@ -267,7 +271,10 @@ export default function MapLibreMap({
         data: geojson,
         cluster: true,
         clusterMaxZoom: 13,
-        clusterRadius: 50,
+        // 35 rather than 50: with ~3,000 venues a 50px radius swallowed all
+        // of Europe into a single "1.8k" bubble at the starting zoom. A
+        // tighter radius splits it into regional bubbles straight away.
+        clusterRadius: 35,
       });
 
       // Same points, unclustered — backs the "show all" mode so every listing
@@ -286,7 +293,7 @@ export default function MapLibreMap({
         layout: { visibility: clusteredVisibility },
         paint: {
           "circle-color": "#f3f4f6",
-          "circle-radius": ["step", ["get", "point_count"], 17, 10, 20, 25, 24],
+          "circle-radius": ["step", ["get", "point_count"], 15, 10, 18, 50, 21, 200, 25, 1000, 29],
           "circle-stroke-width": 3,
           "circle-stroke-color": "#111827",
         },
@@ -320,10 +327,34 @@ export default function MapLibreMap({
         },
       });
 
+      // "Show all" at world/continent zoom: thousands of full-size pins pile
+      // into one solid blob over Europe, so below DOT_MAX_ZOOM each venue is
+      // a small category-coloured dot instead, switching to pins once
+      // zoomed in far enough for them to stand apart.
+      map.addLayer({
+        id: "all-dots",
+        type: "circle",
+        source: "listings-flat",
+        maxzoom: DOT_MAX_ZOOM,
+        layout: { visibility: flatVisibility },
+        paint: {
+          "circle-color": [
+            "match",
+            ["get", "primaryCategory"],
+            ...CATEGORY_ORDER.flatMap((c) => [c, CATEGORY_COLOR[c]]),
+            "#9ca3af",
+          ] as unknown as maplibregl.ExpressionSpecification,
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 2.5, DOT_MAX_ZOOM, 4.5],
+          "circle-stroke-width": 1,
+          "circle-stroke-color": "#0b0d12",
+        },
+      });
+
       map.addLayer({
         id: "all-points",
         type: "symbol",
         source: "listings-flat",
+        minzoom: DOT_MAX_ZOOM,
         layout: {
           "icon-image": ["get", "icon"],
           "icon-size": 0.9,
@@ -343,6 +374,8 @@ export default function MapLibreMap({
       map.on("mouseleave", "unclustered-point", () => (map.getCanvas().style.cursor = ""));
       map.on("mouseenter", "all-points", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "all-points", () => (map.getCanvas().style.cursor = ""));
+      map.on("mouseenter", "all-dots", () => (map.getCanvas().style.cursor = "pointer"));
+      map.on("mouseleave", "all-dots", () => (map.getCanvas().style.cursor = ""));
 
       map.on("click", "clusters", async (e: maplibregl.MapMouseEvent) => {
         const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
@@ -369,6 +402,7 @@ export default function MapLibreMap({
 
       map.on("click", "unclustered-point", openPointPopup);
       map.on("click", "all-points", openPointPopup);
+      map.on("click", "all-dots", openPointPopup);
     });
 
     return () => {
@@ -432,6 +466,7 @@ export default function MapLibreMap({
     map.setLayoutProperty("cluster-count", "visibility", clusteredVisibility);
     map.setLayoutProperty("unclustered-point", "visibility", clusteredVisibility);
     map.setLayoutProperty("all-points", "visibility", flatVisibility);
+    map.setLayoutProperty("all-dots", "visibility", flatVisibility);
   }, [mode]);
 
   return (
