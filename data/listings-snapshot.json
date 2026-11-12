@@ -6950,9 +6950,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Brignoles",
-    "address": "Place Caramy, Brignoles, Var, Provence-Alpes-Côte d'Azur, Metropolitan France, 83170, France",
-    "lat": 43.40644,
-    "lng": 6.061645,
+    "address": "Route de Marseille, Les guérins, Brignoles, Var, Provence-Alpes-Côte d'Azur, 83170, France",
+    "lat": 43.404816,
+    "lng": 6.012103,
     "featured": false
   },
   {
@@ -12552,9 +12552,9 @@
     "country": "Belgium",
     "countryCode": "BE",
     "city": "Ghent",
-    "address": "17, Botermarkt, Sint-Jacobs, Ghent, Gent, East Flanders, Flanders, 9000, Belgium",
-    "lat": 51.053829,
-    "lng": 3.725012,
+    "address": "7, Dok-Noord, Heilig Kerst, Ghent, Gent, East Flanders, 9000, Belgium",
+    "lat": 51.065905,
+    "lng": 3.732621,
     "indoorOutdoor": "indoor",
     "trackLengthM": 450,
     "openingHours": "Mon closed, Tue-Thu 16:00-22:00, Fri 16:00-00:00, Sat 10:00-00:00, Sun 10:00-22:00",
@@ -14804,10 +14804,10 @@
     "status": "published",
     "country": "United Arab Emirates",
     "countryCode": "AE",
-    "city": "Abadilah",
-    "address": "Abadilah, Fujairah Emirate, United Arab Emirates",
-    "lat": 25.414736,
-    "lng": 56.231367,
+    "city": "Fujairah",
+    "address": "Anajaimat Road, Anajaimat, Fujairah, United Arab Emirates",
+    "lat": 25.123356,
+    "lng": 56.315508,
     "featured": false
   },
   {
@@ -15021,9 +15021,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Leganés",
-    "address": "21, Plaza de España, Escritores, Sur, Leganés, Community of Madrid, 28912, Spain",
-    "lat": 40.328194,
-    "lng": -3.76527,
+    "address": "Calle del Invierno, Sur, Leganés, Community of Madrid, 28945, Spain",
+    "lat": 40.300793,
+    "lng": -3.773726,
     "featured": false
   },
   {
@@ -15601,9 +15601,9 @@
     "country": "Portugal",
     "countryCode": "PT",
     "city": "Fátima",
-    "address": "Rotunda dos Pastorinhos, Lomba de Égua, Fátima, Ourém, Santarém, 2495-413, Portugal",
-    "lat": 39.62555,
-    "lng": -8.665908,
+    "address": "Estrada de Minde, Maxieira, Ourém, Santarém, Portugal",
+    "lat": 39.564438,
+    "lng": -8.642559,
     "indoorOutdoor": "outdoor",
     "openingHours": "Mon-Tue closed; Wed-Sun 10:00-19:00",
     "featured": false
@@ -25414,9 +25414,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Le Parc",
-    "address": "Route de l'Étang, Plomb, Le Parc, Avranches, Manche, Normandy, Metropolitan France, 50870, France",
-    "lat": 48.757788,
-    "lng": -1.292053,
+    "address": "Voie de la Liberté, La Haute Forière, Le Parc, Manche, Normandy, 50870, France",
+    "lat": 48.764213,
+    "lng": -1.28373,
     "featured": false
   },
   {
@@ -27169,9 +27169,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Fuengirola",
-    "address": "Plaza Constitución, Los Boliches, Fuengirola, Costa del Sol Occidental, Malaga, Andalusia, 29640, Spain",
-    "lat": 36.53884,
-    "lng": -4.623397,
+    "address": "Avenida de la Encarnación, Fuengirola, Costa del Sol Occidental, Andalusia, 29640, Spain",
+    "lat": 36.529788,
+    "lng": -4.632216,
     "featured": false
   },
   {
@@ -28635,9 +28635,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Torremocha de Jiloca",
-    "address": "Ayuntamiento de Torremocha de Jiloca, 1(B), Plaza Ayuntamiento, Torremocha de Jiloca, Comunidad de Teruel, Teruel, Aragon, 44382, Spain",
-    "lat": 40.589523,
-    "lng": -1.296201,
+    "address": "Camino de la Nevera, Torremocha de Jiloca, Comunidad de Teruel, Aragon, 44360, Spain",
+    "lat": 40.601233,
+    "lng": -1.267651,
     "featured": false
   },
   {
@@ -28773,9 +28773,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Vinaròs",
-    "address": "Travessia de Sant Vicent, Dones de la Mar, Vinaròs, el Baix Maestrat, Castelló / Castellón, Valencian Community, 12500, Spain",
-    "lat": 40.470399,
-    "lng": 0.474608,
+    "address": "Camí dels Ameradors, Vinaròs, el Baix Maestrat, Valencian Community, 12500, Spain",
+    "lat": 40.50086,
+    "lng": 0.474303,
     "indoorOutdoor": "outdoor",
     "trackLengthM": 600,
     "featured": false
@@ -29882,10 +29882,10 @@
     "status": "published",
     "country": "Portugal",
     "countryCode": "PT",
-    "city": "Alter do Chão",
-    "address": "Seda, Alter do Chão, Portalegre, Portugal",
-    "lat": 39.207645,
-    "lng": -7.721513,
+    "city": "Portalegre",
+    "address": "Rua Doutor Feliciano Falcão, Sé, Portalegre, 7300-003, Portugal",
+    "lat": 39.275525,
+    "lng": -7.423439,
     "featured": false
   },
   {
@@ -38279,9 +38279,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Milhaud",
-    "address": "1, Rue Pierre Guérin, Milhaud, Nîmes, Gard, Occitania, Metropolitan France, 30540, France",
-    "lat": 43.78968,
-    "lng": 4.30845,
+    "address": "Chemin des Racanels, Milhaud, Gard, Occitania, 30540, France",
+    "lat": 43.779298,
+    "lng": 4.303853,
     "featured": false
   },
   {
@@ -50335,10 +50335,10 @@
     "status": "published",
     "country": "United Arab Emirates",
     "countryCode": "AE",
-    "city": "Masfut",
-    "address": "Al Warqa, Masfut, Ajman Emirate, United Arab Emirates",
-    "lat": 24.807516,
-    "lng": 56.069513,
+    "city": "Ajman",
+    "address": "Al Zorah Marina 1, Al Zorah, Ajman, United Arab Emirates",
+    "lat": 25.429268,
+    "lng": 55.466879,
     "featured": false
   },
   {
@@ -50516,9 +50516,9 @@
     "country": "Netherlands",
     "countryCode": "NL",
     "city": "Groningen",
-    "address": "City centre North, City centre, Centrum, Groningen, Netherlands, 9712 HV, Netherlands",
-    "lat": 53.219065,
-    "lng": 6.568008,
+    "address": "50, Kardingerweg, Kardinge, East, Groningen, 9735 AH, Netherlands",
+    "lat": 53.238799,
+    "lng": 6.591134,
     "featured": false
   },
   {
@@ -50581,9 +50581,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sandwell",
-    "address": "Market Square, Birchfield, Oldbury, Sandwell, West Midlands, England, B69 2AB, United Kingdom",
-    "lat": 52.503907,
-    "lng": -2.016392,
+    "address": "Park Lane Industrial Estate, Multipark Park Lane Estate, Birchfield, Sandwell, West Midlands, England, B69 4JX, United Kingdom",
+    "lat": 52.499241,
+    "lng": -2.014633,
     "featured": false
   },
   {
@@ -50921,9 +50921,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Reading",
-    "address": "Town Hall Square, Reading Town Centre, Katesgrove, Coley, Reading, England, RG1 1JL, United Kingdom",
-    "lat": 51.456424,
-    "lng": -0.970066,
+    "address": "Cradock Road, Kennet Island, Whitley, Reading, England, RG2 0EE, United Kingdom",
+    "lat": 51.439028,
+    "lng": -0.974757,
     "featured": false
   },
   {
@@ -53920,9 +53920,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Brighton",
-    "address": "The Lanes, Round Hill, Brighton, Brighton and Hove, England, BN1 1HJ, United Kingdom",
-    "lat": 50.821463,
-    "lng": -0.140056,
+    "address": "Brighton Marina, Brighton, BN2 5UF, United Kingdom",
+    "lat": 50.812881,
+    "lng": -0.10412,
     "websiteUrl": "https://www.vrroomracing.com/",
     "featured": false
   },
