@@ -68,6 +68,9 @@ const EXCLUDE: Record<string, string> = {
   "tor-kielce": "small loop with a long road attached",
   "transilvania-motor-ring": "only part of the circuit is mapped",
   "kartcenter-grimma": "only 0.5 km of the 1.2 km kart track is mapped",
+  "kartcentrum-lelystad": "picks up a tangle of practice lanes, not one kart track",
+  "karting-roussillon": "draws the car circuit next door with stubs, not the kart track",
+  "teesside-karting": "draws the autodrome and its side loops, not one kart track",
 };
 
 function argValue(name: string): string | undefined {
