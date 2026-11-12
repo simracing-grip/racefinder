@@ -11,7 +11,8 @@
  *  2. join lines that touch into clusters (one cluster ≈ one track; a big
  *     circuit's pit lane and side loops join its main loop)
  *  3. pick the venue's track: for circuits (f1/track_day) the longest cluster
- *     within MAX_DIST_M of the pin, for others the nearest one
+ *     within MAX_DIST_M of the pin, for kart tracks the nearest one within
+ *     KART_MAX_DIST_M (and no longer than KART_MAX_LENGTH_M)
  *  4. if that cluster runs off the edge of the fetched tiles, fetch the
  *     neighbouring tiles and repeat (long circuits like the Nordschleife)
  *  5. project, simplify and scale it into a 1000-unit SVG box
@@ -32,13 +33,21 @@ import { PbfReader } from "pbf";
 import type { Listing } from "../../lib/types";
 
 const Z = 14;
-const MAX_DIST_M = 1500; // pin to track
+const MAX_DIST_M = 1500; // pin to track, circuits (f1/track_day)
+// Kart tracks are small and often next to other tracks, so: the nearest
+// track within 250 m of the pin, and nothing longer than a kart track can be
+// (a full circuit next door is not the kart track).
+const KART_MAX_DIST_M = 250;
+const KART_MAX_LENGTH_M = 3000;
 const JOIN_M = 10; // lines whose vertices come this close are one track (connected ways share points; tile clipping keeps them)
 const MIN_LENGTH_M = 250; // ignore stubs
+const MIN_LOOP_SHARE = 0.6;
 const MAX_TILES = 120; // per venue (~15 km square at mid latitudes)
 const CACHE_DIR = path.join(process.cwd(), "data", "import", ".tile-cache");
 const OUT_FILE = path.join(process.cwd(), "data", "track-outlines.json");
 const LISTINGS_FILE = path.join(process.cwd(), "data", "generated-listings.json");
+// indoorOutdoor lives in Postgres; the snapshot carries it.
+const SNAPSHOT_FILE = path.join(process.cwd(), "data", "listings-snapshot.json");
 const USER_AGENT = "venue-data-check/1.0";
 
 // Checked by eye on 2026-11-12 and left out: the drawing would be wrong or a
@@ -249,6 +258,50 @@ function simplify(points: [number, number][], tol: number): [number, number][] {
   return [...simplify(points.slice(0, idx + 1), tol).slice(0, -1), ...simplify(points.slice(idx), tol)];
 }
 
+/**
+ * Share of the drawing that lies on a closed loop. The path is rasterised
+ * and line ends are stripped repeatedly: a circuit keeps its loop (a drag
+ * strip or access road only loses its spur), while an open line, a piece of
+ * a track or a road erodes away entirely.
+ */
+export function loopShare(o: TrackOutline, cell = 4): number {
+  const px = new Set<string>();
+  for (const seg of o.d.split("M").filter(Boolean)) {
+    const pts = seg.split("L").map((p) => p.split(" ").map(Number));
+    for (let i = 1; i < pts.length; i++) {
+      const [x0, y0] = pts[i - 1];
+      const [x1, y1] = pts[i];
+      const steps = Math.max(1, Math.ceil(Math.hypot(x1 - x0, y1 - y0) / (cell / 2)));
+      for (let k = 0; k <= steps; k++)
+        px.add(`${Math.round((x0 + ((x1 - x0) * k) / steps) / cell)},${Math.round((y0 + ((y1 - y0) * k) / steps) / cell)}`);
+    }
+  }
+  const total = px.size;
+  const ring = [[-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0]];
+  // A line end: its occupied neighbours form at most one unbroken run
+  // around it (inside a line there are two runs, at a junction three+).
+  const isEnd = (k: string) => {
+    const [x, y] = k.split(",").map(Number);
+    const on = ring.map(([dx, dy]) => px.has(`${x + dx},${y + dy}`));
+    const n = on.filter(Boolean).length;
+    if (n === 0) return true;
+    if (n > 3) return false;
+    let runs = 0;
+    for (let i = 0; i < 8; i++) if (on[i] && !on[(i + 7) % 8]) runs++;
+    return runs <= 1;
+  };
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const k of [...px])
+      if (isEnd(k)) {
+        px.delete(k);
+        changed = true;
+      }
+  }
+  return total ? px.size / total : 0;
+}
+
 function toOutline(c: Line[]): TrackOutline {
   // Local equirectangular projection in metres around the track's centre.
   const all = c.flat();
@@ -284,9 +337,17 @@ async function outlineFor(v: Listing): Promise<Result> {
   const [cx, cy] = tileOf(pin);
   const fetched = new Map<string, Line[]>();
   let failed = 0;
-  const want = new Set<string>();
-  for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) want.add(`${cx + dx},${cy + dy}`);
   const circuit = v.categories.includes("f1") || v.categories.includes("track_day");
+  const maxDist = circuit ? MAX_DIST_M : KART_MAX_DIST_M;
+  // Start with the tiles within maxDist of the pin (the 3x3 block for circuits).
+  const want = new Set<string>();
+  if (circuit) {
+    for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) want.add(`${cx + dx},${cy + dy}`);
+  } else {
+    const dLat = maxDist / 110540;
+    const dLng = maxDist / (111320 * Math.cos((v.lat * Math.PI) / 180));
+    for (const la of [v.lat - dLat, v.lat + dLat]) for (const ln of [v.lng - dLng, v.lng + dLng]) want.add(tileOf([ln, la]).join(","));
+  }
 
   for (let round = 0; round < 12; round++) {
     const todo = [...want].filter((k) => !fetched.has(k));
@@ -302,11 +363,12 @@ async function outlineFor(v: Listing): Promise<Result> {
     }
     const clusters = cluster([...fetched.values()].flat())
       .map((c) => ({ c, len: c.reduce((s, l) => s + lineLength(l), 0), dist: distanceToCluster(pin, c) }))
-      .filter((x) => x.len >= MIN_LENGTH_M && x.dist <= MAX_DIST_M);
+      .filter((x) => x.len >= MIN_LENGTH_M && x.dist <= maxDist);
     if (clusters.length === 0) return null;
     const best = circuit
       ? clusters.sort((a, b) => b.len - a.len)[0]
       : clusters.sort((a, b) => a.dist - b.dist)[0];
+    if (!circuit && best.len > KART_MAX_LENGTH_M) return { skip: `nearest track is ${(best.len / 1000).toFixed(1)} km, a circuit rather than the kart track` };
 
     // Does the chosen track reach a tile we haven't fetched the far side of?
     const edge = new Set<string>();
@@ -320,7 +382,14 @@ async function outlineFor(v: Listing): Promise<Result> {
           }
       }
     if (failed > 0) return { skip: `${failed} tile(s) failed to download` };
-    if (edge.size === 0) return { outline: toOutline(best.c), tiles: fetched.size, distM: Math.round(best.dist) };
+    if (edge.size === 0) {
+      const outline = toOutline(best.c);
+      const share = loopShare(outline);
+      // Mostly open lines: a fragment or a road, not a whole track (checked
+      // by eye: every complete circuit and kart track scores 0.74 or more).
+      if (share < MIN_LOOP_SHARE) return { skip: `not a closed track (loop share ${share.toFixed(2)})` };
+      return { outline, tiles: fetched.size, distM: Math.round(best.dist) };
+    }
     if (fetched.size + edge.size > MAX_TILES) return { skip: `track runs past ${MAX_TILES} tiles` };
     for (const k of edge) want.add(k);
   }
@@ -330,12 +399,14 @@ async function outlineFor(v: Listing): Promise<Result> {
 async function main() {
   mkdirSync(CACHE_DIR, { recursive: true });
   const listings = JSON.parse(readFileSync(LISTINGS_FILE, "utf-8")) as Listing[];
+  const snap = JSON.parse(readFileSync(SNAPSHOT_FILE, "utf-8"));
+  const indoor = new Set(((Array.isArray(snap) ? snap : snap.listings) as Listing[]).filter((l) => l.indoorOutdoor === "indoor").map((l) => l.slug));
   const slugs = argValue("--slugs")?.split(",");
   const categories = (argValue("--categories") ?? "f1,track_day").split(",");
   const limit = Number(argValue("--limit") ?? Infinity);
   const targets = listings
     .filter((l) => (slugs ? slugs.includes(l.slug) : l.categories.some((c) => categories.includes(c))))
-    .filter((l) => !EXCLUDE[l.slug])
+    .filter((l) => !EXCLUDE[l.slug] && !indoor.has(l.slug))
     .slice(0, limit);
 
   const out: Record<string, TrackOutline> = existsSync(OUT_FILE) ? JSON.parse(readFileSync(OUT_FILE, "utf-8")) : {};
