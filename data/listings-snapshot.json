@@ -2342,10 +2342,10 @@
     "status": "published",
     "country": "Spain",
     "countryCode": "ES",
-    "city": "La Orotava",
-    "address": "La Orotava, Santa Cruz de Tenerife, Canary Islands, Spain",
-    "lat": 28.293578,
-    "lng": -16.621447,
+    "city": "Adeje",
+    "address": "Autopista del Sur, Fañabé, Miraverde, Adeje, Santa Cruz de Tenerife, Canary Islands, 38670, Spain",
+    "lat": 28.102341,
+    "lng": -16.731823,
     "websiteUrl": "https://www.arcanarias.com/",
     "phone": "+34 634 333 901",
     "featured": false
@@ -2512,9 +2512,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Fuensalida",
-    "address": "1, Plaza del Conde, Fuensalida, Toledo, Castile-La Mancha, 45510, Spain",
-    "lat": 40.053055,
-    "lng": -4.208838,
+    "address": "TO-1927, Fuensalida, Toledo, Castile-La Mancha, 45510, Spain",
+    "lat": 40.065986,
+    "lng": -4.193796,
     "featured": false
   },
   {
@@ -5771,9 +5771,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Notre-Dame-d'Oé",
-    "address": "Rue des Bévenières, Le Bourg, Notre-Dame-d'Oé, Tours, Indre-et-Loire, Centre-Val de Loire, Metropolitan France, 37390, France",
-    "lat": 47.457118,
-    "lng": 0.707693,
+    "address": "Rue Olof Palme, Le Marais, Notre-Dame-d'Oé, Tours, Indre-et-Loire, Centre-Val de Loire, Metropolitan France, 37390, France",
+    "lat": 47.441502,
+    "lng": 0.697498,
     "featured": false
   },
   {
@@ -6337,9 +6337,9 @@
     "country": "Hungary",
     "countryCode": "HU",
     "city": "Kecskemét",
-    "address": "Kossuth tér, Villanegyed, Belváros, Kecskemét, Kecskeméti járás, Bács-Kiskun, South Great Plain, Great Plain and North, 6000, Hungary",
-    "lat": 46.907542,
-    "lng": 19.69223,
+    "address": "64, Szent László körút, Vásártér, Kósafalu, Kecskemét, Kecskeméti járás, Bács-Kiskun, Great Plain and North, 6000, Hungary",
+    "lat": 46.884382,
+    "lng": 19.695483,
     "featured": false
   },
   {
@@ -7037,9 +7037,9 @@
     "country": "Belgium",
     "countryCode": "BE",
     "city": "Frasnes-lez-Gosselies",
-    "address": "35, Rue Albert 1er, Frasnes-lez-Gosselies, Les Bons Villers, Charleroi, Hainaut, Wallonia, 6210, Belgium",
-    "lat": 50.537648,
-    "lng": 4.450165,
+    "address": "Rue Uyttebroeck, Parc d'activité économique Frasnes-lez-Gosselies, Frasnes-lez-Gosselies, Les Bons Villers, Charleroi, Hainaut, Wallonia, 6210, Belgium",
+    "lat": 50.541215,
+    "lng": 4.459828,
     "featured": false
   },
   {
@@ -10275,9 +10275,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Ispica",
-    "address": "Municipio di Ispica, Corso Umberto Primo, Ispica, Ragusa, Sicily, 97014, Italy",
-    "lat": 36.785867,
-    "lng": 14.907636,
+    "address": "Strada provinciale Ispica-Pachino, Ispica, Ragusa, Sicily, 97014, Italy",
+    "lat": 36.776201,
+    "lng": 14.926702,
     "indoorOutdoor": "outdoor",
     "trackLengthM": 1000,
     "openingHours": "Daily 16:00-23:30 (summer season)",
@@ -10347,9 +10347,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Fontenay-le-Comte",
-    "address": "Mairie - Fontenay-le-Comte, 4, Quai Victor Hugo, Terre-Neuve, Fontenay-le-Comte, Vendée, Pays de la Loire, Metropolitan France, 85200, France",
-    "lat": 46.466077,
-    "lng": -0.8064,
+    "address": "Rue de Chambouin, Fontaines, Fontenay-le-Comte, Vendée, Pays de la Loire, Metropolitan France, 85200, France",
+    "lat": 46.438518,
+    "lng": -0.793979,
     "featured": false
   },
   {
@@ -11342,9 +11342,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Saint-Lyé",
-    "address": "Avenue de la Gare, Saint-Lyé, Troyes, Aube, Grand Est, Metropolitan France, 10180, France",
-    "lat": 48.361337,
-    "lng": 4.002064,
+    "address": "D 619, Saint-Lyé, Troyes, Aube, Great East, Metropolitan France, 10180, France",
+    "lat": 48.359117,
+    "lng": 3.980322,
     "featured": false
   },
   {
@@ -12303,9 +12303,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Buccinasco",
-    "address": "2, Via Roma, Romano Banco, Buccinasco, Milan, Lombardy, 20090, Italy",
-    "lat": 45.422301,
-    "lng": 9.108268,
+    "address": "10, Via Emilia, Cascina Fagnana, Grancino, Buccinasco, Milan, Lombardy, 20090, Italy",
+    "lat": 45.420999,
+    "lng": 9.11684,
     "featured": false
   },
   {
@@ -14643,9 +14643,9 @@
     "country": "Turkey",
     "countryCode": "TR",
     "city": "Kartal",
-    "address": "Rıhtım Caddesi, Kordonboyu Mahallesi, Kartal, Istanbul, Marmara Region, 34860, Turkey",
-    "lat": 40.888504,
-    "lng": 29.18589,
+    "address": "Turgut Özal Bulvarı, Dragos, Orhantepe Mahallesi, Kartal, Istanbul, Marmara Region, 34865, Turkey",
+    "lat": 40.902217,
+    "lng": 29.14668,
     "featured": false
   },
   {
@@ -15089,9 +15089,9 @@
     "country": "Colombia",
     "countryCode": "CO",
     "city": "Bogota",
-    "address": "Avenida Carrera 50, Nicolas de Federman, UPZs de Bogotá, Localidad Teusaquillo, Bogota, Bogota, Capital District, RAP (Especial) Central, 111321, Colombia",
-    "lat": 4.653382,
-    "lng": -74.083633,
+    "address": "El Dorado International Airport, Bogotá, Colombia",
+    "lat": 4.700969,
+    "lng": -74.146093,
     "websiteUrl": "https://www.formularacings.com/post/simuladores-el-dorado-sala-a5",
     "phone": "+57 350 851 4665",
     "featured": false
@@ -15668,9 +15668,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Westfield",
-    "address": "210, South Avenue West, Westfield, Union County, New Jersey, 07090, United States",
-    "lat": 40.649407,
-    "lng": -74.344015,
+    "address": "North Avenue West, Westfield, Union County, New Jersey, 07090, United States",
+    "lat": 40.6501,
+    "lng": -74.3474,
     "websiteUrl": "https://g-forceracing.com/",
     "phone": "(908) 251-9645",
     "featured": false
@@ -20360,9 +20360,9 @@
     "country": "Argentina",
     "countryCode": "AR",
     "city": "Buenos Aires",
-    "address": "5085, Avenida Santa Fe, Palermo, Buenos Aires, Comuna 14, Autonomous City of Buenos Aires, 1425, Argentina",
-    "lat": -34.576483,
-    "lng": -58.431348,
+    "address": "2348, Doctor Emilio Ravignani, Palermo, Buenos Aires, Comuna 14, Autonomous City of Buenos Aires, C1425, Argentina",
+    "lat": -34.576577,
+    "lng": -58.433751,
     "websiteUrl": "https://www.irondriverpalermo.com/",
     "phone": "+54 9 11 3693-8136",
     "featured": false
@@ -22622,9 +22622,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Ploemel",
-    "address": "Allée Abbé Martin Kercret, Kerivallan, Ploemel, Lorient, Morbihan, Brittany, Metropolitan France, 56400, France",
-    "lat": 47.650843,
-    "lng": -3.071705,
+    "address": "D 22, Pont Fol, Ploemel, Lorient, Morbihan, Brittany, Metropolitan France, 56400, France",
+    "lat": 47.668102,
+    "lng": -3.062494,
     "featured": false
   },
   {
@@ -23815,9 +23815,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Bruay-la-Buissière",
-    "address": "23, Place Henri Cadot, Résidence les Flandres, Bruay-en-Artois, Bruay-la-Buissière, Béthune, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62700, France",
-    "lat": 50.482196,
-    "lng": 2.546192,
+    "address": "Résidence les Flandres, Bruay-en-Artois, Bruay-la-Buissière, Béthune, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62700, France",
+    "lat": 50.475779,
+    "lng": 2.546509,
     "featured": false
   },
   {
@@ -27329,9 +27329,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Vegas del Genil",
-    "address": "1, Glorieta del Fresno, Purchil, Vegas del Genil, Comarca de la Vega de Granada, Granada, Andalusia, 18102, Spain",
-    "lat": 37.171758,
-    "lng": -3.667424,
+    "address": "Calle de los Juncos, Purchil, Vegas del Genil, Comarca de la Vega de Granada, Granada, Andalusia, 18102, Spain",
+    "lat": 37.174755,
+    "lng": -3.654996,
     "indoorOutdoor": "outdoor",
     "openingHours": "Mon closed; Tue-Fri 17:00-21:00; Sat-Sun 10:00-21:00",
     "featured": false
@@ -27475,9 +27475,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Xàbia / Jávea",
-    "address": "Plaça de Celestino Pons, Xàbia / Jávea, la Marina Alta, Alacant / Alicante, Valencian Community, 03730, Spain",
-    "lat": 38.78938,
-    "lng": 0.163417,
+    "address": "Camí dels Morers, Urbanització La Finca, Xàbia / Jávea, la Marina Alta, Alacant / Alicante, Valencian Community, 03730, Spain",
+    "lat": 38.769753,
+    "lng": 0.180792,
     "indoorOutdoor": "outdoor",
     "trackLengthM": 500,
     "openingHours": "Daily 11:00-20:30",
@@ -27658,9 +27658,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Le Creusot",
-    "address": "Rue Jean Bouveri, Montagne des Boulets, Cité Ouvrière de la Combe des Mineurs, Le Creusot, Autun, Saône-et-Loire, Bourgogne – Franche-Comté, Metropolitan France, 71200, France",
-    "lat": 46.805406,
-    "lng": 4.428596,
+    "address": "Promenade des Crêtes, Les Jeannins, Le Creusot, Autun, Saône-et-Loire, Bourgogne – Franche-Comté, Metropolitan France, 71200, France",
+    "lat": 46.81304,
+    "lng": 4.412166,
     "featured": false
   },
   {
@@ -28085,9 +28085,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Paracuellos de Jarama",
-    "address": "Plaza de la Constitución, Paracuellos de Jarama, Community of Madrid, 28860, Spain",
-    "lat": 40.504853,
-    "lng": -3.531762,
+    "address": "M-111, Polígono Industrial El Cerbellón, Paracuellos de Jarama, Community of Madrid, 28860, Spain",
+    "lat": 40.524579,
+    "lng": -3.545875,
     "featured": false
   },
   {
@@ -29263,9 +29263,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Lucera",
-    "address": "Via Pietro Giannone, Lucera, Foggia, Apulia, 71036, Italy",
-    "lat": 41.508273,
-    "lng": 15.337646,
+    "address": "Via del Seggio, Contrada Percettore, Lucera, Foggia, Apulia, 71036, Italy",
+    "lat": 41.501447,
+    "lng": 15.36469,
     "featured": false
   },
   {
@@ -31553,9 +31553,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Cecina",
-    "address": "Piazza Francesco Domenico Guerrazzi, Marina di Cecina, San Pietro In Palazzi, Cecina, Livorno, Tuscany, 57023, Italy",
-    "lat": 43.311345,
-    "lng": 10.517344,
+    "address": "Via Aurelia Sud, Cecina, Livorno, Tuscany, 57023, Italy",
+    "lat": 43.283904,
+    "lng": 10.524838,
     "featured": false
   },
   {
@@ -32960,9 +32960,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Sainte-Catherine",
-    "address": "Mairie de Sainte-Catherine, Rue de la Mairie, Sainte-Catherine, Arras, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62223, France",
-    "lat": 50.304864,
-    "lng": 2.763456,
+    "address": "Route de Béthune, Sainte-Catherine, Arras, Pas-de-Calais, Hauts-de-France, Metropolitan France, 62223, France",
+    "lat": 50.316216,
+    "lng": 2.761154,
     "featured": false
   },
   {
@@ -34026,9 +34026,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Colico",
-    "address": "Pontèe, Bassana, Villatico, Colico, Lecco, Lombardy, 23823, Italy",
-    "lat": 46.136311,
-    "lng": 9.373819,
+    "address": "Via Borgofrancone, Fontana Sacchi, Monteggiolo, Curcio, Colico, Lecco, Lombardy, 23823, Italy",
+    "lat": 46.141591,
+    "lng": 9.400648,
     "featured": false
   },
   {
@@ -36946,9 +36946,9 @@
     "country": "Czechia",
     "countryCode": "CZ",
     "city": "Olomouc",
-    "address": "Olomouc-střed, Lazce, Olomouc, okres Olomouc, Olomouc Region, 799 00, Czechia",
-    "lat": 49.594057,
-    "lng": 17.251143,
+    "address": "Koželužská, Olomouc-střed, Lazce, Olomouc, okres Olomouc, Olomouc Region, 771 00, Czechia",
+    "lat": 49.597411,
+    "lng": 17.257511,
     "featured": false
   },
   {
@@ -41209,9 +41209,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Crevoladossola",
-    "address": "Alpe Marghino, Crevoladossola, Verbano-Cusio-Ossola, Piedmont, 28865, Italy",
-    "lat": 46.164382,
-    "lng": 8.271099,
+    "address": "Via De Maurizi, Case Airami, Favalle San Vitale, Preglia, Crevoladossola, Verbano-Cusio-Ossola, Piedmont, 28865, Italy",
+    "lat": 46.145107,
+    "lng": 8.30692,
     "featured": false
   },
   {
@@ -43567,9 +43567,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "San Fulgencio",
-    "address": "26, Plaza de la Constitución, San Fulgencio, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03177, Spain",
-    "lat": 38.112007,
-    "lng": -0.718882,
+    "address": "Go Karts San Fulgencio, N-332, Urbanización Las Pesqueras, San Fulgencio, el Baix Segura / La Vega Baja, Alacant / Alicante, Valencian Community, 03177, Spain",
+    "lat": 38.114082,
+    "lng": -0.658483,
     "indoorOutdoor": "outdoor",
     "openingHours": "Mon-Thu 11:00-20:00; Fri-Sat 11:00-21:00; Sun 11:00-20:00",
     "featured": false
@@ -43701,9 +43701,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "San Bartolomé de Tirajana",
-    "address": "Avenida Touroperador Ols Wings, Maspalomas, San Bartolomé de Tirajana, Las Palmas, Canary Islands, 35100, Spain",
-    "lat": 27.752773,
-    "lng": -15.597083,
+    "address": "GC-503, El Tablero, San Bartolomé de Tirajana, Las Palmas, Canary Islands, 35109, Spain",
+    "lat": 27.77557,
+    "lng": -15.604563,
     "featured": false
   },
   {
@@ -44701,9 +44701,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Misano Adriatico",
-    "address": "Via Dante Alighieri, Cà Bianchini, Misano Adriatico, Rimini, Emilia-Romagna, 47046, Italy",
-    "lat": 43.977495,
-    "lng": 12.698695,
+    "address": "7, Via Ciglio, Casacce, Santa Monica, Misano Adriatico, Rimini, Emilia-Romagna, 47046, Italy",
+    "lat": 43.969087,
+    "lng": 12.709851,
     "featured": false
   },
   {
@@ -48245,9 +48245,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Salbris",
-    "address": "Rue de l'Abbé Paul Gru, Le Colombier, Salbris, Romorantin-Lanthenay, Loir-et-Cher, Centre-Val de Loire, Metropolitan France, 41300, France",
-    "lat": 47.42648,
-    "lng": 2.052554,
+    "address": "L'Arverne, Lignières, Salbris, Romorantin-Lanthenay, Loir-et-Cher, Centre-Val de Loire, Metropolitan France, 41300, France",
+    "lat": 47.360648,
+    "lng": 2.049863,
     "featured": false
   },
   {
@@ -49681,9 +49681,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Bouillargues",
-    "address": "Mairie de Bouillargues, Rue des Maçons, Bouillargues, Nîmes, Gard, Occitania, Metropolitan France, 30230, France",
-    "lat": 43.800743,
-    "lng": 4.424845,
+    "address": "Chemin des Canaux, Bouillargues, Nîmes, Gard, Occitania, Metropolitan France, 30230, France",
+    "lat": 43.817578,
+    "lng": 4.426604,
     "featured": false
   },
   {
@@ -50873,9 +50873,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "address": "Grey Street, Grainger Town, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 6JG, United Kingdom",
-    "lat": 54.973847,
-    "lng": -1.613157,
+    "address": "Scotswood Road, Benwell, Newcastle upon Tyne, Tyne and Wear, North East, England, NE15 6UX, United Kingdom",
+    "lat": 54.965988,
+    "lng": -1.677458,
     "featured": false
   },
   {
@@ -51841,9 +51841,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Test Valley",
-    "address": "The Lower Guildhall, High Street, Rooksbury Mill, Andover, Test Valley, Hampshire, England, SP10 1LP, United Kingdom",
-    "lat": 51.207828,
-    "lng": -1.479355,
+    "address": "Industrial Estate Road, Thruxton Down, Thruxton, Kimpton, Test Valley, Hampshire, England, SP11 8PN, United Kingdom",
+    "lat": 51.203066,
+    "lng": -1.609519,
     "featured": false
   },
   {
