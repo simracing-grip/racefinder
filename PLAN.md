@@ -27,7 +27,7 @@ error and analytics monitoring that actually receives data.
   extrapolates to ~800 of the ~2,100 venues without a website. Verify them in
   verifier batches, or drop the unconfirmable ones (rule 4), or accept them:
   user's call.
-- **Pins still to review: 3 circuits, 47 karting/sim from batch A, 80 from batch B** (2026-11-12: Photon name search + web lookups moved 16 more; the rest have no mapped track or online address)
+- **Pins still to review: 3 circuits and 56 karting/sim** (2026-11-12, twelfth pass: 40 moved, 18 archived; the rest have no mapped track or online address)
   (`data/import/pin-check-2026-11-11.md`). Run batch B through Nominatim on
   another day (rule 8) and read its matches by hand (the name matching is
   loose: batch A matched a playground and a music school).
@@ -241,3 +241,12 @@ error and analytics monitoring that actually receives data.
   3 km), skips known indoor venues, and skips any drawing that is less than
   60% closed loop (open lines, fragments). 233 kart tracks drawn and
   checked by eye; 606 track layouts in total.
+- **2026-11-12 (night)**: #47 merged. Twelfth pin pass over the 114
+  karting/sim pins still in review. Each venue's address was searched on
+  the web, then checked against the map (OpenFreeMap tiles, because Photon
+  and Overpass were down or overloaded). 40 moved: 30 onto a named or
+  unique mapped kart track, 10 to an address, street or postcode. 18
+  archived: 2 closed (Gela, Kenjeran) and 16 with no trace online, no
+  website or phone, and no kart track mapped near the pin. 25 new kart
+  layouts (615 → 640; 3 bad drawings excluded). 3,148 published. 56
+  karting/sim and 3 circuits still in review.

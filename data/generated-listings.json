@@ -9891,9 +9891,9 @@
     "country": "Canada",
     "countryCode": "CA",
     "city": "Toronto",
-    "address": "150, Borough Drive, Bendale-Glen Andrew, Scarborough Centre, Scarborough, Toronto, Golden Horseshoe, Ontario, M1P 4N7, Canada",
-    "lat": 43.772974,
-    "lng": -79.257648
+    "address": "Parkway Mall, 85, Ellesmere Road, Wexford, Scarborough, Toronto, Ontario, M1R 4B9, Canada",
+    "lat": 43.757039,
+    "lng": -79.312082
   },
   {
     "id": "626",
@@ -10957,9 +10957,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "São Luís",
-    "address": "Rua Rio Branco, Apicum, Centro, São Luís, Maranhão, Northeast Region, 65020-180, Brazil",
-    "lat": -2.529526,
-    "lng": -44.296394
+    "address": "Complexo do Castelão, Túnel do Sacavém, Outeiro da Cruz, Filipinho, São Luís, Maranhão, Northeast Region, 65036-901, Brazil",
+    "lat": -2.549706,
+    "lng": -44.257842
   },
   {
     "id": "706",
@@ -10971,10 +10971,10 @@
     "status": "published",
     "country": "Brazil",
     "countryCode": "BR",
-    "city": "Catuana",
-    "address": "Catuana, Caucaia, Ceará, Northeast Region, Brazil",
-    "lat": -3.771737,
-    "lng": -38.790569
+    "city": "Caucaia",
+    "address": "Outlet Premium Fortaleza, BR-020 km 12, Caucaia, Ceará, Northeast Region, Brazil",
+    "lat": -3.772547,
+    "lng": -38.672094
   },
   {
     "id": "707",
@@ -11202,21 +11202,6 @@
     "lng": -46.317545
   },
   {
-    "id": "723",
-    "slug": "gt-kart-racing-park-itaborai",
-    "name": "GT Kart Racing Park — Itaboraí",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Itaboraí",
-    "address": "42, Rua Izaura Pantojas, Nova Cidade, Itaboraí, Rio de Janeiro, Southeast Region, 24804-171, Brazil",
-    "lat": -22.749623,
-    "lng": -42.855743
-  },
-  {
     "id": "724",
     "slug": "kartodromo-felipe-massa-de-patrocinio",
     "name": "Kartódromo Felipe Massa de Patrocínio",
@@ -11277,21 +11262,6 @@
     "lng": -45.885454
   },
   {
-    "id": "732",
-    "slug": "kart-penedo",
-    "name": "Kart Penedo",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Itatiaia",
-    "address": "Jambeiro, Penedo, Itatiaia, Rio de Janeiro, Southeast Region, 27598-000, Brazil",
-    "lat": -22.443153,
-    "lng": -44.563521
-  },
-  {
     "id": "733",
     "slug": "kartodromo-de-itajuba",
     "name": "Kartódromo de Itajubá",
@@ -11335,21 +11305,6 @@
     "address": "AMG-1110, Paraíso, Uberlândia, Minas Gerais, Southeast Region, Brazil",
     "lat": -18.972536,
     "lng": -48.099922
-  },
-  {
-    "id": "736",
-    "slug": "dgrazi-kart-shopping-contagem",
-    "name": "DGrazi Kart — Shopping Contagem",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "city": "Contagem",
-    "address": "40, Rua Bueno Brandão, Regional Sede, Contagem, Minas Gerais, Southeast Region, 32017-680, Brazil",
-    "lat": -19.913275,
-    "lng": -44.084095
   },
   {
     "id": "737",
@@ -11978,9 +11933,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Francisco Beltrão",
-    "address": "Calçadão, Francisco Beltrão, Paraná, South Region, 85601-020, Brazil",
-    "lat": -26.079098,
-    "lng": -53.053353
+    "address": "Passeio Parque Jaime Canet Junior, Francisco Beltrão, Paraná, South Region, 85605-270, Brazil",
+    "lat": -26.067529,
+    "lng": -53.037009
   },
   {
     "id": "796",
@@ -12129,9 +12084,9 @@
     "country": "Brazil",
     "countryCode": "BR",
     "city": "Rolândia",
-    "address": "159, Avenida dos Expedicionários, Centro Histórico, Rolândia, Paraná, South Region, 86600-000, Brazil",
-    "lat": -23.31199,
-    "lng": -51.367415
+    "address": "Rua Marfin, Vila Oliveira, Centro, Rolândia, Paraná, South Region, 66004-112, Brazil",
+    "lat": -23.31341,
+    "lng": -51.386002
   },
   {
     "id": "807",
@@ -13241,9 +13196,9 @@
     "country": "Australia",
     "countryCode": "AU",
     "city": "Goomalling",
-    "address": "Karranadgin, Western Australia, 6460, Australia",
-    "lat": -31.237057,
-    "lng": 116.787039
+    "address": "Williams Street, Goomalling, Western Australia, 6460, Australia",
+    "lat": -31.299476,
+    "lng": 116.834929
   },
   {
     "id": "892",
@@ -13661,9 +13616,9 @@
     "country": "Australia",
     "countryCode": "AU",
     "city": "Whyalla",
-    "address": "Middleback Range, South Australia, 5609, Australia",
-    "lat": -33.153501,
-    "lng": 137.260492
+    "address": "Lincoln Highway, Middleback Range, South Australia, 5609, Australia",
+    "lat": -33.05607,
+    "lng": 137.486708
   },
   {
     "id": "922",
@@ -14669,9 +14624,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Cokato",
-    "address": "175, 4th Street Southwest, Country Village Mobile Estates, Cokato, Wright County, Minnesota, 55321, United States",
-    "lat": 45.075043,
-    "lng": -94.190367
+    "address": "US 12, Cokato Township, Wright County, Minnesota, 55321, United States",
+    "lat": 45.066016,
+    "lng": -94.162597
   },
   {
     "id": "1012",
@@ -15104,10 +15059,10 @@
     "status": "published",
     "country": "United States",
     "countryCode": "US",
-    "city": "Manchester Township",
-    "address": "Manchester Township, Ocean County, New Jersey, United States",
-    "lat": 39.977818,
-    "lng": -74.331929
+    "city": "Manahawkin",
+    "address": "NJ 72, Stafford Square, Manahawkin, Deer Lake Park, Stafford Township, Ocean County, New Jersey, 08050, United States",
+    "lat": 39.69582,
+    "lng": -74.263501
   },
   {
     "id": "1044",
@@ -15870,9 +15825,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Panhandle",
-    "address": "420, Main Street, Panhandle Historic Downtown, Panhandle, Carson County, Texas, 79068, United States",
-    "lat": 35.345464,
-    "lng": -101.380657
+    "address": "263, FM 2373, Yarnall, Carson County, Texas, 79068, United States",
+    "lat": 35.215729,
+    "lng": -101.543035
   },
   {
     "id": "1096",
@@ -16500,9 +16455,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Loxahatchee Groves",
-    "address": "155, F Road, Loxahatchee Groves, Palm Beach County, Florida, 33470, United States",
-    "lat": 26.683122,
-    "lng": -80.259369
+    "address": "16169, Southern Boulevard, Palm Beach County, Florida, 33470, United States",
+    "lat": 26.683444,
+    "lng": -80.298505
   },
   {
     "id": "1143",
@@ -17685,9 +17640,9 @@
     "country": "United States",
     "countryCode": "US",
     "city": "Sacramento",
-    "address": "I Street, Downtown, Sacramento, Sacramento County, California, 95814, United States",
-    "lat": 38.581061,
-    "lng": -121.493895
+    "address": "3128, Bradshaw Road, Sacramento County, California, 95827, United States",
+    "lat": 38.569746,
+    "lng": -121.336494
   },
   {
     "id": "1228",
@@ -18406,9 +18361,9 @@
     "country": "Japan",
     "countryCode": "JP",
     "city": "Takarazuka",
-    "address": "Takarazuka City Hall, 1, Toyocho, Takarazuka, Hyogo Prefecture, 665-0031, Japan",
-    "lat": 34.800474,
-    "lng": 135.360867
+    "address": "Shiose Takarazuka Line, Kawamo, Takarazuka, Hyogo Prefecture, 665-0847, Japan",
+    "lat": 34.832541,
+    "lng": 135.336526
   },
   {
     "id": "1289",
@@ -18499,21 +18454,6 @@
     "address": "Jalan Kingsway, Marina ParkCity, Miri, Miri Division, Sarawak, 98000, Malaysia",
     "lat": 4.39401,
     "lng": 113.98802
-  },
-  {
-    "id": "1295",
-    "slug": "perak-perak-riverside-karting-track",
-    "name": "Perak Perak Riverside Karting Track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Malaysia",
-    "countryCode": "MY",
-    "city": "Kuala Kangsar",
-    "address": "Kampung Jamuan, Enggor, Kuala Kangsar, Perak, 33600, Malaysia",
-    "lat": 4.812181,
-    "lng": 100.979791
   },
   {
     "id": "1296",
@@ -18631,9 +18571,9 @@
     "country": "Taiwan",
     "countryCode": "TW",
     "city": "Tainan",
-    "address": "178, 鄭拐, Anding Village, Anding District, Tainan, 745, Taiwan",
-    "lat": 23.122238,
-    "lng": 120.237262
+    "address": "南132-1, Wenke Village, Anding District, Tainan, 745, Taiwan",
+    "lat": 23.103847,
+    "lng": 120.222842
   },
   {
     "id": "1305",
@@ -18694,21 +18634,6 @@
     "address": "166號, Kenting Road, Kending Village, Hengchun, Pingtung County, 946, Taiwan",
     "lat": 21.945308,
     "lng": 120.798785
-  },
-  {
-    "id": "1309",
-    "slug": "rocket-karting-speedway-miaoli",
-    "name": "Rocket Karting Speedway Miaoli",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Taiwan",
-    "countryCode": "TW",
-    "city": "Miaoli City",
-    "address": "100, Xianfu Road, Jiangong Village, Miaoli City, Miaoli County, 36001, Taiwan",
-    "lat": 24.564767,
-    "lng": 120.820517
   },
   {
     "id": "1311",
@@ -18816,21 +18741,6 @@
     "lng": 99.957344
   },
   {
-    "id": "1318",
-    "slug": "khon-kaen-big-pho",
-    "name": "Khon Kaen (Big Pho)",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Thailand",
-    "countryCode": "TH",
-    "city": "Ban Sawang",
-    "address": "Ban Sawang, Khok Ngam, Ban Fang District, Khon Kaen Province, Thailand",
-    "lat": 16.602239,
-    "lng": 102.635293
-  },
-  {
     "id": "1319",
     "slug": "phuket-kart",
     "name": "Phuket Kart",
@@ -18904,21 +18814,6 @@
     "address": "Kaixuan Road, Tangjiawan, Xiangzhou, Zhuhai, Guangdong, 519000, China",
     "lat": 22.367467,
     "lng": 113.555877
-  },
-  {
-    "id": "1327",
-    "slug": "zhunmen",
-    "name": "Zhunmen",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "China",
-    "countryCode": "CN",
-    "city": "Xianyang",
-    "address": "Yuandian Avenue East Section, 新庄, Jingyang County, Xianyang, Shaanxi, China",
-    "lat": 34.541225,
-    "lng": 108.923707
   },
   {
     "id": "1329",
@@ -19131,36 +19026,6 @@
     "lng": 104.03837
   },
   {
-    "id": "1355",
-    "slug": "cemara-asri-kart-track",
-    "name": "Cemara Asri Kart Track",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Indonesia",
-    "countryCode": "ID",
-    "city": "City of Medan",
-    "address": "Jalan Imam Bonjol, Petisah Tengah, Medan Petisah, City of Medan, North Sumatra, 20112, Indonesia",
-    "lat": 3.589462,
-    "lng": 98.674162
-  },
-  {
-    "id": "1356",
-    "slug": "park-kenjeran-kart-circuit",
-    "name": "Park Kenjeran Kart Circuit",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Indonesia",
-    "countryCode": "ID",
-    "city": "Surabaya",
-    "address": "Jalan Pahlawan, RW 01, Alon-Alon Contong, Bubutan, Surabaya, East Java, 60174, Indonesia",
-    "lat": -7.246284,
-    "lng": 112.737767
-  },
-  {
     "id": "1357",
     "slug": "sentul-kart-circuit",
     "name": "Sentul Kart Circuit",
@@ -19200,10 +19065,10 @@
     "status": "published",
     "country": "Cambodia",
     "countryCode": "KH",
-    "city": "Khan Kamboul",
-    "address": "Kambol​​ Pagoda, National Highway 4, Phum Ang Keo, Prey Pring Khang Tboung 2, Khan Kamboul, Phnom Penh, 120906, Cambodia",
-    "lat": 11.524231,
-    "lng": 104.787809
+    "city": "Phnom Penh",
+    "address": "Kambol Kart Raceway, Phnom Penh - Sihanoukville Expressway, Phum Prey Kod, Sangkat Kamboul, Khan Kamboul, Phnom Penh, 120905, Cambodia",
+    "lat": 11.538914,
+    "lng": 104.780978
   },
   {
     "id": "1363",
@@ -19339,21 +19204,6 @@
     "address": "110, Sejong-daero, Taepyeongno 1-ga, Myeong-dong, Jung-gu, Seoul, 04520, South Korea",
     "lat": 37.566679,
     "lng": 126.978291
-  },
-  {
-    "id": "1374",
-    "slug": "kart-ville",
-    "name": "Kart-Ville",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "South Korea",
-    "countryCode": "KR",
-    "city": "Cheongju-si",
-    "address": "Woryong-ri, Cheongju-si, North Chungcheong, 28199, South Korea",
-    "lat": 36.638392,
-    "lng": 127.696119
   },
   {
     "id": "1378",
@@ -24440,9 +24290,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Rivesaltes",
-    "address": "Allées Maréchal Joffre, Rivesaltes, Perpignan, Pyrénées-Orientales, Occitania, Metropolitan France, 66600, France",
-    "lat": 42.768357,
-    "lng": 2.870928
+    "address": "D 12, Rivesaltes, Perpignan, Pyrénées-Orientales, Occitania, Metropolitan France, 66600, France",
+    "lat": 42.779801,
+    "lng": 2.90733
   },
   {
     "id": "1740",
@@ -26136,9 +25986,9 @@
     "country": "France",
     "countryCode": "FR",
     "city": "Les Étards",
-    "address": "Place de la Mairie, Les Étards, Ozouer-le-Voulgis, Melun, Seine-et-Marne, Ile-de-France, Metropolitan France, 77390, France",
-    "lat": 48.659274,
-    "lng": 2.774596
+    "address": "D 319, Les Étards, Ozouer-le-Voulgis, Melun, Seine-et-Marne, Ile-de-France, Metropolitan France, 77390, France",
+    "lat": 48.652509,
+    "lng": 2.761333
   },
   {
     "id": "1859",
@@ -27217,9 +27067,9 @@
     "country": "Netherlands",
     "countryCode": "NL",
     "city": "Lelystad",
-    "address": "Lelystad, Flevoland, Netherlands",
-    "lat": 52.536681,
-    "lng": 5.361072
+    "address": "89, Talingweg, Lelystad, Flevoland, Netherlands, 8218 NX, Netherlands",
+    "lat": 52.450837,
+    "lng": 5.499558
   },
   {
     "id": "1933",
@@ -27672,21 +27522,6 @@
     "lng": -0.466948
   },
   {
-    "id": "1963",
-    "slug": "karting-llosa-de-ranes",
-    "name": "Karting Llosa De Ranes",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "la Llosa de Ranes",
-    "address": "4, Carrer Sant Cristòfol, la Llosa de Ranes, la Costera, Valencia, Valencian Community, 46815, Spain",
-    "lat": 39.018537,
-    "lng": -0.533588
-  },
-  {
     "id": "1964",
     "slug": "karting-fast-circuit-valencia",
     "name": "Karting Fast Circuit Valencia",
@@ -27922,9 +27757,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Torroella de Montgrí",
-    "address": "plaça de la Vila, Torroella de Montgrí, Lower Empordà, Girona, Catalonia, 17130, Spain",
-    "lat": 42.040982,
-    "lng": 3.126204
+    "address": "Camí Vell, Torroella de Montgrí, Lower Empordà, Girona, Catalonia, 17130, Spain",
+    "lat": 42.044887,
+    "lng": 3.151274
   },
   {
     "id": "1982",
@@ -28087,9 +27922,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Estepona",
-    "address": "Calle Mesurado, Barriada Islas Canarias, Estepona, Costa del Sol Occidental, Malaga, Andalusia, 29680, Spain",
-    "lat": 36.426807,
-    "lng": -5.146848
+    "address": "Autovía/Autopista del Mediterráneo, Estebuna, Estepona, Costa del Sol Occidental, Malaga, Andalusia, 29680, Spain",
+    "lat": 36.434362,
+    "lng": -5.162367
   },
   {
     "id": "1994",
@@ -28390,21 +28225,6 @@
     "address": "Vía Verde Santander-Mediterráneo, Urbanización las Nogalejas, Cigüenza, Villarcayo, Villarcayo de Merindad de Castilla la Vieja, Burgos, Castile and León, 09550, Spain",
     "lat": 42.933821,
     "lng": -3.587885
-  },
-  {
-    "id": "2016",
-    "slug": "karting-gp-leon",
-    "name": "Karting GP Leon",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Quintana del Castillo",
-    "address": "Chano de la Encina, Quintana del Castillo, León, Castile and León, Spain",
-    "lat": 42.634145,
-    "lng": -5.971415
   },
   {
     "id": "2017",
@@ -28752,21 +28572,6 @@
     "lng": -4.677262
   },
   {
-    "id": "2041",
-    "slug": "af-karting",
-    "name": "A.F. Karting",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Spain",
-    "countryCode": "ES",
-    "city": "Tomelloso",
-    "address": "1, Plaza de España, Tomelloso, Ciudad Real, Castile-La Mancha, 13700, Spain",
-    "lat": 39.158555,
-    "lng": -3.021485
-  },
-  {
     "id": "2042",
     "slug": "circuito-quintanar-dh",
     "name": "Circuito Quintanar DH",
@@ -28777,9 +28582,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Quintanar del Rey",
-    "address": "Plaza de la Concepción, Quintanar del Rey, Cuenca, Castile-La Mancha, Spain",
-    "lat": 39.342647,
-    "lng": -1.929158
+    "address": "Calle Tejeras, Quintanar del Rey, Cuenca, Castile-La Mancha, Spain",
+    "lat": 39.347171,
+    "lng": -1.938465
   },
   {
     "id": "2043",
@@ -29467,9 +29272,9 @@
     "country": "Spain",
     "countryCode": "ES",
     "city": "Talavera la Real",
-    "address": "Ayuntamiento de Talavera la Real, 2, Plaza de España, Talavera la Real, Badajoz, Extremadura, 06140, Spain",
-    "lat": 38.876694,
-    "lng": -6.772233
+    "address": "Autovía del Suroeste, Talavera la Real, Badajoz, Extremadura, 06187, Spain",
+    "lat": 38.853846,
+    "lng": -6.716359
   },
   {
     "id": "2091",
@@ -29931,10 +29736,10 @@
     "status": "published",
     "country": "Portugal",
     "countryCode": "PT",
-    "city": "Vila Nova de Paiva, Alhais e Fráguas",
-    "address": "Fráguas, Vila Nova de Paiva, Alhais e Fráguas, Vila Nova de Paiva, Viseu, Portugal",
-    "lat": 40.855992,
-    "lng": -7.756
+    "city": "Vila Nova de Paiva",
+    "address": "EN 329, Queiriga, Vila Nova de Paiva, Viseu, 3650-200, Portugal",
+    "lat": 40.833481,
+    "lng": -7.735582
   },
   {
     "id": "2126",
@@ -30040,21 +29845,6 @@
     "address": "Via Libertà, Basicò, Messina, Sicily, 98060, Italy",
     "lat": 38.061393,
     "lng": 15.062247
-  },
-  {
-    "id": "2133",
-    "slug": "kartodromo-internazionale-di-gela",
-    "name": "Kartodromo Internazionale di Gela",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Gela",
-    "address": "Piazza Umberto I, Quartiere San Giovanni, Gela, Caltanissetta, Sicily, 93012, Italy",
-    "lat": 37.066436,
-    "lng": 14.250245
   },
   {
     "id": "2134",
@@ -30612,21 +30402,6 @@
     "lng": 10.880429
   },
   {
-    "id": "2171",
-    "slug": "kart-inside",
-    "name": "Kart Inside",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Retorbido",
-    "address": "Piazza Roma, Cascina Polacchina, Retorbido, Pavia, Lombardy, 27055, Italy",
-    "lat": 44.9493,
-    "lng": 9.036174
-  },
-  {
     "id": "2172",
     "slug": "kartodromo-boggia-park-and-sports",
     "name": "Kartodromo Boggia Park & Sports",
@@ -30637,9 +30412,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Gordona",
-    "address": "1, Piazza San Martino, Coloredo, Gordona, Comunità montana della Valchiavenna, Sondrio, Lombardy, 23020, Italy",
-    "lat": 46.291395,
-    "lng": 9.368123
+    "address": "BoggiaKart, Via Boggia, Gordona, Comunità montana della Valchiavenna, Sondrio, Lombardy, 23020, Italy",
+    "lat": 46.280863,
+    "lng": 9.369788
   },
   {
     "id": "2173",
@@ -31342,9 +31117,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Massa Lubrense",
-    "address": "2, Largo Vescovado, Quarazzano, San Montano, Marina della Lobra, Massa Lubrense, Naples, Campania, 80061, Italy",
-    "lat": 40.611738,
-    "lng": 14.343424
+    "address": "Campo Sant'Anna, Via Canale, Pigna, Sant'Agata sui due Golfi, Massa Lubrense, Naples, Campania, 80064, Italy",
+    "lat": 40.606834,
+    "lng": 14.370047
   },
   {
     "id": "2220",
@@ -31507,9 +31282,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Moncalieri",
-    "address": "Via Carlo Alberto, Borgo Navile, Moncalieri, Turin, Piedmont, 10024, Italy",
-    "lat": 45.000461,
-    "lng": 7.684754
+    "address": "#45 Race Track - Indoor Karting, Via dell'Automobilismo, Palera, Moriondo, Moncalieri, Turin, Piedmont, 10024, Italy",
+    "lat": 44.976662,
+    "lng": 7.712939
   },
   {
     "id": "2231",
@@ -31720,21 +31495,6 @@
     "address": "3, Piazza del Popolo, Centro storico, Pantano, Pesaro, Pesaro e Urbino, Marche, 61121, Italy",
     "lat": 43.909811,
     "lng": 12.913123
-  },
-  {
-    "id": "2245",
-    "slug": "kart-show",
-    "name": "Kart Show",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Casteldelfino",
-    "address": "Strada Maestra, Torrette, Casteldelfino, Cuneo, Piedmont, Italy",
-    "lat": 44.582797,
-    "lng": 7.099583
   },
   {
     "id": "2246",
@@ -32107,9 +31867,9 @@
     "country": "Italy",
     "countryCode": "IT",
     "city": "Montemurlo",
-    "address": "Bagnolo, Montemurlo, Prato, Tuscany, 59013, Italy",
-    "lat": 43.926928,
-    "lng": 11.036699
+    "address": "Via Ombrone, Oste, Montemurlo, Prato, Tuscany, 59013, Italy",
+    "lat": 43.903814,
+    "lng": 11.024515
   },
   {
     "id": "2271",
@@ -32406,10 +32166,10 @@
     "status": "published",
     "country": "Italy",
     "countryCode": "IT",
-    "city": "Azzida / Ažla",
-    "address": "Via Arengo della Slavia, Oculis / Nokula, Azzida / Ažla, San Pietro al Natisone, Udine, Friuli – Venezia Giulia, 33049, Italy",
-    "lat": 46.126725,
-    "lng": 13.485233
+    "city": "San Pietro al Natisone",
+    "address": "Pista kart Alberone, Strada Provinciale della Val Alberone, Cocevaro / Kočebar, Puoie / Puoje, San Pietro al Natisone, Udine, Friuli – Venezia Giulia, 33049, Italy",
+    "lat": 46.134943,
+    "lng": 13.505523
   },
   {
     "id": "2291",
@@ -33307,9 +33067,9 @@
     "country": "Czechia",
     "countryCode": "CZ",
     "city": "Hořovice",
-    "address": "Městská policie Hořovice, 640/34, Palackého náměstí, Hořičky, Žižkov, Velká Víska, Hořovice, okres Beroun, Central Bohemian Region, 268 01, Czechia",
-    "lat": 49.836324,
-    "lng": 13.902867
+    "address": "11710, Letná, Velká Víska, Hořovice, okres Beroun, Central Bohemian Region, 268 01, Czechia",
+    "lat": 49.845842,
+    "lng": 13.911556
   },
   {
     "id": "2366",
@@ -33583,21 +33343,6 @@
     "lng": 20.196529
   },
   {
-    "id": "2385",
-    "slug": "villgokart",
-    "name": "VillGokart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "city": "Villány",
-    "address": "36, Baross Gábor utca, Pincesor, Virágos, Villány, Siklósi járás, Baranya, Southern Transdanubia, Transdanubia, 7773, Hungary",
-    "lat": 45.869764,
-    "lng": 18.455521
-  },
-  {
     "id": "2388",
     "slug": "balaton-gokart-fovenyes",
     "name": "Balaton Gokart Fövenyes",
@@ -33683,9 +33428,9 @@
     "country": "Hungary",
     "countryCode": "HU",
     "city": "Nemesvámos",
-    "address": "37, Kossuth Lajos utca, Nemesvámos, Veszprémi járás, Veszprém, Central Transdanubia, Transdanubia, 8248, Hungary",
-    "lat": 47.054864,
-    "lng": 17.871826
+    "address": "Muskátli utca, Nemesvámos, Veszprémi járás, Veszprém, 8248, Hungary",
+    "lat": 47.063307,
+    "lng": 17.870003
   },
   {
     "id": "2395",
@@ -33773,9 +33518,9 @@
     "country": "Hungary",
     "countryCode": "HU",
     "city": "Szada",
-    "address": "88, Dózsa György út, Fenyvesliget, Szada, Gödöllő Regional Unit, Pest, Central Hungary, 2111, Hungary",
-    "lat": 47.636333,
-    "lng": 19.311698
+    "address": "Szada Ring, Fenyvesliget, Szada, Gödöllő Regional Unit, Pest, Hungary",
+    "lat": 47.620303,
+    "lng": 19.276419
   },
   {
     "id": "2403",
@@ -33818,9 +33563,9 @@
     "country": "Hungary",
     "countryCode": "HU",
     "city": "Ráckeve",
-    "address": "1, Viola utca, Újtelep, Ráckeve, Ráckevei járás, Pest, Central Hungary, 2300, Hungary",
-    "lat": 47.160976,
-    "lng": 18.943627
+    "address": "Gokartpálya, Leányvár Erdő utca, Ráckeve, Ráckevei járás, Pest, 2300, Hungary",
+    "lat": 47.142303,
+    "lng": 18.992963
   },
   {
     "id": "2407",
@@ -35228,9 +34973,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Middlesbrough",
-    "address": "Albert Road, Middlehaven, Middlesbrough, Tees Valley, England, TS1 2RU, United Kingdom",
-    "lat": 54.576042,
-    "lng": -1.234405
+    "address": "Teesside Autodrome, South Bank Road, North Ormesby, Middlesbrough, Tees Valley, England, TS6 6XH, United Kingdom",
+    "lat": 54.577431,
+    "lng": -1.191341
   },
   {
     "id": "2508",
@@ -35603,9 +35348,9 @@
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newtown",
-    "address": "Butterfly Lane, Penygloddfa, Newtown and Llanllwchaiarn, Newtown, Powys, Wales, SY16 1AQ, United Kingdom",
-    "lat": 52.513579,
-    "lng": -3.314371
+    "address": "Aberhafesp, Llanwnnog, Powys, Wales, SY16 3JE, United Kingdom",
+    "lat": 52.54885,
+    "lng": -3.408
   },
   {
     "id": "2533",
@@ -35873,10 +35618,10 @@
     "status": "published",
     "country": "United Kingdom",
     "countryCode": "GB",
-    "city": "Enniskillen",
-    "address": "The Diamond, Enniskillen, Fermanagh and Omagh District, Northern Ireland, BT74 7EH, United Kingdom",
-    "lat": 54.344817,
-    "lng": -7.638907
+    "city": "Kesh",
+    "address": "Lakeland Karting, Bannagh Beg Road, Bannagh More, Kesh, Fermanagh and Omagh District, Northern Ireland, United Kingdom",
+    "lat": 54.542236,
+    "lng": -7.745195
   },
   {
     "id": "2551",
@@ -36497,21 +36242,6 @@
     "lng": 28.327086
   },
   {
-    "id": "2601",
-    "slug": "mega-kart",
-    "name": "Mega Kart",
-    "categories": [
-      "karting"
-    ],
-    "status": "published",
-    "country": "Turkey",
-    "countryCode": "TR",
-    "city": "İzmir",
-    "address": "Şair Eşref Bulvarı, İsmet Kaptan Mahallesi, İzmir, Konak, Izmir, Aegean Region, 35210, Turkey",
-    "lat": 38.425933,
-    "lng": 27.139546
-  },
-  {
     "id": "2602",
     "slug": "go-kart-marmaris",
     "name": "Go kart marmaris",
@@ -36927,9 +36657,9 @@
     "country": "Finland",
     "countryCode": "FI",
     "city": "Rovaniemi",
-    "address": "Town Centre, Rovaniemi, Rovaniemi sub-region, Lapland, Mainland Finland, 96200, Finland",
-    "lat": 66.502554,
-    "lng": 25.730391
+    "address": "21, Ounasjoen itäpuolentie, Pullinranta, Rovaniemi, Lapland, 96900, Finland",
+    "lat": 66.520199,
+    "lng": 25.743653
   },
   {
     "id": "2634",
@@ -37136,10 +36866,10 @@
     "status": "published",
     "country": "Sweden",
     "countryCode": "SE",
-    "city": "Rättviks kommun",
-    "address": "Långnäset, Rättviks kommun, Dalarna County, Sweden",
-    "lat": 60.966667,
-    "lng": 15.383333
+    "city": "Rättvik",
+    "address": "Rättviks gokartbana, 5km, Kungsholskvarn, Rättvik, Rättviks kommun, Dalarna County, 795 33, Sweden",
+    "lat": 60.90832,
+    "lng": 15.156106
   },
   {
     "id": "2650",
@@ -37286,10 +37016,10 @@
     "status": "published",
     "country": "Sweden",
     "countryCode": "SE",
-    "city": "Dals-Eds kommun",
-    "address": "Risnäs, Dals-Eds kommun, Västra Götaland County, Sweden",
-    "lat": 59,
-    "lng": 11.916667
+    "city": "Ed",
+    "address": "Industrigatan, Agerhus, Ed, Dals-Eds kommun, Västra Götaland County, 668 32, Sweden",
+    "lat": 58.904542,
+    "lng": 11.952923
   },
   {
     "id": "2660",
@@ -37752,9 +37482,9 @@
     "country": "Norway",
     "countryCode": "NO",
     "city": "Skjåk",
-    "address": "Pollsætri, Skjåk, Innlandet, 2693, Norway",
-    "lat": 61.934986,
-    "lng": 7.914536
+    "address": "Framrustvegen, Skjåk, Innlandet, 2693, Norway",
+    "lat": 61.949054,
+    "lng": 7.884734
   },
   {
     "id": "2695",
@@ -38082,9 +37812,9 @@
     "country": "Denmark",
     "countryCode": "DK",
     "city": "Aars",
-    "address": "Himmerlandsgade, Aars, Vesthimmerland Municipality, North Denmark Region, 9600, Denmark",
-    "lat": 56.803378,
-    "lng": 9.516899
+    "address": "1, Messevej, Aars, Vesthimmerland Municipality, North Denmark Region, 9600, Denmark",
+    "lat": 56.803616,
+    "lng": 9.502377
   },
   {
     "id": "2718",
