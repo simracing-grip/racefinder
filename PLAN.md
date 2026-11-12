@@ -235,3 +235,9 @@ error and analytics monitoring that actually receives data.
   (street circuits such as Monaco and Baku, fragments; listed in EXCLUDE).
   Karting outlines are a possible next run. Batch B (128 karting/sim) run
   through Nominatim.
+- **2026-11-12 (later)**: #40–#42 merged (track layouts live, batch B pins
+  live, builder skips incomplete tracks). Kart layouts: the builder now
+  takes the nearest raceway within 250 m for kart venues (not longer than
+  3 km), skips known indoor venues, and skips any drawing that is less than
+  60% closed loop (open lines, fragments). 233 kart tracks drawn and
+  checked by eye; 606 track layouts in total.
