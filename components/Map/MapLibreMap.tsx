@@ -152,11 +152,18 @@ function listingsToGeoJSON(listings: ListingSummary[]): GeoJSON.FeatureCollectio
         country: l.country,
         countryCode: l.countryCode,
         categories: l.categories.join(","),
+        activities: activityLabels(l),
         primaryCategory: l.categories[0],
         icon: `pin-${l.categories[0]}`,
       },
     })),
   };
+}
+
+// "Motorbike days · Drift" for circuits confirmed to run them; empty
+// otherwise (GeoJSON properties can't hold undefined reliably).
+function activityLabels(l: ListingSummary): string {
+  return [l.bikes && "Motorbike days", l.drift && "Drift"].filter(Boolean).join(" · ");
 }
 
 function popupHtml(props: GeoJSON.GeoJsonProperties): string {
@@ -179,6 +186,7 @@ function popupHtml(props: GeoJSON.GeoJsonProperties): string {
       <div class="flex flex-wrap gap-1">${badges}</div>
       <div class="mt-1.5 font-display text-lg font-black uppercase italic leading-tight text-white">${escapeHtml(String(props.name))}</div>
       <div class="text-xs text-gray-400">${flag}${props.city ? `${escapeHtml(String(props.city))}, ` : ""}${escapeHtml(String(props.country))}</div>
+      ${props.activities ? `<div class="mt-1 text-xs font-semibold text-gray-200">Also: ${escapeHtml(String(props.activities))}</div>` : ""}
       <a class="mt-2.5 inline-flex items-center gap-1 px-3 py-1.5 font-display text-sm font-bold uppercase italic hover:opacity-90" style="background:${buttonColor};color:#ffffff" href="/listings/${props.slug}">
         View details &rarr;
       </a>
@@ -448,6 +456,7 @@ export default function MapLibreMap({
           country: listing.country,
           countryCode: listing.countryCode,
           categories: listing.categories.join(","),
+          activities: activityLabels(listing),
         })
       )
       .addTo(map);
