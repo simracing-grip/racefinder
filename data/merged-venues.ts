@@ -17,4 +17,7 @@ export const MERGED_VENUES: [keep: string, drop: string][] = [
   ["albany-city-kart-club", "albany-city-kart-club-circuit"],
   ["le-mans-karting-international", "karting-des-24-heures-du-mans"],
   ["esperance-kart-klub", "esperance-kart-klub-circuit"],
+  // 2026-11-13: the circuit operator's company listing, pinned on the indoor
+  // kart hall, duplicating the Sachsenring circuit itself.
+  ["sachsenring", "verkehrssicherheitszentrum-and-sachsenring-gmbh-and-co-kg"],
 ];

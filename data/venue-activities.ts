@@ -10,7 +10,7 @@ import type { VenueActivities } from "@/lib/types";
 // Inferred, owners-club-only, members-only and competition-only evidence was
 // left out. A venue missing here is unknown, not "no".
 //
-// Generated from the 2026-11 motorbike/drift scout run (247 venues).
+// Generated from the 2026-11 motorbike/drift scout run (245 venues after removing a closed circuit and a merged duplicate).
 export const VENUE_ACTIVITIES: Record<string, VenueActivities> = {
   "a1-motor-park": { motorbikes: { sourceUrl: "https://a1motorpark.com/open-track-half-day-moto-22-10-26/" }, drift: { sourceUrl: "https://academy.a1motorpark.com/drift-taxi/" } },
   "achna-speedway": { motorbikes: { sourceUrl: "https://achnaspeedway.com/track-days" }, drift: { sourceUrl: "https://achnaspeedway.com/track-days" } },
@@ -194,7 +194,6 @@ export const VENUE_ACTIVITIES: Record<string, VenueActivities> = {
   "pembrey-circuit": { motorbikes: { sourceUrl: "https://www.pembreycircuit.co.uk/bike-track-days?category=bike-track-days" } },
   "pertamina-mandalika-international-circuit": { motorbikes: { sourceUrl: "https://www.ducati.com/au/en/experience/ducati-riding-experience/riding-courses/racetrack-academy-mandalika" } },
   "phillip-island-grand-prix-circuit": { motorbikes: { sourceUrl: "https://www.bmw-motorrad.com.au/en/experience/experience-overview/training/phillip-island-ride-days.html" } },
-  "pikes-peak-international-raceway": { drift: { sourceUrl: "https://happeningnext.com/event/drift-clinics-2026-eid3a0dkb566q" } },
   "pineview-run": { motorbikes: { sourceUrl: "https://pineviewrun.com/motorcycles" } },
   "pocono-raceway": { motorbikes: { sourceUrl: "https://www.roadracingworld.com/?p=262806" } },
   "podium-club-at-attesa": { motorbikes: { sourceUrl: "https://www.podiumclub.com/1dayprivatecoaching" } },
@@ -252,7 +251,6 @@ export const VENUE_ACTIVITIES: Record<string, VenueActivities> = {
   "vaison-piste": { motorbikes: { sourceUrl: "https://www.sport-decouverte.com/journee-roulage-moto-circuit-vaison-piste.html" } },
   "valerbanen": { motorbikes: { sourceUrl: "https://www.forerutvikling.no/" } },
   "vantaa-circuit": { motorbikes: { sourceUrl: "https://vantaacircuit.fi/" } },
-  "verkehrssicherheitszentrum-and-sachsenring-gmbh-and-co-kg": { motorbikes: { sourceUrl: "https://www.sachsenring.de/fileadmin/sachsenring/AGBs_und_HV/Motorrad-Sportfahrer-AGB-2026.pdf" }, drift: { sourceUrl: "https://www.sachsenring.de/fileadmin/sachsenring/AGBs_und_HV/PKW-Sportfahrer-AGB-2026.pdf" } },
   "virginia-international-raceway": { motorbikes: { sourceUrl: "https://www.motorsportreg.com/events/american-superbike-racing-assoc-virginia-international-raceway-motorcycle-994355" } },
   "weathertech-raceway-laguna-seca": { motorbikes: { sourceUrl: "https://www.motorsportreg.com/events/california-super-bike-weathertech-raceway-laguna-seca-motorcycle-track-day-257806" } },
   "willow-springs-international-raceway": { motorbikes: { sourceUrl: "https://racecra.motorsportreg.com/events/2026-wsir-track-day-willow-springs-intl-raceway-california-roadrace-association-610216" } },

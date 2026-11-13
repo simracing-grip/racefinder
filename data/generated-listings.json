@@ -4928,22 +4928,6 @@
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mid-Ohio_Sports_Car_Course_%2816168219601%29.jpg"
   },
   {
-    "id": "318",
-    "slug": "pittsburgh-international-race-complex",
-    "name": "Pittsburgh International Race Complex",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Wampum",
-    "address": "Pittsburgh International Race Complex, 201, Penndale Road, Hoytdale, Wampum, Beaver County, Pennsylvania, 16157, United States",
-    "lat": 40.847973,
-    "lng": -80.347236,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pitt_Race_Ariel_Photo.jpg"
-  },
-  {
     "id": "319",
     "slug": "summit-point-motorsports-park",
     "name": "Summit Point Motorsports Park",
@@ -38299,23 +38283,6 @@
     "phone": "+420 733 738 213"
   },
   {
-    "id": "2754",
-    "slug": "verkehrssicherheitszentrum-and-sachsenring-gmbh-and-co-kg",
-    "name": "Verkehrssicherheitszentrum & Sachsenring GmbH & Co. KG",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "Germany",
-    "countryCode": "DE",
-    "city": "Oberlungwitz",
-    "address": "2, Am Sachsenring, Gewerbegebiet Am Sachsenring, Oberlungwitz, Zwickau, Saxony, 09353, Germany",
-    "lat": 50.789835,
-    "lng": 12.695784,
-    "websiteUrl": "https://sachsenring.de",
-    "phone": "+49 3723 65330"
-  },
-  {
     "id": "2755",
     "slug": "brno-circuit",
     "name": "BRNO Circuit",
@@ -38668,7 +38635,9 @@
     "address": "Hohensteiner Straße, Gewerbegebiet Am Sachsenring, Oberlungwitz, Zwickau, Saxony, 09353, Germany",
     "lat": 50.791631,
     "lng": 12.684917,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aerial_image_of_Sachsenring_%28view_from_the_southwest%29.jpg"
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aerial_image_of_Sachsenring_%28view_from_the_southwest%29.jpg",
+    "websiteUrl": "https://sachsenring.de",
+    "phone": "+49 3723 65330"
   },
   {
     "id": "2779",
@@ -44177,24 +44146,6 @@
     "phone": "+39 0525 551211"
   },
   {
-    "id": "3126",
-    "slug": "adria-international-raceway",
-    "name": "Adria International Raceway",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "Italy",
-    "countryCode": "IT",
-    "city": "Adria",
-    "address": "Strada Provinciale 41 Cavanella Po-Porto Viro, Adria, Rovigo, Veneto, 45011, Italy",
-    "lat": 45.044551,
-    "lng": 12.151803,
-    "websiteUrl": "https://www.adriaraceway.com/",
-    "phone": "+39 0426 941411",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/-_ITALY_-_ITALIA_Adria_Raceway.JPG"
-  },
-  {
     "id": "3127",
     "slug": "autodromo-di-franciacorta-porsche-experience-center-franciacorta",
     "name": "Autodromo di Franciacorta (Porsche Experience Center Franciacorta)",
@@ -47457,22 +47408,6 @@
     "lng": -86.41015,
     "websiteUrl": "https://www.nashvillesuperspeedway.com/",
     "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/EM_NASHVILLE_SUPERSPEEDWAY_%283283565118%29.jpg"
-  },
-  {
-    "id": "3325",
-    "slug": "pikes-peak-international-raceway",
-    "name": "Pikes Peak International Raceway",
-    "categories": [
-      "track_day"
-    ],
-    "status": "published",
-    "country": "United States",
-    "countryCode": "US",
-    "city": "Fountain",
-    "address": "16650, Midway Ranch Road, Fountain, El Paso County, Colorado, 80817, United States",
-    "lat": 38.586486,
-    "lng": -104.672528,
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pikes_Peak_International_Raceway.jpg"
   },
   {
     "id": "3326",
