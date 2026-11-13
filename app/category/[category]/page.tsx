@@ -9,7 +9,7 @@ import PageHeader from "@/components/UI/PageHeader";
 import CategoryIcon from "@/components/Home/CategoryIcon";
 import { CATEGORY_TEXT_COLOR } from "@/lib/categoryMeta";
 import { sortByUpcomingEvent } from "@/lib/listingSort";
-import { parseKartFilters, applyKartFilters, kartFilterCounts, hasKartFilters } from "@/lib/kartingFilters";
+import { parseKartFilters, applyKartFilters, kartFilterCounts, hasKartFilters, filtersForCategory } from "@/lib/kartingFilters";
 import KartingFilters from "@/components/Filters/KartingFilters";
 import { toSummaries } from "@/lib/listingSummary";
 import { pageMetadata } from "@/lib/seo";
@@ -53,11 +53,14 @@ export default async function CategoryPage({
     getCountryCodeMap(),
   ]);
 
-  // Karting gets extra filters (indoor/outdoor, kart type, track length).
+  // Karting gets extra filters (indoor/outdoor, kart type, track length);
+  // circuits get motorbike days / drift.
+  const filterDefs = filtersForCategory(meta.value);
+  const hasFilters = filterDefs.length > 0;
   const isKarting = meta.value === "karting";
-  const kartState = isKarting ? parseKartFilters(sp) : {};
-  const listings = isKarting ? applyKartFilters(allListings, kartState) : allListings;
-  const kartGroups = isKarting ? kartFilterCounts(allListings, kartState) : [];
+  const kartState = parseKartFilters(sp, filterDefs);
+  const listings = applyKartFilters(allListings, kartState, undefined, filterDefs);
+  const kartGroups = kartFilterCounts(allListings, kartState, filterDefs);
   const currentParams: Record<string, string> = {
     ...(country ? { country } : {}),
     ...(kartState as Record<string, string>),
@@ -88,17 +91,18 @@ export default async function CategoryPage({
 
       <div className="mx-auto max-w-7xl space-y-3 px-4 pt-6">
         <FilterBar countries={countries} countryCodes={countryCodes} activeCategory={category as Category} />
-        {isKarting && (
+        {hasFilters && (
           <KartingFilters
             basePath={`/category/${meta.value}`}
             params={currentParams}
             groups={kartGroups}
             totalUnfiltered={allListings.length}
+            noun={isKarting ? "tracks" : "circuits"}
           />
         )}
         <MapListPanel
           listings={summaries}
-          title={hasKartFilters(kartState) ? "Filtered tracks" : (country ?? "All venues")}
+          title={hasKartFilters(kartState) ? (isKarting ? "Filtered tracks" : "Filtered circuits") : (country ?? "All venues")}
           summary={`location${summaries.length === 1 ? "" : "s"} — race weekends first. Tap one to find it on the map.`}
         />
       </div>

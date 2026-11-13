@@ -112,6 +112,19 @@ export interface PhotoCredit {
   sourceUrl?: string;
 }
 
+// Activities a circuit is confirmed to offer to the public beyond car track
+// days (data/venue-activities.ts), each with the page that shows it.
+export interface ActivityEvidence {
+  sourceUrl: string;
+}
+
+export interface VenueActivities {
+  motorbikes?: ActivityEvidence;
+  drift?: ActivityEvidence;
+}
+
+export type Activity = keyof VenueActivities;
+
 export interface Listing {
   id: string;
   slug: string;
@@ -140,6 +153,7 @@ export interface Listing {
   details?: ListingDetails;
   featured?: boolean;
   events?: TrackEvent[];
+  activities?: VenueActivities;
 }
 
 // What the browser gets for lists, maps and search (see toSummary in
@@ -162,4 +176,9 @@ export type ListingSummary = Pick<
   | "events"
   | "indoorOutdoor"
   | "trackLengthM"
-> & { kartType?: KartingDetails["kart_type"] };
+> & {
+  kartType?: KartingDetails["kart_type"];
+  /** Confirmed public motorcycle track days / drift sessions (no sources: those load with the full listing). */
+  bikes?: true;
+  drift?: true;
+};

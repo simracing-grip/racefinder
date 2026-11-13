@@ -121,6 +121,21 @@ function UpcomingEvents({ events }: { events: TrackEvent[] }) {
   );
 }
 
+// Motorbike / drift rows (data/venue-activities.ts): what's offered, plus a
+// link to the page that confirms it, since dates are set by the circuit or
+// an outside organiser rather than shown here.
+function activityValue(text: string, sourceUrl: string | undefined) {
+  if (!sourceUrl) return undefined;
+  return (
+    <>
+      {text} ·{" "}
+      <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="link-accent">
+        Source
+      </a>
+    </>
+  );
+}
+
 // Shared between the expandable list row and the full listing page, so the
 // two never drift out of sync with each other.
 export default function ListingDetails({ listing }: { listing: Listing }) {
@@ -165,6 +180,8 @@ export default function ListingDetails({ listing }: { listing: Listing }) {
         value={listing.trackLengthM ? `${listing.trackLengthM.toLocaleString()} m` : undefined}
       />
       <DetailRow label="Opening hours" value={listing.openingHours} />
+      <DetailRow label="Motorbikes" value={activityValue("Public motorbike track days", listing.activities?.motorbikes?.sourceUrl)} />
+      <DetailRow label="Drift" value={activityValue("Drift sessions", listing.activities?.drift?.sourceUrl)} />
 
       {listing.description && (
         <p className="mt-3 text-sm leading-relaxed text-gray-300">{listing.description}</p>

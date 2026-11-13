@@ -9,12 +9,15 @@ export default function KartingFilters({
   params,
   groups,
   totalUnfiltered,
+  noun = "tracks",
 }: {
   basePath: string;
   /** Current query params (country + karting filters). */
   params: Record<string, string>;
   groups: ReturnType<typeof kartFilterCounts>;
   totalUnfiltered: number;
+  /** What the venues are called in the note under the chips. */
+  noun?: string;
 }) {
   const hrefWith = (key: KartFilterKey, value: string | null) => {
     const next = new URLSearchParams(params);
@@ -68,8 +71,8 @@ export default function KartingFilters({
       </div>
       <p className="mt-2.5 text-xs text-gray-500">
         {anyActive
-          ? `Only tracks where this is confirmed are shown — ${totalUnfiltered.toLocaleString("en-GB")} tracks match without these filters, and details are still being added.`
-          : "Details are confirmed for some tracks so far; filtering shows only confirmed ones."}
+          ? `Only ${noun} where this is confirmed are shown — ${totalUnfiltered.toLocaleString("en-GB")} ${noun} match without these filters, and details are still being added.`
+          : `Details are confirmed for some ${noun} so far; filtering shows only confirmed ones.`}
       </p>
     </div>
   );

@@ -5,6 +5,7 @@ import * as Sentry from "@sentry/nextjs";
 import type { Category, Listing } from "@/lib/types";
 import { CALENDAR_EVENTS } from "@/data/calendar-events";
 import { PHOTO_CREDITS } from "@/data/photo-credits";
+import { VENUE_ACTIVITIES } from "@/data/venue-activities";
 import { db } from "@/lib/db/client";
 import { listings as listingsTable } from "@/lib/db/schema";
 import { rowToListing } from "@/lib/db/rowToListing";
@@ -34,6 +35,18 @@ function withEvents(listing: Listing): Listing {
 function withPhotoCredit(listing: Listing): Listing {
   const credit = PHOTO_CREDITS[listing.slug];
   return credit && credit.imageUrl === listing.coverImageUrl ? { ...listing, coverImageCredit: credit } : listing;
+}
+
+// Motorbike / drift availability (data/venue-activities.ts) is merged the
+// same way: scout-confirmed, with a source per venue, and kept out of the
+// database so a re-import can't wipe it.
+function withActivities(listing: Listing): Listing {
+  const activities = VENUE_ACTIVITIES[listing.slug];
+  return activities ? { ...listing, activities } : listing;
+}
+
+function enrich(listing: Listing): Listing {
+  return withActivities(withPhotoCredit(withEvents(listing)));
 }
 
 // ---------------------------------------------------------------------------
@@ -86,7 +99,7 @@ async function queryPublishedListings(): Promise<ListingCache> {
     .from(listingsTable)
     .where(eq(listingsTable.status, "published"))
     .orderBy(asc(listingsTable.name));
-  return toCache(rows.map(rowToListing).map(withEvents).map(withPhotoCredit), CACHE_TTL_MS);
+  return toCache(rows.map(rowToListing).map(enrich), CACHE_TTL_MS);
 }
 
 // Last resort when Postgres is unreachable and this instance has no copy
@@ -105,7 +118,7 @@ const SNAPSHOT_FILE = path.join("data", "listings-snapshot.json");
 
 async function loadSnapshotListings(): Promise<ListingCache> {
   const raw = await readFile(path.join(process.cwd(), SNAPSHOT_FILE), "utf-8");
-  const listings = (JSON.parse(raw) as Listing[]).map(withEvents).map(withPhotoCredit);
+  const listings = (JSON.parse(raw) as Listing[]).map(enrich);
   return toCache(listings, RETRY_AFTER_ERROR_MS);
 }
 
